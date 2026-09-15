@@ -1,8 +1,8 @@
 # Jiayu Chen
 
-> Undergraduate student of CUHKSZ in Mathematics.
+> Undergraduate mathematics student at **The Chinese University of Hong Kong, Shenzhen**.
 
-I study pure mathematics, with interests in **Algebra Geometry**.
+I study pure mathematics, with interests in **Algebraic Geometry**.
 
 Currently learning:
 
@@ -12,6 +12,7 @@ Currently learning:
 - Topology
 - Commutative Algebra
 
-🌐 [Personal Website in Chinese](https://jiayuchen-math.github.io/zh/)
+🌐 [English personal website](https://jiayuchen-math.github.io/en/)
+🌐 [Chinese personal website](https://jiayuchen-math.github.io/zh/)
 
 📧 jiayuchen4@link.cuhk.edu.cn
