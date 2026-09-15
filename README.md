@@ -12,6 +12,6 @@ Currently learning:
 - Topology
 - Commutative Algebra
 
-🌐 [Personal Website in Chinese](jiayuchen-math.github.io/zh)
+🌐 [Personal Website in Chinese](https://jiayuchen-math.github.io/zh/)
 
 📧 jiayuchen4@link.cuhk.edu.cn
