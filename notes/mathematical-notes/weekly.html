@@ -26,10 +26,8 @@ const typeName=type==="html"?"HTML":type==="exercises"?"Exercises":"PDF";
 document.title=(data?data.name:"Weekly Notes")+" · "+typeName+" · Jiayu Chen";
 document.getElementById("title").textContent=data?data.name:"Weekly Notes";
 document.getElementById("subtitle").textContent=typeName+" · Weekly materials";
-const base="/en/notes/mathematical-notes/"+(course==="calculus"?"calculus/":"linear-algebra/"),weeks=document.getElementById("weeks"),empty=document.getElementById("empty");
-let count=0;
-for(const [week,files] of Object.entries(data.weeks)){if(!files[type])continue;const link=document.createElement("a");link.className="week";link.href=base+files[type];link.textContent="Week "+week;if(type!=="html"){link.target="_blank";link.rel="noopener"}weeks.appendChild(link);count++}
-if(!count){weeks.hidden=true;empty.hidden=false}
+const base="/en/notes/mathematical-notes/"+(course==="calculus"?"calculus/":"linear-algebra/"),weeks=document.getElementById("weeks");
+for(let week=1;week<=12;week++){const files=data.weeks[week]||{},link=document.createElement("a");link.className="week";link.href=files[type]?base+files[type]:"#";link.textContent="Week "+week;if(files[type]&&type!=="html"){link.target="_blank";link.rel="noopener"}weeks.appendChild(link)}
 const root=document.documentElement,toggle=document.getElementById("theme-toggle"),saved=localStorage.getItem("theme"),prefers=window.matchMedia("(prefers-color-scheme: dark)").matches;function setTheme(d){root.classList.toggle("dark",d);toggle.textContent=d?"Light":"Dark"}setTheme(saved?saved==="dark":prefers);toggle.addEventListener("click",()=>{const d=!root.classList.contains("dark");setTheme(d);localStorage.setItem("theme",d?"dark":"light")});
 </script>
 </body>
