@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Jiayu Chen · Reading notes">
+<title>Reading Notes · Jiayu Chen</title>
+<style>
+:root{--bg:#fff;--text:#242424;--muted:#6b7280;--link:#1458a6;--line:#e5e7eb;--soft:#f8fafc}
+:root.dark{--bg:#15171a;--text:#e8eaed;--muted:#a6adb8;--link:#8ab4f8;--line:#30343b;--soft:#20242a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.8 Georgia,"Times New Roman",serif}
+main{width:min(760px,calc(100% - 40px));margin:0 auto;padding:58px 0 80px}
+header{display:flex;justify-content:space-between;gap:24px;margin-bottom:38px}
+h1{margin:0 0 5px;font-size:clamp(28px,5vw,38px);font-weight:600;letter-spacing:-.02em}
+h2{margin:34px 0 9px;font-size:22px;font-weight:600}p{margin:5px 0 12px}.muted{color:var(--muted)}
+a{color:var(--link);text-underline-offset:2px}.back{margin-bottom:25px}
+.entry{display:block;margin:18px 0;padding:14px 16px;border:1px solid var(--line);border-radius:6px;background:var(--soft);text-decoration:none}
+.entry strong{display:block;font-size:18px;color:var(--text)}.entry span{color:var(--muted)}
+button{border:1px solid var(--line);background:transparent;color:var(--text);border-radius:6px;padding:5px 9px;cursor:pointer;font:inherit}
+footer{margin-top:55px;color:var(--muted);font-size:14px}@media(max-width:560px){main{width:min(100% - 28px,760px);padding-top:32px}}
+</style>
+</head>
+<body><main>
+<header><div><h1>Reading Notes</h1><p class="muted">Jiayu Chen · Mathematics</p></div><button id="theme-toggle" type="button">Dark</button></header>
+<p class="back"><a href="/en/index.html">← Back to home</a></p>
+<p>This section records what I read in mathematics. The library collects books and references; personal reading notes will be added separately as they become available.</p>
+<h2>Sections</h2>
+<a class="entry" href="library.html"><strong>Mathematics Library</strong><span>Books organised by subject and level</span></a>
+<a class="entry" href="#"><strong>My Reading Notes</strong><span>Coming soon · notes written while reading</span></a>
+<footer>© 2026 Jiayu Chen</footer>
+</main>
+<script>
+const root=document.documentElement,toggle=document.getElementById("theme-toggle"),saved=localStorage.getItem("theme"),prefers=window.matchMedia("(prefers-color-scheme: dark)").matches;
+function setTheme(d){root.classList.toggle("dark",d);toggle.textContent=d?"Light":"Dark"}setTheme(saved?saved==="dark":prefers);
+toggle.addEventListener("click",()=>{const d=!root.classList.contains("dark");setTheme(d);localStorage.setItem("theme",d?"dark":"light")});
+</script>
+</body>
+</html>
