@@ -1,0 +1,930 @@
+{
+  "updated": "2026-10-08",
+  "policy": "Official full-text links only; read source terms before copying.",
+  "groups": [
+    {
+      "id": "foundations",
+      "title": "Foundations & Logic",
+      "description": "Proofs, logic, set theory, computability and model theory"
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "description": "Linear, abstract, commutative and homological algebra; categories, representations and algebraic geometry"
+    },
+    {
+      "id": "analysis",
+      "title": "Analysis",
+      "description": "Calculus, real and complex analysis, measure, functional analysis, Fourier analysis and differential equations"
+    },
+    {
+      "id": "geometry-topology",
+      "title": "Geometry & Topology",
+      "description": "Point-set and algebraic topology, differential geometry, homotopy and symplectic geometry"
+    },
+    {
+      "id": "number-theory",
+      "title": "Number Theory",
+      "description": "Elementary, algebraic and analytic number theory; class field theory, modular forms and arithmetic geometry"
+    },
+    {
+      "id": "discrete-mathematics",
+      "title": "Discrete Mathematics",
+      "description": "Combinatorics, graphs, enumeration and generating functions"
+    },
+    {
+      "id": "probability-dynamics",
+      "title": "Probability & Dynamics",
+      "description": "Undergraduate and measure-theoretic probability, dynamical systems and ergodic theory"
+    }
+  ],
+  "topics": [
+    {
+      "group": "foundations",
+      "id": "proofs",
+      "title": "Proofs & Mathematical Writing",
+      "route": "foundations/proofs.html",
+      "books": [
+        {
+          "title": "Book of Proof",
+          "author": "Richard Hammack",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+          "source": "https://richardhammack.github.io/BookOfProof/",
+          "note": "A transition from calculation to proofs, with sets, induction and cardinality. Selected solutions help self-study; it is preparation rather than an advanced subject text.",
+          "prerequisites": "High-school algebra.",
+          "review": "https://richardhammack.github.io/BookOfProof/Endorsements.html"
+        }
+      ]
+    },
+    {
+      "group": "foundations",
+      "id": "logic",
+      "title": "Mathematical Logic & Computability",
+      "route": "foundations/logic.html",
+      "books": [
+        {
+          "title": "forall x: Calgary",
+          "author": "P. D. Magnus, Tim Button, Aaron Thomas-Bolduc and Richard Zach, with contributors",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://forallx.openlogicproject.org/",
+          "source": "https://forallx.openlogicproject.org/",
+          "note": "Introduces formal languages, truth tables and natural deduction. Exercises and solutions support a first logic course; metatheory is developed further in the next text.",
+          "prerequisites": "No university mathematics required.",
+          "label": "Full HTML & PDF"
+        },
+        {
+          "title": "Sets, Logic, Computation",
+          "author": "Richard Zach",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://slc.openlogicproject.org/",
+          "source": "https://slc.openlogicproject.org/",
+          "note": "Develops completeness, compactness and undecidability after elementary formal logic. A structured bridge from proof systems to mathematical metatheory.",
+          "prerequisites": "Elementary first-order logic.",
+          "label": "Full book & PDF"
+        },
+        {
+          "title": "Incompleteness and Computability",
+          "author": "Richard Zach",
+          "level": "Advanced",
+          "kind": "Textbook",
+          "url": "https://ic.openlogicproject.org/",
+          "source": "https://ic.openlogicproject.org/",
+          "note": "Covers recursive functions, arithmetization and Gödel's theorems. Best read after a first metalogic course, not as an introduction to proofs.",
+          "prerequisites": "First-order logic and completeness.",
+          "label": "Full book & PDF"
+        }
+      ]
+    },
+    {
+      "group": "foundations",
+      "id": "set-theory",
+      "title": "Set Theory",
+      "route": "foundations/set-theory.html",
+      "books": [
+        {
+          "title": "Set Theory: An Open Introduction",
+          "author": "Tim Button",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://st.openlogicproject.org/",
+          "source": "https://st.openlogicproject.org/",
+          "note": "Explains the set-theoretic foundations of mathematics and the motivation for ZFC. Its emphasis is conceptual and philosophical, not graduate forcing theory.",
+          "prerequisites": "Basic logic and high-school mathematics.",
+          "label": "Full book & PDF"
+        }
+      ]
+    },
+    {
+      "group": "foundations",
+      "id": "model-theory",
+      "title": "Model Theory",
+      "route": "foundations/model-theory.html",
+      "books": [
+        {
+          "title": "Lecture Notes — Model Theory (Math 411)",
+          "author": "Anand Pillay",
+          "level": "Advanced",
+          "kind": "Course notes",
+          "url": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
+          "source": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
+          "note": "A concise graduate treatment beginning with structures and languages. The lecture-note format rewards familiarity with logical notation and independent proof work.",
+          "prerequisites": "First-order logic; abstract algebra."
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "linear-algebra",
+      "title": "Linear Algebra",
+      "route": "algebra/linear-algebra.html",
+      "books": [
+        {
+          "title": "Linear Algebra",
+          "author": "Jim Hefferon",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://hefferon.net/linearalgebra/",
+          "source": "https://hefferon.net/linearalgebra/",
+          "note": "Balances Gaussian elimination with vector spaces and proofs. Worked solutions to all exercises are useful for independent study; suitable before an operator-focused second course.",
+          "prerequisites": "One semester of calculus.",
+          "label": "Full book & solutions",
+          "review": "https://hefferon.net/linearalgebra/"
+        },
+        {
+          "title": "Linear Algebra Done Right, 4th edition",
+          "author": "Sheldon Axler",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://linear.axler.net/LADR4e.pdf",
+          "source": "https://linear.axler.net/",
+          "note": "A proof-based, operator-centered second course that introduces determinants late. Especially useful for structural understanding; not designed primarily as a computational matrix handbook.",
+          "prerequisites": "First linear algebra; basic proofs.",
+          "review": "https://linear.axler.net/"
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "abstract-algebra",
+      "title": "Abstract Algebra & Galois Theory",
+      "route": "algebra/abstract-algebra.html",
+      "books": [
+        {
+          "title": "Abstract Algebra: Theory and Applications",
+          "author": "Thomas W. Judson",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://judsonbooks.org/aata-files/aata-html/aata.html",
+          "source": "https://judsonbooks.org/abstract-algebra-theory-and-applications/",
+          "note": "Groups, rings and fields are accompanied by applications and exercises. Reviewers note broad undergraduate coverage; a useful first algebra text rather than a graduate reference.",
+          "prerequisites": "Proof techniques; basic linear algebra.",
+          "label": "Read full HTML",
+          "review": "https://open.umn.edu/opentextbooks/textbooks/abstract-algebra-theory-and-applications"
+        },
+        {
+          "title": "Group Theory",
+          "author": "J. S. Milne",
+          "level": "Intermediate",
+          "kind": "Course notes",
+          "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "A compact graduate introduction, including finite-group representations. Concise exposition makes prior exposure to algebra helpful.",
+          "prerequisites": "Undergraduate abstract algebra."
+        },
+        {
+          "title": "Fields and Galois Theory",
+          "author": "J. S. Milne",
+          "level": "Intermediate",
+          "kind": "Course notes",
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "Develops field extensions, Galois theory and transcendence degree. A focused continuation after groups, rings and basic fields.",
+          "prerequisites": "Groups, rings and fields."
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "commutative-algebra",
+      "title": "Commutative Algebra",
+      "route": "algebra/commutative-algebra.html",
+      "books": [
+        {
+          "title": "A Primer of Commutative Algebra",
+          "author": "J. S. Milne",
+          "level": "Introductory",
+          "kind": "Expository text",
+          "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+          "source": "https://www.jmilne.org/math/xnotes/ca.html",
+          "note": "A concise foundation for algebraic geometry and number theory, covering localization, integrality, dimension and completion. 'Introductory' here presupposes substantial algebra.",
+          "prerequisites": "Undergraduate rings and modules."
+        },
+        {
+          "title": "A Term of Commutative Algebra",
+          "author": "Allen Altman and Steven Kleiman",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://dspace.mit.edu/entities/publication/b9217cf9-50c8-4367-9d8a-01d69d686b8d",
+          "source": "https://centerofmath.org/fixed/textbooks/commalgebra.html",
+          "note": "A course-sized development with exercises and solutions. Suitable for systematic study after abstract algebra; its ring-and-module language is more demanding than a first algebra course.",
+          "prerequisites": "Rings, modules and tensor products.",
+          "label": "Full PDF via MIT"
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "homological-algebra",
+      "title": "Homological Algebra",
+      "route": "algebra/homological-algebra.html",
+      "books": [
+        {
+          "title": "Notes on Basic Homological Algebra",
+          "author": "Andrew Baker",
+          "level": "Introductory",
+          "kind": "Short notes (15 pages)",
+          "url": "https://www.maths.gla.ac.uk/~ajb/dvi-ps/Homologicalalgebra.pdf",
+          "source": "https://www.maths.gla.ac.uk/~ajb/course-notes.html",
+          "note": "A compact entry into homological methods for readers already comfortable with modules. Useful as course notes; less expansive than a comprehensive graduate textbook.",
+          "prerequisites": "Rings, modules and exact sequences."
+        },
+        {
+          "title": "The Stacks Project — Homological Algebra",
+          "author": "The Stacks Project Authors",
+          "level": "Advanced",
+          "kind": "Reference work",
+          "url": "https://stacks.math.columbia.edu/",
+          "source": "https://stacks.math.columbia.edu/",
+          "note": "A detailed searchable reference with stable theorem tags. Use the Homology, Derived Categories and related chapters; it is not a gentle sequential first course.",
+          "prerequisites": "Homological algebra and category theory.",
+          "label": "Read full reference"
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "category-theory",
+      "title": "Category Theory",
+      "route": "algebra/category-theory.html",
+      "books": [
+        {
+          "title": "Category Theory in Context",
+          "author": "Emily Riehl",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "source": "https://math.jhu.edu/~eriehl/context/",
+          "note": "Explains universal properties, Yoneda, adjunctions and Kan extensions through mathematical examples. Algebra and topology greatly improve accessibility despite minimal formal prerequisites.",
+          "prerequisites": "Abstract algebra; point-set topology recommended.",
+          "review": "https://math.jhu.edu/~eriehl/context/"
+        },
+        {
+          "title": "Elements of ∞-Category Theory",
+          "author": "Emily Riehl and Dominic Verity",
+          "level": "Advanced",
+          "kind": "Monograph",
+          "url": "https://emilyriehl.github.io/files/elements.pdf",
+          "source": "https://math.jhu.edu/~eriehl/",
+          "note": "A substantial treatment of higher categories for mathematically mature readers. A later step after ordinary category theory, not a shortcut around its foundations.",
+          "prerequisites": "Category theory; homotopy-theoretic maturity."
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "representation-theory",
+      "title": "Representation Theory & Lie Theory",
+      "route": "algebra/representation-theory.html",
+      "books": [
+        {
+          "title": "Introduction to Representation Theory",
+          "author": "Pavel Etingof et al.",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+          "source": "https://math.mit.edu/~etingof/books.html",
+          "note": "Introduces representations using algebra and many exercises. Appropriate for strong undergraduates with linear algebra; the pace assumes comfort with abstract structures.",
+          "prerequisites": "Linear algebra; groups, rings and fields."
+        },
+        {
+          "title": "Lie Groups and Lie Algebras I",
+          "author": "Pavel Etingof",
+          "level": "Intermediate",
+          "kind": "Course notes",
+          "url": "https://math.mit.edu/~etingof/lnlg.pdf",
+          "source": "https://math.mit.edu/~etingof/lnlg.pdf",
+          "note": "A graduate course connecting Lie groups, Lie algebras and representations. Initial manifold material helps orientation but does not remove the need for mathematical maturity.",
+          "prerequisites": "Abstract algebra; topology and smooth manifolds."
+        },
+        {
+          "title": "Tensor Categories",
+          "author": "Pavel Etingof, Shlomo Gelaki, Dmitri Nikshych and Victor Ostrik",
+          "level": "Advanced",
+          "kind": "Monograph",
+          "url": "https://math.mit.edu/~etingof/books.html",
+          "source": "https://math.mit.edu/~etingof/books.html",
+          "note": "Develops the categorical setting for representation theory. A specialist continuation rather than an introductory algebra text; link to the authorized author-hosted edition.",
+          "prerequisites": "Representation theory; category theory.",
+          "label": "Full book via author's page"
+        }
+      ]
+    },
+    {
+      "group": "algebra",
+      "id": "algebraic-geometry",
+      "title": "Algebraic Geometry",
+      "route": "algebra/algebraic-geometry.html",
+      "books": [
+        {
+          "title": "Algebraic Geometry",
+          "author": "J. S. Milne",
+          "level": "Introductory",
+          "kind": "Course notes",
+          "url": "https://www.jmilne.org/math/CourseNotes/AG.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "A first graduate course centered on abstract algebraic varieties, providing a bridge toward schemes.",
+          "prerequisites": "Fields, Galois theory and commutative algebra."
+        },
+        {
+          "title": "The Rising Sea: Foundations of Algebraic Geometry",
+          "author": "Ravi Vakil",
+          "level": "Advanced",
+          "kind": "Textbook / author edition",
+          "url": "https://math.stanford.edu/~vakil/216blog/FOAGoct2125public.pdf",
+          "source": "https://math.stanford.edu/~vakil/216blog/",
+          "note": "A broad, exercise-rich development of schemes and their geometry. The October 21, 2025 author edition closely matches the published text; substantial algebra is essential.",
+          "prerequisites": "Commutative algebra; topology; category language.",
+          "archive": "../../library-pdfs/algebra/algebraic-geometry/the-rising-sea-vakil-2024.pdf",
+          "archiveNote": "July 27, 2024 archive · CC BY-NC-ND 3.0; unchanged noncommercial copy."
+        },
+        {
+          "title": "The Stacks Project",
+          "author": "The Stacks Project Authors",
+          "level": "Advanced",
+          "kind": "Reference work",
+          "url": "https://stacks.math.columbia.edu/",
+          "source": "https://stacks.math.columbia.edu/",
+          "note": "An extensive open reference on schemes and related algebra. Stable tags are useful for precise citations; selective consultation is more practical than cover-to-cover reading.",
+          "prerequisites": "Graduate algebraic geometry.",
+          "label": "Read full reference"
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "calculus",
+      "title": "Calculus",
+      "route": "analysis/calculus.html",
+      "books": [
+        {
+          "title": "Calculus, Volume 1",
+          "author": "Gilbert Strang and Edwin 'Jed' Herman",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://assets.openstax.org/oscms-prodcms/media/documents/calculus-volume-1_-_WEB.pdf",
+          "source": "https://openstax.org/details/books/calculus-volume-1",
+          "note": "An illustrated first course with examples and applications. Useful for computational foundations; a proof-based real analysis text is needed for a mathematics-major transition.",
+          "prerequisites": "Algebra, functions and trigonometry."
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "real-analysis",
+      "title": "Real Analysis",
+      "route": "analysis/real-analysis.html",
+      "books": [
+        {
+          "title": "Basic Analysis I",
+          "author": "Jiří Lebl",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://www.jirka.org/ra/realanal.pdf",
+          "source": "https://www.jirka.org/ra/",
+          "note": "Builds real-line analysis before metric spaces, with many exercises. Reviewers describe it as adaptable to undergraduate courses; self-study requires actively writing proofs.",
+          "prerequisites": "Calculus; an introductory proof course.",
+          "review": "https://open.umn.edu/opentextbooks/textbooks/basic-analysis-introduction-to-real-analysis"
+        },
+        {
+          "title": "Basic Analysis II",
+          "author": "Jiří Lebl",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://www.jirka.org/ra/realanal2.pdf",
+          "source": "https://www.jirka.org/ra/",
+          "note": "Continues to multivariable analysis, inverse and implicit function theorems, approximation and Fourier series. A natural sequel, not a replacement for measure theory.",
+          "prerequisites": "Basic Analysis I; linear algebra."
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "measure-theory",
+      "title": "Measure & Integration",
+      "route": "analysis/measure-theory.html",
+      "books": [
+        {
+          "title": "Measure, Integration & Real Analysis",
+          "author": "Sheldon Axler",
+          "level": "Advanced",
+          "kind": "Textbook",
+          "url": "https://measure.axler.net/MIRA.pdf",
+          "source": "https://measure.axler.net/",
+          "note": "A graduate treatment of measure and integration with connections to functional analysis and Fourier analysis. Suitable after proof-based analysis, not elementary calculus.",
+          "prerequisites": "Undergraduate real analysis; linear algebra.",
+          "review": "https://measure.axler.net/"
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "complex-analysis",
+      "title": "Complex Analysis & Several Complex Variables",
+      "route": "analysis/complex-analysis.html",
+      "books": [
+        {
+          "title": "Guide to Cultivating Complex Analysis: Working the Complex Field",
+          "author": "Jiří Lebl",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://www.jirka.org/ca/ca.pdf",
+          "source": "https://www.jirka.org/ca/",
+          "note": "A first graduate course from holomorphic functions to conformal mapping and analytic continuation. Appendices review analysis prerequisites; exercises remain important for understanding.",
+          "prerequisites": "Real analysis; metric spaces; multivariable calculus."
+        },
+        {
+          "title": "Tasty Bits of Several Complex Variables",
+          "author": "Jiří Lebl",
+          "level": "Advanced",
+          "kind": "Textbook",
+          "url": "https://www.jirka.org/scv/scv.pdf",
+          "source": "https://www.jirka.org/scv/",
+          "note": "A course-length tour of pseudoconvexity, CR geometry and the ∂̄-problem. Broad exposure rather than an exhaustive reference, with exercises used throughout.",
+          "prerequisites": "One-variable complex analysis; real analysis."
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "functional-analysis",
+      "title": "Functional Analysis",
+      "route": "analysis/functional-analysis.html",
+      "books": [
+        {
+          "title": "Introduction to Functional Analysis (18.102)",
+          "author": "Richard Melrose",
+          "level": "Intermediate",
+          "kind": "Course notes",
+          "url": "https://math.mit.edu/~rbm/18.102-S13/FunctAnal.pdf",
+          "source": "https://math.mit.edu/~rbm/18.102-S13/index.html",
+          "note": "A course-length development of Banach spaces, Lebesgue integration, Hilbert spaces and applications. The author notes ongoing revisions; useful before more specialized graduate functional analysis.",
+          "prerequisites": "Proof-based real analysis; metric spaces; linear algebra."
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "harmonic-analysis",
+      "title": "Fourier & Harmonic Analysis",
+      "route": "analysis/harmonic-analysis.html",
+      "books": [
+        {
+          "title": "The Fourier Transform and its Applications",
+          "author": "Brad Osgood",
+          "level": "Introductory",
+          "kind": "Course notes",
+          "url": "https://see.stanford.edu/materials/lsoftaee261/book-fall-07.pdf",
+          "source": "https://see.stanford.edu/materials/lsoftaee261/book-fall-07.pdf",
+          "note": "An example-driven introduction from Stanford's EE261 course. Useful for Fourier intuition and applications; follow with a measure-theoretic treatment for deeper analysis.",
+          "prerequisites": "Calculus, complex numbers and linear algebra."
+        }
+      ]
+    },
+    {
+      "group": "analysis",
+      "id": "differential-equations",
+      "title": "Differential Equations & PDEs",
+      "route": "analysis/differential-equations.html",
+      "books": [
+        {
+          "title": "Notes on Diffy Qs: Differential Equations for Engineers",
+          "author": "Jiří Lebl",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://www.jirka.org/diffyqs/diffyqs.pdf",
+          "source": "https://www.jirka.org/diffyqs/",
+          "note": "Introduces ODEs with computation, modeling and examples. A useful first encounter, but its engineering orientation should be supplemented by proof-based analysis.",
+          "prerequisites": "Calculus; basic linear algebra."
+        },
+        {
+          "title": "Distributions, Elliptic Regularity, and Applications to PDEs",
+          "author": "Semyon Dyatlov",
+          "level": "Advanced",
+          "kind": "Course notes",
+          "url": "https://math.mit.edu/~dyatlov/18.155/155-notes.pdf",
+          "source": "https://math.mit.edu/~dyatlov/",
+          "note": "Develops distributions and elliptic methods through applications including Hodge theory. These graduate notes are a specialized analytic path, not an elementary PDE survey.",
+          "prerequisites": "Real and functional analysis; Fourier analysis."
+        }
+      ]
+    },
+    {
+      "group": "geometry-topology",
+      "id": "point-set-topology",
+      "title": "Point-Set Topology",
+      "route": "geometry-topology/point-set-topology.html",
+      "books": [
+        {
+          "title": "Topology Without Tears",
+          "author": "Sidney A. Morris",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://www.topologywithouttears.net/topbook.pdf",
+          "source": "https://www.topologywithouttears.net/topbook.pdf",
+          "note": "A first course emphasizing topological definitions and proof practice. Useful before algebraic topology; elementary prerequisites do not mean the abstractions require little effort.",
+          "prerequisites": "Sets, functions and proof techniques."
+        }
+      ]
+    },
+    {
+      "group": "geometry-topology",
+      "id": "algebraic-topology",
+      "title": "Algebraic Topology & Homotopy Theory",
+      "route": "geometry-topology/algebraic-topology.html",
+      "books": [
+        {
+          "title": "Algebraic Topology",
+          "author": "Allen Hatcher",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://pi.math.cornell.edu/~hatcher/AT/AT%2B.pdf",
+          "source": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+          "note": "Geometric examples accompany fundamental groups, homology and cohomology. A substantial first graduate text; 'introductory' refers to the field, not to university mathematics.",
+          "prerequisites": "Point-set topology; groups and rings.",
+          "archive": "../../library-pdfs/topology/algebraic-topology-hatcher-2000.pdf",
+          "archiveNote": "2000 archive · noncommercial paper or electronic copies permitted; other rights reserved."
+        },
+        {
+          "title": "Categorical Homotopy Theory",
+          "author": "Emily Riehl",
+          "level": "Advanced",
+          "kind": "Monograph",
+          "url": "https://emilyriehl.github.io/files/cathtpy.pdf",
+          "source": "https://math.jhu.edu/~eriehl/",
+          "note": "Develops homotopy-theoretic constructions in a categorical setting. A continuation after basic topology and category theory rather than a first topology course.",
+          "prerequisites": "Algebraic topology; category theory."
+        }
+      ]
+    },
+    {
+      "group": "geometry-topology",
+      "id": "differential-geometry",
+      "title": "Differential & Riemannian Geometry",
+      "route": "geometry-topology/differential-geometry.html",
+      "books": [
+        {
+          "title": "What Is Differential Geometry? Curves and Surfaces",
+          "author": "Anton Petrunin and Sergio Zamora Barrera",
+          "level": "Introductory",
+          "kind": "Lecture text",
+          "url": "https://arxiv.org/pdf/2012.11814",
+          "source": "https://arxiv.org/abs/2012.11814",
+          "note": "A visual, problem-centered approach to classical curves and surfaces. Emphasizes essential techniques; the authors describe its presentation as elementary and 'virtually rigorous'.",
+          "prerequisites": "Multivariable calculus; linear algebra."
+        },
+        {
+          "title": "Lectures on Spaces of Nonpositive Curvature",
+          "author": "Werner Ballmann; appendix by Misha Brin",
+          "level": "Advanced",
+          "kind": "Monograph / author text",
+          "url": "https://people.mpim-bonn.mpg.de/hwbllmnn/archiv/NPC0606.pdf",
+          "source": "https://people.mpim-bonn.mpg.de/hwbllmnn/notes.html",
+          "note": "Develops nonpositive curvature, boundaries at infinity and rank rigidity, with an appendix on geodesic-flow ergodicity. A specialized continuation, not a general first Riemannian geometry textbook.",
+          "prerequisites": "Riemannian geometry; topology; some dynamical systems."
+        }
+      ]
+    },
+    {
+      "group": "geometry-topology",
+      "id": "symplectic-geometry",
+      "title": "Symplectic Geometry",
+      "route": "geometry-topology/symplectic-geometry.html",
+      "books": [
+        {
+          "title": "Lectures on Symplectic Geometry",
+          "author": "Ana Cannas da Silva",
+          "level": "Introductory",
+          "kind": "Lecture text",
+          "url": "https://www.math.ist.utl.pt/~acannas/Books/symplectic.pdf",
+          "source": "https://www.math.tecnico.ulisboa.pt/~acannas/GS/Arquivo_00/",
+          "note": "A graduate introduction to symplectic forms, Hamiltonian geometry and reduction. Efficient for readers with manifold foundations; not an elementary introduction to geometry.",
+          "prerequisites": "Smooth manifolds; differential forms; de Rham cohomology."
+        }
+      ]
+    },
+    {
+      "group": "number-theory",
+      "id": "elementary-number-theory",
+      "title": "Elementary Number Theory",
+      "route": "number-theory/elementary-number-theory.html",
+      "books": [
+        {
+          "title": "Elementary Number Theory: Primes, Congruences, and Secrets",
+          "author": "William Stein",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://wstein.org/ent/ent.pdf",
+          "source": "https://wstein.org/ent/",
+          "note": "Connects classical topics with computation, cryptography and elliptic curves. Broader than a minimal congruences course; later chapters benefit from abstract algebra.",
+          "prerequisites": "Proofs; basic algebra, rings and fields."
+        }
+      ]
+    },
+    {
+      "group": "number-theory",
+      "id": "algebraic-number-theory",
+      "title": "Algebraic Number Theory & Class Field Theory",
+      "route": "number-theory/algebraic-number-theory.html",
+      "books": [
+        {
+          "title": "Algebraic Number Theory",
+          "author": "J. S. Milne",
+          "level": "Intermediate",
+          "kind": "Course notes",
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "A standard graduate course with proofs. A natural bridge from fields and Galois theory to arithmetic of number fields.",
+          "prerequisites": "Galois theory; commutative algebra."
+        },
+        {
+          "title": "Class Field Theory",
+          "author": "J. S. Milne",
+          "level": "Advanced",
+          "kind": "Course notes",
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "A detailed advanced continuation of algebraic number theory. Read after local and global number-field foundations, not immediately after elementary congruences.",
+          "prerequisites": "Graduate algebraic number theory."
+        }
+      ]
+    },
+    {
+      "group": "number-theory",
+      "id": "analytic-number-theory",
+      "title": "Analytic Number Theory",
+      "route": "number-theory/analytic-number-theory.html",
+      "books": [
+        {
+          "title": "Notes on Analytic Number Theory",
+          "author": "Kiran S. Kedlaya",
+          "level": "Advanced",
+          "kind": "Course notes",
+          "url": "https://kskedlaya.org/ant/frontmatter.html",
+          "source": "https://kskedlaya.org/ant/chapter-1.html",
+          "note": "A graduate course on primes, analytic methods and sieve ideas. The freely readable HTML format supports selective study; complex analysis is an essential preparation.",
+          "prerequisites": "Complex analysis; elementary number theory.",
+          "label": "Read full HTML"
+        }
+      ]
+    },
+    {
+      "group": "number-theory",
+      "id": "modular-forms",
+      "title": "Modular Forms & Arithmetic Geometry",
+      "route": "number-theory/modular-forms.html",
+      "books": [
+        {
+          "title": "Modular Functions and Modular Forms",
+          "author": "J. S. Milne",
+          "level": "Intermediate",
+          "kind": "Course notes",
+          "url": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "Introduces arithmetic modular forms with a geometric emphasis. A route from complex analysis and algebra toward arithmetic geometry.",
+          "prerequisites": "Complex analysis; groups and fields."
+        },
+        {
+          "title": "Abelian Varieties",
+          "author": "J. S. Milne",
+          "level": "Advanced",
+          "kind": "Course notes / overview",
+          "url": "https://www.jmilne.org/math/CourseNotes/AV.pdf",
+          "source": "https://www.jmilne.org/math/CourseNotes/index.html",
+          "note": "An advanced overview of geometry and arithmetic, including finite-field phenomena. Not every deep result is proved in full.",
+          "prerequisites": "Algebraic geometry; algebraic number theory."
+        }
+      ]
+    },
+    {
+      "group": "discrete-mathematics",
+      "id": "combinatorics",
+      "title": "Combinatorics & Graph Theory",
+      "route": "discrete-mathematics/combinatorics.html",
+      "books": [
+        {
+          "title": "Combinatorics and Graph Theory",
+          "author": "David Guichard",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://www.whitman.edu/mathematics/cgt_online/book/",
+          "source": "https://www.whitman.edu/mathematics/cgt_online/book/",
+          "note": "A first introduction to counting and graph theory in a freely readable web format. Useful for building discrete proof techniques before specialized combinatorics.",
+          "prerequisites": "Basic proofs and elementary algebra.",
+          "label": "Read full HTML"
+        },
+        {
+          "title": "Applied Combinatorics",
+          "author": "Mitchel T. Keller and William T. Trotter",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://rellek.net/book-2016/",
+          "source": "https://appliedcombinatorics.org/appcomb/",
+          "note": "Combines enumeration, graphs, posets and optimization. The breadth supports several course choices; the linked full HTML is the established 2016 edition.",
+          "prerequisites": "Proofs; elementary counting.",
+          "label": "Read full HTML",
+          "review": "https://textbooks.aimath.org/textbooks/approved-textbooks/keller-trotter/"
+        },
+        {
+          "title": "generatingfunctionology, 2nd edition",
+          "author": "Herbert S. Wilf",
+          "level": "Intermediate",
+          "kind": "Textbook",
+          "url": "https://www.math.upenn.edu/~wilf/DownldGF.html",
+          "source": "https://www.math.upenn.edu/~wilf/DownldGF.html",
+          "note": "A focused treatment of generating functions and counting. Read after elementary combinatorics; the authorized free edition is the second, not the commercial third.",
+          "prerequisites": "Combinatorics; power series and calculus.",
+          "label": "Full PDF via author's page"
+        },
+        {
+          "title": "Graph Theory and Additive Combinatorics: Exploring Structure and Randomness",
+          "author": "Yufei Zhao",
+          "level": "Advanced",
+          "kind": "Textbook / author manuscript",
+          "url": "https://yufeizhao.com/gtacbook/gtacbook.pdf",
+          "source": "https://yufeizhao.com/gtacbook/",
+          "note": "Connects extremal graph theory, pseudorandomness and additive combinatorics. The full author manuscript differs slightly from the published edition; exercises and companion lectures support study.",
+          "prerequisites": "Undergraduate algebra, analysis and linear algebra.",
+          "review": "https://yufeizhao.com/gtacbook/"
+        }
+      ]
+    },
+    {
+      "group": "probability-dynamics",
+      "id": "probability",
+      "title": "Probability Theory",
+      "route": "probability-dynamics/probability.html",
+      "books": [
+        {
+          "title": "Introduction to Probability, 2nd edition",
+          "author": "Charles M. Grinstead and J. Laurie Snell",
+          "level": "Introductory",
+          "kind": "Textbook",
+          "url": "https://chance.dartmouth.edu/Doob/probability_book/book.html",
+          "source": "https://chance.dartmouth.edu/Doob/probability_book/book.html",
+          "note": "Examples and exercises develop discrete and continuous probability, with Markov chains and generating functions. Reviewers note broad coverage; graduate measure theory lies beyond its starting point.",
+          "prerequisites": "Calculus; elementary counting.",
+          "label": "Full book & PDF",
+          "review": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-probability"
+        },
+        {
+          "title": "Probability Theory: STAT310/MATH230",
+          "author": "Amir Dembo",
+          "level": "Advanced",
+          "kind": "Course notes",
+          "url": "https://adembo.su.domains/stat-310b/lnotes.pdf",
+          "source": "https://adembo.su.domains/stat-310a/",
+          "note": "Graduate course notes for measure-theoretic probability. More concise than a first undergraduate textbook; readers should work through proofs rather than rely only on examples.",
+          "prerequisites": "Real analysis; measure theory."
+        }
+      ]
+    },
+    {
+      "group": "probability-dynamics",
+      "id": "dynamics",
+      "title": "Dynamical Systems & Ergodic Theory",
+      "route": "probability-dynamics/dynamics.html",
+      "books": [
+        {
+          "title": "Ordinary Differential Equations and Dynamical Systems",
+          "author": "Gerald Teschl",
+          "level": "Intermediate",
+          "kind": "Textbook / authorized online edition",
+          "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+          "source": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/",
+          "note": "Connects rigorous ODE theory to stability, dynamical systems and chaos. A bridge to graduate dynamics; the author permits personal-use downloads, not unrestricted redistribution.",
+          "prerequisites": "Real analysis; linear algebra; calculus."
+        },
+        {
+          "title": "Lecture Notes on Ergodic Theory",
+          "author": "Omri Sarig",
+          "level": "Advanced",
+          "kind": "Course notes",
+          "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+          "source": "https://www.weizmann.ac.il/math/sarigo/lecture-notes",
+          "note": "A measure-theoretic path into ergodic theory. Best after measure and integration; the author warns that the notes have not been proofread and should be used carefully.",
+          "prerequisites": "Measure theory; basic probability."
+        }
+      ]
+    }
+  ],
+  "printReferences": {
+    "linear-algebra": [
+      {
+        "title": "Linear Algebra",
+        "author": "Kenneth Hoffman and Ray Kunze"
+      },
+      {
+        "title": "Linear Algebra, 4th edition",
+        "author": "Stephen H. Friedberg, Arnold J. Insel and Lawrence E. Spence"
+      },
+      {
+        "title": "Honors in Linear and Abstract Algebra I",
+        "author": "Ivan Ip"
+      }
+    ],
+    "abstract-algebra": [
+      {
+        "title": "Algebra, 2nd edition",
+        "author": "Michael Artin"
+      },
+      {
+        "title": "Abstract Algebra, 3rd edition",
+        "author": "David S. Dummit and Richard M. Foote"
+      }
+    ],
+    "commutative-algebra": [
+      {
+        "title": "Introduction to Commutative Algebra",
+        "author": "M. F. Atiyah and I. G. Macdonald"
+      },
+      {
+        "title": "Commutative Algebra, Chapters 1–7",
+        "author": "Nicolas Bourbaki"
+      }
+    ],
+    "homological-algebra": [
+      {
+        "title": "同调代数基础",
+        "author": "熊锐 (Rui Xiong)"
+      }
+    ],
+    "algebraic-geometry": [
+      {
+        "title": "Algebraic Geometry",
+        "author": "Robin Hartshorne"
+      },
+      {
+        "title": "The Red Book of Varieties and Schemes",
+        "author": "David Mumford"
+      },
+      {
+        "title": "Algebraic Curves: An Introduction to Algebraic Geometry",
+        "author": "William Fulton"
+      }
+    ],
+    "calculus": [
+      {
+        "title": "Calculus",
+        "author": "Michael Spivak"
+      },
+      {
+        "title": "Precalculus",
+        "author": "David Cohen, Theodore B. Lee and David Sklar"
+      }
+    ],
+    "real-analysis": [
+      {
+        "title": "Analysis I, 4th edition",
+        "author": "Terence Tao"
+      },
+      {
+        "title": "Analysis II, 4th edition",
+        "author": "Terence Tao"
+      }
+    ],
+    "complex-analysis": [
+      {
+        "title": "Complex Analysis",
+        "author": "Elias M. Stein and Rami Shakarchi"
+      },
+      {
+        "title": "Complex Analysis, 2nd edition",
+        "author": "Lars V. Ahlfors"
+      }
+    ],
+    "differential-geometry": [
+      {
+        "title": "Differential Geometry of Curves and Surfaces",
+        "author": "Manfredo P. do Carmo"
+      },
+      {
+        "title": "Differential Geometry",
+        "author": "Paulo Ventura Araújo"
+      }
+    ]
+  }
+}
