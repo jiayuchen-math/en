@@ -1,0 +1,429 @@
+[
+  {
+    "id": "emily-riehl",
+    "name": "Emily Riehl",
+    "institution": "Johns Hopkins University",
+    "country": "US",
+    "region": "Americas",
+    "role": "Kelly Miller Professor",
+    "area": "Categories & topology",
+    "topics": "Category theory|Homotopy theory|Higher categories|Infinity categories|∞-categories",
+    "official": "https://mathematics.jhu.edu/directory/emily-riehl/",
+    "researchSource": "https://mathematics.jhu.edu/directory/emily-riehl/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [
+      {
+        "student": "Astra Kolomatskaia",
+        "type": "Degree completion",
+        "date": "2024",
+        "precision": "year",
+        "institution": "Stony Brook University",
+        "relationship": "Co-advised by Emily Riehl and Alexander Kirilov (as listed by the department)",
+        "description": "PhD: Type Theory and Higher Structures. The institution is Stony Brook, not an inferred Johns Hopkins degree.",
+        "sources": [
+          "https://www.math.stonybrook.edu/phd-alumni",
+          "https://emilyriehl.github.io/teaching/"
+        ],
+        "checked": "2026-10-11"
+      }
+    ],
+    "relatedInstitutions": [
+      "Johns Hopkins University"
+    ]
+  },
+  {
+    "id": "peter-scholze",
+    "name": "Peter Scholze",
+    "institution": "MPIM / University of Bonn",
+    "country": "Germany",
+    "region": "Europe",
+    "role": "MPIM Director; Bonn Hausdorff Chair",
+    "area": "Algebra & arithmetic geometry",
+    "topics": "Arithmetic geometry|Perfectoid spaces|p-adic geometry|Prismatic cohomology",
+    "official": "https://www.mpim-bonn.mpg.de/de/node/8491",
+    "researchSource": "https://www.math.uni-bonn.de/people/scholze/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "University of Bonn",
+      "Max Planck Institute for Mathematics"
+    ]
+  },
+  {
+    "id": "bhargav-bhatt",
+    "name": "Bhargav Bhatt",
+    "institution": "IAS / Princeton University",
+    "country": "US",
+    "region": "Americas",
+    "role": "Fernholz Joint Professor",
+    "area": "Algebra & arithmetic geometry",
+    "topics": "Arithmetic geometry|p-adic Hodge theory|Commutative algebra|Algebraic topology|Prismatic cohomology",
+    "official": "https://www.ias.edu/scholars/bhargav-bhatt",
+    "researchSource": "https://www.ias.edu/scholars/bhargav-bhatt",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "Princeton University",
+      "Institute for Advanced Study"
+    ]
+  },
+  {
+    "id": "maryna-viazovska",
+    "name": "Maryna Viazovska",
+    "institution": "EPFL",
+    "country": "Switzerland",
+    "region": "Europe",
+    "role": "Full Professor, Chair of Number Theory",
+    "area": "Number theory & analysis",
+    "topics": "Automorphic forms|Sphere packing|Harmonic analysis|Number theory",
+    "official": "https://people.epfl.ch/maryna.viazovska?lang=en",
+    "researchSource": "https://www.epfl.ch/schools/sb/research/math/research/algebra/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [
+      {
+        "student": "Gauthier Leterrier",
+        "type": "Degree completion",
+        "date": "2024",
+        "precision": "year",
+        "institution": "EPFL",
+        "relationship": "Thesis director Maryna Viazovska",
+        "description": "PhD: Some Mordell-Weil lattices and applications to sphere packings. Thesis defence recorded February 9, 2024; the completion entry itself is year-precision.",
+        "sources": [
+          "https://people.epfl.ch/maryna.viazovska?lang=en",
+          "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf"
+        ],
+        "checked": "2026-10-11"
+      }
+    ],
+    "relatedInstitutions": [
+      "EPFL"
+    ]
+  },
+  {
+    "id": "maria-chudnovsky",
+    "name": "Maria Chudnovsky",
+    "institution": "Princeton University",
+    "country": "US",
+    "region": "Americas",
+    "role": "Professor",
+    "area": "Combinatorics",
+    "topics": "Graph theory|Structural graph theory|Perfect graphs|Combinatorics",
+    "official": "https://www.math.princeton.edu/people/maria-chudnovsky",
+    "researchSource": "https://web.math.princeton.edu/~mchudnov/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "Princeton University"
+    ]
+  },
+  {
+    "id": "martin-hairer",
+    "name": "Martin Hairer",
+    "institution": "EPFL",
+    "country": "Switzerland",
+    "region": "Europe",
+    "role": "Full Professor, Chair of Probability and PDEs",
+    "area": "Probability & PDE",
+    "topics": "Stochastic PDE|Singular SPDE|Stochastic analysis|Markov processes|Regularity structures",
+    "official": "https://people.epfl.ch/martin.hairer?lang=en",
+    "researchSource": "https://www.epfl.ch/labs/propde/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "EPFL appointment confirmed here. Other concurrent appointments are not exhaustively reviewed; student availability is not confirmed.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "EPFL"
+    ]
+  },
+  {
+    "id": "laure-saint-raymond",
+    "name": "Laure Saint-Raymond",
+    "institution": "IHES",
+    "country": "France",
+    "region": "Europe",
+    "role": "Permanent Professor",
+    "area": "Analysis & PDE",
+    "topics": "Asymptotic analysis|Kinetic theory|Fluid equations|Plasma equations|Partial differential equations",
+    "official": "https://www.ihes.fr/en/professeur/laure-saint-raymond-2/",
+    "researchSource": "https://www.ihes.fr/en/professeur/laure-saint-raymond-2/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "An IHES permanent appointment does not itself define a degree-granting application route. Confirm the university enrolment and supervision arrangement.",
+    "studentRecords": []
+  },
+  {
+    "id": "terence-tao",
+    "name": "Terence Tao",
+    "institution": "UCLA",
+    "country": "US",
+    "region": "Americas",
+    "role": "Distinguished Professor; James and Carol Collins Chair",
+    "area": "Analysis & combinatorics",
+    "topics": "Harmonic analysis|Dispersive PDE|Arithmetic combinatorics|Kakeya|Number theory",
+    "official": "https://www.math.ucla.edu/people/ladder/tao",
+    "researchSource": "https://www.math.ucla.edu/~tao/preprints/cv.html",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "University of California, Los Angeles"
+    ],
+    "researchNote": "Detailed interests are also described in the author’s September 2024 CV, explicitly marked no longer maintained. It is not used as current-affiliation evidence."
+  },
+  {
+    "id": "neena-gupta",
+    "name": "Neena Gupta",
+    "institution": "Indian Statistical Institute — Kolkata",
+    "country": "India",
+    "region": "Asia",
+    "role": "Professor",
+    "area": "Algebra",
+    "topics": "Commutative algebra|Affine algebraic geometry",
+    "official": "https://www.isical.ac.in/~statmath/faculty.php",
+    "researchSource": "https://www.isical.ac.in/~statmath/faculty.php",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "researchNote": "Interests belong to Neena Gupta’s roster entry, not neighbouring operator-algebra faculty."
+  },
+  {
+    "id": "rafael-potrie",
+    "name": "Rafael Potrie",
+    "institution": "Universidad de la República — CMAT",
+    "country": "Uruguay",
+    "region": "Americas",
+    "role": "Faculty member; personal CV lists Profesor Titular since December 2021",
+    "area": "Dynamics & geometry",
+    "topics": "Dynamical systems|Geometry",
+    "official": "https://www.cmat.edu.uy/docentes/potrie-rafael",
+    "researchSource": "https://www.cmat.edu.uy/~rpotrie/datospersonales.htm",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "Universidad de la República"
+    ]
+  },
+  {
+    "id": "tamar-ziegler",
+    "name": "Tamar Ziegler",
+    "institution": "Hebrew University of Jerusalem",
+    "country": "Israel",
+    "region": "Asia",
+    "role": "Henry and Manya Noskwith Chair in Mathematics",
+    "area": "Dynamics & number theory",
+    "topics": "Ergodic theory|Number theory|Combinatorics",
+    "official": "https://mathematics.huji.ac.il/people/tamar-ziegler",
+    "researchSource": "https://mathematics.huji.ac.il/people/tamar-ziegler",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "Hebrew University of Jerusalem"
+    ]
+  },
+  {
+    "id": "vera-fischer",
+    "name": "Vera Fischer",
+    "institution": "University of Vienna",
+    "country": "Austria",
+    "region": "Europe",
+    "role": "Associate Professor (Assoz.-Professor)",
+    "area": "Logic & foundations",
+    "topics": "Set theory|Combinatorial set theory|Descriptive set theory|Forcing|Higher Baire spaces",
+    "official": "https://www.logic.univie.ac.at/~vfischer/",
+    "researchSource": "https://careers.univie.ac.at/en/postdoc/e-steem/faculty-of-mathematics",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "University of Vienna"
+    ]
+  },
+  {
+    "id": "sylvia-serfaty",
+    "name": "Sylvia Serfaty",
+    "institution": "NYU Courant",
+    "country": "US",
+    "region": "Americas",
+    "role": "Silver Professor of Mathematics",
+    "area": "Analysis & mathematical physics",
+    "topics": "Partial differential equations|Ginzburg-Landau|Coulomb systems|Calculus of variations",
+    "official": "https://math.nyu.edu/people/profiles/SERFATY_Sylvia.html",
+    "researchSource": "https://math.nyu.edu/people/profiles/SERFATY_Sylvia.html",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "New York University"
+    ]
+  },
+  {
+    "id": "nicolas-monod",
+    "name": "Nicolas Monod",
+    "institution": "EPFL",
+    "country": "Switzerland",
+    "region": "Europe",
+    "role": "Full Professor, Chair of Ergodic and Geometric Group Theory",
+    "area": "Groups & dynamics",
+    "topics": "Geometric group theory|Ergodic theory|Bounded cohomology",
+    "official": "https://people.epfl.ch/nicolas.monod?lang=en",
+    "researchSource": "https://www.epfl.ch/labs/egg/wp-content/uploads/2020/06/icm.pdf",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "EPFL"
+    ],
+    "researchNote": "Bounded-cohomology topic supported by an author-hosted expository lecture. The lecture is not used to date the appointment."
+  },
+  {
+    "id": "paul-seidel",
+    "name": "Paul Seidel",
+    "institution": "MIT",
+    "country": "US",
+    "region": "Americas",
+    "role": "Professor of Mathematics",
+    "area": "Symplectic geometry & topology",
+    "topics": "Symplectic topology|Mirror symmetry|Homological algebra|Floer theory",
+    "official": "https://math.mit.edu/directory/profile.html?pid=241",
+    "researchSource": "https://math.mit.edu/directory/profile.html?pid=241",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "Massachusetts Institute of Technology"
+    ]
+  },
+  {
+    "id": "kaoru-ono",
+    "name": "Kaoru Ono",
+    "institution": "Kyoto University — RIMS",
+    "country": "Japan",
+    "region": "Asia",
+    "role": "Professor",
+    "area": "Symplectic geometry & topology",
+    "topics": "Floer theory|Holomorphic curves|Lagrangian Floer theory|Homological mirror symmetry",
+    "official": "https://www.kurims.kyoto-u.ac.jp/en/list/ono.html",
+    "researchSource": "https://www.kurims.kyoto-u.ac.jp/en/list/ono.html",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "originalName": "小野 薫",
+    "relatedInstitutions": [
+      "Kyoto University"
+    ]
+  },
+  {
+    "id": "takuro-mochizuki",
+    "name": "Takuro Mochizuki",
+    "institution": "Kyoto University — RIMS",
+    "country": "Japan",
+    "region": "Asia",
+    "role": "Professor",
+    "area": "Geometry",
+    "topics": "Differential geometry|Algebraic geometry",
+    "official": "https://www.kurims.kyoto-u.ac.jp/ja/list/takuro.html",
+    "researchSource": "https://www.kurims.kyoto-u.ac.jp/ja/list/takuro.html",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "originalName": "望月 拓郎",
+    "researchNote": "English translation of the Japanese faculty-page fields. Do not confuse Takuro with Shinichi Mochizuki.",
+    "relatedInstitutions": [
+      "Kyoto University"
+    ]
+  },
+  {
+    "id": "david-holgate",
+    "name": "David Holgate",
+    "institution": "University of the Western Cape",
+    "country": "South Africa",
+    "region": "Africa",
+    "role": "Senior Professor; UWC–AIMS Research Chair",
+    "area": "Categories & topology",
+    "topics": "Topology|Category theory",
+    "official": "https://www.uwc.ac.za/study/all-areas-of-study/departments/department-of-mathematics-and-applied-mathematics/people",
+    "researchSource": "https://www.uwc.ac.za/study/all-areas-of-study/departments/department-of-mathematics-and-applied-mathematics/people",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": []
+  },
+  {
+    "id": "ilijas-farah",
+    "name": "Ilijas Farah",
+    "institution": "York University",
+    "country": "Canada",
+    "region": "Americas",
+    "role": "Full Professor",
+    "area": "Logic & operator algebras",
+    "topics": "Set theory|Logic|Operator algebras|Logic applied to operator algebras",
+    "official": "https://www.yorku.ca/science/mathstats/faculty-and-instructors/",
+    "researchSource": "https://www.yorku.ca/science/profiles/faculty/ilijas-farah/",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "researchNote": "York appointment verified. The biography mentions another affiliation in Belgrade, whose current status is not independently verified here."
+  },
+  {
+    "id": "geordie-williamson",
+    "name": "Geordie Williamson",
+    "institution": "University of Sydney",
+    "country": "Australia",
+    "region": "Oceania",
+    "role": "Professor; ARC Laureate Fellow",
+    "area": "Algebra & representation theory",
+    "topics": "Representation theory|Lie theory|Category theory|Homological algebra",
+    "official": "https://profiles.sydney.edu.au/g.williamson",
+    "researchSource": "https://www.sydney.edu.au/science/schools/school-of-mathematics-and-statistics/research.html",
+    "affiliationChecked": "2026-10-11",
+    "interestsChecked": "2026-10-11",
+    "availability": "Not confirmed",
+    "availabilityNote": "No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.",
+    "studentRecords": [],
+    "relatedInstitutions": [
+      "University of Sydney"
+    ]
+  }
+]

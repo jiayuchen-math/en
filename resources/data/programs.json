@@ -1,7 +1,7 @@
 [
   {
     "id": "universite-paris-saclay-mathematics-and-applications-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université Paris-Saclay",
     "degree": "Masters",
@@ -26,11 +26,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "sorbonne-universite-mathematics-and-applications-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Sorbonne Université",
     "degree": "Masters",
@@ -55,11 +57,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-psl-mathematics-and-applications",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université PSL",
     "degree": "Masters",
@@ -84,11 +88,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-paris-cite-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université Paris Cité",
     "degree": "Masters",
@@ -113,11 +119,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-de-rennes-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université de Rennes",
     "degree": "Masters",
@@ -142,11 +150,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-grenoble-alpes-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université Grenoble Alpes",
     "degree": "Masters",
@@ -171,11 +181,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-claude-bernard-lyon-1-general-mathematics-research-route",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université Claude Bernard Lyon 1",
     "degree": "Masters",
@@ -200,11 +212,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "M2 Mathématiques générales"
+    "originalTitle": "M2 Mathématiques générales",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-de-strasbourg-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université de Strasbourg",
     "degree": "Masters",
@@ -229,11 +243,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-de-toulouse-mathematics-research-and-innovation",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université de Toulouse",
     "degree": "Masters",
@@ -262,11 +278,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-de-bordeaux-algebra-geometry-and-number-theory",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université de Bordeaux",
     "degree": "Masters",
@@ -291,11 +309,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Algèbre, Géométrie et Théorie des Nombres"
+    "originalTitle": "Algèbre, Géométrie et Théorie des Nombres",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "nantes-universite-mathematics-and-applications",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Nantes Université",
     "degree": "Masters",
@@ -320,11 +340,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universite-de-montpellier-fundamental-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "France",
     "institution": "Université de Montpellier",
     "degree": "Masters",
@@ -349,11 +371,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "Master Mathématiques et applications — parcours de recherche"
+    "originalTitle": "Master Mathématiques et applications — parcours de recherche",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-bonn-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Bonn",
     "degree": "Masters",
@@ -377,11 +401,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "leipzig-university-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "Leipzig University",
     "degree": "Masters",
@@ -405,11 +431,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "freie-universitat-berlin-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "Freie Universität Berlin",
     "degree": "Masters",
@@ -433,11 +461,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "heidelberg-university-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "Heidelberg University",
     "degree": "Masters",
@@ -461,11 +491,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-gottingen-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Göttingen",
     "degree": "Masters",
@@ -489,11 +521,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-munster-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Münster",
     "degree": "Masters",
@@ -517,11 +551,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-freiburg-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Freiburg",
     "degree": "Masters",
@@ -545,11 +581,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-regensburg-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Regensburg",
     "degree": "Masters",
@@ -573,11 +611,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-hamburg-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Hamburg",
     "degree": "Masters",
@@ -601,11 +641,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "technical-university-of-munich-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "Technical University of Munich",
     "degree": "Masters",
@@ -629,11 +671,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "eth-zurich-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Switzerland",
     "institution": "ETH Zurich",
     "degree": "Masters",
@@ -650,7 +694,7 @@
     "fees": "Status-dependent tuition",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Autumn 2027 — international bachelor’s-degree route. November 1, 2026; exact opening hour not stated (shortcut uses the following UTC day). Deadline: November 30, 2026, 11:59 am CET. The November window applies to applicants with international bachelor’s degrees. The April 2027 round is only for Swiss-university bachelor’s degrees. The cutoff is midday, not midnight.",
+    "cycle": "Autumn 2027 — international bachelor’s-degree route. November 1, 2026; exact opening hour not stated. Deadline: November 30, 2026, 11:59 am CET. The November window applies to applicants with international bachelor’s degrees. The April 2027 round is only for Swiss-university bachelor’s degrees. The cutoff is midday, not midnight.",
     "sources": [
       {
         "url": "https://math.ethz.ch/studies/master-programmes/mathematics/studieninteressierte.html",
@@ -672,16 +716,22 @@
       "intake": "Autumn 2027 — international bachelor’s-degree route",
       "opensAt": "2026-11-02T00:00:00Z",
       "closesAt": "2026-11-30T10:59:00Z",
-      "openingLabel": "November 1, 2026; exact opening hour not stated (shortcut uses the following UTC day)",
+      "openingLabel": "November 1, 2026; exact opening hour not stated",
       "deadlineLabel": "November 30, 2026, 11:59 am CET",
       "source": "https://ethz.ch/en/studies/master/application/dates.html",
       "note": "The November window applies to applicants with international bachelor’s degrees. The April 2027 round is only for Swiss-university bachelor’s degrees. The cutoff is midday, not midnight.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "Europe/Zurich",
+      "deadlineDate": "2026-11-30",
+      "deadlinePrecision": "time",
+      "openingDate": "2026-11-01"
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "epfl-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Switzerland",
     "institution": "EPFL",
     "degree": "Masters",
@@ -705,11 +755,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-zurich-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Switzerland",
     "institution": "University of Zurich",
     "degree": "Masters",
@@ -733,11 +785,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-basel-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Switzerland",
     "institution": "University of Basel",
     "degree": "Masters",
@@ -761,11 +815,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-bern-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Switzerland",
     "institution": "University of Bern",
     "degree": "Masters",
@@ -789,11 +845,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-geneva-msc-mathematics",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Switzerland",
     "institution": "University of Geneva",
     "degree": "Masters",
@@ -817,12 +875,14 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "algant-consortium-algant-algebra-geometry-and-number-theory",
-    "region": "France / Germany / Switzerland / joint Europe",
-    "country": "Joint Europe",
+    "region": "Europe|Americas",
+    "country": "France|Canada|Germany|Netherlands|Italy",
     "institution": "ALGANT Consortium",
     "degree": "Masters",
     "title": "ALGANT — Algebra, Geometry and Number Theory",
@@ -843,14 +903,20 @@
       {
         "url": "https://algant.eu/pages/apply/",
         "label": "Official programme / admissions source"
+      },
+      {
+        "url": "https://algant.eu/pages/consortium/",
+        "label": "Official consortium: participating countries (mobility choices depend on the intake)"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Multi-country joint programme",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "intermaths-consortium-intermaths-erasmus-mundus-joint-master",
-    "region": "France / Germany / Switzerland / joint Europe",
-    "country": "Joint Europe",
+    "region": "Europe",
+    "country": "Italy|Spain|Germany|France|Austria",
     "institution": "InterMaths Consortium",
     "degree": "Masters",
     "title": "InterMaths Erasmus Mundus Joint Master",
@@ -875,13 +941,19 @@
       {
         "url": "https://www.intermaths.eu/",
         "label": "Consortium and future call"
+      },
+      {
+        "url": "https://www.intermaths.eu/erasmus-mundus/consortium",
+        "label": "Official full partners: Italy, Spain, Germany, France and Austria (not every associated partner is a degree destination)"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Multi-country joint programme",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-cambridge-mast-mathematics-part-iii",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Europe",
     "country": "UK",
     "institution": "University of Cambridge",
     "degree": "Masters",
@@ -898,7 +970,7 @@
     "fees": "Amount not verified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Michaelmas 2027. September 9, 2026; opening hour not stated (shortcut uses the following UTC day). Deadline: February 2, 2027, 11:59 pm UK time. Pure Mathematics is an application stream, not an extra MASt degree. Central course funding deadline: January 6, 2027; some citizenship-specific funding deadlines are earlier. A departmental scholarship paragraph still shows a 2026 date: do not treat that paragraph as the current funding deadline.",
+    "cycle": "Michaelmas 2027. September 9, 2026; opening hour not stated. Deadline: February 2, 2027, 11:59 pm UK time. Pure Mathematics is an application stream, not an extra MASt degree. Central course funding deadline: January 6, 2027; some citizenship-specific funding deadlines are earlier. A departmental scholarship paragraph still shows a 2026 date: do not treat that paragraph as the current funding deadline.",
     "sources": [
       {
         "url": "https://www.maths.cam.ac.uk/postgrad/part-iii/prospective.html",
@@ -916,16 +988,22 @@
       "intake": "Michaelmas 2027",
       "opensAt": "2026-09-10T00:00:00Z",
       "closesAt": "2027-02-02T23:59:00Z",
-      "openingLabel": "September 9, 2026; opening hour not stated (shortcut uses the following UTC day)",
+      "openingLabel": "September 9, 2026; opening hour not stated",
       "deadlineLabel": "February 2, 2027, 11:59 pm UK time",
       "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/apply",
       "note": "Pure Mathematics is an application stream, not an extra MASt degree. Central course funding deadline: January 6, 2027; some citizenship-specific funding deadlines are earlier. A departmental scholarship paragraph still shows a 2026 date: do not treat that paragraph as the current funding deadline.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "Europe/London",
+      "deadlineDate": "2027-02-02",
+      "deadlinePrecision": "time",
+      "openingDate": "2026-09-09"
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-cambridge-phd-mathematics-dpmms",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Europe",
     "country": "UK",
     "institution": "University of Cambridge",
     "degree": "Doctorate",
@@ -949,11 +1027,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-oxford-msc-mathematical-sciences-omms",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Europe",
     "country": "UK",
     "institution": "University of Oxford",
     "degree": "Masters",
@@ -992,12 +1072,18 @@
       "deadlineLabel": "January 27, 2027, 12 noon UK time",
       "source": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
       "note": "This is the final MSc application deadline shown for this cycle; check separate scholarship eligibility.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "Europe/London",
+      "deadlineDate": "2027-01-27",
+      "deadlinePrecision": "time",
+      "openingDate": null
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-oxford-dphil-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Europe",
     "country": "UK",
     "institution": "University of Oxford",
     "degree": "Doctorate",
@@ -1032,12 +1118,18 @@
       "deadlineLabel": "March 2, 2027, 12 noon UK time (expected final course deadline)",
       "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
       "note": "January 6, 2027, 12 noon UK time is the Oxford-scholarship deadline. The course may close early or reopen; the reviewed schedule is not a live portal check.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "Europe/London",
+      "deadlineDate": "2027-03-02",
+      "deadlinePrecision": "time",
+      "openingDate": null
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-warwick-msc-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Europe",
     "country": "UK",
     "institution": "University of Warwick",
     "degree": "Masters",
@@ -1061,11 +1153,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-warwick-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Europe",
     "country": "UK",
     "institution": "University of Warwick",
     "degree": "Doctorate",
@@ -1089,11 +1183,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "harvard-university-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "US",
     "institution": "Harvard University",
     "degree": "Doctorate",
@@ -1110,7 +1206,7 @@
     "fees": "Amount not verified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Fall 2027. Open confirmed on October 11, 2026; actual opening date not stated. Deadline: December 15, 2026; closing hour not stated. The shortcut conservatively excludes the deadline day; confirm the portal closing time.",
+    "cycle": "Fall 2027. Open confirmed on October 11, 2026; actual opening date not stated. Deadline: December 15, 2026; closing hour not stated. Closing time is unverified; confirm the portal closing time.",
     "sources": [
       {
         "url": "https://www.math.harvard.edu/graduate/",
@@ -1127,13 +1223,19 @@
       "openingLabel": "Open confirmed on October 11, 2026; actual opening date not stated",
       "deadlineLabel": "December 15, 2026; closing hour not stated",
       "source": "https://www.math.harvard.edu/graduate/",
-      "note": "The shortcut conservatively excludes the deadline day; confirm the portal closing time.",
-      "reviewed": "2026-10-11"
-    }
+      "note": "Closing time is unverified; confirm the portal closing time.",
+      "reviewed": "2026-10-11",
+      "timeZone": "America/New_York",
+      "deadlineDate": "2026-12-15",
+      "deadlinePrecision": "date",
+      "openingDate": null
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "massachusetts-institute-of-technology-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "US",
     "institution": "Massachusetts Institute of Technology",
     "degree": "Doctorate",
@@ -1157,11 +1259,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "princeton-university-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "US",
     "institution": "Princeton University",
     "degree": "Doctorate",
@@ -1185,11 +1289,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "stanford-university-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "US",
     "institution": "Stanford University",
     "degree": "Doctorate",
@@ -1224,12 +1330,18 @@
       "deadlineLabel": "December 1, 2026, 11:59 pm Pacific Time",
       "source": "https://mathematics.stanford.edu/academics/graduate-admissions",
       "note": "The Knight-Hennessy scholarship deadline was October 6, 2026 and is already past; it is not the ordinary PhD deadline.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "America/Los_Angeles",
+      "deadlineDate": "2026-12-01",
+      "deadlinePrecision": "time",
+      "openingDate": null
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-california-berkeley-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "US",
     "institution": "University of California, Berkeley",
     "degree": "Doctorate",
@@ -1268,12 +1380,18 @@
       "deadlineLabel": "December 1, 2026, 8:59 pm Pacific Time",
       "source": "https://math.berkeley.edu/graduate/admissions",
       "note": "The Mathematics Subject GRE is required for this cycle. The Pacific closing time differs from Stanford.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "America/Los_Angeles",
+      "deadlineDate": "2026-12-01",
+      "deadlinePrecision": "time",
+      "openingDate": null
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-california-los-angeles-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "US",
     "institution": "University of California, Los Angeles",
     "degree": "Doctorate",
@@ -1297,11 +1415,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-toronto-msc-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "Canada",
     "institution": "University of Toronto",
     "degree": "Masters",
@@ -1325,11 +1445,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-toronto-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "Canada",
     "institution": "University of Toronto",
     "degree": "Doctorate",
@@ -1353,11 +1475,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-british-columbia-msc-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "Canada",
     "institution": "University of British Columbia",
     "degree": "Masters",
@@ -1374,7 +1498,7 @@
     "fees": "Amount not verified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Next annual mathematics intake; exact start term must be confirmed. October 1, 2026; opening hour not stated (shortcut uses the following UTC day). Deadline: December 23, 2026; closing hour not stated. The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. The shortcut conservatively excludes the deadline day; confirm the intake and portal time.",
+    "cycle": "Next annual mathematics intake; exact start term must be confirmed. October 1, 2026; opening hour not stated. Deadline: December 23, 2026; closing hour not stated. The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
     "sources": [
       {
         "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
@@ -1388,16 +1512,22 @@
       "intake": "Next annual mathematics intake; exact start term must be confirmed",
       "opensAt": "2026-10-02T00:00:00Z",
       "closesAt": "2026-12-23T00:00:00Z",
-      "openingLabel": "October 1, 2026; opening hour not stated (shortcut uses the following UTC day)",
+      "openingLabel": "October 1, 2026; opening hour not stated",
       "deadlineLabel": "December 23, 2026; closing hour not stated",
       "source": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
-      "note": "The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. The shortcut conservatively excludes the deadline day; confirm the intake and portal time.",
-      "reviewed": "2026-10-11"
-    }
+      "note": "The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
+      "reviewed": "2026-10-11",
+      "timeZone": "America/Vancouver",
+      "deadlineDate": "2026-12-23",
+      "deadlinePrecision": "date",
+      "openingDate": "2026-10-01"
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-british-columbia-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "Canada",
     "institution": "University of British Columbia",
     "degree": "Doctorate",
@@ -1414,7 +1544,7 @@
     "fees": "Amount not verified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Next annual mathematics intake; exact start term must be confirmed. October 1, 2026; opening hour not stated (shortcut uses the following UTC day). Deadline: December 23, 2026; closing hour not stated. The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. The shortcut conservatively excludes the deadline day; confirm the intake and portal time.",
+    "cycle": "Next annual mathematics intake; exact start term must be confirmed. October 1, 2026; opening hour not stated. Deadline: December 23, 2026; closing hour not stated. The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
     "sources": [
       {
         "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
@@ -1428,16 +1558,22 @@
       "intake": "Next annual mathematics intake; exact start term must be confirmed",
       "opensAt": "2026-10-02T00:00:00Z",
       "closesAt": "2026-12-23T00:00:00Z",
-      "openingLabel": "October 1, 2026; opening hour not stated (shortcut uses the following UTC day)",
+      "openingLabel": "October 1, 2026; opening hour not stated",
       "deadlineLabel": "December 23, 2026; closing hour not stated",
       "source": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
-      "note": "The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. The shortcut conservatively excludes the deadline day; confirm the intake and portal time.",
-      "reviewed": "2026-10-11"
-    }
+      "note": "The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
+      "reviewed": "2026-10-11",
+      "timeZone": "America/Vancouver",
+      "deadlineDate": "2026-12-23",
+      "deadlinePrecision": "date",
+      "openingDate": "2026-10-01"
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-waterloo-mmath-pure-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Americas",
     "country": "Canada",
     "institution": "University of Waterloo",
     "degree": "Masters",
@@ -1465,11 +1601,13 @@
         "label": "Department deadline — differs"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "australian-national-university-mphil-mathematical-sciences",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Oceania",
     "country": "Australia",
     "institution": "Australian National University",
     "degree": "Masters",
@@ -1493,11 +1631,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "australian-national-university-phd-mathematical-sciences",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Oceania",
     "country": "Australia",
     "institution": "Australian National University",
     "degree": "Doctorate",
@@ -1521,11 +1661,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-melbourne-msc-mathematics-and-statistics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Oceania",
     "country": "Australia",
     "institution": "University of Melbourne",
     "degree": "Masters",
@@ -1549,11 +1691,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-melbourne-phd-mathematics-and-statistics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Oceania",
     "country": "Australia",
     "institution": "University of Melbourne",
     "degree": "Doctorate",
@@ -1577,11 +1721,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "the-chinese-university-of-hong-kong-mphil-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Hong Kong",
     "institution": "The Chinese University of Hong Kong",
     "degree": "Masters",
@@ -1605,11 +1751,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "the-chinese-university-of-hong-kong-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Hong Kong",
     "institution": "The Chinese University of Hong Kong",
     "degree": "Doctorate",
@@ -1633,11 +1781,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "hong-kong-university-of-science-and-technology-mphil-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Hong Kong",
     "institution": "Hong Kong University of Science and Technology",
     "degree": "Masters",
@@ -1661,11 +1811,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "hong-kong-university-of-science-and-technology-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Hong Kong",
     "institution": "Hong Kong University of Science and Technology",
     "degree": "Doctorate",
@@ -1689,11 +1841,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "national-university-of-singapore-msc-mathematics-by-research",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Singapore",
     "institution": "National University of Singapore",
     "degree": "Masters",
@@ -1717,11 +1871,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "national-university-of-singapore-phd-mathematics",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Singapore",
     "institution": "National University of Singapore",
     "degree": "Doctorate",
@@ -1745,11 +1901,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "nanyang-technological-university-phd-mathematical-sciences",
-    "region": "UK / US / Canada / Australia / Hong Kong / Singapore",
+    "region": "Asia",
     "country": "Singapore",
     "institution": "Nanyang Technological University",
     "degree": "Doctorate",
@@ -1773,11 +1931,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-trento-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "University of Trento",
     "degree": "Masters",
@@ -1801,11 +1961,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-padua-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "University of Padua",
     "degree": "Masters",
@@ -1829,11 +1991,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-pisa-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "University of Pisa",
     "degree": "Masters",
@@ -1857,11 +2021,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-milan-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "University of Milan",
     "degree": "Masters",
@@ -1885,11 +2051,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-trieste-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "University of Trieste",
     "degree": "Masters",
@@ -1913,11 +2081,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "sapienza-university-of-rome-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "Sapienza University of Rome",
     "degree": "Masters",
@@ -1941,11 +2111,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-bologna-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Italy",
     "institution": "University of Bologna",
     "degree": "Masters",
@@ -1969,11 +2141,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-barcelona-master-advanced-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Spain",
     "institution": "University of Barcelona",
     "degree": "Masters",
@@ -1997,11 +2171,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "universidad-autonoma-de-madrid-master-mathematics-and-applications",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Spain",
     "institution": "Universidad Autónoma de Madrid",
     "degree": "Masters",
@@ -2025,11 +2201,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-porto-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Portugal",
     "institution": "University of Porto",
     "degree": "Masters",
@@ -2053,11 +2231,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-lisbon-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Portugal",
     "institution": "University of Lisbon",
     "degree": "Masters",
@@ -2081,11 +2261,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "national-and-kapodistrian-university-of-athens-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Greece",
     "institution": "National and Kapodistrian University of Athens",
     "degree": "Masters",
@@ -2109,11 +2291,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-copenhagen-msc-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Denmark",
     "institution": "University of Copenhagen",
     "degree": "Masters",
@@ -2137,11 +2321,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "aarhus-university-msc-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Denmark",
     "institution": "Aarhus University",
     "degree": "Masters",
@@ -2165,11 +2351,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "stockholm-university-kth-msc-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Sweden",
     "institution": "Stockholm University / KTH",
     "degree": "Masters",
@@ -2193,11 +2381,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Inter-institutional (single-country)",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "uppsala-university-msc-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Sweden",
     "institution": "Uppsala University",
     "degree": "Masters",
@@ -2221,11 +2411,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "lund-university-msc-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Sweden",
     "institution": "Lund University",
     "degree": "Masters",
@@ -2242,7 +2434,7 @@
     "fees": "Citizenship/status dependent — amount unverified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Autumn 2027 — first international admissions round. October 16, 2026; opening hour not stated (shortcut uses the following UTC day). Deadline: January 15, 2027; verify the portal closing hour. The current central calendar and programme page both say October 16, correcting the earlier October 15 entry. Supporting documents and fee/status evidence have separate deadlines.",
+    "cycle": "Autumn 2027 — first international admissions round. October 16, 2026; opening hour not stated. Deadline: January 15, 2027; verify the portal closing hour. The current central calendar and programme page both say October 16, correcting the earlier October 15 entry. Supporting documents and fee/status evidence have separate deadlines.",
     "sources": [
       {
         "url": "https://www.maths.lu.se/english/education/mathematics-masters-programme/",
@@ -2260,16 +2452,22 @@
       "intake": "Autumn 2027 — first international admissions round",
       "opensAt": "2026-10-17T00:00:00Z",
       "closesAt": "2027-01-15T00:00:00Z",
-      "openingLabel": "October 16, 2026; opening hour not stated (shortcut uses the following UTC day)",
+      "openingLabel": "October 16, 2026; opening hour not stated",
       "deadlineLabel": "January 15, 2027; verify the portal closing hour",
       "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
       "note": "The current central calendar and programme page both say October 16, correcting the earlier October 15 entry. Supporting documents and fee/status evidence have separate deadlines.",
-      "reviewed": "2026-10-11"
-    }
+      "reviewed": "2026-10-11",
+      "timeZone": "Europe/Stockholm",
+      "deadlineDate": "2027-01-15",
+      "deadlinePrecision": "date",
+      "openingDate": "2026-10-16"
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-helsinki-msc-mathematics-and-statistics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Finland",
     "institution": "University of Helsinki",
     "degree": "Masters",
@@ -2293,11 +2491,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "norwegian-university-of-science-and-technology-msc-mathematical-sciences",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Norway",
     "institution": "Norwegian University of Science and Technology",
     "degree": "Masters",
@@ -2321,11 +2521,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-copenhagen-phd-mathematical-sciences",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Denmark",
     "institution": "University of Copenhagen",
     "degree": "Doctorate",
@@ -2349,11 +2551,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "aarhus-university-phd-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Denmark",
     "institution": "Aarhus University",
     "degree": "Doctorate",
@@ -2377,11 +2581,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "stockholm-university-phd-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Sweden",
     "institution": "Stockholm University",
     "degree": "Doctorate",
@@ -2405,11 +2611,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-warsaw-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Poland",
     "institution": "University of Warsaw",
     "degree": "Masters",
@@ -2433,11 +2641,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-warsaw-doctoral-school-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Poland",
     "institution": "University of Warsaw",
     "degree": "Doctorate",
@@ -2461,11 +2671,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "jagiellonian-university-master-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Poland",
     "institution": "Jagiellonian University",
     "degree": "Masters",
@@ -2490,11 +2702,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "matematyka — studia drugiego stopnia"
+    "originalTitle": "matematyka — studia drugiego stopnia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "jagiellonian-university-doctoral-school-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Poland",
     "institution": "Jagiellonian University",
     "degree": "Doctorate",
@@ -2518,11 +2732,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "charles-university-master-mathematics-english-route",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Czech Republic",
     "institution": "Charles University",
     "degree": "Masters",
@@ -2546,11 +2762,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "charles-university-phd-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Czech Republic",
     "institution": "Charles University",
     "degree": "Doctorate",
@@ -2574,11 +2792,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "eotvos-lorand-university-msc-mathematics-pure-route",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Hungary",
     "institution": "Eötvös Loránd University",
     "degree": "Masters",
@@ -2606,11 +2826,13 @@
         "label": "English-programme admissions and fees"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "budapest-university-of-technology-and-economics-msc-applied-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Hungary",
     "institution": "Budapest University of Technology and Economics",
     "degree": "Masters",
@@ -2634,11 +2856,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-vienna-msc-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Austria",
     "institution": "University of Vienna",
     "degree": "Masters",
@@ -2662,11 +2886,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-vienna-doctorate-mathematics",
-    "region": "Southern / Nordic / Central-Eastern Europe",
+    "region": "Europe",
     "country": "Austria",
     "institution": "University of Vienna",
     "degree": "Doctorate",
@@ -2690,11 +2916,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "weizmann-institute-of-science-msc-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Israel",
     "institution": "Weizmann Institute of Science",
     "degree": "Masters",
@@ -2711,7 +2939,7 @@
     "fees": "No tuition — official statement",
     "funding": "Stipend subject to programme rules",
     "fundingDetail": "Graduate stipend arrangements are described by the school; confirm your offer, duration, renewal and living-cost conditions.",
-    "cycle": "2027 MSc Mathematics and Computer Science admissions. November 29, 2026; opening hour not stated (shortcut uses the following UTC day). Deadline: March 31, 2027; closing hour not stated. Use the Mathematics and Computer Science deadline, not the earlier Life Sciences deadline. The shortcut conservatively excludes the deadline day.",
+    "cycle": "2027 MSc Mathematics and Computer Science admissions. November 29, 2026; opening hour not stated. Deadline: March 31, 2027; closing hour not stated. Use the Mathematics and Computer Science deadline, not the earlier Life Sciences deadline. Closing time is unverified; .",
     "sources": [
       {
         "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
@@ -2729,16 +2957,22 @@
       "intake": "2027 MSc Mathematics and Computer Science admissions",
       "opensAt": "2026-11-30T00:00:00Z",
       "closesAt": "2027-03-31T00:00:00Z",
-      "openingLabel": "November 29, 2026; opening hour not stated (shortcut uses the following UTC day)",
+      "openingLabel": "November 29, 2026; opening hour not stated",
       "deadlineLabel": "March 31, 2027; closing hour not stated",
       "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply",
-      "note": "Use the Mathematics and Computer Science deadline, not the earlier Life Sciences deadline. The shortcut conservatively excludes the deadline day.",
-      "reviewed": "2026-10-11"
-    }
+      "note": "Use the Mathematics and Computer Science deadline, not the earlier Life Sciences deadline. Closing time is unverified; .",
+      "reviewed": "2026-10-11",
+      "timeZone": "Asia/Jerusalem",
+      "deadlineDate": "2027-03-31",
+      "deadlinePrecision": "date",
+      "openingDate": "2026-11-29"
+    },
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "2027"
   },
   {
     "id": "weizmann-institute-of-science-phd-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Israel",
     "institution": "Weizmann Institute of Science",
     "degree": "Doctorate",
@@ -2762,11 +2996,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "hebrew-university-of-jerusalem-msc-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Israel",
     "institution": "Hebrew University of Jerusalem",
     "degree": "Masters",
@@ -2790,11 +3026,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "hebrew-university-of-jerusalem-phd-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Israel",
     "institution": "Hebrew University of Jerusalem",
     "degree": "Doctorate",
@@ -2818,11 +3056,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "tel-aviv-university-master-theoretical-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Israel",
     "institution": "Tel Aviv University",
     "degree": "Masters",
@@ -2847,11 +3087,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "תואר שני במתמטיקה (עיונית)"
+    "originalTitle": "תואר שני במתמטיקה (עיונית)",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "tel-aviv-university-phd-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Israel",
     "institution": "Tel Aviv University",
     "degree": "Doctorate",
@@ -2876,11 +3118,13 @@
       }
     ],
     "checked": "2026-10-11",
-    "originalTitle": "מידע על לימודים לתואר שלישי"
+    "originalTitle": "מידע על לימודים לתואר שלישי",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-tokyo-master-mathematical-sciences",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "University of Tokyo",
     "degree": "Masters",
@@ -2904,11 +3148,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-tokyo-doctorate-mathematical-sciences",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "University of Tokyo",
     "degree": "Doctorate",
@@ -2932,11 +3178,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "kyoto-university-master-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "Kyoto University",
     "degree": "Masters",
@@ -2960,11 +3208,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "kyoto-university-doctorate-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "Kyoto University",
     "degree": "Doctorate",
@@ -2988,11 +3238,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "the-university-of-osaka-master-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "The University of Osaka",
     "degree": "Masters",
@@ -3016,11 +3268,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "the-university-of-osaka-doctorate-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "The University of Osaka",
     "degree": "Doctorate",
@@ -3044,11 +3298,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "nagoya-university-master-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "Nagoya University",
     "degree": "Masters",
@@ -3072,11 +3328,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "nagoya-university-doctorate-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "Nagoya University",
     "degree": "Doctorate",
@@ -3100,11 +3358,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "kyushu-university-master-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "Kyushu University",
     "degree": "Masters",
@@ -3128,11 +3388,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "kyushu-university-doctorate-mathematics",
-    "region": "Israel / Japan",
+    "region": "Asia",
     "country": "Japan",
     "institution": "Kyushu University",
     "degree": "Doctorate",
@@ -3156,11 +3418,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "impa-master-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Brazil",
     "institution": "IMPA",
     "degree": "Masters",
@@ -3188,11 +3452,13 @@
         "label": "Scholarship application conditions"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "impa-doctorate-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Brazil",
     "institution": "IMPA",
     "degree": "Doctorate",
@@ -3220,11 +3486,13 @@
         "label": "Scholarship application conditions"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-sao-paulo-master-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Brazil",
     "institution": "University of São Paulo",
     "degree": "Masters",
@@ -3248,11 +3516,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-sao-paulo-doctorate-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Brazil",
     "institution": "University of São Paulo",
     "degree": "Doctorate",
@@ -3276,11 +3546,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-campinas-master-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Brazil",
     "institution": "University of Campinas",
     "degree": "Masters",
@@ -3304,11 +3576,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-campinas-doctorate-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Brazil",
     "institution": "University of Campinas",
     "degree": "Doctorate",
@@ -3332,11 +3606,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "unam-master-mathematical-sciences",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Mexico",
     "institution": "UNAM",
     "degree": "Masters",
@@ -3360,11 +3636,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "unam-doctorate-mathematical-sciences",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Mexico",
     "institution": "UNAM",
     "degree": "Doctorate",
@@ -3388,11 +3666,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-chile-master-mathematical-sciences",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Chile",
     "institution": "University of Chile",
     "degree": "Masters",
@@ -3416,11 +3696,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-chile-doctorate-mathematical-sciences",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Americas",
     "country": "Chile",
     "institution": "University of Chile",
     "degree": "Doctorate",
@@ -3444,11 +3726,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "kaust-master-applied-mathematics-and-computational-science",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Asia",
     "country": "Saudi Arabia",
     "institution": "KAUST",
     "degree": "Masters",
@@ -3472,11 +3756,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "kaust-doctorate-applied-mathematics-and-computational-science",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Asia",
     "country": "Saudi Arabia",
     "institution": "KAUST",
     "degree": "Doctorate",
@@ -3500,11 +3786,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "king-saud-university-master-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Asia",
     "country": "Saudi Arabia",
     "institution": "King Saud University",
     "degree": "Masters",
@@ -3528,11 +3816,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "king-saud-university-doctorate-mathematics",
-    "region": "Latin America / Saudi Arabia / other",
+    "region": "Asia",
     "country": "Saudi Arabia",
     "institution": "King Saud University",
     "degree": "Doctorate",
@@ -3556,11 +3846,13 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   },
   {
     "id": "university-of-bonn-phd-mathematics-bigs",
-    "region": "France / Germany / Switzerland / joint Europe",
+    "region": "Europe",
     "country": "Germany",
     "institution": "University of Bonn",
     "degree": "Doctorate",
@@ -3584,6 +3876,1090 @@
         "label": "Official programme / admissions source"
       }
     ],
-    "checked": "2026-10-11"
+    "checked": "2026-10-11",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-oxford-mathematics-mathematics-and-statistics-ba-or-mmath",
+    "country": "UK",
+    "institution": "University of Oxford",
+    "degree": "Undergraduate",
+    "title": "Mathematics / Mathematics and Statistics — BA or MMath",
+    "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+    "note": "One undergraduate application route, with a three-year BA or four-year integrated MMath. The integrated degree is not a separately recruited postgraduate master.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "3 or 4 years",
+    "preparation": "A-level A*A*A with the specified mathematics subjects, or IB 39 with 766 at HL including 7 in HL Mathematics; equivalent qualifications must be accepted by Oxford. These are published minimums, not an admission prediction.",
+    "selection": "TMUA for 2027 entry, not the historical MAT. Booking closed September 28, 2026, 6 pm UK time; the test is October 12–16. Missing registration is a separate issue from the UCAS deadline.",
+    "application": "UCAS application; international qualification acceptance is assessed separately.",
+    "tuition": "2027 entry: Home GBP 10,050 per academic year; Overseas GBP 50,420 per academic year. Fee status requires institutional assessment; living costs and future increases are separate.",
+    "fees": "Status-dependent tuition",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "2027 entry. UCAS deadline October 15, 2026; consult the official admissions timetable for the exact closing time.",
+    "statistics": "Course-page historical 2023–25 three-year averages: intake 183; successful applicants 9%. Neither is next-year guaranteed capacity or an individual probability.",
+    "sources": [
+      {
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+        "label": "Degree, published requirements, 2027 fees and historical statistics"
+      },
+      {
+        "url": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/prospectus",
+        "label": "2027 application route"
+      },
+      {
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/course-fees/fee-status",
+        "label": "Institutional fee-status assessment"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "October 15, 2026 — verify the UCAS closing time",
+        "source": "https://www.maths.ox.ac.uk/study-here/undergraduate-study/prospectus"
+      },
+      {
+        "type": "Test registration",
+        "date": "2026-09-28",
+        "label": "September 28, 2026, 6 pm UK time — already passed",
+        "source": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-cambridge-mathematics-ba-hons-integrated-mmath",
+    "country": "UK",
+    "institution": "University of Cambridge",
+    "degree": "Undergraduate",
+    "title": "Mathematics — BA (Hons) / integrated MMath",
+    "url": "https://www.undergraduate.study.cam.ac.uk/courses/mathematics-ba-hons-mmath",
+    "note": "Three-year mathematics BA with an optional fourth-year integrated MMath. External Part III MASt admission remains a different graduate route.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "3 years BA; 4 years including MMath",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "College-based selection and STEP conditions. The current 2027 timetable also lists TMUA for Mathematics: confirm both requirements and booking with your College; old STEP-only advice is insufficient.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "2027 entry information reviewed; check the dated timetable and College-specific offer conditions.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/courses/mathematics-ba-hons-mmath",
+        "label": "Degree and College requirements (automated direct access blocked; official search text reviewed)"
+      },
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/application-dates-deadlines",
+        "label": "Current tests and timetable"
+      },
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-entry-requirements",
+        "label": "Country-specific qualifications"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "intakeYear": "2027",
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "eth-zurich-bsc-mathematics",
+    "country": "Switzerland",
+    "institution": "ETH Zurich",
+    "degree": "Undergraduate",
+    "title": "BSc Mathematics",
+    "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/admission-prerequisites.html",
+    "note": "Foreign school-leaving certificates may require examination-free, reduced-exam or comprehensive-exam admission. A country-specific assessment is necessary.",
+    "orientation": "Pure mathematics options",
+    "language": "German",
+    "duration": "Not verified in this review.",
+    "preparation": "Recognized school-leaving qualification and the relevant country-list requirements; German-language evidence is required.",
+    "selection": "An ETH entrance examination may be required. Its examination schedule can postpone the first possible study year; do not assume immediate entry.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/admission-prerequisites.html",
+        "label": "Certificate and language rules"
+      },
+      {
+        "url": "https://ethz.ch/en/studies/bachelor/application/non-swiss-matriculation-certificate/eth-entrance-examination.html",
+        "label": "Entrance examination and timing"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-bonn-bsc-mathematics",
+    "country": "Germany",
+    "institution": "University of Bonn",
+    "degree": "Undergraduate",
+    "title": "BSc Mathematics",
+    "url": "https://www.uni-bonn.de/en/studying/degree-programs/degree-programs-a-z/mathematics-bsc",
+    "note": "An open-admission degree still requires a recognized university-entrance qualification and German proficiency; it is not guaranteed admission for every foreign certificate.",
+    "orientation": "Pure mathematics options",
+    "language": "German",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "The degree page specifies DSH level 2 / CEFR C1 German. Foreign qualifications and enrolment procedure are assessed separately.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.uni-bonn.de/en/studying/degree-programs/degree-programs-a-z/mathematics-bsc",
+        "label": "Degree and language requirements"
+      },
+      {
+        "url": "https://www.mathematics.uni-bonn.de/studium/en/prospective-students/entry-into-the-bachelor-program-mathematik",
+        "label": "Mathematics entry guidance"
+      },
+      {
+        "url": "https://www.uni-bonn.de/en/studying/application-admission-and-enrollment/special-application-matters/applicants-from-non-eu-eec-countries",
+        "label": "International qualification route"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-auckland-bsc-mathematics-major",
+    "country": "New Zealand",
+    "institution": "University of Auckland",
+    "degree": "Undergraduate",
+    "title": "BSc — Mathematics major",
+    "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/mathematics/undergraduate/bsc-mathematics.html",
+    "note": "Mathematics is a major within the BSc, not a separately recruited mathematics faculty degree. The BA mathematics major is an alternative, not another counted entry here.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/mathematics/undergraduate/bsc-mathematics.html",
+        "label": "Mathematics curriculum"
+      },
+      {
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+        "label": "BSc qualification-dependent admission and fees"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "hong-kong-university-of-science-and-technology-bsc-mathematics-science-group-a-entry",
+    "country": "Hong Kong",
+    "institution": "Hong Kong University of Science and Technology",
+    "degree": "Undergraduate",
+    "title": "BSc Mathematics — Science (Group A) entry",
+    "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+    "note": "The international admissions page directs prospective Mathematics students to Science (Group A). Major selection and the honours programme are not separate admissions guarantees.",
+    "orientation": "Pure mathematics options",
+    "language": "English — verify individual requirements",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the qualification-specific HKUST route; HKDSE/JUPAS and international/direct admissions are different procedures.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "national-university-of-singapore-mathematics-major-undergraduate-science-route",
+    "country": "Singapore",
+    "institution": "National University of Singapore",
+    "degree": "Undergraduate",
+    "title": "Mathematics major — undergraduate science route",
+    "url": "https://www.math.nus.edu.sg/ug/majmin/primajors/ma/",
+    "note": "A mathematics major with a pure-mathematics specialization. Follow the curriculum for your entry cohort; the Special Programme in Mathematics is not the general university admissions route.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Check central NUS undergraduate admission for your school qualification; declaring a major does not replace university admission.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.math.nus.edu.sg/ug/majmin/primajors/ma/",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "chennai-mathematical-institute-bs-hons-mathematics-and-mathematical-joint-routes",
+    "country": "India",
+    "institution": "Chennai Mathematical Institute",
+    "degree": "Undergraduate",
+    "title": "BS (Hons) Mathematics and mathematical joint routes",
+    "url": "https://www.cmi.ac.in/admissions/",
+    "note": "A four-year BS route with mathematics and joint options, counted once. This is not a separate count for each exit award.",
+    "orientation": "Pure mathematics options",
+    "language": "English — confirm current teaching arrangements",
+    "duration": "4 years",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "2027–28 entrance examination announced for May 15, 2027 at 14:00; the displayed announcement does not specify a timezone. Olympiad exemptions have specific conditions.",
+    "application": "International nationality/examination logistics require confirmation with CMI; the general announcement does not establish a worldwide remote examination route.",
+    "tuition": "The 2027 admissions page still links the 2026 brochure. No 2026 fee is presented as a confirmed 2027 charge.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "2027–28; applications expected around March 1, 2027, not a confirmed exact opening date. Further details promised by February 2027.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.cmi.ac.in/admissions/",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "intakeYear": "2027",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-cape-town-bsc-mathematics-major",
+    "country": "South Africa",
+    "institution": "University of Cape Town",
+    "degree": "Undergraduate",
+    "title": "BSc — Mathematics major",
+    "url": "https://science.uct.ac.za/undergraduate-studies/courses-majors-rules",
+    "note": "Mathematics is a BSc major. Faculty-wide undergraduate numbers are not mathematics-specific annual intake statistics.",
+    "orientation": "Pure mathematics options",
+    "language": "English — confirm qualification requirements",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://science.uct.ac.za/undergraduate-studies/courses-majors-rules",
+        "label": "Mathematics major and faculty rules"
+      },
+      {
+        "url": "https://science.uct.ac.za/undergraduate-studies/undergraduate-studies-overview",
+        "label": "BSc admission and structure"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Africa",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "tum-studienkolleg-munchen-studienkolleg-t-course-preparation-for-mathematics",
+    "country": "Germany",
+    "institution": "TUM / Studienkolleg München",
+    "degree": "Foundation / Preparatory",
+    "title": "Studienkolleg — T-course preparation for Mathematics",
+    "url": "https://www.tum.de/en/studies/application/other-forms-of-study/preparatory-study-at-the-studienkolleg",
+    "note": "A university-entrance preparation route, not a mathematics degree. A Feststellungsprüfung and later degree application are distinct from admission to the preparatory course.",
+    "orientation": "Pure mathematics options",
+    "language": "German",
+    "duration": "2 semesters",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "German admission test; T-course applicants also take a mathematics test. Certificate eligibility and the assigned course are assessed by TUM.",
+    "application": "Apply through the specified TUM procedure if your qualification requires Studienkolleg; completion is not an unconditional degree-place guarantee.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.tum.de/en/studies/application/other-forms-of-study/preparatory-study-at-the-studienkolleg",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-auckland-international-college-university-of-auckland-certificate-in-foundation-studies",
+    "country": "New Zealand",
+    "institution": "University of Auckland International College",
+    "degree": "Foundation / Preparatory",
+    "title": "University of Auckland Certificate in Foundation Studies",
+    "url": "https://www.auckland.ac.nz/en/study/international-students/study-options-for-international-students/foundation-programmes-international-students.html",
+    "note": "A preparation certificate taught by University of Auckland International College, not a bachelor or an automatic mathematics-degree admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Delivery length depends on the approved route; the 2026 standard certificate regulation describes at least 41 weeks.",
+    "preparation": "Schooling and English conditions depend on the delivery route. Check mathematics subjects and the target BSc progression conditions.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.auckland.ac.nz/en/study/international-students/study-options-for-international-students/foundation-programmes-international-students.html",
+        "label": "University-recognized international foundation provider"
+      },
+      {
+        "url": "https://study.auckland.ac.nz/ords/r/uoa/catalogue/program?clear=5&p0_catalogue_term=99&p0_catalogue_year=2026&p5_code=FoundStCert",
+        "label": "2026 certificate regulations — not a confirmed 2027 fee schedule"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "ictp-postgraduate-diploma-mathematics",
+    "country": "Italy",
+    "institution": "ICTP",
+    "degree": "Foundation / Preparatory",
+    "title": "Postgraduate Diploma — Mathematics",
+    "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+    "note": "Post-bachelor research preparation, not an undergraduate foundation course and not an MSc. Topics include algebra, analysis and topology.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "1 academic year",
+    "preparation": "Official minimum: MSc-equivalent or an exceptionally good BSc; generally below age 28. Mathematics preparation includes abstract algebra, real/complex analysis and topology.",
+    "selection": "Academic record and recommendations; two references and English-language evidence.",
+    "application": "Qualified applicants from UN/UNESCO/IAEA member countries. Awards emphasize developing countries; self-funded admission is a separate possibility.",
+    "tuition": "No course fees stated by ICTP; living costs for self-funded participants remain separate.",
+    "fees": "No tuition; living costs separate",
+    "funding": "Competitive scholarship",
+    "fundingDetail": "The generic page describes around 10 scholarships per field for selected developing-country candidates, covering the year and travel. No universal funding guarantee.",
+    "cycle": "2026–27 curriculum reviewed. A verified next admissions deadline is not supplied by this record.",
+    "statistics": "Generic programme description: around 10 scholarship recipients per field, not total admitted cohort capacity or a new-cycle promise.",
+    "sources": [
+      {
+        "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Bachelor",
+      "Master"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "ku-leuven-master-of-mathematics",
+    "country": "Belgium",
+    "institution": "KU Leuven",
+    "degree": "Masters",
+    "title": "Master of Mathematics",
+    "url": "https://www.kuleuven.be/programmes/master-mathematics/index.html",
+    "note": "Choose the Pure Mathematics profile and Research Option for research preparation; Applied Mathematics and Professional Option are distinct curriculum choices within the same degree.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "120 ECTS; thesis 30 ECTS",
+    "preparation": "The programme describes ideal preparation of at least 90 ECTS in relevant mathematics. This description is not a substitute for binding admission requirements.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Prior degrees obtained outside the Flemish Community require an admissions process; direct access has specific local-degree conditions.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.kuleuven.be/programmes/master-mathematics/index.html",
+        "label": "Degree structure and research options"
+      },
+      {
+        "url": "https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_51958514/toelatingsvoorwaarden",
+        "label": "Binding admission requirements"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "universidad-nacional-de-colombia-bogota-msc-mathematics-maestria-en-ciencias",
+    "country": "Colombia",
+    "institution": "Universidad Nacional de Colombia — Bogotá",
+    "degree": "Masters",
+    "title": "MSc Mathematics — Maestría en Ciencias",
+    "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+    "note": "A mathematics research degree with a published 2027-01 admission calendar; it is not the separate applied-mathematics degree.",
+    "orientation": "Pure mathematics options",
+    "language": "Spanish — English entry-page translation supplied here",
+    "duration": "4 semesters",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Knowledge test in linear algebra, calculus, ODE, complex variables and mathematical foundations, followed by interview stages.",
+    "application": "Foreign applicants may present passport / foreign identity documents. Prior degree records, academic references and a financing statement are required.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "2027-01: registration/payment closes October 29, 2026; supporting records November 5. The source does not give closing hours.",
+    "statistics": "Admission page lists 25 regular places, plus distinct special-entry categories (8 early degree-option, 7 automatic, 2 transition, 1 double-degree, 2 transfer). The places block is adjacent to the 2027-01 calendar but does not itself label a year: confirm that allocation; these are not offers or matriculants.",
+    "sources": [
+      {
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "Maestría en Ciencias – Matemáticas",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "intakeYear": "2027",
+    "applicationWindow": {
+      "institution": "Universidad Nacional de Colombia — Bogotá",
+      "degree": "Masters",
+      "intake": "2027-01",
+      "openingDate": "2026-08-24",
+      "opensAt": "2026-08-24T00:00:00Z",
+      "closesAt": "2026-10-29T00:00:00Z",
+      "deadlineDate": "2026-10-29",
+      "deadlinePrecision": "date",
+      "timeZone": "America/Bogota",
+      "openingLabel": "2026-08-24; opening hour not stated",
+      "deadlineLabel": "2026-10-29; local closing hour not stated",
+      "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+      "reviewed": "2026-10-11"
+    },
+    "applicationDates": [
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-05",
+        "label": "November 5, 2026 — local closing hour not stated",
+        "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "pontificia-universidad-catolica-del-peru-master-in-mathematics",
+    "country": "Peru",
+    "institution": "Pontificia Universidad Católica del Perú",
+    "degree": "Masters",
+    "title": "Master in Mathematics",
+    "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+    "note": "The 2027-1 call includes a mathematics written examination and interview. Foreign-degree document legalization is explicitly addressed.",
+    "orientation": "Pure mathematics options",
+    "language": "Spanish — admission-page translation supplied here",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Written real-analysis and linear-algebra test February 24–26, 2027; interview and ECAP form separate assessment components. The page states a written-exam minimum of 13, not an overall admission guarantee.",
+    "application": "Foreign bachelor degrees require the specified legalization/apostille route; two academic recommendations and a motivation statement are listed.",
+    "tuition": "2027-1 application fee: PEN 550 for regular applicants, PEN 150 for PUCP graduates. This is not tuition; programme tuition remains unverified.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Registration August 17, 2026–February 16, 2027; study starts March 22. Source conflict: the supporting-document line says Thursday February 19, 2027, although that date is Friday. Confirm the date with the programme.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "Maestría en Matemáticas",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "intakeYear": "2027",
+    "applicationWindow": {
+      "institution": "Pontificia Universidad Católica del Perú",
+      "degree": "Masters",
+      "intake": "2027-1",
+      "openingDate": "2026-08-17",
+      "opensAt": "2026-08-17T00:00:00Z",
+      "closesAt": "2027-02-16T00:00:00Z",
+      "deadlineDate": "2027-02-16",
+      "deadlinePrecision": "date",
+      "timeZone": "America/Lima",
+      "openingLabel": "2026-08-17; opening hour not stated",
+      "deadlineLabel": "2027-02-16; local closing hour not stated",
+      "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+      "reviewed": "2026-10-11"
+    },
+    "region": "Americas",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "national-taiwan-university-master-in-mathematics-international-route",
+    "country": "Taiwan",
+    "institution": "National Taiwan University",
+    "degree": "Masters",
+    "title": "Master in Mathematics — international route",
+    "url": "https://www.math.ntu.edu.tw/en/node/4552",
+    "note": "A mathematics master with an international-degree application route. Do not confuse domestic examination admission with international screening.",
+    "orientation": "Pure mathematics options",
+    "language": "Not verified — consult the curriculum",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.math.ntu.edu.tw/en/node/4552",
+        "label": "Graduate mathematics programme"
+      },
+      {
+        "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+        "label": "International application eligibility and cycle"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "數學研究所碩士班",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "kaist-mathematical-sciences-international-graduate-admission",
+    "country": "South Korea",
+    "institution": "KAIST",
+    "degree": "Masters",
+    "title": "Mathematical Sciences — international graduate admission",
+    "url": "https://mathsci.kaist.ac.kr/home/en/education/enter/",
+    "note": "Graduate mathematics applicants use the international graduate admissions guide; the department’s generic document-delivery text should not override the newer central guide.",
+    "orientation": "Pure mathematics options",
+    "language": "Not verified — consult the curriculum",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Document assessment and interviews are described; verify the current mathematics-specific process.",
+    "application": "International graduate admission excludes holders of Korean citizenship, including dual holders. Korean-descent applicants have additional nationality/schooling conditions.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://mathsci.kaist.ac.kr/home/en/education/enter/",
+        "label": "Department graduate route"
+      },
+      {
+        "url": "https://admission.kaist.ac.kr/intl-graduate/Admission",
+        "label": "International citizenship eligibility — use the current guide for documents"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "eligibilityRule": "KAIST-international",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "universidad-de-buenos-aires-doctorate-in-mathematical-sciences",
+    "country": "Argentina",
+    "institution": "Universidad de Buenos Aires",
+    "degree": "Doctorate",
+    "title": "Doctorate in Mathematical Sciences",
+    "url": "https://web.dm.uba.ar/index.php/doctorado/318-admision-doctorado",
+    "note": "Research admission involves a thesis plan and proposed director; levelling courses or an admission examination may be requested. This route is not an automatic master-to-PhD transfer.",
+    "orientation": "Pure mathematics options",
+    "language": "Not verified — consult the curriculum",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Department committee evaluates academic background, thesis plan and English knowledge; it may require additional courses/examination.",
+    "application": "The proposed thesis director must formally support appointment. Applicants abroad are directed to the faculty doctoral office; confirm the current undated regulations and use the listed SIGEDOC procedure.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://web.dm.uba.ar/index.php/doctorado/318-admision-doctorado",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "Doctorado en Ciencias Matemáticas",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "indian-institute-of-science-integrated-phd-mathematics",
+    "country": "India",
+    "institution": "Indian Institute of Science",
+    "degree": "Doctorate",
+    "title": "Integrated PhD — Mathematics",
+    "url": "https://math.iisc.ac.in/degprog-intphd.html",
+    "note": "A bachelor-entry integrated research degree in pure and applied mathematics, not a separately advertised terminal MSc.",
+    "orientation": "Pure mathematics options",
+    "language": "Not verified — consult the curriculum",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Check the current central examination and interview guide; an older admission-year page is not evidence of next-year rules.",
+    "application": "Bachelor-entry programme verified. International applicants must confirm the applicable international route, rather than assume national-exam admission applies to every citizenship.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://math.iisc.ac.in/degprog-intphd.html",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "max-planck-institute-for-mathematics-mpim-postdoctoral-stay",
+    "country": "Germany",
+    "institution": "Max Planck Institute for Mathematics",
+    "degree": "Postdoctoral",
+    "title": "MPIM postdoctoral stay",
+    "url": "https://www.mpim-bonn.mpg.de/application",
+    "note": "A postdoctoral research stay with a mentor in Bonn, not a degree programme.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment — verify working arrangements",
+    "duration": "Up to 2 years under the stated postdoc route",
+    "preparation": "PhD completion and research fit; consult the call for start-date eligibility.",
+    "selection": "Two recommendation letters must arrive by the deadline. Important: the research statement must be written without AI under the institute’s published policy.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "This is a research stay, not a tuition-bearing degree. Contract/stipend, taxes and benefits are not verified.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next stated selection deadline October 16, 2026; closing hour not stated. The actual opening date is not supplied.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.mpim-bonn.mpg.de/application",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-16",
+        "label": "October 16, 2026 — applications and both letters; hour not stated",
+        "source": "https://www.mpim-bonn.mpg.de/application"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "max-planck-institute-for-mathematics-mpim-guest-programme",
+    "country": "Germany",
+    "institution": "Max Planck Institute for Mathematics",
+    "degree": "Visiting / Research institute",
+    "title": "MPIM Guest Programme",
+    "url": "https://www.mpim-bonn.mpg.de/application",
+    "note": "Guest stays for mathematicians with tenure; distinct from the postdoctoral route on the same application page.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment",
+    "duration": "A stay may extend up to 1 year; apply around a year before the intended start",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Research fit and two references. Read the institute’s no-AI research-statement policy before preparing materials.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Not a degree programme; financial support and employment status require confirmation.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.mpim-bonn.mpg.de/application",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-16",
+        "label": "Next stated selection round October 16, 2026; confirm intended visit timing",
+        "source": "https://www.mpim-bonn.mpg.de/application"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "institute-for-advanced-study-school-of-mathematics-postdoctoral-membership",
+    "country": "US",
+    "institution": "Institute for Advanced Study",
+    "degree": "Postdoctoral",
+    "title": "School of Mathematics — Postdoctoral Membership",
+    "url": "https://www.ias.edu/math/apply/membership",
+    "note": "Stipendiary membership in mathematics and theoretical computer science, not an IAS degree.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment",
+    "duration": "1 or 2 years",
+    "preparation": "Ordinary postdoctoral membership is described for researchers not more than 5 years from their PhD.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Not a degree tuition category; stipend conditions and current award amounts require the exact call.",
+    "fees": "Not a degree tuition category",
+    "funding": "Competitive stipendiary membership",
+    "fundingDetail": "Stipendiary positions are competitive; joint positions have distinct host and application conditions.",
+    "cycle": "Official page says applications are open and December 1 is the deadline, but omits an explicit deadline year. Do not infer a precise dated window until the linked MathJobs call confirms the year.",
+    "statistics": "Generic IAS description: about 35 postdoctoral memberships annually; about 85 Members across all categories. These figures are not 85 postdoc openings or a verified 2027 allocation.",
+    "sources": [
+      {
+        "url": "https://www.ias.edu/math/apply/membership",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "institute-for-advanced-study-school-of-mathematics-mid-to-senior-career-membership",
+    "country": "US",
+    "institution": "Institute for Advanced Study",
+    "degree": "Visiting / Research institute",
+    "title": "School of Mathematics — mid-to-senior career membership",
+    "url": "https://www.ias.edu/math/apply/membership",
+    "note": "Research membership beyond the postdoctoral stage; no degree is awarded. This is not a duplicate of the early-career membership path.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment",
+    "duration": "Usually 1 year or 1 term for this category",
+    "preparation": "The generic mid-to-senior category is for researchers beyond 5 years from PhD.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Not a degree; financial arrangements are individually assessed.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "Limited support may be available when external funds are insufficient; availability is not guaranteed.",
+    "cycle": "December 1 stated without an explicit year. Consult the linked current call rather than assuming the annual recurrence.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.ias.edu/math/apply/membership",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "johns-hopkins-university-phd-mathematics",
+    "country": "US",
+    "institution": "Johns Hopkins University",
+    "degree": "Doctorate",
+    "title": "PhD Mathematics",
+    "url": "https://mathematics.jhu.edu/graduate/admissions/",
+    "note": "A mathematics doctorate with a specific Fall 2027 notice, now linked from the researcher directory.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Academic records, statement and three recommendations. Mathematics Subject GRE is optional in this notice; English testing has separate conditions.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Support conditional on progress",
+    "fundingDetail": "The department states stipend, full tuition and benefits for admitted PhD students, guaranteed for five years subject to satisfactory progress. Stipend amount and the actual offer/collective agreement are not verified here; optional supplemental fellowships are competitive.",
+    "cycle": "Fall 2027: ordinary application materials December 15, 2026; VTSI consideration December 1, 2026. Closing hours and actual opening date are not established.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://mathematics.jhu.edu/graduate/admissions/",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-15",
+        "label": "December 15, 2026 — all ordinary materials; hour not stated",
+        "source": "https://mathematics.jhu.edu/graduate/admissions/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "December 1, 2026 — VTSI consideration; hour not stated",
+        "source": "https://mathematics.jhu.edu/graduate/admissions/"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "new-york-university-phd-mathematics-courant",
+    "country": "US",
+    "institution": "New York University",
+    "degree": "Doctorate",
+    "title": "PhD Mathematics — Courant",
+    "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/",
+    "note": "Pure and applied mathematics research at Courant. It is not the separate professional Mathematics in Finance degree.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Not verified in this review.",
+    "preparation": "The admission-policy page describes advanced calculus preparation; GSAS rules and degree equivalence also apply.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/",
+        "label": "Mathematics doctorate and areas"
+      },
+      {
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/admission-policies/",
+        "label": "Admission policy and central application route"
+      }
+    ],
+    "checked": "2026-10-11",
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "universidad-de-la-republica-master-in-mathematics-pedeciba-route",
+    "country": "Uruguay",
+    "institution": "Universidad de la República",
+    "degree": "Masters",
+    "title": "Master in Mathematics — PEDECIBA route",
+    "url": "https://www.cmat.edu.uy/posgrado",
+    "note": "The university offers pure and applied mathematics graduate study coordinated through PEDECIBA. This entry is the master route, not a duplicated doctorate count.",
+    "orientation": "Pure mathematics options",
+    "language": "Spanish — confirm individual course language",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Selection details for the next intake are not established here.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "CMAT mentions ANII support including non-faculty applicants; current competition, eligibility, amounts and award availability are not verified. This is not automatic funding.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.cmat.edu.uy/posgrado",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "Maestría en Matemática",
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-sydney-phd-science-mathematics-statistics-research",
+    "country": "Australia",
+    "institution": "University of Sydney",
+    "degree": "Doctorate",
+    "title": "PhD Science — Mathematics & Statistics research",
+    "url": "https://www.sydney.edu.au/courses/courses/pr/doctor-of-philosophy-science0.html",
+    "note": "Mathematics and Statistics, including pure mathematics, is a listed research area within the Faculty of Science PhD, not a separate degree awarded by the School.",
+    "orientation": "Pure mathematics options",
+    "language": "English — check the current language requirements",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Programme eligibility and supervisory fit are institution-assessed. Minimum eligibility does not guarantee admission.",
+    "application": "International student-visa holders must enrol full-time according to the course page. Check supervision and current scholarship procedures separately.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/courses/courses/pr/doctor-of-philosophy-science0.html",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-sydney-mphil-science-mathematics-statistics-research",
+    "country": "Australia",
+    "institution": "University of Sydney",
+    "degree": "Masters",
+    "title": "MPhil Science — Mathematics & Statistics research",
+    "url": "https://www.sydney.edu.au/courses/courses/pr/master-of-philosophy-science0.html",
+    "note": "A research master with mathematics among its listed research areas; application eligibility differs from the Science PhD. It is not an automatic later doctoral place.",
+    "orientation": "Pure mathematics options",
+    "language": "English — check the current language requirements",
+    "duration": "Not verified in this review.",
+    "preparation": "Consult the programme-specific qualification and subject requirements; equivalence is assessed by the institution.",
+    "selection": "Prior qualification in a subject related to the intended research area and the current MPhil admission requirements; supervisory availability needs confirmation.",
+    "application": "Use the official route; international eligibility, qualification equivalence and document format require individual confirmation.",
+    "tuition": "Next-intake tuition and compulsory charges are not verified; no amount is inferred.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Funding conditions and amounts are not established here. Admission does not guarantee an award.",
+    "cycle": "Next available application window not established; this is a route, not an assertion of open applications.",
+    "statistics": "Not verified; unknown places are not zero places.",
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/courses/courses/pr/master-of-philosophy-science0.html",
+        "label": "Official route-specific source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   }
 ]

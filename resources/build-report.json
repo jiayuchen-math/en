@@ -1,12 +1,183 @@
 {
   "date": "2026-10-11",
-  "library": 186,
-  "newLiterature": 134,
+  "library": 239,
+  "newLiterature": 187,
   "balancedExpansion": 36,
+  "foundationExpansion": 53,
+  "learningPaths": 29,
+  "subjects": [
+    {
+      "id": "proofs",
+      "works": 6
+    },
+    {
+      "id": "logic",
+      "works": 6
+    },
+    {
+      "id": "set-theory",
+      "works": 6
+    },
+    {
+      "id": "model-theory",
+      "works": 6
+    },
+    {
+      "id": "linear-algebra",
+      "works": 6
+    },
+    {
+      "id": "abstract-algebra",
+      "works": 6
+    },
+    {
+      "id": "commutative-algebra",
+      "works": 6
+    },
+    {
+      "id": "homological-algebra",
+      "works": 5
+    },
+    {
+      "id": "category-theory",
+      "works": 14
+    },
+    {
+      "id": "representation-theory",
+      "works": 4
+    },
+    {
+      "id": "algebraic-geometry",
+      "works": 33
+    },
+    {
+      "id": "calculus",
+      "works": 6
+    },
+    {
+      "id": "real-analysis",
+      "works": 6
+    },
+    {
+      "id": "measure-theory",
+      "works": 6
+    },
+    {
+      "id": "complex-analysis",
+      "works": 5
+    },
+    {
+      "id": "functional-analysis",
+      "works": 6
+    },
+    {
+      "id": "harmonic-analysis",
+      "works": 6
+    },
+    {
+      "id": "differential-equations",
+      "works": 13
+    },
+    {
+      "id": "point-set-topology",
+      "works": 6
+    },
+    {
+      "id": "algebraic-topology",
+      "works": 18
+    },
+    {
+      "id": "differential-geometry",
+      "works": 14
+    },
+    {
+      "id": "symplectic-geometry",
+      "works": 6
+    },
+    {
+      "id": "elementary-number-theory",
+      "works": 6
+    },
+    {
+      "id": "algebraic-number-theory",
+      "works": 8
+    },
+    {
+      "id": "analytic-number-theory",
+      "works": 7
+    },
+    {
+      "id": "modular-forms",
+      "works": 8
+    },
+    {
+      "id": "combinatorics",
+      "works": 8
+    },
+    {
+      "id": "probability",
+      "works": 16
+    },
+    {
+      "id": "dynamics",
+      "works": 5
+    }
+  ],
   "websites": 80,
-  "programs": 121,
-  "masters": 81,
-  "doctorates": 40,
-  "reviewedWindows": 11,
-  "openAtReview": 8
+  "programs": 149,
+  "researchers": 20,
+  "researchersWithPublicRecords": 2,
+  "confirmedIndividualVacancies": 0,
+  "opportunityTypes": {
+    "Masters": 88,
+    "Doctorate": 45,
+    "Undergraduate": 9,
+    "Foundation / Preparatory": 3,
+    "Postdoctoral": 2,
+    "Visiting / Research institute": 2
+  },
+  "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Belgium",
+    "Brazil",
+    "Canada",
+    "Chile",
+    "Colombia",
+    "Czech Republic",
+    "Denmark",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hong Kong",
+    "Hungary",
+    "India",
+    "Israel",
+    "Italy",
+    "Japan",
+    "Mexico",
+    "Netherlands",
+    "New Zealand",
+    "Norway",
+    "Peru",
+    "Poland",
+    "Portugal",
+    "Saudi Arabia",
+    "Singapore",
+    "South Africa",
+    "South Korea",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Taiwan",
+    "UK",
+    "US",
+    "Uruguay"
+  ],
+  "masters": 88,
+  "doctorates": 45,
+  "reviewedWindows": 13,
+  "openAtReview": 10
 }

@@ -1,6 +1,5 @@
 // Reviewed official windows, not inferred annual recurrences. Times are UTC internally.
-// Where an official page gives a date but no closing hour, stop the shortcut at the
-// start of that UTC date. This intentionally avoids saying "still open" on an uncertain deadline day.
+// Date-only windows retain the source's calendar day and an unverified closing hour.
 const reviewed='2026-10-11';
 export const windows=[
  {institution:'Harvard University',degree:'Doctorate',intake:'Fall 2027',opensAt:'2026-10-11T00:00:00Z',closesAt:'2026-12-15T00:00:00Z',openingLabel:'Open confirmed on October 11, 2026; actual opening date not stated',deadlineLabel:'December 15, 2026; closing hour not stated',source:'https://www.math.harvard.edu/graduate/',note:'The shortcut conservatively excludes the deadline day; confirm the portal closing time.'},
@@ -13,7 +12,14 @@ export const windows=[
  {institution:'ETH Zurich',degree:'Masters',intake:'Autumn 2027 — international bachelor’s-degree route',opensAt:'2026-11-02T00:00:00Z',closesAt:'2026-11-30T10:59:00Z',openingLabel:'November 1, 2026; exact opening hour not stated (shortcut uses the following UTC day)',deadlineLabel:'November 30, 2026, 11:59 am CET',source:'https://ethz.ch/en/studies/master/application/dates.html',note:'The November window applies to applicants with international bachelor’s degrees. The April 2027 round is only for Swiss-university bachelor’s degrees. The cutoff is midday, not midnight.'},
  {institution:'Weizmann Institute of Science',degree:'Masters',intake:'2027 MSc Mathematics and Computer Science admissions',opensAt:'2026-11-30T00:00:00Z',closesAt:'2027-03-31T00:00:00Z',openingLabel:'November 29, 2026; opening hour not stated (shortcut uses the following UTC day)',deadlineLabel:'March 31, 2027; closing hour not stated',source:'https://www.weizmann.ac.il/wsos/admissions/how-apply',note:'Use the Mathematics and Computer Science deadline, not the earlier Life Sciences deadline. The shortcut conservatively excludes the deadline day.'},
  {institution:'Lund University',degree:'Masters',intake:'Autumn 2027 — first international admissions round',opensAt:'2026-10-17T00:00:00Z',closesAt:'2027-01-15T00:00:00Z',openingLabel:'October 16, 2026; opening hour not stated (shortcut uses the following UTC day)',deadlineLabel:'January 15, 2027; verify the portal closing hour',source:'https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/',note:'The current central calendar and programme page both say October 16, correcting the earlier October 15 entry. Supporting documents and fee/status evidence have separate deadlines.'}
-].map(w=>({...w,reviewed}));
+].map(w=>{
+ const dateOnly=/closing hour not stated|verify the portal closing hour/.test(w.deadlineLabel);
+ const openingCorrections={'University of Cambridge':'2026-09-09','University of British Columbia':'2026-10-01','ETH Zurich':'2026-11-01','Weizmann Institute of Science':'2026-11-29','Lund University':'2026-10-16'};
+ const timeZone={'Harvard University':'America/New_York','Stanford University':'America/Los_Angeles','University of California, Berkeley':'America/Los_Angeles','University of Oxford':'Europe/London','University of Cambridge':'Europe/London','University of British Columbia':'America/Vancouver','ETH Zurich':'Europe/Zurich','Weizmann Institute of Science':'Asia/Jerusalem','Lund University':'Europe/Stockholm'}[w.institution];
+ return {...w,reviewed,timeZone,deadlineDate:dateOnly?w.closesAt.slice(0,10):new Intl.DateTimeFormat('en-CA',{timeZone,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(w.closesAt)),deadlinePrecision:dateOnly?'date':'time',openingDate:openingCorrections[w.institution]||null,
+  openingLabel:w.openingLabel.replace(/ \(shortcut uses the following UTC day\)/,''),
+  note:w.note.replace(/The shortcut conservatively excludes the deadline day;?\s*/g,'Closing time is unverified; ')};
+});
 export function withApplicationWindow(programme){
  const window=windows.find(w=>w.institution===programme.institution&&w.degree===programme.degree);
  if(!window)return programme;
