@@ -35,3 +35,9 @@ The researcher directory now contains 100 source-linked affiliations, including 
 Run `node resources/test-controls.mjs` for combined filters, pagination, date-only/timezone boundaries, fee-status edge cases and public-record checks. Structural validation covers full static entries and internal links. `build-report.json` reports actual counts, not targets. Network failures and editorial source corrections are documented in `REVIEW-2026-10-11.md`.
 
 Library and Reading Notes are sibling sections of Mathematics Resources. Old library URLs are retained, but the Library's top-level return link goes to the resources hub. Site-wide external HTTP(S) anchors open a new tab with `noopener noreferrer`; internal links keep normal navigation. Building updates only those anchor attributes in unrelated note pages, not their prose or formulas.
+
+## October 12 global directory expansion
+
+The current directory has 1,195 researchers and 869 sourced public emails across 18 countries/territories, not a complete worldwide census. Published research topics, group-membership evidence and unknown topics have separate filters. Current supervision eligibility and vacancies are not inferred. `researchers-global.json` is the source snapshot; the original curated files and recent student records remain available.
+
+Study & Careers now has 225 routes, including 25 new Commonwealth/North American undergraduate, master and doctoral routes. `programs-commonwealth-expansion.mjs` holds dated official requirement/cost/funding evidence and updates three existing UBC/MIT records. Historical fees, recurring dates without a year, conditional support and combined cohorts remain labelled. Numeric intake and competitive admitted-GPA information are often unpublished and are not invented. See [the review report](REVIEW-2026-10-12-GLOBAL.md) for limits and primary sources.

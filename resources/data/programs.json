@@ -1246,20 +1246,32 @@
     "duration": "Not verified here; see the official degree structure.",
     "language": "English",
     "preparation": "Editorial preparation guide, not a formal admissions rule: graduate-level preparation in the intended area, substantial proof-writing and evidence of readiness for research. Check whether a bachelor’s or master’s degree is required.",
-    "selection": "Not established in this review. Consult the current programme-specific official notice; do not assume the previous cycle applies.",
+    "selection": "Fall entry only; three or more academic recommendations, academic records, objectives and English evidence where required. GRE is optional for this cycle; not submitting it is not penalized.",
     "application": "Use the linked official application route. International degree equivalence, residence-specific application route, visa rules and any language exemptions must be checked individually.",
     "tuition": "Not verified for the next intake or your citizenship/residence category. Request the amount, currency, charging period and mandatory additional fees before accepting an offer.",
     "fees": "Amount not verified",
-    "funding": "Award not verified",
-    "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Next available application cycle and exact deadline not established here. The linked programme is included as a degree pathway, not as a claim that applications are currently open.",
+    "funding": "Department funding policy — confirm offer",
+    "fundingDetail": "The mathematics admissions page says all admitted students are offered financial support and a separate funding application is not required. Exact stipend, covered charges, duration and progress conditions must be read in the current offer.",
+    "cycle": "Fall 2027 application deadline: December 1, 2026, 11:59 pm EST. Fee-waiver request deadline: November 20, 2026. The application fee is USD 90; this is not tuition.",
     "sources": [
       {
         "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
         "label": "Official programme / admissions source"
+      },
+      {
+        "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+        "label": "Current mathematics admissions, fee and funding policy"
       }
     ],
-    "checked": "2026-10-11",
+    "checked": "2026-10-12",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "December 1, 2026, 11:59 pm EST",
+        "source": "https://math.mit.edu/academics/grad/phd/admission/index.html"
+      }
+    ],
     "programmeForm": "Single-country pathway",
     "intakeYear": "Year not verified"
   },
@@ -1491,39 +1503,48 @@
     "orientation": "Pure mathematics options",
     "duration": "Not verified here; see the official degree structure.",
     "language": "English",
-    "preparation": "Editorial preparation guide, not a formal admissions rule: proof-based linear algebra, real analysis, abstract algebra and topology. The official page governs degree equivalence and prerequisite credits.",
-    "selection": "The department recommends identifying possible supervisors; a later UBC master does not guarantee doctoral admission.",
+    "preparation": "Normally a four-year honours bachelor’s in mathematics or closely related area. The department states 76% in upper-year courses for Canadian degrees or 3.3/4.0 in third/fourth-year courses for US degrees; accepted applicants commonly exceed those minima. International systems require their own equivalence assessment.",
+    "selection": "Senior real analysis (including measure/integration), complex analysis, abstract algebra and a distinct additional mathematical topic are prioritized. Confirm the relevant research area and English requirement.",
     "application": "Use the linked official application route. International degree equivalence, residence-specific application route, visa rules and any language exemptions must be checked individually.",
     "tuition": "Not verified for the next intake or your citizenship/residence category. Request the amount, currency, charging period and mandatory additional fees before accepting an offer.",
     "fees": "Amount not verified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Next annual mathematics intake; exact start term must be confirmed. October 1, 2026; opening hour not stated. Deadline: December 23, 2026; closing hour not stated. The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
+    "cycle": "September 2027. October 1, 2026; opening hour not stated. Deadline: December 23, 2026; closing hour not stated. Supporting documents and references are due December 31, 2026. MSc and PhD are different entry routes; closing hour is unverified.",
     "sources": [
       {
         "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
         "label": "Reviewed application window / specific deadline"
       }
     ],
-    "checked": "2026-10-11",
+    "checked": "2026-10-12",
+    "statistics": "The department reports 30–40 new graduate students each year from over 300 applications, COMBINING MSc and PhD. No separate degree breakdown or year-labelled 2027 quota is published.",
+    "applicationDates": [
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-31",
+        "label": "Supporting documents/references: December 31, 2026; closing hour unverified",
+        "source": "https://www.math.ubc.ca/graduate/prospective-students/admissions"
+      }
+    ],
     "applicationWindow": {
       "institution": "University of British Columbia",
       "degree": "Masters",
-      "intake": "Next annual mathematics intake; exact start term must be confirmed",
+      "intake": "September 2027",
       "opensAt": "2026-10-02T00:00:00Z",
       "closesAt": "2026-12-23T00:00:00Z",
       "openingLabel": "October 1, 2026; opening hour not stated",
       "deadlineLabel": "December 23, 2026; closing hour not stated",
       "source": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
-      "note": "The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
-      "reviewed": "2026-10-11",
+      "note": "Supporting documents and references are due December 31, 2026. MSc and PhD are different entry routes; closing hour is unverified.",
+      "reviewed": "2026-10-12",
       "timeZone": "America/Vancouver",
       "deadlineDate": "2026-12-23",
       "deadlinePrecision": "date",
       "openingDate": "2026-10-01"
     },
     "programmeForm": "Single-country pathway",
-    "intakeYear": "Year not verified"
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-british-columbia-phd-mathematics",
@@ -1537,39 +1558,48 @@
     "orientation": "Pure mathematics options",
     "duration": "Not verified here; see the official degree structure.",
     "language": "English",
-    "preparation": "Editorial preparation guide, not a formal admissions rule: graduate-level preparation in the intended area, substantial proof-writing and evidence of readiness for research. Check whether a bachelor’s or master’s degree is required.",
-    "selection": "Not established in this review. Consult the current programme-specific official notice; do not assume the previous cycle applies.",
+    "preparation": "Normally a relevant master’s. Exceptional direct bachelor entry or transfer from MSc has additional nomination / coursework / research-readiness conditions; it is not the standard route.",
+    "selection": "Senior real analysis (including measure/integration), complex analysis, abstract algebra and a distinct additional mathematical topic are prioritized. Confirm the relevant research area and English requirement.",
     "application": "Use the linked official application route. International degree equivalence, residence-specific application route, visa rules and any language exemptions must be checked individually.",
     "tuition": "Not verified for the next intake or your citizenship/residence category. Request the amount, currency, charging period and mandatory additional fees before accepting an offer.",
     "fees": "Amount not verified",
     "funding": "Award not verified",
     "fundingDetail": "No funding guarantee is made. Check scholarship eligibility, separate application dates, duration, renewal conditions and whether tuition and living costs are covered.",
-    "cycle": "Next annual mathematics intake; exact start term must be confirmed. October 1, 2026; opening hour not stated. Deadline: December 23, 2026; closing hour not stated. The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
+    "cycle": "September 2027. October 1, 2026; opening hour not stated. Deadline: December 23, 2026; closing hour not stated. Supporting documents and references are due December 31, 2026. MSc and PhD are different entry routes; closing hour is unverified.",
     "sources": [
       {
         "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
         "label": "Reviewed application window / specific deadline"
       }
     ],
-    "checked": "2026-10-11",
+    "checked": "2026-10-12",
+    "statistics": "The department reports 30–40 new graduate students each year from over 300 applications, COMBINING MSc and PhD. No separate degree breakdown or year-labelled 2027 quota is published.",
+    "applicationDates": [
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-31",
+        "label": "Supporting documents/references: December 31, 2026; closing hour unverified",
+        "source": "https://www.math.ubc.ca/graduate/prospective-students/admissions"
+      }
+    ],
     "applicationWindow": {
       "institution": "University of British Columbia",
       "degree": "Doctorate",
-      "intake": "Next annual mathematics intake; exact start term must be confirmed",
+      "intake": "September 2027",
       "opensAt": "2026-10-02T00:00:00Z",
       "closesAt": "2026-12-23T00:00:00Z",
       "openingLabel": "October 1, 2026; opening hour not stated",
       "deadlineLabel": "December 23, 2026; closing hour not stated",
       "source": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
-      "note": "The department gives a current common graduate application window; MSc and PhD remain distinct entry routes. Closing time is unverified; confirm the intake and portal time.",
-      "reviewed": "2026-10-11",
+      "note": "Supporting documents and references are due December 31, 2026. MSc and PhD are different entry routes; closing hour is unverified.",
+      "reviewed": "2026-10-12",
       "timeZone": "America/Vancouver",
       "deadlineDate": "2026-12-23",
       "deadlinePrecision": "date",
       "openingDate": "2026-10-01"
     },
     "programmeForm": "Single-country pathway",
-    "intakeYear": "Year not verified"
+    "intakeYear": "2027"
   },
   {
     "id": "university-of-waterloo-mmath-pure-mathematics",
@@ -6806,5 +6836,1505 @@
     ],
     "region": "Asia",
     "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-sheffield-mathematics-bsc-2027",
+    "country": "UK",
+    "institution": "University of Sheffield",
+    "degree": "Undergraduate",
+    "title": "Mathematics BSc — 2027",
+    "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Three years full-time; September 2027; UCAS G100.",
+    "preparation": "Standard A-level offer AAA including Mathematics. The published alternative is AAB including A in Mathematics plus A in the EPQ or B in Further Mathematics. IB: 36 with 6 in Higher Level Mathematics; alternative arrangements and contextual criteria are in the source.",
+    "selection": "Access Sheffield contextual offers require the scheme’s own eligibility. The advertised standard offer is not the minimum grade achieved by every admitted applicant.",
+    "application": "Use the appropriate first-year or UCAS route. International qualifications are assessed separately; contextual offers have eligibility conditions and are not universal.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "September 2027 entry is published. Check UCAS for the applicable submission deadline.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Standard A-level offer AAA including Mathematics. The published alternative is AAB including A in Mathematics plus A in the EPQ or B in Further Mathematics. IB: 36 with 6 in Higher Level Mathematics; alternative arrangements and contextual criteria are in the source.",
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Access Sheffield contextual offers require the scheme’s own eligibility. The advertised standard offer is not the minimum grade achieved by every admitted applicant.",
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "September 2027 entry is published. Check UCAS for the applicable submission deadline.",
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-sheffield-mathematics-msc-2027",
+    "country": "UK",
+    "institution": "University of Sheffield",
+    "degree": "Masters",
+    "title": "Mathematics MSc — 2027",
+    "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "One year full-time; September 2027.",
+    "preparation": "Published normal minimum: UK 2:1 honours in mathematics or accepted equivalent. Other relevant qualifications or experience may be assessed individually. IELTS 6.5 overall and at least 6.0 in each component.",
+    "selection": "This specific taught MSc page says references and a personal statement are not required. That rule is not generalized to research degrees.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "The course page links international postgraduate and alumni awards. Eligibility and award year must be checked separately; no scholarship amount is treated as guaranteed.",
+    "cycle": "The official course page is for September 2027 and provides an application route. Exact opening and closing dates were not verified.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Published normal minimum: UK 2:1 honours in mathematics or accepted equivalent. Other relevant qualifications or experience may be assessed individually. IELTS 6.5 overall and at least 6.0 in each component.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "This specific taught MSc page says references and a personal statement are not required. That rule is not generalized to research degrees.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "The official course page is for September 2027 and provides an application route. Exact opening and closing dates were not verified.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The course page links international postgraduate and alumni awards. Eligibility and award year must be checked separately; no scholarship amount is treated as guaranteed.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-leeds-mathematics-bsc-2027",
+    "country": "UK",
+    "institution": "University of Leeds",
+    "degree": "Undergraduate",
+    "title": "Mathematics BSc — 2027",
+    "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Three years full-time; September 2027; UCAS G100.",
+    "preparation": "Standard offer AAA/A*AB including A in Mathematics. Published lower variants AAB/A*BB require additional qualifying preparation such as Further Mathematics; consult the full subject conditions. IELTS 6.0 overall, at least 5.5 per component.",
+    "selection": "Access to Leeds lists ABB including A in Mathematics plus completion of the scheme, or its specified Further Mathematics alternative. Contextual eligibility must be established.",
+    "application": "Use the appropriate first-year or UCAS route. International qualifications are assessed separately; contextual offers have eligibility conditions and are not universal.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "2027 course information is published; apply through UCAS. The precise UCAS deadline is not independently transcribed here.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Standard offer AAA/A*AB including A in Mathematics. Published lower variants AAB/A*BB require additional qualifying preparation such as Further Mathematics; consult the full subject conditions. IELTS 6.0 overall, at least 5.5 per component.",
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Access to Leeds lists ABB including A in Mathematics plus completion of the scheme, or its specified Further Mathematics alternative. Contextual eligibility must be established.",
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 course information is published; apply through UCAS. The precise UCAS deadline is not independently transcribed here.",
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-leeds-mathematics-msc-2027",
+    "country": "UK",
+    "institution": "University of Leeds",
+    "degree": "Masters",
+    "title": "Mathematics MSc — 2027",
+    "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published 2027 amount / status dependent",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "One year full-time; September 2027.",
+    "preparation": "UK 2:1 honours in mathematics or a degree with substantial advanced mathematics; the department needs details of studied modules. IELTS 6.5 overall, at least 6.0 per component.",
+    "selection": "Academic qualification equivalence and mathematical module coverage are assessed individually. No published competitive admitted-GPA distribution was located.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "2027 full course tuition: GBP 13,400 at the UK rate; GBP 30,000 at the international rate. University fee-status assessment applies; possession of a student visa alone does not establish the UK rate.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "Published 2027 deadlines: July 30 for international applicants; September 10 for UK applicants. Closing hour and exceptional late consideration are not verified.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-07-30",
+        "label": "International applicants: July 30, 2027; closing hour unverified",
+        "source": "https://courses.leeds.ac.uk/f669/mathematics-msc"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-09-10",
+        "label": "UK applicants: September 10, 2027; closing hour unverified",
+        "source": "https://courses.leeds.ac.uk/f669/mathematics-msc"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "UK 2:1 honours in mathematics or a degree with substantial advanced mathematics; the department needs details of studied modules. IELTS 6.5 overall, at least 6.0 per component.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Academic qualification equivalence and mathematical module coverage are assessed individually. No published competitive admitted-GPA distribution was located.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "2027 full course tuition: GBP 13,400 at the UK rate; GBP 30,000 at the international rate. University fee-status assessment applies; possession of a student visa alone does not establish the UK rate.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "cycle",
+        "text": "Published 2027 deadlines: July 30 for international applicants; September 10 for UK applicants. Closing hour and exceptional late consideration are not verified.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-liverpool-mathematics-bsc-hons-2027",
+    "country": "UK",
+    "institution": "University of Liverpool",
+    "degree": "Undergraduate",
+    "title": "Mathematics BSc (Hons) — 2027",
+    "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Three years full-time; September 27, 2027; UCAS G100.",
+    "preparation": "Published typical A-level offer ABB. Read the Mathematics subject requirement and accepted alternative qualifications in the course page before interpreting that overall offer.",
+    "selection": "Check the current test, reference and supervisor requirements.",
+    "application": "Use the appropriate first-year or UCAS route. International qualifications are assessed separately; contextual offers have eligibility conditions and are not universal.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "The 2027 page lists January 13, 2027 for UK applicants and June 30, 2027 for international applicants. These are distinct applicant routes, not interchangeable deadlines.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-13",
+        "label": "UK applicants: January 13, 2027; closing hour unverified",
+        "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-06-30",
+        "label": "International applicants: June 30, 2027; closing hour unverified",
+        "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Published typical A-level offer ABB. Read the Mathematics subject requirement and accepted alternative qualifications in the course page before interpreting that overall offer.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "cycle",
+        "text": "The 2027 page lists January 13, 2027 for UK applicants and June 30, 2027 for international applicants. These are distinct applicant routes, not interchangeable deadlines.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-liverpool-mathematical-sciences-msc-2027",
+    "country": "UK",
+    "institution": "University of Liverpool",
+    "degree": "Masters",
+    "title": "Mathematical Sciences MSc — 2027",
+    "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published 2027 amount / status dependent",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "One year full-time or two years part-time.",
+    "preparation": "Published UK minimum 2:2 honours in mathematics or accepted equivalent. Other quantitative degrees can be considered with sufficient mathematics; equivalence is individually assessed.",
+    "selection": "Check the current test, reference and supervisor requirements.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "2027 tuition per year: UK/Channel Islands/Isle of Man/Republic of Ireland rate GBP 14,500 full-time or GBP 7,250 part-time; international rate GBP 33,000 full-time or GBP 16,500 part-time. The university assesses fee status.",
+    "fundingDetail": "The course lists a GBP 1,500 UK/Republic of Ireland Liverpool graduate loyalty discount subject to its full rules. The GBP 5,000 Bracken award is explicitly labelled 2026/27 for two UK students: historical relative to September 2027 and NOT a confirmed 2027/28 award.",
+    "cycle": "September 2027 course page. Some module details are still labelled 2026 and scheduled for review by April 30, 2027; the 2027 curriculum and next application deadline must be reconfirmed.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Published UK minimum 2:2 honours in mathematics or accepted equivalent. Other quantitative degrees can be considered with sufficient mathematics; equivalence is individually assessed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "tuition",
+        "text": "2027 tuition per year: UK/Channel Islands/Isle of Man/Republic of Ireland rate GBP 14,500 full-time or GBP 7,250 part-time; international rate GBP 33,000 full-time or GBP 16,500 part-time. The university assesses fee status.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The course lists a GBP 1,500 UK/Republic of Ireland Liverpool graduate loyalty discount subject to its full rules. The GBP 5,000 Bracken award is explicitly labelled 2026/27 for two UK students: historical relative to September 2027 and NOT a confirmed 2027/28 award.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "field": "cycle",
+        "text": "September 2027 course page. Some module details are still labelled 2026 and scheduled for review by April 30, 2027; the 2027 curriculum and next application deadline must be reconfirmed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "the-open-university-mathematics-msc-distance-learning-f04-",
+    "country": "UK",
+    "institution": "The Open University",
+    "degree": "Masters",
+    "title": "Mathematics MSc — distance learning (F04)",
+    "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Historical 2026/27 amount — next year unverified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "180 credits including a 30-credit dissertation; normally three years part-time, with a two-year higher-load route and no fixed overall completion time limit.",
+    "preparation": "Use the official qualification-specific entry criteria and diagnostic quiz. Non-standard applicants may face an entry test; non-graduates are not normally admitted. Missing qualification bullets in the accessible page are not reconstructed.",
+    "selection": "Check international recognition and availability where you live. Some options run only in alternating years; not every module can be taken in October 2027.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "The page’s indicative total GBP 9,300–9,350 is for 2026/27 modules starting before July 31, 2027 and the page is displaying England. Fees are paid module by module. It is NOT an October 2027 price or a verified price for every residence.",
+    "fundingDetail": "Payment options and loans depend on residence and eligibility. A repayable student loan is not a scholarship, and employer sponsorship is not assumed.",
+    "cycle": "2027/28 modules are open for pre-booking, not completed registration. The page says updated 2027/28 fees will be published in March 2027.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Use the official qualification-specific entry criteria and diagnostic quiz. Non-standard applicants may face an entry test; non-graduates are not normally admitted. Missing qualification bullets in the accessible page are not reconstructed.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Check international recognition and availability where you live. Some options run only in alternating years; not every module can be taken in October 2027.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "The page’s indicative total GBP 9,300–9,350 is for 2026/27 modules starting before July 31, 2027 and the page is displaying England. Fees are paid module by module. It is NOT an October 2027 price or a verified price for every residence.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "cycle",
+        "text": "2027/28 modules are open for pre-booking, not completed registration. The page says updated 2027/28 fees will be published in March 2027.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Payment options and loans depend on residence and eligibility. A repayable student loan is not a scholarship, and employer sponsorship is not assumed.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-saskatchewan-mathematics-msc-thesis",
+    "country": "Canada",
+    "institution": "University of Saskatchewan",
+    "degree": "Masters",
+    "title": "Mathematics MSc — thesis",
+    "url": "https://grad.usask.ca/programs/mathematics.php",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published 2026/27 amount / status dependent",
+    "funding": "Department funding policy — confirm offer",
+    "sources": [
+      {
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Two-year thesis MSc.",
+    "preparation": "Four-year honours degree or equivalent in a relevant field, with at least 70% on the USask scale in the final two years / 60 credits. This is eligibility, not an admitted-grade distribution.",
+    "selection": "Three recommendations: two academic; the third may be academic or professional. Confirm proposed research and supervisor fit.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "2026/27 thesis MSc tuition per term: CAD 1,902 domestic; CAD 4,279 international, assessed for three terms per year. Additional student fees are separate. These are not confirmed 2027/28 amounts.",
+    "fundingDetail": "The page describes normal Graduate Teaching Fellowship support with a published amount of at least CAD 21,000. The displayed funding paragraph does not unambiguously specify the charging/award period; confirm period, duration and duties in the offer, rather than treating this as guaranteed annual cash.",
+    "cycle": "The page gives December 15 as the Fall application deadline without naming a new intake year. No 2027 opening window is inferred from that recurring date.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Four-year honours degree or equivalent in a relevant field, with at least 70% on the USask scale in the final two years / 60 credits. This is eligibility, not an admitted-grade distribution.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Three recommendations: two academic; the third may be academic or professional. Confirm proposed research and supervisor fit.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "2026/27 thesis MSc tuition per term: CAD 1,902 domestic; CAD 4,279 international, assessed for three terms per year. Additional student fees are separate. These are not confirmed 2027/28 amounts.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The page describes normal Graduate Teaching Fellowship support with a published amount of at least CAD 21,000. The displayed funding paragraph does not unambiguously specify the charging/award period; confirm period, duration and duties in the offer, rather than treating this as guaranteed annual cash.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "field": "cycle",
+        "text": "The page gives December 15 as the Fall application deadline without naming a new intake year. No 2027 opening window is inferred from that recurring date.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-saskatchewan-mathematics-phd",
+    "country": "Canada",
+    "institution": "University of Saskatchewan",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://grad.usask.ca/programs/mathematics.php",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published 2026/27 amount / status dependent",
+    "funding": "Department funding policy — confirm offer",
+    "sources": [
+      {
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Four-year thesis PhD.",
+    "preparation": "Relevant master’s degree and at least 70% on the USask scale in the last two years of the master’s coursework. This page says a bachelor’s degree alone does not admit directly to this PhD.",
+    "selection": "Three recommendations: two academic; the third may be academic or professional. Confirm proposed research and supervisor fit.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "2026/27 PhD tuition CAD 1,879 per term, domestic and international, assessed for three terms per year. Mandatory student fees are separate; 2027/28 is not verified.",
+    "fundingDetail": "The page describes normal Graduate Teaching Fellowship support with a published amount of at least CAD 25,000. Confirm award period, duration, duties and conditions in the offer; do not assume an unconditional annual guarantee.",
+    "cycle": "The page gives December 15 as the Fall application deadline without naming a new intake year. No 2027 opening window is inferred from that recurring date.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Relevant master’s degree and at least 70% on the USask scale in the last two years of the master’s coursework. This page says a bachelor’s degree alone does not admit directly to this PhD.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Three recommendations: two academic; the third may be academic or professional. Confirm proposed research and supervisor fit.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "2026/27 PhD tuition CAD 1,879 per term, domestic and international, assessed for three terms per year. Mandatory student fees are separate; 2027/28 is not verified.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The page describes normal Graduate Teaching Fellowship support with a published amount of at least CAD 25,000. Confirm award period, duration, duties and conditions in the offer; do not assume an unconditional annual guarantee.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "field": "cycle",
+        "text": "The page gives December 15 as the Fall application deadline without naming a new intake year. No 2027 opening window is inferred from that recurring date.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "memorial-university-of-newfoundland-mathematics-msc-thesis-or-course-project",
+    "country": "Canada",
+    "institution": "Memorial University of Newfoundland",
+    "degree": "Masters",
+    "title": "Mathematics MSc — thesis or course/project",
+    "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published page amount — year not stated",
+    "funding": "Competitive research support — not automatic",
+    "sources": [
+      {
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official programme / published requirements"
+      },
+      {
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Mathematics thesis MSc: two years; course/project MSc: three semesters (one year). These are options within one degree entry.",
+    "preparation": "Bachelor’s degree, at least second class, in an appropriate area. Programme-specific assessment and accepted international equivalence still apply.",
+    "selection": "Research applicants are strongly encouraged to identify and contact a suitable faculty supervisor at application time; a public email is not an acceptance.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Programme page tuition per semester, depending on payment plan: CAD 635–1,313 for Newfoundland and Labrador students; CAD 826–1,707 for other Canadian students; CAD 1,074–2,218 for international students. The page does not identify these as 2027/28 rates; confirm the relevant plan and added charges.",
+    "fundingDetail": "Eligible full-time research applicants are automatically considered for competitive internal support, not guaranteed an award. The programme summary lists CAD 18,300 without explicitly stating the award period or future intake year; confirm the package in the offer. Central policy requires full-time status and academic standing, with a normal eligibility period of two years for research masters (one for one-year programmes).",
+    "cycle": "Recurring January 15 deadline for Fall; August 15 for Winter is PhD only. The source does not name the next calendar-year window.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "fieldSources": {
+      "fundingDetail": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/"
+    },
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Bachelor’s degree, at least second class, in an appropriate area. Programme-specific assessment and accepted international equivalence still apply.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Research applicants are strongly encouraged to identify and contact a suitable faculty supervisor at application time; a public email is not an acceptance.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "Programme page tuition per semester, depending on payment plan: CAD 635–1,313 for Newfoundland and Labrador students; CAD 826–1,707 for other Canadian students; CAD 1,074–2,218 for international students. The page does not identify these as 2027/28 rates; confirm the relevant plan and added charges.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Eligible full-time research applicants are automatically considered for competitive internal support, not guaranteed an award. The programme summary lists CAD 18,300 without explicitly stating the award period or future intake year; confirm the package in the offer. Central policy requires full-time status and academic standing, with a normal eligibility period of two years for research masters (one for one-year programmes).",
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring January 15 deadline for Fall; August 15 for Winter is PhD only. The source does not name the next calendar-year window.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "memorial-university-of-newfoundland-mathematics-phd",
+    "country": "Canada",
+    "institution": "Memorial University of Newfoundland",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published page amount — year not stated",
+    "funding": "Competitive research support — not automatic",
+    "sources": [
+      {
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official programme / published requirements"
+      },
+      {
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Research PhD with comprehensive examination and thesis; description says three to four years, while the summary lists four years.",
+    "preparation": "Relevant master’s degree; research preparation is assessed by the department.",
+    "selection": "Research applicants are strongly encouraged to identify and contact a suitable faculty supervisor at application time; a public email is not an acceptance.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Programme page tuition per semester: CAD 888 Newfoundland and Labrador; CAD 1,154 other Canadian; CAD 1,499 international. The fee year is not named on the programme summary; confirm the current schedule and additional charges.",
+    "fundingDetail": "Eligible full-time research applicants are automatically considered for competitive internal support, not guaranteed an award. The programme summary lists CAD 22,300 without explicitly stating the award period or future intake year; confirm the package in the offer. Central policy requires full-time status and academic standing, with a normal eligibility period of four years for PhDs.",
+    "cycle": "Recurring January 15 deadline for Fall; August 15 for Winter is PhD only. The source does not name the next calendar-year window.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "fieldSources": {
+      "fundingDetail": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/"
+    },
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Relevant master’s degree; research preparation is assessed by the department.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Research applicants are strongly encouraged to identify and contact a suitable faculty supervisor at application time; a public email is not an acceptance.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "Programme page tuition per semester: CAD 888 Newfoundland and Labrador; CAD 1,154 other Canadian; CAD 1,499 international. The fee year is not named on the programme summary; confirm the current schedule and additional charges.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Eligible full-time research applicants are automatically considered for competitive internal support, not guaranteed an award. The programme summary lists CAD 22,300 without explicitly stating the award period or future intake year; confirm the package in the offer. Central policy requires full-time status and academic standing, with a normal eligibility period of four years for PhDs.",
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring January 15 deadline for Fall; August 15 for Winter is PhD only. The source does not name the next calendar-year window.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-manitoba-mathematics-msc",
+    "country": "Canada",
+    "institution": "University of Manitoba",
+    "degree": "Masters",
+    "title": "Mathematics MSc",
+    "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-msc",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-msc",
+        "label": "Official mathematics degree and admission rules"
+      },
+      {
+        "url": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+        "label": "Official graduate tuition — select degree and fee status"
+      },
+      {
+        "url": "https://umanitoba.ca/graduate-studies/funding-awards-and-financial-aid",
+        "label": "Official funding and award criteria"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Expected two years, with thesis and coursework/project paths. Pre-master’s study is not counted as a master’s degree.",
+    "preparation": "BSc in Mathematics, honours or four-year major, or equivalent mathematical background; also meet the central Graduate Studies minimum and English requirements.",
+    "selection": "A faculty supervisor must be selected before acceptance. Online materials include transcripts/degree certificates, CV, two references, essay or mathematics questions, and English evidence where required.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "MSc accepts Fall and Winter. The annual table distinguishes Canadian AND US applicants (May 1 Fall; September 1 Winter) from international applicants (January 8 Fall; March 15 Winter). Pre-master’s deadlines are different and are not MSc deadlines. Intake year and exact portal closing time are not established.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "BSc in Mathematics, honours or four-year major, or equivalent mathematical background; also meet the central Graduate Studies minimum and English requirements.",
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-msc",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "A faculty supervisor must be selected before acceptance. Online materials include transcripts/degree certificates, CV, two references, essay or mathematics questions, and English evidence where required.",
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-msc",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "MSc accepts Fall and Winter. The annual table distinguishes Canadian AND US applicants (May 1 Fall; September 1 Winter) from international applicants (January 8 Fall; March 15 Winter). Pre-master’s deadlines are different and are not MSc deadlines. Intake year and exact portal closing time are not established.",
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-msc",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-manitoba-mathematics-phd",
+    "country": "Canada",
+    "institution": "University of Manitoba",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-phd",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-phd",
+        "label": "Official mathematics degree and admission rules"
+      },
+      {
+        "url": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+        "label": "Official graduate tuition — select degree and fee status"
+      },
+      {
+        "url": "https://umanitoba.ca/graduate-studies/funding-awards-and-financial-aid",
+        "label": "Official funding and award criteria"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Expected four to six years.",
+    "preparation": "MSc in Mathematics or equivalent, plus the central Graduate Studies minimum and English requirements.",
+    "selection": "A faculty supervisor must be selected before acceptance. Online materials include transcripts/degree certificates, CV, two references, essay or mathematics questions, and English evidence where required.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "Fall and Winter entry; consult the programme’s current applicant-category deadline table. Its dynamic table could not be fully verified, so MSc deadlines are not copied onto this PhD.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "MSc in Mathematics or equivalent, plus the central Graduate Studies minimum and English requirements.",
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-phd",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "A faculty supervisor must be selected before acceptance. Online materials include transcripts/degree certificates, CV, two references, essay or mathematics questions, and English evidence where required.",
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-phd",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall and Winter entry; consult the programme’s current applicant-category deadline table. Its dynamic table could not be fully verified, so MSc deadlines are not copied onto this PhD.",
+        "url": "https://umanitoba.ca/graduate-studies/programs-of-study/mathematics-phd",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-waterloo-pure-mathematics-phd",
+    "country": "Canada",
+    "institution": "University of Waterloo",
+    "degree": "Doctorate",
+    "title": "Pure Mathematics PhD",
+    "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Department funding policy — confirm offer",
+    "sources": [
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Research PhD; verify current minimum/maximum registration and offer duration.",
+    "preparation": "The FAQ gives a university minimum average of 78%, with exceptional petitions possible; normally below 80% is described as weak prospectively, not as a measured admitted-GPA cutoff. Strong real/complex analysis, algebra, geometry or topology preparation is expected. Exceptional direct bachelor-to-PhD entry is possible.",
+    "selection": "A PhD supervisor must be identified for the start of study. Direct-entry PhD applicants may be considered for MMath if a PhD offer cannot be made; this is not guaranteed admission.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "The Pure Mathematics FAQ says all admitted graduate students receive full financial support. Amount, duration, tuition deductions, duties and renewal must be checked in the individual current offer; international and domestic tuition differ.",
+    "cycle": "This FAQ establishes the doctoral route but does not verify a dated next-intake opening window.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "The FAQ gives a university minimum average of 78%, with exceptional petitions possible; normally below 80% is described as weak prospectively, not as a measured admitted-GPA cutoff. Strong real/complex analysis, algebra, geometry or topology preparation is expected. Exceptional direct bachelor-to-PhD entry is possible.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "A PhD supervisor must be identified for the start of study. Direct-entry PhD applicants may be considered for MMath if a PhD offer cannot be made; this is not guaranteed admission.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The Pure Mathematics FAQ says all admitted graduate students receive full financial support. Amount, duration, tuition deductions, duties and renewal must be checked in the individual current offer; international and domestic tuition differ.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "field": "cycle",
+        "text": "This FAQ establishes the doctoral route but does not verify a dated next-intake opening window.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "unsw-sydney-mathematics-msc-research",
+    "country": "Australia",
+    "institution": "UNSW Sydney",
+    "degree": "Masters",
+    "title": "Mathematics MSc — research",
+    "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Competitive research scholarship",
+    "sources": [
+      {
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Research degree; confirm the current programme regulations and funded period.",
+    "preparation": "Honours degree or comparable master’s preparation with a thesis; the department assesses research suitability.",
+    "selection": "Identify a supervisor and proposed project; supply academic records and CV. An expression of interest or positive supervisor discussion is not the formal admissions decision.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "Department scholarship guidance refers to First Class Honours, approximately 85% on the UNSW scale or accepted equivalent. That is a scholarship preparation criterion, not an award guarantee. Current stipend, fee coverage, rounds and duration require the specific official award notice.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Honours degree or comparable master’s preparation with a thesis; the department assesses research suitability.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Identify a supervisor and proposed project; supply academic records and CV. An expression of interest or positive supervisor discussion is not the formal admissions decision.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Department scholarship guidance refers to First Class Honours, approximately 85% on the UNSW scale or accepted equivalent. That is a scholarship preparation criterion, not an award guarantee. Current stipend, fee coverage, rounds and duration require the specific official award notice.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "unsw-sydney-mathematics-phd",
+    "country": "Australia",
+    "institution": "UNSW Sydney",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Competitive research scholarship",
+    "sources": [
+      {
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Research degree; confirm the current programme regulations and funded period.",
+    "preparation": "Department guidance normally expects Honours class II-1, approximately 75% on the UNSW scale, or equivalent. An international GPA is not mechanically converted to that percentage.",
+    "selection": "Identify a supervisor and proposed project; supply academic records and CV. An expression of interest or positive supervisor discussion is not the formal admissions decision.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "Department scholarship guidance refers to First Class Honours, approximately 85% on the UNSW scale or accepted equivalent. That is a scholarship preparation criterion, not an award guarantee. Current stipend, fee coverage, rounds and duration require the specific official award notice.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Department guidance normally expects Honours class II-1, approximately 75% on the UNSW scale, or equivalent. An international GPA is not mechanically converted to that percentage.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Identify a supervisor and proposed project; supply academic records and CV. An expression of interest or positive supervisor discussion is not the formal admissions decision.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Department scholarship guidance refers to First Class Honours, approximately 85% on the UNSW scale or accepted equivalent. That is a scholarship preparation criterion, not an award guarantee. Current stipend, fee coverage, rounds and duration require the specific official award notice.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "unsw-sydney-science-advanced-mathematics-bsc-honours-",
+    "country": "Australia",
+    "institution": "UNSW Sydney",
+    "degree": "Undergraduate",
+    "title": "Science (Advanced Mathematics) BSc (Honours)",
+    "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Historical 2026 amount — next year unverified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "label": "Official programme / published requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Four-year honours route, including a research project.",
+    "preparation": "The course lists a selection rank of 93.0. Selection rank can include adjustments and is not the same as an unadjusted ATAR or a universal international qualification threshold. Check the relevant admission-criteria tab and assumed Mathematics knowledge.",
+    "selection": "Check the current test, reference and supervisor requirements.",
+    "application": "Use the appropriate first-year or UCAS route. International qualifications are assessed separately; contextual offers have eligibility conditions and are not universal.",
+    "tuition": "2026 indicative first-year amounts: AUD 7,500 Commonwealth Supported Place student contribution, or AUD 61,000 international full fee. The source explicitly labels these 2026, not 2027. Eligibility for a CSP must be assessed; a student visa does not confer it.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "Course page says applications for all 2027 intakes are open. Exact opening and closing timestamps were not verified, so no dated window is invented.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "The course lists a selection rank of 93.0. Selection rank can include adjustments and is not the same as an unadjusted ATAR or a universal international qualification threshold. Check the relevant admission-criteria tab and assumed Mathematics knowledge.",
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 indicative first-year amounts: AUD 7,500 Commonwealth Supported Place student contribution, or AUD 61,000 international full fee. The source explicitly labels these 2026, not 2027. Eligibility for a CSP must be assessed; a student visa does not confer it.",
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "field": "cycle",
+        "text": "Course page says applications for all 2027 intakes are open. Exact opening and closing timestamps were not verified, so no dated window is invented.",
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-waikato-science-bsc-mathematics",
+    "country": "New Zealand",
+    "institution": "University of Waikato",
+    "degree": "Undergraduate",
+    "title": "Science BSc — Mathematics",
+    "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+        "label": "Official BSc route"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/subjects/mathematics",
+        "label": "Mathematics subject and available degrees"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/apply/undergraduate/",
+        "label": "University Entrance / qualification routes"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Bachelor of Science route; mathematics subject regulations determine the major requirements.",
+    "preparation": "Meet the university’s accepted University Entrance or international equivalent, plus English requirements. Foundation study is a separate route for applicants not meeting direct-entry criteria; it is not counted as a BSc admission.",
+    "selection": "Select Mathematics as the major and confirm subject prerequisites. Accepted secondary qualifications differ by education system.",
+    "application": "Use the appropriate first-year or UCAS route. International qualifications are assessed separately; contextual offers have eligibility conditions and are not universal.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Meet the university’s accepted University Entrance or international equivalent, plus English requirements. Foundation study is a separate route for applicants not meeting direct-entry criteria; it is not counted as a BSc admission.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Select Mathematics as the major and confirm subject prerequisites. Accepted secondary qualifications differ by education system.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+        "label": "Official evidence — selection"
+      }
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-waikato-science-research-msc-mathematics",
+    "country": "New Zealand",
+    "institution": "University of Waikato",
+    "degree": "Masters",
+    "title": "Science (Research) MSc — Mathematics",
+    "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Published indicative amount — confirm year / status",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+        "label": "Degree length, subject-specific credit structure and fees"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/subjects/mathematics",
+        "label": "Mathematics subject options"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "The Mathematics route is 240 points, including taught preparation and a research thesis; the 180-point variants on the same page are for other named subjects.",
+    "preparation": "A relevant bachelor-level qualification or accepted equivalent. Confirm mathematical background and supervision fit; no unpublished GPA is supplied.",
+    "selection": "Discuss the planned research and paper selection with the relevant academic department.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Page estimates dated August 21, 2026: NZD 9,857–11,067 domestic per year, or NZD 47,303 international per year. These are indicative, subject to review and additional fees, not a fixed 2027 offer.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "A relevant bachelor-level qualification or accepted equivalent. Confirm mathematical background and supervision fit; no unpublished GPA is supplied.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Discuss the planned research and paper selection with the relevant academic department.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "tuition",
+        "text": "Page estimates dated August 21, 2026: NZD 9,857–11,067 domestic per year, or NZD 47,303 international per year. These are indicative, subject to review and additional fees, not a fixed 2027 offer.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+        "label": "Official evidence — tuition"
+      }
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-waikato-mathematics-phd",
+    "country": "New Zealand",
+    "institution": "University of Waikato",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://www.waikato.ac.nz/study/subjects/mathematics",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://www.waikato.ac.nz/study/subjects/mathematics",
+        "label": "Mathematics PhD subject route"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/qualifications/doctor-of-philosophy",
+        "label": "Official PhD structure, fees and scholarship links"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/about/calendar/regulations/higher/phd",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/int/study/apply/phd-and-doctoral/",
+        "label": "Official evidence — selection"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "See the official degree regulations; completion time is not an admission guarantee.",
+    "preparation": "Regulations effective July 1, 2026 normally require a relevant NZ honours bachelor or master’s with at least second-class honours first division / distinction or equivalent, plus demonstrated research ability (normally at least 30 research points). MPhil and approved qualifying-paper routes also exist.",
+    "selection": "Admission requires an approved research project and supervision. A coursework-only master’s without sufficient research is not automatically a qualifying degree.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "No award is assumed. Check eligibility, selection, amount, currency, duration and renewal conditions in the written offer.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "fieldSources": {
+      "preparation": "https://www.waikato.ac.nz/about/calendar/regulations/higher/phd",
+      "selection": "https://www.waikato.ac.nz/int/study/apply/phd-and-doctoral/"
+    },
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Regulations effective July 1, 2026 normally require a relevant NZ honours bachelor or master’s with at least second-class honours first division / distinction or equivalent, plus demonstrated research ability (normally at least 30 research points). MPhil and approved qualifying-paper routes also exist.",
+        "url": "https://www.waikato.ac.nz/about/calendar/regulations/higher/phd",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Admission requires an approved research project and supervision. A coursework-only master’s without sufficient research is not automatically a qualifying degree.",
+        "url": "https://www.waikato.ac.nz/int/study/apply/phd-and-doctoral/",
+        "label": "Official evidence — selection"
+      }
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-maine-mathematics-ma",
+    "country": "US",
+    "institution": "University of Maine",
+    "degree": "Masters",
+    "title": "Mathematics MA",
+    "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "sources": [
+      {
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "label": "Mathematics MA and application guidance"
+      },
+      {
+        "url": "https://umaine.edu/graduate/funding/prospective/",
+        "label": "Graduate assistantship and funding rules"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "The department describes a two-year MA, with an initial adviser and a formal advisory committee by the end of the first year.",
+    "preparation": "The department evaluates mathematical preparation through academic records and supporting documents. A current programme-specific competitive GPA or admitted-grade distribution was not published on the reviewed page.",
+    "selection": "Follow the graduate school’s test-score rules and the department’s application instructions. Informal departmental document review is not formal admission.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "Assistantships are competitive, with duties and eligibility conditions. The general funding page’s assistantship pay example based on 2024/25 is historical, not a guaranteed 2027 mathematics package.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "The department evaluates mathematical preparation through academic records and supporting documents. A current programme-specific competitive GPA or admitted-grade distribution was not published on the reviewed page.",
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "Follow the graduate school’s test-score rules and the department’s application instructions. Informal departmental document review is not formal admission.",
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Assistantships are competitive, with duties and eligibility conditions. The general funding page’s assistantship pay example based on 2024/25 is historical, not a guaranteed 2027 mathematics package.",
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-arizona-mathematics-phd",
+    "country": "US",
+    "institution": "University of Arizona",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Competitive graduate support",
+    "sources": [
+      {
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "label": "Official programme / published requirements"
+      },
+      {
+        "url": "https://www.math.arizona.edu/academics/graduate/scholarships",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "See the official degree regulations; completion time is not an admission guarantee.",
+    "preparation": "Equivalent of an undergraduate mathematics major, including upper-level real analysis, abstract algebra and linear algebra; PhD applicants should also have complex variables. Fuller algebra/analysis sequences and topology are preferred, not substituted with a fabricated GPA cutoff.",
+    "selection": "General and subject GRE are not required. Submit a mathematical statement and current language evidence where required. The page still lists older TOEFL formats: check the Graduate College’s current accepted test scales and TA speaking requirements.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "Department award pages describe specific competitive awards, not a universal guaranteed package. The January 2024 handbook is historical; confirm current assistantship duration and amounts in the offer.",
+    "cycle": "Published application deadline January 10, 2027; page says applications open in late October without an exact day. Late applications require departmental enquiry, not an automatic rolling guarantee. The advertised Fall 2026 domestic fee waiver is historical and not assumed for Fall 2027.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-10",
+        "label": "January 10, 2027; closing hour unverified",
+        "source": "https://www.math.arizona.edu/academics/graduate/math-program/admissions"
+      }
+    ],
+    "fieldSources": {
+      "fundingDetail": "https://www.math.arizona.edu/academics/graduate/scholarships"
+    },
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Equivalent of an undergraduate mathematics major, including upper-level real analysis, abstract algebra and linear algebra; PhD applicants should also have complex variables. Fuller algebra/analysis sequences and topology are preferred, not substituted with a fabricated GPA cutoff.",
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "General and subject GRE are not required. Submit a mathematical statement and current language evidence where required. The page still lists older TOEFL formats: check the Graduate College’s current accepted test scales and TA speaking requirements.",
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "Published application deadline January 10, 2027; page says applications open in late October without an exact day. Late applications require departmental enquiry, not an automatic rolling guarantee. The advertised Fall 2026 domestic fee waiver is historical and not assumed for Fall 2027.",
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Department award pages describe specific competitive awards, not a universal guaranteed package. The January 2024 handbook is historical; confirm current assistantship duration and amounts in the offer.",
+        "url": "https://www.math.arizona.edu/academics/graduate/scholarships",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "northwestern-university-pure-mathematics-phd",
+    "country": "US",
+    "institution": "Northwestern University",
+    "degree": "Doctorate",
+    "title": "Pure Mathematics PhD",
+    "url": "https://www.math.northwestern.edu/graduate/application.html",
+    "note": "This is explicitly a pure mathematics PhD. The department does not offer a separately admitted mathematics master’s; no such master’s is added.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Department funding policy — confirm offer",
+    "sources": [
+      {
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "label": "Official programme / published requirements"
+      },
+      {
+        "url": "https://www.math.northwestern.edu/graduate/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "See the official degree regulations; completion time is not an admission guarantee.",
+    "preparation": "Submit a list of advanced mathematics courses, texts/topics, academic transcripts, a statement and at least three recommendations. Academic and research fit is assessed; no numerical competitive GPA is published.",
+    "selection": "For September 2027 the department will not consider either general or subject GRE. Check English admission and later TA speaking requirements separately.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "The graduate overview describes stipend and full health coverage while students remain in good standing, with first- and fifth-year fellowships and teaching assistantships otherwise. The amount and full terms require the current offer.",
+    "cycle": "The application page lists September 15 opening and December 31 full-consideration deadline. It does not repeat calendar years alongside those dates; confirm the current portal cycle and closing hour.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "intakeYear": "2027",
+    "fieldSources": {
+      "fundingDetail": "https://www.math.northwestern.edu/graduate/"
+    },
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Submit a list of advanced mathematics courses, texts/topics, academic transcripts, a statement and at least three recommendations. Academic and research fit is assessed; no numerical competitive GPA is published.",
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "For September 2027 the department will not consider either general or subject GRE. Check English admission and later TA speaking requirements separately.",
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "cycle",
+        "text": "The application page lists September 15 opening and December 31 full-consideration deadline. It does not repeat calendar years alongside those dates; confirm the current portal cycle and closing hour.",
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The graduate overview describes stipend and full health coverage while students remain in good standing, with first- and fifth-year fellowships and teaching assistantships otherwise. The amount and full terms require the current offer.",
+        "url": "https://www.math.northwestern.edu/graduate/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-wisconsin-madison-mathematics-ma-foundations-of-advanced-studies",
+    "country": "US",
+    "institution": "University of Wisconsin–Madison",
+    "degree": "Masters",
+    "title": "Mathematics MA — Foundations of Advanced Studies",
+    "url": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "No programme tuition remission in FAQ",
+    "sources": [
+      {
+        "url": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/",
+        "label": "Separate MA-FAS route"
+      },
+      {
+        "url": "https://www.math.wisc.edu/graduate/",
+        "label": "MA-FAS versus doctoral / embedded MA routes"
+      },
+      {
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — preparation"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "Designed for completion in no more than two years. This independently admitted MA-FAS is distinct from the MA-FR earned within doctoral study.",
+    "preparation": "Department FAQ’s typical minimum beyond the central Graduate School standard: proof-based linear algebra, Analysis I and Modern Algebra I or equivalent.",
+    "selection": "Check the current test, reference and supervisor requirements.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "The department FAQ distinguishes MA-FAS from funded PhD study: MA-FAS students are not eligible for programme tuition remission and may work up to 108 hours per semester, usually as graders. That permitted employment is not a guaranteed scholarship or job.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Mathematics-specific incoming places, applicant counts and admitted-grade distribution are not published on the reviewed source. No estimated admission cutoff or cohort is supplied.",
+    "fieldSources": {
+      "preparation": "https://www.math.wisc.edu/graduate/faq/",
+      "fundingDetail": "https://www.math.wisc.edu/graduate/faq/"
+    },
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Department FAQ’s typical minimum beyond the central Graduate School standard: proof-based linear algebra, Analysis I and Modern Algebra I or equivalent.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The department FAQ distinguishes MA-FAS from funded PhD study: MA-FAS students are not eligible for programme tuition remission and may work up to 108 hours per semester, usually as graders. That permitted employment is not a guaranteed scholarship or job.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-wisconsin-madison-mathematics-phd",
+    "country": "US",
+    "institution": "University of Wisconsin–Madison",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD",
+    "url": "https://www.math.wisc.edu/graduate/faq/",
+    "note": "Compare the published mathematical preparation and degree structure, not a ranking label or an assumed “safe” admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "fees": "Amount not verified",
+    "funding": "Department funding policy — confirm offer",
+    "sources": [
+      {
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Preparation, funding distinction and departmental cohort target"
+      },
+      {
+        "url": "https://www.math.wisc.edu/applying-for-our-graduate-programs/",
+        "label": "Official application routes"
+      },
+      {
+        "url": "https://grad.wisc.edu/apply/requirements/",
+        "label": "Central minimum requirements"
+      }
+    ],
+    "checked": "2026-10-12",
+    "duration": "See the official degree regulations; completion time is not an admission guarantee.",
+    "preparation": "Typical department minimum beyond central rules: full-year upper-level analysis and algebra, proof-based linear algebra, and four advanced electives. Advanced coursework, independent study or research often exceeds a basic major. Applied applicants may have a correspondingly advanced ODE/PDE/computational background.",
+    "selection": "The FAQ says it does not keep an average admitted GPA and emphasizes recommendations; no numerical competitive cutoff is invented. A prior master’s is not presumed necessary.",
+    "application": "Apply through the institution’s official route. International qualification, English-language, immigration and fee-status rules are separate assessments.",
+    "tuition": "Not verified for the next intake. Confirm with the programme; no previous-year number is silently carried forward.",
+    "fundingDetail": "The FAQ describes five years of TA support and tuition remission for PhD students (mandatory fees remain). A possible RA substitution depends on available funding. Current stipend, academic/employment conditions and offer terms still require confirmation.",
+    "cycle": "A degree route is verified; the next opening date and deadline are not established unless stated below.",
+    "statistics": "Department FAQ reports a typical intended entering class of 20–28, depending on need and funding. No intake year or separately measured MA cohort is given. This is a departmental target, not a fixed Fall 2027 quota or an admission probability.",
+    "evidence": [
+      {
+        "field": "preparation",
+        "text": "Typical department minimum beyond central rules: full-year upper-level analysis and algebra, proof-based linear algebra, and four advanced electives. Advanced coursework, independent study or research often exceeds a basic major. Applied applicants may have a correspondingly advanced ODE/PDE/computational background.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — preparation"
+      },
+      {
+        "field": "selection",
+        "text": "The FAQ says it does not keep an average admitted GPA and emphasizes recommendations; no numerical competitive cutoff is invented. A prior master’s is not presumed necessary.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "field": "statistics",
+        "text": "Department FAQ reports a typical intended entering class of 20–28, depending on need and funding. No intake year or separately measured MA cohort is given. This is a departmental target, not a fixed Fall 2027 quota or an admission probability.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — statistics"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The FAQ describes five years of TA support and tuition remission for PhD students (mandatory fees remain). A possible RA substitution depends on available funding. Current stipend, academic/employment conditions and offer terms still require confirmation.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
   }
 ]

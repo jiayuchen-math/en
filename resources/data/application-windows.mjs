@@ -21,7 +21,9 @@ export const windows=[
   note:w.note.replace(/The shortcut conservatively excludes the deadline day;?\s*/g,'Closing time is unverified; ')};
 });
 export function withApplicationWindow(programme){
+ if(programme.applicationWindow)return programme;
  const window=windows.find(w=>w.institution===programme.institution&&w.degree===programme.degree);
  if(!window)return programme;
- return {...programme,applicationWindow:window,cycle:`${window.intake}. ${window.openingLabel}. Deadline: ${window.deadlineLabel}. ${window.note}`,sources:[...programme.sources.filter(s=>s.url!==window.source),{url:window.source,label:'Reviewed application window / specific deadline'}]};
+ const verifiedWindow=programme.institution==='University of British Columbia'?{...window,intake:'September 2027',reviewed:'2026-10-12',note:'Supporting documents and references are due December 31, 2026. MSc and PhD are different entry routes; closing hour is unverified.'}:window;
+ return {...programme,applicationWindow:verifiedWindow,cycle:`${verifiedWindow.intake}. ${verifiedWindow.openingLabel}. Deadline: ${verifiedWindow.deadlineLabel}. ${verifiedWindow.note}`,sources:[...programme.sources.filter(s=>s.url!==window.source),{url:window.source,label:'Reviewed application window / specific deadline'}]};
 }

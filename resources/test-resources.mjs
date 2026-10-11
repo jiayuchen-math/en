@@ -27,6 +27,8 @@ for(const file of ['notes/reading-notes/library/catalogue.html','resources/links
  if(file.endsWith('researchers.html')){
   search.value='Liouville';fields.find(f=>f.dataset.field==='institution').value='University of Chicago';listeners.input();assert.equal(visible().length,1);assert(visible()[0].dataset.search.includes('Ewain Gwynne'));
   search.value='';fields.find(f=>f.dataset.field==='institution').value='';fields.find(f=>f.dataset.field==='recent').value='Public records within review window';listeners.change();assert.equal(visible().length,3);
+  listeners.reset({preventDefault(){}});fields.find(f=>f.dataset.field==='contact').value='Public professional email';fields.find(f=>f.dataset.field==='topicStatus').value='Published topics verified';listeners.change();assert.equal(visible().length,25);assert(visible().every(e=>e.dataset.contact==='Public professional email'&&e.dataset.topicStatus==='Published topics verified'));
+  listeners.reset({preventDefault(){}});fields.find(f=>f.dataset.field==='topicStatus').value='Not verified';listeners.change();assert(visible().every(e=>e.dataset.topicStatus==='Not verified'));
  }
  if(applications){
   const select=(k,v)=>fields.find(f=>f.dataset.field===k).value=v;

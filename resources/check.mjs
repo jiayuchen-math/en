@@ -32,8 +32,9 @@ const report=json('resources/build-report.json');assert(report.library>=400);ass
 assert(programmes.filter(p=>p.country==='US'&&p.degree==='Undergraduate').length>=29);
 assert(programmes.filter(p=>p.country==='China'&&p.degree==='Doctorate').length>=10);
 assert(programmes.filter(p=>p.country==='China'&&p.degree==='Postdoctoral').length>=5);
-assert.equal(researchers.length,100);assert.equal(researchers.filter(p=>p.email).length,43);
-for(const p of researchers.filter(p=>p.email)){assert(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email));assert(p.emailSource.startsWith('https://')&&p.emailChecked);assert(!p.email.startsWith('ymsc@'),'Generic institutional inbox incorrectly assigned to an individual')}
+assert(researchers.length>=1000);assert(researchers.filter(p=>p.email).length>=800);
+assert.equal(new Set(researchers.filter(p=>p.email).map(p=>p.email.toLowerCase())).size,researchers.filter(p=>p.email).length,'Duplicate public email assigned to different people');
+for(const p of researchers.filter(p=>p.email)){assert(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email));assert(/^https?:\/\//.test(p.emailSource)&&p.emailChecked);assert(!p.email.startsWith('ymsc@'),'Generic institutional inbox incorrectly assigned to an individual')}
 for(const t of old.topics){const h=read('notes/reading-notes/library/'+t.route);assert.equal([...h.matchAll(/<!-- subject-guide:start -->/g)].length,1);assert(h.includes('Branches to choose from')&&h.includes('How to continue'))}
 const rh=read('resources/study-careers/researchers.html');assert(rh.includes('filter-institution')&&rh.includes('mailto:')&&rh.includes('Email source'));
 console.log('Subject depth, guide coverage, US bachelor / mainland-China routes and public email provenance passed');
