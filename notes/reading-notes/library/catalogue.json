@@ -55,6 +55,24 @@
           "note": "A transition from calculation to proofs, with sets, induction and cardinality. Selected solutions help self-study; it is preparation rather than an advanced subject text.",
           "prerequisites": "High-school algebra.",
           "review": "https://richardhammack.github.io/BookOfProof/Endorsements.html"
+        },
+        {
+          "bucket": "Balanced expansion — Foundations & combinatorics",
+          "topic": "proofs",
+          "title": "An Infinitely Large Napkin",
+          "author": "Evan Chen",
+          "kind": "Unfinished book draft",
+          "level": "Intermediate",
+          "url": "https://venhance.github.io/napkin/Napkin.pdf",
+          "source": "https://web.evanchen.cc/napkin.html",
+          "version": "Version 1.6; evolving draft, source page updated April 2026",
+          "note": "A broad bridge from undergraduate subjects toward first-year graduate ideas. Some planned chapters and exercises are unfinished; it is not a substitute for a full course in each field.",
+          "prerequisites": "Comfort with proofs; undergraduate algebra and analysis.",
+          "use": "Orient a personal reading programme across subjects.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -111,7 +129,46 @@
           "prerequisites": "Proof-writing; elementary logic.",
           "use": "Broaden a foundations reading programme.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Algebra & logic",
+          "topic": "logic",
+          "title": "An Introduction to Formal Logic",
+          "author": "Peter Smith",
+          "kind": "Textbook",
+          "level": "Introductory",
+          "url": "https://logicmatters.net/ifl/pdfs/IFL2_LM.pdf",
+          "source": "https://logicmatters.net/ifl/index.html",
+          "version": "Corrected second edition; original second edition 2020",
+          "note": "An introduction to propositional and first-order logic with worked proof techniques.",
+          "prerequisites": "Elementary proof-writing.",
+          "use": "Build logical notation and derivation skills.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Algebra & logic",
+          "topic": "logic",
+          "title": "An Introduction to Gödel’s Theorems",
+          "author": "Peter Smith",
+          "kind": "Textbook",
+          "level": "Advanced",
+          "url": "https://logicmatters.net/igt/pdfs/GodelBookLM.pdf",
+          "source": "https://logicmatters.net/igt/index.html",
+          "version": "Corrected second edition; original second edition 2013",
+          "note": "Explains computability, arithmetization and the incompleteness theorems.",
+          "prerequisites": "First-order logic; elementary computability.",
+          "use": "Bridge introductory logic to mathematical incompleteness.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "aliases": "Godel Gödel incompleteness",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -131,6 +188,25 @@
           "note": "Explains the set-theoretic foundations of mathematics and the motivation for ZFC. Its emphasis is conceptual and philosophical, not graduate forcing theory.",
           "prerequisites": "Basic logic and high-school mathematics.",
           "label": "Full book & PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Algebra & logic",
+          "topic": "set-theory",
+          "title": "Classical Descriptive Set Theory",
+          "author": "Alexander S. Kechris",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://link.springer.com/book/10.1007/978-1-4612-4190-4",
+          "source": "https://link.springer.com/book/10.1007/978-1-4612-4190-4",
+          "version": "1995",
+          "note": "Studies definable sets in Polish spaces and their interaction with analysis.",
+          "prerequisites": "Topology; measure theory; elementary set theory.",
+          "use": "Enter descriptive set theory and its analytic applications.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     },
@@ -149,6 +225,25 @@
           "source": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
           "note": "A concise graduate treatment beginning with structures and languages. The lecture-note format rewards familiarity with logical notation and independent proof work.",
           "prerequisites": "First-order logic; abstract algebra."
+        },
+        {
+          "bucket": "Balanced expansion — Algebra & logic",
+          "topic": "model-theory",
+          "title": "A Course in Model Theory",
+          "author": "Katrin Tent and Martin Ziegler",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://www.cambridge.org/core/books/course-in-model-theory/7A4C7BCF0F243AE31C0923A021A06066",
+          "source": "https://www.cambridge.org/core/books/course-in-model-theory/7A4C7BCF0F243AE31C0923A021A06066",
+          "version": "2012",
+          "note": "Develops model-theoretic methods, including stability and types.",
+          "prerequisites": "First-order logic; abstract algebra.",
+          "use": "Progress from elementary logic toward model-theoretic research.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     },
@@ -293,7 +388,47 @@
           "prerequisites": "Homological algebra; associative algebras.",
           "use": "Bridge to noncommutative invariants.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Algebra & logic",
+          "topic": "homological-algebra",
+          "title": "Introduction to A-infinity Algebras and Modules",
+          "author": "Bernhard Keller",
+          "kind": "Survey",
+          "level": "Graduate",
+          "url": "https://arxiv.org/pdf/math/9910179",
+          "source": "https://arxiv.org/abs/math/9910179",
+          "version": "Expanded version, January 2001; 30 pages",
+          "note": "Introduces A-infinity structures, modules and their derived categories through a compact exposition.",
+          "prerequisites": "Homological algebra; differential graded algebras.",
+          "use": "Bridge classical derived categories and higher algebra.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "aliases": "A∞ A-infinity Ainfinity",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Foundations & combinatorics",
+          "topic": "homological-algebra",
+          "title": "Cohomology of Groups",
+          "author": "Kenneth S. Brown",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://link.springer.com/book/10.1007/978-1-4684-9327-6",
+          "source": "https://link.springer.com/book/10.1007/978-1-4684-9327-6",
+          "version": "1982",
+          "note": "Connects group actions and homological constructions through group cohomology.",
+          "prerequisites": "Groups; modules; basic algebraic topology.",
+          "use": "Build tools used in topology and geometric group theory.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     },
@@ -362,6 +497,24 @@
           "note": "Develops the categorical setting for representation theory. A specialist continuation rather than an introductory algebra text; link to the authorized author-hosted edition.",
           "prerequisites": "Representation theory; category theory.",
           "label": "Full book via author's page"
+        },
+        {
+          "bucket": "Balanced expansion — Algebra & logic",
+          "topic": "representation-theory",
+          "title": "Representations of Lie Groups",
+          "author": "Pavel Etingof",
+          "kind": "Long lecture notes",
+          "level": "Research",
+          "url": "https://arxiv.org/pdf/2401.01446",
+          "source": "https://arxiv.org/abs/2401.01446",
+          "version": "2024 course manuscript; version 3 revised June 21, 2026",
+          "note": "Graduate lectures on representations of noncompact semisimple Lie groups, beyond the introductory Lie-algebra sequence.",
+          "prerequisites": "Semisimple Lie algebras; representation theory; analysis.",
+          "use": "Enter the representation theory of real reductive groups.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -418,7 +571,9 @@
           "prerequisites": "Schemes, sheaves, commutative algebra.",
           "use": "Study stacks after a first graduate algebraic geometry course.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -435,7 +590,9 @@
           "use": "First sustained study of étale cohomology.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "etale LEC"
+          "aliases": "etale LEC",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -452,7 +609,9 @@
           "use": "Selective reference, not a first introduction.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "SAG"
+          "aliases": "SAG",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -469,7 +628,9 @@
           "use": "Compare model-categorical foundations with infinity-categorical ones.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "HAG I HAGI topos"
+          "aliases": "HAG I HAGI topos",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -486,7 +647,9 @@
           "use": "Research preparation in derived moduli problems.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "HAG II HAGII derived stacks"
+          "aliases": "HAG II HAGII derived stacks",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -502,7 +665,9 @@
           "prerequisites": "Schemes; homological algebra; category theory.",
           "use": "Orient a reading programme before technical monographs.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -519,7 +684,9 @@
           "use": "Bridge algebraic geometry and smooth geometric constructions.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "C-infinity smooth rings"
+          "aliases": "C-infinity smooth rings",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -535,7 +702,9 @@
           "prerequisites": "Smooth manifolds; C∞-schemes; category theory.",
           "use": "Detailed study of derived smooth objects.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -551,7 +720,9 @@
           "prerequisites": "Differential topology; simplicial homotopy theory.",
           "use": "Compare another foundation for derived differential geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -567,7 +738,9 @@
           "prerequisites": "Schemes; triangulated categories; motivic homotopy theory.",
           "use": "Long-term reference for motives and functoriality.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -587,7 +760,9 @@
           "originalTitle": "Les six opérations de Grothendieck et le formalisme des cycles évanescents dans le monde motivique (I–II)",
           "aliases": "six operations six functors",
           "additionalUrl": "https://www.numdam.org/item/AST_2007__315__1_0.pdf",
-          "label": "Open archive & full PDF"
+          "label": "Open archive & full PDF",
+          "access": "Open online text / archive",
+          "accessNote": "Full text is provided through the official online text or archive; a further click may be needed for a PDF."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -603,7 +778,9 @@
           "prerequisites": "Algebraic geometry; cohomology; algebraic cycles.",
           "use": "Bridge from cycles to advanced motivic references.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -619,7 +796,9 @@
           "prerequisites": "Rigid geometry; valuation theory; étale cohomology.",
           "use": "Read after a course in p-adic geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -636,7 +815,9 @@
           "use": "Research-level reference for diamonds.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "etale diamonds"
+          "aliases": "etale diamonds",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -652,7 +833,9 @@
           "prerequisites": "Commutative algebra; p-adic Hodge theory; derived methods.",
           "use": "Foundational research reading, not a first textbook.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -669,7 +852,9 @@
           "use": "Background for subsequent prismatic constructions.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "BMS Ainf"
+          "aliases": "BMS Ainf",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -685,7 +870,9 @@
           "prerequisites": "BMS integral theory; spectra; THH and TC.",
           "use": "Connect arithmetic geometry with stable homotopy theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -701,7 +888,9 @@
           "prerequisites": "Schemes; cohomology; p-adic fields.",
           "use": "A guided route toward contemporary arithmetic geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -717,7 +906,9 @@
           "prerequisites": "Prismatic cohomology; spectral algebraic geometry.",
           "use": "Advanced reading after Bhatt–Scholze.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -733,7 +924,9 @@
           "prerequisites": "Prisms; formal schemes; derived stacks.",
           "use": "Companion to Absolute Prismatic Cohomology.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -749,7 +942,9 @@
           "prerequisites": "Higher categories; sheaf theory; derived categories.",
           "use": "Organize functorial tools used across modern geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -765,7 +960,9 @@
           "prerequisites": "Algebraic geometry; nonarchimedean fields; cohomology.",
           "use": "Prepare for diamonds and modern p-adic research.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -782,7 +979,9 @@
           "use": "Background for contemporary cohomological geometry.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "proetale"
+          "aliases": "proetale",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -798,7 +997,9 @@
           "prerequisites": "Diamonds; p-adic geometry; representation theory.",
           "use": "Advanced arithmetic-geometric reference.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -814,7 +1015,9 @@
           "prerequisites": "Condensed mathematics; analytic geometry; higher algebra.",
           "use": "Study the interface between analysis and modern geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -830,7 +1033,9 @@
           "prerequisites": "Schemes; Galois theory.",
           "use": "Classical preparation for étale geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -846,7 +1051,9 @@
           "prerequisites": "Local algebra; algebraic geometry.",
           "use": "Background for moduli and deformation theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -862,7 +1069,9 @@
           "prerequisites": "Schemes; divisors; intersection theory.",
           "use": "Compare classical surfaces with modern birational methods.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -878,7 +1087,9 @@
           "prerequisites": "Algebraic curves; schemes; invariant theory.",
           "use": "Classical moduli preparation.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Algebraic geometry & frontiers",
@@ -894,7 +1105,9 @@
           "prerequisites": "Algebraic groups; characteristic-p geometry.",
           "use": "Connect Frobenius techniques and representation theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -957,7 +1170,9 @@
           "prerequisites": "Undergraduate real analysis.",
           "use": "Focused bridge to approximation theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -973,7 +1188,9 @@
           "prerequisites": "Real analysis; harmonic functions.",
           "use": "Prepare for potential-theoretic approaches to PDE.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -989,7 +1206,27 @@
           "prerequisites": "Real and complex analysis.",
           "use": "Supplement a graduate analysis course.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Analysis & PDE",
+          "topic": "real-analysis",
+          "title": "Introduction to Real Analysis",
+          "author": "William F. Trench",
+          "kind": "Textbook",
+          "level": "Introductory",
+          "url": "https://ramanujan.math.trinity.edu/wtrench/texts/trench_real_analysis.pdf",
+          "source": "https://digitalcommons.trinity.edu/mono/7/",
+          "version": "Free hyperlinked edition 2.04, December 2013",
+          "note": "A proof-based route through sequences, continuity, differentiation and integration.",
+          "prerequisites": "Calculus; introductory proof-writing.",
+          "use": "First real-analysis course and exercises.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -1025,7 +1262,9 @@
           "use": "Bridge undergraduate analysis and graduate integration.",
           "language": "English",
           "checked": "2026-10-11",
-          "label": "Author page & full-text link"
+          "label": "Author page & full-text link",
+          "access": "Open online text / archive",
+          "accessNote": "Full text is provided through the official online text or archive; a further click may be needed for a PDF."
         }
       ]
     },
@@ -1069,7 +1308,9 @@
           "prerequisites": "Complex analysis; sheaf language.",
           "use": "Bridge into complex analytic geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1085,7 +1326,9 @@
           "prerequisites": "Complex analysis; entire functions.",
           "use": "Specialized complex-analysis reference.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1101,7 +1344,9 @@
           "prerequisites": "Several complex variables; sheaf cohomology.",
           "use": "Study analytic tools in complex geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -1135,7 +1380,9 @@
           "prerequisites": "Functional analysis; differential equations.",
           "use": "Connect abstract operators and PDE.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1151,7 +1398,9 @@
           "prerequisites": "Banach spaces; topology.",
           "use": "Connect existence methods and analysis.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1167,7 +1416,46 @@
           "prerequisites": "Functional analysis; nonlinear analysis.",
           "use": "Apply variational principles to nonlinear problems.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Analysis & PDE",
+          "topic": "functional-analysis",
+          "title": "Topics in Linear and Nonlinear Functional Analysis",
+          "author": "Gerald Teschl",
+          "kind": "Book draft",
+          "level": "Graduate",
+          "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-fa/index.html",
+          "source": "https://www.mat.univie.ac.at/~gerald/ftp/book-fa/index.html",
+          "version": "Author page updated July 17, 2026; publication in preparation",
+          "note": "Treats Banach and Hilbert spaces, spectral theory, degree and nonlinear operators. The author currently says the full PDF is withdrawn while the book is being printed.",
+          "prerequisites": "Real analysis; measure theory; linear algebra.",
+          "use": "Plan graduate functional-analysis study; consult current publication status.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Official page — verify access",
+          "accessNote": "No complete PDF is currently offered on the linked author page. The page says the text will return 24 months after publication; this is not a promise of current free access.",
+          "label": "Author / publication-status page"
+        },
+        {
+          "bucket": "Balanced expansion — Analysis & PDE",
+          "topic": "functional-analysis",
+          "title": "Mathematical Methods in Quantum Mechanics",
+          "author": "Gerald Teschl",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-schroe/schroe2.pdf",
+          "source": "https://www.mat.univie.ac.at/~gerald/ftp/book-schroe/index.html",
+          "version": "Second edition, 2014; authorized author PDF",
+          "note": "Self-adjoint operators, spectral theory and scattering are developed alongside Schrödinger operators.",
+          "prerequisites": "Real analysis; linear algebra; differential equations.",
+          "use": "Connect operator theory with mathematical physics.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "The AMS permits one stored copy for personal use; do not redistribute.",
+          "access": "Direct open PDF"
         }
       ]
     },
@@ -1201,7 +1489,9 @@
           "prerequisites": "Fourier analysis; complex analysis.",
           "use": "Specialized harmonic analysis reading.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1217,7 +1507,9 @@
           "prerequisites": "Fourier analysis; distributions.",
           "use": "Further harmonic-analysis study.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -1261,7 +1553,9 @@
           "prerequisites": "Sobolev spaces; functional analysis.",
           "use": "Graduate elliptic PDE study.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1277,7 +1571,9 @@
           "prerequisites": "Distribution theory; functional analysis.",
           "use": "Historical operator-theoretic PDE reading.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1293,7 +1589,9 @@
           "prerequisites": "Distributions; Sobolev spaces; PDE.",
           "use": "Specialized graduate PDE reading.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1309,7 +1607,9 @@
           "prerequisites": "Differential equations; asymptotic analysis.",
           "use": "Applied-PDE complement to abstract courses.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1325,7 +1625,9 @@
           "prerequisites": "Measure-theoretic probability; PDE.",
           "use": "Study the probability–analysis interface.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1341,7 +1643,9 @@
           "prerequisites": "PDE; fluid and wave equations.",
           "use": "Advanced nonlinear PDE reading.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1357,7 +1661,9 @@
           "prerequisites": "Fourier analysis; distributions.",
           "use": "Focused graduate course in analytical methods.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Analysis & PDE",
@@ -1373,7 +1679,65 @@
           "prerequisites": "ODE; real analysis; probability for later sections.",
           "use": "Connect analysis and optimization.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Analysis & PDE",
+          "topic": "differential-equations",
+          "title": "Notes on Partial Differential Equations",
+          "author": "John K. Hunter",
+          "kind": "Long lecture notes",
+          "level": "Graduate",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "source": "https://www.math.ucdavis.edu/~hunter/pdes/",
+          "version": "2014 university-hosted notes",
+          "note": "Develops weak derivatives, Sobolev spaces and elliptic equations.",
+          "prerequisites": "Real analysis; measure theory; basic functional analysis.",
+          "use": "Bridge classical PDE calculations to weak solutions.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Analysis & PDE",
+          "topic": "differential-equations",
+          "title": "Nonlinear Dispersive Equations: Local and Global Analysis",
+          "author": "Terence Tao",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://terrytao.wordpress.com/books/nonlinear-dispersive-equations-local-and-global-analysis/",
+          "source": "https://terrytao.wordpress.com/books/nonlinear-dispersive-equations-local-and-global-analysis/",
+          "version": "2006, CBMS 106",
+          "note": "Introduces analytic methods for nonlinear wave, Schrödinger and KdV equations. The author offers only three of six chapters plus an appendix, not the complete book.",
+          "prerequisites": "Fourier analysis; Sobolev spaces; PDEs.",
+          "use": "Study local/global dispersive estimates and critical equations.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The authorized 239-page excerpt is incomplete. Obtain the full six-chapter book through a library or publisher; the excerpt is not labelled open full text.",
+          "label": "Author page / partial excerpt",
+          "previewUrl": "https://www.math.ucla.edu/~tao/preprints/chapter.pdf"
+        },
+        {
+          "bucket": "Balanced expansion — Analysis & PDE",
+          "topic": "differential-equations",
+          "title": "A Theory of Regularity Structures",
+          "author": "Martin Hairer",
+          "kind": "Foundational research paper",
+          "level": "Research",
+          "url": "https://arxiv.org/pdf/1303.5113",
+          "source": "https://arxiv.org/abs/1303.5113",
+          "version": "2013 preprint; published 2014",
+          "note": "A foundational construction for singular stochastic PDEs, beyond classical distributional solution methods.",
+          "prerequisites": "Stochastic analysis; distributions; Hölder spaces; renormalization.",
+          "use": "Research reading after introductory SPDE or rough-path material.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -1438,7 +1802,9 @@
           "use": "Foundational reference for higher category theory.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "HTT infinity categories topos"
+          "aliases": "HTT infinity categories topos",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1455,7 +1821,9 @@
           "use": "Reference for modern derived and spectral algebra.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "HA infinity categories spectra operads"
+          "aliases": "HA infinity categories spectra operads",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1471,7 +1839,9 @@
           "prerequisites": "Category theory; simplicial sets; algebraic topology.",
           "use": "An alternative foundational route to infinity-categories.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1487,7 +1857,9 @@
           "prerequisites": "Category theory; simplicial sets.",
           "use": "Selective study and precise citations.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Open online text / archive",
+          "accessNote": "Full text is provided through the official online text or archive; a further click may be needed for a PDF."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1503,7 +1875,9 @@
           "prerequisites": "Point-set topology; groups and modules.",
           "use": "Graduate bridge toward homotopy theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1519,7 +1893,9 @@
           "prerequisites": "Algebraic topology; loop spaces.",
           "use": "Study classical foundations of operads in topology.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1536,7 +1912,9 @@
           "use": "Main course text and reference for K-theory.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "K theory Ktheory"
+          "aliases": "K theory Ktheory",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1552,7 +1930,9 @@
           "prerequisites": "Spectra; spectral sequences; algebraic topology.",
           "use": "Research preparation in chromatic homotopy.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1568,7 +1948,9 @@
           "prerequisites": "Higher category theory; homotopy theory.",
           "use": "Advanced seminar reading rather than an undergraduate introduction.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1585,7 +1967,9 @@
           "use": "Learn a foundation connected to formal proof systems.",
           "language": "English",
           "checked": "2026-10-11",
-          "aliases": "HoTT univalence"
+          "aliases": "HoTT univalence",
+          "access": "Open online text / archive",
+          "accessNote": "Full text is provided through the official online text or archive; a further click may be needed for a PDF."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1601,7 +1985,9 @@
           "prerequisites": "Proof-based undergraduate algebra.",
           "use": "Entry bridge before higher categories.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1617,7 +2003,9 @@
           "prerequisites": "Category theory; monoidal categories; operads.",
           "use": "Compare models of higher categories.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Higher categories & homotopy",
@@ -1633,7 +2021,63 @@
           "prerequisites": "Manifolds; algebraic topology; characteristic classes.",
           "use": "Historical advanced topology reference.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Geometry & topology",
+          "topic": "algebraic-topology",
+          "title": "Vector Bundles & K-Theory",
+          "author": "Allen Hatcher",
+          "kind": "Unfinished book draft",
+          "level": "Graduate",
+          "url": "https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf",
+          "source": "https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html",
+          "version": "Version 2.2, November 2017; partial book draft",
+          "note": "Available portions cover vector bundles, characteristic classes and complex Bott periodicity. The author says only about half the planned book is posted.",
+          "prerequisites": "Algebraic topology; linear algebra.",
+          "use": "Learn topological K-theory foundations; do not treat the draft as complete.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Geometry & topology",
+          "topic": "algebraic-topology",
+          "title": "scl",
+          "author": "Danny Calegari",
+          "kind": "Research monograph",
+          "level": "Research",
+          "url": "https://math.uchicago.edu/~dannyc/books/scl/scl.pdf",
+          "source": "https://math.uchicago.edu/~dannyc/books/scl/scl.html",
+          "version": "MSJ Memoirs 20, 2009",
+          "note": "Stable commutator length connects quasimorphisms, bounded cohomology and geometric group theory.",
+          "prerequisites": "Group theory; surfaces; basic topology.",
+          "use": "Research preparation in bounded cohomology and groups.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "The author page explicitly states publisher permission for the PDF; follow its terms.",
+          "access": "Direct open PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Geometry & topology",
+          "topic": "algebraic-topology",
+          "title": "Notes on Basic 3-Manifold Topology",
+          "author": "Allen Hatcher",
+          "kind": "Unfinished book draft",
+          "level": "Graduate",
+          "url": "https://pi.math.cornell.edu/~hatcher/3M/3Mfds.pdf",
+          "source": "https://pi.math.cornell.edu/~hatcher/3M/3Mdownloads.html",
+          "version": "2023 revision; 75-page early book draft",
+          "note": "Introduces prime and torus decompositions and special classes of three-manifolds. This is an unfinished initial portion, not a complete textbook.",
+          "prerequisites": "Point-set topology; fundamental groups; manifolds.",
+          "use": "Enter low-dimensional topology.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -1677,7 +2121,9 @@
           "prerequisites": "Complex analysis; topology.",
           "use": "Classical geometric analysis preparation.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1693,7 +2139,9 @@
           "prerequisites": "Smooth manifolds; linear algebra.",
           "use": "Bridge manifolds and geometric structures.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1709,7 +2157,9 @@
           "prerequisites": "Differential forms; manifolds; PDE.",
           "use": "Research preparation in geometric PDE.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1725,7 +2175,9 @@
           "prerequisites": "Lie groups; smooth manifolds.",
           "use": "Connect symmetry and geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1741,7 +2193,9 @@
           "prerequisites": "Riemannian manifolds; differential equations.",
           "use": "Develop geometric intuition alongside formal theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1757,7 +2211,9 @@
           "prerequisites": "Several complex variables; topology.",
           "use": "Background for singular geometric spaces.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1773,7 +2229,9 @@
           "prerequisites": "Lie groups; differential geometry.",
           "use": "Connect homogeneous spaces and geometric group theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1789,7 +2247,9 @@
           "prerequisites": "Metric spaces; topology.",
           "use": "Focused geometric bridge.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Differential, symplectic & geometric analysis",
@@ -1805,7 +2265,65 @@
           "prerequisites": "Riemannian geometry; parabolic PDE.",
           "use": "Prepare for geometric-analysis research.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Geometry & topology",
+          "topic": "differential-geometry",
+          "title": "Foliations and the Geometry of 3-Manifolds",
+          "author": "Danny Calegari",
+          "kind": "Research monograph",
+          "level": "Research",
+          "url": "https://math.uchicago.edu/~dannyc/books/foliations/oupbook.pdf",
+          "source": "https://math.uchicago.edu/~dannyc/books/foliations/foliations.html",
+          "version": "2007 authorized author copy",
+          "note": "Studies foliations, universal circles and their interaction with three-dimensional geometry.",
+          "prerequisites": "Differential topology; hyperbolic geometry; surfaces.",
+          "use": "Advanced study of low-dimensional geometric structures.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "The author page explicitly states Oxford University Press permission for this PDF.",
+          "access": "Direct open PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Geometry & topology",
+          "topic": "differential-geometry",
+          "title": "Introduction to Smooth Manifolds",
+          "author": "John M. Lee",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://link.springer.com/book/10.1007/978-1-4419-9982-5",
+          "source": "https://link.springer.com/book/10.1007/978-1-4419-9982-5",
+          "version": "Second edition, 2012",
+          "note": "A systematic foundation in smooth structures, tangent spaces, flows and differential forms.",
+          "prerequisites": "Multivariable analysis; linear algebra; topology.",
+          "use": "Build the foundations needed for geometric research.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
+        },
+        {
+          "bucket": "Balanced expansion — Geometry & topology",
+          "topic": "differential-geometry",
+          "title": "Introduction to Riemannian Manifolds",
+          "author": "John M. Lee",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://link.springer.com/book/10.1007/978-3-319-91755-9",
+          "source": "https://link.springer.com/book/10.1007/978-3-319-91755-9",
+          "version": "Second edition, copyright 2018; publication 2019",
+          "note": "Develops connections, geodesics and curvature through geometric examples.",
+          "prerequisites": "Smooth manifolds; tensor calculus.",
+          "use": "Progress from differential topology to Riemannian geometry.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     },
@@ -1840,7 +2358,9 @@
           "use": "Advanced foundation for virtual geometric constructions.",
           "language": "English",
           "checked": "2026-10-11",
-          "additionalUrl": "https://people.maths.ox.ac.uk/joyce/kubookv2.pdf"
+          "additionalUrl": "https://people.maths.ox.ac.uk/joyce/kubookv2.pdf",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -1902,7 +2422,9 @@
           "prerequisites": "Linear algebra; number theory.",
           "use": "Classical arithmetic of quadratic forms.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -1918,7 +2440,9 @@
           "prerequisites": "p-adic fields; algebra; analysis.",
           "use": "Prepare for local arithmetic geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -1934,7 +2458,64 @@
           "prerequisites": "Galois theory; algebraic groups; cohomology.",
           "use": "Research preparation in arithmetic groups.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Number theory",
+          "topic": "algebraic-number-theory",
+          "title": "p-adic Differential Equations",
+          "author": "Kiran S. Kedlaya",
+          "kind": "Research monograph",
+          "level": "Research",
+          "url": "https://kskedlaya.org/papers/p-adic_differential_equations.pdf",
+          "source": "https://kskedlaya.org/papers/",
+          "version": "Authorized first-edition PDF, 2010; second edition 2022 is distinct in access, not counted again",
+          "note": "Develops nonarchimedean differential modules and their analytic structure.",
+          "prerequisites": "Nonarchimedean fields; differential equations; algebra.",
+          "use": "Research preparation in p-adic differential modules.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "Cambridge permission covers the posted first edition. The author expressly asks readers not to redistribute it.",
+          "access": "Direct open PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Number theory",
+          "topic": "algebraic-number-theory",
+          "title": "Arithmetic Duality Theorems",
+          "author": "J. S. Milne",
+          "kind": "Research monograph",
+          "level": "Research",
+          "url": "https://www.jmilne.org/math/Books/ADTnot.pdf",
+          "source": "https://www.jmilne.org/math/Books/adt.html",
+          "version": "Second edition, July 2006",
+          "note": "Develops local and global duality in Galois, étale and flat cohomology.",
+          "prerequisites": "Class field theory; Galois cohomology; schemes.",
+          "use": "Advanced reference for arithmetic duality.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "Electronic edition: CC BY-NC-ND 2.5; see the copyright page for precise conditions.",
+          "access": "Direct open PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Number theory",
+          "topic": "algebraic-number-theory",
+          "title": "Number Theory I (MIT 18.785)",
+          "author": "Andrew V. Sutherland",
+          "kind": "Long lecture notes",
+          "level": "Graduate",
+          "url": "https://math.mit.edu/classes/18.785/2025/lectures.html",
+          "source": "https://math.mit.edu/classes/18.785/2025/",
+          "version": "Fall 2025 complete course collection",
+          "note": "Graduate course notes on number fields, local fields and class-field-theoretic methods. The linked collection provides individual lecture PDFs; counted as one course, not per chapter.",
+          "prerequisites": "Abstract algebra; commutative algebra (course corequisite).",
+          "use": "Work through a graduate algebraic-number-theory sequence.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Open online text / archive",
+          "accessNote": "The official lecture index supplies the full course as separate PDFs; this is not a single merged PDF.",
+          "label": "Official course & lecture PDFs"
         }
       ]
     },
@@ -1969,7 +2550,9 @@
           "prerequisites": "Complex analysis; elementary number theory.",
           "use": "Bridge toward analytic number theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -1985,7 +2568,9 @@
           "prerequisites": "Complex analysis; arithmetic functions.",
           "use": "Historical graduate reference.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -2001,7 +2586,9 @@
           "prerequisites": "Graduate number theory; complex analysis.",
           "use": "Supplement modern analytic-number-theory courses.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -2017,7 +2604,9 @@
           "prerequisites": "Analytic number theory; asymptotic estimates.",
           "use": "Focused reading in sieve theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -2033,7 +2622,28 @@
           "prerequisites": "Real analysis; number theory.",
           "use": "Connect Diophantine approximation and distribution.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Number theory",
+          "topic": "analytic-number-theory",
+          "title": "Multiplicative Number Theory I: Classical Theory",
+          "author": "Hugh L. Montgomery and Robert C. Vaughan",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://www.cambridge.org/core/books/multiplicative-number-theory-i/4E45519B26115AEEA4839C6C38206ACD",
+          "source": "https://www.cambridge.org/core/books/multiplicative-number-theory-i/4E45519B26115AEEA4839C6C38206ACD",
+          "version": "2006 print edition",
+          "note": "Treats Dirichlet series, the zeta function and distribution of prime numbers.",
+          "prerequisites": "Complex analysis; elementary number theory.",
+          "use": "A sustained graduate route into analytic number theory.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     },
@@ -2077,7 +2687,9 @@
           "prerequisites": "Modular forms; several complex variables.",
           "use": "Prepare for Siegel modular theory.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -2093,7 +2705,9 @@
           "prerequisites": "Complex analysis; modular forms.",
           "use": "Specialized modular-curve reading.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -2109,7 +2723,9 @@
           "prerequisites": "Complex analysis; linear algebra.",
           "use": "Background for abelian and modular geometry.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Number theory",
@@ -2125,7 +2741,46 @@
           "prerequisites": "Complex analysis; group actions.",
           "use": "Bridge into modular forms.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Number theory",
+          "topic": "modular-forms",
+          "title": "Modular Forms, a Computational Approach",
+          "author": "William A. Stein, with an appendix by Paul E. Gunnells",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://wstein.org/books/modform/stein-modform.pdf",
+          "source": "https://wstein.org/books/modform/modform/",
+          "version": "2007 author-hosted book",
+          "note": "Turns modular-form constructions into explicit algorithms and computations.",
+          "prerequisites": "Linear algebra; number theory; modular forms basics.",
+          "use": "Connect theoretical modular forms with computational practice.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Number theory",
+          "topic": "modular-forms",
+          "title": "The Arithmetic of Elliptic Curves",
+          "author": "Joseph H. Silverman",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://link.springer.com/book/10.1007/978-0-387-09494-6",
+          "source": "https://link.springer.com/book/10.1007/978-0-387-09494-6",
+          "version": "Second edition, 2009",
+          "note": "Develops the arithmetic of elliptic curves over local and global fields.",
+          "prerequisites": "Algebraic curves; number theory; algebra.",
+          "use": "Prepare for research on rational points and elliptic curves.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     },
@@ -2194,7 +2849,64 @@
           "prerequisites": "Linear algebra; discrete mathematics.",
           "use": "Bridge combinatorics and representation-theoretic ideas.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Foundations & combinatorics",
+          "topic": "combinatorics",
+          "title": "Discrete Mathematics: An Open Introduction",
+          "author": "Oscar Levin",
+          "kind": "Textbook",
+          "level": "Introductory",
+          "url": "https://discrete.openmathbooks.org/pdfs/dmoi4.pdf",
+          "source": "https://discrete.openmathbooks.org/dmoi4.html",
+          "version": "Fourth edition, 2025",
+          "note": "Exercises connect proof-writing with graphs, counting and sequences.",
+          "prerequisites": "School algebra; willingness to write proofs.",
+          "use": "A first discrete-mathematics course.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "CC BY-NC-SA 4.0; follow the author’s licence.",
+          "access": "Direct open PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Foundations & combinatorics",
+          "topic": "combinatorics",
+          "title": "Graph Theory",
+          "author": "Reinhard Diestel",
+          "kind": "Textbook",
+          "level": "Advanced",
+          "url": "https://diestel-graph-theory.com/",
+          "source": "https://diestel-graph-theory.com/",
+          "version": "Sixth edition, 2025",
+          "note": "Covers core graph theory and routes toward structural results. Free browser viewing is not the same as a freely downloadable full PDF.",
+          "prerequisites": "Proof-writing; discrete mathematics.",
+          "use": "Bridge undergraduate graphs and graduate combinatorics.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Open online text / archive",
+          "accessNote": "The author offers free online viewing of the main text. Downloadable complete ebooks and exercise hints are separate paid editions; use the official page.",
+          "label": "Author page / free online main text"
+        },
+        {
+          "bucket": "Balanced expansion — Foundations & combinatorics",
+          "topic": "combinatorics",
+          "title": "Enumerative Combinatorics, Volume 1",
+          "author": "Richard P. Stanley",
+          "kind": "Textbook / author manuscript",
+          "level": "Graduate",
+          "url": "https://math.mit.edu/~rstan/ec/ec1.pdf",
+          "source": "https://math.mit.edu/~rstan/ec/ec1/",
+          "version": "Second-edition author manuscript, July 15, 2011; published copyright 2012",
+          "note": "Develops enumeration through generating functions, partially ordered sets and related methods.",
+          "prerequisites": "Discrete mathematics; algebra; formal power series.",
+          "use": "Graduate study of enumerative techniques.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         }
       ]
     },
@@ -2240,7 +2952,9 @@
           "prerequisites": "Real analysis; measure theory.",
           "use": "Graduate probability bridge.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2256,7 +2970,9 @@
           "prerequisites": "Measure-theoretic probability.",
           "use": "Classical foundations for stochastic analysis.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2272,7 +2988,9 @@
           "prerequisites": "Measure theory; topology.",
           "use": "Advanced probability and measure reference.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2288,7 +3006,9 @@
           "prerequisites": "Probability; stochastic calculus.",
           "use": "Advanced stochastic-analysis course.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2304,7 +3024,9 @@
           "prerequisites": "Brownian motion; stochastic calculus.",
           "use": "Research preparation in Malliavin calculus.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2320,7 +3042,9 @@
           "prerequisites": "Stochastic calculus; differential equations.",
           "use": "Advanced stochastic dynamics reference.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2336,7 +3060,9 @@
           "prerequisites": "Measure theory; real analysis.",
           "use": "Core graduate probability study.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2352,7 +3078,9 @@
           "prerequisites": "Probability; linear algebra; elementary graph theory.",
           "use": "Bridge to probabilistic combinatorics.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
         },
         {
           "bucket": "Logic, combinatorics, probability & dynamics",
@@ -2369,7 +3097,100 @@
           "use": "Study the interface of probability and discrete geometry.",
           "language": "English",
           "checked": "2026-10-11",
-          "label": "Author page & full PDF"
+          "label": "Author page & full PDF",
+          "access": "Open online text / archive",
+          "accessNote": "Full text is provided through the official online text or archive; a further click may be needed for a PDF."
+        },
+        {
+          "bucket": "Balanced expansion — Probability & dynamics",
+          "topic": "probability",
+          "title": "An Introduction to Stochastic PDEs",
+          "author": "Martin Hairer",
+          "kind": "Long lecture notes",
+          "level": "Graduate",
+          "url": "https://hairer.org/notes/SPDEs.pdf",
+          "source": "https://hairer.org/Teaching.html",
+          "version": "Author revision 2025",
+          "note": "Introduces Gaussian measures, semigroups and stochastic evolution equations.",
+          "prerequisites": "Measure-theoretic probability; functional analysis.",
+          "use": "Start postgraduate SPDE study.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Probability & dynamics",
+          "topic": "probability",
+          "title": "A Course on Rough Paths",
+          "author": "Peter K. Friz and Martin Hairer",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://hairer.org/notes/RoughPaths.pdf",
+          "source": "https://hairer.org/Teaching.html",
+          "version": "Second-edition author copy, corrected 2024",
+          "note": "Develops rough integration and links it with regularity structures.",
+          "prerequisites": "Stochastic calculus; analysis; differential equations.",
+          "use": "Prepare for pathwise stochastic analysis.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "accessNote": "The author permits personal use only; do not sell, modify or redistribute this PDF.",
+          "access": "Direct open PDF"
+        },
+        {
+          "bucket": "Balanced expansion — Probability & dynamics",
+          "topic": "probability",
+          "title": "Advanced Stochastic Analysis",
+          "author": "Martin Hairer",
+          "kind": "Long lecture notes",
+          "level": "Graduate",
+          "url": "https://hairer.org/notes/Malliavin.pdf",
+          "source": "https://hairer.org/Teaching.html",
+          "version": "Author revision 2026",
+          "note": "Graduate notes on Gaussian analysis, Malliavin calculus and hypoellipticity.",
+          "prerequisites": "Measure-theoretic probability; stochastic calculus.",
+          "use": "Deepen the analytic tools behind stochastic differential equations.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Probability & dynamics",
+          "topic": "probability",
+          "title": "High-Dimensional Probability",
+          "author": "Roman Vershynin",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-2.pdf",
+          "source": "https://webapps.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html",
+          "version": "Second edition, published February 19, 2026",
+          "note": "Develops concentration and random-matrix methods with applications in data science.",
+          "prerequisites": "Graduate probability; strong linear algebra; metric and normed spaces.",
+          "use": "Study modern probabilistic estimates and random structures.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Foundations & combinatorics",
+          "topic": "probability",
+          "title": "Introduction to Probability",
+          "author": "Joseph K. Blitzstein and Jessica Hwang",
+          "kind": "Textbook",
+          "level": "Introductory",
+          "url": "https://probabilitybook.net/",
+          "source": "https://stat110.hsites.harvard.edu/",
+          "version": "Second edition, 2019; author-authorized free online edition",
+          "note": "A calculus-level introduction to probability using conditioning, distributions and simulation. This is distinct from the existing Grinstead–Snell book with a similar title.",
+          "prerequisites": "Calculus; elementary counting.",
+          "use": "Prepare for measure-theoretic probability.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Open online text / archive",
+          "accessNote": "Harvard’s official Stat 110 page links this free online second edition. The short URL opens the authorized PDF in a Google Drive viewer rather than a direct PDF endpoint.",
+          "label": "Open authorized online PDF viewer"
         }
       ]
     },
@@ -2413,7 +3234,46 @@
           "prerequisites": "Measure theory; real analysis.",
           "use": "Graduate entry into dynamical systems.",
           "language": "English",
-          "checked": "2026-10-11"
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Probability & dynamics",
+          "topic": "dynamics",
+          "title": "Ergodic Properties of Markov Processes",
+          "author": "Martin Hairer",
+          "kind": "Lecture notes",
+          "level": "Advanced",
+          "url": "https://hairer.org/notes/Markov.pdf",
+          "source": "https://hairer.org/Teaching.html",
+          "version": "Author revision 2018",
+          "note": "Studies invariant distributions and constructive convergence methods.",
+          "prerequisites": "Probability; Markov processes; measure theory.",
+          "use": "Bridge probability and long-time dynamics.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Direct open PDF",
+          "accessNote": "The linked author, university or academic-archive PDF can be opened without institutional login. Availability can change; downloading does not grant redistribution rights."
+        },
+        {
+          "bucket": "Balanced expansion — Probability & dynamics",
+          "topic": "dynamics",
+          "title": "Lectures on Lyapunov Exponents",
+          "author": "Marcelo Viana",
+          "kind": "Textbook",
+          "level": "Graduate",
+          "url": "https://www.cambridge.org/core/books/lectures-on-lyapunov-exponents/42E4EAB1756EA3248148F48E2CD89813",
+          "source": "https://www.cambridge.org/core/books/lectures-on-lyapunov-exponents/42E4EAB1756EA3248148F48E2CD89813",
+          "version": "2014",
+          "note": "Studies multiplicative cocycles, invariant measures and Lyapunov exponents.",
+          "prerequisites": "Ergodic theory; linear algebra; probability.",
+          "use": "Advance from introductory dynamics to nonuniform growth.",
+          "language": "English",
+          "checked": "2026-10-11",
+          "access": "Institutional / purchase access",
+          "accessNote": "The complete published book is subscription or purchase content. A preview or sample is not the complete book; institutional access depends on your library licence.",
+          "label": "Publisher / access page"
         }
       ]
     }

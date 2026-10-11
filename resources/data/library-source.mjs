@@ -1,3 +1,4 @@
+import balanced from './library-balanced.mjs';
 // Editorial metadata. Full texts stay on the author/institution/authorized archive.
 const checked='2026-10-11';const works=[];
 function add(bucket,topic,title,author,kind,level,url,source,version,note,prerequisites,use,extra={}){works.push({bucket,topic,title,author,kind,level,url,source,version,note,prerequisites,use,language:'English',checked,...extra})}
@@ -119,4 +120,4 @@ add(other,'logic','Open Logic Text','The Open Logic Project','Textbook','Graduat
 add(other,'combinatorics','Algebraic Combinatorics: Walks, Trees, Tableaux, and More','Richard P. Stanley','Textbook / author draft','Graduate','https://math.mit.edu/~rstan/algcomb/algcomb.pdf','https://math.mit.edu/~rstan/algcomb/','Author draft; book 2013','Connects enumerative questions with algebra through walks, trees and tableaux.','Linear algebra; discrete mathematics.','Bridge combinatorics and representation-theoretic ideas.');
 add(other,'dynamics','Lectures on Ergodic Theory','Henk Bruin','Long lecture notes','Graduate','https://www.mat.univie.ac.at/~bruin/ET3.pdf','https://www.mat.univie.ac.at/~bruin/','May 8, 2023; notes in progress','A sustained course on invariant measures, recurrence and ergodic dynamics.','Measure theory; real analysis.','Graduate entry into dynamical systems.');
 const aliases={'Higher Topos Theory':'HTT infinity categories topos','Higher Algebra':'HA infinity categories spectra operads','Homotopical Algebraic Geometry I: Topos Theory':'HAG I HAGI topos','Homotopical Algebraic Geometry II: Geometric Stacks and Applications':'HAG II HAGII derived stacks','Algebraic Geometry over C∞-Rings':'C-infinity smooth rings','Homotopy Type Theory: Univalent Foundations of Mathematics':'HoTT univalence','The K-Book: An Introduction to Algebraic K-Theory':'K theory Ktheory'};for(const e of works){if(aliases[e.title])e.aliases=aliases[e.title];if(e.title==='Basic Category Theory')e.level='Intermediate'}
-export default works;
+export default [...works,...balanced];
