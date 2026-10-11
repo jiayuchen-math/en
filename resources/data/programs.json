@@ -4961,5 +4961,1850 @@
     "region": "Oceania",
     "programmeForm": "Single-country pathway",
     "intakeYear": "Year not verified"
+  },
+  {
+    "id": "massachusetts-institute-of-technology-undergraduate-mathematics-massachusetts-institute-of-technology",
+    "country": "US",
+    "institution": "Massachusetts Institute of Technology",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Massachusetts Institute of Technology",
+    "url": "https://math.mit.edu/academics/undergrad/major/index.html",
+    "note": "Course 18 is the mathematics degree route. Compare the pure-mathematics option with general and applied options; Course 18-C is not counted as another pure-mathematics intake.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "The current MIT first-year checklist requires SAT or ACT, school records and teacher evaluations. The mathematics major itself is selected after admission.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.mit.edu/academics/undergrad/major/index.html",
+        "label": "Mathematics degree options"
+      },
+      {
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "label": "First-year application and testing checklist"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "harvard-university-undergraduate-mathematics-harvard-university",
+    "country": "US",
+    "institution": "Harvard University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Harvard University",
+    "url": "https://www.math.harvard.edu/undergraduate/",
+    "note": "A Harvard College concentration with proof-based courses and possible honours study. This is undergraduate college admission followed by a concentration, not a separately admitted mathematics graduate degree.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.math.harvard.edu/undergraduate/",
+        "label": "Mathematics concentration"
+      },
+      {
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+        "label": "Harvard College first-year route"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "princeton-university-undergraduate-mathematics-princeton-university",
+    "country": "US",
+    "institution": "Princeton University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Princeton University",
+    "url": "https://www.math.princeton.edu/undergraduate",
+    "note": "Multiple entry points lead toward proof-based algebra, analysis and a mathematics major. The department’s introductory-course enrolments are not the number of admitted majors.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.math.princeton.edu/undergraduate",
+        "label": "Mathematics curriculum"
+      },
+      {
+        "url": "https://admission.princeton.edu/apply/application-checklist",
+        "label": "University first-year checklist"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "stanford-university-undergraduate-mathematics-stanford-university",
+    "country": "US",
+    "institution": "Stanford University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Stanford University",
+    "url": "https://bulletin.stanford.edu/programs/MATH-BS",
+    "note": "A Mathematics BS with the requirements in the current bulletin. Undergraduate admission is university-wide; declaring the major is a later academic process.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "The current Stanford first-year requirements include SAT or ACT. Check the current document and recommendation checklist; no score threshold is inferred.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://bulletin.stanford.edu/programs/MATH-BS",
+        "label": "Mathematics BS requirements"
+      },
+      {
+        "url": "https://admission.stanford.edu/apply/first-year/",
+        "label": "First-year admission requirements"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "yale-university-undergraduate-mathematics-yale-university",
+    "country": "US",
+    "institution": "Yale University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Yale University",
+    "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/mathematics/",
+    "note": "Compare the mathematics undergraduate options in the 2026–27 Yale College curriculum. A curriculum year is not a verified application deadline year.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://catalog.yale.edu/ycps/subjects-of-instruction/mathematics/",
+        "label": "Yale College mathematics curriculum"
+      },
+      {
+        "url": "https://admissions.yale.edu/requirements",
+        "label": "First-year requirements — check current testing policy"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-chicago-undergraduate-mathematics-university-of-chicago",
+    "country": "US",
+    "institution": "University of Chicago",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Chicago",
+    "url": "https://mathematics.uchicago.edu/undergraduate/",
+    "note": "BA and BS mathematics options, with further options in applied mathematics and mathematics with economics. These variants are counted as one college-to-major route.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://mathematics.uchicago.edu/undergraduate/",
+        "label": "Undergraduate mathematics"
+      },
+      {
+        "url": "https://collegeadmissions.uchicago.edu/apply/application/",
+        "label": "College application portal information"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "columbia-university-undergraduate-mathematics-columbia-university",
+    "country": "US",
+    "institution": "Columbia University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Columbia University",
+    "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/mathematics/",
+    "note": "The Columbia College mathematics major includes proof-based study in algebra, analysis and geometry; honours preparation is distinct from first-year college selection. Consult the 2026–27 bulletin for course requirements.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://bulletin.columbia.edu/columbia-college/departments-instruction/mathematics/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "northwestern-university-undergraduate-mathematics-northwestern-university",
+    "country": "US",
+    "institution": "Northwestern University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Northwestern University",
+    "url": "https://www.math.northwestern.edu/undergraduate/",
+    "note": "Undergraduate mathematics in Weinberg College. Compare major requirements, honours study and undergraduate research rather than treating research opportunities as guaranteed places.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.math.northwestern.edu/undergraduate/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "cornell-university-undergraduate-mathematics-cornell-university",
+    "country": "US",
+    "institution": "Cornell University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Cornell University",
+    "url": "https://math.cornell.edu/undergraduate",
+    "note": "The mathematics major and its course pathways are described by the department. Apply to the appropriate undergraduate college; requirements and financial-aid rules need the current central guide.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.cornell.edu/undergraduate",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "duke-university-undergraduate-mathematics-duke-university",
+    "country": "US",
+    "institution": "Duke University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Duke University",
+    "url": "https://math.duke.edu/undergraduate",
+    "note": "A mathematics major with proof-based courses, undergraduate research and honours options. The curriculum includes pure mathematics; research participation is not promised to every entrant.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.duke.edu/undergraduate",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-california-los-angeles-undergraduate-mathematics-university-of-california-los-angeles",
+    "country": "US",
+    "institution": "University of California, Los Angeles",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of California, Los Angeles",
+    "url": "https://ww3.math.ucla.edu/majors-minors-specializations/",
+    "note": "The 2026–27 departmental handbook distinguishes Mathematics from applied, financial and data-related majors. This entry concerns the pure Mathematics route, not a duplicate of every specialization.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://ww3.math.ucla.edu/majors-minors-specializations/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-michigan-undergraduate-mathematics-university-of-michigan",
+    "country": "US",
+    "institution": "University of Michigan",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Michigan",
+    "url": "https://lsa.umich.edu/math/undergraduates/major-and-minor-programs.html",
+    "note": "Compare the mathematics and honours-mathematics paths in LSA with actuarial and finance options. The honours path can support proof-based graduate preparation, but is not a separate university admission count.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://lsa.umich.edu/math/undergraduates/major-and-minor-programs.html",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-wisconsin-madison-undergraduate-mathematics-university-of-wisconsin-madison",
+    "country": "US",
+    "institution": "University of Wisconsin–Madison",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Wisconsin–Madison",
+    "url": "https://guide.wisc.edu/undergraduate/letters-science/mathematics/mathematics-ba/",
+    "note": "The 2026–27 Mathematics BA requirements describe a later major declaration after prerequisite courses. Meeting major-declaration rules does not establish first-year university admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://guide.wisc.edu/undergraduate/letters-science/mathematics/mathematics-ba/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-illinois-urbana-champaign-undergraduate-mathematics-university-of-illinois-urbana-champaign",
+    "country": "US",
+    "institution": "University of Illinois Urbana-Champaign",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Illinois Urbana-Champaign",
+    "url": "https://catalog.illinois.edu/undergraduate/las/mathematics-bslas/",
+    "note": "The BSLAS mathematics route includes a mathematics concentration and other pathways. ALEKS and course placement are academic placement matters, not a substitute for the university’s first-year admission process.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://catalog.illinois.edu/undergraduate/las/mathematics-bslas/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "rutgers-university-new-brunswick-undergraduate-mathematics-rutgers-university-new-brunswick",
+    "country": "US",
+    "institution": "Rutgers University — New Brunswick",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Rutgers University — New Brunswick",
+    "url": "https://math.rutgers.edu/academics/undergraduate",
+    "note": "A broad mathematics major with advanced undergraduate courses. The department’s generic annual graduates figure is not a published future incoming cohort, so no new-intake number is inferred.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.rutgers.edu/academics/undergraduate",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-maryland-undergraduate-mathematics-university-of-maryland",
+    "country": "US",
+    "institution": "University of Maryland",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Maryland",
+    "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/computer-mathematical-natural-sciences/mathematics/mathematics-major/",
+    "note": "A mathematics major in the College of Computer, Mathematical, and Natural Sciences. Compare proof-based requirements and electives in the current catalogue before choosing an application route.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://academiccatalog.umd.edu/undergraduate/colleges-schools/computer-mathematical-natural-sciences/mathematics/mathematics-major/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-california-berkeley-undergraduate-mathematics-university-of-california-berkeley",
+    "country": "US",
+    "institution": "University of California, Berkeley",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of California, Berkeley",
+    "url": "https://math.berkeley.edu/undergraduate/major/pure",
+    "note": "The pure-mathematics major has lower- and upper-division requirements. University / college admission and later declaration must be checked separately; the departmental curriculum is not an admission-rate table.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.berkeley.edu/undergraduate/major/pure",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "stony-brook-university-undergraduate-mathematics-stony-brook-university",
+    "country": "US",
+    "institution": "Stony Brook University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Stony Brook University",
+    "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/mat.php",
+    "note": "The Mathematics undergraduate programme has pure-mathematics preparation and further-study options. University-wide employment claims are not mathematics-specific outcomes and are not used as admission evidence.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.stonybrook.edu/undergraduate-admissions/programs/mat.php",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-massachusetts-amherst-undergraduate-mathematics-university-of-massachusetts-amherst",
+    "country": "US",
+    "institution": "University of Massachusetts Amherst",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Massachusetts Amherst",
+    "url": "https://www.umass.edu/natural-sciences/academics/bs-mathematics",
+    "note": "The Mathematics BS offers multiple concentrations. Choose proof-based and theoretical courses deliberately if preparing for a pure-mathematics graduate programme.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.umass.edu/natural-sciences/academics/bs-mathematics",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-minnesota-twin-cities-undergraduate-mathematics-university-of-minnesota-twin-cities",
+    "country": "US",
+    "institution": "University of Minnesota — Twin Cities",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Minnesota — Twin Cities",
+    "url": "https://cse.umn.edu/math/bs-mathematics",
+    "note": "The mathematics BS is in CSE; the BA is in CLA. The CSE page describes a later competitive major-admission process, so first-year college entry should not be represented as automatic admission to this major.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://cse.umn.edu/math/bs-mathematics",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "brown-university-undergraduate-mathematics-brown-university",
+    "country": "US",
+    "institution": "Brown University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Brown University",
+    "url": "https://www.brown.edu/undergraduate-programs/mathematics-ab-scb",
+    "note": "The AB and ScB share one undergraduate application route. The ScB provides a more extensive mathematics curriculum; compare the current concentration requirements rather than relying on old advising pages.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.brown.edu/undergraduate-programs/mathematics-ab-scb",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-pennsylvania-undergraduate-mathematics-university-of-pennsylvania",
+    "country": "US",
+    "institution": "University of Pennsylvania",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Pennsylvania",
+    "url": "https://catalog.upenn.edu/undergraduate/programs/mathematics-ba/",
+    "note": "The Mathematics BA is an undergraduate College major. The official catalogue was corroborated through its indexed programme entry; automated page access was challenged. Follow the programme and current College admission pages directly.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://catalog.upenn.edu/undergraduate/programs/mathematics-ba/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "california-institute-of-technology-undergraduate-mathematics-california-institute-of-technology",
+    "country": "US",
+    "institution": "California Institute of Technology",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — California Institute of Technology",
+    "url": "https://catalog.caltech.edu/current/information-for-undergraduate-students/graduation-requirements-all-options/mathematics-option-ma/",
+    "note": "The mathematics option is within Caltech’s undergraduate BS structure. Its proof-based curriculum is not a separate departmental first-year application.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://catalog.caltech.edu/current/information-for-undergraduate-students/graduation-requirements-all-options/mathematics-option-ma/",
+        "label": "Current Mathematics option"
+      },
+      {
+        "url": "https://www.admissions.caltech.edu/why-caltech/academics/majors-minors/mathematics",
+        "label": "Official undergraduate programme overview"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-arizona-undergraduate-mathematics-university-of-arizona",
+    "country": "US",
+    "institution": "University of Arizona",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Arizona",
+    "url": "https://math.arizona.edu/academics/undergraduate/requirements/math",
+    "note": "BA and BS mathematics with several emphases. The theoretical and proof-based choices should be distinguished from teaching and professional emphases. One degree pathway is counted, not every emphasis.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.arizona.edu/academics/undergraduate/requirements/math",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-utah-undergraduate-mathematics-university-of-utah",
+    "country": "US",
+    "institution": "University of Utah",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Utah",
+    "url": "https://math.utah.edu/undergraduate/index.php",
+    "note": "Mathematics with undergraduate study and research options; distinguish the mathematics route from statistics and applied options. A combined BS/MS is not automatically a separate first-year intake.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.utah.edu/undergraduate/index.php",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "michigan-state-university-undergraduate-mathematics-michigan-state-university",
+    "country": "US",
+    "institution": "Michigan State University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — Michigan State University",
+    "url": "https://math.msu.edu/Undergraduate/index.aspx",
+    "note": "BA, BS and advanced mathematics options are described by the department. The advanced route can be compared for graduate preparation; it is not a promise of subsequent doctoral admission.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.msu.edu/Undergraduate/index.aspx",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-iowa-undergraduate-mathematics-university-of-iowa",
+    "country": "US",
+    "institution": "University of Iowa",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Iowa",
+    "url": "https://math.uiowa.edu/undergraduate/bs-mathematics",
+    "note": "The Mathematics BS distinguishes a general / graduate-preparation programme from a teaching-oriented programme. These tracks are not separately counted university application routes.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.uiowa.edu/undergraduate/bs-mathematics",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-florida-undergraduate-mathematics-university-of-florida",
+    "country": "US",
+    "institution": "University of Florida",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — University of Florida",
+    "url": "https://math.ufl.edu/mathematics-major/",
+    "note": "The major’s core includes linear algebra, abstract algebra and advanced calculus. Compare the department’s graduate-preparation advice, but do not interpret old graduate surveys as current cohort statistics.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.ufl.edu/mathematics-major/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "new-york-university-undergraduate-mathematics-new-york-university",
+    "country": "US",
+    "institution": "New York University",
+    "degree": "Undergraduate",
+    "title": "Undergraduate Mathematics — New York University",
+    "url": "https://math.nyu.edu/dynamic/undergrad/ba-cas/majors-minors/major-minor-requirements/",
+    "note": "The CAS Mathematics BA has analysis and algebra among its major requirements. Tandon and CAS have different college structures; this entry counts only the CAS route.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally a four-year bachelor route; verify the college and degree requirements.",
+    "preparation": "Secondary-school graduation or accepted equivalent. School mathematics preparation, English evidence and the current first-year requirements are assessed by the university; no invented GPA or test-score cutoff is supplied.",
+    "selection": "First-year university / college admission and later mathematics-major declaration are separate processes. Placement tests and departmental course grades are not automatically entrance tests.",
+    "application": "Use the university or relevant undergraduate college’s first-year application route, not a graduate mathematics portal. International applicants must check qualification, language and financial-document rules; transfer admission is a separate route.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.nyu.edu/dynamic/undergrad/ba-cas/majors-minors/major-minor-requirements/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-waterloo-honours-mathematics-route-to-pure-mathematics",
+    "country": "Canada",
+    "institution": "University of Waterloo",
+    "degree": "Undergraduate",
+    "title": "Honours Mathematics — route to Pure Mathematics",
+    "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+    "note": "A general mathematics first year leads to later plans, including Honours Pure Mathematics. Co-op, plan choice and university admission are different decisions.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Regular / co-op duration depends on the selected plan.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://uwaterloo.ca/future-students/programs/mathematics",
+        "label": "Programme and qualification-specific admission"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/undergraduate-studies",
+        "label": "Pure Mathematics plans"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-british-columbia-bsc-mathematics-vancouver",
+    "country": "Canada",
+    "institution": "University of British Columbia",
+    "degree": "Undergraduate",
+    "title": "BSc Mathematics — Vancouver",
+    "url": "https://you.ubc.ca/programs/mathematics-vancouver-bsc/",
+    "note": "Faculty of Science entry and the later Mathematics specialization are distinct stages. Immigration or work-permit eligibility is not inferred from the degree alone.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Normally 4 years; verify specialization and honours requirements.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://you.ubc.ca/programs/mathematics-vancouver-bsc/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Americas",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "epfl-bachelor-in-mathematics",
+    "country": "Switzerland",
+    "institution": "EPFL",
+    "degree": "Undergraduate",
+    "title": "Bachelor in Mathematics",
+    "url": "https://www.epfl.ch/education/bachelor/programs/mathematics/",
+    "note": "A mathematics bachelor with core French-language courses and later English-language offerings. Foreign upper-secondary qualifications have route-specific admission rules; Swiss residence alone is not a universal eligibility shortcut.",
+    "orientation": "Pure mathematics options",
+    "language": "French; later courses may be English",
+    "duration": "3 years nominal programme; verify preparatory and repeat rules.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.epfl.ch/education/bachelor/programs/mathematics/",
+        "label": "Mathematics bachelor"
+      },
+      {
+        "url": "https://edu.epfl.ch/studyplan/en/bachelor/mathematics/",
+        "label": "2026–27 curriculum and course languages"
+      },
+      {
+        "url": "https://www.epfl.ch/education/admission/admission-2/bachelor-admission-criteria-and-application/",
+        "label": "Bachelor / CMS admission by qualification"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "utrecht-university-bsc-mathematics-wiskunde",
+    "country": "Netherlands",
+    "institution": "Utrecht University",
+    "degree": "Undergraduate",
+    "title": "BSc Mathematics — Wiskunde",
+    "url": "https://www.uu.nl/bachelors/wiskunde",
+    "note": "A mathematics bachelor with room for theoretical and application choices. The programme’s Dutch-language admission guidance is retained; applicants with foreign diplomas must check its qualification and language rules.",
+    "orientation": "Pure mathematics options",
+    "language": "Dutch — confirm language evidence",
+    "duration": "3 years nominally; consult the study plan.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.uu.nl/bachelors/wiskunde",
+        "label": "Dutch programme; English guide supplied here"
+      },
+      {
+        "url": "https://www.uu.nl/bachelors/wiskunde/inschrijven-en-toelating",
+        "label": "Admission and foreign-diploma route"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "Wiskunde",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-helsinki-bachelor-s-programme-in-science-mathematics-statistics-track",
+    "country": "Finland",
+    "institution": "University of Helsinki",
+    "degree": "Undergraduate",
+    "title": "Bachelor’s Programme in Science — Mathematics & Statistics track",
+    "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/studying/study-tracks",
+    "note": "An English-language science bachelor with later mathematics/statistics track selection. This is not a separately recruited mathematics bachelor, nor a teacher-qualification programme.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "3-year bachelor structure; verify current requirements.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/studying/study-tracks",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Europe",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-sydney-bachelor-route-with-mathematics-major",
+    "country": "Australia",
+    "institution": "University of Sydney",
+    "degree": "Undergraduate",
+    "title": "Bachelor route with Mathematics major",
+    "url": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+    "note": "Mathematics is a major within eligible bachelor degrees, not an independently admitted degree. Later electives include pure topics; check the host degree, advanced-stream conditions and separate honours route.",
+    "orientation": "Pure mathematics options",
+    "language": "English",
+    "duration": "Depends on host bachelor, combined degree and honours choices.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Secondary"
+    ],
+    "region": "Oceania",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "peking-university-bicmr-mathematics-phd-peking-university-bicmr",
+    "country": "China",
+    "institution": "Peking University / BICMR",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Peking University / BICMR",
+    "url": "https://math.pku.edu.cn/yjs/yjszs/bsyjs/index.htm",
+    "note": "The School of Mathematical Sciences and BICMR share a domestic application-assessment route. Their shared admission is counted once, not as two institutions with separate intakes.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "A historical or general official route is linked. The next complete mathematics-specific application window is not established; this is not a current-open advertisement.",
+    "statistics": "Historical 2025 catalogue: 86 full-time planned places, of which 83 intended for recommended-admission routes. These include multiple mathematical disciplines and are not 2027 pure-mathematics vacancies.",
+    "sources": [
+      {
+        "url": "https://math.pku.edu.cn/yjs/yjszs/bsyjs/index.htm",
+        "label": "Departmental doctoral notices — displayed 2025 notice is historical"
+      },
+      {
+        "url": "https://admission.pku.edu.cn/zsxx/bszs/bszyml/2025/yx/zsml_bs_yx_00001.pdf",
+        "label": "Historical 2025 mathematics doctoral allocation"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "tsinghua-university-ymsc-qiuzhen-mathematics-phd-tsinghua-university-ymsc-qiuzhen",
+    "country": "China",
+    "institution": "Tsinghua University — YMSC / Qiuzhen",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Tsinghua University — YMSC / Qiuzhen",
+    "url": "https://ymsc.tsinghua.edu.cn/en/Education/GraduateProgram.htm",
+    "note": "YMSC describes doctoral study registered through Qiuzhen College since autumn 2022. The old generic yearly timetable is not a dated 2027 call.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese / English — confirm the individual route",
+    "duration": "The general description states 4–6 years from a bachelor and 3–4 from a master; the current offer and regulations govern.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Application-assessment with committee evaluation. A bachelor-entry route requires its specific qualification and recommendation conditions.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "A historical or general official route is linked. The next complete mathematics-specific application window is not established; this is not a current-open advertisement.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://ymsc.tsinghua.edu.cn/en/Education/GraduateProgram.htm",
+        "label": "Programme structure; historical statistics not reused as current capacity"
+      },
+      {
+        "url": "https://yz.tsinghua.edu.cn/",
+        "label": "Central doctoral and international notices — select current year and Qiuzhen route"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Bachelor",
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "academy-of-mathematics-and-systems-science-ucas-mathematics-phd-academy-of-mathematics-and-systems-science-ucas",
+    "country": "China",
+    "institution": "Academy of Mathematics and Systems Science / UCAS",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Academy of Mathematics and Systems Science / UCAS",
+    "url": "https://www.amss.ac.cn/admission/",
+    "note": "Research training across mathematics at AMSS, with UCAS degree administration. The portal distinguishes doctoral examinations from recommended-admission and master routes; do not treat these as interchangeable.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "A historical or general official route is linked. The next complete mathematics-specific application window is not established; this is not a current-open advertisement.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.amss.ac.cn/admission/",
+        "label": "AMSS official admissions portal"
+      },
+      {
+        "url": "https://www.amss.ac.cn/admission/bszs/jzml/",
+        "label": "Doctoral notices; currently indexed 2026 calls are historical"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "fudan-university-mathematics-phd-fudan-university",
+    "country": "China",
+    "institution": "Fudan University",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Fudan University",
+    "url": "https://math.fudan.edu.cn/30374/list.htm",
+    "note": "Pure mathematics is included among the mathematics doctoral disciplines. Direct doctorate, ordinary application-assessment and internal master-to-doctorate continuation are distinct mechanisms.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "A historical or general official route is linked. The next complete mathematics-specific application window is not established; this is not a current-open advertisement.",
+    "statistics": "Historical 2026 briefing: about 60 direct doctoral places at the School, about 20 at Shanghai Mathematics Center, and about 40 academic-master places. Actual allocations could change; these are neither all ordinary-doctorate places nor 2027 allocations.",
+    "sources": [
+      {
+        "url": "https://math.fudan.edu.cn/30374/list.htm",
+        "label": "Current departmental notice index"
+      },
+      {
+        "url": "https://math.fudan.edu.cn/30364/list.htm",
+        "label": "Degree structure and research disciplines"
+      },
+      {
+        "url": "https://math.fudan.edu.cn/_upload/article/files/50/27/34290e6b43fcb8b8dacf907229a0/7bd98c55-3c97-444b-a32f-198197b4b331.pdf",
+        "label": "Historical 2026 academic-camp and planned intake briefing"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "nankai-university-mathematics-phd-nankai-university",
+    "country": "China",
+    "institution": "Nankai University",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Nankai University",
+    "url": "https://math.nankai.edu.cn/bszs/list.htm",
+    "note": "A mathematics doctorate with application-assessment and internal continuation notices. Use the corresponding round; a second-round notice does not establish a future recurring deadline.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "A historical or general official route is linked. The next complete mathematics-specific application window is not established; this is not a current-open advertisement.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.nankai.edu.cn/bszs/list.htm",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "shandong-university-mathematics-phd-shandong-university",
+    "country": "China",
+    "institution": "Shandong University",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Shandong University",
+    "url": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+    "note": "The historical 2026 mathematics application-assessment call requires research preparation, recommendations and disciplinary assessment. Its dates have passed; it is retained to explain the route, not advertise an open call.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Historical 2026 notice: material assessment, foreign-language / disciplinary assessment and comprehensive evaluation. Current-year rules must be rechecked.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Historical 2026 intake: registration December 10–22, 2025; assessment planned January 2026. No 2027 deadline is inferred.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "intakeYear": "2026 (historical)",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "beijing-normal-university-mathematics-phd-beijing-normal-university",
+    "country": "China",
+    "institution": "Beijing Normal University",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Beijing Normal University",
+    "url": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+    "note": "The 2027 recommended-admission notice includes direct-doctorate selection. Its September 2026 assessment is historical as of review; master-entry general admission requires a separate notice.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Recommended-admission eligibility, academic material review and in-person interview; two expert letters are required for the doctorate in this notice.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "2027 direct-doctorate assessment: report September 12 and interview September 13, 2026. These dates have passed; no later open round is asserted.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+        "label": "2027 recommended-admission / direct doctorate notice"
+      },
+      {
+        "url": "https://math.bnu.edu.cn/yjshd/1f56d09af81e45188f3c886d7aff1f6b.htm",
+        "label": "Historical 2026 written subjects — direction-specific, not future rules"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Bachelor"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "intakeYear": "2027",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "shenzhen-university-mathematics-phd-shenzhen-university",
+    "country": "China",
+    "institution": "Shenzhen University",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — Shenzhen University",
+    "url": "https://math.szu.edu.cn/yjspy/zsxc/bs.htm",
+    "note": "The mathematics doctoral notice index includes 2027 direct-doctorate and earlier application-assessment routes. Supervisor agreement appears in the 2026 ordinary route; do not transfer every rule to the next year.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Historical 2026 call: online / paper deadline March 5, 2026, but the email-material line says March 5, 2025. Conflict is unresolved; do not reuse this notice’s date for a new intake.",
+    "statistics": "Historical 2026 ordinary-call plan: 9 places including 1 already recruited direct-doctorate place and up to 3 preselected places. Not a 2027 allocation.",
+    "sources": [
+      {
+        "url": "https://math.szu.edu.cn/yjspy/zsxc/bs.htm",
+        "label": "Doctoral notices by year and round"
+      },
+      {
+        "url": "https://math.szu.edu.cn/info/1034/6766.htm",
+        "label": "Historical 2026 ordinary doctorate requirements — contains a date conflict"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "zhejiang-university-mathematics-phd-international-route",
+    "country": "China",
+    "institution": "Zhejiang University",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — international route",
+    "url": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+    "note": "The international doctoral guide and its English-medium catalogue include mathematics. This is distinct from domestic doctoral examinations; the 2026 call is historical.",
+    "orientation": "Pure mathematics options",
+    "language": "English for the listed international route; confirm supervisor and courses",
+    "duration": "Historical English-medium mathematics catalogue: 3 years nominally; current regulations may differ.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Use the international admissions guide and confirm international citizenship eligibility, degree recognition and any provisional supervisor acceptance. Scholarships have separate deadlines.",
+    "tuition": "Historical 2026 English-medium mathematics catalogue: CNY 42,800 per year. This is not a verified 2027 price or a domestic-student fee.",
+    "fees": "Historical fee — next year unverified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "2026 international intake guide; ordinary listed deadline February 28, 2026 with programme exceptions. The next annual deadline is not inferred.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+        "label": "International doctoral application guide — check displayed year"
+      },
+      {
+        "url": "https://iczu.zju.edu.cn/_upload/article/files/ee/aa/610e615a4d6987b200bfa2970f49/f71cd544-ac30-4361-87d0-85713da9c47d.pdf",
+        "label": "2026 English-medium doctoral catalogue: mathematics and annual tuition"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "intakeYear": "2026 (historical)",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway"
+  },
+  {
+    "id": "university-of-science-and-technology-of-china-mathematics-phd-university-of-science-and-technology-of-china",
+    "country": "China",
+    "institution": "University of Science and Technology of China",
+    "degree": "Doctorate",
+    "title": "Mathematics PhD — University of Science and Technology of China",
+    "url": "https://gradschool.ustc.edu.cn/static/upload/article/ueditor/1758536961589-593164.pdf",
+    "note": "The official 2025 mathematics doctoral training plan establishes the degree structure, not an open admissions call. Select the mathematics-specific current call before preparing an application.",
+    "orientation": "Pure mathematics options",
+    "language": "Chinese; research / course language varies",
+    "duration": "Confirm the current programme regulations.",
+    "preparation": "Check the institution’s accepted qualifications and subject-specific preparation. Published eligibility is not a prediction of admission.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "This source describes a mainland-China domestic route. International citizens and Hong Kong/Macao/Taiwan applicants must use the institution’s separate category-specific guide; domestic exam/tuimian rules are not applied automatically to them.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "A historical or general official route is linked. The next complete mathematics-specific application window is not established; this is not a current-open advertisement.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://gradschool.ustc.edu.cn/static/upload/article/ueditor/1758536961589-593164.pdf",
+        "label": "2025 mathematics ordinary-doctorate training plan"
+      },
+      {
+        "url": "https://yz.ustc.edu.cn/",
+        "label": "Central admissions — current mathematical discipline and category must be checked"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "Masters"
+    ],
+    "originalTitle": "数学博士研究生招生",
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "peking-university-bicmr-mathematics-postdoctoral-route-peking-university-bicmr",
+    "country": "China",
+    "institution": "Peking University — BICMR",
+    "degree": "Postdoctoral",
+    "title": "Mathematics postdoctoral route — Peking University — BICMR",
+    "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+    "note": "The dated January 8, 2026 mathematics call states whole-year applications. A general rolling call does not establish that a particular professor has an unfilled position.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment — confirm with host",
+    "duration": "2 years, with possible 1-year renewal",
+    "preparation": "Completed / impending mathematics-related PhD and research fit. Age, years since doctorate and full-time employment rules vary by host.",
+    "selection": "Mathematics PhD and publication record; host selection applies. Competitive Boya / distinguished fellowships are not automatic.",
+    "application": "A postdoctoral appointment is research employment / fellowship, not a student degree. International appointment, work permission and degree verification require host confirmation.",
+    "tuition": "Not a degree tuition category; salary, tax, insurance and contract terms must be checked.",
+    "fees": "Not a degree tuition category",
+    "funding": "Salary stated — host selection required",
+    "fundingDetail": "January 2026 call: CNY 240,000–320,000 annually before tax; extra compensation for teaching may apply. Confirm the actual offer and benefits. Competitive additional fellowships are separately selected.",
+    "cycle": "Dated 2026 call states applications throughout the year. No individual vacancy or guaranteed start date is asserted.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "rolling": true,
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "tsinghua-university-ymsc-mathematics-postdoctoral-route-tsinghua-university-ymsc",
+    "country": "China",
+    "institution": "Tsinghua University — YMSC",
+    "degree": "Postdoctoral",
+    "title": "Mathematics postdoctoral route — Tsinghua University — YMSC",
+    "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+    "note": "The institutional landing page still describes starts from 2025 and links newer host application listings. Read the linked call rather than assuming the older prose is a current deadline.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment — confirm with host",
+    "duration": "Landing page: 2 years with possible 1-year extension",
+    "preparation": "Completed / impending mathematics-related PhD and research fit. Age, years since doctorate and full-time employment rules vary by host.",
+    "selection": "Landing page requests cover letter, CV, research statement and three reference letters; the current linked listing governs.",
+    "application": "A postdoctoral appointment is research employment / fellowship, not a student degree. International appointment, work permission and degree verification require host confirmation.",
+    "tuition": "Not a degree tuition category; salary, tax, insurance and contract terms must be checked.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "The landing page contains older 2025-start prose. Current eligibility, closing date and available places require the linked call.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+        "label": "Institutional postdoctoral route and current-call links"
+      },
+      {
+        "url": "https://www.mathjobs.org/jobs/list/28571",
+        "label": "Host-linked MathJobs listing — inspect dates and status before applying"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "amss-institute-of-applied-mathematics-mathematics-postdoctoral-route-amss-institute-of-applied-mathematics",
+    "country": "China",
+    "institution": "AMSS — Institute of Applied Mathematics",
+    "degree": "Postdoctoral",
+    "title": "Mathematics postdoctoral route — AMSS — Institute of Applied Mathematics",
+    "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+    "note": "The official standing call includes theoretical mathematics and applications. It has age / years-since-degree restrictions and an internal-academic-mobility restriction.",
+    "orientation": "Pure / applied mathematics — host dependent",
+    "language": "Research environment — confirm with host",
+    "duration": "Appointment duration requires the specific call.",
+    "preparation": "Completed / impending mathematics-related PhD and research fit. Age, years since doctorate and full-time employment rules vary by host.",
+    "selection": "Standing call: under age 35, PhD obtained within 3 years, two recommendations including the doctoral adviser, and proposed-host endorsement. AMSS doctorate recipients may not apply within the same first-level discipline.",
+    "application": "A postdoctoral appointment is research employment / fellowship, not a student degree. International appointment, work permission and degree verification require host confirmation.",
+    "tuition": "Not a degree tuition category; salary, tax, insurance and contract terms must be checked.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "The call refers to AMSS regulations without a verified amount; no salary is inferred.",
+    "cycle": "The undated institutional standing call says long-term recruitment. Individual host vacancies, policy changes and the intended start date still need confirmation.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "rolling": true,
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "fudan-university-mathematics-postdoctoral-route-fudan-university",
+    "country": "China",
+    "institution": "Fudan University",
+    "degree": "Postdoctoral",
+    "title": "Mathematics postdoctoral route — Fudan University",
+    "url": "https://math.fudan.edu.cn/f0/cf/c30289a323791/page.htm",
+    "note": "The mathematics postdoctoral station is established, but its 2023 description is not a current position announcement. Use the central live recruitment list and confirm a mathematics host.",
+    "orientation": "Pure mathematics options",
+    "language": "Research environment — confirm with host",
+    "duration": "Appointment duration requires the specific call.",
+    "preparation": "Completed / impending mathematics-related PhD and research fit. Age, years since doctorate and full-time employment rules vary by host.",
+    "selection": "Host research assessment and references; confirm the current institutional approval and employment process.",
+    "application": "A postdoctoral appointment is research employment / fellowship, not a student degree. International appointment, work permission and degree verification require host confirmation.",
+    "tuition": "Not a degree tuition category; salary, tax, insurance and contract terms must be checked.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Next application window not verified. This entry establishes a study or research route, not that applications are open.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://math.fudan.edu.cn/f0/cf/c30289a323791/page.htm",
+        "label": "Mathematics postdoctoral station — background, not current vacancies"
+      },
+      {
+        "url": "https://hr.fudan.edu.cn/4834/list.htm",
+        "label": "Official current university postdoctoral recruitment list"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "university-of-science-and-technology-of-china-mathematics-postdoctoral-route-university-of-science-and-technology-of-china",
+    "country": "China",
+    "institution": "University of Science and Technology of China",
+    "degree": "Postdoctoral",
+    "title": "Mathematics postdoctoral route — University of Science and Technology of China",
+    "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+    "note": "The institutional recruitment table includes mathematics-related research groups. Department, topic, requested numbers and latest arrival date are row-specific; university-wide positions are not all pure mathematics.",
+    "orientation": "Pure / applied mathematics — select a mathematics row",
+    "language": "Research environment — confirm with host",
+    "duration": "Appointment duration requires the specific call.",
+    "preparation": "Completed / impending mathematics-related PhD and research fit. Age, years since doctorate and full-time employment rules vary by host.",
+    "selection": "Read the exact mathematics research-group row and institution’s postdoctoral requirements; requirements differ across disciplines.",
+    "application": "A postdoctoral appointment is research employment / fellowship, not a student degree. International appointment, work permission and degree verification require host confirmation.",
+    "tuition": "Not a degree tuition category; salary, tax, insurance and contract terms must be checked.",
+    "fees": "Not a degree tuition category",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Inspect the current mathematics-specific row and confirm whether places remain. A latest arrival date is not necessarily an application deadline.",
+    "statistics": "Mathematics-specific incoming cohort and admission statistics are not verified. University-wide figures and course enrolments are not programme places.",
+    "sources": [
+      {
+        "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "entryLevels": [
+      "PhD"
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway",
+    "intakeYear": "Year not verified"
+  },
+  {
+    "id": "peking-university-bicmr-enhanced-program-for-graduate-study-spring-2027",
+    "country": "China",
+    "institution": "Peking University — BICMR",
+    "degree": "Foundation / Preparatory",
+    "title": "Enhanced Program for Graduate Study — spring 2027",
+    "url": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+    "note": "An advanced visiting preparation semester for existing students, not a bachelor, master or PhD degree and not guaranteed subsequent doctoral admission.",
+    "orientation": "Pure mathematics options",
+    "language": "Confirm course language with BICMR",
+    "duration": "Spring semester 2027; arrival February 22, examinations June 14–27",
+    "preparation": "Principally third-/fourth-year undergraduates and first-/second-year graduate students; two mathematics-professor recommendations and home-department written approval are required.",
+    "selection": "Current tests, interview rules and supervisor requirements are not independently established here.",
+    "application": "Follow the relevant institutional application route. Citizenship, qualification equivalence and residence are different questions; confirm the route that applies to you.",
+    "tuition": "Next-intake tuition and mandatory charges are not verified. No domestic fee category is inferred from a student visa.",
+    "fees": "Amount not verified",
+    "funding": "Award not verified",
+    "fundingDetail": "Awards, employment and scholarships require their own eligibility and selection. Admission alone does not establish funding.",
+    "cycle": "Applications September 23–October 23, 2026; closing hour not stated.",
+    "statistics": "The 2027 spring notice plans approximately 30 participants. This is a preparatory-course cohort, not doctoral places.",
+    "sources": [
+      {
+        "url": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+        "label": "Official mathematics programme / route source"
+      }
+    ],
+    "checked": "2026-10-11",
+    "originalTitle": "研究生数学基础强化班第十九期（2027春季班）",
+    "entryLevels": [
+      "Bachelor",
+      "Masters"
+    ],
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-23",
+        "label": "October 23, 2026 — closing hour not stated",
+        "source": "https://bicmr.pku.edu.cn/content/show/38-365.html"
+      }
+    ],
+    "region": "Asia",
+    "programmeForm": "Single-country pathway"
   }
 ]

@@ -1,8 +1,8 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {applicationState} from './assets/application-time.js';import {nodes,routeFor} from './data/learning-paths.mjs';import {feeAssessment,backgroundAssessment} from './assets/background-rules.js';import researchers,{recentRecord} from './data/researchers.mjs';
 const decode=s=>s.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
 const camel=s=>s.replace(/-([a-z])/g,(_,c)=>c.toUpperCase());
-for(const file of ['notes/reading-notes/library/catalogue.html','resources/links/index.html','resources/study-careers/index.html']){
- const html=fs.readFileSync(file,'utf8'),applications=file.includes('study-careers');
+for(const file of ['notes/reading-notes/library/catalogue.html','resources/links/index.html','resources/study-careers/index.html','resources/study-careers/researchers.html']){
+ const html=fs.readFileSync(file,'utf8'),applications=file.endsWith('study-careers/index.html');
  const entries=[...html.matchAll(/<article class="entry" ([^>]+)>/g)].map(m=>({dataset:Object.fromEntries([...m[1].matchAll(/data-([a-z-]+)="([^"]*)"/g)].map(a=>[camel(a[1]),decode(a[2])])),hidden:false,querySelector:()=>applications?{}:null}));
  const fields=[...html.matchAll(/<select[^>]*data-field="([^"]+)"/g)].map(m=>({dataset:{field:m[1]},value:''}));
  const search={value:''},listeners={},status={textContent:'',focus(){this.focused=true}},empty={hidden:true};
@@ -23,6 +23,10 @@ for(const file of ['notes/reading-notes/library/catalogue.html','resources/links
   search.value='etale';listeners.input();assert(visible().some(e=>e.dataset.search.includes('Étale')));
   search.value='HTT';listeners.input();assert.equal(visible().length,1);
   search.value='';fields.find(f=>f.dataset.field==='level').value='Graduate';fields.find(f=>f.dataset.field==='access').value='Institutional / purchase access';listeners.change();assert(visible().length>0);assert(visible().every(e=>e.dataset.level==='Graduate'&&e.dataset.access==='Institutional / purchase access'));
+ }
+ if(file.endsWith('researchers.html')){
+  search.value='Liouville';fields.find(f=>f.dataset.field==='institution').value='University of Chicago';listeners.input();assert.equal(visible().length,1);assert(visible()[0].dataset.search.includes('Ewain Gwynne'));
+  search.value='';fields.find(f=>f.dataset.field==='institution').value='';fields.find(f=>f.dataset.field==='recent').value='Public records within review window';listeners.change();assert.equal(visible().length,3);
  }
  if(applications){
   const select=(k,v)=>fields.find(f=>f.dataset.field===k).value=v;
@@ -51,6 +55,7 @@ assert.equal(feeAssessment(nl,{citizenship:'EU / EEA',governmentFunded:'yes',pre
 assert.equal(feeAssessment(nl,{citizenship:'EU / EEA',governmentFunded:'yes',previousDutchDegree:'yes',feeYear:'2026-27'}).state,'Fee status not established');
 assert.equal(feeAssessment(nl,{citizenship:'EU / EEA',governmentFunded:'yes',previousDutchDegree:'no',feeYear:'2027-28 or later'}).state,'Fee status not established');
 assert.equal(backgroundAssessment({eligibilityRule:'KAIST-international'}, {koreanCitizenship:'yes'}).state,'Documented route mismatch');
-assert.equal(researchers.filter(p=>p.studentRecords.some(recentRecord)).length,2);
+assert.equal(researchers.filter(p=>p.studentRecords.some(recentRecord)).length,3);
+assert(researchers.find(p=>p.id==='ewain-gwynne').studentRecords.some(r=>r.student==='Jinwoo Sung'&&recentRecord(r)));
 assert(!recentRecord({date:'2023',precision:'year'}));assert(recentRecord({date:'2024',precision:'year'}));assert(!recentRecord({date:'2026',precision:'year'}));
 console.log('Visa-only, expiry, cross-country, prior-degree, unknown-fee-year and public-record boundaries passed');

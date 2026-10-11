@@ -1,3 +1,4 @@
+import expansion from './researchers-expansion.mjs';
 // Current official affiliation is evidence, not an announcement of vacancies.
 const checked='2026-10-11';const people=[];
 function add(id,name,institution,country,region,role,area,topics,official,researchSource=official,extra={}){people.push({id,name,institution,country,region,role,area,topics,official,researchSource,affiliationChecked:checked,interestsChecked:checked,availability:'Not confirmed',availabilityNote:'No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.',studentRecords:[],...extra})}
@@ -23,4 +24,5 @@ add('ilijas-farah','Ilijas Farah','York University','Canada','Americas','Full Pr
 add('geordie-williamson','Geordie Williamson','University of Sydney','Australia','Oceania','Professor; ARC Laureate Fellow','Algebra & representation theory','Representation theory|Lie theory|Category theory|Homological algebra','https://profiles.sydney.edu.au/g.williamson','https://www.sydney.edu.au/science/schools/school-of-mathematics-and-statistics/research.html',{relatedInstitutions:['University of Sydney']});
 export const studentWindow={from:'2023-10-11',to:checked};
 export function recentRecord(record){const start=record.precision==='year'?record.date+'-01-01':record.date,end=record.precision==='year'?record.date+'-12-31':record.date;return start>=studentWindow.from&&end<=studentWindow.to}
-export default people;
+const seidel=people.find(p=>p.id==='paul-seidel');Object.assign(seidel,{email:'pseidel@mit.edu',emailSource:'https://math.mit.edu/directory/index.html?show=detail',emailChecked:checked});
+export default [...people,...expansion];

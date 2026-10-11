@@ -1,50 +1,50 @@
 {
   "date": "2026-10-11",
-  "library": 239,
-  "newLiterature": 187,
+  "library": 400,
+  "newLiterature": 348,
   "balancedExpansion": 36,
   "foundationExpansion": 53,
   "learningPaths": 29,
   "subjects": [
     {
       "id": "proofs",
-      "works": 6
+      "works": 12
     },
     {
       "id": "logic",
-      "works": 6
+      "works": 13
     },
     {
       "id": "set-theory",
-      "works": 6
+      "works": 12
     },
     {
       "id": "model-theory",
-      "works": 6
+      "works": 13
     },
     {
       "id": "linear-algebra",
-      "works": 6
+      "works": 12
     },
     {
       "id": "abstract-algebra",
-      "works": 6
-    },
-    {
-      "id": "commutative-algebra",
-      "works": 6
-    },
-    {
-      "id": "homological-algebra",
-      "works": 5
-    },
-    {
-      "id": "category-theory",
       "works": 14
     },
     {
+      "id": "commutative-algebra",
+      "works": 16
+    },
+    {
+      "id": "homological-algebra",
+      "works": 12
+    },
+    {
+      "id": "category-theory",
+      "works": 19
+    },
+    {
       "id": "representation-theory",
-      "works": 4
+      "works": 12
     },
     {
       "id": "algebraic-geometry",
@@ -52,88 +52,91 @@
     },
     {
       "id": "calculus",
-      "works": 6
+      "works": 12
     },
     {
       "id": "real-analysis",
-      "works": 6
+      "works": 12
     },
     {
       "id": "measure-theory",
-      "works": 6
-    },
-    {
-      "id": "complex-analysis",
-      "works": 5
-    },
-    {
-      "id": "functional-analysis",
-      "works": 6
-    },
-    {
-      "id": "harmonic-analysis",
-      "works": 6
-    },
-    {
-      "id": "differential-equations",
       "works": 13
     },
     {
+      "id": "complex-analysis",
+      "works": 12
+    },
+    {
+      "id": "functional-analysis",
+      "works": 12
+    },
+    {
+      "id": "harmonic-analysis",
+      "works": 12
+    },
+    {
+      "id": "differential-equations",
+      "works": 17
+    },
+    {
       "id": "point-set-topology",
-      "works": 6
+      "works": 12
     },
     {
       "id": "algebraic-topology",
-      "works": 18
+      "works": 19
     },
     {
       "id": "differential-geometry",
-      "works": 14
+      "works": 15
     },
     {
       "id": "symplectic-geometry",
-      "works": 6
+      "works": 13
     },
     {
       "id": "elementary-number-theory",
-      "works": 6
+      "works": 12
     },
     {
       "id": "algebraic-number-theory",
-      "works": 8
+      "works": 12
     },
     {
       "id": "analytic-number-theory",
-      "works": 7
+      "works": 13
     },
     {
       "id": "modular-forms",
-      "works": 8
+      "works": 12
     },
     {
       "id": "combinatorics",
-      "works": 8
+      "works": 13
     },
     {
       "id": "probability",
-      "works": 16
+      "works": 18
     },
     {
       "id": "dynamics",
-      "works": 5
+      "works": 12
     }
   ],
   "websites": 80,
-  "programs": 149,
-  "researchers": 20,
-  "researchersWithPublicRecords": 2,
+  "programs": 200,
+  "researchers": 100,
+  "researchersWithPublicEmail": 43,
+  "subjectGuides": 29,
+  "depthExpansion": 161,
+  "researchersWithPublicRecords": 3,
   "confirmedIndividualVacancies": 0,
   "opportunityTypes": {
     "Masters": 88,
-    "Doctorate": 45,
-    "Undergraduate": 9,
-    "Foundation / Preparatory": 3,
-    "Postdoctoral": 2,
+    "Doctorate": 55,
+    "Undergraduate": 44,
+    "Foundation / Preparatory": 4,
+    "Postdoctoral": 7,
     "Visiting / Research institute": 2
   },
   "countries": [
@@ -144,6 +147,7 @@
     "Brazil",
     "Canada",
     "Chile",
+    "China",
     "Colombia",
     "Czech Republic",
     "Denmark",
@@ -177,7 +181,7 @@
     "Uruguay"
   ],
   "masters": 88,
-  "doctorates": 45,
+  "doctorates": 55,
   "reviewedWindows": 13,
   "openAtReview": 10
 }

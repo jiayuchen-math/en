@@ -28,3 +28,12 @@ for(const p of researchers){assert(p.official&&p.researchSource&&p.affiliationCh
 assert(read('resources/study-careers/researchers.html').includes('No public record does not imply'));
 function checkExternal(dir){for(const f of fs.readdirSync(path.join(root,dir),{withFileTypes:true})){if(f.name==='.git')continue;const file=path.join(dir,f.name);if(f.isDirectory())checkExternal(file);else if(f.name.endsWith('.html'))for(const m of read(file).matchAll(/<a\b(?:[^>"']|"[^"]*"|'[^']*')*>/gi)){const href=m[0].match(/\bhref="(https?:[^"\s]+)"/);if(!href||new URL(href[1].replace(/&amp;/g,'&')).hostname==='jiayuchen-math.github.io')continue;assert(m[0].includes('target="_blank"')&&m[0].includes('noopener')&&m[0].includes('noreferrer'),'External link does not preserve the site tab: '+file)}}}checkExternal('');
 console.log(JSON.stringify({distinctWorks:works.size,longFormWorks:longCount,newGraduateOrResearch:add.filter(x=>['Graduate','Research'].includes(x.level)).length,websites:links.length,programmes:programmes.length,masters:programmes.filter(x=>x.degree==='Masters').length,doctorates:programmes.filter(x=>x.degree==='Doctorate').length,pagesChecked:pages.length,legacyObjects:'unchanged'},null,2));
+const report=json('resources/build-report.json');assert(report.library>=400);assert.equal(report.subjectGuides,29);assert(report.subjects.every(t=>t.works>=12));
+assert(programmes.filter(p=>p.country==='US'&&p.degree==='Undergraduate').length>=29);
+assert(programmes.filter(p=>p.country==='China'&&p.degree==='Doctorate').length>=10);
+assert(programmes.filter(p=>p.country==='China'&&p.degree==='Postdoctoral').length>=5);
+assert.equal(researchers.length,100);assert.equal(researchers.filter(p=>p.email).length,43);
+for(const p of researchers.filter(p=>p.email)){assert(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email));assert(p.emailSource.startsWith('https://')&&p.emailChecked);assert(!p.email.startsWith('ymsc@'),'Generic institutional inbox incorrectly assigned to an individual')}
+for(const t of old.topics){const h=read('notes/reading-notes/library/'+t.route);assert.equal([...h.matchAll(/<!-- subject-guide:start -->/g)].length,1);assert(h.includes('Branches to choose from')&&h.includes('How to continue'))}
+const rh=read('resources/study-careers/researchers.html');assert(rh.includes('filter-institution')&&rh.includes('mailto:')&&rh.includes('Email source'));
+console.log('Subject depth, guide coverage, US bachelor / mainland-China routes and public email provenance passed');
