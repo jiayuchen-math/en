@@ -24,14 +24,14 @@ export function backgroundAssessment(programme,b){
  if(b.stage&&stages.length){
   const order=['Secondary','Bachelor','Master','PhD'];const current=order.indexOf(b.stage),minimum=Math.min(...stages.map(s=>order.indexOf(s)));
   if(current>=0&&current<minimum){state='Documented qualification gap';reasons.push('This route expects '+stages.join(' / ')+'-level preparation before entry. Your current stage is earlier; planned completion and equivalence still require confirmation.');}
-  else{state='Potential route — confirmation needed';reasons.push('The broad education stage is compatible; mathematical prerequisites, qualification equivalence, language and selection are not certified.');}
+  else{state='Potential route — confirmation needed';reasons.push('Your education stage matches the broad entry level. Compare the listed mathematics preparation, qualification and language requirements.');}
  }
  if(programme.eligibilityRule==='KAIST-international'&&b.koreanCitizenship==='yes'){state='Documented route mismatch';reasons.push('KAIST’s international graduate route excludes Korean citizens, including dual citizens. This does not exclude a different domestic route.');}
- if(b.residence)reasons.push('Current residence: '+b.residence+'. It is not citizenship or fee status. Residence-dependent application procedures may need separate checking.');
- if(b.qualificationCountry)reasons.push('Qualification country: '+b.qualificationCountry+'. The directory does not certify equivalence; use the programme’s official qualification route.');
+ if(b.residence)reasons.push('Current residence: '+b.residence+'. See any residence-specific application procedures.');
+ if(b.qualificationCountry)reasons.push('Qualification country: '+b.qualificationCountry+'. See the programme’s qualification route.');
  if(b.languages){const listed=String(programme.language||'');reasons.push(/not verified|consult|varies|verify/i.test(listed)?'Teaching-language requirements are not fully verified.':'Compare your languages ('+b.languages+') with the stated teaching language ('+listed+'); accepted test scores/exemptions require confirmation.');}
  if(b.funding==='yes')reasons.push('Funding requested: '+programme.funding+'. Admission and awards are separate; unknown funding is not “no funding”.');
  if(b.budget)reasons.push('Budget '+b.budget+' '+(b.currency||'currency not specified')+'/year is a planning input only. Missing living-cost/fee data prevents a verified affordability comparison.');
- if(b.courses)reasons.push('Self-reported coursework: '+b.courses+'. Compare it with the entry’s preparation; this is not transcript assessment.');
+ if(b.courses)reasons.push('Your coursework: '+b.courses+'. Compare it with the listed preparation.');
  return {state,reasons,fee:feeAssessment(programme,b)};
 }

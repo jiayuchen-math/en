@@ -1,11 +1,11 @@
-import {backgroundAssessment} from './background-rules.js';
+import {backgroundAssessment} from './background-rules.js?v=20261013-copy';
 const form=document.querySelector('[data-background]');
 if(form){
  const entries=[...document.querySelectorAll('article[data-background-record]')];const names=['residence','qualificationCountry','stage','languages','citizenship','koreanCitizenship','permitCountry','permit','permitValid','governmentFunded','previousDutchDegree','feeYear','budget','currency','funding','courses'];
  function render(){
   const b=Object.fromEntries(names.map(n=>[n,form.elements.namedItem(n)?.value||'']));
   const active=Object.values(b).some(Boolean);const state=form.querySelector('[data-background-summary]');
-  state.textContent=active?'Local matching is active. Results are explanations, not admission or legal determinations. No programme is hidden or ranked by nationality.':'Optional — no personal background is required.';
+  state.textContent=active?'Background matching is active. Choose a background filter to explore matching routes.':'Choose any fields to explore matching routes.';
   for(const entry of entries){const output=entry.querySelector('[data-background-output]');output.hidden=!active;if(!active){entry.dataset.backgroundMatch='Eligibility not established';output.replaceChildren();continue}
    const programme=JSON.parse(entry.dataset.backgroundRecord);const result=backgroundAssessment(programme,b);entry.dataset.backgroundMatch=result.state;const title=document.createElement('strong');title.textContent=result.state;output.replaceChildren(title);
    for(const reason of result.reasons){const p=document.createElement('p');p.className='meta';p.textContent=reason;output.append(p)}
