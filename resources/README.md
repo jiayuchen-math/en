@@ -49,3 +49,9 @@ The directory now has 1,939 distinct people and 1,568 sourced public professiona
 The [country coverage page](study-careers/coverage.html) audits an explicitly scoped 80-country/territory checklist, including zero-entry countries. It is not a worldwide census, ranking or recruitment forecast. Counts distinguish personal topic evidence, research-group membership and unknown topics. French lab affiliations do not identify each person's employer or establish HDR. Unknown contacts are not guessed, and detected conflicting emails are withheld.
 
 Run `node resources/test-country-coverage.mjs` for exact country links, count/evidence reconciliation, zero-country gaps and paging. [The Europe review](REVIEW-2026-10-12-EUROPE.md) lists sources and the remaining gaps. Library contents, personal notes and existing admissions facts are unchanged in this batch.
+
+## Library card count consistency
+
+The seven area cards and 29 subject cards derive their badges from the same unique-work assignments as the complete catalogue. Counts include explicitly linked cross-references; a work shared across subjects or areas still counts once in the 400-work catalogue. Separate “Further print reading” lists are not included. Counts do not imply unrestricted full-text access; use each work's access badge.
+
+The old updater overlooked singular `1 full-text resource` labels. `data/library-counts.mjs` now handles singular and plural labels, preserves card descriptions, and fails the build if an expected card is missing. `node resources/test-library-counts.mjs` checks every badge against distinct catalogue assignments and links actually present on each subject page. The same checks run with `node resources/check.mjs`.

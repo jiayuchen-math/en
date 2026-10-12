@@ -1,5 +1,6 @@
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';import assert from 'node:assert/strict';
 import {withAccess,accessLabels} from './data/library-access.mjs';import researchers,{recentRecord} from './data/researchers.mjs';
+import './test-library-counts.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const read=p=>fs.readFileSync(path.join(root,p),'utf8');const json=p=>JSON.parse(read(p));
 const old=json('resources/data/library-original.json');const current=json('notes/reading-notes/library/catalogue.json');const add=json('resources/data/library-additions.json');const links=json('resources/data/links.json');const programmes=json('resources/data/programs.json');
 for(const t of old.topics){assert.deepEqual(current.topics.find(x=>x.id===t.id).books.slice(0,t.books.length),t.books,'Legacy books changed in '+t.id)}
