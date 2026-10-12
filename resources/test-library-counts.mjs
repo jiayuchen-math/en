@@ -8,7 +8,7 @@ const expected=new Map(catalogue.topics.map(t=>[t.id,new Set(t.books.map(key))])
 for(const topic of catalogue.topics)for(const work of topic.books)for(const related of relatedSubjects[work.title]||[])expected.get(related).add(key(work));
 const unique=new Map();for(const topic of catalogue.topics)for(const work of topic.books){const id=key(work);if(!unique.has(id))unique.set(id,{...work,topic:topic.title});else unique.get(id).topic+='|'+topic.title}
 for(const work of unique.values())for(const id of relatedSubjects[work.title]||[]){const title=catalogue.topics.find(t=>t.id===id).title;if(!work.topic.split('|').includes(title))work.topic+='|'+title}
-const counts=libraryCounts(catalogue,[...unique.values()]);assert.equal(counts.total,400);
+const counts=libraryCounts(catalogue,[...unique.values()]);assert.equal(counts.total,new Set(catalogue.topics.flatMap(t=>t.books.map(key))).size);
 const escape=s=>s.replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 function checkCard(html,href,count){const card=[...html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/g)].find(m=>m[1].includes('href="'+href+'"')&&/class="card"/.test(m[1]));assert(card,'Missing card '+href);assert(card[2].includes(`data-resource-count="${count}">${countLabel(count)}</span>`),'Stale resource badge '+href);assert.equal([...card[2].matchAll(/data-resource-count=/g)].length,1);assert(!card[2].includes('full-text resource'),'Count incorrectly promises full-text access '+href)}
 let subjectsChecked=0;
