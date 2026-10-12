@@ -1,0 +1,3200 @@
+{
+  "algant-consortium-algant-algebra-geometry-and-number-theory": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://algant.eu/pages/apply/",
+          "year": "General policy",
+          "note": "Annual policy, not a new cohort quote."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://algant.eu/pages/apply/",
+          "year": null,
+          "note": "Award existence only."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://algant.eu/pages/apply/",
+          "year": "Undated recurring rule",
+          "note": "General admission policy."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://algant.eu/pages/apply/",
+          "year": "Undated recurring rule",
+          "note": "Recurring timetable only."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 3,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "General page quotes EUR 4,000 annually.",
+        "url": "https://algant.eu/pages/apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Merit waivers/awards reviewed; amounts unspecified.",
+        "url": "https://algant.eu/pages/apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree, background, English and references reviewed.",
+        "url": "https://algant.eu/pages/apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Timetable omits an intake year.",
+        "url": "https://algant.eu/pages/apply/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://algant.eu/pages/apply/",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "EUR 4,000 per academic year on the general page dated May 2023; 2027 cohort amount not separately confirmed.",
+    "fundingDetail": "Merit scholarships and partial fee waivers; some restrict mobility paths. Amounts, duration and renewal not published on this page.",
+    "selection": "Mathematics bachelor's/equivalent emphasizing algebra, geometry and number theory, English evidence, records, motivation and at least two academic referees. Final-year applicants must graduate before study begins.",
+    "cycle": "General timetable: mid-November–31 January applications; March/April results. No calendar year attached; not projected to 2027."
+  },
+  "intermaths-consortium-intermaths-erasmus-mundus-joint-master": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.intermaths.eu/erasmus-mundus/apply",
+          "year": "2026 edition",
+          "note": "2027 cohort rate unconfirmed."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.intermaths.eu/erasmus-mundus/apply",
+          "year": "2026",
+          "note": "Next-cohort awards unconfirmed."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.intermaths.eu/erasmus-mundus/apply",
+          "year": "2026",
+          "note": "Next call may change requirements."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.intermaths.eu/erasmus-mundus/apply",
+          "year": "2026",
+          "note": "Past call."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Full-course participation cost reviewed.",
+        "url": "https://www.intermaths.eu/erasmus-mundus/apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 award numbers, monthly amount, waivers and prior-award exclusion reviewed.",
+        "url": "https://www.intermaths.eu/erasmus-mundus/apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Academic, language and document requirements reviewed.",
+        "url": "https://www.intermaths.eu/erasmus-mundus/apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Scholarship and referee deadlines reviewed.",
+        "url": "https://www.intermaths.eu/erasmus-mundus/apply",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.intermaths.eu/erasmus-mundus/apply",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "2026 edition: EUR 18,000 for the full two-year course including tuition, registration and mandatory course costs; personal expenses excluded.",
+    "fundingDetail": "2026: 20 competitive EMJM awards at EUR 1,400/month with participation-cost waiver and insurance; previous EMJM recipients excluded. Consortium awards waive costs or reduce full-course cost to EUR 3,000. Duration/payment conditions require the award agreement.",
+    "selection": "Bachelor's/180 ECTS equivalent in mathematics, physics, engineering or related field with strong mathematics; English B2, course descriptions, motivation and two references.",
+    "cycle": "2026 scholarship deadline was 25 February at 13:00 CET; referee deadline 11 March at 13:00 CET. Next 2027 call unconfirmed.",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-02-25",
+        "label": "Historical 2026 edition, 13:00 CET",
+        "source": "https://www.intermaths.eu/erasmus-mundus/apply"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-03-11",
+        "label": "Historical 2026 referee deadline, 13:00 CET",
+        "source": "https://www.intermaths.eu/erasmus-mundus/apply"
+      }
+    ],
+    "intakeYear": "2026"
+  },
+  "university-of-trento-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://corsi.unitn.it/sites/cds/files/2025-12/admission-call-master-mathematics-26-27.pdf",
+          "year": "2026–27",
+          "note": "Official indexed excerpt; PDF timed out. Second-year credit deadline says 2025, so renewal timing is unresolved."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-non-europeans",
+          "year": "2026–27",
+          "note": "Official indexed non-European page; no confirmed scholarship amount."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-europeans-and-equivalents",
+          "year": "2026–27",
+          "note": "Separate non-European call."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-europeans-and-equivalents",
+          "year": "2026–27",
+          "note": "November session is not September-start entry."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Indexed call states annual cap and score-based fee bands.",
+        "url": "https://corsi.unitn.it/sites/cds/files/2025-12/admission-call-master-mathematics-26-27.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Written assessment, exemption and interview reviewed.",
+        "url": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-europeans-and-equivalents",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Indexed page confirms limited automatic scholarship consideration.",
+        "url": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-non-europeans",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Year-specific November deadline reviewed.",
+        "url": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-europeans-and-equivalents",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Official indexed non-European page gives March 4, 2026, 12:00 CET.",
+        "url": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-non-europeans",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "European/equivalent fees use family ISEE income.",
+        "url": "https://corsi.unitn.it/it/matematica-magistrale/iscriversi/ammissione-europei-e-equivalenti",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Income-based scholarship requires annual application.",
+        "url": "https://corsi.unitn.it/it/matematica-magistrale/iscriversi/ammissione-europei-e-equivalenti",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://corsi.unitn.it/sites/cds/files/2025-12/admission-call-master-mathematics-26-27.pdf",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-europeans-and-equivalents",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-non-europeans",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://corsi.unitn.it/it/matematica-magistrale/iscriversi/ammissione-europei-e-equivalenti",
+        "label": "Official European/equivalent income-based fees/support"
+      }
+    ],
+    "tuition": "2026–27 non-EU-abroad call: EUR 6,000 annual maximum; first-year score bands give waiver (90–100), EUR 1,000 (70–89.9), EUR 2,000 (60–69.9), EUR 4,500 (50–59.9). Europeans/equivalents use income-based fees.",
+    "selection": "Europeans/equivalents: bachelor's/equivalent, 60 mathematics ECTS, English B2, written assessment and possible interview. L-35 applicants averaging above 24/30 are written-exam exempt; Cryptography requires interview.",
+    "fundingDetail": "Non-European scholarships are limited and based on admission score, without separate application. Amount and renewal unverified. Europeans/equivalents income-based support uses a separate annual application.",
+    "cycle": "2026–27 non-European deadline: 4 March 2026, 12:00 CET (past). Europeans/equivalents November request deadline: 12 November 2026. No 2027–28 call established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-12",
+        "label": "2026–27 Europeans/equivalents November-session request deadline",
+        "source": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-europeans-and-equivalents"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-03-04",
+        "label": "Historical 2026–27 non-European deadline, 12:00 CET",
+        "source": "https://corsi.unitn.it/en/mathematics-master/enrollment/admission-non-europeans"
+      }
+    ],
+    "intakeYear": "2026–27"
+  },
+  "university-of-padua-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.unipd.it/en/contribuzione-studentesca",
+          "year": null,
+          "note": "2026–27 contribution notice reviewed; Mathematics group rate and income/foreign-status calculation unresolved."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+          "year": null,
+          "note": "General scheme; 2027 allocation/deadline unconfirmed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://matematica.math.unipd.it/en/master/admission/",
+          "year": "Undated recurring rule",
+          "note": "Qualification-route-specific requirements."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://matematica.math.unipd.it/en/master/admission/",
+          "year": null,
+          "note": "June call publication is recurring only; no exact next-intake date established."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Italian and international requirements reviewed.",
+        "url": "https://matematica.math.unipd.it/en/master/admission/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Amount, two-year maximum, eligibility and credit conditions reviewed.",
+        "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://matematica.math.unipd.it/en/master/admission/",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.unipd.it/en/padua-international-excellence-scholarship-programme",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "International route: three-year mathematics bachelor's/equivalent and English B2, committee assessment. Italian route: mathematics degree, 50 specified mathematics CFU and grade at least 85/110; other curricula may receive preliminary assessment.",
+    "fundingDetail": "Padua International Excellence: competitive EUR 8,000 gross annually plus student-fee exemption, maximum two master's years; regional tax/stamp remain. Eligible non-Italian citizens with foreign degree, residing abroad, apply to an English-taught course; automatic consideration. Possible revocation below 20 ECTS by 30 November of following academic year."
+  },
+  "university-of-pisa-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.unipi.it/didattica/iscrizioni/tasse/tasse-per-i-corsi-di-laurea/",
+          "year": "2026–27",
+          "note": "Central current fee rules reviewed; foreign country table not recovered. No flat EUR 2,900 tuition quote for every international applicant.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.dsu.toscana.it/documents/4390857/32478257/EN_bando%2Bborsa%2Balloggio%2B2026-2027.pdf/eeffc852-e4e4-5539-dab2-9aebbd3c7a46?t=1786108838438",
+          "year": "2026–27",
+          "note": "Reviewed financial thresholds, standard table and master's merit conditions; full enhanced-category/second-year individual entitlement not summarised.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.unipi.it/didattica/corsi/lauree-magistrali/matematica-wmar-lm/",
+          "year": "Undated recurring rule",
+          "note": "Curricular alternatives apply."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.unipi.it/didattica/corsi/lauree-magistrali/matematica-wmar-lm/",
+          "year": null,
+          "note": "2026–27 pre-enrolment link present, but no next-cycle deadline established."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree alternatives, language progression and possible interview reviewed.",
+        "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/matematica-wmar-lm/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2026–27 annual comprehensive contribution for regular students: maximum EUR 2,900, plus EUR 140 regional tax and EUR 16 stamp on initial enrolment.",
+        "url": "https://www.unipi.it/didattica/iscrizioni/tasse/tasse-per-i-corsi-di-laurea/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "DSU Toscana 2026–27 means-tested annual award: ISEE ≤ EUR 27,000 and ISPE ≤ EUR 60,000; international households require foreign income/assets documents.",
+        "url": "https://www.dsu.toscana.it/documents/4390857/32478257/EN_bando%2Bborsa%2Balloggio%2B2026-2027.pdf/eeffc852-e4e4-5539-dab2-9aebbd3c7a46?t=1786108838438",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "DSU master's applications closed 7 September 2026 at 13:00; annual services run 1 October 2026–30 September 2027, with availability/closure conditions.",
+        "url": "https://www.dsu.toscana.it/borsa-di-studio/-/asset_publisher/57356pf53MOd/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.unipi.it/didattica/corsi/lauree-magistrali/matematica-wmar-lm/",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.unipi.it/didattica/iscrizioni/tasse/tasse-per-i-corsi-di-laurea/",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.dsu.toscana.it/documents/4390857/32478257/EN_bando%2Bborsa%2Balloggio%2B2026-2027.pdf/eeffc852-e4e4-5539-dab2-9aebbd3c7a46?t=1786108838438",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.dsu.toscana.it/borsa-di-studio/-/asset_publisher/57356pf53MOd/",
+        "label": "Additional official finance/calendar evidence"
+      }
+    ],
+    "selection": "Suitable three-year degree/equivalent: L-35 mathematics or specified alternatives/30 mathematics CFU; foreign degree assessed by course council. English B1 minimum, progression to B2 required; curriculum assessment and possible oral interview.",
+    "tuition": "2026–27 annual comprehensive contribution for regular students: maximum EUR 2,900, plus EUR 140 regional tax and EUR 16 stamp on initial enrolment. ISEE up to EUR 26,000 with academic-progress conditions removes the contribution, not these charges. Foreign income/assets use a country coefficient applied to EUR 2,900, or requested ISEEU-equivalent reduction; exact country coefficient remains unresolved.",
+    "fundingDetail": "DSU Toscana 2026–27 means-tested annual award: ISEE ≤ EUR 27,000 and ISPE ≤ EUR 60,000; international households require foreign income/assets documents. Standard cash component: resident EUR 1,690–2,385; commuter EUR 2,413–3,880; non-resident EUR 1,060–3,338 plus meals/accommodation benefits, subject to housing availability. First-year master's students need 15 credits by 10 August 2027 for the balance; achieving them only by 30 November preserves the advance, otherwise repayment applies. Annual application, not guaranteed two-year funding; enhanced categories differ.",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-09-07",
+        "label": "Historical DSU Toscana 2026–27 master's scholarship deadline, 13:00",
+        "source": "https://www.dsu.toscana.it/borsa-di-studio/-/asset_publisher/57356pf53MOd/"
+      }
+    ]
+  },
+  "university-of-milan-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.unimi.it/it/studiare/frequentare-un-corso-di-laurea/come-e-quanto-pagare/tasse-anno-corrente",
+          "year": "2026–27",
+          "note": "Official indexed central schedule reviewed; direct access unavailable. Country/area totals not asserted for this route.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.unimi.it/en/study/financial-support/regional-scholarships",
+          "year": "2026–27",
+          "note": "Central regional summary accessible; linked full call/summary failed to fetch. Not described as unpublished.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme",
+          "year": "2026–27",
+          "note": "Direct page returned 403; official indexed course content reviewed."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme",
+          "year": "2026–27",
+          "note": "403 fetch; official indexed content only; next intake unverified."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Indexed course confirms interview and local-graduate exemption.",
+        "url": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Indexed admission/enrolment distinction reviewed.",
+        "url": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2026–27 first instalment EUR 146 (EUR 130 regional tax + EUR 16 stamp); second instalment depends on ISEE, course area and progress.",
+        "url": "https://www.unimi.it/it/studiare/frequentare-un-corso-di-laurea/come-e-quanto-pagare/tasse-anno-corrente",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Regional DSU 2026–27 applications ran 10 July–30 September 2026, including registered prospective students.",
+        "url": "https://www.unimi.it/en/study/financial-support/regional-scholarships",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026–27 university scholarship: EUR 1,800, 1,055 places; intended for incomes above regional scholarship ceiling; competition closed 30 September 2026. Detailed eligibility in linked call unavailable.",
+        "url": "https://www.unimi.it/it/studiare/borse-premi-mense-e-alloggi/borse-di-studio-di-ateneo",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.unimi.it/it/studiare/frequentare-un-corso-di-laurea/come-e-quanto-pagare/tasse-anno-corrente",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.unimi.it/en/study/financial-support/regional-scholarships",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.unimi.it/it/studiare/borse-premi-mense-e-alloggi/borse-di-studio-di-ateneo",
+        "label": "Additional official finance/calendar evidence"
+      }
+    ],
+    "selection": "2026–27 commission reviews documents and normally interviews. Milan mathematics graduates with at least 95/110 are exempt from knowledge/curricular assessment.",
+    "cycle": "2026–27 applications ran 22 January–25 August 2026; non-EU visa applicants had 30 April deadline. Enrolment closes 15 January 2027, which is not a new admission application deadline.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-08-25",
+        "label": "Historical 2026–27 admission application deadline",
+        "source": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-04-30",
+        "label": "Historical 2026–27 non-EU visa admission deadline",
+        "source": "https://www.unimi.it/en/education/master-programme/mathematics-master-programme"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-09-30",
+        "label": "Historical 2026–27 regional scholarship deadline",
+        "source": "https://www.unimi.it/en/study/financial-support/regional-scholarships"
+      }
+    ],
+    "intakeYear": "2026–27",
+    "tuition": "2026–27 first instalment EUR 146 (EUR 130 regional tax + EUR 16 stamp); second instalment depends on ISEE, course area and progress. On-time/first-year-overrun students with ISEE ≤ EUR 30,000 owe no second instalment. New international students with foreign family finances use country/area rates: second instalment EUR 200–3,204 in area A or EUR 256–4,101.12 in area B, plus regional-tax adjustment. Mathematics area mapping remains unresolved.",
+    "fundingDetail": "Regional DSU 2026–27 applications ran 10 July–30 September 2026, including registered prospective students. First-year awards pay half initially; full payment depends on required merit, with revocation/repayment if not achieved by 30 November 2027. Separate university-funded scheme offers 1,055 awards of EUR 1,800 for applicants above the regional income ceiling. Full regional amount table, numeric eligibility and master's credit threshold remain access-blocked in linked notices."
+  },
+  "university-of-trieste-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://lauree.units.it/en/0320107304100001/how-apply",
+          "year": null,
+          "note": "Official indexed 2026–27 admission notice reviewed, but total annual contribution by applicant category not established."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://lauree.units.it/en/0320107304100001/how-apply",
+          "year": null,
+          "note": "Reviewed admission content gives no verified scholarship package; regional award call not researched."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://lauree.units.it/en/0320107304100001/how-apply",
+          "year": "2026–27",
+          "note": "Direct page unavailable; official indexed course content reviewed."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://lauree.units.it/en/0320107304100001/how-apply",
+          "year": "2026–27",
+          "note": "Official indexed evidence only."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Indexed requirements and assessment exemption reviewed.",
+        "url": "https://lauree.units.it/en/0320107304100001/how-apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Assessment-request and enrolment dates reviewed.",
+        "url": "https://lauree.units.it/en/0320107304100001/how-apply",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://lauree.units.it/en/0320107304100001/how-apply",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "2026–27: L-35 mathematics/L-30 physics degree or bachelor's with 36 MATH CFU; English B2. Listed mathematics/physics graduates graded at least 80/110 are automatically admitted; otherwise committee curriculum assessment. Foreign-degree validation separate.",
+    "cycle": "2026–27 preparation-assessment requests run 20 April 2026–29 January 2027; final enrolment deadline 31 March 2027. Not autumn 2027 application dates.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-29",
+        "label": "2026–27 preparation-assessment application deadline",
+        "source": "https://lauree.units.it/en/0320107304100001/how-apply"
+      }
+    ],
+    "intakeYear": "2026–27"
+  },
+  "sapienza-university-of-rome-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.uniroma1.it/en/content/standard-registration-fee-amounts",
+          "year": "2026–27 corroboration; standing country-band rule",
+          "note": "Read specific standard amounts and central current-year confirmation; no unsupported international-country rate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
+          "year": "2026–27",
+          "note": "Reviewed full regional call; selected band only, not a universal cash award or all-category entitlement.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf",
+          "year": "2026–27",
+          "note": "Full credit/exemption rules remain in official call."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf",
+          "year": "2026–27",
+          "note": "Verification contribution is EUR 10, separate from tuition."
+        }
+      },
+      "verifiedFields": 3,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Curricular and separate language requirements reviewed.",
+        "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Year-specific deadlines and applicant restrictions reviewed.",
+        "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Annual standard contribution for Mathematical, Physical and Natural Sciences: EUR 2,924 before ISEE reduction.",
+        "url": "https://www.uniroma1.it/en/content/standard-registration-fee-amounts",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Current 2026–27 central page confirms unchanged maximum contributions and links ordinary/foreign-income rules; payment dates are distinct from admission deadlines.",
+        "url": "https://www.uniroma1.it/en/node/24520",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Lazio DiSCo 2026–27 annual means-tested competition: ISEE/ISEEUP ≤ EUR 28,339.88 and ISPE/ISPEUP ≤ EUR 61,608.48; foreign households need specified financial documentation.",
+        "url": "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.uniroma1.it/en/content/standard-registration-fee-amounts",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.uniroma1.it/en/node/24520",
+        "label": "Additional official finance/calendar evidence"
+      },
+      {
+        "url": "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      }
+    ],
+    "selection": "2026–27: suitable three-year degree; 27 basic mathematics, 9 physics, 6 computing and 42 further specified CFU; English B1. Preparation assessment may include interview. Non-EU visa applicants to this Italian-taught route need Italian B2 evidence/test.",
+    "cycle": "2026–27 verification deadlines: 15 September (sole date for non-EU visa applicants), 15 October, 17 November, 17 December 2026; 14 January 2027 reserved for Sapienza graduates/graduating students. Next intake unverified.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-15",
+        "label": "2026–27 non-EU visa verification deadline (past)",
+        "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "2026–27 verification-request payment deadline",
+        "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-17",
+        "label": "2026–27 verification-request payment deadline",
+        "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-17",
+        "label": "2026–27 verification-request payment deadline",
+        "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-14",
+        "label": "2026–27 verification: Sapienza graduates/graduating applicants only",
+        "source": "https://corsidilaurea.uniroma1.it/sites/default/files/offertaformativa/documenti_ufficiali/187/33603_i_0.pdf"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-07-22",
+        "label": "Historical Lazio DiSCo 2026–27 application deadline, 12:00",
+        "source": "https://laziodisco.it/wp-content/uploads/2026/06/BANDO-DIRITTO-ALLO-STUDIO-26-27-1.pdf"
+      }
+    ],
+    "intakeYear": "2026–27",
+    "tuition": "Annual standard contribution for Mathematical, Physical and Natural Sciences: EUR 2,924 before ISEE reduction. Foreign-income applicants unable to submit Italian ISEE instead pay EUR 300/700/1,500 annually by official country band. Regional tax/stamp and application charges are separate. Central 2026–27 page says maximum contributions unchanged; older article contains 2025 payment dates, which are not reused.",
+    "fundingDetail": "Lazio DiSCo 2026–27 annual means-tested competition: ISEE/ISEEUP ≤ EUR 28,339.88 and ISPE/ISPEUP ≤ EUR 61,608.48; foreign households need specified financial documentation. In the EUR 14,169.94–18,893.25 ISEE band, cash award is EUR 2,290.16 resident, EUR 3,590.71 commuter or EUR 6,571.11 away from home, plus two daily meals; other bands/deductions differ. First-year master's balance requires 20 credits by 10 August 2027; late achievement by 30 November halves award, otherwise repayment. Annual application, not guaranteed renewal."
+  },
+  "university-of-bologna-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi/tasse-ed-esenzioni-importi-e-scadenze",
+          "year": "2026–27",
+          "note": "Default second-cycle schedule and reduced-category rules separately reviewed; future fee year not projected.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/importi-pagamenti-e-revoche/importi",
+          "year": "2026–27",
+          "note": "Central regional amounts and economic eligibility researched; category-specific merit table not recovered, no award assumed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol",
+          "year": "2026–27",
+          "note": "Summary contains an obsolete 2025 graduation sentence; not projected."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol",
+          "year": "2026",
+          "note": "Mixed-year source limitation."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Curriculum assessment and interview exemption reviewed.",
+        "url": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2026 closing dates and EU-only third round reviewed.",
+        "url": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2026–27: annual fixed charges EUR 157.04 plus income-dependent contribution.",
+        "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi/tasse-ed-esenzioni-importi-e-scadenze",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Central 2026–27 schedule sets standard second-cycle contribution EUR 2,550; Mathematics absent from increased-rate list.",
+        "url": "https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Eligible first-year second-cycle flat contribution EUR 600 for listed poor/developing countries, EUR 1,200 for listed non-OECD category, plus EUR 157.04; assets/income must be exclusively abroad.",
+        "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi/tassa-fissa-agevolata-per-cittadini-di-paesi-particolarmente-poveri-e-in-via-di-sviluppo-o-di-paesi-non-ue-non-appartenenti-allocse",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "ER.GO 2026–27 annual means-tested scholarship: standard amounts EUR 1,445.08–2,890.16 resident, EUR 2,095.36–4,190.71 commuter, EUR 3,585.56–7,171.11 away from home; lowest-income and female-STEM supplements exist.",
+        "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/importi-pagamenti-e-revoche/importi",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026–27 scholarship income/asset ceilings EUR 25,000/EUR 50,000; applications closed 24 August 2026 at 16:00.",
+        "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/@@display-file/file/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi/tasse-ed-esenzioni-importi-e-scadenze",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.unibo.it/it/allegati/Tabellaimportimassimi2627.pdf/@@download/file/Tabella%20importi%20massimi%202026-2027.pdf",
+        "label": "Additional official finance/calendar evidence"
+      },
+      {
+        "url": "https://www.unibo.it/it/studiare/iscrizioni-tasse-e-altre-procedure/lauree-e-lauree-magistrali/tasse-e-contributi/tassa-fissa-agevolata-per-cittadini-di-paesi-particolarmente-poveri-e-in-via-di-sviluppo-o-di-paesi-non-ue-non-appartenenti-allocse",
+        "label": "Additional official finance/calendar evidence"
+      },
+      {
+        "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/importi-pagamenti-e-revoche/importi",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/@@display-file/file/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf",
+        "label": "Additional official finance/calendar evidence"
+      }
+    ],
+    "selection": "Bachelor's/equivalent, curricular review and English B2. Italian mathematics/physics graduates with at least 90/110 are interview-exempt; otherwise oral interview assesses preparation. Foreign qualification equivalence assessed by committee.",
+    "cycle": "2026 rounds closed 13 April, 29 June and 3 September; third round EU-only. Next intake not established. Page also contains an obsolete 2025 graduation deadline.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-04-13",
+        "label": "Historical first 2026 round",
+        "source": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-06-29",
+        "label": "Historical second 2026 round",
+        "source": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-09-03",
+        "label": "Historical third 2026 round, EU-only",
+        "source": "https://corsi.unibo.it/2cycle/Mathematics/how-to-enrol"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-08-24",
+        "label": "Historical ER.GO 2026–27 scholarship deadline, 16:00 CEST",
+        "source": "https://www.er-go.it/cosa-fare-per/bandi-di-concorso/leggi-il-bando/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf/@@display-file/file/bando-di-concorso-benefici-dsu-a-a-2026_2027.pdf"
+      }
+    ],
+    "intakeYear": "2026",
+    "tuition": "2026–27: annual fixed charges EUR 157.04 plus income-dependent contribution. Standard second-cycle maximum contribution EUR 2,550 excludes fixed charges; Mathematics is not in the published increased-rate list, so standard rate applies (inference from schedule). First-year ISEE ≤ EUR 27,000 removes the variable contribution. Eligible listed developing-country/non-OECD nationals with family finances only abroad can instead use reduced annual flat contributions EUR 600/EUR 1,200 plus fixed charges, subject to status/progress conditions.",
+    "fundingDetail": "ER.GO 2026–27 annual means-tested scholarship: standard amounts EUR 1,445.08–2,890.16 resident, EUR 2,095.36–4,190.71 commuter, EUR 3,585.56–7,171.11 away from home; lowest-income and female-STEM supplements exist. Amount includes any meal-service conversion; regional-tax refund is additional. ISEE ≤ EUR 25,000 and ISPE ≤ EUR 50,000; foreign finances documented, merit/enrolment rules also apply. Annual reapplication; exact master's credit/renewal entitlement unresolved."
+  },
+  "university-of-barcelona-master-advanced-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://web.ub.edu/en/web/estudis/w/masterdegree-m0k08?referer=cercador-masters-postgraus",
+          "year": "2025–26",
+          "note": "Official indexed programme information; not a 2027 quote."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://mat.ub.edu/masteradvancedmathematics/",
+          "year": null,
+          "note": "Award amount, duration and renewal not established from the reviewed material. Prior record checked 2026-10-11; existing text retained where no override is supplied."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://web.ub.edu/en/web/estudis/w/masterdegree-m0k08?referer=cercador-masters-postgraus",
+          "year": null,
+          "note": "Eligibility/document requirements only; selection scoring unresolved."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://mat.ub.edu/masteradvancedmathematics/acces-i-admissio/preinscripcio/",
+          "year": "2026–27",
+          "note": "Official indexed pre-enrolment page; homepage fetch unavailable."
+        }
+      },
+      "verifiedFields": 0,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Indexed programme explicitly labels fees 2025–26.",
+        "url": "https://web.ub.edu/en/web/estudis/w/masterdegree-m0k08?referer=cercador-masters-postgraus",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematical qualification profile reviewed.",
+        "url": "https://web.ub.edu/en/web/estudis/w/masterdegree-m0k08?referer=cercador-masters-postgraus",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Year-specific historical application rounds reviewed.",
+        "url": "https://mat.ub.edu/masteradvancedmathematics/acces-i-admissio/preinscripcio/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://web.ub.edu/en/web/estudis/w/masterdegree-m0k08?referer=cercador-masters-postgraus",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://mat.ub.edu/masteradvancedmathematics/acces-i-admissio/preinscripcio/",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "Historical 2025–26 indicative tuition: EUR 19.37 per credit; EUR 82 per credit for non-EU nationals not resident in Spain. This 60-ECTS programme also has separate administrative charges; current fee categories not resolved.",
+    "selection": "Mathematics bachelor's/equivalent or another diploma with strong mathematics background; application includes degree, transcript, CV and identification. Detailed current scoring/test policy not established.",
+    "cycle": "2026–27 application periods were 2–27 February and 10 May–11 June 2026; next-intake call not established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-02-27",
+        "label": "Historical 2026–27 first-round deadline",
+        "source": "https://mat.ub.edu/masteradvancedmathematics/acces-i-admissio/preinscripcio/"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-06-11",
+        "label": "Historical 2026–27 second-round deadline",
+        "source": "https://mat.ub.edu/masteradvancedmathematics/acces-i-admissio/preinscripcio/"
+      }
+    ],
+    "intakeYear": "2026–27"
+  },
+  "universidad-autonoma-de-madrid-master-mathematics-and-applications": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://verso.pim.mat.uam.es/index.php/en/66-graduate-studies/master-degree/405-access-master",
+          "year": null,
+          "note": "Programme-specific fee schedule and applicable status category not established from the reviewed material. Prior record checked 2026-10-11; existing text retained where no override is supplied."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://verso.pim.mat.uam.es/index.php/en/66-graduate-studies/master-degree/405-access-master",
+          "year": null,
+          "note": "Award amount, duration and renewal not established from the reviewed material. Prior record checked 2026-10-11; existing text retained where no override is supplied."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://verso.pim.mat.uam.es/index.php/en/66-graduate-studies/master-degree/405-access-master",
+          "year": "Undated recurring rule",
+          "note": "Direct access unavailable; official indexed department content reviewed."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://verso.pim.mat.uam.es/index.php/en/66-graduate-studies/master-degree/405-access-master",
+          "year": null,
+          "note": "Indexed page refers to annual CEP notices but provides no exact next-cycle dates."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree eligibility and central submission route reviewed.",
+        "url": "https://verso.pim.mat.uam.es/index.php/en/66-graduate-studies/master-degree/405-access-master",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://verso.pim.mat.uam.es/index.php/en/66-graduate-studies/master-degree/405-access-master",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "Mathematics undergraduate qualification or foreign degree permitting mathematics postgraduate study in its issuing country; related engineering/physics qualifications also considered. Apply centrally through CEP. Tutor endorsements on the page concern the combined mathematics/computing programme, not this stand-alone master."
+  },
+  "university-of-porto-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.up.pt/portal/en/study/masters-degrees/courses/fcup/878/",
+          "year": "2026–27",
+          "note": "Fee category must match applicant status."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.up.pt/portal/en/study/masters-degrees/courses/fcup/878/",
+          "year": null,
+          "note": "2026–27 course page reviewed; no route-specific award amount/duration/renewal established."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.up.pt/portal/en/study/masters-degrees/courses/fcup/878/",
+          "year": null,
+          "note": "Programme/Portuguese teaching language reviewed, but faculty selection notice and foreign-degree rules not inspected."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.up.pt/portal/en/study/masters-degrees/courses/fcup/878/",
+          "year": null,
+          "note": "2026–27 course details available; dates of next admissions phases not established."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Course lists three annual fee categories and academic year.",
+        "url": "https://www.up.pt/portal/en/study/masters-degrees/courses/fcup/878/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.up.pt/portal/en/study/masters-degrees/courses/fcup/878/",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "2026–27 annual tuition: EUR 1,300 national/EU; EUR 3,750 international; EUR 2,250 CPLP international. This is annual tuition for a four-semester course, excluding living costs."
+  },
+  "university-of-lisbon-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+          "year": null,
+          "note": "Indicative amounts only, not a verified fee-year quote."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+          "year": null,
+          "note": "Programme page reviewed; no quantified scholarship eligibility or renewal terms established."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+          "year": null,
+          "note": "Degree eligibility only."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+          "year": null,
+          "note": "Programme links the application portal but publishes no year-specific deadline in the reviewed content."
+        }
+      },
+      "verifiedFields": 0,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Page distinguishes general and international annual indicative fees.",
+        "url": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Programme-specific degree prerequisite reviewed.",
+        "url": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ulisboa.pt/en/curso/mestrado/mathematics",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "Indicative tuition on undated programme page: EUR 980 for the first year and each remaining year under general access; EUR 3,500 per year under international-student contest. Academic-year applicability not confirmed.",
+    "selection": "First university degree in mathematics or a field close to mathematics. Detailed ranking, tests and language certification rules not established from this overview."
+  },
+  "national-and-kapodistrian-university-of-athens-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not published",
+          "source": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+          "year": "2026–27",
+          "note": "Current mathematics call does not state a fee amount; regulations/fee schedule not reviewed."
+        },
+        "fundingDetail": {
+          "status": "Not published",
+          "source": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+          "year": "2026–27",
+          "note": "No scholarship amount or award conditions stated in the reviewed call."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+          "year": "2026–27",
+          "note": "Next-call rules unconfirmed."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+          "year": "2026–27",
+          "note": "Past dates."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Two-stage selection with written-examination referral reviewed.",
+        "url": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Call explicitly states the single May 2026 period.",
+        "url": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "2026–27: first-cycle degree; foreign-degree equivalence documentation, records, CV, two references and foreign-language certificates. Initial dossier assessment may admit candidates or refer them to the second-stage written examinations; these are department examinations, not GRE.",
+    "cycle": "2026–27 sole application period: 11–31 May 2026. Next 2027–28 call not established; no second call promised.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-05-31",
+        "label": "Historical 2026–27 application deadline",
+        "source": "https://www.math.uoa.gr/anakoinoseis_kai_ekdiloseis/proboli_anakoinosis/prokiryxi_toy_programmatos_metaptychiakon_spoydon_mathimatika_akadimaikoy_etoys_2026_2027"
+      }
+    ],
+    "intakeYear": "2026–27"
+  },
+  "university-of-copenhagen-msc-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.ku.dk/studies/admission/application-deposit-fee-and-tuition-fees",
+          "year": "Undated recurring rule; current selector",
+          "note": "Exact Mathematics selector reviewed in live browser; no named 2027 fee-year. Guest-study DKK 62,500/semester schedule is not this degree.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.ku.dk/studies/admission/scholarships-for-full-degree-students",
+          "year": "Undated recurring rule",
+          "note": "Coverage, duration and eligibility confirmed centrally; living amount/renewal beyond stated schemes not specified.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ku.dk/studies/masters/mathematics",
+          "year": "Undated recurring rule",
+          "note": "Prerequisite credits are not an admission guarantee."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.ku.dk/studies/masters/mathematics",
+          "year": "Undated recurring rule",
+          "note": "Recurring category-specific timetable only."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 3,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Programme prerequisites and ranking criterion reviewed.",
+        "url": "https://www.ku.dk/studies/masters/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Page does not attach a calendar year to deadlines.",
+        "url": "https://www.ku.dk/studies/masters/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central full-degree selector: Mathematics DKK 130,000 annually (60 ECTS) for fee-liable non-EU/EEA/Swiss citizens; EU/EEA tuition-free and listed residence exemptions apply.",
+        "url": "https://www.ku.dk/studies/admission/application-deposit-fee-and-tuition-fees",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "SCIENCE Danish Government scholarships: competitive tuition coverage plus 22 months' living support; automatic consideration of non-EU/EEA applicants with bachelor GPA above 90%, admitted to first priority.",
+        "url": "https://www.ku.dk/studies/admission/scholarships-for-full-degree-students",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ku.dk/studies/masters/mathematics",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.ku.dk/studies/admission/application-deposit-fee-and-tuition-fees",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.ku.dk/studies/admission/scholarships-for-full-degree-students",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      }
+    ],
+    "selection": "For other degrees: bachelor's/equivalent with at least 30 ECTS analysis, 22.5 algebra/linear algebra, 15 geometry/topology; English B evidence by deadline. Qualifying applicants without legal right are prioritized by total mathematics ECTS.",
+    "cycle": "September entry: recurring 15 January non-EU/EEA/Swiss and 1 March EU/EEA/Swiss deadlines. February entry is legal-right-only, recurring 15 October. Dates omit calendar year; no 2027 dates generated.",
+    "tuition": "Central full-degree selector: Mathematics DKK 130,000 annually (60 ECTS) for fee-liable non-EU/EEA/Swiss citizens; EU/EEA tuition-free and listed residence exemptions apply. Paid one semester at a time for four semesters; fee-year not labelled. Application deposit DKK 1,120 per round is separate, credited towards first tuition if admitted and paying tuition.",
+    "fundingDetail": "SCIENCE Danish Government scholarships: competitive tuition coverage plus 22 months' living support; automatic consideration of non-EU/EEA applicants with bachelor GPA above 90%, admitted to first priority. Separate second-year scheme requires 60 ECTS recorded by 1 September and excellent grades; maximum three recipients of the same nationality. Living amount and future allocation unspecified; awards are not guaranteed."
+  },
+  "aarhus-university-msc-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://masters.au.dk/tuitionfees/current-tuition-fee-rates",
+          "year": "2026–27",
+          "note": "Payment/category rules also reviewed at tuitionfees page."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://masters.au.dk/scholarships-and-grants",
+          "year": null,
+          "note": "No scholarship guaranteed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://masters.au.dk/mathematics",
+          "year": "Undated recurring rule",
+          "note": "Legal-right applicants have a separate entitlement."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://masters.au.dk/deadlines-and-important-dates",
+          "year": "Undated recurring rule",
+          "note": "Recurring summer dates; winter availability not assumed."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Current table lists Mathematics annual rate.",
+        "url": "https://masters.au.dk/tuitionfees/current-tuition-fee-rates",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "EU/EEA/Swiss exemption and semester payment rules.",
+        "url": "https://masters.au.dk/tuitionfees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Programme academic and ranking requirements reviewed.",
+        "url": "https://masters.au.dk/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Faculty-specific waiver scope and automatic consideration reviewed.",
+        "url": "https://masters.au.dk/scholarships-and-grants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Summer deadline table omits calendar years.",
+        "url": "https://masters.au.dk/deadlines-and-important-dates",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://masters.au.dk/tuitionfees/current-tuition-fee-rates",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://masters.au.dk/tuitionfees",
+        "label": "Official fee eligibility/payment rules"
+      },
+      {
+        "url": "https://masters.au.dk/mathematics",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://masters.au.dk/scholarships-and-grants",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://masters.au.dk/deadlines-and-important-dates",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "2026–27 full-time Mathematics: EUR 17,300 per 60-ECTS academic year for fee-liable non-EU/EEA/Swiss students; EU/EEA/Swiss exempt. Fees paid by semester; rate can change even after enrolment.",
+    "selection": "180-ECTS-equivalent bachelor's, at least 60 ECTS broad mathematics and 10 programming ECTS, and English evidence. Limited intake ranks qualifying applicants by degree/relevant-subject grades and additional relevant subject credits.",
+    "fundingDetail": "Natural Sciences offers limited competitive 100% tuition waivers to qualified fee-liable non-EU applicants, automatically considered with admission. No living allowance under the faculty's usual scheme; duration and renewal must be confirmed in the award.",
+    "cycle": "Summer entry: recurring opening 1 November; non-EU deadline 15 January, EU deadline 1 March. Winter entry covers limited programmes. No explicit summer 2027 dates established."
+  },
+  "stockholm-university-kth-msc-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.kth.se/en/2.985/mathematics/fees-mathematics-1.910136",
+          "year": "Page updated 2024-07-04",
+          "note": "Specific joint Mathematics amount, not Applied and Computational Mathematics or general KTH master's rate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships/scholarships",
+          "year": null,
+          "note": "General university scheme; verify individual award."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.su.se/english/education/course-catalogue/nm/nmklo",
+          "year": "Undated recurring rule",
+          "note": "Programme-specific supporting documents reviewed."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+          "year": "2027",
+          "note": "Central corresponding-intake timetable; not a projected recurring deadline.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Prerequisites and application documents reviewed.",
+        "url": "https://www.su.se/english/education/course-catalogue/nm/nmklo",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Coverage, eligibility and separate application reviewed.",
+        "url": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships/scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "KTH's joint Mathematics page quotes SEK 280,000 for the full programme for fee-liable non-EU/EEA/Swiss citizens, paid in advance by semester.",
+        "url": "https://www.kth.se/en/2.985/mathematics/fees-mathematics-1.910136",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Autumn 2027 international first round: 16 October 2026–15 January 2027; documents, fee payment and fee-exemption proof due 1 February 2027.",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.su.se/english/education/course-catalogue/nm/nmklo",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.su.se/english/education/how-to-apply/costs-fees-and-scholarships/scholarships",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.kth.se/en/2.985/mathematics/fees-mathematics-1.910136",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      }
+    ],
+    "selection": "180-ECTS bachelor's; abstract algebra and foundations of analysis equivalent to named 7.5-ECTS courses; English 6. Submit one-page intent, course/syllabus summary, two referee contacts and bachelor's thesis if applicable.",
+    "fundingDetail": "Stockholm University's competitive scheme covers full master's tuition, excluding living costs, for fee-liable non-EU/EEA/Swiss first-round admits. Eligible admits receive a separate application form; first-choice applicants prioritized. 2027 allocation/renewal unconfirmed.",
+    "cycle": "Autumn 2027 international first round: 16 October 2026–15 January 2027; documents, fee payment and fee-exemption proof due 1 February 2027. Programme-specific document requirements remain applicable.",
+    "tuition": "KTH's joint Mathematics page quotes SEK 280,000 for the full programme for fee-liable non-EU/EEA/Swiss citizens, paid in advance by semester. EU/EEA/Swiss citizens are exempt; other exemptions apply. Separate national application fee SEK 900. Page last changed July 2024; not a confirmed 2027 cohort quote.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-16",
+        "label": "Autumn 2027 international opening",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-15",
+        "label": "Autumn 2027 application/ranking deadline",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-01",
+        "label": "Autumn 2027 supporting documents and fee-exemption evidence deadline",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-01",
+        "label": "Autumn 2027 application-fee payment deadline (if fee-liable)",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      }
+    ]
+  },
+  "uppsala-university-msc-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+          "year": "2027–29",
+          "note": "Course fee, not living expenses."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.uu.se/en/study/masters-studies/scholarships/uppsala-university-scholarships.html",
+          "year": null,
+          "note": "Official indexed scholarship page; 2027 award allocation and renewal not confirmed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+          "year": "2027",
+          "note": "Published 2027 requirements."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+          "year": "2027",
+          "note": "Closing hour not verified."
+        }
+      },
+      "verifiedFields": 3,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 course block lists full tuition and first instalment.",
+        "url": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Academic, language and appraisal criteria reviewed.",
+        "url": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit 2027 course deadline reviewed.",
+        "url": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Eligibility, full tuition scope and separate future round reviewed.",
+        "url": "https://www.uu.se/en/study/masters-studies/scholarships/uppsala-university-scholarships.html",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.uu.se/en/study/programme/masters-programme-mathematics",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.uu.se/en/study/masters-studies/scholarships/uppsala-university-scholarships.html",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "Autumn 2027: SEK 300,000 tuition for the entire two-year course; first instalment SEK 75,000. Applies to fee-liable students outside EU/EEA/Switzerland; exemptions/status require confirmation.",
+    "selection": "Autumn 2027: recognised bachelor's/equivalent, 90 mathematics credits and English 6 equivalent. Selection uses prior university studies and purpose statement; programme summary sheet required.",
+    "cycle": "Autumn 2027 admission deadline 15 January 2027; study period 30 August 2027–3 June 2029. Scholarship dates remain separate.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-15",
+        "label": "Autumn 2027 application deadline; hour unverified",
+        "source": "https://www.uu.se/en/study/programme/masters-programme-mathematics"
+      }
+    ],
+    "intakeYear": "2027",
+    "fundingDetail": "Global Scholarship covers full tuition, excluding living costs, for selected fee-liable non-EU/EEA/Swiss master's applicants who ranked Uppsala first. Separate application; 2026 round closed 2 February 2026. Next round announced for early 2027 without exact dates."
+  },
+  "lund-university-msc-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.maths.lu.se/english/education/mathematics-masters-programme/",
+          "year": "Programme page beside 2027 call",
+          "note": "Full-course amount; exemptions beyond EU/EEA not independently checked."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.lunduniversity.lu.se/node/83",
+          "year": null,
+          "note": "General scholarship policy; historical deadline not projected."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.maths.lu.se/english/education/mathematics-masters-programme/",
+          "year": "2027 page",
+          "note": "Specialisation-specific credit alternatives."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+          "year": "2027",
+          "note": "Official conflict resolved in favour of the corresponding central portal timetable.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Department publishes full-course fee.",
+        "url": "https://www.maths.lu.se/english/education/mathematics-masters-programme/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Academic, language and selection requirements reviewed.",
+        "url": "https://www.maths.lu.se/english/education/mathematics-masters-programme/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Coverage, first-choice eligibility and separate application reviewed.",
+        "url": "https://www.lunduniversity.lu.se/node/83",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Central first-round table starts 16 October 2026, not 15 October; January cutoff and February documents/fees apply to autumn 2027.",
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.maths.lu.se/english/education/mathematics-masters-programme/",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.lunduniversity.lu.se/node/83",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      }
+    ],
+    "tuition": "Department quotes SEK 370,000 for the full master's course for non-EU/EEA citizens; EU/EEA citizens pay no tuition. Quote appears beside autumn 2027 call, but fee-year label and other exemptions need central confirmation.",
+    "selection": "180-credit bachelor's with 90 mathematics credits; numerical-analysis option accepts 60 mathematics plus 30 numerical analysis/computational science. English 6/B. Selection assesses studies/qualifying courses and purpose statement.",
+    "cycle": "Autumn 2027 first round: 16 October 2026–15 January 2027; supporting documents, application fee and fee-exemption evidence due 1 February 2027. The central portal overrides the department's conflicting 15 October opening; department states no second round.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-16",
+        "label": "Autumn 2027 first-round opening; central portal corrects department",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-15",
+        "label": "Autumn 2027 application/ranking deadline",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-01",
+        "label": "Autumn 2027 supporting documents and fee-exemption evidence deadline",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-01",
+        "label": "Autumn 2027 application-fee payment deadline (if fee-liable)",
+        "source": "https://www.universityadmissions.se/en/key-dates-and-deadlines/autumn-semester-dates/"
+      }
+    ],
+    "intakeYear": "2027",
+    "fundingDetail": "Global Scholarship: competitive partial/full tuition only, no living costs. Fee-liable non-EU/EEA/Swiss applicants must apply to Lund as first choice, then use separate scholarship portal. 2026 closed 16 February; exact 2027 date, award duration and renewal unconfirmed."
+  },
+  "university-of-helsinki-msc-mathematics-and-statistics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+          "year": "Page announces 2027 intake",
+          "note": "Programme amount reviewed; exact residence category must be checked."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme",
+          "year": "2025–26 categories",
+          "note": "Scholarship page explicitly labels category year; current operational rules separately reviewed."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+          "year": "2027 overview",
+          "note": "Eligibility only; full selection scoring unresolved."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+          "year": "2027",
+          "note": "Explicit next-intake dates."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Programme annual tuition and separate national application fee reviewed.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Programme overview degree/background requirements reviewed.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Programme explicitly names autumn 2027.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Category percentages, tuition-only scope and credit renewal condition reviewed.",
+        "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.helsinki.fi/en/admissions-and-education/apply-bachelors-and-masters-programmes/tuition-fees-and-scholarship-programme",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "EUR 15,000 per academic year for fee-liable non-EU/EEA students; citizenship/residence exemptions apply. EUR 100 national application fee is separate from tuition.",
+    "selection": "First-cycle degree/equivalent, required degree-language evidence and sufficient applicable mathematics/statistics studies. Applicability assessed after application; complete selection criteria are on Studyinfo and were not fully reviewed here.",
+    "cycle": "Autumn 2027 single intake: applications 5–19 January 2027. Closing hour/document deadline not established from the programme page.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-05",
+        "label": "Autumn 2027 application opening",
+        "source": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-19",
+        "label": "Autumn 2027 application deadline; hour unverified",
+        "source": "https://www.helsinki.fi/en/degree-programmes/mathematics-and-statistics-masters-programme/admissions"
+      }
+    ],
+    "intakeYear": "2027",
+    "fundingDetail": "Reviewed 2025–26 scholarship categories: competitive 50% or 100% tuition waiver for fee-liable non-EU/EEA master's applicants, no living-cost support; normally two years with at least 55 first-year ECTS for renewal. Exact 2027 mathematics allocation not verified."
+  },
+  "norwegian-university-of-science-and-technology-msc-mathematical-sciences": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.ntnu.edu/studies/tuition-fee",
+          "year": "2026/27",
+          "note": "No tuition abolition shown by current NTNU source; category rate is not asserted as this programme's confirmed invoice.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.ntnu.edu/studies/tuition-fee",
+          "year": "Undated recurring rule",
+          "note": "Verified negative tuition-scholarship policy, not a claim that all external funding is unavailable.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ntnu.edu/studies/msmnfma/admission",
+          "year": "Undated recurring rule",
+          "note": "Specialisation prerequisites differ."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.ntnu.edu/studies/msmnfma/admission",
+          "year": "Undated recurring rule",
+          "note": "Programme header/template differ in categories."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Core credits, pure-mathematics additions and general grade rule reviewed.",
+        "url": "https://www.ntnu.edu/studies/msmnfma/admission",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Category discrepancy and undated deadlines reviewed.",
+        "url": "https://www.ntnu.edu/studies/msmnfma/admission",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "NTNU's current 2026/27 policy charges non-EU/EEA/Swiss students unless a listed exemption applies, including some residence categories; EU/EEA/Swiss students are exempt.",
+        "url": "https://www.ntnu.edu/studies/tuition-fee",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Current central tuition page explicitly excludes NTNU tuition-covering scholarships.",
+        "url": "https://www.ntnu.edu/studies/tuition-fee",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ntnu.edu/studies/msmnfma/admission",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.ntnu.edu/studies/tuition-fee",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      }
+    ],
+    "selection": "Bachelor's/equivalent with at least 80 mathematical-science credits including specified calculus/linear algebra. Pure specialisations add complex functions/differential equations, algebra and advanced mathematics. General grade C and English rules apply; GPA converted/ranked by NTNU.",
+    "cycle": "Programme lists recurring 1 March EU/EEA/Swiss and 15 April Norwegian/Nordic deadlines; embedded general template also lists 1 December non-EU. Non-EU availability and calendar year not verified, so no 2027 date inferred.",
+    "tuition": "NTNU's current 2026/27 policy charges non-EU/EEA/Swiss students unless a listed exemption applies, including some residence categories; EU/EEA/Swiss students are exempt. Natural sciences category: NOK 205,600 annually for 60 ECTS. The central page directs applicants to the faculty for precise programme classification; Mathematics mapping and 2027 rate remain unconfirmed.",
+    "fundingDetail": "NTNU explicitly offers no scholarships covering tuition fees. Exemptions from fee liability are separate from scholarship awards; no maintenance award established for this route."
+  },
+  "university-of-copenhagen-phd-mathematical-sciences": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://jobportal.ku.dk/jobagent?show=167403",
+          "year": null,
+          "note": "Vacancy describes salaried/integrated funding but does not establish an applicant-payable tuition schedule or waiver."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://jobportal.ku.dk/jobagent?show=167403",
+          "year": "2027 call; grant-rate example 2026",
+          "note": "Salary amount, full award and employment terms require offer."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://jobportal.ku.dk/jobagent?show=167403",
+          "year": "2027 advertised call",
+          "note": "Degree structures separately specified."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://jobportal.ku.dk/jobagent?show=167403",
+          "year": "2027",
+          "note": "Current named-intake call."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Call distinguishes regular master's-level and integrated entry.",
+        "url": "https://jobportal.ku.dk/jobagent?show=167403",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Employment duration and grant-portion distinction reviewed.",
+        "url": "https://jobportal.ku.dk/jobagent?show=167403",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit deadline and start year reviewed.",
+        "url": "https://jobportal.ku.dk/jobagent?show=167403",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://jobportal.ku.dk/jobagent?show=167403",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "Regular 5+3 route requires relevant Danish-equivalent master's; integrated route accepts relevant bachelor's and eligibility for a Mathematics/Quantum Information Science MSc. English application includes motivation, CV, diplomas/transcripts; references if available. Shortlisting and academic assessment; admission requires approved project.",
+    "fundingDetail": "Selected regular fellows: full-time salaried appointment up to three years under collective agreement; exact salary not quoted. Integrated award: up to 48 grant portions before MSc plus paid work (150 hours/year), then two salaried years. 2026 grant portion DKK 7,426 before tax; not a guaranteed 2027 monthly salary.",
+    "cycle": "Advertised start ordinarily 1 September 2027, negotiable; application deadline 1 November 2026, 23:59 GMT+1.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "September 2027 PhD call, 23:59 GMT+1",
+        "source": "https://jobportal.ku.dk/jobagent?show=167403"
+      }
+    ],
+    "intakeYear": "2027"
+  },
+  "aarhus-university-phd-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://phd.nat.au.dk/for-applicants/application-guide",
+          "year": "Undated recurring rule",
+          "note": "Current guide; fee normally funded, not automatically fee-free."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://phd.nat.au.dk/for-applicants/application-guide",
+          "year": "Undated recurring rule",
+          "note": "Funding plan verified; current exact income and duration not established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://phd.nat.au.dk/for-applicants/application-guide",
+          "year": "Undated recurring rule",
+          "note": "No fixed minimum GPA published by GSNS."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://phd.nat.au.dk/for-applicants/application-guide",
+          "year": "Undated recurring rule",
+          "note": "Calendar years intentionally not inferred."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual doctoral tuition and financing treatment reviewed.",
+        "url": "https://phd.nat.au.dk/for-applicants/application-guide",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Document assessment, possible interview and supervisor advice reviewed.",
+        "url": "https://phd.nat.au.dk/for-applicants/application-guide",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Financing requirement and historical SU example reviewed.",
+        "url": "https://phd.nat.au.dk/for-applicants/application-guide",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "GSNS distinguishes 4+4 master's-student and 5+3 master's-graduate entry structures.",
+        "url": "https://phd.nat.au.dk/for-applicants/phd-study-structure-and-income",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Four annual deadlines reviewed.",
+        "url": "https://phd.nat.au.dk/for-applicants/application-guide",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://phd.nat.au.dk/for-applicants/application-guide",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://phd.nat.au.dk/for-applicants/phd-study-structure-and-income",
+        "label": "Official doctoral entry structures"
+      }
+    ],
+    "tuition": "GSNS doctoral tuition DKK 80,000 per year, normally paid through an approved financing plan; this is tuition, separate from income and project running costs.",
+    "selection": "GSNS general or advertised project call: CV, diplomas/transcripts, GPA calculations, project, motivation and at least one reference. Committee may interview. General-call supervisor contact strongly recommended. MSc-based and bachelor's-plus-credits structures are separate; English evidence may be requested.",
+    "fundingDetail": "Admission requires complete approved financing for scholarship/employment, tuition, running costs and mobility. Private personal means are not accepted as a funding route. MSc-based 5+3 and integrated 4+4 structures differ; actual income requires the funded position/offer. Guide's SU-rate example is 2024 and is historical.",
+    "cycle": "GSNS recurring deadlines: 1 February, 1 May, 1 August, 1 November, 23:59 CET/CEST; system opens two months earlier. No dated mathematics vacancy/intake established here."
+  },
+  "stockholm-university-phd-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+          "year": null,
+          "note": "Doctoral mathematics eligibility page reviewed; it does not state a tuition amount or exemption, so no no-fee inference."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+          "year": "Undated recurring rule",
+          "note": "No current employment package inferred."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+          "year": "Undated recurring rule",
+          "note": "Formal special-subject requirements remain on the page."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+          "year": "Undated recurring rule",
+          "note": "Next vacancy date unresolved."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Mathematics eligibility and interview assessment reviewed.",
+        "url": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "General financing statement reviewed.",
+        "url": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Annual advertisement month only.",
+        "url": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.su.se/english/divisions/department-of-mathematics/education/courses-and-programmes/phd-studies",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "240 credits/four years or master's/equivalent, with algebra, foundational real analysis and complex analysis preparation. Selection considers courses, thesis quality, references and interviews; mathematics/statistics/computational mathematics are separate announcements.",
+    "fundingDetail": "Department says admitted candidates are normally supported by study grants and must disclose alternative financing. Current salary/amount, contract duration and renewal not established; this general wording is not a verified vacancy package.",
+    "cycle": "Positions usually announced in April; page describes 2026 projects. This recurring month is not a dated 2027 vacancy/deadline."
+  },
+  "university-of-warsaw-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+          "year": null,
+          "note": "Indexed 2026–27 IRK offer reviewed; citizenship/residence-based tuition amount/exemption not established."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+          "year": null,
+          "note": "No route-specific master's scholarship amount, duration or renewal rules verified."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+          "year": "2026–27",
+          "note": "Original route inaccessible; official indexed programme content reviewed."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+          "year": "2026–27",
+          "note": "Official indexed content only."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Written exam, grade-route distinction and Polish rules reviewed.",
+        "url": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Past 2026 application phases reviewed.",
+        "url": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "selection": "2026–27 Polish-taught master's: bachelor's/master's/engineering equivalent. Foreign-degree applicants take written mathematics qualifying exam; published qualifying threshold 60%. Eligible Polish mathematics-degree applicants have a separate grade-ranking route. Polish B2 evidence/assessment varies by citizenship and diploma origin.",
+    "cycle": "2026–27 rounds: 9–22 June and 19 August–7 September 2026; no active phase in indexed offer. Next-cycle dates not established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-06-22",
+        "label": "Historical 2026–27 first-phase deadline",
+        "source": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-09-07",
+        "label": "Historical 2026–27 second-phase deadline",
+        "source": "https://irk.uw.edu.pl/en-gb/offer/PELNE2026/programme/S2-MAT/?from=registration%3APELNE2026"
+      }
+    ],
+    "intakeYear": "2026–27"
+  },
+  "university-of-warsaw-doctoral-school-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://welcome.uw.edu.pl/home/phd-students/admissions-phd-candidates/",
+          "year": "Undated recurring rule",
+          "note": "Central UW doctoral admissions policy explicitly covers international students.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://en.uw.edu.pl/admissions-to-the-uw-doctoral-schools-for-the-2026-2027-academic-year/",
+          "year": "2026–27",
+          "note": "Monthly period confirmed in central official announcement; eligibility in maths call. October 13 central indexed recheck (direct page returned 404) corroborates rates; out-of-quota funding differs."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/",
+          "year": "2026–27",
+          "note": "Published qualifying threshold, not admission-chance estimate."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/",
+          "year": "2026–27",
+          "note": "Past dates."
+        }
+      },
+      "verifiedFields": 3,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree/supervisor and written-exam/interview rules reviewed.",
+        "url": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Monthly scholarship rates and maximum 48 months reviewed.",
+        "url": "https://en.uw.edu.pl/admissions-to-the-uw-doctoral-schools-for-the-2026-2027-academic-year/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Maths call excludes holders of doctor degree and notes social-security deductions.",
+        "url": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical registration and recommendation deadlines reviewed.",
+        "url": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Doctoral-school education is tuition-free for all participants, including non-EU students.",
+        "url": "https://welcome.uw.edu.pl/home/phd-students/admissions-phd-candidates/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Article 198(8) prohibits charges for doctoral-school education; distinguish external doctoral proceedings and recruitment fees.",
+        "url": "https://eli.gov.pl/api/acts/DU/2024/1571/text.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Current central doctoral portal confirms PLN 4,346 gross/month before midterm, PLN 5,500.50 after, maximum four years; disability addition PLN 1,071.15. Out-of-quota rates depend on funding source.",
+        "url": "https://phd.uw.edu.pl/en/phd-zone/phd-scholarship/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://en.uw.edu.pl/admissions-to-the-uw-doctoral-schools-for-the-2026-2027-academic-year/",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://welcome.uw.edu.pl/home/phd-students/admissions-phd-candidates/",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://eli.gov.pl/api/acts/DU/2024/1571/text.html",
+        "label": "Additional official finance/calendar evidence"
+      },
+      {
+        "url": "https://phd.uw.edu.pl/en/phd-zone/phd-scholarship/",
+        "label": "Additional official finance/calendar evidence"
+      }
+    ],
+    "selection": "2026–27: master's/equivalent, supervisor consent, research proposal, records and English B2 evidence/declaration. Written qualification exam and interview each carry 40 points; project/activity assessment adds 20. At least 50/100 plus a place within the ranking limit required.",
+    "fundingDetail": "2026–27 regular doctoral-school scholarship: PLN 4,346 gross per month before midterm, PLN 5,500.50 gross afterwards, up to 48 months; eligibility excludes holders of a doctorate. Department notes compulsory social contributions and a disability supplement. Not a 2027 offer quote.",
+    "cycle": "2026–27 applications were 14 April–21 May; recommendations due 29 May; written exam 23 June. Next-intake call not established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-05-21",
+        "label": "Historical 2026–27 application deadline",
+        "source": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-05-29",
+        "label": "Historical 2026–27 recommendation deadline",
+        "source": "https://szkolydoktorskie.uw.edu.pl/en/mathematics-and-computer-sciences-recruitment-2026-2027/"
+      }
+    ],
+    "intakeYear": "2026–27",
+    "tuition": "Doctoral-school education is tuition-free for all participants, including non-EU students. The mathematics call's PLN 300 recruitment charge is separate from tuition."
+  },
+  "jagiellonian-university-master-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://irk.uj.edu.pl/pl/offer/II_P_26/programme/matema_s2s_P/?from=org-unit%3AUJ.WMI",
+          "year": "2026–27",
+          "note": "Original page unavailable; official indexed Polish listing reviewed."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/",
+          "year": null,
+          "note": "Award amount, duration and renewal not established from the reviewed material. Prior record checked 2026-10-11; existing text retained where no override is supplied."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26",
+          "year": "2026–27",
+          "note": "Two-year Polish-taught degree/diploma eligibility reviewed; detailed Polish selection criteria not recovered. Listing is specifically for Polish citizens."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26",
+          "year": "2026–27",
+          "note": "Official indexed route-specific dates."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Indexed listing identifies free tuition and recruitment fee.",
+        "url": "https://irk.uj.edu.pl/pl/offer/II_P_26/programme/matema_s2s_P/?from=org-unit%3AUJ.WMI",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical domestic registration phases reviewed.",
+        "url": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://irk.uj.edu.pl/pl/offer/II_P_26/programme/matema_s2s_P/?from=org-unit%3AUJ.WMI",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "2026–27 listing for Polish citizens: full-time Polish-taught master's tuition-free; PLN 100 recruitment fee separate. Not evidence that every international applicant is tuition-exempt.",
+    "cycle": "Polish-citizen 2026–27 registration rounds closed 8 July, 1 September and 16 September 2026; indexed page has no active round. International route/next intake not verified.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-07-08",
+        "label": "Historical 2026–27 Polish-citizen first-round deadline",
+        "source": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-09-01",
+        "label": "Historical 2026–27 Polish-citizen second-round deadline",
+        "source": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-09-16",
+        "label": "Historical 2026–27 Polish-citizen third-round deadline",
+        "source": "https://irk.uj.edu.pl/en-gb/offer/II_P_26/programme/matema_s2s_P/?from=registration%3AII_P_26"
+      }
+    ],
+    "intakeYear": "2026–27"
+  },
+  "jagiellonian-university-doctoral-school-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://eli.gov.pl/api/acts/DU/2024/1571/text.html",
+          "year": "Undated recurring statutory rule",
+          "note": "Reviewed official consolidated law; Article 198(8) also corroborated by Parliament's February 2026 text hosted by a public university.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://science.phd.uj.edu.pl/en_GB/welcome/scholarship",
+          "year": "2026–27; effective 2026-10-01",
+          "note": "School's current notice distinguishes university/project funding. Polish/English net figures conflict slightly, so only agreed gross rates stated.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://irk.uj.edu.pl/en-gb/offer/SD_PC_26/programme/n.scis.przy_mate_sd_PC/?from=field%3An.scis.przy_mate",
+          "year": "2026–27",
+          "note": "Original page unavailable; official indexed programme content reviewed."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://irk.uj.edu.pl/en-gb/offer/SD_PC_26/programme/n.scis.przy_mate_sd_PC/?from=field%3An.scis.przy_mate",
+          "year": "2026–27",
+          "note": "Official indexed content only."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Supervisor, research topic and thesis/reference requirements reviewed.",
+        "url": "https://irk.uj.edu.pl/en-gb/offer/SD_PC_26/programme/n.scis.przy_mate_sd_PC/?from=field%3An.scis.przy_mate",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical registration dates reviewed.",
+        "url": "https://irk.uj.edu.pl/en-gb/offer/SD_PC_26/programme/n.scis.przy_mate_sd_PC/?from=field%3An.scis.przy_mate",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Doctoral-school education carries no tuition under Article 198(8) of the Higher Education and Science Act; this is not a claim that recruitment or external doctoral proceedings are free.",
+        "url": "https://eli.gov.pl/api/acts/DU/2024/1571/text.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "The Parliament text dated 3 February 2026 retains the no-charge doctoral-school rule.",
+        "url": "https://www.sgh.waw.pl/kae/sites/kae/files/2026-02/kae-ustawa-prawo-o-szkolnictwie-wyzszym-20-lipca-2018-tujed.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "From October 2026: before midterm, university-funded doctoral places receive at least PLN 4,000 gross/month; project-funded places at least PLN 3,570.50 gross/month.",
+        "url": "https://science.phd.uj.edu.pl/en_GB/welcome/scholarship",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Vice-Rector's 23 September 2026 notice establishes rates effective 1 October 2026.",
+        "url": "https://science.phd.uj.edu.pl/documents/142594442/0/Pismo_ws_stawek_stypendium_doktoranckiego_od_1-10-26.pdf/f758a2a9-ec34-48c9-af33-ddf66b7e518c",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://irk.uj.edu.pl/en-gb/offer/SD_PC_26/programme/n.scis.przy_mate_sd_PC/?from=field%3An.scis.przy_mate",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://eli.gov.pl/api/acts/DU/2024/1571/text.html",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.sgh.waw.pl/kae/sites/kae/files/2026-02/kae-ustawa-prawo-o-szkolnictwie-wyzszym-20-lipca-2018-tujed.pdf",
+        "label": "Additional official finance/calendar evidence"
+      },
+      {
+        "url": "https://science.phd.uj.edu.pl/en_GB/welcome/scholarship",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://science.phd.uj.edu.pl/documents/142594442/0/Pismo_ws_stawek_stypendium_doktoranckiego_od_1-10-26.pdf/f758a2a9-ec34-48c9-af33-ddf66b7e518c",
+        "label": "Additional official finance/calendar evidence"
+      }
+    ],
+    "selection": "2026–27 documents: CV/achievement evidence, records and grading scale, two-page research topic, qualified supervisor confirmation, master's thesis/draft and recommendation. Exact examination/interview scoring is delegated to school regulations and not verified here.",
+    "cycle": "2026–27 doctoral mathematics registration ran 18 May 2026, 12:00 to 15 June 2026, 23:59. No active round in indexed offer; next intake unverified.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-06-15",
+        "label": "Historical 2026–27 doctoral deadline, 23:59 local time",
+        "source": "https://irk.uj.edu.pl/en-gb/offer/SD_PC_26/programme/n.scis.przy_mate_sd_PC/?from=field%3An.scis.przy_mate"
+      }
+    ],
+    "intakeYear": "2026–27",
+    "tuition": "Doctoral-school education carries no tuition under Article 198(8) of the Higher Education and Science Act; this is not a claim that recruitment or external doctoral proceedings are free.",
+    "fundingDetail": "From October 2026: before midterm, university-funded doctoral places receive at least PLN 4,000 gross/month; project-funded places at least PLN 3,570.50 gross/month. After a positive midterm: at least PLN 5,500.50 gross/month. Maximum four years; no prior doctorate; matriculation/oath and scholarship declaration required. Stipend is income-tax exempt but pension/disability contributions apply. Disability supplement follows statutory rules; project contracts may pay more."
+  },
+  "charles-university-master-mathematics-english-route": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.mff.cuni.cz/en/admissions/costs-and-dates",
+          "year": "From 2026–27",
+          "note": "General fee policy, not a dedicated 2027–28 tuition notice."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.mff.cuni.cz/en/admissions/scholarships/prague-mathematics-tuition-fee-scholarships-2026",
+          "year": "2026 entry",
+          "note": "Award terms concern earlier cohort."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028",
+          "year": "2027–28",
+          "note": "Do not transfer CS tests to mathematics."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028",
+          "year": "2027–28",
+          "note": "Distinction between preferred and final document deadlines retained."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual EU/non-EU amounts reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/costs-and-dates",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematics-specific academic and separate English requirements reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Application and document-delivery dates reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 award scope, exclusion and credit conditions reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/scholarships/prague-mathematics-tuition-fee-scholarships-2026",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.mff.cuni.cz/en/admissions/costs-and-dates",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.mff.cuni.cz/en/admissions/scholarships/prague-mathematics-tuition-fee-scholarships-2026",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "English bachelor's/master's fee policy from 2026–27: EUR 4,200 per academic year for EU students; EUR 7,100 for non-EU students. Separate application fee CZK 1,500 in the 2027–28 master's call. Cohort-specific tuition continuation not explicitly restated.",
+    "selection": "2027–28 mathematics: bachelor's/master's diploma and course records/syllabi showing linear algebra, real/complex analysis, measure theory and probability, plus chosen-programme prerequisites. English C1/equivalent evidence: IELTS 7 or listed alternatives/exemptions. Computer Science take-home assignment does not apply to mathematics.",
+    "cycle": "2027–28 application deadline 30 April 2027. Documents preferred by 30 June, absolute latest 30 September 2027; page's summary lists June 30 while body clarifies latest date.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-04-30",
+        "label": "2027–28 application deadline",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-06-30",
+        "label": "2027–28 preferred document delivery",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-09-30",
+        "label": "2027–28 absolute latest certified document delivery",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-requirements-for-master-s-programmes-in-english/2027-2028"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-04-30",
+        "label": "Historical 2026-entry PMTFS deadline; not the 2027-entry scholarship call",
+        "source": "https://www.mff.cuni.cz/en/admissions/scholarships/prague-mathematics-tuition-fee-scholarships-2026"
+      }
+    ],
+    "intakeYear": "2027–28",
+    "fundingDetail": "2026-entry PMTFS: up to two tuition-only awards cover 2026–27 and 2027–28 at EUR 4,200/year EU or EUR 7,100/year non-EU. Separate request and two references; other scholarships/maintenance grants excluded. Renewal requires 60 first-year credits and completion in two years. No 2027-entry call verified."
+  },
+  "charles-university-phd-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.mff.cuni.cz/en/math/ka/phd-studies",
+          "year": "Undated recurring rule",
+          "note": "Mathematics doctoral source; no country-based no-fee inference.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+          "year": "2026–27 second round",
+          "note": "Explicit absence of guaranteed income in this selected round."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+          "year": "2026–27 second round",
+          "note": "Only combined form available in this round."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+          "year": "2026–27 second round; March 2027 start",
+          "note": "Current call, not historical-only."
+        }
+      },
+      "verifiedFields": 4,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Supervisor, document and two-stage subject-exam rules reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Combined-form funding limitation reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit application, degree-document and start dates reviewed.",
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Official Mathematics/Algebra doctoral page states no PhD tuition or other study fees.",
+        "url": "https://www.mff.cuni.cz/en/math/ka/phd-studies",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full-time funded Algebra positions guarantee four years conditional on positive annual evaluations; these do not apply to the current combined-only March 2027 round.",
+        "url": "https://www.mff.cuni.cz/en/math/ka/phd-studies",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Effective 1 October 2026: eligible full-time students receive CZK 14,000 monthly faculty stipend, with the rest of statutory doctoral income through additional stipend or qualifying employment; not a combined-study guarantee.",
+        "url": "https://www.mff.cuni.cz/cs/vnitrni-zalezitosti/predpisy/opatreni-dekana/opatreni-dekana-c-10-2026",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.mff.cuni.cz/en/math/ka/phd-studies",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://www.mff.cuni.cz/cs/vnitrni-zalezitosti/predpisy/opatreni-dekana/opatreni-dekana-c-10-2026",
+        "label": "Additional official finance/calendar evidence"
+      }
+    ],
+    "selection": "2026–27 second round: master's/equivalent, signed supervisor consent, CV, motivation, master's records and two recommendations. Subject exam first evaluates documents (18/30 to progress), then interview; at least 45/70 combined required. English proof optional and may add points.",
+    "fundingDetail": "Only combined-study form offered in this round, with no guaranteed doctoral income. Possible project scholarship/employment depends primarily on supervisor funding; no amount or duration guaranteed. Generic full-time funding cannot be transferred to this round.",
+    "cycle": "Applications open 1 October–30 November 2026 for March 1, 2027 start (2026–27 second round). Recommendations/attachments due November 30; master's completion proof can arrive by February 28, 2027.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-01",
+        "label": "2026–27 combined-form second-round opening",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-30",
+        "label": "March 2027 start: application deadline",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-30",
+        "label": "Required attachments and recommendations",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-28",
+        "label": "Master's degree completion proof deadline",
+        "source": "https://www.mff.cuni.cz/en/admissions/admission-procedure-in-phd-programmes/2026-2027-ii"
+      }
+    ],
+    "intakeYear": "March 2027 (2026–27 second round)",
+    "tuition": "Official Mathematics/Algebra doctoral page states no PhD tuition or other study fees. The admissions call's application charge is separate from tuition; this statement is not a fee waiver conditional on winning funding."
+  },
+  "eotvos-lorand-university-msc-mathematics-pure-route": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.math.elte.hu/en/studies/admission-fees/",
+          "year": "Undated recurring rule",
+          "note": "Department fee page not tied to a fee year."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.math.elte.hu/en/studies/admission-fees/",
+          "year": null,
+          "note": "Department fee page describes EU tuition reduction but no scholarship package or renewal conditions."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.math.elte.hu/en/studies/admission-fees/",
+          "year": "Undated recurring rule",
+          "note": "Entrance-exam mechanism verified; test detail unresolved."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.math.elte.hu/en/studies/admission-fees/",
+          "year": null,
+          "note": "English-programme fee/admission page has no year-specific deadline."
+        }
+      },
+      "verifiedFields": 0,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Per-semester rate and EU reduction reviewed.",
+        "url": "https://www.math.elte.hu/en/studies/admission-fees/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Programme explicitly requires an entrance examination.",
+        "url": "https://www.math.elte.hu/en/studies/admission-fees/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.elte.hu/en/studies/admission-fees/",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "English pure-mathematics MSc: EUR 4,200 per semester, 50% reduction for EU citizens. Four-semester programme; fee year not stated, so exact next-intake price unconfirmed.",
+    "selection": "BSc mathematics or related field with sufficient mathematics credits and entrance examination; English certificate required. Department does not specify current examination format/content or accepted English-score thresholds."
+  },
+  "budapest-university-of-technology-and-economics-msc-applied-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://xplore.bme.hu/tuition-fees/",
+          "year": "2026–27",
+          "note": "Read MSc Applied Mathematics row, not separate pure Mathematics row."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://xplore.bme.hu/tuition-fees/",
+          "year": null,
+          "note": "No Applied Mathematics-specific award eligibility, stipend amount or renewal package verified."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://math.bme.hu/applmathmsc?language=en",
+          "year": null,
+          "note": "Department curriculum reviewed; applicant-specific entrance/test and language requirements not recovered."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://xplore.bme.hu/tuition-fees/",
+          "year": null,
+          "note": "2026–27 programme fee row reviewed, but next-intake admission opening/closing notice not recovered."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Programme/citizenship rows and BME-graduate reduction reviewed.",
+        "url": "https://xplore.bme.hu/tuition-fees/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://xplore.bme.hu/tuition-fees/",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "Fall 2026–27 Applied Mathematics MSc: non-EU EUR 3,500/semester, EUR 3,200 for BME graduates; EU HUF 800,000/semester (table's indicative conversion EUR 2,199). Actual euro payment varies by prescribed exchange-rate rules; no 2027 rate inferred."
+  },
+  "university-of-vienna-msc-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+          "year": "Undated recurring rule",
+          "note": "Fee year not separately attached; category/exemption must be determined."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+          "year": null,
+          "note": "No Mathematics MSc-specific scholarship amount, award duration or renewal notice inspected."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://ssc-mathematik.univie.ac.at/im-studium/studiengaenge/msc-mathematik/",
+          "year": null,
+          "note": "Curriculum overview reviewed; foreign-degree admission equivalence and current language requirement not verified."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+          "year": null,
+          "note": "Mathematics curriculum and standing fee rules reviewed; exact next application category/intake deadlines not established."
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 0,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Semester tuition, nationality rules and separate union fee reviewed.",
+        "url": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "Degree-study standing policy: EU/EEA/Swiss tuition waived for normal duration plus two semesters, then EUR 363.36/semester; other third-country students normally EUR 726.72/semester from start, with specified exemptions. Separate Students' Union charge EUR 26.20/semester; future amount can change."
+  },
+  "university-of-vienna-doctorate-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+          "year": "Undated recurring rule",
+          "note": "Fee year not separately attached; category/exemption must be determined."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://ssc-mathematik.univie.ac.at/im-studium/studiengaenge/doctoral-program-in-english/",
+          "year": "Undated recurring rule",
+          "note": "VSM membership follows some advertised pre-doc hires; admission alone does not establish employment. No particular funded vacancy amount/duration reviewed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://doktorat.univie.ac.at/en/doctorateunivie/admission/",
+          "year": "Undated recurring rule",
+          "note": "Official indexed central admission page plus reviewed mathematics programme."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://ssc-mathematik.univie.ac.at/im-studium/studiengaenge/doctoral-program-in-english/",
+          "year": null,
+          "note": "Standing admission and supervision requirements reviewed, but no dated mathematics pre-doc vacancy or specific 2027 deadline."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Semester tuition, nationality rules and separate union fee reviewed.",
+        "url": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Proposal and prior supervisor confirmation requirements reviewed.",
+        "url": "https://doktorat.univie.ac.at/en/doctorateunivie/admission/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematics programme requires completed master's/equivalent and formal/scientific admission assessment.",
+        "url": "https://ssc-mathematik.univie.ac.at/im-studium/studiengaenge/doctoral-program-in-english/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://studieren.univie.ac.at/en/studying-and-learning/financial-matters/amount-of-the-tuition-fee/students-union-fee",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://doktorat.univie.ac.at/en/doctorateunivie/admission/",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://ssc-mathematik.univie.ac.at/im-studium/studiengaenge/doctoral-program-in-english/",
+        "label": "Official mathematics doctoral programme"
+      }
+    ],
+    "tuition": "Degree-study standing policy: EU/EEA/Swiss tuition waived for normal duration plus two semesters, then EUR 363.36/semester; other third-country students normally EUR 726.72/semester from start, with specified exemptions. Separate Students' Union charge EUR 26.20/semester; future amount can change.",
+    "selection": "Mathematics master's/equivalent, degree records and research proposal (maximum four pages plus references); confirmation from an entitled Vienna supervisor submitted with admission application. Programme-specific academic suitability is assessed; supervision/project approval has later formal stages."
+  },
+  "ictp-postgraduate-diploma-mathematics": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+          "year": "Undated recurring rule",
+          "note": "Course fee distinct from living costs."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+          "year": "Undated recurring rule",
+          "note": "Full scholarship amount and future cohort allocation unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+          "year": "Undated recurring rule",
+          "note": "Programme describes preferred/exceptional degree distinction."
+        },
+        "cycle": {
+          "status": "Not published",
+          "source": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+          "year": null,
+          "note": "Page lists 2026–27 teaching but call says 'To be announced'; no dated next-intake application notice."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Explicit no-course-fee rule reviewed.",
+        "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Year-long selected support and self-funded alternative reviewed.",
+        "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Qualification, mathematics preparation and references reviewed.",
+        "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ictp.it/opportunity/ictp-postgraduate-diploma-programme",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "ICTP states no course fees for the one-year postgraduate diploma; self-funded students must separately prove funds for the entire stay.",
+    "fundingDetail": "Around ten scholarships per field for selected developing-country candidates cover travel and living support for the study year. Amount not published; qualified self-funded candidates may attend with proof of funds.",
+    "selection": "Generally under 28; MSc-equivalent or exceptionally good BSc in mathematics/related field; abstract algebra, real/complex analysis and topology. Academic record, two senior-scientist recommendations and English ability evidence."
+  },
+  "ku-leuven-master-of-mathematics": {
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://icts.kuleuven.be/apps/tuitionfees/",
+          "year": "2027–28",
+          "note": "Programme-specific China scenario reviewed in browser; category-complete rates unresolved, Belgium explicitly not yet available.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://wet.kuleuven.be/english/scienceatleuvenscholarship/amount",
+          "year": "2024 standing amount; 2026–27 closed call",
+          "note": "Eligibility list separately reviewed; not a confirmed future award."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_51958514/toelatingsvoorwaarden",
+          "year": "Undated recurring rule",
+          "note": "Current page includes both legacy and new TOEFL scales."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://icts.kuleuven.be/apps/tuitionfees/application-windows",
+          "year": "2027–28",
+          "note": "Exact named-intake results, two nationality scenarios reviewed; do not generalise to every nationality.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFields": 1,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Individual admission and English/document requirements reviewed.",
+        "url": "https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_51958514/toelatingsvoorwaarden",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Award cap and second-year performance condition reviewed.",
+        "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship/amount",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Mathematics appears on eligible-programmes list.",
+        "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship/programmes",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Official live calculator, 2027–28 starting cohort, Master / Mathematics / China: EUR 11,889.40 for standard 60 credits, subject to credit recalculation and annual indexation.",
+        "url": "https://icts.kuleuven.be/apps/tuitionfees/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Official 2027–28 Mathematics window opens 8 October 2026.",
+        "url": "https://icts.kuleuven.be/apps/tuitionfees/application-windows",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://onderwijsaanbod.kuleuven.be/opleidingen/e/SC_51958514/toelatingsvoorwaarden",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship/amount",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship/programmes",
+        "label": "Official scholarship-eligible programmes"
+      },
+      {
+        "url": "https://wet.kuleuven.be/english/scienceatleuvenscholarship/",
+        "label": "Official closed scholarship call"
+      },
+      {
+        "url": "https://icts.kuleuven.be/apps/tuitionfees/",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      },
+      {
+        "url": "https://icts.kuleuven.be/apps/tuitionfees/application-windows",
+        "label": "Official finance/calendar evidence reviewed 2026-10-13"
+      }
+    ],
+    "selection": "Foreign degrees evaluated individually by Admissions Board; relevant course descriptions and grading-scale evidence requested subject to stated exemptions. English IELTS 7 (specified subscore minima), TOEFL/Cambridge alternatives; exemption restricted to listed English-degree countries or Belgian diplomas.",
+    "fundingDetail": "Science@Leuven lists Mathematics as eligible; amount page updated November 2024 says up to EUR 12,000 for one year, individually determined; second-year continuation requires outstanding first-year results. 2026–27 scholarship call is closed; 2027 terms/deadline unverified.",
+    "tuition": "Official live calculator, 2027–28 starting cohort, Master / Mathematics / China: EUR 11,889.40 for standard 60 credits, subject to credit recalculation and annual indexation. The Belgium scenario returned 'no tuition fee known (yet)'; no universal EEA or all non-EEA rate inferred. Other nationality/residence categories require calculator confirmation.",
+    "cycle": "Official 2027–28 Mathematics window opens 8 October 2026. Reviewed nationality scenarios: China deadline 1 March 2027; Belgium deadline 1 June 2027. Tool allows later files subject to arrival/enrolment feasibility and final registration cutoff 22 September 2027; these are not guaranteed late-admission places.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-08",
+        "label": "2027–28 Mathematics opening",
+        "source": "https://icts.kuleuven.be/apps/tuitionfees/application-windows"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-01",
+        "label": "2027–28 Mathematics deadline: China nationality scenario",
+        "source": "https://icts.kuleuven.be/apps/tuitionfees/application-windows"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-06-01",
+        "label": "2027–28 Mathematics deadline: Belgium nationality scenario",
+        "source": "https://icts.kuleuven.be/apps/tuitionfees/application-windows"
+      }
+    ]
+  },
+  "utrecht-university-bsc-mathematics-wiskunde": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.uu.nl/bachelors/wiskunde",
+          "year": "2027–28",
+          "note": "General eligibility rules also reviewed on university fee page."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.uu.nl/bachelors/wiskunde",
+          "year": null,
+          "note": "Bachelor programme/admission and fee rules reviewed; no scholarship amount, eligibility or award renewal established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.uu.nl/bachelors/wiskunde/inschrijven-en-toelating",
+          "year": "Undated recurring rule",
+          "note": "Dutch-taught degree; separate mathematics and language requirements."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.uu.nl/bachelors/wiskunde/inschrijven-en-toelating",
+          "year": "Undated recurring rule",
+          "note": "Standing category timetable only."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 1,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Programme explicitly lists statutory/institutional 2027–28 amounts.",
+        "url": "https://www.uu.nl/bachelors/wiskunde",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central fee page distinguishes statutory citizenship/qualification categories and institutional fees.",
+        "url": "https://www.uu.nl/bachelors/algemene-informatie/hoe-werkt-inschrijven/wat-kost-studeren/collegegeld",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Diploma/subject, language and matching conditions reviewed.",
+        "url": "https://www.uu.nl/bachelors/wiskunde/inschrijven-en-toelating",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring foreign-diploma deadline categories reviewed.",
+        "url": "https://www.uu.nl/bachelors/wiskunde/inschrijven-en-toelating",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.uu.nl/bachelors/wiskunde",
+        "label": "Official reviewed evidence"
+      },
+      {
+        "url": "https://www.uu.nl/bachelors/algemene-informatie/hoe-werkt-inschrijven/wat-kost-studeren/collegegeld",
+        "label": "Official statutory-fee eligibility"
+      },
+      {
+        "url": "https://www.uu.nl/bachelors/wiskunde/inschrijven-en-toelating",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "2027–28 annual full-time statutory tuition EUR 2,771 where statutory eligibility applies; institutional tuition EUR 18,608 EU or EUR 18,700 non-EU. Prior subsidised Dutch bachelor's and nationality/residence can change eligibility; student visa alone does not establish statutory rate.",
+    "selection": "VWO-equivalent with Mathematics B; foreign diploma and Dutch language evidence assessed, plus EMI-ready English. Mathematics deficiencies may require recognised supplementary examinations. Matching normally required, with exemption for applicants living abroad/listed overseas territories.",
+    "cycle": "Recurring dates: domestic application from 1 October through 1 May; foreign diplomas non-EU deadline 1 April, EU 1 May. Admission requirements by 31 August. Calendar year not attached; no exact 2027 milestones inferred."
+  },
+  "university-of-helsinki-bachelor-s-programme-in-science-mathematics-statistics-track": {
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+          "year": "Programme page for 2027 intake",
+          "note": "Exact residence category/fee-year confirmation still required."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+          "year": "Undated recurring rule",
+          "note": "Separate master's waiver; not bachelor funding."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+          "year": "2027",
+          "note": "SAT/ACT score thresholds and language/test-document dates not yet verified."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+          "year": "2027",
+          "note": "Exact intake-year group dates."
+        }
+      },
+      "verifiedFields": 2,
+      "partiallyVerifiedFields": 2,
+      "researched": true
+    },
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual amount and separate application fee reviewed.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "2027 degree-category selection routes reviewed.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "No bachelor scholarships and later-degree conditions reviewed.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Named-intake periods and closing time reviewed.",
+        "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions",
+        "label": "Official reviewed evidence"
+      }
+    ],
+    "tuition": "EUR 13,000 annually for fee-liable non-EU/EEA students; citizenship/residence exemptions apply. National application fee EUR 100 separately, with listed exemptions.",
+    "selection": "Group 1 uses SAT/ACT for applicants without listed Finnish/IB/EB/Finland-issued RP/DIA diplomas; Group 2 uses those diplomas, with separate Open University route. Higher-education eligibility and degree-language rules apply. Final 2027 criteria due by end October 2026.",
+    "fundingDetail": "No admission scholarships for this bachelor's. Later master's tuition waiver conditional on completing bachelor's within target time and GPA: 100% at 3.8/5, 50% at 3.4–3.7/5; second master's year requires 55 first-year credits. This is later-degree support.",
+    "cycle": "Autumn 2027 Group 1: 5–19 January; Group 2: 9–23 March; each closes 15:00 UTC+2. Diploma determines group; cannot apply in both.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-05",
+        "label": "Autumn 2027 Group 1 opening",
+        "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-19",
+        "label": "Autumn 2027 Group 1 deadline, 15:00 UTC+2",
+        "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-09",
+        "label": "Autumn 2027 Group 2 opening",
+        "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-23",
+        "label": "Autumn 2027 Group 2 deadline, 15:00 UTC+2",
+        "source": "https://www.helsinki.fi/en/degree-programmes/science-bachelors-programme/admissions"
+      }
+    ],
+    "intakeYear": "2027"
+  }
+}

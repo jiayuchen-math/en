@@ -1,0 +1,448 @@
+{
+  "hong-kong-university-of-science-and-technology-bsc-mathematics-science-group-a-entry": {
+    "tuition": "2027/28 undergraduate tuition: HKD 49,500 per academic year for local students eligible for government subsidy; HKD 260,000 per academic year for non-local students AND local students ineligible for subsidy. Status depends on identity documents and applicable residency conditions, not nationality alone. Accommodation and living costs are separate; 2027/28 accommodation price is not yet announced.",
+    "fundingDetail": "Other Qualifications scholarship: holistic selection; awards can be one-off or renewable, partial or full tuition. Published maximum is full tuition plus HKD 65,000 annually, renewable for the normal study period subject to satisfactory academic performance; no separate academic-scholarship application. Qualification-specific rules differ: the official indexed A-level page still specifies 2026/27 one-off full tuition for five A* subjects, half tuition for four (Chinese excluded); not a verified 2027 award table. Non-academic schemes require separate applications. Exact award/renewal GPA and 2027 A-level package remain unresolved.",
+    "selection": "BSc Mathematics applicants use school-based Science (Group A): Mathematics plus a senior-level Physics or Chemistry subject; interview not compulsory. High-school graduation and qualification-specific requirements apply. British-pattern example: three A-level passes or BTEC Level 3 Extended Diploma. American-pattern example: SAT >=1190 or ACT >=24 (single sitting, including Science), plus two AP scores >=3; alternatively five AP scores >=4. SAT/ACT/AP are qualification requirements, not universal tests. IELTS Academic >=6.0 is one English-proficiency route, separate from academic tests. School admission is not direct Mathematics-major admission; JUPAS/Gaokao routes are separate.",
+    "cycle": "2027/28 international-qualification route: opens 2 October 2026; priority deadline 25 November 2026; rolling consideration from 26 November; closes 30 June 2027. Non-academic scholarship priority deadline is 25 November 2026; check the individual scheme. Closing hours not stated. These dates do not establish JUPAS or Mainland Gaokao deadlines.",
+    "applicationWindow": null,
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-02",
+        "label": "International-qualification applications open",
+        "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-25",
+        "label": "International-qualification priority deadline; hour unstated",
+        "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-06-30",
+        "label": "International-qualification final closing; hour unstated",
+        "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-11-25",
+        "label": "Non-academic scholarship priority deadline; scheme-specific conditions",
+        "source": "https://join.hkust.edu.hk/fees-and-scholarships"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "October 2026 status notice: subsidised 49,500; non-subsidised 260,000, including ineligible local students.",
+        "url": "https://join.hkust.edu.hk/oas/Tuition_Fee_Local_Non-local_Status.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Annual tuition; living/housing separate; 2027/28 housing not announced.",
+        "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "Application charge 600; supporting documents/referee requested.",
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications/application-procedures",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Maximum, one-off/renewable distinction, academic-performance condition and automatic consideration.",
+        "url": "https://join.hkust.edu.hk/university-admissions-scholarship-for-other-qualifications-holders",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Official indexed 2026/27 A-level one-off table; full-page retrieval failed. Not projected to 2027.",
+        "url": "https://join.hkust.edu.hk/university-admissions-scholarship-for-gceal-international-al",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Science Group A subject/interview rules; Mathematics application choice; IELTS route.",
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Qualification-specific British/American alternatives; minimum eligibility is not an admission guarantee.",
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=All",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit dated international application calendar.",
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Non-academic priority date, separate application requirement.",
+        "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://join.hkust.edu.hk/oas/Tuition_Fee_Local_Non-local_Status.pdf",
+        "label": "HKUST 2027/28 tuition and status notice"
+      },
+      {
+        "url": "https://join.hkust.edu.hk/fees-and-scholarships",
+        "label": "HKUST fees and scholarships"
+      },
+      {
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications/application-procedures",
+        "label": "HKUST international application procedures"
+      },
+      {
+        "url": "https://join.hkust.edu.hk/university-admissions-scholarship-for-other-qualifications-holders",
+        "label": "HKUST Other Qualifications scholarship"
+      },
+      {
+        "url": "https://join.hkust.edu.hk/university-admissions-scholarship-for-gceal-international-al",
+        "label": "HKUST A-level scholarship (historical indexed evidence)"
+      },
+      {
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+        "label": "HKUST international Science Group A requirements"
+      },
+      {
+        "url": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=All",
+        "label": "HKUST qualification-specific minimum requirements"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://join.hkust.edu.hk/oas/Tuition_Fee_Local_Non-local_Status.pdf",
+          "year": "2027/28",
+          "note": "Verified annual university-wide undergraduate rates and both subsidy categories; non-tuition costs excluded.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://join.hkust.edu.hk/university-admissions-scholarship-for-other-qualifications-holders",
+          "year": "Undated standing maximum; A-level table 2026/27",
+          "note": "Partial verification: Other Qualifications maximum/duration rule established; 2027 qualification-specific package and numerical renewal threshold unresolved. A-level page accessible only through official indexed text.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+          "year": "2027/28 page; qualification-specific examples",
+          "note": "Verified scope: international-qualification Science Group A entry and stated examples/IELTS option, not an exhaustive country matrix or JUPAS/Gaokao audit.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+          "year": "2027/28",
+          "note": "Verified scope: international-qualification calendar; other admissions schemes excluded. No invented timestamp or generic window.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 3,
+      "researchNote": "Undergraduate university/school entry reviewed, not Mathematics postgraduate admission. Checked 2026-10-13."
+    },
+    "fees": "International-qualification application charge: HKD 600, separate from tuition.",
+    "funding": "Competitive admission scholarships; award not guaranteed",
+    "intakeYear": "2027/28"
+  },
+  "national-university-of-singapore-mathematics-major-undergraduate-science-route": {
+    "tuition": "Historical tariff for NEW AY2026/27 Humanities and Sciences students (Mathematics route): annual SGD 8,300 Singapore citizens; SGD 11,600 permanent residents; SGD 18,050 ASEAN international students; SGD 21,400 other international students, each with MOE Tuition Grant. Without the grant: SGD 36,650 annually. Covers regular semesters 1 and 2, paid in equal instalments; special-term courses and miscellaneous fees extra. International/non-subsidised prices include GST; citizen/PR GST subsidised by MOE. Cohort-based rates; not an AY2027/28 quote.",
+    "fundingDetail": "MOE Tuition Grant is a subsidy, not a scholarship: eligible citizens receive it automatically; PR/international students apply and, if awarded/accepted, must work for a Singapore entity for three years after graduation. NUS International Undergraduate Scholarship: non-Singapore citizens applying as freshmen (not transfers), selected for academic/leadership/co-curricular merit; automatic consideration and shortlisted interviews. Covers subsidised tuition, SGD 5,800 living/year, SGD 5,000 accommodation/year, SGD 1,750 one-time computer grant; normal candidature, semester renewal at GPA >=3.5 and good conduct. No separate scholarship bond, but mandatory Tuition Grant creates the three-year obligation; concurrent awards need approval and early termination may trigger repayment. Science & Technology Scholarship separately includes Mathematics for Asian non-Singapore freshmen: subsidised tuition, SGD 6,000 living/year, SGD 1,750 computer and SGD 200 settling-in once, accommodation at lowest campus double-room rate and conditional travel allowance. Normal candidature; GPA >=3.5/good conduct each semester, SIX-year company bond, mandatory Tuition Grant, no concurrent funding and overseas-credit limits. Neither scheme guarantees an award or employment.",
+    "selection": "Apply to Humanities and Sciences within CHS, not directly to the Mathematics major; preferred major is non-binding. Year-1 mathematics needs good H2 Mathematics/Further Mathematics or equivalent; otherwise MA1301/MA1301X bridging. Foreign applicants need high-school completion with >=12 years' education by July of application year and qualification-specific prerequisites. Historical 2026 Other High School Qualifications rules require standardised tests, not a separate English test: five APs, or ACT with Writing plus three APs, or SAT plus three APs; AP >=3 with Calculus BC required for Mathematics. ACT minimum 29 composite/8 Writing; SAT 600 Reading/Writing and 650 Mathematics, single sitting. These are academic tests, not universal language requirements; 2027 detailed qualification/test matrix not yet reissued in reviewed sources. Assessment/interview may be requested; no undergraduate supervisor requirement asserted.",
+    "cycle": "Published AY2027/28 calendar: international qualifications except IB, and IB Diploma, 16 December 2026–17 February 2027. Singapore-Cambridge A-level: 18 February–19 March 2027; opening described as late afternoon, no precise hour. Polytechnic: 16 December–3 February; NUS High School: 16 December–4 January. Page currently marks forms CLOSED; these future dates are published, not an assertion that applications are open. Listed 2027 AP/Gaokao/HKDSE/CBSE/ISC/STPM final results must be updated within three days of release; no invented absolute upload date.",
+    "applicationWindow": null,
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-16",
+        "label": "International qualifications (including separate IB category) open; forms currently closed",
+        "source": "https://www.nus.edu.sg/oam/admissions/important-dates"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-17",
+        "label": "International qualifications/IB close; hour unstated",
+        "source": "https://www.nus.edu.sg/oam/admissions/important-dates"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-18",
+        "label": "Singapore-Cambridge A-level opens late afternoon; precise hour unstated",
+        "source": "https://www.nus.edu.sg/oam/admissions/important-dates"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-19",
+        "label": "Singapore-Cambridge A-level closes",
+        "source": "https://www.nus.edu.sg/oam/admissions/important-dates"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-03",
+        "label": "Singapore polytechnic diploma closes; opened 16 December 2026",
+        "source": "https://www.nus.edu.sg/oam/admissions/important-dates"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-04",
+        "label": "NUS High School Diploma closes; opened 16 December 2026",
+        "source": "https://www.nus.edu.sg/oam/admissions/important-dates"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "New 2026/27 cohort Humanities and Sciences row; annual/grant/GST distinctions, not older-cohort rates.",
+        "url": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Tuition Grant eligibility, application, three-year PR/international work obligation; cohort-based fees.",
+        "url": "https://nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International Undergraduate Scholarship: benefits, normal candidature, renewal, bond distinction and conditional award.",
+        "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Science & Technology award explicitly lists Mathematics; six-year bond and renewal/benefit conditions.",
+        "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/science-technology-undergraduate-scholarship",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "CHS Humanities and Sciences entry; preferred major non-binding, not direct major admission.",
+        "url": "https://chs.nus.edu.sg/prospective-students/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "H2/equivalent mathematics prerequisite or MA1301/MA1301X bridging.",
+        "url": "https://www.math.nus.edu.sg/ug/prospective/faq-ug/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Foreign applicant general education requirement and qualification-specific prerequisites.",
+        "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Other qualifications page still names July/AP 2026; tests required and English test not required only in this category.",
+        "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/other-high-school-qualifications",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "December 2025 sheet: AP/ACT/SAT alternatives, scores, Calculus BC, official reports; references May 2026.",
+        "url": "https://www.nus.edu.sg/oam/docs/default-source/default-document-library/standardised_test.pdf?sfvrsn=7cbaf22d_8",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "Nonrefundable application charges; interview/test possible if notified.",
+        "url": "https://www.nus.edu.sg/oam/admissions/admissions",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit AY2027/28 qualification-specific dates; current CLOSED labels; relative final-result rule.",
+        "url": "https://www.nus.edu.sg/oam/admissions/important-dates",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+        "label": "NUS Registrar tuition schedule AY2026/27"
+      },
+      {
+        "url": "https://nus.edu.sg/registrar/administrative-policies-procedures/undergraduate/undergraduate-fees",
+        "label": "NUS Registrar finance and Tuition Grant rules"
+      },
+      {
+        "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
+        "label": "NUS International Undergraduate Scholarship"
+      },
+      {
+        "url": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/science-technology-undergraduate-scholarship",
+        "label": "NUS Science & Technology Undergraduate Scholarship"
+      },
+      {
+        "url": "https://chs.nus.edu.sg/prospective-students/",
+        "label": "NUS CHS undergraduate admissions route"
+      },
+      {
+        "url": "https://www.math.nus.edu.sg/ug/prospective/faq-ug/",
+        "label": "NUS Mathematics undergraduate FAQ"
+      },
+      {
+        "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners",
+        "label": "NUS undergraduate international eligibility"
+      },
+      {
+        "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/other-high-school-qualifications",
+        "label": "NUS Other High School Qualifications (2026 details)"
+      },
+      {
+        "url": "https://www.nus.edu.sg/oam/docs/default-source/default-document-library/standardised_test.pdf?sfvrsn=7cbaf22d_8",
+        "label": "NUS standardised test requirements (historical detailed sheet)"
+      },
+      {
+        "url": "https://www.nus.edu.sg/oam/admissions/admissions",
+        "label": "NUS central undergraduate application procedures"
+      },
+      {
+        "url": "https://www.nus.edu.sg/oam/admissions/important-dates",
+        "label": "NUS official undergraduate dates AY2027/28"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.nus.edu.sg/registrar/docs/default-source/administrative-policies-procedures/ugtuitioncurrent.pdf",
+          "year": "New AY2026/27 cohort",
+          "note": "Complete published tariff for the stated cohort, but AY2027/28 rates not in reviewed schedule. Not reused as next-intake prices.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
+          "year": "Standing rules reviewed 2026-10-13",
+          "note": "Verified scope: Tuition Grant and two named international freshman scholarship packages, not all citizenship-specific awards; selection is competitive, no offer implied.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners",
+          "year": "Standing CHS/math rules; detailed tests 2026",
+          "note": "Partial verification: university/major prerequisites established, but qualification test sheet remains December 2025/2026-specific. No claim of a complete current 2027 country matrix or universal English/test exemption.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.nus.edu.sg/oam/admissions/important-dates",
+          "year": "AY2027/28",
+          "note": "Verified dated qualification-specific first-year calendar; CLOSED means portal not currently open, not a historical deadline. Relative result-upload rule left relative.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 2,
+      "researchNote": "Undergraduate university/school entry reviewed, not Mathematics postgraduate admission. Checked 2026-10-13."
+    },
+    "fees": "Application charge: SGD 20 for international students with international qualifications; SGD 10 for other applicants, nonrefundable and GST-inclusive. Miscellaneous semester, accommodation and living charges separate from tuition.",
+    "funding": "Competitive scholarships; MOE Tuition Grant has separate eligibility and obligations",
+    "intakeYear": "2027/28"
+  },
+  "chennai-mathematical-institute-bs-hons-mathematics-and-mathematical-joint-routes": {
+    "tuition": "Historical 2026 BS brochure: INR 125,000 tuition per semester, two semesters annually (INR 250,000 per year, calculated). No home/foreign fee split stated. This is tuition only, not hostel/mess or application charges; 2027/28 price has not been established by a new fee schedule.",
+    "fundingDetail": "Historical 2026 BS package: about 30–35 four-year full-tuition scholarships; limited fellowships pay INR 5,000/month, continued after semester 1 only with satisfactory academic performance. Means-tested tuition waiver: annual family income <=INR 800,000 qualifies for 100%, <=INR 1,200,000 for 50%; assistance processed after admission. Awards are not automatic for every entrant. A fresh 2027 package, stipend duration, precise renewal metric and foreign eligibility remain unresolved.",
+    "selection": "2027 BS (Hons) first-year entry requires Class 12 or equivalent and one common CMI undergraduate entrance examination; programme choice follows admission. The mathematics aptitude exam has objective questions and longer problems, mainly Class-12 material; it is not GRE/SAT or a postgraduate exam. Interview may be requested at committee discretion. Published Olympiad exemptions include Class-11/12 IMOTC/EGMOTC mathematics or Physics OCSC; listed Informatics routes have their own eligibility. Foreign qualification equivalence, English-test conditions and 2027 overseas/remote exam arrangements not established.",
+    "cycle": "2027/28 entrance examination announced for 15 May 2027 at 14:00 (timezone not explicitly stated). Applications expected around 1 March 2027; further details promised by February. Opening is approximate, not an exact verified admission date. Application closing and test-registration deadline not published in the reviewed announcement. Historic 2026 centre list is not a confirmed 2027 list.",
+    "applicationWindow": null,
+    "applicationDates": [],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 brochure undergraduate section: per-semester tuition, two semesters; annual amount calculated.",
+        "url": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 BS section: four-year waivers, limited stipend, performance continuation and income thresholds.",
+        "url": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "2027 BS Class-12 eligibility, common exam, later programme choice, discretionary interview and specified Olympiad exemptions.",
+        "url": "https://www.cmi.ac.in/admissions/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "BS mathematics aptitude test: objective and extended problems, principally Class-12 material.",
+        "url": "https://www.cmi.ac.in/admissions/syllabus.php",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Exact 2027 entrance-exam day/time, approximate application opening, further details not yet supplied.",
+        "url": "https://www.cmi.ac.in/admissions/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+        "label": "CMI 2026 institutional undergraduate brochure"
+      },
+      {
+        "url": "https://www.cmi.ac.in/admissions/",
+        "label": "CMI 2027 undergraduate admission announcement"
+      },
+      {
+        "url": "https://www.cmi.ac.in/admissions/syllabus.php",
+        "label": "CMI undergraduate exam description"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+          "year": "2026 brochure",
+          "note": "2027 page still links 2026 fee brochure; annual sum calculated from two semester charges. No invented 2027 tariff or foreign rate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.cmi.ac.in/admissions/brochure/2026/cmi-brochure-2026.pdf",
+          "year": "2026 brochure",
+          "note": "2026 package only; 2027 awards, full stipend duration, renewal metric and foreign eligibility unresolved.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.cmi.ac.in/admissions/",
+          "year": "2027/28 general BS route",
+          "note": "Partial verification: general first-year qualification/exam and exemption rules known; foreign qualification/language/exam logistics unresolved. Do not apply postgraduate national-test rules to BS.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.cmi.ac.in/admissions/",
+          "year": "2027/28",
+          "note": "Partial verification: examination day/time announced, but opening approximate and closing/registration deadline unpublished. Empty applicationDates avoids invented March 1 deadline; exam date remains in cycle because schema has no examination-event type.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Undergraduate university/school entry reviewed, not Mathematics postgraduate admission. Checked 2026-10-13."
+    },
+    "fees": "2027 application charge, hostel/mess charges and any foreign-student fee exception not established by reviewed sources.",
+    "funding": "Competitive/means-tested support; 2026 package historical",
+    "intakeYear": "2027/28"
+  }
+}

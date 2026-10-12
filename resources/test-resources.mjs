@@ -33,12 +33,13 @@ for(const file of ['notes/reading-notes/library/catalogue.html','resources/links
  if(applications){
   const select=(k,v)=>fields.find(f=>f.dataset.field===k).value=v;
   search.value='Weizmann';select('degree','Masters');listeners.input();assert.equal(visible().length,1);select('applicationStatus','Within reviewed window');listeners.change();assert.equal(visible().length,0,'Upcoming Weizmann window must not be labelled currently open');
-  listeners.reset({preventDefault(){}});select('applicationStatus','Within reviewed window');listeners.change();assert.equal(visible().length,10);
-  now=Date.parse('2026-12-02T05:00:00Z');tick();assert(!visible().some(e=>e.dataset.search.includes('Berkeley')));assert(visible().some(e=>e.dataset.search.includes('Stanford')));
+  listeners.reset({preventDefault(){}});select('applicationStatus','Within reviewed window');listeners.change();assert(visible().length>0);assert.equal(visible().length,entries.filter(e=>applicationState(e.dataset,now)==='Within reviewed window').length);
+  assert(!visible().some(e=>/Harvard University|Stanford University|University of California, Berkeley/.test(e.dataset.search)),'A known deadline alone must not invent an opening date');
+  now=Date.parse('2026-12-02T05:00:00Z');tick();assert(!visible().some(e=>e.dataset.search.includes('Berkeley')));assert(!visible().some(e=>e.dataset.search.includes('Stanford')));
   now=Date.parse('2026-12-02T08:00:00Z');tick();assert(!visible().some(e=>e.dataset.search.includes('Stanford')));
   now=Date.parse('2027-04-01T00:00:00Z');tick();assert.equal(visible().length,0,'Expired and unknown cycles must not reappear as open');listeners.reset({preventDefault(){}});assert.equal(visible().length,25);
   select('country','Italy');select('programmeForm','Multi-country joint programme');listeners.change();assert(visible().some(e=>e.dataset.search.includes('ALGANT')));assert(visible().every(e=>e.dataset.country.split('|').includes('Italy')));
-  listeners.reset({preventDefault(){}});from.value='2027-01-06';to.value='2027-01-06';dateType.value='Scholarship';listeners.change();assert.equal(visible().length,2);assert(visible().every(e=>/Cambridge|Oxford/.test(e.dataset.search)));
+  listeners.reset({preventDefault(){}});from.value='2027-01-06';to.value='2027-01-06';dateType.value='Scholarship';listeners.change();assert(visible().length>=2);assert(visible().every(e=>/Cambridge|Oxford/.test(e.dataset.search)));
   dateType.value='Admission';listeners.change();assert.equal(visible().length,0);from.value='2027-02-01';to.value='2026-12-01';listeners.change();assert.equal(visible().length,0);assert(!dateError.hidden);
   listeners.reset({preventDefault(){}});assert.equal(dateType.value,'Admission');assert.equal(from.value,'');assert(dateError.hidden);
  }

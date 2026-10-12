@@ -1,0 +1,3202 @@
+{
+  "university-of-cambridge-mast-mathematics-part-iii": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-09",
+        "label": "Application opening; time not stated",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-02",
+        "label": "Application deadline, 23:59 UK; complete supporting documents/references",
+        "source": "https://www.maths.cam.ac.uk/postgrad/part-iii/prospective/mast-admissions"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-01-06",
+        "label": "Course funding deadline",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/finance"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-10-14",
+        "label": "Gates Cambridge US round only",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/finance"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "Funding section identifies MASt awards and the 2027 deadline.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/finance",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Academic standard and IELTS component thresholds reviewed.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated 2027 entry timetable reviewed.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central finance categorises MASt as undergraduate for fees and adds Overseas College fees; no exact MASt rate recovered.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/finance/fees?ucam-ref=home-firstpg",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Official indexed MASt admissions text specifies 2 February 2027, 23:59 UK, including supporting documents and references; exact hour now checked separately.",
+        "url": "https://www.maths.cam.ac.uk/postgrad/part-iii/prospective/mast-admissions",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/finance",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/finance/fees?ucam-ref=home-firstpg",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://www.maths.cam.ac.uk/postgrad/part-iii/prospective/mast-admissions",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/finance/fees?ucam-ref=home-firstpg",
+          "year": "Current central fee policy; 2027–28 amount unresolved",
+          "note": "Central finance categorises MASt as undergraduate for fees and adds Overseas College fees; no exact MASt rate recovered.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/finance",
+          "year": "2027–28",
+          "note": "Specific award amounts and tenure not established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+          "year": "2027–28",
+          "note": "Degree and language criteria; GRE policy not stated on this page."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmaspmm/requirements",
+          "year": "2027–28",
+          "note": "Application stream within Part III. Closing hour and supporting-document requirement separately reverified October 13 from official indexed departmental text.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1,
+      "windowCorrection": {
+        "checked": "2026-10-13",
+        "note": "Legacy opensAt used a timestamp/day inconsistent with its September 9 opening label, and official opening hour remains unstated. Clear window; retain verified date-only opening and separately verified closing date/hour in explicit applicationDates."
+      }
+    },
+    "fundingDetail": "MASt bursaries include Sheila Edmonds, Trinity, Ramanujan and Squarepoint awards; stream, College or other eligibility restrictions apply. Apply by 6 January 2027 for consideration; receipt and amount are not guaranteed.",
+    "selection": "First-class honours or equivalent in mathematics, physics, statistics or another degree with substantial advanced mathematics. IELTS Academic: overall 7.0; listening/writing/speaking 7.0 and reading 6.5. This MASt is not automatic PhD admission.",
+    "cycle": "Michaelmas 2027: opened 9 September 2026; closes 2 February 2027 at 23:59 UK time; starts 1 October 2027. Funding deadline 6 January 2027; Gates US round 14 October 2026. Supporting documents and references must also be complete by the relevant deadline.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "MASt is treated as undergraduate study for fee purposes; Overseas students also pay an undergraduate College fee. Exact 2027–28 MASt tuition and College amount remain unverified because the course fee table did not expose them. Living/maintenance costs are separate.",
+    "applicationWindow": null
+  },
+  "university-of-cambridge-phd-mathematics-dpmms": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-09",
+        "label": "Applications open",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-05-13",
+        "label": "Course deadline",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-01-06",
+        "label": "Funding deadline 23:59 UK; complete references/documents required",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-10-14",
+        "label": "Gates US round only",
+        "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/finance"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "Departmental funding is explicitly conditional.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/finance",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Supervisor required in application; complete applications and interviews explained.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Course timetable and earlier funding cutoff distinguished.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "First-class four-year mathematics preparation, or three-year degree plus one-year postgraduate preparation.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central finance specifies PhD fee-liability terms and part-time percentages; numerical DPMMS course fee still unavailable.",
+        "url": "https://www.postgraduate.study.cam.ac.uk/finance/fees?ucam-ref=home-firstpg",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/finance",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/requirements",
+        "label": "PhD qualification and language requirements"
+      },
+      {
+        "url": "https://www.postgraduate.study.cam.ac.uk/finance/fees?ucam-ref=home-firstpg",
+        "label": "Central official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/finance/fees?ucam-ref=home-firstpg",
+          "year": "Current central fee policy; 2027–28 amount unresolved",
+          "note": "Central finance specifies PhD fee-liability terms and part-time percentages; numerical DPMMS course fee still unavailable.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/finance",
+          "year": "2027–28",
+          "note": "Department considers candidates; amount/tenure not verified."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply",
+          "year": "2027–28",
+          "note": "Academic minimum additionally reviewed on requirements tab."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.postgraduate.study.cam.ac.uk/courses/directory/mapmpdpms/apply",
+          "year": "2027–28",
+          "note": "Apply after funding deadline only after departmental contact."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "fundingDetail": "Applicants are considered for departmental funding, potentially including Research Council awards. Funding is not guaranteed, and applicants of every fee status are expected to pursue other eligible schemes.",
+    "selection": "Normally first-class four-year mathematics/mathematics-statistics preparation or a three-year degree plus one-year postgraduate course. Identify a suitable prospective supervisor; submit two references, transcript and CV. Shortlisted candidates have a mathematical interview with two academics.",
+    "cycle": "Michaelmas 2027: opened 9 September 2026; course deadline 13 May 2027; starts 1 October 2027. Apply by 6 January 2027, 23:59 UK time for departmental/university funding; Gates US round closes 14 October 2026.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "University Composition Fee depends on course and fee status; full-time PhD tuition liability is at least nine terms (three years). At 0.6 / 0.75 FTE, the annual part-time rate is 60% / 75% of the full-time rate. Exact 2027–28 DPMMS Home/Overseas amount remains unverified; rent, meals and living costs are separate."
+  },
+  "university-of-oxford-msc-mathematical-sciences-omms": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-27",
+        "label": "Final deadline, noon UK",
+        "source": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-01-27",
+        "label": "Oxford scholarship consideration; separate awards may differ",
+        "source": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual course-fee table reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Coverage, eligibility and tenure reviewed; amount is historical.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree, GRE, reference and interview requirements reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027–28 deadline and funding linkage reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+        "label": "Official source reviewed for fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+          "year": "2027–28",
+          "note": "Annual tuition; nine-month course."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+          "year": "Current policy; quoted stipend is 2025–26",
+          "note": "2027–28 stipend amount not established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+          "year": "2027–28",
+          "note": "English evidence remains separate from GRE."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/courses/msc-mathematical-sciences",
+          "year": "2027–28",
+          "note": "Final admission and Oxford scholarship consideration deadline."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0,
+      "windowCorrection": {
+        "checked": "2026-10-13",
+        "note": "Legacy opensAt used the October 11 review/observed-open date, not a published application opening timestamp. Clear window; preserve October 12 verified admission/scholarship deadlines in explicit applicationDates."
+      }
+    },
+    "tuition": "2027–28 annual course fees: Home GBP 17,190; Overseas GBP 46,350. Living costs are separate; Oxford determines fee status.",
+    "fundingDetail": "Clarendon: all nationalities eligible; automatic consideration by the course funding deadline. Competitive awards cover full course fees and living grant for the fee-liability period. The GBP 20,780 minimum shown is 2025–26, not a 2027 stipend.",
+    "selection": "First-class relevant honours degree; US bachelor's minimum normally GPA 3.7/4.0. No GRE/GMAT sought; technical interviews not normally held. Three referees. IELTS Academic 7.5 overall, 7.0 each component.",
+    "cycle": "October 2027 entry: final deadline 27 January 2027, noon UK time; apply by that deadline for Oxford scholarship consideration.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail",
+    "applicationWindow": null
+  },
+  "university-of-oxford-dphil-mathematics": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2027-01-06",
+        "label": "Oxford scholarships; noon UK",
+        "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-02",
+        "label": "Expected final admission deadline; noon UK",
+        "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual course fees and continuation-charge policy reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full fee coverage and tenure reviewed; historical example retained as historical.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "DPhil degree, tests and interview requirements reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated admission and scholarship deadlines reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+        "label": "Official source reviewed for fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+          "year": "2027–28",
+          "note": "Annual rate; later years may increase."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+          "year": "Current policy; stipend example 2025–26",
+          "note": "2027 stipend not established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+          "year": "2027–28",
+          "note": "Technical interviews differ from OMMS."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/graduate/courses/dphil-mathematics",
+          "year": "2027–28",
+          "note": "March is expected final deadline; course may reopen if places remain."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0,
+      "windowCorrection": {
+        "checked": "2026-10-13",
+        "note": "Legacy opensAt used the October 11 review/observed-open date, not a published application opening timestamp. Clear window; preserve October 12 verified admission/scholarship deadlines in explicit applicationDates."
+      }
+    },
+    "tuition": "2027–28 annual course fees: Home GBP 10,940; Overseas GBP 30,280. Living costs excluded; continuation charges can apply after normal fee liability.",
+    "fundingDetail": "Clarendon is competitive, open to all nationalities and normally covers full fees plus living grant for the fee-liability period. Automatic consideration requires the course funding deadline; the published GBP 20,780 example is 2025–26.",
+    "selection": "First-class mathematics/related honours degree; a master's is not required. No GRE/GMAT sought. Three referees; technical interviews normally online with at least two interviewers. IELTS Academic 7.0 overall, 6.5 each component.",
+    "cycle": "October 2027: Oxford scholarship deadline 6 January 2027; expected final admission deadline 2 March 2027. Both close at noon UK time.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail",
+    "applicationWindow": null
+  },
+  "university-of-warwick-msc-mathematics": {
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "MSc academic, reference and English criteria reviewed.",
+        "url": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 start and 2 August 2027 on-time application deadline reviewed.",
+        "url": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central 2027–28 column: Mathematics MSc P-G1P0 Home 13,690 and Overseas 21,950. The former postgraduatefees link was not the current public fee table.",
+        "url": "https://warwick.ac.uk/services/finance/studentfinance/fees/pgfees/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://warwick.ac.uk/services/finance/studentfinance/fees/postgraduatefees/",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://warwick.ac.uk/services/finance/studentfinance/fees/pgfees/",
+        "label": "Central official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://warwick.ac.uk/services/finance/studentfinance/fees/pgfees/",
+          "year": "2027–28",
+          "note": "Central 2027–28 column: Mathematics MSc P-G1P0 Home 13,690 and Overseas 21,950. The former postgraduatefees link was not the current public fee table.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/",
+          "year": "2027–28",
+          "note": "Course page links funding routes but publishes no MSc award amount/tenure; PhD studentships do not apply."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/",
+          "year": "2027 entry",
+          "note": "No additional entry requirements stated."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/",
+          "year": "2027 entry",
+          "note": "Dated on-time deadline reviewed; late applications conditional."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0,
+      "overrideCorrection": {
+        "checked": "2026-10-13",
+        "note": "Explicit fundingDetail override(s) added from existing audit limitation(s); no new substantive verification. Prevents unsupported older text surviving a shallow merge."
+      }
+    },
+    "selection": "First-class honours mathematics or a science with high mathematical content; normally one academic reference. IELTS 6.5 overall, at least 6.0 each component. No additional entry requirements listed.",
+    "cycle": "Applications open for September/October 2027; starts 27 September 2027. On-time taught-postgraduate application deadline 2 August 2027; late applications can be accepted without guaranteed timely processing.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-08-02",
+        "label": "On-time application deadline for September/October 2027",
+        "source": "https://warwick.ac.uk/study/postgraduate/courses/msc-mathematics/"
+      }
+    ],
+    "tuition": "2027–28 full-time Mathematics MSc (P-G1P0): Home GBP 13,690; Overseas GBP 21,950, as published in the central taught-fee table. These are tuition, not living costs. The separately listed Diploma plus MSc (P-G1PC) has a different Overseas fee and must not be substituted.",
+    "fees": "Tuition verified for specified year/category",
+    "fundingDetail": "Prior review (2026-10-12): Course page links funding routes but publishes no MSc award amount/tenure; PhD studentships do not apply."
+  },
+  "university-of-warwick-phd-mathematics": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-08-02",
+        "label": "Visa-requiring applicants for September/October 2027",
+        "source": "https://warwick.ac.uk/study/postgraduate/courses/mphil-phd-mathematics/"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-07",
+        "label": "Course application for university scholarship competition, 16:59 GMT",
+        "source": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-10",
+        "label": "University PGR scholarship application, 16:59 GMT",
+        "source": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-21",
+        "label": "University scholarship references, 16:59 GMT",
+        "source": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Central research fee table reviewed; Home estimate explicitly labelled.",
+        "url": "https://warwick.ac.uk/services/finance/studentfinance/fees/pgr/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Mathematics studentship benefits, duration and competitive conditions reviewed.",
+        "url": "https://warwick.ac.uk/fac/sci/maths/studywithus/postgraduateresearch/studentships/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Qualification alternatives and supervisor policy reviewed.",
+        "url": "https://warwick.ac.uk/study/postgraduate/courses/mphil-phd-mathematics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 competition deadlines independently reviewed.",
+        "url": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2026–27 overseas example GBP 25,920 matches central Band 1; current classification remains inferred.",
+        "url": "https://warwick.ac.uk/fac/sci/maths/studywithus/postgraduateresearch/studentships/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://warwick.ac.uk/services/finance/studentfinance/fees/pgr/",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://warwick.ac.uk/fac/sci/maths/studywithus/postgraduateresearch/studentships/",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://warwick.ac.uk/study/postgraduate/courses/mphil-phd-mathematics/",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/",
+        "label": "Official source reviewed for cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://warwick.ac.uk/services/finance/studentfinance/fees/pgr/",
+          "year": "2027–28",
+          "note": "Band 1 classification inferred from department's 2026–27 overseas example, not independently confirmed; Home 2027 rate is estimated."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://warwick.ac.uk/fac/sci/maths/studywithus/postgraduateresearch/studentships/",
+          "year": "October 2027 / 2027–28",
+          "note": "Awarded competitively; overseas awards limited."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://warwick.ac.uk/study/postgraduate/courses/mphil-phd-mathematics/",
+          "year": "2027 entry",
+          "note": "Supervisor need not agree before application."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://warwick.ac.uk/services/dc/schols_fund/applicants/competitions/",
+          "year": "October 2027",
+          "note": "Department awards roll; university competition has fixed deadlines."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2027–28 published research fees: Overseas Band 1 GBP 27,210 full-time / 16,326 part-time annually. Mathematics classification is inferred from the department's 2026–27 example, so confirm the offer. Home GBP 5,395 / 3,237 are estimates pending UKRI confirmation. Later-year fees may change.",
+    "fundingDetail": "Department studentships for October 2027 cover full tuition and a GBP 21,830 annual stipend as currently advertised, for four years subject to satisfactory performance; Home and Overseas candidates eligible. Consideration is automatic unless separate funding declared; university scholarship competitions require an additional application.",
+    "selection": "First-class four-year integrated master's, or first-class bachelor's plus distinction master's, in mathematics/high-mathematics science, or equivalent. Normally two references; IELTS 6.5 with 6.0 each component. Name potential supervisors; prior arrangements not required.",
+    "cycle": "Starts 4 October 2027. Visa-requiring admission deadline: 2 August 2027. Department studentships are rolling; university PGR competition requires course application by 7 December 2026, scholarship application by 10 December and references by 21 December, all 16:59 GMT.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "funding": "Conditional funding / see award detail"
+  },
+  "australian-national-university-mphil-mathematical-sciences": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-10-26",
+        "label": "Domestic round, 23:59; timezone unstated; outage change",
+        "source": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 international annual fee reviewed.",
+        "url": "https://programsandcourses.anu.edu.au/program/8650XMPHIL",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "2027 degree-specific admission conditions reviewed.",
+        "url": "https://programsandcourses.anu.edu.au/program/8650XMPHIL",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit domestic 2026 outage deadline reviewed.",
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Domestic tuition offset: maximum two full-time years; amenities fee remains.",
+        "url": "https://www.anu.edu.au/domestic-postgraduate-research-tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2027 stipend AUD 40,475 per full-time year; domestic/international HDR candidates competitively ranked.",
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Standard 1.5-year stipend tenure; prior candidature deducted; extensions conditional, maximum six months. International fee offset awarded by competitive ranking.",
+        "url": "https://d3gu8jtw4r0om.cloudfront.net/files/2025-05/Conditions%20of%20Award%20-%20Research%20Training%20Program%20Scholarship%20(92025).pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://programsandcourses.anu.edu.au/program/8650XMPHIL",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.anu.edu.au/domestic-postgraduate-research-tuition-fees",
+        "label": "Domestic research tuition exemption and duration"
+      },
+      {
+        "url": "https://d3gu8jtw4r0om.cloudfront.net/files/2025-05/Conditions%20of%20Award%20-%20Research%20Training%20Program%20Scholarship%20(92025).pdf",
+        "label": "ANU-linked official RTP conditions of award"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://programsandcourses.anu.edu.au/program/8650XMPHIL",
+          "year": "2027",
+          "note": "Annual indicative international rate; domestic fee-offset source separately attached."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://d3gu8jtw4r0om.cloudfront.net/files/2025-05/Conditions%20of%20Award%20-%20Research%20Training%20Program%20Scholarship%20(92025).pdf",
+          "year": "2027 rate; conditions 9/2025",
+          "note": "Tenure from ANU-linked conditions; 2027 rate independently sourced."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://programsandcourses.anu.edu.au/program/8650XMPHIL",
+          "year": "2027",
+          "note": "Minimum eligibility does not guarantee admission."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+          "year": "2026 applications / 2027 commencement",
+          "note": "Dated outage notice reviewed."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "2027 international indicative tuition: AUD 58,925 per full-time year (48 units), subject to annual review. Domestic RTP fee offset exempts tuition for up to two full-time years; services/amenities fee and extra courses can remain payable.",
+    "fundingDetail": "RTP stipend: AUD 40,475 per full-time year (2027), competitively ranked domestic/international HDR candidates. MPhil standard stipend tenure 1.5 years minus prior candidature; approved extensions may add up to six months under specified conditions. Full-time enrolment, progress/milestones and offer terms apply. International tuition offset is separately competitive.",
+    "selection": "Relevant bachelor's with overall distinction minimum or accepted equivalent. Written supervisor approval required; submit research proposal, academic documents, CV and at least two academic referee reports. English requirements apply separately.",
+    "cycle": "2027 catalogue reviewed. Domestic scholarship deadline moved to 26 October 2026, 23:59 (timezone unstated), for commencement by 30 March 2027. International 31 August / round-two 15 April are recurring rules; calendar years not projected.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "australian-national-university-phd-mathematical-sciences": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-10-26",
+        "label": "Domestic round, 23:59; timezone unstated; outage change",
+        "source": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 international annual fee reviewed.",
+        "url": "https://programsandcourses.anu.edu.au/program/9650XPHD",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "2027 degree-specific admission conditions reviewed.",
+        "url": "https://programsandcourses.anu.edu.au/program/9650XPHD",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Explicit domestic 2026 outage deadline reviewed.",
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Domestic tuition offset: maximum four full-time years; amenities fee remains.",
+        "url": "https://www.anu.edu.au/domestic-postgraduate-research-tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2027 stipend AUD 40,475 per full-time year; domestic/international HDR candidates competitively ranked.",
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Standard 3.5-year stipend tenure; prior candidature deducted; extensions conditional, maximum six months. International fee offset awarded by competitive ranking.",
+        "url": "https://d3gu8jtw4r0om.cloudfront.net/files/2025-05/Conditions%20of%20Award%20-%20Research%20Training%20Program%20Scholarship%20(92025).pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://programsandcourses.anu.edu.au/program/9650XPHD",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.anu.edu.au/domestic-postgraduate-research-tuition-fees",
+        "label": "Domestic research tuition exemption and duration"
+      },
+      {
+        "url": "https://d3gu8jtw4r0om.cloudfront.net/files/2025-05/Conditions%20of%20Award%20-%20Research%20Training%20Program%20Scholarship%20(92025).pdf",
+        "label": "ANU-linked official RTP conditions of award"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://programsandcourses.anu.edu.au/program/9650XPHD",
+          "year": "2027",
+          "note": "Annual indicative international rate; domestic fee-offset source separately attached."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://d3gu8jtw4r0om.cloudfront.net/files/2025-05/Conditions%20of%20Award%20-%20Research%20Training%20Program%20Scholarship%20(92025).pdf",
+          "year": "2027 rate; conditions 9/2025",
+          "note": "Tenure from ANU-linked conditions; 2027 rate independently sourced."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://programsandcourses.anu.edu.au/program/9650XPHD",
+          "year": "2027",
+          "note": "Minimum eligibility does not guarantee admission."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://study.anu.edu.au/scholarships/find-scholarship/australian-government-research-training-program-rtp-stipend",
+          "year": "2026 applications / 2027 commencement",
+          "note": "Dated outage notice reviewed."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "2027 international indicative tuition: AUD 58,925 per full-time year (48 units), subject to annual review. Domestic RTP fee offset exempts tuition for up to four full-time years; services/amenities fee and extra courses can remain payable.",
+    "fundingDetail": "RTP stipend: AUD 40,475 per full-time year (2027), competitively ranked domestic/international HDR candidates. PhD standard stipend tenure 3.5 years minus prior candidature; approved extensions may add up to six months under specified conditions. Full-time enrolment, progress/milestones and offer terms apply. International tuition offset is separately competitive.",
+    "selection": "Relevant honours bachelor's with H2A (upper second) minimum or accepted equivalent. Written supervisor approval required; submit research proposal, academic documents, CV and at least two academic referee reports. English requirements apply separately.",
+    "cycle": "2027 catalogue reviewed. Domestic scholarship deadline moved to 26 October 2026, 23:59 (timezone unstated), for commencement by 30 March 2027. International 31 August / round-two 15 April are recurring rules; calendar years not projected.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-melbourne-msc-mathematics-and-statistics": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-30",
+        "label": "Domestic March 2027 timely application",
+        "source": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/how-to-apply/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-05-31",
+        "label": "Domestic July 2027 timely application",
+        "source": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/how-to-apply/"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "Named AUD 10,000 remission and consideration policy reviewed.",
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/fees/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Best-50-point criterion and supervision policy reviewed.",
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/entry-requirements/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 domestic intake deadlines reviewed.",
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/how-to-apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Table 3, PDF page 24 (zero-based), identifies MC-SCIMAT, two EFTSL, international annual/year-one and indicative total fees. Exact CSP contribution not established.",
+        "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027InternationalFeeTables.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Table 3, PDF page 24 (zero-based): MC-SCIMAT Australian full-fee AUD 42,624 per EFTSL/year one; indicative total AUD 89,511, two EFTSL.",
+        "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0026/462950/2027DomesticFeeTables.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "CSP contribution depends on enrolled subject fee band, unlike the Australian full-fee course rate.",
+        "url": "https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/domestic-applications/fees-and-payments",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/fees/",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/entry-requirements/",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/how-to-apply/",
+        "label": "Official source reviewed for cycle"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027InternationalFeeTables.pdf",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0026/462950/2027DomesticFeeTables.pdf",
+        "label": "2027 Australian full-fee table"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/how-to-apply/graduate-coursework-study/domestic-applications/fees-and-payments",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027InternationalFeeTables.pdf",
+          "year": "2027",
+          "note": "Table 3, PDF page 24 (zero-based), identifies MC-SCIMAT, two EFTSL, international annual/year-one and indicative total fees. Exact CSP contribution not established.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/fees/",
+          "year": "Current listing; award-year not explicit",
+          "note": "Confirm intake availability; not a research-degree RTP award."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/entry-requirements/",
+          "year": "Current requirements; year not explicit",
+          "note": "Published academic minimum; prior supervisor contact not required."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://study.unimelb.edu.au/find/courses/graduate/master-of-science-mathematics-and-statistics/how-to-apply/",
+          "year": "2027",
+          "note": "Reviewed domestic-student view; international deadlines not established."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "fundingDetail": "Science Graduate Scholarship (international): AUD 10,000 tuition remission for high-achieving international graduate students; automatic consideration. Exact award year and tenure not specified in the reviewed course listing. CSPs are subsidised places with student contributions; HELP is a loan.",
+    "selection": "Relevant undergraduate degree; at least 65% equivalent WAM in the best 50 points of appropriate third-year discipline study. Selection considers academic performance and research preparation; supervisory capacity required, but no prior supervisor contact. IELTS 6.5 overall with 6.0 each component.",
+    "cycle": "Domestic timely application deadlines: 30 November 2026 for March 2027, and 31 May 2027 for July 2027. Complete application by the relevant deadline for CSP consideration; the page says CSP numbers are limited and deferral is not permitted.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "2027 MSc Mathematics and Statistics (MC-SCIMAT), two EFTSL: international AUD 64,640 per full-time year (one EFTSL), indicative full-course AUD 135,744; Australian full-fee AUD 42,624 per EFTSL, indicative full-course AUD 89,511. Total estimates allow for future fee increases; actual study load affects charges. CSP contributions are separate and depend on subjects; exact 2027 CSP amount unresolved. Tuition excludes living costs and visa insurance.",
+    "fees": "Partially verified tuition; see category/year gaps"
+  },
+  "university-of-melbourne-phd-mathematics-and-statistics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Domestic fee-offset policy reviewed; no international fee inferred.",
+        "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2027 doctoral stipend, fee offset and benefits reviewed.",
+        "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Written supervisor support required before formal application.",
+        "url": "https://ms.unimelb.edu.au/study/phd-degrees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship benefits cease on withdrawal, thesis submission or enrolment withdrawal for unsatisfactory progress; transfer can change entitlement.",
+        "url": "https://gradresearch.unimelb.edu.au/scholarships/graduate-research-scholarship-terms-and-conditions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Table 3, PDF page 24 (zero-based): DR-PHILSCI annual international 58,272 and indicative total 270,441, four EFTSL.",
+        "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027InternationalFeeTables.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Science PhD includes Mathematics and Statistics; confirms enclosing fee-table qualification.",
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-science/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Central research finance explains daily pro-rata charging, fee-paying places without remission, OSHC and University-covered international SSAF.",
+        "url": "https://study.unimelb.edu.au/how-to-apply/graduate-research/international-applications/fees-and-payments",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Flexible intake displayed; application details otherwise absent in accessible text. No year-specific deadline recovered.",
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-science/how-to-apply/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://ms.unimelb.edu.au/study/phd-degrees",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://gradresearch.unimelb.edu.au/scholarships/graduate-research-scholarship-terms-and-conditions",
+        "label": "Graduate scholarship continuation conditions"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027InternationalFeeTables.pdf",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-science/",
+        "label": "Additional official source, second pass"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/how-to-apply/graduate-research/international-applications/fees-and-payments",
+        "label": "Additional official source, second pass"
+      },
+      {
+        "url": "https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-science/how-to-apply/",
+        "label": "Central official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://study.unimelb.edu.au/__data/assets/pdf_file/0034/462949/2027InternationalFeeTables.pdf",
+          "year": "2027",
+          "note": "Table 3, PDF page 24 (zero-based): DR-PHILSCI annual international 58,272 and indicative total 270,441, four EFTSL.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://scholarships.unimelb.edu.au/awards/graduate-research-scholarships",
+          "year": "2027",
+          "note": "Terms separately reviewed; prior study can reduce remaining tenure."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://ms.unimelb.edu.au/study/phd-degrees",
+          "year": "Current policy; intake year not stated",
+          "note": "Honours/master's research background; no invented test policy."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://study.unimelb.edu.au/find/courses/graduate/doctor-of-philosophy-science/how-to-apply/",
+          "year": "Flexible intake; 2027 cutoff unresolved",
+          "note": "Flexible intake displayed; application details otherwise absent in accessible text. No year-specific deadline recovered.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "2027 Doctor of Philosophy–Science (DR-PHILSCI), including Mathematics and Statistics: international fee-paying AUD 58,272 per EFTSL/full-time year; the four-EFTSL table gives an indicative full-course AUD 270,441 allowing for future increases. Research fees are charged daily pro rata to enrolment. A fee-offset award can remove liability within its terms; domestic RTP offset up to four years remains as previously reviewed. Living costs and OSHC are separate; international SSAF is covered by the University.",
+    "fundingDetail": "Competitive graduate research stipend: AUD 41,100 per full-time year at 2027 rate, up to 3.5 doctoral years; fee offset up to four years. Eligible domestic/international candidates ranked by academic results and research potential. Relocation: AUD 2,000 interstate / 3,000 overseas; international single OSHC. New timely course applicants automatically considered. Continued enrolment/progress conditions apply.",
+    "selection": "Honours or master's with significant research component. Obtain written supervisor support before applying; approach supervisors with CV, higher-education transcripts and proposed research area. Programme-specific numerical grade minimum and GRE rule were not established here.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail",
+    "cycle": "Science PhD has flexible intake. The accessible course application page did not expose dated Mathematics/Science admission or scholarship rounds for 2027. Do not substitute Medicine/Dentistry/Health Sciences rounds or project annual scholarship dates into a Mathematics cutoff.",
+    "applicationDates": []
+  },
+  "university-of-oxford-mathematics-mathematics-and-statistics-ba-or-mmath": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "UCAS, 18:00 BST",
+        "source": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics"
+      },
+      {
+        "type": "Test registration",
+        "date": "2026-09-28",
+        "label": "Past October 2026 TMUA booking cutoff, 18:00 UK",
+        "source": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 fee table reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2027 bursary values, eligibility and assessment reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "TMUA and subject preparation reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Strict 18:00 UCAS cutoff reviewed.",
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships",
+        "label": "Official source reviewed for fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+          "year": "2027–28",
+          "note": "Annual course fees."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships",
+          "year": "2027–28",
+          "note": "Income assessment required annually; no award presumed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+          "year": "2027 entry",
+          "note": "Language evidence separate."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/mathematics",
+          "year": "2027 entry",
+          "note": "UCAS cutoff and prior annual deadline contextualised by 2026 test timetable."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "2027 entry annual tuition: Home GBP 10,050; Overseas GBP 50,420. Oxford assesses fee status; living costs and later increases are separate.",
+    "fundingDetail": "2027 entry Crankstart: UK-resident first-degree students with household income at most GBP 32,500; up to GBP 6,500 yearly. Eligible Home students not taking Crankstart may receive income-tested Oxford bursary GBP 1,120–4,480 yearly. No separate form; regional student-finance income assessment required.",
+    "selection": "TMUA required for 2027 entry, replacing historical MAT advice. October sitting 12–16 October 2026; booking closed 28 September 2026 at 18:00 UK time. A-level Mathematics A* required; Further Mathematics highly recommended. Qualification equivalence and interviews are separate assessments.",
+    "cycle": "2027 UCAS deadline 15 October 2026, 18:00 BST. TMUA registration closed 28 September 2026; test registration is separate from UCAS submission.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-cambridge-mathematics-ba-hons-integrated-mmath": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "Most applicants UCAS deadline, 18:00 UK; mature exceptions",
+        "source": "https://www.undergraduate.study.cam.ac.uk/apply/how/ucas-application"
+      },
+      {
+        "type": "Test registration",
+        "date": "2026-09-28",
+        "label": "Past October TMUA booking deadline",
+        "source": "https://www.undergraduate.study.cam.ac.uk/apply/how/maths-admission-test"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Official indexed 2027 mathematics fee table reviewed.",
+        "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Trinity's dated entrant policy reviewed.",
+        "url": "https://www.trin.cam.ac.uk/undergraduate/tmg/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Official TMUA requirement and October booking dates reviewed.",
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/how/maths-admission-test",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Official 2027 UCAS deadline reviewed.",
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/how/ucas-application",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Home first-degree fee GBP 10,050 for 2027 entry, reviewed via official indexed text.",
+        "url": "https://www.undergraduate.study.cam.ac.uk/fees-funding/tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "October 2026 applicants should expect STEP in June 2027; College offer sets conditions.",
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/after/sixth-term-exam-STEP",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.trin.cam.ac.uk/undergraduate/tmg/",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/how/maths-admission-test",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/how/ucas-application",
+        "label": "Official source reviewed for cycle"
+      },
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/fees-funding/tuition-fees",
+        "label": "Official indexed Home fee for first undergraduate degree"
+      },
+      {
+        "url": "https://www.undergraduate.study.cam.ac.uk/apply/after/sixth-term-exam-STEP",
+        "label": "Official indexed STEP timing guidance"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+          "year": "2027–28",
+          "note": "Official indexed text; direct undergraduate-page access failed."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.trin.cam.ac.uk/undergraduate/tmg/",
+          "year": "2027 entry (also 2026/2028)",
+          "note": "College-specific support; not all Cambridge undergraduates."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.undergraduate.study.cam.ac.uk/apply/how/maths-admission-test",
+          "year": "2027 entry",
+          "note": "Official indexed text used because direct course access failed."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.undergraduate.study.cam.ac.uk/apply/how/ucas-application",
+          "year": "2027 entry",
+          "note": "Indexed official text; mature-college exceptions apply."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "2027 Mathematics annual university tuition: Overseas GBP 34,356, plus annual College fee. Home first undergraduate degree tuition GBP 10,050 for 2027 entry. College fee varies by College; living costs excluded.",
+    "fundingDetail": "At Trinity only: 2027 entrants eligible for Cambridge Bursary receive additional GBP 3,000 yearly maintenance grant, normally up to four years while eligible; other bursaries can reduce it. GBP 1,500 rate applies to specified UK state-school students or those losing bursary eligibility. No separate grant application.",
+    "selection": "TMUA required: October applicants must sit 12–16 October 2026; China/Hong Kong/Macau applicants 15–16 October. Booking closed 28 September 2026. College-based selection and STEP offer conditions remain separate; STEP normally taken June 2027 after October 2026 application.",
+    "cycle": "Most applicants: UCAS deadline 15 October 2026, 18:00 UK time, for 2027 entry (or deferred 2028). Additional Cambridge form/supporting-document deadlines must also be met; exact dates not transcribed here.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-auckland-bsc-mathematics-major": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "Summer School 2027",
+        "source": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-08",
+        "label": "Semester One 2027",
+        "source": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-07-04",
+        "label": "Semester Two 2027",
+        "source": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 BSc fee ranges reviewed.",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Limited-entry and qualification-dependent assessment reviewed.",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 semester application dates reviewed.",
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Dated central 2027 BSc row resolves international estimate; domestic central table remains 2026 and next-year amount not established.",
+        "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Domestic table explicitly 2026: BSc NZD 7,616.40–10,158.00 per 120-point year; not a 2027 quote.",
+        "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/domestic-student-fees/undergraduate-domestic-fees.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/domestic-student-fees/undergraduate-domestic-fees.html",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
+          "year": "2027 international; 2026 domestic",
+          "note": "Dated central 2027 BSc row resolves international estimate; domestic central table remains 2026 and next-year amount not established.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.auckland.ac.nz/en/study/scholarships-and-awards/find-a-scholarship/university-of-auckland-international-student-excellence-scholarship-844-all.html",
+          "year": "2027",
+          "note": "Reviewed scholarship page now specifies Master's eligibility; do not import it into BSc. Linked regulations include undergraduate study but current intake eligibility conflicts and requires clarification."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+          "year": "2027 options shown; numerical country thresholds unresolved",
+          "note": "Degree admission rather than admission to separate Mathematics degree."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-science-bsc.html",
+          "year": "2027",
+          "note": "Late applications conditional on places."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 1,
+      "overrideCorrection": {
+        "checked": "2026-10-13",
+        "note": "Explicit fundingDetail override(s) added from existing audit limitation(s); no new substantive verification. Prevents unsupported older text surviving a shallow merge."
+      }
+    },
+    "tuition": "2027 international BSc estimated tuition: NZD 49,581.60–60,909.60 for a full-time 120-point year, depending on courses; this is BSc-wide, not a Mathematics-specific flat fee. The domestic NZD 7,616.40–10,158.00 range is still explicitly 2026 and is historical. Tuition and Student Services Fee are separate; the central page says the 2027 Student Services Fee will be set in late 2026. Actual fees confirmed after course enrolment.",
+    "selection": "BSc is limited-entry and assessed individually; requirements depend on secondary or prior-tertiary qualification. University Entrance/English requirements and subject preparation must be met. The general IB Diploma eligibility statement is not an invented Mathematics selection score.",
+    "cycle": "2027 BSc deadlines: Summer School 1 December 2026; Semester One 8 December 2026; Semester Two 4 July 2027. Late applications considered only if places remain; visa timing is separate.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "fundingDetail": "Prior review (2026-10-12): Reviewed scholarship page now specifies Master's eligibility; do not import it into BSc. Linked regulations include undergraduate study but current intake eligibility conflicts and requires clarification."
+  },
+  "university-of-auckland-international-college-university-of-auckland-certificate-in-foundation-studies": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 programme-options and fee table reviewed, page 21.",
+        "url": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship types reviewed, page 19.",
+        "url": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "2026 entry table reviewed, page 20; progression separately sourced.",
+        "url": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2026 intake table reviewed.",
+        "url": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Progression requires degree-specific foundation average, at least IELTS-equivalent 6.0/5.5 bands (some degrees higher), and additional programme requirements.",
+        "url": "https://www.auckland.ac.nz/en/study/international-students/study-options-for-international-students/foundation-programmes-international-students.html",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.auckland.ac.nz/en/study/international-students/study-options-for-international-students/foundation-programmes-international-students.html",
+        "label": "Foundation provider and conditional undergraduate progression"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+          "year": "2026",
+          "note": "Whole foundation option; not annual bachelor fee."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+          "year": "2026 prospectus",
+          "note": "Foundation fee award distinguished from later undergraduate award."
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+          "year": "2026 prospectus",
+          "note": "Foundation entry differs from undergraduate progression."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.auckland.ac.nz/assets/study/international-students/agent-resources/publications/UoAIC-Prospectus-2026-WEB.pdf",
+          "year": "2026",
+          "note": "Intake start dates, not application closing dates."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 0,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "2026 Foundation Studies full-option tuition: accelerated six months NZD 27,623; fast-track eight/nine months NZD 36,830; standard twelve months NZD 36,830. Separate enrolment fee NZD 550; insurance and accommodation additional. 2027 prices not established.",
+    "fundingDetail": "2026 prospectus describes foundation tuition scholarships and a later undergraduate award after progression; full eligibility/value of the foundation award unresolved. The NZD 20,000 undergraduate first-year award is not foundation tuition funding or a confirmed 2027 award.",
+    "selection": "2026 language entry: standard IELTS 5.0, each band at least 4.5; fast-track 5.5 with bands at least 5.0. Academic entry varies by school system and option. Progression requires degree-specific average, English level and any additional bachelor requirements.",
+    "cycle": "Published 2026 starts: standard 2 February / 20 July; fast-track 28 April / 5 October; accelerated 2 February / 7 September. All are past as of this review. No 2027 intake/application closing date verified; none projected.",
+    "fees": "Historical tuition; see year and category",
+    "funding": "Conditional funding / see award detail",
+    "applicationDates": []
+  },
+  "university-of-sydney-phd-science-mathematics-statistics-research": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-09-11",
+        "label": "Past international RTP periods 1/2 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-18",
+        "label": "International RTP periods 3/4 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-10-12",
+        "label": "Domestic RTP periods 1/2 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-03-19",
+        "label": "Domestic RTP periods 3/4 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Domestic fee-offset policy reviewed.",
+        "url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International RTP page gives 2027 annual stipend AUD 44,293; scholarship form required.",
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Central HDR policy requires prior research and supervisor agreement.",
+        "url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated international 2027 scholarship rounds reviewed.",
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Domestic 2027 rounds close 12 October 2026 and 19 March 2027.",
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Maximum 14 research periods for this degree; prior study is deducted.",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International tuition-offset tenure likewise limited to 14 research periods.",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-international-tuition-fee.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Domestic stipend tenure: 14 research periods; fee offset up to 16. Prior candidature deducted; no ordinary extension.",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-domestic.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central fee policy verifies domestic offset duration (4 FTE years); specific international course amount still inaccessible in rendered course text.",
+        "url": "https://www.sydney.edu.au/students/understanding-fees.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Second-pass course page again returned navigation only; no numeric 2027 fee recovered.",
+        "url": "https://www.sydney.edu.au/courses/courses/pr/doctor-of-philosophy-science0.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html",
+        "label": "Domestic 2027 RTP stipend and rounds"
+      },
+      {
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf",
+        "label": "International RTP stipend tenure and conditions"
+      },
+      {
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-international-tuition-fee.pdf",
+        "label": "International RTP fee-offset tenure"
+      },
+      {
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-domestic.pdf",
+        "label": "Domestic RTP tenure and tuition coverage"
+      },
+      {
+        "url": "https://www.sydney.edu.au/students/understanding-fees.html",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://www.sydney.edu.au/courses/courses/pr/doctor-of-philosophy-science0.html",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.sydney.edu.au/students/understanding-fees.html",
+          "year": "Current central RTP policy; 2027 international amount unresolved",
+          "note": "Central fee policy verifies domestic offset duration (4 FTE years); specific international course amount still inaccessible in rendered course text.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf",
+          "year": "2027",
+          "note": "Tenure conditions plus separately sourced 2027 rate."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+          "year": "Current policy; faculty-specific numerical thresholds unresolved",
+          "note": "Course page returned navigation only; central admission policy used."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+          "year": "2027 research periods",
+          "note": "Domestic rounds separately sourced."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Domestic research tuition is covered by an RTP Fee Offset for up to 4 full-time-equivalent years (PhD); full-time or part-time enrolment permitted. International students owe full course fees unless awarded sufficient sponsorship/fee offset. OSHC, living costs and materials are separate. Exact 2027 international Science PhD gross tuition remains unverified: the course page again exposed only navigation.",
+    "fundingDetail": "RTP stipend for eligible domestic/international HDR recipients: AUD 44,293 annually (2027 rate). Doctoral stipend and international fee offset: up to 14 research periods. Previous candidature reduces tenure; awards are competitive, require scholarship form and satisfactory progress. Domestic tuition offset may last 16 research periods.",
+    "selection": "PhD normally requires first/upper-second honours or a high-standard master's with substantial research, or equivalent research capability. Secure supervisor agreement before application; submit proposal, CV, transcripts and evidence of agreement. Science-specific grade/test details were not recovered.",
+    "cycle": "Admission is year-round with supervisor-agreed start. 2027 RTP cutoffs: international periods 1/2, 11 September 2026 (past); periods 3/4, 18 December 2026. Domestic: periods 1/2, 12 October 2026; periods 3/4, 19 March 2027. Scholarship form and admission documents both required.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-sydney-mphil-science-mathematics-statistics-research": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-09-11",
+        "label": "Past international RTP periods 1/2 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-18",
+        "label": "International RTP periods 3/4 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-10-12",
+        "label": "Domestic RTP periods 1/2 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-03-19",
+        "label": "Domestic RTP periods 3/4 of 2027",
+        "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Domestic fee-offset policy reviewed.",
+        "url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International RTP page gives 2027 annual stipend AUD 44,293; scholarship form required.",
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Central HDR policy requires prior research and supervisor agreement.",
+        "url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated international 2027 scholarship rounds reviewed.",
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Domestic 2027 rounds close 12 October 2026 and 19 March 2027.",
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Maximum seven research periods for this degree; prior study is deducted.",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International tuition-offset tenure likewise limited to seven research periods.",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-international-tuition-fee.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Domestic stipend tenure: seven research periods; fee offset up to eight. Prior candidature deducted; no ordinary extension.",
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-domestic.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central fee policy verifies domestic offset duration (2 FTE years); specific international course amount still inaccessible in rendered course text.",
+        "url": "https://www.sydney.edu.au/students/understanding-fees.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Second-pass course page again returned navigation only; no numeric 2027 fee recovered.",
+        "url": "https://www.sydney.edu.au/courses/courses/pr/master-of-philosophy-science0.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-domestic.html",
+        "label": "Domestic 2027 RTP stipend and rounds"
+      },
+      {
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf",
+        "label": "International RTP stipend tenure and conditions"
+      },
+      {
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-international-tuition-fee.pdf",
+        "label": "International RTP fee-offset tenure"
+      },
+      {
+        "url": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/tcs---rtp-domestic.pdf",
+        "label": "Domestic RTP tenure and tuition coverage"
+      },
+      {
+        "url": "https://www.sydney.edu.au/students/understanding-fees.html",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://www.sydney.edu.au/courses/courses/pr/master-of-philosophy-science0.html",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.sydney.edu.au/students/understanding-fees.html",
+          "year": "Current central RTP policy; 2027 international amount unresolved",
+          "note": "Central fee policy verifies domestic offset duration (2 FTE years); specific international course amount still inaccessible in rendered course text.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.sydney.edu.au/content/dam/corporate/documents/scholarships/rtp-scholarships-/updated-tcs---rtp-international-stipend.pdf",
+          "year": "2027",
+          "note": "Tenure conditions plus separately sourced 2027 rate."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.sydney.edu.au/study/applying/how-to-apply/postgraduate-research.html",
+          "year": "Current policy; faculty-specific numerical thresholds unresolved",
+          "note": "Course page returned navigation only; central admission policy used."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+          "year": "2027 research periods",
+          "note": "Domestic rounds separately sourced."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Domestic research tuition is covered by an RTP Fee Offset for up to 2 full-time-equivalent years (MPhil); full-time or part-time enrolment permitted. International students owe full course fees unless awarded sufficient sponsorship/fee offset. OSHC, living costs and materials are separate. Exact 2027 international Science MPhil gross tuition remains unverified: the course page again exposed only navigation.",
+    "fundingDetail": "RTP stipend for eligible domestic/international HDR recipients: AUD 44,293 annually (2027 rate). Research master's stipend and international fee offset: up to seven research periods. Previous candidature reduces tenure; awards are competitive, require scholarship form and satisfactory progress. Domestic tuition offset may last eight research periods.",
+    "selection": "MPhil normally requires honours or an equivalent qualification demonstrating research capability. Secure supervisor agreement before application; submit proposal, CV, transcripts and evidence of agreement. Science-specific grade/test details were not recovered.",
+    "cycle": "Admission is year-round with supervisor-agreed start. 2027 RTP cutoffs: international periods 1/2, 11 September 2026 (past); periods 3/4, 18 December 2026. Domestic: periods 1/2, 12 October 2026; periods 3/4, 19 March 2027. Scholarship form and admission documents both required.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-sydney-bachelor-route-with-mathematics-major": {
+    "evidence": [],
+    "sources": [
+      {
+        "url": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+        "label": "Official source reviewed for tuition"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+          "year": "Not established",
+          "note": "Mathematics is offered in multiple bachelor qualifications; no single fee applies to this composite route."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+          "year": "Not established",
+          "note": "No award terms for the enclosing bachelor qualification were reviewed."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+          "year": "2027 route listing",
+          "note": "Major page lists enclosing degrees but does not establish their admission grades/tests. Prior generic selection text retained."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.sydney.edu.au/content/courses/subject-areas/major/mathematics.html",
+          "year": "2027 qualifications listed",
+          "note": "2027 degree options are listed; bachelor-specific submission deadlines unresolved."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 0,
+      "overrideCorrection": {
+        "checked": "2026-10-13",
+        "note": "Explicit tuition, fundingDetail, selection, cycle override(s) added from existing audit limitation(s); no new substantive verification. Prevents unsupported older text surviving a shallow merge."
+      },
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "Prior review (2026-10-12): Mathematics is offered in multiple bachelor qualifications; no single fee applies to this composite route.",
+    "fundingDetail": "Prior review (2026-10-12): No award terms for the enclosing bachelor qualification were reviewed.",
+    "selection": "Prior review (2026-10-12): Major page lists enclosing degrees but does not establish their admission grades/tests. Bachelor-specific selection remains unverified.",
+    "cycle": "Prior review (2026-10-12): 2027 degree options are listed; bachelor-specific submission deadlines unresolved.",
+    "applicationDates": []
+  },
+  "university-of-sheffield-mathematics-bsc-2027": {
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 Home annual fee reviewed.",
+        "url": "https://sheffield.ac.uk/undergraduate/tuition-fees-2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Award text explicitly says September 2026.",
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Standard/contextual offers and language requirement reviewed.",
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 course page reviewed.",
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sheffield.ac.uk/undergraduate/tuition-fees-2027",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+        "label": "Official source reviewed for fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://sheffield.ac.uk/undergraduate/tuition-fees-2027",
+          "year": "2027–28",
+          "note": "Home rate established; overseas mathematics amount not recovered."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+          "year": "September 2026",
+          "note": "2027 course still advertises a 2026 award."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+          "year": "2027 entry",
+          "note": "Contextual offer requires Access Sheffield eligibility."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://sheffield.ac.uk/undergraduate/courses/2027/mathematics-bsc",
+          "year": "2027 entry",
+          "note": "Exact UCAS closing date not independently reviewed for Sheffield."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 2,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "Home annual undergraduate tuition GBP 10,050 for 2027 starters, subject to annual review. Overseas Mathematics BSc fee unresolved; do not treat the Home fee as universal.",
+    "fundingDetail": "The BSc page advertises GBP 2,500 yearly international scholarships (up to GBP 10,000) for September 2026 entrants. This is historical for the 2027 route; 2027 amount, renewal and eligibility were not established.",
+    "selection": "Standard A-level offer AAA including Mathematics; listed alternatives include AAB with Mathematics A plus relevant EPQ A or Further Mathematics B. Access Sheffield contextual offer AAB including Mathematics A is conditional on scheme eligibility. IELTS 6.5 overall, 6.0 each component.",
+    "cycle": "September 2027 course is published. Apply through the stated undergraduate route; exact UCAS submission deadline remains unverified in this audit.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "funding": "Conditional funding / see award detail",
+    "applicationDates": []
+  },
+  "university-of-sheffield-mathematics-msc-2027": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2027-03-22",
+        "label": "China award: offer acceptance plus GBP 2,000 deposit, 17:00 UK",
+        "source": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/china-2027"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-07-06",
+        "label": "Selected-region award: accept offer before 16:00 UK",
+        "source": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/2027"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "2027 China award amount and deadline reviewed.",
+        "url": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/china-2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree, language and document requirements reviewed.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 application route reviewed.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "GBP 7,000 for permanent residents or last-three-years residents of India, Indonesia, Japan, Kenya, Nigeria, South Korea, Taiwan, Thailand, Türkiye or Vietnam; full-time, self-funded Overseas eligibility applies.",
+        "url": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central fee-lookup route reviewed; linked lookup service returned an internal access error. Course fee amount not recovered, not evidence that no fee has been published.",
+        "url": "https://sheffield.ac.uk/postgraduate/taught/fees-lookup",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/china-2027",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/2027",
+        "label": "2027 award for selected regions"
+      },
+      {
+        "url": "https://sheffield.ac.uk/postgraduate/taught/fees-lookup",
+        "label": "Central official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://sheffield.ac.uk/postgraduate/taught/fees-lookup",
+          "year": "2027–28 amount inaccessible",
+          "note": "Central fee-lookup route reviewed; linked lookup service returned an internal access error. Course fee amount not recovered, not evidence that no fee has been published.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/postgraduate/china-2027",
+          "year": "September 2027",
+          "note": "Separate regional award independently reviewed; no combination unless permitted."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+          "year": "2027 entry",
+          "note": "Specific taught-course document rule."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://sheffield.ac.uk/postgraduate/taught/courses/2027/mathematics-msc",
+          "year": "2027 entry",
+          "note": "Exact general admission cutoff not recovered."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "fundingDetail": "Self-funded full-time Overseas students from mainland China (permanent resident or last-three-years residence): GBP 3,000 tuition reduction, automatic if offer accepted and GBP 2,000 deposit paid by 22 March 2027, 17:00 UK. Selected other regions: GBP 7,000 reduction with offer acceptance by 6 July 2027, 16:00 UK. No deferral; stacking restricted.",
+    "selection": "Normally 2:1 honours mathematics or equivalent; application assessed as a whole. IELTS 6.5 overall, 6.0 each component. This course requires neither references/referee details nor supporting statement.",
+    "cycle": "September 2027 MSc page permits application. Scholarship eligibility dates differ from admission: China offer/deposit deadline 22 March 2027; selected-region acceptance deadline 6 July 2027. General course closing date remains unresolved.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "2027–28 Mathematics MSc tuition remains unverified for both Home and Overseas categories. Course text exposes a fees heading without amounts; the central fee-lookup page directs applicants to a separate lookup service, which returned an access error in this review. No other programme's rate substituted."
+  },
+  "university-of-leeds-mathematics-bsc-2027": {
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 annual fee table reviewed.",
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Standard, contextual and language rules reviewed.",
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 route and application channel reviewed.",
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+        "label": "Official source reviewed for tuition"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+          "year": "2027–28",
+          "note": "International rate fixed for course duration; Home future years may change."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+          "year": "2027",
+          "note": "Course links scholarships but no award-specific value, eligibility and tenure were reviewed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+          "year": "2027 entry",
+          "note": "Contextual scheme eligibility distinct from standard offer."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://courses.leeds.ac.uk/3440/mathematics-bsc",
+          "year": "2027 entry",
+          "note": "Exact UCAS date not reverified."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 1,
+      "overrideCorrection": {
+        "checked": "2026-10-13",
+        "note": "Explicit fundingDetail override(s) added from existing audit limitation(s); no new substantive verification. Prevents unsupported older text surviving a shallow merge."
+      },
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "2027–28 annual tuition: UK GBP 10,050; International GBP 30,400. International full-time rate remains fixed for the course; Home future-year rates follow government caps. University fee-status assessment applies.",
+    "selection": "Standard offers AAA–AAB with Mathematics at least A; lower variants depend on Further Mathematics/AS Further Mathematics or EPQ. Access to Leeds: ABB including Mathematics A plus scheme completion, or stated A/B/C Further-Mathematics alternative. IELTS 6.0 overall, 5.5 each component.",
+    "cycle": "September 2027 entry; apply through UCAS. Course can consider late applications subject to availability; precise UCAS deadline not transcribed from a separately reviewed university timetable.",
+    "fees": "Tuition verified for specified year/category",
+    "fundingDetail": "Prior review (2026-10-12): Course links scholarships but no award-specific value, eligibility and tenure were reviewed.",
+    "applicationDates": []
+  },
+  "university-of-leeds-mathematics-msc-2027": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-07-30",
+        "label": "International applicants; hour not stated",
+        "source": "https://courses.leeds.ac.uk/f669/mathematics-msc"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-09-10",
+        "label": "UK applicants; hour not stated",
+        "source": "https://courses.leeds.ac.uk/f669/mathematics-msc"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 total course fees reviewed.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Current discount amount, eligible study and annual-review policy reviewed.",
+        "url": "https://www.leeds.ac.uk/masters-funding-scholarships/doc/alumni-bursary",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Academic and language minimums reviewed.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Applicant-category deadlines reviewed.",
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.leeds.ac.uk/masters-funding-scholarships/doc/alumni-bursary",
+        "label": "Official source reviewed for fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+          "year": "2027–28",
+          "note": "Whole 12-month course."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.leeds.ac.uk/masters-funding-scholarships/doc/alumni-bursary",
+          "year": "Current policy; annually reviewed",
+          "note": "2027 continued availability not expressly confirmed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+          "year": "2027 entry",
+          "note": "Published eligibility, not admitted-grade statistics."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://courses.leeds.ac.uk/f669/mathematics-msc",
+          "year": "2027 entry",
+          "note": "No closing hour stated."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2027 full-course tuition: UK GBP 13,400; International GBP 30,000. Fee-status assessment applies; additional living/student costs are separate.",
+    "fundingDetail": "Eligible Leeds alumni receive 10% discount on the self-funded share of eligible postgraduate tuition, applied automatically at registration and each study year; fully sponsored students excluded. It is a fee reduction, not cash. University reviews the policy annually; 2027 availability requires confirmation.",
+    "selection": "2:1 honours mathematics or a programme with significant advanced mathematical content, or accepted equivalent. IELTS 6.5 overall, 6.0 each component. Individual qualification and mathematical-content assessment applies.",
+    "cycle": "September 2027: International application deadline 30 July 2027; UK deadline 10 September 2027. Apply early; closing hour and exceptional late consideration unverified.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-liverpool-mathematics-bsc-hons-2027": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-13",
+        "label": "UK application deadline; hour not stated",
+        "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-06-30",
+        "label": "International application deadline; hour not stated",
+        "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 annual fee table reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Course listing's income-tested yearly bursary reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Subject, qualification recency and language rules reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 application timetable reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+        "label": "Official source reviewed for tuition"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+          "year": "2027–28",
+          "note": "Annual fees; can increase."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+          "year": "Current course listing; award year not explicit",
+          "note": "Income and residence eligibility; yearly reassessment details unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+          "year": "2027",
+          "note": "Standard offer differs from contextual/EPQ alternatives."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematics-bsc-hons",
+          "year": "2027",
+          "note": "UK and international dates differ."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2027–28 annual full-time tuition: UK/Channel Islands/Isle of Man/Republic of Ireland GBP 10,050; International GBP 30,500. Fee status assessed; later years may increase.",
+    "fundingDetail": "Liverpool Bursary: eligible UK undergraduates with household income below GBP 35,000 may receive up to GBP 2,000 each undergraduate year. Exact 2027 award terms and annual reassessment need the bursary rules; award not assumed.",
+    "selection": "A-level ABB including Mathematics A; GCSE English and Mathematics 4/C. Level-3 Mathematics must have been studied within two years of course start. IELTS 6.0 overall, 5.5 each component; contextual/EPQ reductions have separate conditions.",
+    "cycle": "Starts 27 September 2027. UK applications close 13 January 2027; international applications 30 June 2027, through UCAS. Closing hour not stated.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-liverpool-mathematical-sciences-msc-2027": {
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2027 full-time and part-time rates reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Loyalty discount distinguished from historical Bracken award.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Current degree and English requirements reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated 2027 course page reviewed.",
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+        "label": "Official source reviewed for tuition"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+          "year": "2027–28",
+          "note": "Annual full/part-time fees."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+          "year": "Current listing; Bracken 2026–27",
+          "note": "Loyalty scheme full rules not reviewed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+          "year": "2027",
+          "note": "GRE/interview rules not stated in reviewed requirements."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.liverpool.ac.uk/courses/mathematical-sciences-msc/2027",
+          "year": "2027 entry",
+          "note": "No exact application cutoff recovered."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "2027–28 tuition per year: UK/Channel Islands/Isle of Man/Republic of Ireland GBP 14,500 full-time / 7,250 part-time; International GBP 33,000 / 16,500. Fees may change yearly.",
+    "fundingDetail": "Eligible UK/Republic of Ireland Liverpool graduates: GBP 1,500 tuition discount, subject to full scheme rules. Bracken GBP 5,000 award is explicitly 2026–27, not a confirmed September 2027 scholarship.",
+    "selection": "2:2 honours Mathematics or accepted equivalent; major-mathematics Physics/Engineering degrees also considered, potentially with higher marks. IELTS 6.5 overall, 6.0 each component. No GRE/interview policy inferred.",
+    "cycle": "September 2027 course; exact application closing date unresolved. Some module descriptions remain labelled 2026 with review expected by 30 April 2027; do not use that curriculum date as an admission deadline.",
+    "fees": "Tuition verified for specified year/category",
+    "funding": "Conditional funding / see award detail",
+    "applicationDates": []
+  },
+  "the-open-university-mathematics-msc-distance-learning-f04-": {
+    "intakeYear": "2027",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Fee year and valid start-date boundary reviewed.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Official 2026–27 qualification thresholds reviewed.",
+        "url": "https://css2.open.ac.uk/outis/docs/publications/MST27U.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027–28 pre-booking status reviewed.",
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://css2.open.ac.uk/outis/docs/publications/MST27U.pdf",
+        "label": "Official source reviewed for selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+          "year": "2026–27",
+          "note": "2027–28 price not yet published."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+          "year": "2027–28 unresolved",
+          "note": "Page says 2027–28 funding information will be published March 2027; prior loan/payment guidance retained."
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://css2.open.ac.uk/outis/docs/publications/MST27U.pdf",
+          "year": "2026–27 prospectus",
+          "note": "Current page's degree-threshold bullet list not rendered; official prospectus used."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.open.ac.uk/postgraduate/qualifications/f04/",
+          "year": "2027–28",
+          "note": "Pre-booking is not completed registration."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 0,
+      "overrideCorrection": {
+        "checked": "2026-10-13",
+        "note": "Explicit fundingDetail override(s) added from existing audit limitation(s); no new substantive verification. Prevents unsupported older text surviving a shallow merge."
+      },
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "Indicative total GBP 9,300–9,350 for 2026–27 modules starting before 31 July 2027; England view from prior review, not a universal residence rate. Paid module by module. Updated 2027–28 fees expected March 2027.",
+    "selection": "2026–27 prospectus: normally 2:2 UK honours Mathematics or 2:1 in a high-mathematics subject. Other applications considered, possibly with entry test; non-graduates not normally admitted. Reconfirm for 2027 modules and residence availability.",
+    "cycle": "2027–28 modules are open for pre-booking; select first module and await registration instructions. Some options alternate years. No exact 2027 registration deadline established; updated fee/funding information expected March 2027.",
+    "fees": "Historical tuition; see year and category",
+    "fundingDetail": "Prior review (2026-10-12): Page says 2027–28 funding information will be published March 2027. No 2027–28 award package was verified; prior loan/payment guidance is not a freshly verified award.",
+    "applicationDates": []
+  },
+  "unsw-sydney-mathematics-msc-research": {
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-04-17",
+        "label": "Past international term-1 2027 round",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-08-14",
+        "label": "Past international terms-2/3 2027 round; midnight Australian time",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-01-15",
+        "label": "Domestic term-2 2027 round; midnight Australian time",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-04-16",
+        "label": "International term-1 2028 ordinary round",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree-specific preparation and non-binding EOI reviewed.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Central dated scholarship rounds reviewed.",
+        "url": "https://www.unsw.edu.au/research/hdr/application",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Supervisor pre-admission interview, research plan and English evidence required.",
+        "url": "https://www.unsw.edu.au/research/hdr/application",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Domestic offset tenure and historical Science tuition table reviewed.",
+        "url": "https://www.unsw.edu.au/research/hdr/fees-and-costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Official indexed 2027 award amount and degree-specific tenure reviewed.",
+        "url": "https://www.unsw.edu.au/research/hdr/scholarships?trk=public_post_comment-text",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Recipients must meet candidature conditions; loss of enrolment or eligibility ends benefits.",
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/research/higher-degree-research/hdr-scholarships-terms-and-conditions.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship preparation normally first-class honours equivalent, approximately 85% on UNSW scale.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/application",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+        "label": "HDR funding index reviewed; dynamic award cards not exposed"
+      },
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/fees-and-costs",
+        "label": "Official reviewed tuition"
+      },
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/scholarships?trk=public_post_comment-text",
+        "label": "Official reviewed fundingDetail"
+      },
+      {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/research/higher-degree-research/hdr-scholarships-terms-and-conditions.pdf",
+        "label": "UNSW HDR scholarship continuation conditions"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.unsw.edu.au/research/hdr/fees-and-costs",
+          "year": "Current offset policy; 2026 international example",
+          "note": "2027 mathematics-specific fee unresolved."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/research/hdr/scholarships?trk=public_post_comment-text",
+          "year": "2027",
+          "note": "Official indexed award cards; direct page omitted cards."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+          "year": "Current requirements",
+          "note": "Pre-admission interview separately sourced."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/research/hdr/application",
+          "year": "2026 applications / 2027–28 starts",
+          "note": "Domestic and international rounds distinguished."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "fundingDetail": "2027 competitive RTP/UPA (domestic) or RTPI/UIPA (international) stipend: AUD 39,991 annually, two research-master's years. International packages include tuition scholarship; RTPI includes single OSHC. School normally requires first-class honours equivalent for funding. Enrolment/candidature conditions apply; receipt not guaranteed.",
+    "selection": "Research MSc: honours degree or equivalent, such as a coursework master's with thesis. Identify supervisor/project; EOI and self-assessment are not formal admission. Central process includes a pre-admission supervisor interview and research-plan questions; English evidence required.",
+    "cycle": "International ordinary scholarship rounds for 2027 terms 1–3 closed in April/August 2026; next listed round closes 16 April 2027 for term 1, 2028. Domestic term-2 2027 round closes 15 January 2027. Alternate-funded admission requires eight weeks' lead time.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "Domestic HDR candidates may receive RTP tuition offset for two research-master's years. Science-wide 2026 international tuition example: AUD 126,444 over 96 units/two years; historical, not a 2027 mathematics quote. SSAF, insurance and living costs are additional.",
+    "fees": "Partially verified tuition; see category/year gaps"
+  },
+  "unsw-sydney-mathematics-phd": {
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-04-17",
+        "label": "Past international term-1 2027 round",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-08-14",
+        "label": "Past international terms-2/3 2027 round; midnight Australian time",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-01-15",
+        "label": "Domestic term-2 2027 round; midnight Australian time",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-04-16",
+        "label": "International term-1 2028 ordinary round",
+        "source": "https://www.unsw.edu.au/research/hdr/application"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree-specific preparation and non-binding EOI reviewed.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Central dated scholarship rounds reviewed.",
+        "url": "https://www.unsw.edu.au/research/hdr/application",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Supervisor pre-admission interview, research plan and English evidence required.",
+        "url": "https://www.unsw.edu.au/research/hdr/application",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Domestic offset tenure and historical Science tuition table reviewed.",
+        "url": "https://www.unsw.edu.au/research/hdr/fees-and-costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Official indexed 2027 award amount and degree-specific tenure reviewed.",
+        "url": "https://www.unsw.edu.au/research/hdr/scholarships?trk=public_post_comment-text",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Recipients must meet candidature conditions; loss of enrolment or eligibility ends benefits.",
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/research/higher-degree-research/hdr-scholarships-terms-and-conditions.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship preparation normally first-class honours equivalent, approximately 85% on UNSW scale.",
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/application",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/scholarships",
+        "label": "HDR funding index reviewed; dynamic award cards not exposed"
+      },
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/fees-and-costs",
+        "label": "Official reviewed tuition"
+      },
+      {
+        "url": "https://www.unsw.edu.au/research/hdr/scholarships?trk=public_post_comment-text",
+        "label": "Official reviewed fundingDetail"
+      },
+      {
+        "url": "https://www.unsw.edu.au/content/dam/pdfs/research/higher-degree-research/hdr-scholarships-terms-and-conditions.pdf",
+        "label": "UNSW HDR scholarship continuation conditions"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.unsw.edu.au/research/hdr/fees-and-costs",
+          "year": "Current offset policy; 2026 international example",
+          "note": "2027 mathematics-specific fee unresolved."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/research/hdr/scholarships?trk=public_post_comment-text",
+          "year": "2027",
+          "note": "Official indexed award cards; direct page omitted cards."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/science/our-schools/maths/student-life-resources/postgraduate-research/entry-requirements",
+          "year": "Current requirements",
+          "note": "Pre-admission interview separately sourced."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/research/hdr/application",
+          "year": "2026 applications / 2027–28 starts",
+          "note": "Domestic and international rounds distinguished."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "fundingDetail": "2027 competitive RTP/UPA (domestic) or RTPI/UIPA (international) stipend: AUD 39,991 annually, 3.5 doctoral years. International packages include tuition scholarship; RTPI includes single OSHC. School normally requires first-class honours equivalent for funding. Enrolment/candidature conditions apply; receipt not guaranteed.",
+    "selection": "PhD: honours Division II Class One or equivalent, approximately 75% on UNSW scale. Identify supervisor/project; EOI and self-assessment are not formal admission. Central process includes a pre-admission supervisor interview and research-plan questions; English evidence required.",
+    "cycle": "International ordinary scholarship rounds for 2027 terms 1–3 closed in April/August 2026; next listed round closes 16 April 2027 for term 1, 2028. Domestic term-2 2027 round closes 15 January 2027. Alternate-funded admission requires eight weeks' lead time.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "Domestic HDR candidates may receive RTP tuition offset for four doctoral years. Science-wide 2026 international tuition example: AUD 265,849 over 192 units/four years; historical, not a 2027 mathematics quote. SSAF, insurance and living costs are additional.",
+    "fees": "Partially verified tuition; see category/year gaps"
+  },
+  "unsw-sydney-science-advanced-mathematics-bsc-honours-": {
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-10-30",
+        "label": "Term-1 2027 international awards, 23:59 AEST",
+        "source": "https://www.scholarships.unsw.edu.au/scholarships/id/1988/7272"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 fee table and CSP versus international distinction reviewed.",
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Term-1 2027 award value, duration and eligibility reviewed.",
+        "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988/7272",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Assumed knowledge reviewed; score year explicitly 2026.",
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated 2027 scholarship call reviewed.",
+        "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988/7272",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988/7272",
+        "label": "Official source reviewed for fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+          "year": "2026",
+          "note": "Indicative 2026 prices, not 2027 quotes."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.scholarships.unsw.edu.au/scholarships/id/1988/7272",
+          "year": "Term 1 2027",
+          "note": "Competitive; eligibility and continuation conditions apply."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-science-advanced-mathematics-honours",
+          "year": "Current policy; historical scores 2026",
+          "note": "Historical entry scores do not establish 2027 cutoff."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.scholarships.unsw.edu.au/scholarships/id/1988/7272",
+          "year": "2027",
+          "note": "Course applications open; exact admission deadline unverified."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "2026 indicative first-year tuition: AUD 7,500 CSP student contribution or AUD 61,000 international full fee. CSP eligibility requires assessment; rates are subject to review and exclude other charges. No 2027 rate established.",
+    "fundingDetail": "International Scientia Coursework Scholarship: full tuition or AUD 20,000 annually for the minimum programme duration; eligible commencing full-time international coursework students. Admission offer required by 30 October 2026 (pending school results exceptions); selection considers merit and other criteria. Receipt not assumed; renewal conditions need offer/award terms.",
+    "selection": "Assumed knowledge: Mathematics Extension 1. Listed lowest selection rank 93.0, A-level score 15 and IB 37 refer to 2026 entry; they are indicative guides, not confirmed 2027 requirements. International qualification and English assessments remain separate.",
+    "cycle": "Course page says all 2027 intakes are open. Term-1 2027 international scholarship applications close 30 October 2026, 23:59 AEST; admission offer required by that date with listed school-result exceptions. This scholarship date is not a general admission deadline.",
+    "fees": "Historical tuition; see year and category",
+    "funding": "Conditional funding / see award detail"
+  },
+  "university-of-waikato-science-bsc-mathematics": {
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "2026 amount, twelve-month tenure and eligibility reviewed.",
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/VCIES-2026-all-other-countries-v2.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Domestic application and qualification-evidence process reviewed.",
+        "url": "https://www.waikato.ac.nz/study/apply/undergraduate/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring trimester start months reviewed.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2027 BSc row explicitly includes Mathematics.",
+        "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central domestic finance says final tuition depends on papers and includes GST; no dated 2027 Mathematics domestic quote supplied here. Its BSc example lacks a year; not substituted for 2027.",
+        "url": "https://www.waikato.ac.nz/study/fees-costs/domestic-tuition-costs/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated 2027 teaching starts recovered; 2027 domestic application deadline not recovered.",
+        "url": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "International applications processed on ongoing basis with visa lead times; domestic standard dates remain 2026.",
+        "url": "https://www.waikato.ac.nz/about/calendar/admission/enrolment/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.waikato.ac.nz/study/qualifications/bachelor-of-science/",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/VCIES-2026-all-other-countries-v2.pdf",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/apply/undergraduate/",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+        "label": "Official reviewed tuition"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/fees-costs/domestic-tuition-costs/",
+        "label": "Additional official source, second pass"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/about/calendar/admission/enrolment/",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+          "year": "2027",
+          "note": "Domestic annual year unresolved. Second pass: central domestic finance did not establish a dated 2027 Mathematics domestic rate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/VCIES-2026-all-other-countries-v2.pdf",
+          "year": "2026 regulations",
+          "note": "2027 confirmation missing; scholarship landing-page maximum is less specific."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.waikato.ac.nz/study/apply/undergraduate/",
+          "year": "Current domestic process",
+          "note": "International equivalences require separate assessment."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+          "year": "2027 teaching starts; submission cutoff unresolved",
+          "note": "Dated 2027 teaching starts recovered; 2027 domestic application deadline not recovered.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 2,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "2027 international BSc Mathematics estimated tuition: NZD 44,347 per 120-point academic year, GST included; additional enrolment/student costs excluded. Domestic next-year rate remains unresolved. The qualification page's undated ranges are not the dated 2027 quote.",
+    "fundingDetail": "2026 Vice-Chancellor's International Excellence rules: new full-time international undergraduate students with offer and at least B+ equivalent may receive up to NZD 15,000 tuition credit, tenure twelve months. Full-time on-campus NZ residence and international fee status must continue; competitive and non-renewal not assumed. 2027 call not established.",
+    "selection": "Domestic applications require academic-entry evidence such as NCEA/University Entrance or discretionary entrance. Conditional offers may await school results. Select Mathematics in BSc and confirm paper prerequisites; no universal international rank or test rule inferred.",
+    "cycle": "2027 central teaching calendar: Trimester A begins 1 March; B begins 12 July. These are teaching starts, not submission deadlines. Central enrolment rules process international applications on an ongoing basis, considering visa lead time, and may offer a later intake. The reviewed domestic deadline table still lists 2026; no 2027 BSc closing date inferred.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "funding": "Conditional funding / see award detail",
+    "applicationDates": []
+  },
+  "university-of-waikato-science-research-msc-mathematics": {
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "2026 postgraduate-specific cap and tenure reviewed.",
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/VCIES-2026-all-other-countries-v2.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Calendar lists mathematics and qualification-specific admission alternatives.",
+        "url": "https://www.waikato.ac.nz/int/about/calendar/regulations/masters/mscresearch/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring MSc trimester starts reviewed.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2027 MSc(Research) credit-load table reviewed.",
+        "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central domestic finance says final tuition depends on papers and includes GST; no dated 2027 Mathematics domestic quote supplied here. Its BSc example lacks a year; not substituted for 2027.",
+        "url": "https://www.waikato.ac.nz/study/fees-costs/domestic-tuition-costs/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 teaching starts reviewed; central research/thesis rounds are undated and applicability requires confirmation.",
+        "url": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Central research/thesis rounds: January 31 / May 31 / September 30, before midnight NZ time; incomplete applications excluded, late applications move to next round. No explicit round year.",
+        "url": "https://www.waikato.ac.nz/study/key-university-dates",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Thesis enrolment application deadline stated as one month before intended thesis start; not converted into a calendar date.",
+        "url": "https://www.waikato.ac.nz/about/calendar/admission/enrolment/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.waikato.ac.nz/study/qualifications/master-of-science-research/",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/VCIES-2026-all-other-countries-v2.pdf",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/int/about/calendar/regulations/masters/mscresearch/",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+        "label": "Official reviewed tuition"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/fees-costs/domestic-tuition-costs/",
+        "label": "Additional official source, second pass"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+        "label": "Central official source, second pass"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/key-university-dates",
+        "label": "Additional official source, second pass"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/about/calendar/admission/enrolment/",
+        "label": "Additional official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+          "year": "2027",
+          "note": "Domestic next-year rate unresolved. Second pass: central domestic finance did not establish a dated 2027 Mathematics domestic rate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/VCIES-2026-all-other-countries-v2.pdf",
+          "year": "2026",
+          "note": "Postgraduate maximum differs from undergraduate NZD 15,000 headline."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.waikato.ac.nz/int/about/calendar/regulations/masters/mscresearch/",
+          "year": "Current calendar; intake year not explicit",
+          "note": "Subject prerequisites and qualifying work also apply."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/about/calendar/important-dates/teaching-and-assessment-periods/",
+          "year": "2027 teaching starts; research deadline year unresolved",
+          "note": "2027 teaching starts reviewed; central research/thesis rounds are undated and applicability requires confirmation.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 2,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "tuition": "2027 international MSc(Research) estimates: NZD 50,605 for 120 points; NZD 76,335 for 180 points; NZD 101,210 for 240 points. GST included; indicative and subject to actual papers/enrolment. Mathematics duration depends on entry qualification; domestic 2027 amount unresolved.",
+    "fundingDetail": "2026 Vice-Chancellor's International Excellence regulations cap postgraduate tuition credit at NZD 10,000, tenure twelve months, for eligible new full-time international students with offer and B+ equivalent minimum. NZ on-campus residence and international fee status must continue. Competitive; 2027 call not established.",
+    "selection": "Relevant BSc/BCS/BSc(Tech): normally B average in 300-level papers; relevant postgraduate diploma: B average; qualifying relevant honours: at least second-class honours (second division), or accepted equivalents/approved alternative. Mathematics prerequisites and any qualifying work apply; discuss project and supervision with department.",
+    "cycle": "2027 Trimester A starts 1 March and B starts 12 July. The central key-dates page separately lists research/thesis application rounds at 31 January, 31 May and 30 September, before midnight NZ time, without explicit calendar years. The enrolment rules also state thesis applications one month before intended start. Confirm which rule applies to the proposed Mathematics MSc research load; no exact 2027 closing date encoded.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "funding": "Conditional funding / see award detail",
+    "applicationDates": []
+  },
+  "university-of-waikato-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "Current scholarship amount/duration reviewed; eligibility in 2026 regulations.",
+        "url": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-doctoral-scholarship/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "July 2026 doctoral qualification/research rules reviewed.",
+        "url": "https://www.waikato.ac.nz/about/calendar/regulations/higher/phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring starts reviewed; scholarship annual cycle separately sourced.",
+        "url": "https://www.waikato.ac.nz/study/qualifications/doctor-of-philosophy",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Supervisor Invitation to Apply mandatory; upload its evidence and nominate two referees.",
+        "url": "https://www.waikato.ac.nz/study/options/postgraduate/phd-doctoral/application-process/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 rules: eligible domestic/international, normal full-time study, entry GPA A- for merit selection; offer required before round.",
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/University-of-Waikato-Doctoral-Scholarship-2026-v3.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Scholarship deadlines are recurring annual month/day dates, not explicitly year-specific dates.",
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/University-of-Waikato-Doctoral-Scholarship-2026-v3.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2027 indicative categories and international residency entitlement reviewed.",
+        "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central domestic finance says final tuition depends on papers and includes GST; no dated 2027 Mathematics domestic quote supplied here. Its BSc example lacks a year; not substituted for 2027.",
+        "url": "https://www.waikato.ac.nz/study/fees-costs/domestic-tuition-costs/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Central research/thesis dates differ from scholarship rounds; applicable doctoral submission round not established, so no projected 2027 date.",
+        "url": "https://www.waikato.ac.nz/study/key-university-dates",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.waikato.ac.nz/study/qualifications/doctor-of-philosophy",
+        "label": "Official source reviewed for tuition"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-doctoral-scholarship/",
+        "label": "Official source reviewed for fundingDetail"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/about/calendar/regulations/higher/phd",
+        "label": "Official source reviewed for selection"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/options/postgraduate/phd-doctoral/application-process/",
+        "label": "Required supervisor invitation and two referees"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/University-of-Waikato-Doctoral-Scholarship-2026-v3.pdf",
+        "label": "2026 doctoral scholarship regulations"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+        "label": "Official reviewed tuition"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/fees-costs/domestic-tuition-costs/",
+        "label": "Additional official source, second pass"
+      },
+      {
+        "url": "https://www.waikato.ac.nz/study/key-university-dates",
+        "label": "Central official source, second pass"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/study/fees-costs/international-tuition-costs/",
+          "year": "2027",
+          "note": "Mathematics fee-category confirmation required. Second pass: central domestic finance did not establish a dated 2027 Mathematics domestic rate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-doctoral-scholarship/",
+          "year": "Current listing; regulations labelled 2026",
+          "note": "No future annual uplift assumed."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.waikato.ac.nz/about/calendar/regulations/higher/phd",
+          "year": "Rules effective July 1, 2026",
+          "note": "Supervisor invitation separately required by application process."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.waikato.ac.nz/study/key-university-dates",
+          "year": "Current recurring rules; 2027 doctoral cutoff unresolved",
+          "note": "Central research/thesis dates differ from scholarship rounds; applicable doctoral submission round not established, so no projected 2027 date.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3,
+      "dateCorrection": {
+        "checked": "2026-10-13",
+        "note": "Empty date array explicitly clears inherited dates: no exact year-specific application/scholarship date was established in this route's existing audit. Recurring dates and historical starts stay in cycle text, not projected."
+      }
+    },
+    "fundingDetail": "Current doctoral scholarship: NZD 33,000 annually up to 36 months plus domestic tuition and Student Services Fee. Domestic/international applicants eligible, normally full-time, with offer before the scholarship round and A- entry-qualification GPA for merit consideration. Awards competitive; enrolment and award conditions must continue. 2027 rate not independently published.",
+    "selection": "Relevant honours/master's normally upper-second honours or distinction/equivalent, with demonstrated research ability (normally at least 30 research points), or approved alternative. Supervision/resources must be available. Obtain supervisor's Invitation to Apply; applications without it not considered; two referees required. English requirement separate.",
+    "cycle": "Prior reviewed PhD rule permits starts first day of February–November. Prior scholarship regulations list annual 31 January / 30 April / 31 July / 31 October rounds. Central key-dates page separately lists research/thesis application rounds 31 January / 31 May / 30 September before midnight NZ time, without a stated year. Admission rounds and scholarship rounds are not interchangeable; confirm doctoral-specific application timing. No year-specific future date encoded.",
+    "funding": "Conditional funding / see award detail",
+    "tuition": "2027 PhD estimate in Science/Computer Science categories: NZD 8,519 per 120 points. International PhD students qualify for domestic tuition only while resident in NZ, with research-related absences at most twelve months total; otherwise full international fees apply. Confirm Mathematics category and actual charge.",
+    "fees": "Partially verified tuition; see category/year gaps",
+    "applicationDates": []
+  }
+}

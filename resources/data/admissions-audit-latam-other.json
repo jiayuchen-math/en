@@ -1,0 +1,1739 @@
+{
+  "impa-master-mathematics": {
+    "tuition": "BRL 0 tuition for all research-degree students (undated policy); living costs separate.",
+    "fundingDetail": "Prior October 12 review: IMPA's partly dated scholarship page describes prior admission and two years of support; current local terms remain unresolved. Central CNPq/CAPES ordinary domestic stipend: BRL 2,100/month; usual ceiling 24 months. Competitive agency rates, not an admission-linked award. CNPq PIBPG requires enrolment/nomination, current Lattes, Brazilian citizenship or lawful foreign status, and non-retired status. CAPES institutions select and monitor recipients. Local quotas, individual duration, CAPES-specific eligibility and renewal remain unconfirmed; special international schemes require their own call.",
+    "selection": "Complete files: official transcript, two academic referees, plans letter and mathematics reading list; Teaching Commission assesses. Degree-specific examinations/supervisor prerequisites remain unverified.",
+    "cycle": "Rolling applications; October 15 is an undated annual priority for guaranteed review, not a verified 2027 deadline. August entry is exceptional.",
+    "fees": "Tuition-free policy; any separate application charge unverified.",
+    "funding": "Competitive scholarship",
+    "intakeYear": "Year not verified",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Indexed official programme text.",
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Indexed official application instructions.",
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Rolling/annual guidance, without intake year.",
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship duration and prior acceptance.",
+        "url": "https://impa.br/ensino/programas-de-formacao/bolsas/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNPq GM rate: BRL 2,100; school-fee transfers are separate.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Ordinary domestic master rate: BRL 2,100; Portaria 33/2023 listed in force.",
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PIBPG beneficiary conditions; institutional selection and nomination.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "National selection and duration ceiling: 24 months.",
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "label": "Official programme; reviewed indexed text (fetch timed out)"
+      },
+      {
+        "url": "https://impa.br/ensino/programas-de-formacao/bolsas/",
+        "label": "Scholarship guidance with historical summer section"
+      },
+      {
+        "url": "https://impa.br/notices/mestrado-e-doutorado-no-impa-confira-os-requisitos-para-inscricao/",
+        "label": "Official 2025 admissions explainer"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "label": "CNPq domestic scholarship rate table"
+      },
+      {
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "label": "CAPES scholarship rates in force"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "label": "CNPq PIBPG conditions and duration"
+      },
+      {
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "label": "CAPES national scholarship service (updated June 2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://impa.br/ensino/mestrado-e-doutorado/",
+          "year": "Undated standing policy",
+          "note": "Official indexed text reviewed; full-page fetch timed out."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+          "year": "Rates in force on 2026-10-13; local call/policy separately dated",
+          "note": "Partial verification: Central agency rate and usual duration ceiling established, not an institutional offer. Prior local evidence remains checked October 12; route-specific quotas, individual award period, CAPES eligibility and renewal unresolved."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://impa.br/ensino/mestrado-e-doutorado/",
+          "year": "Undated standing guidance",
+          "note": "Partial verification: Prior October 12 indexed guidance verifies documents, but degree-specific prerequisites remain unresolved; full-page timeout. No fresh prerequisite verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://impa.br/ensino/mestrado-e-doutorado/",
+          "year": "No intake year stated",
+          "note": "Do not project recurring October 15 or older scholarship-page November 10 to 2027."
+        }
+      }
+    },
+    "applicationDates": []
+  },
+  "impa-doctorate-mathematics": {
+    "tuition": "BRL 0 tuition for all research-degree students (undated policy); living costs separate.",
+    "fundingDetail": "Prior October 12 review: IMPA's partly dated scholarship page describes prior admission and four years of support; current local terms remain unresolved. Central CNPq/CAPES ordinary domestic stipend: BRL 3,100/month; usual ceiling 48 months. Competitive agency rates, not an admission-linked award. CNPq PIBPG requires enrolment/nomination, current Lattes, Brazilian citizenship or lawful foreign status, and non-retired status. CAPES institutions select and monitor recipients. Local quotas, individual duration, CAPES-specific eligibility and renewal remain unconfirmed; special international schemes require their own call.",
+    "selection": "Complete files: official transcript, two academic referees, plans letter and mathematics reading list; Teaching Commission assesses. Degree-specific examinations/supervisor prerequisites remain unverified.",
+    "cycle": "Rolling applications; October 15 is an undated annual priority for guaranteed review, not a verified 2027 deadline.",
+    "fees": "Tuition-free policy; any separate application charge unverified.",
+    "funding": "Competitive scholarship",
+    "intakeYear": "Year not verified",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Indexed official programme text.",
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Indexed official application instructions.",
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Rolling/annual guidance, without intake year.",
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship duration and prior acceptance.",
+        "url": "https://impa.br/ensino/programas-de-formacao/bolsas/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNPq GD rate: BRL 3,100; school-fee transfers are separate.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Ordinary domestic doctoral rate: BRL 3,100; Portaria 33/2023 listed in force.",
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PIBPG beneficiary conditions; institutional selection and nomination.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "National selection and duration ceiling: 48 months.",
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://impa.br/ensino/mestrado-e-doutorado/",
+        "label": "Official programme; reviewed indexed text (fetch timed out)"
+      },
+      {
+        "url": "https://impa.br/ensino/programas-de-formacao/bolsas/",
+        "label": "Scholarship guidance with historical summer section"
+      },
+      {
+        "url": "https://impa.br/notices/mestrado-e-doutorado-no-impa-confira-os-requisitos-para-inscricao/",
+        "label": "Official 2025 admissions explainer"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "label": "CNPq domestic scholarship rate table"
+      },
+      {
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "label": "CAPES scholarship rates in force"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "label": "CNPq PIBPG conditions and duration"
+      },
+      {
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "label": "CAPES national scholarship service (updated June 2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://impa.br/ensino/mestrado-e-doutorado/",
+          "year": "Undated standing policy",
+          "note": "Official indexed text reviewed; full-page fetch timed out."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+          "year": "Rates in force on 2026-10-13; local call/policy separately dated",
+          "note": "Partial verification: Central agency rate and usual duration ceiling established, not an institutional offer. Prior local evidence remains checked October 12; route-specific quotas, individual award period, CAPES eligibility and renewal unresolved."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://impa.br/ensino/mestrado-e-doutorado/",
+          "year": "Undated standing guidance",
+          "note": "Partial verification: Prior October 12 indexed guidance verifies documents, but degree-specific prerequisites remain unresolved; full-page timeout. No fresh prerequisite verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://impa.br/ensino/mestrado-e-doutorado/",
+          "year": "No intake year stated",
+          "note": "Do not project recurring October 15 or older scholarship-page November 10 to 2027."
+        }
+      }
+    },
+    "applicationDates": []
+  },
+  "university-of-sao-paulo-master-mathematics": {
+    "tuition": "BRL 0 tuition and enrolment fees for stricto-sensu degrees, for Brazilian and foreign students, under USP's standing policy.",
+    "fees": "Programme application fee unverified. Central 2026 cap: BRL 268.94 (7 UFESP); this is not the amount charged by Mathematics.",
+    "fundingDetail": "Prior October 12 review: Mathematics students with good academic performance may compete for CAPES/CNPq scholarships. Central CNPq/CAPES ordinary domestic stipend: BRL 2,100/month; usual ceiling 24 months. Competitive agency rates, not an admission-linked award. CNPq PIBPG requires enrolment/nomination, current Lattes, Brazilian citizenship or lawful foreign status, and non-retired status. CAPES institutions select and monitor recipients. Local quotas, individual duration, CAPES-specific eligibility and renewal remain unconfirmed; special international schemes require their own call.",
+    "selection": "Admission notice could not be read: the official Nextcloud share returned only its JavaScript shell, and public PDF fetching failed. No degree, test or supervisor prerequisite is inferred from the form links.",
+    "cycle": "Current Mathematics call dates and intake year could not be established from the readable admission page or unreadable linked notice.",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Research-degree fee exemption; application charge is separate.",
+        "url": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "2026 upper limit, not route-specific charge.",
+        "url": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Programme describes competitive agency scholarships.",
+        "url": "https://www.ime.usp.br/pos-matematica/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNPq GM rate: BRL 2,100; school-fee transfers are separate.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Ordinary domestic master rate: BRL 2,100; Portaria 33/2023 listed in force.",
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PIBPG beneficiary conditions; institutional selection and nomination.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "National selection and duration ceiling: 24 months.",
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ime.usp.br/pos-matematica/ingresso/",
+        "label": "Mathematics admissions and notice links"
+      },
+      {
+        "url": "https://arquivos.ime.usp.br/s/9baJDcpJxR4pdee",
+        "label": "Official English notice share; content unavailable"
+      },
+      {
+        "url": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+        "label": "USP research-degree costs"
+      },
+      {
+        "url": "https://www.ime.usp.br/pos-matematica/",
+        "label": "Mathematics scholarship eligibility overview"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "label": "CNPq domestic scholarship rate table"
+      },
+      {
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "label": "CAPES scholarship rates in force"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "label": "CNPq PIBPG conditions and duration"
+      },
+      {
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "label": "CAPES national scholarship service (updated June 2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+          "year": "Standing policy; 2026 application-fee cap",
+          "note": "Applies to domestic and international research-degree students."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+          "year": "Rates in force on 2026-10-13; local call/policy separately dated",
+          "note": "Partial verification: Central agency rate and usual duration ceiling established, not an institutional offer. Prior local evidence remains checked October 12; route-specific quotas, individual award period, CAPES eligibility and renewal unresolved."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://arquivos.ime.usp.br/s/9baJDcpJxR4pdee",
+          "year": "Year not readable",
+          "note": "Nextcloud JavaScript shell; PDF fetch failed."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.ime.usp.br/pos-matematica/ingresso/",
+          "year": "Year not readable",
+          "note": "No dates in readable page; linked notice unavailable."
+        }
+      }
+    },
+    "applicationDates": []
+  },
+  "university-of-sao-paulo-doctorate-mathematics": {
+    "tuition": "BRL 0 tuition and enrolment fees for stricto-sensu degrees, for Brazilian and foreign students, under USP's standing policy.",
+    "fees": "Programme application fee unverified. Central 2026 cap: BRL 268.94 (7 UFESP); this is not the amount charged by Mathematics.",
+    "fundingDetail": "Prior October 12 review: Mathematics students with good academic performance may compete for CAPES/CNPq scholarships. Central CNPq/CAPES ordinary domestic stipend: BRL 3,100/month; usual ceiling 48 months. Competitive agency rates, not an admission-linked award. CNPq PIBPG requires enrolment/nomination, current Lattes, Brazilian citizenship or lawful foreign status, and non-retired status. CAPES institutions select and monitor recipients. Local quotas, individual duration, CAPES-specific eligibility and renewal remain unconfirmed; special international schemes require their own call.",
+    "selection": "Admission notice could not be read: the official Nextcloud share returned only its JavaScript shell, and public PDF fetching failed. No degree, test or supervisor prerequisite is inferred from the form links.",
+    "cycle": "Current Mathematics call dates and intake year could not be established from the readable admission page or unreadable linked notice.",
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Research-degree fee exemption; application charge is separate.",
+        "url": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "2026 upper limit, not route-specific charge.",
+        "url": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Programme describes competitive agency scholarships.",
+        "url": "https://www.ime.usp.br/pos-matematica/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNPq GD rate: BRL 3,100; school-fee transfers are separate.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Ordinary domestic doctoral rate: BRL 3,100; Portaria 33/2023 listed in force.",
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PIBPG beneficiary conditions; institutional selection and nomination.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "National selection and duration ceiling: 48 months.",
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ime.usp.br/pos-matematica/ingresso/",
+        "label": "Mathematics admissions and notice links"
+      },
+      {
+        "url": "https://arquivos.ime.usp.br/s/9baJDcpJxR4pdee",
+        "label": "Official English notice share; content unavailable"
+      },
+      {
+        "url": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+        "label": "USP research-degree costs"
+      },
+      {
+        "url": "https://www.ime.usp.br/pos-matematica/",
+        "label": "Mathematics scholarship eligibility overview"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "label": "CNPq domestic scholarship rate table"
+      },
+      {
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "label": "CAPES scholarship rates in force"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "label": "CNPq PIBPG conditions and duration"
+      },
+      {
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "label": "CAPES national scholarship service (updated June 2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://prpg.usp.br/mestrado-e-doutorado/como-funciona/",
+          "year": "Standing policy; 2026 application-fee cap",
+          "note": "Applies to domestic and international research-degree students."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+          "year": "Rates in force on 2026-10-13; local call/policy separately dated",
+          "note": "Partial verification: Central agency rate and usual duration ceiling established, not an institutional offer. Prior local evidence remains checked October 12; route-specific quotas, individual award period, CAPES eligibility and renewal unresolved."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://arquivos.ime.usp.br/s/9baJDcpJxR4pdee",
+          "year": "Year not readable",
+          "note": "Nextcloud JavaScript shell; PDF fetch failed."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.ime.usp.br/pos-matematica/ingresso/",
+          "year": "Year not readable",
+          "note": "No dates in readable page; linked notice unavailable."
+        }
+      }
+    },
+    "applicationDates": []
+  },
+  "university-of-campinas-master-mathematics": {
+    "tuition": "BRL 0 tuition under Unicamp's undated university-wide stricto-sensu policy. No nationality exception stated; application charges remain unverified.",
+    "selection": "Mathematics/related bachelor's, or documented completion by enrolment. Selection: transcripts 40%, CV 30%, references 30%; preferably two recommendation letters.",
+    "fundingDetail": "Prior October 12 review: eligible accepted applicants ranked for available scholarships; acceptance without scholarship excludes programme funding; later allocation considers academic performance. Central CNPq/CAPES ordinary domestic stipend: BRL 2,100/month; usual ceiling 24 months. Competitive agency rates, not an admission-linked award. CNPq PIBPG requires enrolment/nomination, current Lattes, Brazilian citizenship or lawful foreign status, and non-retired status. CAPES institutions select and monitor recipients. Local quotas, individual duration, CAPES-specific eligibility and renewal remain unconfirmed; special international schemes require their own call.",
+    "cycle": "2027 semester 1: applications September 1–November 3, 2026; references due November 10.",
+    "fees": "Application charge not established by reviewed call.",
+    "funding": "Competitive scholarship",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-01",
+        "label": "Applications open",
+        "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-03",
+        "label": "Applications close",
+        "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-10",
+        "label": "Recommender letters: 23:59; timezone unspecified",
+        "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Transcripts/CV/references: 40%/30%/30%.",
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Accepted applicants ranked; scholarships contingent.",
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Sections 1.1 and 2.3.",
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "University-wide stricto-sensu policy.",
+        "url": "https://dc2.fca.unicamp.br/portal/pt-br/posgrad/pos-procedimentos.html?catid=164&id=252&view=article",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNPq GM rate: BRL 2,100; school-fee transfers are separate.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Ordinary domestic master rate: BRL 2,100; Portaria 33/2023 listed in force.",
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PIBPG beneficiary conditions; institutional selection and nomination.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "National selection and duration ceiling: 24 months.",
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "label": "Mathematics 2027 semester 1 call"
+      },
+      {
+        "url": "https://dc2.fca.unicamp.br/portal/pt-br/posgrad/pos-procedimentos.html?catid=164&id=252&view=article",
+        "label": "Unicamp research-degree tuition policy"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "label": "CNPq domestic scholarship rate table"
+      },
+      {
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "label": "CAPES scholarship rates in force"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "label": "CNPq PIBPG conditions and duration"
+      },
+      {
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "label": "CAPES national scholarship service (updated June 2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://dc2.fca.unicamp.br/portal/pt-br/posgrad/pos-procedimentos.html?catid=164&id=252&view=article",
+          "year": "Undated university-wide policy",
+          "note": "University-wide statement on an official faculty page."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+          "year": "Rates in force on 2026-10-13; local call/policy separately dated",
+          "note": "Partial verification: Central agency rate and usual duration ceiling established, not an institutional offer. Prior local evidence remains checked October 12; route-specific quotas, individual award period, CAPES eligibility and renewal unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+          "year": "2027 semester 1",
+          "note": "Sections 1–3; document-based selection."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+          "year": "2027 semester 1",
+          "note": "Specific call overrides recurring dates on landing page."
+        }
+      }
+    }
+  },
+  "university-of-campinas-doctorate-mathematics": {
+    "tuition": "BRL 0 tuition under Unicamp's undated university-wide stricto-sensu policy. No nationality exception stated; application charges remain unverified.",
+    "selection": "Mathematics/related master's normally required; exceptional bachelor-only applicants need prior committee assessment and two research references. Selection: transcripts 40%, CV 30%, references 30%; preferably three letters, including master's advisor when applicable.",
+    "fundingDetail": "Prior October 12 review: eligible accepted applicants ranked for available scholarships; acceptance without scholarship excludes programme funding; later allocation considers academic performance. Central CNPq/CAPES ordinary domestic stipend: BRL 3,100/month; usual ceiling 48 months. Competitive agency rates, not an admission-linked award. CNPq PIBPG requires enrolment/nomination, current Lattes, Brazilian citizenship or lawful foreign status, and non-retired status. CAPES institutions select and monitor recipients. Local quotas, individual duration, CAPES-specific eligibility and renewal remain unconfirmed; special international schemes require their own call.",
+    "cycle": "2027 semester 1: applications September 1–November 3, 2026; references due November 10.",
+    "fees": "Application charge not established by reviewed call.",
+    "funding": "Competitive scholarship",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-01",
+        "label": "Applications open",
+        "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-03",
+        "label": "Applications close",
+        "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-10",
+        "label": "Recommender letters: 23:59; timezone unspecified",
+        "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Transcripts/CV/references: 40%/30%/30%.",
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Accepted applicants ranked; scholarships contingent.",
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Sections 1.1 and 2.3.",
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "University-wide stricto-sensu policy.",
+        "url": "https://dc2.fca.unicamp.br/portal/pt-br/posgrad/pos-procedimentos.html?catid=164&id=252&view=article",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNPq GD rate: BRL 3,100; school-fee transfers are separate.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Ordinary domestic doctoral rate: BRL 3,100; Portaria 33/2023 listed in force.",
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PIBPG beneficiary conditions; institutional selection and nomination.",
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "National selection and duration ceiling: 48 months.",
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+        "label": "Mathematics 2027 semester 1 call"
+      },
+      {
+        "url": "https://dc2.fca.unicamp.br/portal/pt-br/posgrad/pos-procedimentos.html?catid=164&id=252&view=article",
+        "label": "Unicamp research-degree tuition policy"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+        "label": "CNPq domestic scholarship rate table"
+      },
+      {
+        "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/prestacao-de-contas/valores-de-bolsas",
+        "label": "CAPES scholarship rates in force"
+      },
+      {
+        "url": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/acoes-e-programas/programas/programa-institucional-de-bolsas-de-pos-graduacao",
+        "label": "CNPq PIBPG conditions and duration"
+      },
+      {
+        "url": "https://www.gov.br/pt-br/servicos/obter-bolsa-de-pos-graduacao-no-pais?id=3254&origem=servico",
+        "label": "CAPES national scholarship service (updated June 2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://dc2.fca.unicamp.br/portal/pt-br/posgrad/pos-procedimentos.html?catid=164&id=252&view=article",
+          "year": "Undated university-wide policy",
+          "note": "University-wide statement on an official faculty page."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gov.br/cnpq/pt-br/acesso-a-informacao/bolsas-e-auxilios/copy_of_modalidades/tabela-de-valores-no-pais",
+          "year": "Rates in force on 2026-10-13; local call/policy separately dated",
+          "note": "Partial verification: Central agency rate and usual duration ceiling established, not an institutional offer. Prior local evidence remains checked October 12; route-specific quotas, individual award period, CAPES eligibility and renewal unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+          "year": "2027 semester 1",
+          "note": "Sections 1–3; document-based selection."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.ime.unicamp.br/sites/default/files/inline/216/edital_cppg-m-1s2027-version-ingles.pdf",
+          "year": "2027 semester 1",
+          "note": "Specific call overrides recurring dates on landing page."
+        }
+      }
+    }
+  },
+  "unam-master-mathematical-sciences": {
+    "tuition": "Official UNAM postgraduate FAQ states no tuition or enrolment charge (MXN 0) as a university-wide rule. The FAQ is hosted by Gender Studies, not Mathematics; direct mathematical-sciences confirmation and any foreign-student exception remain unresolved. The 2027-2 MXN 490 selection-processing charge is separate, not tuition.",
+    "fees": "2027-2 registration-processing fee: MXN 490 per study plan, nonrefundable; overseas payment uses the day's USD equivalent. This is not tuition.",
+    "selection": "Bachelor's average ≥8/10; department admission exam and interview. Separate English reading certification (qualifying international certificates ≥B1); foreign grades require DGIRE equivalence and specified documents require apostille/legalization and Spanish translation.",
+    "fundingDetail": "Historical 2027-1 SECIHTI call: August 10–11, 2026 submissions, for new/continuing full-time in-person students. Academic committee nominates; admission does not guarantee funding. Foreign students need visa, temporary student residence card and grade equivalence. Amount/duration/renewal and February 2027-2 call unverified.",
+    "cycle": "February 2027 (2027-2): registration August 10–24, 2026; uploads through August 26, both closing 19:00 central Mexico time. Registration is closed. Exam October 5; interviews November 11, 2026.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-08-10",
+        "label": "Historical: registration opens 10:00 central Mexico",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-08-24",
+        "label": "Historical: registration closes 19:00 central Mexico",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-08-26",
+        "label": "Historical: uploads close 19:00 central Mexico",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-08-11",
+        "label": "Historical: SECIHTI 2027-1 submission closes; different semester",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Administrative tables and selection stages.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Processing fee table.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated calendar.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Separate 2027-1 scholarship call.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "FAQ uses university-wide exemption wording; host programme is Gender Studies; no nationality breakdown.",
+        "url": "https://genero.posgrado.unam.mx/convocatorias-preguntas-frecuentes/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf",
+        "label": "Master 2027-2 instructions"
+      },
+      {
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf",
+        "label": "Historical SECIHTI 2027-1 call"
+      },
+      {
+        "url": "https://genero.posgrado.unam.mx/convocatorias-preguntas-frecuentes/",
+        "label": "UNAM postgraduate tuition/enrolment FAQ (scope limitation)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://genero.posgrado.unam.mx/convocatorias-preguntas-frecuentes/",
+          "year": "Undated standing FAQ; Mathematics call 2027-2",
+          "note": "Partial verification: University-wide wording on another programme's official FAQ; Mathematics-specific confirmation and foreign conditions unresolved. Processing fee retained from October 12 call review."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf",
+          "year": "2027-1; August 2026 submission",
+          "note": "Different semester from February 2027 admission."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf",
+          "year": "2027-2",
+          "note": "Degree-specific departmental and language requirements."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-M-MDCM_22may26-VF.pdf",
+          "year": "February 2027 (2027-2)",
+          "note": "Application/upload deadlines have passed."
+        }
+      }
+    }
+  },
+  "unam-doctorate-mathematical-sciences": {
+    "tuition": "Official UNAM postgraduate FAQ states no tuition or enrolment charge (MXN 0) as a university-wide rule. The FAQ is hosted by Gender Studies, not Mathematics; direct mathematical-sciences confirmation and any foreign-student exception remain unresolved. The 2027-2 MXN 490 selection-processing charge is separate, not tuition.",
+    "fees": "2027-2 registration-processing fee: MXN 490 per study plan, nonrefundable; overseas payment uses the day's USD equivalent. This is not tuition.",
+    "selection": "Mathematics/related master's with average ≥8/10, or direct doctoral bachelor's with ≥9/10. Department admission exam, interview and general field exam; thesis review may waive the latter. Proposed tutor must approve research outline, due November 3, 2026. English reading certification is separate (qualifying international certificates ≥B1).",
+    "fundingDetail": "Historical 2027-1 SECIHTI call: August 12–13, 2026 submissions, for new/continuing full-time in-person students. Academic committee nominates; admission does not guarantee funding. Foreign students need visa, temporary student residence card and grade equivalence. Amount/duration/renewal and February 2027-2 call unverified.",
+    "cycle": "February 2027 (2027-2): registration August 10–24, 2026; uploads through August 26, both closing 19:00 central Mexico time. Registration is closed. Exam October 5; interviews November 11, 2026.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-08-10",
+        "label": "Historical: registration opens 10:00 central Mexico",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-08-24",
+        "label": "Historical: registration closes 19:00 central Mexico",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-08-26",
+        "label": "Historical: uploads close 19:00 central Mexico",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-03",
+        "label": "Tutor-approved research outline due",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-08-13",
+        "label": "Historical: SECIHTI 2027-1 submission closes; different semester",
+        "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Administrative tables and selection stages.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Processing fee table.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated calendar.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Separate 2027-1 scholarship call.",
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "FAQ uses university-wide exemption wording; host programme is Gender Studies; no nationality breakdown.",
+        "url": "https://genero.posgrado.unam.mx/convocatorias-preguntas-frecuentes/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf",
+        "label": "Doctoral 2027-2 instructions"
+      },
+      {
+        "url": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf",
+        "label": "Historical SECIHTI 2027-1 call"
+      },
+      {
+        "url": "https://genero.posgrado.unam.mx/convocatorias-preguntas-frecuentes/",
+        "label": "UNAM postgraduate tuition/enrolment FAQ (scope limitation)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://genero.posgrado.unam.mx/convocatorias-preguntas-frecuentes/",
+          "year": "Undated standing FAQ; Mathematics call 2027-2",
+          "note": "Partial verification: University-wide wording on another programme's official FAQ; Mathematics-specific confirmation and foreign conditions unresolved. Processing fee retained from October 12 call review."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Convocatoria-becas-Nuevas-SECIHTI-2027-1.pdf",
+          "year": "2027-1; August 2026 submission",
+          "note": "Different semester from February 2027 admission."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf",
+          "year": "2027-2",
+          "note": "Degree-specific departmental and language requirements."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://matematicas.posgrado.unam.mx/wp-content/uploads/2026/06/Instructivo_2027-2-D-MDCM_22may26-VF-1.pdf",
+          "year": "February 2027 (2027-2)",
+          "note": "Application/upload deadlines have passed."
+        }
+      }
+    }
+  },
+  "university-of-chile-master-mathematical-sciences": {
+    "tuition": "Published 2026 annual tuition: CLP 5,297,040; separate 2026 matrícula CLP 243,900. No home/international split stated. These are not verified 2027 charges.",
+    "fees": "See tuition for separate enrolment charge; 2027 application instructions say application-payment receipt does not apply to these programmes.",
+    "selection": "Licenciado or equivalent professional qualification in mathematics/related discipline, assessed by committee; foreign degrees need applicable recognition/revalidation. CV, transcripts, intentions and at least two references; committee may interview.",
+    "fundingDetail": "Programme advertises tuition rebates up to 100%. Historical 2023/24 rules required semester applications, enrolment and payment compliance; thesis-development rebate was 75% through semester 5 after project approval. Current eligibility and living stipend unverified.",
+    "cycle": "Published applications: June 15–October 15, 2026. Page labels academic year 2026; an attached guide is labelled 2027. Entry year needs confirmation; closing hour unstated.",
+    "intakeYear": "Year not verified",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-06-15",
+        "label": "Published opening; entry year unresolved",
+        "source": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "Published closing; entry year unresolved; hour unstated",
+        "source": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 tariff block.",
+        "url": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Programme eligibility and assessment.",
+        "url": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated application block.",
+        "url": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Historical rebate rules.",
+        "url": "https://uchile.cl/dam/jcr:3e806422-2a69-4abf-b352-ba2e57fd6d7c/RebajasAranceles_2024%20(2).pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Advertised rebate ceiling; conditions unresolved.",
+        "url": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application guide: payment receipt not applicable.",
+        "url": "https://uchile.cl/dam/jcr:7ac5071a-8136-48fa-936b-277037c36d01/INSTRUCTIVO%20POSTULACIONES%202027.pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+        "label": "Mathematics degree requirements, tariff and application dates"
+      },
+      {
+        "url": "https://uchile.cl/dam/jcr:7ac5071a-8136-48fa-936b-277037c36d01/INSTRUCTIVO%20POSTULACIONES%202027.pdf",
+        "label": "Attached 2027 guide; does not resolve conflicting year label"
+      },
+      {
+        "url": "https://uchile.cl/dam/jcr:3e806422-2a69-4abf-b352-ba2e57fd6d7c/RebajasAranceles_2024%20(2).pdf",
+        "label": "Historical faculty rebate conditions"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+          "year": "2026 annual tariff",
+          "note": "Do not reuse as 2027 tuition."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://uchile.cl/dam/jcr:3e806422-2a69-4abf-b352-ba2e57fd6d7c/RebajasAranceles_2024%20(2).pdf",
+          "year": "2023/2024 conditions",
+          "note": "Current advertised rebate ceiling is on programme page; detailed renewal terms dated."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+          "year": "Standing programme requirements",
+          "note": "Degree-equivalence assessment; possible departmental assessment."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://ciencias.uchile.cl/postgrados/5347/ciencias-matematicas",
+          "year": "2026 application dates; intake ambiguous",
+          "note": "Partial verification: Prior October 12 review: stated 2026 application dates conflict with an attached 2027 guide; intake year unconfirmed. Dates not projected or changed."
+        }
+      }
+    }
+  },
+  "university-of-chile-doctorate-mathematical-sciences": {
+    "tuition": "Published 2026 annual tuition: CLP 6,411,100; separate 2026 matrícula CLP 243,900. No home/international split stated. These are not verified 2027 charges.",
+    "fees": "See tuition for separate enrolment charge; 2027 application instructions say application-payment receipt does not apply to these programmes.",
+    "selection": "Mathematics/related Licenciado or master's/equivalent accepted subject to committee assessment. CV, transcripts, intentions, recommendations and previous work/publications if any; committee may require interview and oral/written admission exam.",
+    "fundingDetail": "Programme advertises tuition rebates up to 100%. Historical 2023/24 rules required semester applications, enrolment and payment compliance; thesis-development rebate was 100% through semester 9 after project approval. Current eligibility and living stipend unverified.",
+    "cycle": "Published applications: June 15–October 15, 2026. Page labels academic year 2026; an attached guide is labelled 2027. Entry year needs confirmation; closing hour unstated.",
+    "intakeYear": "Year not verified",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-06-15",
+        "label": "Published opening; entry year unresolved",
+        "source": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "Published closing; entry year unresolved; hour unstated",
+        "source": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 tariff block.",
+        "url": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Programme eligibility and assessment.",
+        "url": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated application block.",
+        "url": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Historical rebate rules.",
+        "url": "https://uchile.cl/dam/jcr:3e806422-2a69-4abf-b352-ba2e57fd6d7c/RebajasAranceles_2024%20(2).pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Advertised rebate ceiling; conditions unresolved.",
+        "url": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application guide: payment receipt not applicable.",
+        "url": "https://uchile.cl/dam/jcr:7ac5071a-8136-48fa-936b-277037c36d01/INSTRUCTIVO%20POSTULACIONES%202027.pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+        "label": "Mathematics degree requirements, tariff and application dates"
+      },
+      {
+        "url": "https://uchile.cl/dam/jcr:7ac5071a-8136-48fa-936b-277037c36d01/INSTRUCTIVO%20POSTULACIONES%202027.pdf",
+        "label": "Attached 2027 guide; does not resolve conflicting year label"
+      },
+      {
+        "url": "https://uchile.cl/dam/jcr:3e806422-2a69-4abf-b352-ba2e57fd6d7c/RebajasAranceles_2024%20(2).pdf",
+        "label": "Historical faculty rebate conditions"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+          "year": "2026 annual tariff",
+          "note": "Do not reuse as 2027 tuition."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://uchile.cl/dam/jcr:3e806422-2a69-4abf-b352-ba2e57fd6d7c/RebajasAranceles_2024%20(2).pdf",
+          "year": "2023/2024 conditions",
+          "note": "Current advertised rebate ceiling is on programme page; detailed renewal terms dated."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+          "year": "Standing programme requirements",
+          "note": "Degree-equivalence assessment; possible departmental assessment."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://uchile.cl/postgrados/6266/ciencias-mencion-matematicas",
+          "year": "2026 application dates; intake ambiguous",
+          "note": "Partial verification: Prior October 12 review: stated 2026 application dates conflict with an attached 2027 guide; intake year unconfirmed. Dates not projected or changed."
+        }
+      }
+    }
+  },
+  "universidad-nacional-de-colombia-bogota-msc-mathematics-maestria-en-ciencias": {
+    "tuition": "Undated schedule: 65 academic-fee points; each point equals Colombia's prevailing legal daily minimum wage (COP). Charging period and 2027 monetary total unverified.",
+    "fees": "Additional 30 administration and 10 welfare points, plus insurance; application fee amount unverified.",
+    "fundingDetail": "National university scholarship system may offer economic support or academic-fee exemptions. Amount, duration, eligibility and renewal unverified; financing statement required.",
+    "selection": "Department knowledge exam 40%, CV 30%, interview 30%; exam eliminatory at 2.0, overall minimum 3.5. Exam covers linear algebra, calculus, ODE, complex variables and foundations. Degree/completion evidence, two references and financing statement required; foreigners may use passport.",
+    "cycle": "2027-01: registration/payment August 24–October 29, 2026; documents November 5; exam November 13; interviews November 24–27; results December 18.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-08-24",
+        "label": "Registration/payment opens",
+        "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-10-29",
+        "label": "Registration/payment closes; hour unstated",
+        "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-05",
+        "label": "CV evaluation documents due",
+        "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Cost-in-points block.",
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Additional point charges.",
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Assessment table and requirements.",
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship-system paragraph.",
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027-01 calendar.",
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+        "label": "Mathematics admissions, selection and point-fee schedule"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+          "year": "Undated point schedule; 2027-01 intake",
+          "note": "Partial verification: Prior October 12 formula review establishes points only; charging period and current COP monetary total unresolved."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+          "year": "Undated",
+          "note": "Partial verification: Prior October 12 review establishes a support mechanism, not award amount, duration, eligibility or renewal."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+          "year": "2027-01 calendar; criteria adjacent",
+          "note": "Published weights and minimums; no probability estimate."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://ciencias.bogota.unal.edu.co/estudiar_en_la_facultad/posgrados/maestrias/matematicas/admisiones/",
+          "year": "2027-01",
+          "note": "Closing hours unstated."
+        }
+      }
+    }
+  },
+  "pontificia-universidad-catolica-del-peru-master-in-mathematics": {
+    "tuition": "Current programme page alongside 2027-1 call: indicative full-programme PEN 32,468, subject to variation; PEN 666.70 per credit (Scale C) and PEN 116.60 matrícula per cycle, with five instalments. Tariff itself has no academic-year label or home/international split.",
+    "fees": "2027-1 application charge: PEN 550 regular; PEN 150 PUCP graduates. Separate from tuition.",
+    "fundingDetail": "PUCP graduates receive 10% off academic charges for first-time courses, not combinable with other discounts. A 5% full-course cash-payment discount is separately advertised. No mathematics scholarship package verified; ESCALO's reviewed 2026-1 participant list includes Teaching Mathematics, not this research master's.",
+    "selection": "Written real analysis/linear algebra exam February 24–26, 2027: minimum 13, weight 40%; file 25%, interview 25%, ECAP 10%. Motivation and two mathematician references required; foreign bachelor's documents need specified apostille/legalization.",
+    "cycle": "2027-1: registration August 17, 2026–February 16, 2027; payment through February 17; classes March 22. Documents line says Thursday February 19, 2027, but that date is Friday; confirm.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-08-17",
+        "label": "Registration opens",
+        "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-16",
+        "label": "Registration closes",
+        "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-02-17",
+        "label": "Application-payment deadline; separate from registration",
+        "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-19",
+        "label": "Published numeric date; conflicting Thursday label; confirm",
+        "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Indicative price and credit-payment rules.",
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/inversion-economica/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Graduate and cash-payment discounts.",
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/inversion-economica/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026-1 programme list excludes research Mathematics.",
+        "url": "https://posgrado.pucp.edu.pe/becas/becas-escalo-ep-pucp/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application-payment block.",
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Evaluation table and written-exam subjects.",
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated call; document-line inconsistency.",
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+        "label": "Mathematics 2027-1 admission call"
+      },
+      {
+        "url": "https://posgrado.pucp.edu.pe/maestria/matematicas/inversion-economica/",
+        "label": "Programme tuition estimate and discounts"
+      },
+      {
+        "url": "https://posgrado.pucp.edu.pe/becas/becas-escalo-ep-pucp/",
+        "label": "ESCALO 2026-1 participating programmes"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/inversion-economica/",
+          "year": "Tariff undated; page displays 2027-1 intake",
+          "note": "Partial verification: Prior October 12 review: indicative full-course/credit rates published, but tariff has no academic-year label; exact cohort price and home/international treatment unconfirmed."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/inversion-economica/",
+          "year": "Undated discount policy",
+          "note": "Partial verification: Prior October 12 review verifies discounts only; no complete Mathematics scholarship amount, duration, eligibility or renewal established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+          "year": "2027-1",
+          "note": "Written exam is departmental; ECAP is separate."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://posgrado.pucp.edu.pe/maestria/matematicas/admision/",
+          "year": "2027-1",
+          "note": "Partial verification: Prior October 12 review retains registration dates, but document deadline has a conflicting weekday/date label; calendar not completely confirmed."
+        }
+      }
+    }
+  },
+  "universidad-de-buenos-aires-doctorate-in-mathematical-sciences": {
+    "tuition": "ARS 0 postgraduate course fees for regular doctoral students enrolled in UBA's Faculty of Exact and Natural Sciences: Article 2 of faculty Resolution CD-25-1775 (18 August 2025). This is a course-fee exemption, not proof that every admission, administration or graduation charge is zero. No nationality distinction stated; separate charges/foreign exceptions remain unresolved.",
+    "fundingDetail": "Doctoral admission is separate from a scholarship: an already funded thesis plan still undergoes academic review. No current award amount, duration, eligibility or renewal verified.",
+    "selection": "Qualifying Licenciado/equivalent or assessed four-year degree; exceptional equivalent preparation may be considered. Submit thesis plan and proposed director's consent/CV, with an independent study adviser. Faculty rules require oral admission assessment unless justified waiver, plus technical English. Department may require levelling courses; departmental and faculty committees assess the file.",
+    "cycle": "No dated 2026/2027 application window verified. Faculty rule schedules an admission assessment within five months of a complete application/additional requirements; this is not an application deadline.",
+    "intakeYear": "Year not verified",
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Articles 4.1–4.5: qualification, director and oral assessment.",
+        "url": "https://exactas.uba.ar/wp-content/uploads/2021/09/Reglamento-de-la-Carrera-de-Doctorado-Res.-CS-21-0577.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Study adviser distinct from director; levelling may apply.",
+        "url": "https://web.dm.uba.ar/index.php/doctorado/318-admision-doctorado",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Scholarship plan does not confer automatic admission.",
+        "url": "https://web.dm.uba.ar/index.php/doctorado/318-admision-doctorado",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Article 4.5: relative assessment scheduling.",
+        "url": "https://exactas.uba.ar/wp-content/uploads/2021/09/Reglamento-de-la-Carrera-de-Doctorado-Res.-CS-21-0577.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Resolution Article 2 exempts regular faculty doctoral students from postgraduate course fees.",
+        "url": "https://exactas.uba.ar/wp-content/uploads/2025/08/CD-25-1775.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "Current course-registration instructions distinguish pending doctoral applicants from enrolled doctoral students.",
+        "url": "https://exactas.uba.ar/ensenanza/cursos-de-posgrado/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://web.dm.uba.ar/index.php/doctorado/318-admision-doctorado",
+        "label": "Mathematics doctoral admission instructions"
+      },
+      {
+        "url": "https://exactas.uba.ar/wp-content/uploads/2021/09/Reglamento-de-la-Carrera-de-Doctorado-Res.-CS-21-0577.pdf",
+        "label": "Faculty doctoral regulations linked by Mathematics"
+      },
+      {
+        "url": "https://exactas.uba.ar/wp-content/uploads/2025/08/CD-25-1775.pdf",
+        "label": "UBA Exactas course-fee exemption resolution (2025)"
+      },
+      {
+        "url": "https://exactas.uba.ar/ensenanza/cursos-de-posgrado/",
+        "label": "UBA Exactas postgraduate course registration (2026)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://exactas.uba.ar/wp-content/uploads/2025/08/CD-25-1775.pdf",
+          "year": "2025 resolution; standing rule reviewed 2026-10-13",
+          "note": "Partial verification: Enrolled doctoral course-fee exemption verified; separate administrative/admission/graduation charges and foreign exceptions unresolved."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://web.dm.uba.ar/index.php/doctorado/318-admision-doctorado",
+          "year": "Undated admissions guidance",
+          "note": "Partial verification: Prior October 12 guidance establishes admission/funding distinction only, not a scholarship amount, term or eligibility. No new scholarship package verification."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://exactas.uba.ar/wp-content/uploads/2021/09/Reglamento-de-la-Carrera-de-Doctorado-Res.-CS-21-0577.pdf",
+          "year": "2021 regulation still linked by department",
+          "note": "Oral assessment may be waived; department summary also reviewed."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://exactas.uba.ar/wp-content/uploads/2021/09/Reglamento-de-la-Carrera-de-Doctorado-Res.-CS-21-0577.pdf",
+          "year": "No intake year",
+          "note": "Relative examination scheduling rule; annual deadline unresolved."
+        }
+      }
+    },
+    "fees": "Applicants whose doctoral admission is still pending must register for postgraduate courses as external graduates and pay applicable course charges; the enrolled doctoral course-fee exemption must not be assumed before admission.",
+    "applicationDates": []
+  },
+  "university-of-cape-town-bsc-mathematics-major": {
+    "tuition": "2026 annual pricing formula (not a 2027 quote): A = sum of ZAR fees for every registered course, using Student Fees Handbook section 12. South African citizens/permanent residents pay A; SADC international students pay A + ZAR 5,600 administration. Other international BSc students pay A + ZAR 5,600 administration + annual International Term Fee: ZAR 60,300 for non-SADC African citizens, ZAR 80,400 for citizens outside Africa. Despite its name, the levy is annual; first registration in semester 2 attracts 50% of that levy, but full administration. Recognised refugees/asylum seekers pay course fees without international surcharges. Residence, application and living costs are separate. Exact Mathematics course load and 2027 course tariffs/levy remain unverified.",
+    "fees": "2027 application: ZAR 100 South Africa/SADC; ZAR 300 outside SADC; UCT students/graduates exempt. International first payment: SADC ZAR 41,800 (36,000 tuition advance + 5,800 administration), or entire fee if lower; non-SADC full-time undergraduate ZAR 127,400. Due before registration or January 29, 2027, whichever earlier; residence separate.",
+    "fundingDetail": "Historical faculty policy (updated December 2023): entrance scholarships recognize first-time NSC performance, with limited awards for top South Africans taking international exams. No separate application; first-year only. Subsequent faculty awards assessed annually. 2027 award amounts and thresholds not verified.",
+    "selection": "Historical 2025 NSC Science guidelines: Mathematics ≥70%, Physical Science ≥60%, with major-specific substitution rules; faculty points assessed separately. Academic/quantitative literacy and mathematics NBTs required but used for placement, not admission score. These are not freshly verified 2027 criteria; international qualifications follow a separate assessment.",
+    "cycle": "2027 undergraduate applications ran April 1–July 31, 2026 and are closed. International supporting documents/English evidence due September 30; last NBT sitting October 3, 2026 (both past). Interim school results due October 31; final transcripts December 31, 2026.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-04-01",
+        "label": "Historical: applications open for 2027",
+        "source": "https://undergrad.uct.ac.za/students/applications-apply-undergraduate-qualifications/application-procedure"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-07-31",
+        "label": "Historical: undergraduate closing; no late applications",
+        "source": "https://undergrad.uct.ac.za/students/applications-apply-undergraduate-qualifications/application-procedure"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-09-30",
+        "label": "Historical: international documents and English evidence",
+        "source": "https://undergrad.uct.ac.za/students/applications/key-dates"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-10-31",
+        "label": "Interim school results/predicted grades due",
+        "source": "https://undergrad.uct.ac.za/students/applications/key-dates"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-31",
+        "label": "Final transcripts and records due",
+        "source": "https://undergrad.uct.ac.za/students/applications/key-dates"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Course-based fee calculation.",
+        "url": "https://undergrad.uct.ac.za/students/fees-funding-fees/fees-handbook",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application charge by geographic category.",
+        "url": "https://undergrad.uct.ac.za/students/applications-apply-undergraduate-qualifications/application-procedure",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "2027 international first payments; not full cost.",
+        "url": "https://undergrad.uct.ac.za/sites/default/files/media/documents/uct_ac_za/63/2027-international-students-initial-fees-payment-dates.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Entrance and annual faculty scholarship policy.",
+        "url": "https://science.uct.ac.za/undergraduate-studies/funding",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "2025 NSC and NBT guidelines.",
+        "url": "https://science.uct.ac.za/sites/default/files/media/documents/2025%20Science%20UG%20Admissions%20Criteria.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated 2027-entry timeline.",
+        "url": "https://undergrad.uct.ac.za/students/applications/key-dates",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Status-specific course/admin/annual levy formula; refugees/asylum seekers follow national fees.",
+        "url": "https://uct.ac.za/international/student-support/fees",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 handbook sections 1.1 and 5.4: annual administration 5,600; undergraduate levy 60,300/80,400; second-semester levy half, administration full. Fully read October 12; October 13 re-fetch returned internal access error.",
+        "url": "https://uct.ac.za/sites/default/files/media/documents/uct_ac_za/49/2026-fees-booklet.pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://undergrad.uct.ac.za/students/fees-funding-fees/fees-handbook",
+        "label": "UCT tuition calculation policy"
+      },
+      {
+        "url": "https://undergrad.uct.ac.za/sites/default/files/media/documents/uct_ac_za/63/2027-international-students-initial-fees-payment-dates.pdf",
+        "label": "2027 international first-payment schedule"
+      },
+      {
+        "url": "https://undergrad.uct.ac.za/students/applications-apply-undergraduate-qualifications/application-procedure",
+        "label": "2027 application procedure and fees"
+      },
+      {
+        "url": "https://undergrad.uct.ac.za/students/applications/key-dates",
+        "label": "2027 entry key dates"
+      },
+      {
+        "url": "https://science.uct.ac.za/sites/default/files/media/documents/2025%20Science%20UG%20Admissions%20Criteria.pdf",
+        "label": "Historical 2025 Science selection criteria"
+      },
+      {
+        "url": "https://science.uct.ac.za/undergraduate-studies/funding",
+        "label": "Faculty scholarship policy updated 2023"
+      },
+      {
+        "url": "https://uct.ac.za/international/student-support/fees",
+        "label": "UCT International Hub finance policy"
+      },
+      {
+        "url": "https://uct.ac.za/sites/default/files/media/documents/uct_ac_za/49/2026-fees-booklet.pdf",
+        "label": "UCT Student Fees Handbook 2026 (prior reviewed tariff)"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://uct.ac.za/international/student-support/fees",
+          "year": "2026 tariff/formula; 2027 first-payment schedule separately retained",
+          "note": "Partial verification: 2026 status-specific formula and surcharge amounts established; 2027 full tariff and registered mathematics course load unresolved. Numeric handbook evidence retains October 12 check; October 13 re-fetch failed, while finance policy page remained readable. Existing 2027 first payments are advances, not annual tuition."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://science.uct.ac.za/undergraduate-studies/funding",
+          "year": "Policy updated 2023",
+          "note": "First/subsequent-year distinction verified; 2027 values unresolved."
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://science.uct.ac.za/sites/default/files/media/documents/2025%20Science%20UG%20Admissions%20Criteria.pdf",
+          "year": "2025 guidelines",
+          "note": "Linked 2027 prospectus could not be fetched; no projected cutoffs."
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://undergrad.uct.ac.za/students/applications/key-dates",
+          "year": "2027 entry; applications in 2026",
+          "note": "Main application, international documents and NBT dates have passed."
+        }
+      }
+    }
+  },
+  "universidad-de-la-republica-master-in-mathematics-pedeciba-route": {
+    "tuition": "UYU 0 tuition under Udelar's postgraduate ordinance, Article 8, for academic degrees; fee exceptions concern specializations/professional master's. No nationality distinction stated. Living expenses are separate.",
+    "fundingDetail": "Closed ANII 2026 national competition: master stipend UYU 36,319 monthly, maximum 24 months, no extension; annual inflation adjustment. Requires programme acceptance and supervisor/institution approval, with progress reports. Uruguayans or foreigners with legal citizenship/permanent residence qualify; a specific border-worker exception exists. Employment ≤30 hours/week. Selection is competitive; no 2027 call verified.",
+    "selection": "Preparation equivalent to Udelar's mathematics Licenciado, assessed by graduate commission and approved by scientific council; levelling may be required. At entry propose an initial supervisor; commission assigns one if absent. Research study plan is developed with the supervisor.",
+    "cycle": "Mathematics 2026/2027 admission dates not established from reviewed PEDECIBA regulations/call index. Separate ANII 2026 scholarship competition ran August 18–September 30, 2026, closing 14:00, and is closed.",
+    "intakeYear": "Year not verified",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-08-18",
+        "label": "Historical: ANII 2026 national competition opens",
+        "source": "https://anii.org.uy/apoyos/formacion/276/programa-de-becas-de-posgrado-nacional/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-09-30",
+        "label": "Historical: ANII 2026 closes 14:00; admission separate",
+        "source": "https://anii.org.uy/apoyos/formacion/276/programa-de-becas-de-posgrado-nacional/"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Postgraduate ordinance Article 8.",
+        "url": "https://posgrados.udelar.edu.uy/descargarAdjunto.php?hash=202200QfsJ",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Entry-equivalence rule.",
+        "url": "https://www.pedeciba.edu.uy/uploads/documento/601078379ae38092ffbaeb47f0460be66f387e18.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Implementation guide: initial supervisor.",
+        "url": "https://www.pedeciba.edu.uy/uploads/reglamento/3adc9dc2b8efbd2d4761475f23c7fe7fa5caca4b.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 bases: eligibility, amount, duration and progress reports.",
+        "url": "https://anii.org.uy/upcms/files/llamados/documentos/bases-posgrados-nacionales-2026-vf-2-.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Call specifies monthly support and closed dates.",
+        "url": "https://anii.org.uy/apoyos/formacion/276/programa-de-becas-de-posgrado-nacional/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Reviewed call index has no established degree-entry dates.",
+        "url": "https://www.pedeciba.edu.uy/es/llamados/matematica/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://posgrados.udelar.edu.uy/descargarAdjunto.php?hash=202200QfsJ",
+        "label": "University postgraduate fee policy"
+      },
+      {
+        "url": "https://www.pedeciba.edu.uy/uploads/documento/601078379ae38092ffbaeb47f0460be66f387e18.pdf",
+        "label": "Mathematics master's regulation"
+      },
+      {
+        "url": "https://www.pedeciba.edu.uy/uploads/reglamento/3adc9dc2b8efbd2d4761475f23c7fe7fa5caca4b.pdf",
+        "label": "Supervisor and study-plan implementation"
+      },
+      {
+        "url": "https://anii.org.uy/upcms/files/llamados/documentos/bases-posgrados-nacionales-2026-vf-2-.pdf",
+        "label": "ANII 2026 national scholarship conditions"
+      },
+      {
+        "url": "https://anii.org.uy/apoyos/formacion/276/programa-de-becas-de-posgrado-nacional/",
+        "label": "ANII 2026 competition: closed"
+      },
+      {
+        "url": "https://www.pedeciba.edu.uy/es/llamados/matematica/",
+        "label": "PEDECIBA Mathematics calls reviewed"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://posgrados.udelar.edu.uy/descargarAdjunto.php?hash=202200QfsJ",
+          "year": "Standing ordinance",
+          "note": "Academic-degree exemption; no nationality exception stated."
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://anii.org.uy/upcms/files/llamados/documentos/bases-posgrados-nacionales-2026-vf-2-.pdf",
+          "year": "2026 closed competition",
+          "note": "Updated 2026 amount/eligibility reviewed; 2027 award unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.pedeciba.edu.uy/uploads/documento/601078379ae38092ffbaeb47f0460be66f387e18.pdf",
+          "year": "2009 regulations currently linked",
+          "note": "Implementation guide specifies initial supervisor assignment."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.pedeciba.edu.uy/es/llamados/matematica/",
+          "year": "2026/2027 admission unresolved",
+          "note": "Scholarship deadline separately verified; not an admission window."
+        }
+      }
+    }
+  }
+}

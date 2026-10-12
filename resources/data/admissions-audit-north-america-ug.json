@@ -1,0 +1,2997 @@
+{
+  "massachusetts-institute-of-technology-undergraduate-mathematics-massachusetts-institute-of-technology": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026–27 annual tuition is USD 66,720; the full attendance budget includes other expenses.",
+        "url": "https://sfs.mit.edu/cost-of-attendance-class-of-2030/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The checklist requires SAT/ACT, two teacher letters and transcripts, with conditional language-test guidance and interview availability.",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "USD 75 application fee, with fee waivers available.",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full demonstrated need is met for four years; the tuition-free income rule requires typical assets.",
+        "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Continuing aid requires academic progress, continuing demonstrated need and available funding.",
+        "url": "https://sfs.mit.edu/policies/student-consumer-information/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The checklist publishes recurring admission and aid deadlines without explicit years.",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://sfs.mit.edu/cost-of-attendance-class-of-2030/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://sfs.mit.edu/policies/student-consumer-information/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://sfs.mit.edu/cost-of-attendance-class-of-2030/",
+          "year": "2026–27",
+          "note": "Annual undergraduate tuition; next intake rate unverified."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://mitadmissions.org/afford/cost-aid-basics/access-affordability/",
+          "year": null,
+          "note": "No fixed personal award inferred."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+          "year": null,
+          "note": "Current first-year checklist, not a graduate or departmental entrance exam."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+          "year": null,
+          "note": "Month/day schedule reviewed; intake-specific calendar years not established. Published recurring rules reviewed; exact intake/calendar years remain unresolved, so no projected dated entries."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "USD 66,720 tuition for the 2026–27 academic year; housing, food and other expenses are separate. This is not a verified 2027–28 price.",
+    "selection": "SAT or ACT required; two teacher recommendations and school report/transcripts required. English proficiency exams are strongly recommended for specified non-native speakers. An interview is offered if an Educational Counselor is available; otherwise it is waived without penalty.",
+    "fees": "USD 75 application fee, with fee waivers available.",
+    "fundingDetail": "MIT meets assessed financial need for four undergraduate years, including international students; aid is based on need rather than merit. From 2025–26, family income below USD 200,000 with typical assets qualifies for tuition coverage. Each year's financial review and satisfactory academic progress govern continuing aid.",
+    "cycle": "Published schedule: Early Action November 1; Regular Action January 4; separate aid deadlines November 30 and February 15. The reviewed checklist does not label the calendar years or intake, so no dated 2027 entries are generated.",
+    "applicationDates": []
+  },
+  "harvard-university-undergraduate-mathematics-harvard-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The 2026–27 table separates tuition, fees, housing, food and conditional insurance.",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Aid is need-based, meets demonstrated need, includes international students and depends on income and assets.",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The first-year checklist requires SAT/ACT with limited alternatives, school reports and two teacher letters.",
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "USD 95 application fee or fee waiver.",
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Timeline gives month/day deadlines but no intake year.",
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants/",
+        "label": "Official evidence — fees"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://college.harvard.edu/financial-aid/how-aid-works",
+          "year": "2026–27",
+          "note": "Annual College tuition and fees, not total living costs."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://college.harvard.edu/financial-aid/how-aid-works",
+          "year": null,
+          "note": "Policy verified; award duration and annual renewal procedure not independently checked."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+          "year": null,
+          "note": "Freshman admission; no mathematics-specific entrance test established."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+          "year": null,
+          "note": "No recurring deadline projected into 2027. Published recurring rules reviewed; exact intake/calendar years remain unresolved, so no projected dated entries."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "USD 62,226 tuition for the 2026–27 academic year, plus USD 6,216 fees. Housing and food are separate; required health insurance costs USD 4,954 unless waived for adequate family coverage. The 2027–28 price is unverified.",
+    "fundingDetail": "Harvard College meets assessed financial need through need-based aid, with the same eligibility for international and American students and no merit scholarships. Income below USD 100,000 normally means zero parent contribution; income up to USD 200,000 normally covers tuition, with significant assets affecting eligibility and a student contribution possible. Award amount and renewal terms require the individual aid review.",
+    "selection": "SAT or ACT required. Exceptional inaccessibility may permit AP, IB, GCSE/A-level or national leaving-exam results instead. Submit school report/transcript, two teacher recommendations and midyear report; final report is for admitted students.",
+    "fees": "USD 95 application fee or fee waiver.",
+    "cycle": "Published recurring deadlines: Restrictive Early Action November 1 and Regular Decision January 1, at 11:59 p.m. applicant local time. School counselors may submit supporting materials up to one week later. Calendar years/intake are not stated on the reviewed timeline.",
+    "applicationDates": []
+  },
+  "princeton-university-undergraduate-mathematics-princeton-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The 2026–27 budget separates USD 68,140 tuition from USD 314 fees and living costs.",
+        "url": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International and domestic applicants share full-need grant aid policy.",
+        "url": "https://admission.princeton.edu/cost-aid",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Current undergraduates reapply annually; awards can vary with family finances and costs.",
+        "url": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Counselor guidance distinguishes test-optional fall 2027 from required SAT/ACT for fall 2028.",
+        "url": "https://admission.princeton.edu/apply/counselors",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admission.princeton.edu/cost-aid",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admission.princeton.edu/apply/counselors",
+        "label": "Official evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+          "year": "2026–27",
+          "note": "Annual undergraduate charges."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admission.princeton.edu/cost-aid",
+          "year": null,
+          "note": "Individual grant depends on institutional assessment."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admission.princeton.edu/apply/counselors",
+          "year": "Fall 2027",
+          "note": "Other application checklist components not independently rechecked."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "USD 68,140 tuition for the 2026–27 academic year; USD 314 fees are separate, as are housing, food and other costs. Students without adequate family insurance must buy the Student Health Plan. The next intake's price is unverified.",
+    "fundingDetail": "Princeton meets assessed financial need with grant aid rather than required loans, applies the same policy to international students and uses need-blind admission. Students must apply for aid annually; amounts may change with family resources and attendance costs.",
+    "selection": "SAT/ACT are optional for first-year applicants entering fall 2027. Required testing resumes with the 2027–28 application cycle for fall 2028 entry, not fall 2027.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "stanford-university-undergraduate-mathematics-stanford-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The annual budget separates tuition, estimated student fees and one-time new-student fees.",
+        "url": "https://financialaid.stanford.edu/undergrad/budget/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The first-year checklist requires SAT/ACT, academic records and teacher/counselor recommendations.",
+        "url": "https://admission.stanford.edu/apply/first-year/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "USD 100 nonrefundable application fee or fee waiver request.",
+        "url": "https://admission.stanford.edu/apply/first-year/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Aid eligibility depends on family circumstances, assets and an assessed parent/student contribution.",
+        "url": "https://financialaid.stanford.edu/undergrad/how/index.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International applicants' financial need can affect admission.",
+        "url": "https://admission.stanford.edu/faqs/decision.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Month/day deadlines and arts-portfolio exceptions are published without explicit intake-year labels.",
+        "url": "https://admission.stanford.edu/apply/first-year/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://financialaid.stanford.edu/undergrad/budget/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admission.stanford.edu/apply/first-year/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://financialaid.stanford.edu/undergrad/how/index.html",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admission.stanford.edu/faqs/decision.html",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://financialaid.stanford.edu/undergrad/budget/",
+          "year": "2026–27",
+          "note": "Three-quarter academic-year budget; fee allowance is an estimate."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://financialaid.stanford.edu/undergrad/how/index.html",
+          "year": null,
+          "note": "Need-based methodology verified; incomplete international award/renewal terms."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admission.stanford.edu/apply/first-year/",
+          "year": null,
+          "note": "Current checklist; no score cutoff supplied."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admission.stanford.edu/apply/first-year/",
+          "year": null,
+          "note": "No dates projected solely from page update year. Published recurring rules reviewed; exact intake/calendar years remain unresolved, so no projected dated entries."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "USD 67,731 tuition for full-time Autumn, Winter and Spring quarters in 2026–27; charged quarterly. USD 2,610 is a student-fee budget allowance; new students also pay USD 525 orientation and USD 250 document fees. Housing, food and insurance are separate. The 2027–28 rate is unverified.",
+    "selection": "SAT or ACT required with Common Application, school report/counselor letter, transcripts and two academic-teacher recommendations. The published midyear transcript deadline is February 15, without an explicit calendar year.",
+    "fees": "USD 100 nonrefundable application fee or fee waiver request.",
+    "fundingDetail": "Stanford's undergraduate aid is assessed from family financial circumstances; grant amounts are individual rather than a fixed award. International applicants' aid need may affect admission. Precise duration and international renewal/application conditions were not fully verified.",
+    "cycle": "Standard recurring deadlines: Restrictive Early Action November 1 and Regular Decision January 5, 11:59 p.m. applicant local time. Optional arts portfolios have earlier application/material deadlines. The page updated September 10, 2026 does not explicitly label the intake or deadline years.",
+    "applicationDates": []
+  },
+  "yale-university-undergraduate-mathematics-yale-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The 2026–27 cost table separates tuition and activity fee from living expenses.",
+        "url": "https://finaid.yale.edu/coa",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The August 2026 admissions update narrows required standardized testing to SAT or ACT.",
+        "url": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full demonstrated need is met across citizenship categories without required borrowing.",
+        "url": "https://admissions.yale.edu/affordability",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Prospective-student aid guidance labels 2027–28 and gives citizenship-specific priority deadlines.",
+        "url": "https://finaid.yale.edu/apply/prospective",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://finaid.yale.edu/coa",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.yale.edu/affordability",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://finaid.yale.edu/apply/prospective",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://finaid.yale.edu/coa",
+          "year": "2026–27",
+          "note": "Annual undergraduate tuition."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.yale.edu/affordability",
+          "year": null,
+          "note": "Duration and renewal conditions not fully checked."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+          "year": "2026–27 application cycle",
+          "note": "This official dated update supersedes the prior test-flexible policy."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://finaid.yale.edu/apply/prospective",
+          "year": "2027–28",
+          "note": "Cycle verified for aid only; admission dates remain unresolved."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "USD 72,500 tuition for the 2026–27 academic year; USD 185 student activity fee, housing, food and other costs are separate. The 2027–28 tuition rate is unverified.",
+    "selection": "For the 2026–27 application cycle Yale requires SAT or ACT for first-year applicants. Its former option to satisfy testing with AP or IB alone has ended. English-language admission conditions were not independently rechecked.",
+    "fundingDetail": "Yale awards undergraduate aid by assessed financial need and meets full demonstrated need regardless of citizenship or immigration status, without requiring loans. Amounts depend on the individual family assessment; no mathematics merit award is inferred.",
+    "cycle": "For 2027–28 aid: Early Action priority filing November 1, 2026 for US citizens/permanent residents and December 1, 2026 for international citizens; Regular Decision February 15, 2027. These are aid dates; exact 2027 admission deadlines were not separately verified. Late aid submissions remain eligible.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-11-01",
+        "label": "Early Action aid priority — US citizens/permanent residents",
+        "source": "https://finaid.yale.edu/apply/prospective"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "Early Action aid priority — international citizens",
+        "source": "https://finaid.yale.edu/apply/prospective"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-02-15",
+        "label": "Regular Decision aid priority",
+        "source": "https://finaid.yale.edu/apply/prospective"
+      }
+    ]
+  },
+  "university-of-chicago-undergraduate-mathematics-university-of-chicago": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Current required-materials guidance is test optional for domestic, international and transfer applicants.",
+        "url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Financial overview distinguishes full-need grant aid and automatic merit-scholarship consideration.",
+        "url": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Undergraduate tuition amount not verified: the official Undergraduate Costs page returned no readable content on October 13, 2026. No amount is substituted from graduate tuition or total cost of attendance.",
+        "url": "https://financialaid.uchicago.edu/undergraduate/how-aid-works/undergraduate-costs/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "First-year application deadlines not verified in this pass: the official application calendar returned no readable content. Third-party dates were excluded; no 2027 dates are generated.",
+        "url": "https://collegeadmissions.uchicago.edu/apply/application/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://financialaid.uchicago.edu/undergraduate/how-aid-works/undergraduate-costs/",
+        "label": "Official second-pass evidence — tuition"
+      },
+      {
+        "url": "https://collegeadmissions.uchicago.edu/apply/application/",
+        "label": "Official second-pass evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://financialaid.uchicago.edu/undergraduate/how-aid-works/undergraduate-costs/",
+          "year": null,
+          "note": "Official central finance source returned zero readable lines; not evidence that tuition is unpublished.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+          "year": null,
+          "note": "Need and merit policies checked; no individual funding promise."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+          "year": null,
+          "note": "No intake-specific change found in reviewed current page."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://collegeadmissions.uchicago.edu/apply/application/",
+          "year": null,
+          "note": "Source access/readability limit; no bypass attempted.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 0,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "tuition",
+          "cycle"
+        ]
+      }
+    },
+    "selection": "SAT/ACT submission is optional for all applicants. Under UChicago's No Harm policy a submitted score is considered only if it benefits the application review. Required application materials and language proficiency remain separate.",
+    "fundingDetail": "UChicago meets assessed financial need with grants rather than loans; all applicants are considered for merit scholarships without a separate application. Applicants who may need aid during undergraduate study should apply for it with admission. Exact award amounts and renewal conditions were not reverified.",
+    "tuition": "Undergraduate tuition amount not verified: the official Undergraduate Costs page returned no readable content on October 13, 2026. No amount is substituted from graduate tuition or total cost of attendance.",
+    "cycle": "First-year application deadlines not verified in this pass: the official application calendar returned no readable content. Third-party dates were excluded; no 2027 dates are generated.",
+    "applicationDates": []
+  },
+  "columbia-university-undergraduate-mathematics-columbia-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The College bulletin gives annual and per-term tuition, mandatory fees and orientation separately.",
+        "url": "https://bulletin.columbia.edu/columbia-college/fees-expenses-financial-aid/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Columbia College commits to meeting admitted students' assessed financial need; aid can continue for four undergraduate years while financial need persists. International students must apply for aid in their first year to remain eligible in later years. Academic, athletic and artistic merit scholarships are not offered. Individual awards are assessed, not guaranteed amounts.",
+        "url": "https://bulletin.columbia.edu/columbia-college/fees-expenses-financial-aid/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "For Columbia College first-year entry in fall 2027 (2026–27 admissions cycle), SAT/ACT submission remains optional. SAT or ACT becomes required for fall 2028 entry (2027–28 admissions cycle), with a waiver request available for applicants facing testing challenges. This is not an English-language testing exemption.",
+        "url": "https://communications.news.columbia.edu/news/update-columbia-college-and-columbia-engineering-testing-policy",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bulletin.columbia.edu/columbia-college/fees-expenses-financial-aid/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://communications.news.columbia.edu/news/update-columbia-college-and-columbia-engineering-testing-policy",
+        "label": "Official second-pass evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://bulletin.columbia.edu/columbia-college/fees-expenses-financial-aid/",
+          "year": "2026–27",
+          "note": "Columbia College, not General Studies or Engineering."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://bulletin.columbia.edu/columbia-college/fees-expenses-financial-aid/",
+          "year": "2026–27",
+          "note": "Funding duration and continuing-need condition verified. International need-aware admission and full annual reapplication requirements not established by this source; central financial-aid detail pages returned reader errors.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://communications.news.columbia.edu/news/update-columbia-college-and-columbia-engineering-testing-policy",
+          "year": "Fall 2027 / Fall 2028",
+          "note": "June 12, 2026 official policy announcement reviewed. Language tests, exemptions and the remaining application checklist were not independently established.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 2,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "fundingDetail",
+          "selection"
+        ]
+      }
+    },
+    "tuition": "Columbia College tuition is USD 72,800 for the nine-month 2026–27 year (USD 36,400 per Fall/Spring term), flat-rate regardless of credits during the standard eight terms. Mandatory fees are USD 3,430 annually; new-student orientation adds USD 625. Living costs are separate. This is not a verified 2027–28 quote.",
+    "fundingDetail": "Columbia College commits to meeting admitted students' assessed financial need; aid can continue for four undergraduate years while financial need persists. International students must apply for aid in their first year to remain eligible in later years. Academic, athletic and artistic merit scholarships are not offered. Individual awards are assessed, not guaranteed amounts.",
+    "selection": "For Columbia College first-year entry in fall 2027 (2026–27 admissions cycle), SAT/ACT submission remains optional. SAT or ACT becomes required for fall 2028 entry (2027–28 admissions cycle), with a waiver request available for applicants facing testing challenges. This is not an English-language testing exemption.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "northwestern-university-undergraduate-mathematics-northwestern-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual full-time tuition and fee figures are published, but the retrieved text lacks a year label.",
+        "url": "https://undergradaid.northwestern.edu/how-aid-works/cost-of-attendance/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The current testing FAQ is test optional and explicitly names the 2026–27 deadline dates.",
+        "url": "https://admissions.northwestern.edu/faqs/standardized-testing-policy/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International aid has first-year entry and annual reapplication conditions, covering full assessed need for selected recipients.",
+        "url": "https://undergradaid.northwestern.edu/help-support/international-students/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The current apply table names November 1, 2026 and January 4, 2027 first-year application deadlines.",
+        "url": "https://admissions.northwestern.edu/apply/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://undergradaid.northwestern.edu/how-aid-works/cost-of-attendance/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.northwestern.edu/faqs/standardized-testing-policy/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://undergradaid.northwestern.edu/help-support/international-students/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.northwestern.edu/apply/",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://undergradaid.northwestern.edu/how-aid-works/cost-of-attendance/",
+          "year": null,
+          "note": "Amount/charging basis reviewed; academic-year label unresolved."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://undergradaid.northwestern.edu/help-support/international-students/",
+          "year": null,
+          "note": "No fixed amount; need and first-year eligibility assessed individually."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.northwestern.edu/faqs/standardized-testing-policy/",
+          "year": "2026–27 application cycle",
+          "note": "Policy page explicitly discusses November 1, 2026 and January 4, 2027 deadlines."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admissions.northwestern.edu/apply/",
+          "year": "Fall 2027",
+          "note": "Deadline closing hour not verified."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "The reviewed undergraduate budget lists USD 71,802 full-time tuition and USD 1,260 fees per academic year. It does not explicitly label the academic year in the retrieved evidence; this amount is not verified as a 2026–27 or 2027–28 rate.",
+    "selection": "Northwestern is test optional for first-year applicants: SAT/ACT are not required. National school-leaving results required to complete secondary education remain required. English proficiency requirements are separate.",
+    "fundingDetail": "International admission is need aware. Selected admitted first-year international applicants receive full assessed need as grants/scholarships, without loans or required work. They must apply for and receive aid in year one, then reapply for years two through four. International transfer students are ineligible for this need-based aid.",
+    "cycle": "For fall 2027 first-year entry: Early Decision November 1, 2026; Regular Decision January 4, 2027. Transfer deadlines are distinct.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "First-year Early Decision",
+        "source": "https://admissions.northwestern.edu/apply/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-04",
+        "label": "First-year Regular Decision",
+        "source": "https://admissions.northwestern.edu/apply/"
+      }
+    ]
+  },
+  "cornell-university-undergraduate-mathematics-cornell-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Endowed-college annual tuition and mandatory fees are separately published.",
+        "url": "https://finaid.cornell.edu/cost-to-attend",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "First-year SAT/ACT requirements have been reinstated.",
+        "url": "https://admissions.cornell.edu/policies/standardized-testing-policy",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International aid is need-based, need-aware and subject to first-year application and annual reassessment.",
+        "url": "https://finaid.cornell.edu/frequently-asked-questions-about-international-financial-aid",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://finaid.cornell.edu/cost-to-attend",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.cornell.edu/policies/standardized-testing-policy",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://finaid.cornell.edu/frequently-asked-questions-about-international-financial-aid",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://finaid.cornell.edu/cost-to-attend",
+          "year": "2026–27",
+          "note": "Fall/Spring year; 2027–28 rate unverified."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://finaid.cornell.edu/frequently-asked-questions-about-international-financial-aid",
+          "year": null,
+          "note": "Award is assessed, not a fixed stipend."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.cornell.edu/policies/standardized-testing-policy",
+          "year": null,
+          "note": "Current first-year testing policy."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "USD 73,946 annual tuition in 2026–27 for Cornell's endowed colleges, including Arts and Sciences, regardless of New York residency; mandatory fees USD 1,024. Housing, food and health insurance are separate. Contract-college NY-resident discounts are a different fee category, not used for this mathematics route.",
+    "selection": "Cornell first-year applicants must submit SAT or ACT; self-reporting is allowed for review, with official scores required if enrolling. This first-year rule does not apply to transfer applicants.",
+    "fundingDetail": "International admission is need aware. Cornell meets full assessed need for admitted international aid applicants, offers no merit or athletic scholarships, and requires aid application with admission. Aid recipients must reapply annually; comparable finances normally yield comparable awards.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "duke-university-undergraduate-mathematics-duke-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The 2026–27 budget separates annual tuition, first-year/continuing fees and living expenses.",
+        "url": "https://financialaid.duke.edu/how-aid-calculated/cost-attendance/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The first-year requirements explicitly cover 2026–27 and make SAT/ACT optional.",
+        "url": "https://admissions.duke.edu/apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Counselor guidance recommends English testing when English is not the applicant's native language.",
+        "url": "https://admissions.duke.edu/counselors/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "First-year aid-interest declaration governs eligibility; current international aid recipients renew automatically.",
+        "url": "https://financialaid.duke.edu/international-students/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall 2027 first-year entry: binding Early Decision application November 2, 2026; Regular Decision January 4, 2027. ED financial-aid applications November 2 and additional aid documents November 15, 2026; RD financial-aid applications February 1, 2027. Midyear grades February 15, 2027 or as soon as available. FAFSA applies only to eligible applicants; aid dates are not admission deadlines.",
+        "url": "https://admissions.duke.edu/apply/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://financialaid.duke.edu/how-aid-calculated/cost-attendance/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.duke.edu/apply/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.duke.edu/counselors/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://financialaid.duke.edu/international-students/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://financialaid.duke.edu/how-aid-calculated/cost-attendance/",
+          "year": "2026–27",
+          "note": "Annual tuition; fee estimates differ by year in college."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://financialaid.duke.edu/international-students/",
+          "year": null,
+          "note": "Detailed individual award amount and academic conditions unverified."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.duke.edu/apply/",
+          "year": "2026–27 application cycle",
+          "note": "Transfer text on page contains a contradictory fall-2026 label; first-year cycle statement used."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admissions.duke.edu/apply/",
+          "year": "2026–27 admissions cycle",
+          "note": "Years follow the page's explicit 2026–27 first-year cycle, not its inconsistent transfer label.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "cycle"
+        ]
+      }
+    },
+    "tuition": "USD 73,740 tuition for the nine-month 2026–27 year. First-year estimated fees USD 3,019; continuing-student fee estimate USD 2,839. Housing, food and other costs are separate. Mathematics uses Trinity, not the extra Pratt engineering dues. The 2027–28 rate is unverified.",
+    "selection": "Duke is SAT/ACT test optional in the 2026–27 admission cycle; school records and other application materials are still assessed holistically. English proficiency testing is recommended for applicants whose native language is not English.",
+    "fundingDetail": "International applicants must indicate financial-aid interest on the admission application to remain eligible during undergraduate study. Existing international need-based aid renews automatically without reapplication; awards remain subject to offer conditions. No fixed personal amount is inferred.",
+    "cycle": "Fall 2027 first-year entry: binding Early Decision application November 2, 2026; Regular Decision January 4, 2027. ED financial-aid applications November 2 and additional aid documents November 15, 2026; RD financial-aid applications February 1, 2027. Midyear grades February 15, 2027 or as soon as available. FAFSA applies only to eligible applicants; aid dates are not admission deadlines.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-02",
+        "label": "First-year Early Decision (binding)",
+        "source": "https://admissions.duke.edu/apply/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-04",
+        "label": "First-year Regular Decision",
+        "source": "https://admissions.duke.edu/apply/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-11-02",
+        "label": "ED financial-aid applications; FAFSA only if eligible",
+        "source": "https://admissions.duke.edu/apply/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-15",
+        "label": "ED additional financial-aid documents",
+        "source": "https://admissions.duke.edu/apply/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-02-01",
+        "label": "RD financial-aid applications; FAFSA only if eligible",
+        "source": "https://admissions.duke.edu/apply/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-15",
+        "label": "Midyear grades, or as soon as available",
+        "source": "https://admissions.duke.edu/apply/"
+      }
+    ]
+  },
+  "university-of-california-los-angeles-undergraduate-mathematics-university-of-california-los-angeles": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The annual budget separates university fees, nonresident supplemental tuition and insurance.",
+        "url": "https://admission.ucla.edu/tuition-aid/tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "International guidance distinguishes test-free admission from English proficiency and academic records.",
+        "url": "https://admission.ucla.edu/apply/international-applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The official page states the undergraduate international aid exclusion and proof-of-funds requirement.",
+        "url": "https://admission.ucla.edu/apply/international-applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall 2027 first-year entry: UC application opens August 1, 2026; filing period October 1–November 30, 2026. Eligible applicants' FAFSA/California Dream Act/GPA verification deadline March 2, 2027 is separate from admission. Final official transcripts due July 1, 2027 and official AP/IB results July 15, 2027 for enrolling students.",
+        "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://admission.ucla.edu/tuition-aid/tuition-fees",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admission.ucla.edu/apply/international-applicants",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "label": "Official second-pass evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://admission.ucla.edu/tuition-aid/tuition-fees",
+          "year": "2026–27",
+          "note": "July 2026 current annual budget; domestic/nonresident residency distinctions."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admission.ucla.edu/apply/international-applicants",
+          "year": null,
+          "note": "Official international eligibility statement; other eligible immigration categories not separately checked."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admission.ucla.edu/apply/international-applicants",
+          "year": null,
+          "note": "No department entrance test inferred."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+          "year": "Fall 2027",
+          "note": "Official UC 2026–27 timetable explicitly labels fall 2027; aid eligibility is not implied for international students.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "cycle"
+        ]
+      }
+    },
+    "tuition": "UCLA's July 2026 annual nine-month budget lists USD 16,430 university fees, plus USD 39,270 nonresident supplemental tuition for nonresidents. Housing/food are separate; health insurance USD 3,885 may be waived with adequate coverage. The base line combines university charges rather than isolating tuition, and is not a 2027–28 quote.",
+    "selection": "UCLA does not use SAT/ACT for admission or scholarships. International applicants submit secondary-school records and any required language evidence; the admission English requirement is separate from standardized academic testing.",
+    "fundingDetail": "UCLA's international-admission page states that undergraduates who are not US citizens or permanent residents are not awarded UCLA scholarships or financial aid. International students must demonstrate funds for educational and living expenses; a graduate assistantship is not assumed for this bachelor route.",
+    "cycle": "Fall 2027 first-year entry: UC application opens August 1, 2026; filing period October 1–November 30, 2026. Eligible applicants' FAFSA/California Dream Act/GPA verification deadline March 2, 2027 is separate from admission. Final official transcripts due July 1, 2027 and official AP/IB results July 15, 2027 for enrolling students.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-30",
+        "label": "Fall 2027 first-year UC application filing closes",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-03-02",
+        "label": "Eligible applicants: FAFSA/California Dream Act/GPA verification",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-07-01",
+        "label": "Enrolling students: final official transcripts",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-07-15",
+        "label": "Enrolling students: official AP/IB examination results",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      }
+    ]
+  },
+  "university-of-michigan-undergraduate-mathematics-university-of-michigan": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "LSA tuition/fee estimates distinguish residency and completed-credit level.",
+        "url": "https://finaid.umich.edu/getting-started/estimating-costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "International requirements identify the current cycle and an optional ACT/SAT consideration choice.",
+        "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The international page states financial-aid ineligibility and generally unavailable scholarships for temporary-visa students.",
+        "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://finaid.umich.edu/getting-started/estimating-costs",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+        "label": "Official evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://finaid.umich.edu/getting-started/estimating-costs",
+          "year": "2026–27",
+          "note": "LSA annual two-semester estimate."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+          "year": "2026–27 application cycle",
+          "note": "International temporary-visa guidance only."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.umich.edu/apply/international-applicants/requirements-deadlines",
+          "year": "2026–27 application cycle",
+          "note": "Qualification-specific language exemptions not fully checked."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "For full-time Fall/Winter 2026–27 LSA study, tuition and fees are USD 18,896 lower division / USD 21,268 upper division for Michigan residents; USD 67,096 / USD 71,798 for nonresidents. These combined charges exclude living expenses. Lower division means 0–54 credits; upper division 55+. The 2027–28 rate is unverified.",
+    "selection": "In the 2026–27 application cycle, applicants may choose whether ACT/SAT are considered. International applicants need school records and English-language evidence where applicable; language proficiency is separate from the SAT/ACT choice.",
+    "fundingDetail": "Michigan's international admission guidance says students on temporary visas are not eligible for financial aid and should budget the full attendance cost; scholarships are generally unavailable. Domestic/resident aid policies were not separately audited.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "university-of-wisconsin-madison-undergraduate-mathematics-university-of-wisconsin-madison": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The bursar lists base tuition and separate segregated fees with annual totals for 2026–27.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Required-materials guidance distinguishes optional SAT/ACT from conditional English testing.",
+        "url": "https://admissions.wisc.edu/required-materials/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International scholarship guidance excludes federal/state aid and describes WiSH applications.",
+        "url": "https://admissions.wisc.edu/international-scholarships/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.wisc.edu/required-materials/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.wisc.edu/international-scholarships/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+          "year": "2026–27",
+          "note": "Academic-year base tuition; special residency categories unverified."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.wisc.edu/international-scholarships/",
+          "year": null,
+          "note": "Scholarship opportunities verified, not an award commitment."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.wisc.edu/required-materials/",
+          "year": "Through Spring 2028",
+          "note": "Current language-score scale/minimums not checked."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "For the 2026–27 academic year, UW–Madison's full-time undergraduate base tuition is USD 10,716.61 for Wisconsin residents and USD 44,232.12 for nonresidents, plus USD 1,699.48 segregated fees. Mathematics is not among the engineering/business/nursing differential programmes named here. Minnesota reciprocity and international-specific extras were not checked; 2027–28 rates remain unverified.",
+    "selection": "ACT/SAT are optional for Spring 2027, Fall 2027 and Spring 2028 applicants. Applicants educated in non-English-speaking countries normally need TOEFL, IELTS or DET unless all four secondary-school years used English as the primary language of instruction or an approved waiver applies.",
+    "fundingDetail": "International F-1/J-1 students do not qualify for US federal or Wisconsin state aid. Incoming and continuing international students can seek eligible awards through WiSH; some awards are automatic, others require applications. Amounts, duration and renewal are award-specific and were not independently established.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "university-of-illinois-urbana-champaign-undergraduate-mathematics-university-of-illinois-urbana-champaign": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual tuition/fee ranges differ by residency and major; mathematics is not separately priced in this evidence.",
+        "url": "https://www.admissions.illinois.edu/tuition/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The first-year process separates optional SAT/ACT from possible English-language testing.",
+        "url": "https://www.admissions.illinois.edu/first-year-apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Official aid guidance excludes international undergraduate need-based aid but identifies limited alternatives.",
+        "url": "https://www.admissions.illinois.edu/financial-aid/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The timeline differentiates application and supporting-material dates without explicit year labels.",
+        "url": "https://www.admissions.illinois.edu/first-year-dates/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.admissions.illinois.edu/tuition/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://www.admissions.illinois.edu/first-year-apply/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://www.admissions.illinois.edu/financial-aid/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://www.admissions.illinois.edu/first-year-dates/",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.admissions.illinois.edu/tuition/",
+          "year": "2026–27",
+          "note": "University-wide categories reviewed, but exact assigned-major tuition unresolved."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.admissions.illinois.edu/financial-aid/",
+          "year": null,
+          "note": "International aid eligibility only; specific award terms not established."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.admissions.illinois.edu/first-year-apply/",
+          "year": "Fall 2027",
+          "note": "Current page explicitly mentions Fall 2027 TOEFL Home Edition acceptance; language thresholds not checked."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.admissions.illinois.edu/first-year-dates/",
+          "year": null,
+          "note": "Unyear-labelled month/day timetable. Published recurring rules reviewed; exact intake/calendar years remain unresolved, so no projected dated entries."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Illinois publishes 2026–27 annual full-time tuition/fee ranges: USD 18,530–24,018 in-state; USD 41,206–49,618 out-of-state; USD 42,248–53,078 international. These are university-wide ranges depending on major, not an exact Mathematics BSLAS quote; living expenses are separate. The mathematics-specific and 2027–28 rate remain unverified.",
+    "selection": "Illinois first-year admission is SAT/ACT test optional, including international applicants. Submitted scores may be self-reported, with official results required on enrollment; a separate TOEFL, IELTS or DET requirement may apply.",
+    "fundingDetail": "Illinois does not provide need-based financial aid to international undergraduates. Limited scholarship or loan opportunities may be available through International Student and Scholar Services; applicants must plan funding for the entire degree. No award amount or renewal is guaranteed.",
+    "cycle": "The published first-year timeline lists Early Action November 1 (materials November 7) and Regular January 5 (materials January 11), 11:59 p.m. Central Time. The reviewed timeline does not label the calendar years/intake, so no 2027 dates are generated.",
+    "applicationDates": []
+  },
+  "rutgers-university-new-brunswick-undergraduate-mathematics-rutgers-university-new-brunswick": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The New Brunswick table separates resident/nonresident tuition, fees and living costs.",
+        "url": "https://admissions.rutgers.edu/costs-and-aid/tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "First-year campus-specific guidance retains optional SAT/ACT for New Brunswick.",
+        "url": "https://admissions.rutgers.edu/apply/first-year-applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International scholarship section gives amount range, four-year duration and minimum renewal GPA.",
+        "url": "https://admissions.rutgers.edu/new-brunswick-scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The New Brunswick table labels Fall 2027 and exact 2026 application dates.",
+        "url": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://admissions.rutgers.edu/costs-and-aid/tuition-fees",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.rutgers.edu/apply/first-year-applicants",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.rutgers.edu/new-brunswick-scholarships",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://admissions.rutgers.edu/costs-and-aid/tuition-fees",
+          "year": "2026–27",
+          "note": "New Brunswick undergraduate published annual estimate; school-specific caveat retained."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.rutgers.edu/new-brunswick-scholarships",
+          "year": null,
+          "note": "No scholarship assumed awarded."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.rutgers.edu/apply/first-year-applicants",
+          "year": "Through 2027",
+          "note": "New Brunswick campus; Newark medical-program rules not transferred to mathematics."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick",
+          "year": "Fall 2027",
+          "note": "Closing hour not independently verified."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "Rutgers–New Brunswick's 2026–27 annual tuition estimate is USD 15,381 New Jersey resident / USD 36,831 nonresident, with USD 4,008 fees. F-1/J-1 students pay the nonresident rate and face additional SEVIS, insurance and other costs. School-specific charges may differ; 2027–28 rates are unverified.",
+    "selection": "Rutgers' first-year guidance maintains test-optional/test-blind policies through 2027; the New Brunswick route permits optional SAT/ACT submission. Required academic records remain part of admission. Language requirements and special-program exceptions are separate.",
+    "fundingDetail": "Admitted first-year international students on valid non-immigrant visas are considered automatically for competitive Rutgers–New Brunswick awards of USD 5,000–16,000 per year for four undergraduate years. No separate application; recipients must maintain at least 3.25 GPA and meet the offer's enrollment/renewal conditions.",
+    "cycle": "For Fall/September 2027: Early Action November 1, 2026; Regular Decision December 1, 2026. Applications after deadlines are considered only where schools remain open and space permits. December 1 is also the honors/merit consideration deadline.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "First-year Early Action",
+        "source": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "First-year Regular Decision and honors/merit consideration",
+        "source": "https://admissions.rutgers.edu/apply/dates-deadlines/new-brunswick"
+      }
+    ]
+  },
+  "university-of-maryland-undergraduate-mathematics-university-of-maryland": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The official annual budget separates residency-based tuition and mandatory fees.",
+        "url": "https://financialaid.umd.edu/resources-policies/cost-attendance",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "International requirements explicitly retain test-optional admission through Fall 2027.",
+        "url": "https://admissions.umd.edu/apply/international-applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International financial certification requires funds and states UMD's assistance limitation.",
+        "url": "https://admissions.umd.edu/apply/financial-certification",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The fall table supplies month/day deadlines without a current intake-year heading.",
+        "url": "https://admissions.umd.edu/apply/application-deadlines",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://financialaid.umd.edu/resources-policies/cost-attendance",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.umd.edu/apply/international-applicants",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.umd.edu/apply/financial-certification",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.umd.edu/apply/application-deadlines",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://financialaid.umd.edu/resources-policies/cost-attendance",
+          "year": "2026–27",
+          "note": "Annual base undergraduate tuition; international extras unresolved."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.umd.edu/apply/financial-certification",
+          "year": null,
+          "note": "International eligibility statement, not all domestic aid policies."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.umd.edu/apply/international-applicants",
+          "year": "Spring/Fall 2027",
+          "note": "Exact accepted language tests/waivers and evaluation applicability not fully checked."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admissions.umd.edu/apply/application-deadlines",
+          "year": null,
+          "note": "Recurring schedule only; outdated illustrative year retained as limitation. Published recurring rules reviewed; exact intake/calendar years remain unresolved, so no projected dated entries."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "Maryland's 2026–27 annual undergraduate estimate separates tuition of USD 11,014 Maryland resident / USD 42,266 nonresident and USD 1,820 mandatory fees. Housing and other costs are separate. Additional international or programme charges and 2027–28 rates were not verified.",
+    "selection": "UMD is SAT/ACT test optional through Spring and Fall 2027. International applicants must also meet English proficiency and applicable non-US credential-evaluation requirements; the academic-test choice does not waive those assessments.",
+    "fundingDetail": "UMD's financial-certification page says the university cannot provide financial assistance to international students. Admitted F-1/J-1 students must show resources for one year's tuition, fees, books, insurance and living costs after accepting enrollment. Maryland-resident aid is a separate category.",
+    "cycle": "UMD publishes recurring fall freshman deadlines of November 1 Early Action and January 20 Regular Decision for both US and international applicants. The table does not label Fall 2027; its date-year example is Fall 2024. No exact 2027 dates are inferred.",
+    "applicationDates": []
+  },
+  "university-of-california-berkeley-undergraduate-mathematics-university-of-california-berkeley": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The new-student budget lists tuition/fees by entry cohort and warns rates may change.",
+        "url": "https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "The separate prospective-student budget lists USD 18,134 tuition/fees, differing from the cohort budget.",
+        "url": "https://financialaid.berkeley.edu/prospective-students/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The official testing FAQ excludes SAT/ACT from admission and scholarship review.",
+        "url": "https://admissions.berkeley.edu/application-faqs/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The types-of-aid page distinguishes international aid ineligibility from the AB 540 route.",
+        "url": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/types-of-aid/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall 2027 first-year entry: UC application opens August 1, 2026; filing period October 1–November 30, 2026. Eligible applicants' FAFSA/California Dream Act/GPA verification deadline March 2, 2027 is separate from admission. Final official transcripts due July 1, 2027 and official AP/IB results July 15, 2027 for enrolling students.",
+        "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://financialaid.berkeley.edu/prospective-students/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.berkeley.edu/application-faqs/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/types-of-aid/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+        "label": "Official second-pass evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://financialaid.berkeley.edu/how-aid-works/student-budgets-cost-of-attendance/",
+          "year": "2026–27",
+          "note": "Conflicting official base totals; nonresident supplement not reviewed."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.berkeley.edu/cost/apply-for-financial-aid/types-of-aid/",
+          "year": null,
+          "note": "Scope is aid managed by the named office; no blanket denial of every external award."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.berkeley.edu/application-faqs/",
+          "year": null,
+          "note": "Use official test-free policy; no score cutoff or admission chance."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html",
+          "year": "Fall 2027",
+          "note": "Official UC 2026–27 timetable explicitly labels fall 2027; aid eligibility is not implied for international students.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "cycle"
+        ]
+      }
+    },
+    "tuition": "Berkeley's 2026–27 new-student budget lists USD 18,214 annual tuition and fees, before nonresident supplemental tuition, housing and insurance. A different official prospective-student page lists USD 18,134. The exact nonresident total and resolution of this USD 80 discrepancy were not verified; no single final mathematics price is asserted.",
+    "selection": "Berkeley does not use SAT/ACT for admissions evaluation, selection or scholarships. Academic records and personal insight questions are reviewed holistically. English proficiency and course-placement rules are separate.",
+    "fundingDetail": "International students are ineligible for federal aid and institutional aid administered by Berkeley's Financial Aid and Scholarships Office. AB 540 nonresident-tuition-waiver students have a separate Dream Act aid route; eligibility must not be inferred from a student visa.",
+    "cycle": "Fall 2027 first-year entry: UC application opens August 1, 2026; filing period October 1–November 30, 2026. Eligible applicants' FAFSA/California Dream Act/GPA verification deadline March 2, 2027 is separate from admission. Final official transcripts due July 1, 2027 and official AP/IB results July 15, 2027 for enrolling students.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-30",
+        "label": "Fall 2027 first-year UC application filing closes",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-03-02",
+        "label": "Eligible applicants: FAFSA/California Dream Act/GPA verification",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-07-01",
+        "label": "Enrolling students: final official transcripts",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-07-15",
+        "label": "Enrolling students: official AP/IB examination results",
+        "source": "https://admission.universityofcalifornia.edu/how-to-apply/applying-as-a-first-year/dates-and-deadlines.html"
+      }
+    ]
+  },
+  "stony-brook-university-undergraduate-mathematics-stony-brook-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Fall 2026 billing specifies tuition by credits, separately from fee lines.",
+        "url": "https://www.stonybrook.edu/sfs/tuition-fees/Undergraduate%20Tuition%20and%20Fee%20Per%20Credit%20Rate%20Chart.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The scholarship page explicitly targets Fall 2027 and describes renewable 50%-tuition support.",
+        "url": "https://www.stonybrook.edu/commcms/welcome/scholarship/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The admission page labels Fall 2027 first-year Early Action and Regular Decision dates.",
+        "url": "https://www.stonybrook.edu/sbroot/undergraduate-admissions/apply/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The Fall 2027 scholarship instructions explicitly identify the early application deadline as November 1, 2026.",
+        "url": "https://www.stonybrook.edu/commcms/welcome/scholarship/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "First-year admission is holistic and SAT/ACT optional. International applicants must separately establish English proficiency unless exempt through a native English-speaking country or English-medium school. Published minima include IELTS 6.5, Duolingo 105, PTE Academic 53, and TOEFL iBT 80 before January 21, 2026 or 4 after that date. Three completed years of school grades and one teacher/counselor recommendation are required; honors routes have additional requirements.",
+        "url": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.stonybrook.edu/sfs/tuition-fees/Undergraduate%20Tuition%20and%20Fee%20Per%20Credit%20Rate%20Chart.html",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://www.stonybrook.edu/commcms/welcome/scholarship/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://www.stonybrook.edu/sbroot/undergraduate-admissions/apply/",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "url": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+        "label": "Official second-pass evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.stonybrook.edu/sfs/tuition-fees/Undergraduate%20Tuition%20and%20Fee%20Per%20Credit%20Rate%20Chart.html",
+          "year": "Fall 2026",
+          "note": "Per-semester 12-credit tuition; not annualized."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.stonybrook.edu/commcms/welcome/scholarship/",
+          "year": "Fall 2027",
+          "note": "Scholarship duration/renewal conditions not fully specified in reviewed text."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.stonybrook.edu/undergraduate-admissions/first-year/international.html",
+          "year": null,
+          "note": "TOEFL date boundary reproduced as published (before/after January 21); exact-day ambiguity remains. SAT/ACT admission optionality does not waive language evidence.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.stonybrook.edu/sbroot/undergraduate-admissions/apply/",
+          "year": "Fall 2027",
+          "note": "Entry term explicitly labelled; first-year and transfer dates distinguished."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "selection"
+        ]
+      }
+    },
+    "tuition": "Stony Brook's Fall 2026 undergraduate billing chart charges USD 3,535 New York resident / USD 16,690 nonresident tuition for a 12-credit semester; fees are additional. This term-specific rate supersedes use of the earlier annual nonresident estimate for that term. Spring 2027 and Fall 2027 rates were not verified or extrapolated.",
+    "fundingDetail": "For Fall 2027 first-year international applicants, the competitive You Are Welcome Here scholarship covers 50% of tuition annually and is renewable. Selection assesses academics and intercultural leadership; awardees must enroll full time and pay their enrollment deposit by May 1, 2027. Full duration and retention conditions are in the offer letter.",
+    "cycle": "Stony Brook's first-year Fall 2027 application timeline lists Early Action November 1 and Regular Decision January 15; the application opens August 1. Late admission is space available. The Fall 2027 scholarship source explicitly identifies the Early Action date as November 1, 2026.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "Fall 2027 first-year Early Action; year corroborated by scholarship instructions",
+        "source": "https://www.stonybrook.edu/sbroot/undergraduate-admissions/apply/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-15",
+        "label": "Fall 2027 first-year Regular Decision",
+        "source": "https://www.stonybrook.edu/sbroot/undergraduate-admissions/apply/"
+      }
+    ],
+    "selection": "First-year admission is holistic and SAT/ACT optional. International applicants must separately establish English proficiency unless exempt through a native English-speaking country or English-medium school. Published minima include IELTS 6.5, Duolingo 105, PTE Academic 53, and TOEFL iBT 80 before January 21, 2026 or 4 after that date. Three completed years of school grades and one teacher/counselor recommendation are required; honors routes have additional requirements."
+  },
+  "university-of-massachusetts-amherst-undergraduate-mathematics-university-of-massachusetts-amherst": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The annual undergraduate aid guide separates tuition/fees by residency from living and insurance costs.",
+        "url": "https://www.umass.edu/financialaid/guide-understanding-financial-aid-2026-2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Required-materials and subject-unit lists distinguish optional SAT/ACT from English proficiency and school mathematics.",
+        "url": "https://www.umass.edu/admissions/first-year-admissions-requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "USD 90 application fee.",
+        "url": "https://www.umass.edu/admissions/first-year-admissions-requirements",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International students may receive admissions merit awards despite exclusion from most FAFSA-based aid.",
+        "url": "https://www.umass.edu/financialaid/undergraduate/eligibility/international-students",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Merit renewals require full-time undergraduate enrollment and satisfactory academic progress.",
+        "url": "https://www.umass.edu/admissions/scholarships",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.umass.edu/financialaid/guide-understanding-financial-aid-2026-2027",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://www.umass.edu/admissions/first-year-admissions-requirements",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://www.umass.edu/financialaid/undergraduate/eligibility/international-students",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://www.umass.edu/admissions/scholarships",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.umass.edu/financialaid/guide-understanding-financial-aid-2026-2027",
+          "year": "2026–27",
+          "note": "Combined tuition/fees, not tuition alone."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.umass.edu/financialaid/undergraduate/eligibility/international-students",
+          "year": null,
+          "note": "International merit eligibility verified; individual amount/duration unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.umass.edu/admissions/first-year-admissions-requirements",
+          "year": null,
+          "note": "Current first-year minimum preparation, not a competitive grade cutoff."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "UMass Amherst's nine-month full-time 2026–27 budget gives combined tuition/fees of USD 19,212 Massachusetts resident; USD 43,299 out-of-state; USD 36,362 eligible regional; USD 43,819 international. Housing/food and international insurance are additional. Regional eligibility was not independently audited; 2027–28 rates remain unverified.",
+    "selection": "UMass first-year admission permits optional SAT/ACT scores. Submit Common Application, official high-school/college transcripts and a recommendation; the self-reported academic record is optional. Non-native English speakers must demonstrate English proficiency. Four high-school mathematics units including senior-year mathematics are required.",
+    "fees": "USD 90 application fee.",
+    "fundingDetail": "International undergraduates are considered for merit scholarships in admission, although most other aid requires eligible citizenship and a FAFSA. Merit awards renew with full-time undergraduate enrollment and satisfactory academic progress; the exact international amount and maximum duration were not established.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "university-of-minnesota-twin-cities-undergraduate-mathematics-university-of-minnesota-twin-cities": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The undergraduate budget separates residency and explicitly identifies the CSE annual tuition surcharge.",
+        "url": "https://onestop.umn.edu/finances/costs/cost-attendance",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The current SAT/ACT page extends test-optional first-year admission through Fall 2029.",
+        "url": "https://admissions.tc.umn.edu/admissions/freshman-admission/act-sat-information",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International freshman awards cover tuition only, require financial certification and exclude resident/reciprocity tuition.",
+        "url": "https://admissions.tc.umn.edu/global-excellence-scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "For admitted fall 2027 first-year students (Class of 2031): FAFSA priority March 1, 2027 for eligible applicants; final high-school transcript and applicable official test scores July 1, 2027. These are aid/supporting-document dates after admission, not first-year application cutoffs; admission-round deadlines remain unverified in this audit.",
+        "url": "https://admissions.tc.umn.edu/hs-counselor-guidebook/checklist-admitted-students",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://onestop.umn.edu/finances/costs/cost-attendance",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/admissions/freshman-admission/act-sat-information",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/global-excellence-scholarships",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.tc.umn.edu/hs-counselor-guidebook/checklist-admitted-students",
+        "label": "Official second-pass evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://onestop.umn.edu/finances/costs/cost-attendance",
+          "year": "2026–27",
+          "note": "CSE supplement must be added; international-specific charges unresolved."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admissions.tc.umn.edu/global-excellence-scholarships",
+          "year": null,
+          "note": "Amount range and duration current on reviewed page; no guaranteed award."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.tc.umn.edu/admissions/freshman-admission/act-sat-information",
+          "year": "Through Fall 2029",
+          "note": "Dedicated current testing policy used."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/checklist-admitted-students",
+          "year": "Fall 2027",
+          "note": "Explicit fall 2027 admitted-student calendar verified; do not label confirmation or housing dates as application deadlines.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "cycle"
+        ]
+      }
+    },
+    "tuition": "Minnesota's 2026–27 Fall/Spring budget lists annual combined tuition/fees of USD 19,312 resident / USD 43,348 nonresident, based on 13 credits each semester. This Mathematics BS belongs to CSE, which adds USD 3,100 per year beyond the table. International attendance budgets are calculated separately; the exact international and 2027–28 charges were not verified.",
+    "selection": "Minnesota first-year applicants through Fall 2029 need not submit SAT/ACT. Applicants without scores receive full admission, scholarship and honors consideration. The dedicated testing page extends beyond older overview pages that still mention Fall 2027.",
+    "fundingDetail": "Global Excellence Scholarships competitively waive USD 5,000–20,000 of nonresident tuition each year for up to four years for eligible international freshmen. Apply by the freshman deadline and complete the Certification of Finances Form. Valid non-immigrant status is required; students assessed resident/reciprocity tuition are ineligible. Detailed academic renewal criteria remain to be checked in the offer.",
+    "cycle": "For admitted fall 2027 first-year students (Class of 2031): FAFSA priority March 1, 2027 for eligible applicants; final high-school transcript and applicable official test scores July 1, 2027. These are aid/supporting-document dates after admission, not first-year application cutoffs; admission-round deadlines remain unverified in this audit.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2027-03-01",
+        "label": "FAFSA priority for eligible applicants; not admission deadline",
+        "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/checklist-admitted-students"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-07-01",
+        "label": "Admitted students: final transcript and applicable official test scores",
+        "source": "https://admissions.tc.umn.edu/hs-counselor-guidebook/checklist-admitted-students"
+      }
+    ]
+  },
+  "brown-university-undergraduate-mathematics-brown-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The cost page separates annual first-year tuition, fees and living expenses.",
+        "url": "https://finaid.brown.edu/estimate-cost-aid/cost?ftag=YHFa5b931b",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Regular Decision guidance states the reinstated SAT/ACT requirement.",
+        "url": "https://admission.brown.edu/first-year/regular-decision",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "All first-year applicants receive need-blind review and admitted aid applicants have full assessed need met.",
+        "url": "https://admission.brown.edu/tuition-aid/financial-aid",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The page gives exact 2026/2027 filing dates for the two aid rounds.",
+        "url": "https://admission.brown.edu/tuition-aid/financial-aid",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://finaid.brown.edu/estimate-cost-aid/cost?ftag=YHFa5b931b",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admission.brown.edu/first-year/regular-decision",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admission.brown.edu/tuition-aid/financial-aid",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://finaid.brown.edu/estimate-cost-aid/cost?ftag=YHFa5b931b",
+          "year": "2026–27",
+          "note": "Annual first-year tuition/fee budget."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://admission.brown.edu/tuition-aid/financial-aid",
+          "year": null,
+          "note": "Need-based policy checked; award amount and renewal procedure incomplete."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admission.brown.edu/first-year/regular-decision",
+          "year": null,
+          "note": "Current first-year testing policy."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admission.brown.edu/tuition-aid/financial-aid",
+          "year": "2027–28",
+          "note": "Exact aid dates reviewed; admission dates unresolved."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "Brown's 2026–27 Fall/Spring full-time first-year budget lists USD 74,568 tuition and USD 3,084 fees (including a USD 100 first-time academic-record fee). Housing, food and indirect expenses are separate. This published year is distinct from Fall 2027 entry.",
+    "selection": "Brown requires SAT or ACT for first-year admission, having restored the requirement from the 2024–25 application cycle. Scores are considered in context and may be superscored; language requirements were not independently checked.",
+    "fundingDetail": "Brown meets full assessed financial need and uses need-blind admission for all first-year applicants, including international applicants. Aid requires separate filing; the reviewed page does not establish a fixed personal award or complete renewal terms.",
+    "cycle": "Financial-aid filing deadlines are November 2, 2026 for Early Decision and February 1, 2027 for Regular Decision (CSS Profile and, where eligible, FAFSA). These are aid deadlines, not admission deadlines; the exact Fall 2027 admission dates were not separately established.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-11-02",
+        "label": "Early Decision financial-aid filing",
+        "source": "https://admission.brown.edu/tuition-aid/financial-aid"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-02-01",
+        "label": "Regular Decision financial-aid filing",
+        "source": "https://admission.brown.edu/tuition-aid/financial-aid"
+      }
+    ]
+  },
+  "university-of-pennsylvania-undergraduate-mathematics-university-of-pennsylvania": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The annual budget separates billed tuition/fees from housing and indirect expenses.",
+        "url": "https://srfs.upenn.edu/costs-budgeting/undergraduate-cost-attendance",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Current testing guidance requires SAT/ACT and allows hardship waivers.",
+        "url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Undergraduate grant aid covers assessed need for eight semesters and excludes academic/athletic merit awards.",
+        "url": "https://srfs.upenn.edu/financial-aid/grants-and-scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International recipients must have requested aid during admission and must submit a new aid application annually.",
+        "url": "https://srfs.upenn.edu/financial-aid/apply/current-ug-checklists/international",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Penn's international-aid FAQ describes need-aware admission under a limited international aid budget.",
+        "url": "https://srfs.upenn.edu/financial-aid/international-faq",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://srfs.upenn.edu/costs-budgeting/undergraduate-cost-attendance",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://srfs.upenn.edu/financial-aid/grants-and-scholarships",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://srfs.upenn.edu/financial-aid/apply/current-ug-checklists/international",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://srfs.upenn.edu/financial-aid/international-faq",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://srfs.upenn.edu/costs-budgeting/undergraduate-cost-attendance",
+          "year": "2026–27",
+          "note": "Annual traditional undergraduate tuition and mandatory fees."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://srfs.upenn.edu/financial-aid/grants-and-scholarships",
+          "year": null,
+          "note": "No fixed award; detailed Canada/Mexico classification not fully checked."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing",
+          "year": "2026–27 application cycle",
+          "note": "Hardship waiver is not unconditional test-optional admission."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "Penn's 2026–27 annual undergraduate budget lists USD 65,670 tuition and USD 8,308 mandatory fees. Housing, food, books and other costs are separate; tuition and fees are fixed across the listed living arrangements. Fall 2027 entry will use a different academic year's schedule.",
+    "selection": "Penn requires SAT or ACT for the 2026–27 application cycle, including domestic, international and homeschooled first-year applicants. A hardship waiver may be requested in the application; self-reported scores are accepted for review. Language proficiency remains a separate requirement.",
+    "fundingDetail": "Penn's undergraduate aid is need-based rather than academic/athletic merit aid and meets assessed need for eight academic semesters with grant-based aid. International applicants must request aid with admission; recipients reapply annually. International admission is need aware for the limited international aid budget; citizenship/residency exceptions require the official classification rules.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "california-institute-of-technology-undergraduate-mathematics-california-institute-of-technology": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The cost page separates tuition, fees and optional-plan insurance expense.",
+        "url": "https://www.finaid.caltech.edu/Costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Fall 2027 testing instructions require SAT/ACT and make ACT science/writing optional.",
+        "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The international first-year guidance separately requires English proficiency testing where applicable.",
+        "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International first-year aid timing governs future eligibility, with Canada/Mexico exceptions and annual reapplication.",
+        "url": "https://www.finaid.caltech.edu/applying/how/newinternationalrd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "International guidance explicitly gives the January 4, 2027 Regular Decision deadline.",
+        "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.finaid.caltech.edu/Costs",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://www.finaid.caltech.edu/applying/how/newinternationalrd",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.finaid.caltech.edu/Costs",
+          "year": "2026–27",
+          "note": "Annual three-term undergraduate attendance budget."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.finaid.caltech.edu/applying/how/newinternationalrd",
+          "year": null,
+          "note": "Application/renewal eligibility verified; amount and duration incomplete."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/standardized-tests",
+          "year": "Fall 2027",
+          "note": "No research-derived score threshold recast as a formal minimum."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants",
+          "year": "Fall 2027",
+          "note": "Regular Decision verified; REA calendar year not established from text alone."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Caltech's nine-month full-time 2026–27 undergraduate budget lists USD 68,574 tuition and USD 2,655 fees. Housing, food and other expenses are separate; the student insurance plan adds USD 5,388 for the year if used. These are published 2026–27 charges, not a Fall 2027 quote.",
+    "selection": "Fall 2027 first-year applicants must submit SAT or ACT. ACT writing and science subscores are not required; Caltech evaluates individual subscores rather than the ACT composite. International applicants also have an English-proficiency requirement with applicable exemptions; this is separate from SAT/ACT.",
+    "fundingDetail": "International applicants must request need-based aid by the published first-year deadlines. Those who do not apply or are denied first-year aid ordinarily cannot receive it later; Canada/Mexico citizens and permanent residents have an exception. Eligible aid recipients reapply annually. Award amounts and full duration were not established.",
+    "cycle": "Caltech's international first-year page explicitly gives Regular Decision January 4, 2027. The separate REA page lists November 1 with supporting materials November 6 and testing before November 30; only the exact year-labelled Regular Decision date is included here.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-04",
+        "label": "First-year Regular Decision",
+        "source": "https://www.admissions.caltech.edu/apply/first-year-applicants/international-applicants"
+      }
+    ]
+  },
+  "university-of-arizona-undergraduate-mathematics-university-of-arizona": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The incoming-student budget distinguishes resident/nonresident tuition and fees.",
+        "url": "https://financialaid.arizona.edu/cost/incoming",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The checklist says SAT/ACT are optional and can serve placement/core-competency purposes.",
+        "url": "https://www.arizona.edu/admissions/undergraduate/first-year",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Domestic first-year application fee: USD 50 Arizona resident / USD 80 non-Arizona resident, nonrefundable and nontransferable. International application fee was not checked.",
+        "url": "https://www.arizona.edu/admissions/undergraduate/first-year",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The Main Campus first-year section explicitly labels Fall 2027 opening and Early Action dates.",
+        "url": "https://www.arizona.edu/admissions/deadlines",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Competitive Wildcat Tuition Awards target selected Arizona-resident first-time, full-time degree students; Arizona Tuition Awards target selected non-Arizona high-school graduates in that category. Awards depend on funds and eligibility. Renewal may run for four consecutive years/eight fall–spring semesters subject to annual criteria. Spring entrants and Arizona Online students are excluded from these first-year awards. Amounts, detailed renewal thresholds and international eligibility remain unresolved.",
+        "url": "https://www.arizona.edu/admissions/undergraduate/first-year/merit-scholarships",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://financialaid.arizona.edu/cost/incoming",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://www.arizona.edu/admissions/undergraduate/first-year",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://www.arizona.edu/admissions/deadlines",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "url": "https://www.arizona.edu/admissions/undergraduate/first-year/merit-scholarships",
+        "label": "Official second-pass evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://financialaid.arizona.edu/cost/incoming",
+          "year": "2026–27",
+          "note": "Annual estimated tuition and fees combined."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.arizona.edu/admissions/undergraduate/first-year/merit-scholarships",
+          "year": null,
+          "note": "Award overview reviewed; its linked cohort-specific terms were not reviewed, so no amount, guaranteed award or international eligibility is inferred.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.arizona.edu/admissions/undergraduate/first-year",
+          "year": null,
+          "note": "General first-year policy; no departmental entrance exam inferred."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.arizona.edu/admissions/deadlines",
+          "year": "Fall 2027",
+          "note": "June 1, 2027 on the page is a transfer deadline and is not assigned to first-year applicants."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "fundingDetail"
+        ]
+      }
+    },
+    "tuition": "Arizona's 2026–27 Fall/Spring incoming-student budget lists combined tuition/fees of USD 13,900 Arizona resident / USD 44,400 nonresident. These are published estimates; housing and living costs are separate. International-specific fees and the Fall 2027 price were not fully checked.",
+    "selection": "SAT/ACT are not required for Arizona general first-year admission. Submitted official scores may assist course placement or fulfil core competency requirements. Grade reporting uses high-school transcripts; honors has separate required essays. International and language requirements are separate.",
+    "fees": "Domestic first-year application fee: USD 50 Arizona resident / USD 80 non-Arizona resident, nonrefundable and nontransferable. International application fee was not checked.",
+    "cycle": "Arizona Main Campus Fall 2027 first-year applications opened August 1, 2026; Early Action deadline November 1, 2026. Later applications follow Regular Decision batches on a space-available basis; the reviewed page does not give a fixed final first-year deadline.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "Main Campus first-year Early Action; later consideration depends on space",
+        "source": "https://www.arizona.edu/admissions/deadlines"
+      }
+    ],
+    "fundingDetail": "Competitive Wildcat Tuition Awards target selected Arizona-resident first-time, full-time degree students; Arizona Tuition Awards target selected non-Arizona high-school graduates in that category. Awards depend on funds and eligibility. Renewal may run for four consecutive years/eight fall–spring semesters subject to annual criteria. Spring entrants and Arizona Online students are excluded from these first-year awards. Amounts, detailed renewal thresholds and international eligibility remain unresolved."
+  },
+  "university-of-utah-undergraduate-mathematics-university-of-utah": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The cost page separates residency-based tuition/fees from housing and living expenses.",
+        "url": "https://financialaid.utah.edu/tuition-and-fees/cost-of-attendance.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The Fall 2027 scholarship page gives December 1, 2026 application priority and merit notification timing.",
+        "url": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The Fall 2027 page explicitly labels the December 1, 2026 Early Action/merit priority deadline.",
+        "url": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Utah uses individualized holistic undergraduate review. SAT/ACT scores are optional for ordinary first-year applicants, but may be required when academic credentials are unavailable or difficult to compare, or when additional evidence of preparation is needed. An official school transcript is required. English-language proficiency requirements are a separate policy for applicable applicants; test-optional admission does not waive them.",
+        "url": "https://regulations.utah.edu/academics/6-404.php",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://financialaid.utah.edu/tuition-and-fees/cost-of-attendance.php",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://regulations.utah.edu/academics/6-404.php",
+        "label": "Official second-pass evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://financialaid.utah.edu/tuition-and-fees/cost-of-attendance.php",
+          "year": "2026–27",
+          "note": "Published average annual undergraduate budget."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/",
+          "year": "2027–28",
+          "note": "Admission-based scholarship consideration verified; complete award terms unresolved."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://regulations.utah.edu/academics/6-404.php",
+          "year": null,
+          "note": "Current university Policy 6-404 verified, including testing exceptions. Accepted English tests, numeric minima and qualification-specific exemptions not checked.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/",
+          "year": "Fall 2027",
+          "note": "Priority deadline verified; final admission date not independently checked."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "selection"
+        ]
+      }
+    },
+    "tuition": "Utah's 2026–27 annual undergraduate cost estimate gives combined tuition/fees of USD 10,480 resident / USD 32,932 nonresident / USD 15,720 eligible WUE student. These are average two-semester charges, not a personalized bill; living expenses and programme extras are separate. WUE eligibility and 2027–28 charges were not established.",
+    "fundingDetail": "For Fall 2027, a complete admission application by December 1, 2026 is also the application for university merit scholarships; eligibility is decided by Admissions. Merit decisions accompany eligible recipients' admission notifications, beginning January 18, 2027. Award amounts, international eligibility and renewal vary and were not fully established.",
+    "cycle": "Fall 2027 merit scholarship consideration and admission Early Action require a completed admission application by December 1, 2026. This is the priority deadline, not a verified final admission cutoff.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "Early Action priority and university merit consideration",
+        "source": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "Completed admission application for university merit consideration",
+        "source": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/"
+      }
+    ],
+    "selection": "Utah uses individualized holistic undergraduate review. SAT/ACT scores are optional for ordinary first-year applicants, but may be required when academic credentials are unavailable or difficult to compare, or when additional evidence of preparation is needed. An official school transcript is required. English-language proficiency requirements are a separate policy for applicable applicants; test-optional admission does not waive them."
+  },
+  "michigan-state-university-undergraduate-mathematics-michigan-state-university": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "The Fall 2027 page allows international applicants to omit SAT/ACT and addresses English proficiency separately.",
+        "url": "https://admissions.msu.edu/apply/international/act-sat-test-optional",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The international scholarship page distinguishes automatic consideration from selection and states the Honors award's annual amount/duration.",
+        "url": "https://admissions.msu.edu/cost-aid/scholarships/international",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The Fall 2027 page gives November 1 Early Action and maximum scholarship consideration.",
+        "url": "https://admissions.msu.edu/apply/first-year/act-sat-test-optional",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Published fall 2026 and spring 2027 international undergraduate Core-unit tuition (including Natural Science) is USD 22,520 per semester for freshmen/sophomores taking 12–18 credits; juniors/seniors USD 23,188 per semester. Fewer than 12 credits use per-credit rates; over 18 adds per-credit tuition. These are tuition amounts, excluding living costs and separately assessed fees; domestic/resident rates and 2027–28 entry rates were not verified.",
+        "url": "https://controller.msu.edu/student-accounts/tuition-rates-by-semester/international-undergrad-fall-spring",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://admissions.msu.edu/apply/international/act-sat-test-optional",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.msu.edu/cost-aid/scholarships/international",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.msu.edu/apply/first-year/act-sat-test-optional",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "url": "https://controller.msu.edu/student-accounts/tuition-rates-by-semester/international-undergrad-fall-spring",
+        "label": "Official second-pass evidence — tuition"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://controller.msu.edu/student-accounts/tuition-rates-by-semester/international-undergrad-fall-spring",
+          "year": "Fall 2026 / Spring 2027",
+          "note": "Actual international semester rates from central Controller; not a full-course or all-in annual estimate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://admissions.msu.edu/cost-aid/scholarships/international",
+          "year": null,
+          "note": "Honors amount/duration verified; ordinary award levels' period and renewal unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.msu.edu/apply/international/act-sat-test-optional",
+          "year": "Fall 2027",
+          "note": "Exact English tests/exemptions not independently checked."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admissions.msu.edu/apply/first-year/act-sat-test-optional",
+          "year": "Fall 2027",
+          "note": "Intake explicitly labelled; admission priority distinguished from final cutoff."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3,
+      "secondPass": {
+        "checked": "2026-10-13",
+        "fields": [
+          "tuition"
+        ]
+      }
+    },
+    "selection": "MSU Fall 2027 first-year admission is SAT/ACT test optional, including international applicants. Scores may be self-reported for admission and scholarship review; international applicants without them may need separate English-proficiency evidence.",
+    "fundingDetail": "MSU automatically considers incoming international students for competitive scholarships; meeting criteria does not guarantee an award. Honors College Excellence offers selected non-Michigan/international Honors invitees USD 13,000 annually for eight semesters. The current nonresident awards also list USD 3,000–18,000 levels, but their charging period and full renewal rules were not independently verified.",
+    "cycle": "The official testing/admission page identifies the open Fall 2027 first-year application and November 1 Early Action/maximum scholarship consideration. This means November 1, 2026 in the explicitly identified Fall 2027 cycle; the final regular deadline was not checked.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "Fall 2027 Early Action and maximum scholarship consideration",
+        "source": "https://admissions.msu.edu/apply/first-year/act-sat-test-optional"
+      }
+    ],
+    "tuition": "Published fall 2026 and spring 2027 international undergraduate Core-unit tuition (including Natural Science) is USD 22,520 per semester for freshmen/sophomores taking 12–18 credits; juniors/seniors USD 23,188 per semester. Fewer than 12 credits use per-credit rates; over 18 adds per-credit tuition. These are tuition amounts, excluding living costs and separately assessed fees; domestic/resident rates and 2027–28 entry rates were not verified."
+  },
+  "university-of-iowa-undergraduate-mathematics-university-of-iowa": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The annual estimate distinguishes domestic residency and warns that international tuition/fees differ.",
+        "url": "https://admissions.uiowa.edu/finances/estimated-costs-attendance",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Testing guidance provides a test-optional review and distinguishes scholarship score processing.",
+        "url": "https://admissions.uiowa.edu/testing",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The award page gives amount, duration, exact 2027 consideration date and GPA/enrollment renewal requirements.",
+        "url": "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The testing page gives separate 2027 scholarship score receipt and 2026 test-completion limits.",
+        "url": "https://admissions.uiowa.edu/testing",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The National Scholars Award requires a complete admission application by February 1, 2027.",
+        "url": "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://admissions.uiowa.edu/finances/estimated-costs-attendance",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.uiowa.edu/testing",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://admissions.uiowa.edu/finances/estimated-costs-attendance",
+          "year": "2026–27",
+          "note": "Domestic annual combined charges verified; international rate unresolved."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa",
+          "year": "Fall 2027",
+          "note": "Domestic nonresident award terms reviewed; international applicability not inferred."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.uiowa.edu/testing",
+          "year": "Fall 2027",
+          "note": "English requirements and international qualification details not separately audited."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admissions.uiowa.edu/testing",
+          "year": "Fall 2027",
+          "note": "Exact scholarship processing dates verified; full admission-round calendar not independently reviewed."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3
+    },
+    "tuition": "Iowa's 2026–27 full-time Fall/Spring undergraduate budget estimates tuition/fees at USD 11,971 Iowa resident / USD 34,247 domestic nonresident; it includes a one-time USD 250 new-student records/document fee. International charges differ and were not verified. Housing/food are separate; this is not the Fall 2027 rate.",
+    "selection": "Iowa permits first-year applicants to be reviewed without SAT/ACT. Applicants with scores who are not admissible through the Regent Admission Index receive a secondary test-optional review. Scholarship score deadlines are separate from admission; no score range is treated as a mathematics admission cutoff.",
+    "fundingDetail": "For incoming nonresident first-year students, the National Scholars Award is USD 2,000–15,000 annually for up to four years or first bachelor's completion. A complete application by February 1, 2027 triggers consideration. Renewal requires continuous full-time Fall/Spring enrollment, minimum 2.75 Iowa GPA and continued nonresident tuition. International award classification was not established.",
+    "cycle": "A complete application by February 1, 2027 is the National Scholars Award consideration deadline. For Fall 2027 scholarship reassessment, updated SAT/ACT must arrive by February 8, 2027 and must come from tests taken on/before December 12, 2026. These score dates are for scholarships, not entrance-test registration.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2027-02-01",
+        "label": "Complete admission application for National Scholars Award consideration",
+        "source": "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-08",
+        "label": "Scholarship SAT/ACT score receipt deadline; tests must be taken by December 12, 2026",
+        "source": "https://admissions.uiowa.edu/testing"
+      }
+    ]
+  },
+  "university-of-florida-undergraduate-mathematics-university-of-florida": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The 2026–27 table identifies projected first-year tuition/fees and distinguishes residency.",
+        "url": "https://www.sfa.ufl.edu/cost/undergraduate-costs/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "International freshman guidance requires ACT/SAT/CLT and non-US credential evaluation.",
+        "url": "https://admissions.ufl.edu/apply/freshman/international",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "UF's international aid page separates federal ineligibility from possible private/college scholarships.",
+        "url": "https://www.sfa.ufl.edu/international/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The 2026–27 table separates admission deadlines from supporting-material deadlines.",
+        "url": "https://admissions.ufl.edu/apply/freshman//deadlines",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.sfa.ufl.edu/cost/undergraduate-costs/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admissions.ufl.edu/apply/freshman/international",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://www.sfa.ufl.edu/international/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.ufl.edu/apply/freshman//deadlines",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.sfa.ufl.edu/cost/undergraduate-costs/",
+          "year": "2026–27",
+          "note": "Projected annual 30-credit first-year budget."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.sfa.ufl.edu/international/",
+          "year": null,
+          "note": "Federal aid eligibility verified; specific scholarships unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://admissions.ufl.edu/apply/freshman/international",
+          "year": null,
+          "note": "First-year academic tests include CLT; no GRE or departmental exam inferred."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admissions.ufl.edu/apply/freshman//deadlines",
+          "year": "2026–27 application cycle / Fall 2027",
+          "note": "Application cycle is explicitly year-labelled; closing hour unverified."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "UF's projected 2026–27 incoming-freshman Fall/Spring tuition/fees are USD 6,440 in-state / USD 34,620 out-of-state for 30 credits total. These are estimates and combined charges, not tuition alone; housing and other living costs are separate. Continuing students may pay less. Fall 2027 charges were not verified.",
+    "selection": "All UF first-year applicants must submit ACT, SAT or CLT under Florida's admissions regulation. International applicants follow the freshman route and must provide academic records and required non-US course-by-course evaluation with GPA calculation. English testing and exemptions must be assessed separately.",
+    "fundingDetail": "F-1/F-2/J-1/J-2 and G-series visa students are ineligible for federal aid administered by UF's aid office. International students may qualify for private or college-awarded scholarships, but amounts, duration and renewal for this mathematics route were not established.",
+    "cycle": "UF's explicitly labelled 2026–27 application timetable offers binding Early Decision October 15, nonbinding Early Action November 1, and Regular Decision January 15, with materials due October 22, November 8 and January 22 respectively. This corresponds to Fall 2027 entry; priority and final rounds are distinct.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-15",
+        "label": "Binding Early Decision",
+        "source": "https://admissions.ufl.edu/apply/freshman//deadlines"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-10-22",
+        "label": "Early Decision materials",
+        "source": "https://admissions.ufl.edu/apply/freshman//deadlines"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "Nonbinding Early Action",
+        "source": "https://admissions.ufl.edu/apply/freshman//deadlines"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-11-08",
+        "label": "Early Action materials",
+        "source": "https://admissions.ufl.edu/apply/freshman//deadlines"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-15",
+        "label": "Regular Decision",
+        "source": "https://admissions.ufl.edu/apply/freshman//deadlines"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-01-22",
+        "label": "Regular Decision materials",
+        "source": "https://admissions.ufl.edu/apply/freshman//deadlines"
+      }
+    ]
+  },
+  "new-york-university-undergraduate-mathematics-new-york-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The CAS annual budget gives combined tuition/fees and directs students to the official rate lookup.",
+        "url": "https://bulletins.nyu.edu/undergraduate/arts-science/cost-attendance/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The official qualification tool separates test-optional policy, school-leaving examinations and English exemptions.",
+        "url": "https://connect.nyu.edu/portal/credentials_iqtool?cmd=qualifications-applicant&country_filter=HK",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The CAS bulletin distinguishes first-year Promise eligibility from transfer aid and describes annual tuition adjustments.",
+        "url": "https://bulletins.nyu.edu/undergraduate/arts-science/cost-attendance/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The official financial-aid bulletin explicitly includes domestic and international first-year New York-campus students and requires timely aid filing.",
+        "url": "https://bulletins.nyu.edu/undergraduate/social-work/cost-attendance/financial-aid/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bulletins.nyu.edu/undergraduate/arts-science/cost-attendance/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://connect.nyu.edu/portal/credentials_iqtool?cmd=qualifications-applicant&country_filter=HK",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://bulletins.nyu.edu/undergraduate/social-work/cost-attendance/financial-aid/",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://bulletins.nyu.edu/undergraduate/arts-science/cost-attendance/",
+          "year": "2026–27",
+          "note": "CAS combined tuition/fee estimate reviewed; final approved bill unresolved."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://bulletins.nyu.edu/undergraduate/arts-science/cost-attendance/",
+          "year": null,
+          "note": "Policy scope and income/assets conditions verified; complete award-renewal terms not checked."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://connect.nyu.edu/portal/credentials_iqtool?cmd=qualifications-applicant&country_filter=HK",
+          "year": "2026–27 application cycle",
+          "note": "General testing policy reviewed in Hong Kong qualification tool; other national qualifications not individually checked."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Explicit unresolved override prevents unsupported prior-review claims being inherited. No new official-source research of this field on October 13.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 3
+    },
+    "tuition": "NYU's 2026–27 College of Arts and Science budget lists USD 68,576 combined tuition/fees for two semesters of full-time study. Housing/food and other expenses are separate; the bulletin notes amounts were estimates pending July 2026 approval, so a final bill must use the official tuition lookup. Fall 2027 tuition was not verified.",
+    "selection": "NYU's official international qualifications tool states that the 2026–27 application cycle is test optional. Predicted or final results from a non-US school-leaving/university-entrance curriculum may still be requested; English language testing is required unless exempt. This is distinct from submitting SAT/ACT.",
+    "fundingDetail": "NYU Promise applies to first-time full-time New York-campus undergraduates, including international students who meet the aid application requirements. It meets assessed need and covers tuition for families below USD 100,000 income with typical assets; scholarships adjust for tuition increases annually. Transfer students are excluded. The personal award and complete renewal conditions require individual review.",
+    "cycle": "Exact intake-specific admission and aid deadlines were not verified for this route. Any earlier review's dates are not established by this audit; no dated application entries are supplied.",
+    "applicationDates": []
+  },
+  "university-of-waterloo-honours-mathematics-route-to-pure-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The Mathematics row differs by fee category and is explicitly based on September 2026 entry.",
+        "url": "https://uwaterloo.ca/future-students/financing/tuition",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "AIF applies to all Mathematics programmes; combined Engineering applications have an earlier supplementary deadline.",
+        "url": "https://uwaterloo.ca/future-students/admissions/admission-information-form",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Euclid/Canadian Senior Mathematics contests are optional for admission but required for some Mathematics scholarships.",
+        "url": "https://uwaterloo.ca/future-students/admissions/deadlines",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The scholarship page states automatic consideration, entrance amount and conditional later-year supplements.",
+        "url": "https://uwaterloo.ca/future-students/financing/scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The current deadline page distinguishes admission, supporting documents, scholarships and contest registration.",
+        "url": "https://uwaterloo.ca/future-students/admissions/deadlines",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://uwaterloo.ca/future-students/financing/tuition",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://uwaterloo.ca/future-students/admissions/admission-information-form",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://uwaterloo.ca/future-students/admissions/deadlines",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://uwaterloo.ca/future-students/financing/scholarships",
+        "label": "Official evidence — fundingDetail"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://uwaterloo.ca/future-students/financing/tuition",
+          "year": "September 2026 / 2026–27",
+          "note": "Two study terms, billed term by term; fees combined with tuition."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://uwaterloo.ca/future-students/financing/scholarships",
+          "year": null,
+          "note": "Published Distinction conditions checked; mathematics-specific award values/renewal not fully checked."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://uwaterloo.ca/future-students/admissions/admission-information-form",
+          "year": "Fall 2027",
+          "note": "Qualification-specific academic and language requirements not fully checked."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://uwaterloo.ca/future-students/admissions/deadlines",
+          "year": "Fall 2027",
+          "note": "Official current deadlines; an older mathematics scholarship page still lists March 6, 2026 and is not projected forward."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "For September 2026 starters, Waterloo estimates Mathematics tuition plus incidental fees for two full-load terms/eight months at CAD 9,000 for Canadian citizens/permanent residents in Ontario, CAD 10,000 for that group outside Ontario/Canada, and CAD 62,000 international. Books/living costs are separate; co-op adds CAD 836 per applicable school term. These are estimates, not a Fall 2027 quote.",
+    "selection": "All Faculty of Mathematics applicants must complete the AIF alongside grades and documents. Euclid/Canadian Senior Mathematics contests are optional for admission but required for some mathematics scholarships. If also applying to Engineering, the earlier Engineering AIF/interview deadline applies; Honours Mathematics alone does not inherit the Engineering interview rule.",
+    "fundingDetail": "Waterloo automatically considers eligible first-time, full-time September entrants for President's/Merit awards. The Distinction award requires at least 95% admission average and gives CAD 2,000 on entry; optional CAD 1,500 research and/or international-experience awards require first-year average at least 80% and later-year participation. Separate competitive mathematics awards have distinct applications; no award is assumed.",
+    "cycle": "Fall 2027 Honours Mathematics: admission February 1, 2027; documents/AIF February 15, 2027. Separate Olympiad/Global/National scholarship deadline March 5, 2027; Canadian Senior Mathematics Contest registration October 22, 2026; Euclid registration March 11, 2027. International applicants share the admission/document deadlines.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-02-01",
+        "label": "Honours Mathematics application",
+        "source": "https://uwaterloo.ca/future-students/admissions/deadlines"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-15",
+        "label": "Honours Mathematics documents and AIF",
+        "source": "https://uwaterloo.ca/future-students/admissions/deadlines"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2027-03-05",
+        "label": "Mathematics Olympiad, Global and National scholarship applications",
+        "source": "https://uwaterloo.ca/future-students/admissions/deadlines"
+      },
+      {
+        "type": "Test registration",
+        "date": "2026-10-22",
+        "label": "Optional Canadian Senior Mathematics Contest registration",
+        "source": "https://uwaterloo.ca/future-students/admissions/deadlines"
+      },
+      {
+        "type": "Test registration",
+        "date": "2027-03-11",
+        "label": "Optional Euclid Contest registration",
+        "source": "https://uwaterloo.ca/future-students/admissions/deadlines"
+      }
+    ]
+  },
+  "university-of-british-columbia-bsc-mathematics-vancouver": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "The approved 2026/27 Science tuition table identifies domestic/international per-credit and 30-credit amounts.",
+        "url": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The profile guidance requires a personal profile for high-school Vancouver degree applicants with a named exception.",
+        "url": "https://you.ubc.ca/applying-ubc/how-to-apply/personal-profile/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "The application evaluation page describes review of grades, subject choices and the personal profile.",
+        "url": "https://you.ubc.ca/applying-ubc/application-evaluation/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "IMES eligibility, four-year potential duration and 2026/27 value are distinct from one-time OIS and Okanagan awards.",
+        "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "The year-labelled timetable separates standard admission, scholarship-priority and category-specific document dates.",
+        "url": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://you.ubc.ca/applying-ubc/how-to-apply/personal-profile/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://you.ubc.ca/applying-ubc/application-evaluation/",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://students.ubc.ca/finances/tuition-fees/undergraduate-tuition-fees/",
+          "year": "2026/27",
+          "note": "Vancouver BSc Science rates in Canadian dollars; entry-cohort rule retained."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/",
+          "year": "2026/27 amount; standing eligibility policy",
+          "note": "Vancouver route; Okanagan-only automatic awards excluded."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://you.ubc.ca/applying-ubc/how-to-apply/personal-profile/",
+          "year": null,
+          "note": "Profile requirement verified; national-qualification/test specifics not individually reviewed."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+          "year": "Winter 2027/28",
+          "note": "Documents depend on applicant category; International Scholars uses earlier document deadline."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "For UBC Vancouver Science students starting in 2026/27: domestic tuition CAD 206.69 per credit, CAD 6,200.70 for 30 credits; international CAD 1,769.40 per credit, CAD 53,082 for 30 credits. Student fees and living costs are separate. International 2026/27 cohort increases are capped at 3% annually for the next four years or graduation; this cap is not a 2027 entrant's price.",
+    "selection": "UBC reviews grades, course choices and the personal profile. High-school applicants to Mathematics BSc Vancouver (Science) must complete the personal profile. Academic prerequisites and English Language Admission Standard depend on qualifications. No universal SAT/ACT rule or department entrance exam was established.",
+    "fundingDetail": "International Major Entrance Scholarships are competitive, automatically considered for eligible direct-from-school international study-permit applicants applying by admission deadline, and renewable for up to three additional years. Published 2026/27 amounts are CAD 10,000–25,000 annually, not a verified 2027/28 amount. Nominees for International Scholars cannot also be considered for IMES; these merit awards do not cover the full degree cost. Detailed renewal criteria need the offer.",
+    "cycle": "For Winter Session September 2027–April 2028: admission January 15, 2027, 11:59 p.m. PST. International Scholars applicants must apply for admission and the award by November 15, 2026, 11:59 p.m. PST, and submit documents/English evidence January 31, 2027. Ordinary English-standard documents are due February 15, 2027; out-of-Canada high-school documents March 15, 2027. Canadian/permanent-resident entrance-award admission priority is December 1, 2026.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-15",
+        "label": "Winter 2027/28 admission; 11:59 p.m. PST",
+        "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-11-15",
+        "label": "International Scholars: admission and award application; 11:59 p.m. PST",
+        "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "Canadian citizens/permanent residents: admission priority for specified entrance awards; 11:59 p.m. PST",
+        "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-01-31",
+        "label": "International Scholars: documents and English evidence",
+        "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-02-15",
+        "label": "Ordinary English Language Admission Standard evidence",
+        "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-03-15",
+        "label": "Out-of-Canada high-school applicant documents",
+        "source": "https://you.ubc.ca/applying-ubc/dates-deadlines/"
+      }
+    ]
+  }
+}

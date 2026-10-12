@@ -1,0 +1,533 @@
+{
+  "king-saud-university-master-mathematics": {
+    "applicationDates": [],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2023 paid-route table lists the mathematics programme cost and VAT exclusion.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Applications currently unavailable; future opening dates to be announced.",
+        "url": "https://graduatestudies.ksu.edu.sa/ar/node/2058",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Regular 2026/27 list includes MSc Mathematics, taught in English.",
+        "url": "https://graduatestudies.ksu.edu.sa/sites/graduatestudies.ksu.edu.sa/files/users/user168/%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9%20%D9%84%D9%84%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D9%8A%201448%D9%87_0.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "MSc row distinguishes degree/GPA, GRE Math-or-department-exam, and IELTS.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/921",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "The linked general admissions page requires two recommendations from professors who taught the applicant.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/858",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "Paid-route 2023 page lists SAR 200 non-refundable application fee.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/ar/node/3052",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/ar/node/2058",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/sites/graduatestudies.ksu.edu.sa/files/users/user168/%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9%20%D9%84%D9%84%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D9%8A%201448%D9%87_0.pdf",
+        "label": "Official supplementary evidence — cycle"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/921",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/858",
+        "label": "Official supplementary evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+          "year": "2023",
+          "note": "Paid-route historical cost only; payment schedule and current approved amount unverified.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/ar/node/3052",
+          "year": null,
+          "note": "Reviewed scholarship destination concerns another degree; no mathematics funding evidence found in this bounded pass.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Not published",
+          "source": "https://graduatestudies.ksu.edu.sa/ar/node/2058",
+          "year": null,
+          "note": "No next-opening date on reviewed application-period page; 2026/27 programme listing read through official indexed text because direct PDF retrieval timed out.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Standing departmental page reviewed, not a dated 2026/27 admissions guide. GRE Subject is distinct from GRE General and language testing.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "partiallyVerifiedFields": 1,
+      "researchNote": "Bounded official-source pass completed October 13, 2026. Unknown details are not represented as unpublished unless the reviewed source explicitly says so."
+    },
+    "tuition": "Historical paid-route programme cost: SAR 80,000, excluding VAT; not an annual rate. The page was updated March 1, 2023. Current regular-route charges and international/residence-specific treatment remain unverified; regular-programme listing does not prove free tuition.",
+    "fundingDetail": "Mathematics-specific scholarship eligibility, stipend amount, duration and renewal were not established. No funding or fee exemption is promised. The deanship's funded-scholarship menu led to a different literary/cultural-studies programme, whose terms are not applied here.",
+    "cycle": "The deanship currently says applications are unavailable and reopening dates will be announced through official channels. No next-cycle dated deadline is published on that page. Its regular 2026/27 list includes this mathematics degree, but programme availability is not an application deadline.",
+    "selection": "Published department rules: mathematics bachelor's GPA at least 3.25/5, with specialty-course GPA at least 3.75/5; GRE Mathematics Subject score at least 400 OR departmental written examination; IELTS Academic at least 4.5 or equivalent. International eligibility and current cycle-specific general rules remain unresolved.",
+    "fees": "Historical paid-route application fee SAR 200, non-refundable after submission (2023 page); separate from programme cost. Current fee unverified."
+  },
+  "king-saud-university-doctorate-mathematics": {
+    "applicationDates": [],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2023 paid-route table lists the mathematics programme cost and VAT exclusion.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Applications currently unavailable; future opening dates to be announced.",
+        "url": "https://graduatestudies.ksu.edu.sa/ar/node/2058",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Regular 2026/27 list includes PhD Mathematics in Analysis, Geometry & Topology, and Applied Mathematics, taught in English.",
+        "url": "https://graduatestudies.ksu.edu.sa/sites/graduatestudies.ksu.edu.sa/files/users/user168/%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9%20%D9%84%D9%84%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D9%8A%201448%D9%87_0.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "PhD row requires both mathematics degrees; GRE Math or departmental exam is separate from IELTS.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/921",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "The linked general admissions page requires two recommendations from professors who taught the applicant.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/858",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "Paid-route 2023 page lists SAR 200 non-refundable application fee.",
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/ar/node/3052",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/ar/node/2058",
+        "label": "Official evidence — cycle"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/sites/graduatestudies.ksu.edu.sa/files/users/user168/%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20%D8%A8%D8%B1%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D8%A7%D8%AA%20%D8%A7%D9%84%D8%B9%D9%84%D9%8A%D8%A7%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AD%D8%A9%20%D9%84%D9%84%D8%B9%D8%A7%D9%85%20%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D9%8A%201448%D9%87_0.pdf",
+        "label": "Official supplementary evidence — cycle"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/921",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://graduatestudies.ksu.edu.sa/en/node/858",
+        "label": "Official supplementary evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/3079",
+          "year": "2023",
+          "note": "Paid-route historical cost only; payment schedule and current approved amount unverified.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/ar/node/3052",
+          "year": null,
+          "note": "Reviewed scholarship destination concerns another degree; no mathematics funding evidence found in this bounded pass.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Not published",
+          "source": "https://graduatestudies.ksu.edu.sa/ar/node/2058",
+          "year": null,
+          "note": "No next-opening date on reviewed application-period page; 2026/27 programme listing read through official indexed text because direct PDF retrieval timed out.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Bachelor and master requirements both apply in published PhD row; no supervisor-acceptance requirement established.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "partiallyVerifiedFields": 1,
+      "researchNote": "Bounded official-source pass completed October 13, 2026. Unknown details are not represented as unpublished unless the reviewed source explicitly says so."
+    },
+    "tuition": "Historical paid-route programme cost: SAR 120,000, excluding VAT; not an annual rate. The page was updated March 1, 2023. Current regular-route charges and international/residence-specific treatment remain unverified; regular-programme listing does not prove free tuition.",
+    "fundingDetail": "Mathematics-specific scholarship eligibility, stipend amount, duration and renewal were not established. No funding or fee exemption is promised. The deanship's funded-scholarship menu led to a different literary/cultural-studies programme, whose terms are not applied here.",
+    "cycle": "The deanship currently says applications are unavailable and reopening dates will be announced through official channels. No next-cycle dated deadline is published on that page. Its regular 2026/27 list includes this mathematics degree, but programme availability is not an application deadline.",
+    "selection": "Published department rules: mathematics bachelor's GPA at least 3.25/5 and specialty-course GPA at least 3.75/5; mathematics master's GPA at least 3.75/5; GRE Mathematics Subject at least 500 OR departmental written examination; IELTS Academic at least 5.5 or equivalent. International eligibility/current general rules remain unresolved.",
+    "fees": "Historical paid-route application fee SAR 200, non-refundable after submission (2023 page); separate from programme cost. Current fee unverified."
+  },
+  "national-taiwan-university-master-in-mathematics-international-route": {
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-05",
+        "label": "September 2027 OIA round one closes, 4 p.m. GMT+8; confirm Mathematics availability",
+        "source": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-19",
+        "label": "September 2027 OIA round two closes, 4 p.m. GMT+8; confirm Mathematics availability",
+        "source": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026/27 graduate table: Science international full/basic semester charges; reduced-category conditions.",
+        "url": "https://www.aca.ntu.edu.tw/WebUPD/acaEN/SecretariatService/%E5%AD%B8%E7%94%9F%E7%B9%B3%E8%B2%BB%E6%A8%99%E6%BA%96%E4%B8%80%E8%A6%BD%E8%A1%A8-Eng(OK)_02%E7%A2%A9%E5%8D%9A%E7%8F%AD.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Recipient page specifies master's duration, TWD 8,000 monthly stipend, waiver cap and annual renewal application.",
+        "url": "https://isss.ntu.edu.tw/finances/scholarships/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2027 guide offers scholarship consideration within degree application; Taiwan Scholarship awardees cannot apply for NTU scholarships.",
+        "url": "https://admissions.ntu.edu.tw/wp-content/uploads/116-1Admission-Guidelines-for-Intl-Degree-Students_ENG-1.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "2027 guide: master's bachelor's credentials; language baseline depends on programme medium.",
+        "url": "https://admissions.ntu.edu.tw/wp-content/uploads/116-1Admission-Guidelines-for-Intl-Degree-Students_ENG-1.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "OIA explicitly labels 2027 intakes and deadline times.",
+        "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "2027 OIA guide specifies per-department application fee and non-refundability.",
+        "url": "https://admissions.ntu.edu.tw/wp-content/uploads/116-1Admission-Guidelines-for-Intl-Degree-Students_ENG-1.pdf",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.aca.ntu.edu.tw/WebUPD/acaEN/SecretariatService/%E5%AD%B8%E7%94%9F%E7%B9%B3%E8%B2%BB%E6%A8%99%E6%BA%96%E4%B8%80%E8%A6%BD%E8%A1%A8-Eng(OK)_02%E7%A2%A9%E5%8D%9A%E7%8F%AD.pdf",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://isss.ntu.edu.tw/finances/scholarships/",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.ntu.edu.tw/wp-content/uploads/116-1Admission-Guidelines-for-Intl-Degree-Students_ENG-1.pdf",
+        "label": "Official supplementary evidence — fundingDetail"
+      },
+      {
+        "url": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.aca.ntu.edu.tw/WebUPD/acaEN/SecretariatService/%E5%AD%B8%E7%94%9F%E7%B9%B3%E8%B2%BB%E6%A8%99%E6%BA%96%E4%B8%80%E8%A6%BD%E8%A1%A8-Eng(OK)_02%E7%A2%A9%E5%8D%9A%E7%8F%AD.pdf",
+          "year": "2026/27",
+          "note": "Central Academic Affairs table passed May 26, 2026. Other category rates and special extra charges are not an all-in budget.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://isss.ntu.edu.tw/finances/scholarships/",
+          "year": null,
+          "note": "Recipient continuation rules reviewed; cap's accounting period and new 2027 award allocation not established.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://admissions.ntu.edu.tw/wp-content/uploads/116-1Admission-Guidelines-for-Intl-Degree-Students_ENG-1.pdf",
+          "year": "September 2027",
+          "note": "Mathematics requirement portal returned HTTP 500. General international screening must not be confused with domestic mathematics entrance examinations.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://admissions.ntu.edu.tw/apply/degree-students/international-students/",
+          "year": "2027",
+          "note": "University calendar exact; department/round participation not fully established. February date is historical closed intake, not an upcoming deadline.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 1,
+      "partiallyVerifiedFields": 3,
+      "researchNote": "Bounded official-source pass completed October 13, 2026. Unknown details are not represented as unpublished unless the reviewed source explicitly says so."
+    },
+    "tuition": "2026/27 Science graduate tuition and fees combined: TWD 57,780 per semester for ordinary international students during the first two years; TWD 29,040 basic tuition/fees from year three. MOFA Taiwan Scholarship recipients and ROC permanent-resident students use the lower applicable category. These are not living costs or 2027/28 approved rates.",
+    "fundingDetail": "NTU admission scholarships are optional and separate from admission. Existing recipients of the NTU Scholarship for International Degree Students can receive tuition waiver up to TWD 65,000 (period not specified here) and TWD 8,000/month, for master's study up to year two, subject to renewal review. Administrative/advisor fees, insurance, housing, internet and credit fees are excluded. This is not a guaranteed 2027 award.",
+    "selection": "International master's applicants require bachelor's-level credentials/transcripts and nationality evidence, with language/document requirements determined by the programme. The 2027 guide sets baseline CEFR A2 for Chinese-taught or B2 for English-taught programmes, subject to permitted substitutes and department conditions. Mathematics-specific language choice, recommendation count, examinations and pre-admission supervisor requirements remain unverified.",
+    "cycle": "Official OIA international calendar: September 2027 round one September 29–November 5, 2026; round two December 1, 2026–January 19, 2027. Deadline 4 p.m. GMT+8, with required uploads and recommendation minimums completed before submission. February 2027 graduate applications closed September 17, 2026. Confirm Mathematics availability in the relevant round; department portal was inaccessible.",
+    "intakeYear": "2027",
+    "fees": "2027 international admission: first-time applicants NTD 2,000 or USD 80 per department; third and later applications NTD 1,500 or USD 60 each. Payment is non-refundable; this is not tuition."
+  },
+  "kaist-mathematical-sciences-international-graduate-admission": {
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-01",
+        "label": "Historical: Spring 2027 international graduate application closed",
+        "source": "https://admission.kaist.ac.kr/intl-graduate/?kboard_content_redirect=202"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-09-08",
+        "label": "Historical: Spring 2027 recommendation letters closed",
+        "source": "https://admission.kaist.ac.kr/intl-graduate/?kboard_content_redirect=202"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2023-labelled annual cost table separates tuition from non-tuition expenses.",
+        "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/CostofAttendance",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "KGPS eligibility, four-semester benefit and competitive department-head recommendation reviewed.",
+        "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Central international eligibility lists citizenship restrictions and date-specific TOEFL threshold plus language-test alternatives.",
+        "url": "https://admission.kaist.ac.kr/intl-graduate/Admission",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Spring 2027 dated calendar and both Fall 2027 TBA tracks reviewed.",
+        "url": "https://admission.kaist.ac.kr/intl-graduate/?kboard_content_redirect=202",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/CostofAttendance",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+        "label": "Official evidence — fundingDetail"
+      },
+      {
+        "url": "https://admission.kaist.ac.kr/intl-graduate/Admission",
+        "label": "Official evidence — selection"
+      },
+      {
+        "url": "https://admission.kaist.ac.kr/intl-graduate/?kboard_content_redirect=202",
+        "label": "Official evidence — cycle"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/CostofAttendance",
+          "year": "2023",
+          "note": "Official indexed full text reviewed; direct-page reader unreliable. No current 2027 billed rate established.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://admission.kaist.ac.kr/intl-graduate/FinancialSupport/Scholarship/KAISTScholarship",
+          "year": null,
+          "note": "Current official indexed text distinguishes automatic consideration from competitive recommendation; no individual award or universal stipend assumed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://admission.kaist.ac.kr/intl-graduate/Admission",
+          "year": null,
+          "note": "Official indexed eligibility text reviewed because direct central page timed out; no GRE requirement or departmental examination inferred.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://admission.kaist.ac.kr/intl-graduate/?kboard_content_redirect=202",
+          "year": "Spring/Fall 2027",
+          "note": "Official indexed calendar reviewed; TBA is genuinely not published, unlike inaccessible fee details.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 1,
+      "partiallyVerifiedFields": 2,
+      "researchNote": "Bounded official-source pass completed October 13, 2026. Unknown details are not represented as unpublished unless the reviewed source explicitly says so."
+    },
+    "tuition": "The international graduate cost page labels its budget 2023 academic year: tuition KRW 19,118,000, separate from non-tuition living/other costs KRW 11,070,787. This historical annual budget is not a current 2027 approved fee or full-degree price. Awarded KAIST scholarships can cover full tuition; candidacy alone does not waive it.",
+    "fundingDetail": "Selecting KAIST Scholarship as the financial resource triggers consideration, not a guaranteed award. The scholarship offers full tuition, national health insurance and a stipend dependent on research involvement. Competitive KGPS master's/master–PhD integrated awards provide full tuition plus KRW 1,000,000/month for four regular semesters, with department-head recommendation; no separate application. Detailed continuation conditions remain unresolved.",
+    "selection": "International applicants cannot hold Korean citizenship, including dual citizenship; Korean-descent applicants have additional conditions. English tests are separate: TOEFL iBT 83 before January 21, 2026 or 4.5 on/after it; IELTS Academic 6.5, TOEIC Listening/Reading 720, or TEPS 326. Scores must remain valid at the application deadline. Certain citizenship/degree-location waivers exist; exact current degree-equivalence, recommendations and supervisor/interview rules remain unverified.",
+    "cycle": "Spring 2027 international graduate application ran August 18–September 1, 2026; recommendation letters September 8, 2026, both already closed. Decision release December 18, 2026 is not an application deadline. Fall 2027 Early and Regular application, recommendation and decision dates are explicitly TBA.",
+    "intakeYear": "2027"
+  },
+  "indian-institute-of-science-integrated-phd-mathematics": {
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-05-18",
+        "label": "Historical: shortlisted mathematics Integrated PhD interviews begin",
+        "source": "https://math.iisc.ac.in/degprog-intphd.html"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-05-20",
+        "label": "Historical: shortlisted mathematics Integrated PhD interviews end",
+        "source": "https://math.iisc.ac.in/degprog-intphd.html"
+      }
+    ],
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Regular research table distinguishes Int PhD annual tuition, category waivers, deposits and later PhD alignment.",
+        "url": "https://www.iisc.ac.in/admissions/fees-and-scholarships/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Integrated PhD stipend table; entry-mode activation and salary-recipient exclusion reviewed.",
+        "url": "https://www.iisc.ac.in/admissions/fees-and-scholarships/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Department explicitly states JAM 2026 plus shortlisted-candidate interview.",
+        "url": "https://math.iisc.ac.in/degprog-intphd.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "2026 department interview span is explicit.",
+        "url": "https://math.iisc.ac.in/degprog-intphd.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fees",
+        "text": "PG/PhD category application fees appear separately from annual tuition.",
+        "url": "https://www.iisc.ac.in/admissions/fees-and-scholarships/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.iisc.ac.in/admissions/fees-and-scholarships/",
+        "label": "Official evidence — tuition"
+      },
+      {
+        "url": "https://math.iisc.ac.in/degprog-intphd.html",
+        "label": "Official evidence — selection"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.iisc.ac.in/admissions/fees-and-scholarships/",
+          "year": null,
+          "note": "Domestic-category table verified but academic-year baseline absent; not a final 2027 or international fee quote.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.iisc.ac.in/admissions/fees-and-scholarships/",
+          "year": null,
+          "note": "No automatic award, international entitlement or guaranteed seven-year stipend inferred.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://math.iisc.ac.in/degprog-intphd.html",
+          "year": "2026",
+          "note": "JAM 2026 explicit; no JAM 2027 rule inferred. GRE/language testing and supervisor acceptance not established.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.iisc.ac.in/degprog-intphd.html",
+          "year": "2026",
+          "note": "Department still labels JAM/interviews 2026; 2027 calendar unverified, not proven unpublished institute-wide.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "partiallyVerifiedFields": 2,
+      "researchNote": "Bounded official-source pass completed October 13, 2026. Unknown details are not represented as unpublished unless the reviewed source explicitly says so."
+    },
+    "tuition": "Current undated regular-research table lists Integrated PhD tuition INR 15,000/year for GN/OBC/EWS, waived for SC/ST/PwD; first two years then on par with PhD. Other annual fees and first-year refundable deposits are separate. Non-refundable charges increase 5% annually; no 2027 rate is calculated or international-category amount inferred.",
+    "fundingDetail": "Published Integrated PhD stipend levels are INR 16,000/month, JRF INR 37,000/month and SRF INR 42,000/month. Eligibility/activation depend on entry mode and funding agency; recipients of employer/sponsor salary are ineligible. Transition timing and Integrated-PhD-specific total funded duration were not established; do not apply the separate regular-PhD five-year statement automatically.",
+    "selection": "For the published 2026 cycle, mathematics Integrated PhD admission uses JAM 2026 followed by interview for shortlisted candidates. This is a bachelor-entry integrated research route, not terminal MSc admission. Eligible degree types include BSc and BE/BTech routes; detailed current grade/subject conditions and international route must be separately confirmed.",
+    "cycle": "Historical mathematics Integrated PhD interviews: May 18–20, 2026. No 2027 application or interview date established by this reviewed department page; its 2026 dates are not projected forward.",
+    "intakeYear": "2026",
+    "fees": "Published PG/PhD application fee INR 800 for GN/OBC/EWS or INR 400 for SC/ST/PwD; domestic-category amounts, not international tuition."
+  }
+}

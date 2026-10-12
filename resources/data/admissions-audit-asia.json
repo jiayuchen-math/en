@@ -1,0 +1,3874 @@
+{
+  "the-chinese-university-of-hong-kong-mphil-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Listed fee: HKD 49,500 in 2027/28.",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematics GRE and interview may be requested.",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Main and vacancy-dependent clearing rounds listed.",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Studentship payable during normative study; offers specify award.",
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "HKD 49,500 per year in 2027/28 (HKD 47,000 in 2026/27). Local …",
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+          "year": "2027/28",
+          "note": "Central table confirms annual basis; not living costs.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+          "year": "2026/27",
+          "note": "Official indexed studentship terms; 2027/28 stipend rate and individual award not established.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+          "year": "2027/28",
+          "note": "Programme indexed text; direct access timed out. Central degree/language criteria not fully reviewed.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+          "year": "2027/28",
+          "note": "Official indexed programme deadline; ordinary closing hour not stated.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 3,
+      "researchNote": "Specific Graduate School mathematics and studentship indexed text reviewed after departmental/Graduate School timeouts; central degree equivalence and complete language rules remain gaps.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition"
+      ]
+    },
+    "tuition": "HKD 49,500 per year in 2027/28 (HKD 47,000 in 2026/27). Local full-time research students should consult the tuition-waiver scheme; waiver is separate from the listed fee.",
+    "selection": "Mathematics or related major required, alongside Graduate School criteria. Interview and Mathematics GRE may be requested case by case; this is not a universal GRE requirement.",
+    "cycle": "2027/28 main deadline December 1, 2026; clearing deadline March 31, 2027, subject to vacancies.",
+    "fundingDetail": "Qualified full-time research students may receive HKD 229,200 annually in 2026/27 during normal study duration; results accompany offers. Eligible local UGC-funded students receive a separate tuition waiver.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "2027/28 main-round deadline; closing hour unverified",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-31",
+        "label": "2027/28 clearing deadline, vacancies required",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics"
+      }
+    ]
+  },
+  "the-chinese-university-of-hong-kong-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Listed fee: HKD 49,500 in 2027/28.",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematics GRE and interview may be requested.",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Main and vacancy-dependent clearing rounds listed.",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Studentship payable during normative study; offers specify award.",
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "HKD 49,500 per year in 2027/28 (HKD 47,000 in 2026/27). Local …",
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+          "year": "2027/28",
+          "note": "Central table confirms annual basis; not living costs.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+          "year": "2026/27",
+          "note": "Official indexed studentship terms; 2027/28 stipend rate and individual award not established.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+          "year": "2027/28",
+          "note": "Programme indexed text; direct access timed out. Central degree/language criteria not fully reviewed.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+          "year": "2027/28",
+          "note": "Official indexed programme deadline; ordinary closing hour not stated.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 3,
+      "researchNote": "Specific Graduate School mathematics and studentship indexed text reviewed after departmental/Graduate School timeouts; central degree equivalence and complete language rules remain gaps.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition"
+      ]
+    },
+    "tuition": "HKD 49,500 per year in 2027/28 (HKD 47,000 in 2026/27). Local full-time research students should consult the tuition-waiver scheme; waiver is separate from the listed fee.",
+    "selection": "Mathematics or related major required, alongside Graduate School criteria. Interview and Mathematics GRE may be requested case by case; this is not a universal GRE requirement.",
+    "cycle": "2027/28 main deadline December 1, 2026; clearing deadline March 31, 2027, subject to vacancies.",
+    "fundingDetail": "Qualified full-time research students may receive HKD 229,200 annually in 2026/27 during normal study duration; results accompany offers. Eligible local UGC-funded students receive a separate tuition waiver.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "2027/28 main-round deadline",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-31",
+        "label": "Vacancy-dependent clearing deadline",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "HKPFS initial RGC application: noon Hong Kong time; full CUHK application: 23:59",
+        "source": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics"
+      }
+    ]
+  },
+  "hong-kong-university-of-science-and-technology-mphil-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Distinct master's and doctoral academic requirements are listed.",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall and Spring local/non-local deadlines explicitly dated.",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application costs HKD 180.",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Support conditions include progress and teaching performance.",
+        "url": "https://www.math.hkust.edu.hk/pg/?menu=3",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2027/28 research postgraduate tuition: HKD 49,500, full-time or part-time. Eligible local …",
+        "url": "https://ebookshelf.hkust.edu.hk/flippingbook/G23842_AdmissionFlyer/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PGS: HKD 229,620 per year, up to 2 years for full-time …",
+        "url": "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate/admissions",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://www.math.hkust.edu.hk/pg/?menu=3",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://ebookshelf.hkust.edu.hk/flippingbook/G23842_AdmissionFlyer/",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate/admissions",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://ebookshelf.hkust.edu.hk/flippingbook/G23842_AdmissionFlyer/",
+          "year": "2027/28",
+          "note": "Central flyer confirms amount and modes; annual basis supported by School of Science waiver, not a mathematics fee instalment table.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate/admissions",
+          "year": "2027/28",
+          "note": "School of Science current intake page; stipend rate not separately year-labelled.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+          "year": "2027/28",
+          "note": "No additional compulsory GRE listed; language single-attempt/no-at-home rules apply.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+          "year": "2027/28; Spring 2026/27",
+          "note": "These are published intake-specific dates, not projected recurring dates.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 3,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail"
+      ]
+    },
+    "selection": "Recognized bachelor's or equivalent. IELTS Academic 6.5 overall, every component 5.5, or accepted TOEFL; English-first-language/English-medium degree exemptions apply.",
+    "cycle": "September 2027 deadline June 1, 2027 for local/non-local applicants. February 2027 deadlines: November 1, 2026 non-local; December 15, 2026 local. Rolling assessment applies.",
+    "fees": "Application fee HKD 180; separate from tuition.",
+    "fundingDetail": "PGS: HKD 229,620 per year, up to 2 years for full-time MPhil or 4 for full-time PhD. Considered with admission; not guaranteed. Renewal conditions and the individual award remain unresolved.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-06-01",
+        "label": "September 2027 closing date",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "February 2027 non-local deadline",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-15",
+        "label": "February 2027 local deadline",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      }
+    ],
+    "tuition": "2027/28 research postgraduate tuition: HKD 49,500, full-time or part-time. Eligible local full-time UGC-funded students receive a normative-period tuition waiver."
+  },
+  "hong-kong-university-of-science-and-technology-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Distinct master's and doctoral academic requirements are listed.",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall and Spring local/non-local deadlines explicitly dated.",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application costs HKD 180.",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Support conditions include progress and teaching performance.",
+        "url": "https://www.math.hkust.edu.hk/pg/?menu=3",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2027/28 research postgraduate tuition: HKD 49,500, full-time or part-time. Eligible local …",
+        "url": "https://ebookshelf.hkust.edu.hk/flippingbook/G23842_AdmissionFlyer/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "PGS: HKD 229,620 per year, up to 2 years for full-time …",
+        "url": "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate/admissions",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://www.math.hkust.edu.hk/pg/?menu=3",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://ebookshelf.hkust.edu.hk/flippingbook/G23842_AdmissionFlyer/",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate/admissions",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://ebookshelf.hkust.edu.hk/flippingbook/G23842_AdmissionFlyer/",
+          "year": "2027/28",
+          "note": "Central flyer confirms amount and modes; annual basis supported by School of Science waiver, not a mathematics fee instalment table.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate/admissions",
+          "year": "2027/28",
+          "note": "School of Science current intake page; stipend rate not separately year-labelled.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+          "year": "2027/28",
+          "note": "No additional compulsory GRE listed; language single-attempt/no-at-home rules apply.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+          "year": "2027/28; Spring 2026/27",
+          "note": "These are published intake-specific dates, not projected recurring dates.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 3,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail"
+      ]
+    },
+    "selection": "Bachelor's with outstanding performance, or satisfactory postgraduate study of at least one full-time year/two part-time years. Language admissions requirements are separate from post-enrolment qualifying exams.",
+    "cycle": "September 2027 deadline June 1, 2027 for local/non-local applicants. February 2027 deadlines: November 1, 2026 non-local; December 15, 2026 local. Rolling assessment applies.",
+    "fees": "Application fee HKD 180; separate from tuition.",
+    "fundingDetail": "PGS: HKD 229,620 per year, up to 2 years for full-time MPhil or 4 for full-time PhD. Considered with admission; not guaranteed. Renewal conditions and the individual award remain unresolved.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-06-01",
+        "label": "September 2027 closing date",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-11-01",
+        "label": "February 2027 non-local deadline",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-15",
+        "label": "February 2027 local deadline",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "HKPFS: RGC noon; HKUST 23:59, GMT+8",
+        "source": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math"
+      }
+    ],
+    "tuition": "2027/28 research postgraduate tuition: HKD 49,500, full-time or part-time. Eligible local full-time UGC-funded students receive a normative-period tuition waiver."
+  },
+  "national-university-of-singapore-msc-mathematics-by-research": {
+    "evidence": [
+      {
+        "field": "cycle",
+        "text": "Programme no longer offered from January 2024.",
+        "url": "https://www.math.nus.edu.sg/pg/msc-res/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Financial-assistance prose remains alongside discontinuation notice.",
+        "url": "https://www.math.nus.edu.sg/pg/msc-res/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.nus.edu.sg/pg/msc-res/",
+        "label": "Official cycle evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not published",
+          "source": "https://www.math.nus.edu.sg/pg/msc-res/",
+          "year": null,
+          "note": "No new standalone intake; legacy tuition not researched.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.math.nus.edu.sg/pg/msc-res/",
+          "year": "Before January 2024",
+          "note": "Do not apply current university research scholarships to this closed standalone route.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Not published",
+          "source": "https://www.math.nus.edu.sg/pg/msc-res/",
+          "year": null,
+          "note": "No new standalone intake; legacy admissions requirements not reverified.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.math.nus.edu.sg/pg/msc-res/",
+          "year": "Effective January 2024",
+          "note": "Fresh department notice establishes discontinuation; FDDP information is a separate pathway.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Programme withdrawal directly verified. Preserve the record for review, but it must not advertise an open standalone research MSc.",
+      "partiallyVerifiedFourFields": 0
+    },
+    "cycle": "The department discontinued the standalone MSc Mathematics by Research from January 2024. The remaining legacy programme description is not evidence of an available intake.",
+    "fundingDetail": "The legacy page's financial-assistance invitation predates the discontinued route; no current standalone applicant award is established.",
+    "tuition": "Not reverified: No new standalone intake; legacy tuition not researched.",
+    "selection": "Not reverified: No new standalone intake; legacy admissions requirements not reverified."
+  },
+  "national-university-of-singapore-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "GRE preferred; language evidence and English-medium exemption are separate.",
+        "url": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Undated November 15/May 15 rules only.",
+        "url": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "Application fee SGD 50.",
+        "url": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Science research row distinguishes subsidy and citizenship.",
+        "url": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/gdtuitioncurrent.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Stipend, four-year cap and GAP obligations specified.",
+        "url": "https://nusgs.nus.edu.sg/nus-research-scholarship-terms-conditions/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/gdtuitioncurrent.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://nusgs.nus.edu.sg/nus-research-scholarship-terms-conditions/",
+        "label": "Official fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.nus.edu.sg/registrar/docs/info/administrative-policies-procedures/gdtuitioncurrent.pdf",
+          "year": "2026/27",
+          "note": "2027/28 fees not established; MOE eligibility and SO/GAP conditions apply. Miscellaneous fees are additional.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://nusgs.nus.edu.sg/nus-research-scholarship-terms-conditions/",
+          "year": "Effective January 2026",
+          "note": "Not automatic; full-time Singapore residence required; miscellaneous fees may be deducted.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+          "year": null,
+          "note": "FAQ lists IELTS 7.0; TOEFL new 5.0/old 95 but retains writing 22 from old scale, so new-scale component requirement needs clarification.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.math.nus.edu.sg/pg/phd/phd-prospective/",
+          "year": null,
+          "note": "Recurring deadlines reviewed; dated 2027 intake not verified.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 2
+    },
+    "selection": "Honours degree or equivalent; academic record, references and research assessed. GRE encouraged, not a universal mandatory exam. TOEFL/IELTS required when applicable, with 100%-English-medium degree proof an alternative.",
+    "cycle": "Department gives recurring November 15 for following August and May 15 for following January, without calendar-year dates. Confirm the portal's actual intake; no 2027 deadline is inferred.",
+    "fees": "Non-refundable application fee SGD 50 including GST.",
+    "tuition": "AY2026/27 Science research fees, SGD per year: subsidised citizen 9,600; PR 14,100; international with SO/GAP 21,900. Unsubsidised citizen 41,700; PR/international 43,750. Two semester instalments; international/full fees include GST.",
+    "fundingDetail": "Competitive NUS Research Scholarship: from January 2026 monthly SGD 3,800 citizen/3,400 PR/3,000 international, plus tuition subsidy. Initially one year; semester renewals on progress, maximum four years. International holders serve 416 GAP hours; qualifying-exam top-up up to SGD 500 is conditional."
+  },
+  "nanyang-technological-university-phd-mathematical-sciences": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "GRE General/GATE required; GRE Mathematics Subject optional.",
+        "url": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-doctor-of-philosophy-%28phd%29-in-mathematical-sciences",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Two recurring application periods, without year-specific dates.",
+        "url": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-doctor-of-philosophy-%28phd%29-in-mathematical-sciences",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "SPMS explicitly included in laboratory-based fee row.",
+        "url": "https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/research/fees/ay2026-2027researchfees_moe.pdf?sfvrsn=262da06e_2",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Annual tuition covered; renewals and international duties apply.",
+        "url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-doctor-of-philosophy-%28phd%29-in-mathematical-sciences",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/research/fees/ay2026-2027researchfees_moe.pdf?sfvrsn=262da06e_2",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
+        "label": "Official fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ntu.edu.sg/media/docs/default-source/graduate-admissions/research/fees/ay2026-2027researchfees_moe.pdf?sfvrsn=262da06e_2",
+          "year": "2026/27",
+          "note": "SPMS appears in laboratory-based PhD fee row. Not a verified 2027/28 price; ordinary subsidised international service obligation is distinct from scholarship terms.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.ntu.edu.sg/admissions/graduate/financialmatters/scholarships/rss",
+          "year": "Effective January 2026",
+          "note": "Scholarship has no bond; eligibility, research funding and award selection govern.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-doctor-of-philosophy-%28phd%29-in-mathematical-sciences",
+          "year": null,
+          "note": "No current numeric test minima established from programme page.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.ntu.edu.sg/spms/admissions/grad/detail/spms-doctor-of-philosophy-%28phd%29-in-mathematical-sciences",
+          "year": null,
+          "note": "Undated admission windows only.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 2,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1
+    },
+    "selection": "Mathematics/closely related BSc, at least second-upper honours if applicable; MSc optional. International applicants need GRE General or GATE; mathematics GRE Subject welcomed, not required. Non-native-English international applicants need TOEFL/IELTS.",
+    "cycle": "Recurring October–January for August entry and June–July for January entry. Programme page gives no exact calendar-year cutoff; do not convert these to 2027 dates.",
+    "tuition": "AY2026/27 SPMS PhD, SGD annually: 10,450 citizen; 14,950 PR; 23,250 international with SO/GAP; 48,370 unsubsidised. International/unsubsidised figures include 9% GST; subsidy eligibility applies.",
+    "fundingDetail": "Competitive Research Scholarship for full-time applicants with honours distinction/equivalent: monthly SGD 3,800 citizen/3,400 PR/3,000 international from January 2026, plus annual tuition. Initially one year, renewals on progress, maximum four years; international GAP duties apply; conditional top-up up to SGD 500."
+  },
+  "weizmann-institute-of-science-msc-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Graduate programmes charge no tuition.",
+        "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Most students receive a living stipend.",
+        "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Math & CS GPA 90; tests only when specifically requested.",
+        "url": "https://www.weizmann.ac.il/wsos/admissions/how-apply",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Math & CS has March 31, 2027 deadline.",
+        "url": "https://www.weizmann.ac.il/wsos/admissions/how-apply",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.weizmann.ac.il/wsos/admissions/how-apply",
+        "label": "Official selection evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+          "year": null,
+          "note": "Standing department policy; no academic-year-specific incidental fee schedule reviewed.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+          "year": null,
+          "note": "Existence of stipend support verified; complete financial terms not researched.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply",
+          "year": "2027",
+          "note": "Degree equivalence is assessed; below-threshold explanation is not guaranteed acceptance.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply",
+          "year": "2027",
+          "note": "Reviewed official policy; only the scope described in the field is established.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 3,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1
+    },
+    "tuition": "Faculty states no tuition fees for its graduate degrees; incidental/living costs are separate.",
+    "fundingDetail": "Faculty says most graduate students receive a living stipend. Current amount, award duration and renewal conditions are not established by this overview.",
+    "selection": "BSc or final-year equivalent; Math & CS standard 90/100 equivalent, with a one-page case permitted below 90. External GRE/language tests generally unnecessary unless Board requests them; technical interview usually required.",
+    "cycle": "2027 MSc Math & CS applications open November 29, 2026 and close March 31, 2027. References must arrive by the deadline; closing hour not stated.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-11-29",
+        "label": "2027 MSc opening",
+        "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-03-31",
+        "label": "Math & CS MSc closing",
+        "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-03-31",
+        "label": "References due with complete application",
+        "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply"
+      }
+    ]
+  },
+  "weizmann-institute-of-science-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Graduate programmes charge no tuition.",
+        "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Most students receive a living stipend.",
+        "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Advisor support required; foreign-degree test waivers discretionary.",
+        "url": "https://www.weizmann.ac.il/wsos/admissions/how-apply-0",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "PhD applications accepted year-round, no deadline.",
+        "url": "https://www.weizmann.ac.il/wsos/admissions/how-apply-0",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.weizmann.ac.il/wsos/admissions/how-apply-0",
+        "label": "Official selection evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+          "year": null,
+          "note": "Standing department policy; no academic-year-specific incidental fee schedule reviewed.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.weizmann.ac.il/math/studies/graduate-studies",
+          "year": null,
+          "note": "Existence of stipend support verified; complete financial terms not researched.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply-0",
+          "year": null,
+          "note": "MSc direct-PhD transition is a separate internal route.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.weizmann.ac.il/wsos/admissions/how-apply-0",
+          "year": null,
+          "note": "Standing school application policy; no arbitrary year-specific deadline added.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 3,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1
+    },
+    "tuition": "Faculty states no tuition fees for its graduate degrees; incidental/living costs are separate.",
+    "fundingDetail": "Faculty says most graduate students receive a living stipend. Current amount, award duration and renewal conditions are not established by this overview.",
+    "selection": "Research MSc with thesis or assessed equivalent; prospective senior advisor support letter required before review. Foreign-degree candidates may be asked for GRE General/Subject and TOEFL/IELTS; Board controls waivers.",
+    "cycle": "Online PhD applications accepted throughout the year without a deadline, after arranging a supervisor. No individual start date is guaranteed."
+  },
+  "hebrew-university-of-jerusalem-msc-mathematics": {
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "Tuition/housing/insurance/travel support conditional on academic requirements.",
+        "url": "https://mathematics.huji.ac.il/msc-program",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "BSc transcripts and two direct referee letters.",
+        "url": "https://mathematics.huji.ac.il/msc-program",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "January 20 review start is undated.",
+        "url": "https://mathematics.huji.ac.il/msc-program",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://mathematics.huji.ac.il/msc-program",
+        "label": "Official fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not published",
+          "source": "https://mathematics.huji.ac.il/msc-program",
+          "year": null,
+          "note": "International support includes full tuition, but gross tuition rate and incidental fees not published on this programme page.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://mathematics.huji.ac.il/msc-program",
+          "year": null,
+          "note": "Amounts not specified; describes selected international programme, not every ordinary domestic admission.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://mathematics.huji.ac.il/msc-program",
+          "year": null,
+          "note": "No admission GPA threshold or universal GRE requirement established.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://mathematics.huji.ac.il/msc-program",
+          "year": null,
+          "note": "Standing review date, not a dated intake call.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 2
+    },
+    "fundingDetail": "Selected international programme students receive scholarship, full tuition support, housing contribution, local health insurance and travel support for 2 years, subject to academic requirements. Extended MSc scholarships are limited.",
+    "selection": "International MSc application: CV, BSc transcripts, at least two recommendations sent directly by referees. Thesis/oral graduation exam is not described as an entrance exam.",
+    "cycle": "Reviews begin January 20; later applications considered. Page supplies no calendar year, so no exact 2027 deadline is asserted.",
+    "tuition": "Not reverified: International support includes full tuition, but gross tuition rate and incidental fees not published on this programme page."
+  },
+  "hebrew-university-of-jerusalem-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "fundingDetail",
+        "text": "Tuition/housing/insurance/travel support conditional on academic requirements.",
+        "url": "https://mathematics.huji.ac.il/phd-program",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Three possible advisors requested, suggestion non-binding.",
+        "url": "https://mathematics.huji.ac.il/phd-program",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Any-time applications; recommended January 31 lacks year.",
+        "url": "https://mathematics.huji.ac.il/phd-program",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://mathematics.huji.ac.il/phd-program",
+        "label": "Official fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not published",
+          "source": "https://mathematics.huji.ac.il/phd-program",
+          "year": null,
+          "note": "International support includes full tuition, but gross tuition rate and incidental fees not published on this programme page.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://mathematics.huji.ac.il/phd-program",
+          "year": null,
+          "note": "Amounts not specified; describes selected international programme, not every ordinary domestic admission.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://mathematics.huji.ac.il/phd-program",
+          "year": null,
+          "note": "Minimum competitive grades and universal testing requirements not specified.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://mathematics.huji.ac.il/phd-program",
+          "year": null,
+          "note": "Verified standing any-time application policy; no projected 2027 date.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 3
+    },
+    "fundingDetail": "Selected international programme students receive scholarship, full tuition support, housing contribution, local health insurance and travel support for 3 years, subject to academic requirements. Fourth-year extension may be approved.",
+    "selection": "Submit MSc transcripts, CV, two-page research-interest statement, two or more direct recommendations and three possible advisors. Suggested advisors are non-binding; admission is subject to programme assessment.",
+    "cycle": "Applications accepted anytime; January 31 of the preceding academic year recommended for fall, with later cases individually considered. No calendar year is attached to that recommendation.",
+    "tuition": "Not reverified: International support includes full tuition, but gross tuition rate and incidental fees not published on this programme page."
+  },
+  "tel-aviv-university-master-theoretical-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "BSc grade 85; committee may impose supplements.",
+        "url": "https://go.tau.ac.il/he/exact/ma/theoretical-math?v=requirements",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://go.tau.ac.il/he/exact/ma/theoretical-math?v=requirements",
+        "label": "Official selection evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://go.tau.ac.il/he/exact/ma/theoretical-math?v=requirements",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://go.tau.ac.il/he/exact/ma/theoretical-math?v=requirements",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://go.tau.ac.il/he/exact/ma/theoretical-math?v=requirements",
+          "year": "2026/27",
+          "note": "Threshold is eligibility, not admission probability; international equivalence needs assessment.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not published",
+          "source": "https://go.tau.ac.il/he/exact/ma/theoretical-math?v=requirements",
+          "year": "2026/27",
+          "note": "Notice identifies first semester 2026/27, but exact application deadline not supplied in reviewed text.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 0
+    },
+    "selection": "August 6, 2026 notice: recognized mathematics BSc with at least 85; admission committee may require supplementary courses. English/Hebrew exemption-level proficiency required before study; Form 35B required.",
+    "tuition": "Not reverified: Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification.",
+    "fundingDetail": "Not reverified: Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification.",
+    "cycle": "Not reverified: Notice identifies first semester 2026/27, but exact application deadline not supplied in reviewed text."
+  },
+  "tel-aviv-university-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Both routes need supervisor; regular 85/direct 90 standards.",
+        "url": "https://exact-sciences.tau.ac.il/math/phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full-time research scholarship eligibility; teaching pay additional.",
+        "url": "https://exact-sciences.tau.ac.il/math/excellence-scholarships",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://exact-sciences.tau.ac.il/math/phd",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://exact-sciences.tau.ac.il/math/excellence-scholarships",
+        "label": "Official fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://exact-sciences.tau.ac.il/math/phd",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://exact-sciences.tau.ac.il/math/excellence-scholarships",
+          "year": null,
+          "note": "Eligibility does not establish an individual award or employment appointment.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://exact-sciences.tau.ac.il/math/phd",
+          "year": null,
+          "note": "Related MSc may require supplements; direct and regular routes are distinct.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not published",
+          "source": "https://exact-sciences.tau.ac.il/math/phd",
+          "year": null,
+          "note": "Application proceeds through the coordinator after supervisor approval; no dated cutoff published on reviewed page.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1
+    },
+    "selection": "Advisor agreement required in both routes. Regular doctorate: mathematics/related MSc and thesis weighted grade at least 85. Direct route: university mathematics BSc average at least 90, or qualifying first-year MSc performance; two senior academic recommendations required.",
+    "fundingDetail": "Doctoral students devoting all their time to research are eligible for a scholarship through the school; paid tutorial employment is additional and separately arranged. Amount and term are not published here.",
+    "tuition": "Not reverified: Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification.",
+    "cycle": "Not reverified: Application proceeds through the coordinator after supervisor approval; no dated cutoff published on reviewed page."
+  },
+  "university-of-tokyo-master-mathematical-sciences": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Master's provisional annual tuition JPY 535,800.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Written mathematics/English and oral entrance examinations.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Ordinary 2027 master's round occurred in 2026.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+        "label": "Official tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+          "year": "2027",
+          "note": "Specific mathematical-sciences 2027 guide; provisional, not a price guarantee.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+          "year": null,
+          "note": "Guide establishes MEXT fee exemption only; stipend amount, award selection and tenure not researched.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+          "year": "2027 intake, exams in 2026",
+          "note": "Ordinary 2027 round already completed; do not claim GRE/TOEFL replaces departmental mathematical English exam.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf",
+          "year": "2027",
+          "note": "No remaining ordinary round established.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 0
+    },
+    "tuition": "2027 provisional tuition JPY 535,800 annually, first half JPY 267,900; admission JPY 282,000 separately. MEXT scholars exempt. Amount may change.",
+    "selection": "Bachelor's/equivalent eligibility assessed. Ordinary route uses written mathematics A/B, mathematical English reading/writing, oral exam for written-pass candidates, records and documents. Overseas document screening is separate.",
+    "cycle": "April 2027 ordinary master's applications ran June 30–July 7, 2026; written exams August 24–25 and oral August 27–28. This round has passed.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-06-30",
+        "label": "Historical ordinary opening, 10:00 Japan time",
+        "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-07-07",
+        "label": "Historical ordinary closing, 15:00 Japan time",
+        "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/cd52295aade4feca2f7995bbec75c056d370bf6b.pdf"
+      }
+    ],
+    "intakeYear": "2027",
+    "fundingDetail": "Not reverified: Guide establishes MEXT fee exemption only; stipend amount, award selection and tenure not researched."
+  },
+  "university-of-tokyo-doctorate-mathematical-sciences": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Doctoral provisional annual tuition JPY 520,800.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Thesis review and mathematics/English oral assessment.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Application January 5–7, 2027; exams January 28–29.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fees",
+        "text": "JPY 30,000 examination fee, with specified exemptions.",
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+        "label": "Official tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+          "year": "2027",
+          "note": "Specific doctoral 2027 guide; differs from master's rate.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+          "year": null,
+          "note": "MEXT fee exemption confirmed; full scholarship eligibility, stipend and duration were not researched.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+          "year": "2027",
+          "note": "Overseas document-only screening is separate; no universal GRE inferred.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf",
+          "year": "2027",
+          "note": "Reviewed official policy; only the scope described in the field is established.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 3,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 0
+    },
+    "tuition": "2027 provisional tuition JPY 520,800 annually, first half JPY 260,400; admission JPY 282,000 separately. MEXT scholars exempt. Amount may change.",
+    "selection": "Master's/thesis-equivalent eligibility; thesis review, oral mathematics/English/thesis assessment and prior results. General individual eligibility screening October 14–20, 2026 applies only to the specified equivalence category.",
+    "cycle": "April 2027 doctorate: online application January 5, 2027 at 10:00 to January 7 at 15:00; examinations January 28–29, 2027.",
+    "fees": "Application examination fee JPY 30,000; listed university master's/MEXT exemption conditions apply. This is separate from admission and annual tuition.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-05",
+        "label": "Opening 10:00 Japan time",
+        "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf"
+      },
+      {
+        "type": "Admission",
+        "date": "2027-01-07",
+        "label": "Closing 15:00 Japan time",
+        "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-10-20",
+        "label": "Specified individual eligibility-screening category: postal deadline, not all applicants",
+        "source": "https://www.ms.u-tokyo.ac.jp/kyoumu/ab618a1da5ae3af387a2609065bc68980102cda1.pdf"
+      }
+    ],
+    "intakeYear": "2027",
+    "fundingDetail": "Not reverified: MEXT fee exemption confirmed; full scholarship eligibility, stipend and duration were not researched."
+  },
+  "kyoto-university-master-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Graduate tuition schedule is dated April 2022.",
+        "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/4%20Tuition%E3%83%BBFees%20and%20Scholarships-0233eefe947d2b5bfbd5e131e354822f.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "MEXT degree stipend and fee exemption are listed.",
+        "url": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Exam English; coursework and everyday Japanese needed.",
+        "url": "https://www.math.kyoto-u.ac.jp/en/applicant-guidelines",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 master's guidelines available.",
+        "url": "https://sci.kyoto-u.ac.jp/en/admissions/ms",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 graduate tuition: JPY 535,800 annually / 267,900 per half-year; admission …",
+        "url": "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/4%20Tuition%E3%83%BBFees%20and%20Scholarships-0233eefe947d2b5bfbd5e131e354822f.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://www.math.kyoto-u.ac.jp/en/applicant-guidelines",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://sci.kyoto-u.ac.jp/en/admissions/ms",
+        "label": "Official cycle evidence"
+      },
+      {
+        "url": "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
+          "year": "2026",
+          "note": "Central 2026 table; no citizenship split, no 2027 rate assumed.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+          "year": null,
+          "note": "Official indexed university scholarship policy, undated; no individual award or 2027 deadline established.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.math.kyoto-u.ac.jp/en/applicant-guidelines",
+          "year": null,
+          "note": "Corrects earlier prose that implied a Japanese-only examination; current PDF-specific test details remain unverified.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://sci.kyoto-u.ac.jp/en/admissions/ms",
+          "year": "2027",
+          "note": "Guide inspected, but date extraction unresolved; no projected deadline.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 2,
+      "secondPassFields": [
+        "tuition"
+      ]
+    },
+    "tuition": "2026 graduate tuition: JPY 535,800 annually / 267,900 per half-year; admission JPY 282,000 and examination JPY 30,000 separately (document-only selection may cost JPY 10,000).",
+    "fundingDetail": "Competitive MEXT research-degree scholarship reference: master's JPY 144,000 monthly, plus location supplement where applicable; examination/admission/tuition exemption. Tenure limited to standard degree duration; scholarship selection and current call govern.",
+    "selection": "Department says ordinary entrance exam is in English, while sufficient Japanese is needed for daily life and mathematics courses. Foreign students take the same examination as domestic applicants; overseas-degree AAO procedure advised.",
+    "cycle": "School has a 2027 master's guide; department gives recurring August examinations. Exact ordinary application dates and any remaining 2027 round were not extracted reliably."
+  },
+  "kyoto-university-doctorate-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Graduate tuition schedule is dated April 2022.",
+        "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/4%20Tuition%E3%83%BBFees%20and%20Scholarships-0233eefe947d2b5bfbd5e131e354822f.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "MEXT degree stipend and fee exemption are listed.",
+        "url": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Ordinary and October doctoral examinations are separate.",
+        "url": "https://www.math.kyoto-u.ac.jp/en/applicant-guidelines",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "October 2026 doctoral application guidelines marked closed.",
+        "url": "https://sci.kyoto-u.ac.jp/en/admissions/phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 graduate tuition: JPY 535,800 annually / 267,900 per half-year; admission …",
+        "url": "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.kyoto-u.ac.jp/sites/default/files/inline-files/4%20Tuition%E3%83%BBFees%20and%20Scholarships-0233eefe947d2b5bfbd5e131e354822f.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://www.math.kyoto-u.ac.jp/en/applicant-guidelines",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://sci.kyoto-u.ac.jp/en/admissions/phd",
+        "label": "Official cycle evidence"
+      },
+      {
+        "url": "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.kyoto-u.ac.jp/ja/education-campus/contact/fees/jugyo",
+          "year": "2026",
+          "note": "Central 2026 table; no citizenship split, no 2027 rate assumed.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.kyoto-u.ac.jp/en/education-campus/procedures/scholarships/mext",
+          "year": null,
+          "note": "Official indexed university scholarship policy, undated; no individual award or 2027 deadline established.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.math.kyoto-u.ac.jp/en/applicant-guidelines",
+          "year": null,
+          "note": "Exam route verified; full 2027 selection rules not established.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://sci.kyoto-u.ac.jp/en/admissions/phd",
+          "year": "October 2026",
+          "note": "Do not project recurring dates into 2027.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition"
+      ]
+    },
+    "tuition": "2026 graduate tuition: JPY 535,800 annually / 267,900 per half-year; admission JPY 282,000 and examination JPY 30,000 separately (document-only selection may cost JPY 10,000).",
+    "fundingDetail": "Competitive MEXT research-degree scholarship reference: doctoral JPY 145,000 monthly, plus location supplement where applicable; examination/admission/tuition exemption. Tenure limited to standard degree duration; scholarship selection and current call govern.",
+    "selection": "Department gives ordinary doctoral exam in early February and eligible international October entry through an August exam. Current-year degree-equivalence/supervisor conditions require the applicable guide.",
+    "cycle": "School's published October 2026 doctoral guide is marked closed. Department's February/August schedule is recurring; no exact 2027 application deadline established."
+  },
+  "the-university-of-osaka-master-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2024 graduate annual tuition JPY 535,800.",
+        "url": "https://www.osaka-u.ac.jp/sp/whyou/uploads/faq-useful/OsakaUniversityAdmissionGuide2024.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Ordinary master's uses domestic selection procedure.",
+        "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central graduate fee: JPY 535,800 annually / 267,900 per half-year; admission …",
+        "url": "https://www.osaka-u.ac.jp/en/campus/life/tuition/tuition.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.osaka-u.ac.jp/sp/whyou/uploads/faq-useful/OsakaUniversityAdmissionGuide2024.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://www.osaka-u.ac.jp/en/campus/life/tuition/tuition.html",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.osaka-u.ac.jp/en/campus/life/tuition/tuition.html",
+          "year": null,
+          "note": "Current central table, not an explicitly dated 2027 mathematics schedule; no citizenship split.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.osaka-u.ac.jp/sp/whyou/uploads/faq-useful/OsakaUniversityAdmissionGuide2024.pdf",
+          "year": null,
+          "note": "Current mathematics support package not researched; historical 2024 exemption eligibility is not a current award.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "year": null,
+          "note": "Central route distinction verified, programme test specifics unresolved.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "year": "2027",
+          "note": "Science page's November 2026 IPC/SISC deadlines concern physics/chemistry/biology routes, not ordinary mathematics. No mathematics deadline verified.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition"
+      ]
+    },
+    "tuition": "Central graduate fee: JPY 535,800 annually / 267,900 per half-year; admission JPY 282,000 and entrance examination JPY 30,000 separately. Tuition payable in May and November.",
+    "selection": "Ordinary Japanese-taught master's selection follows the same procedure as Japanese applicants. The reviewed page does not establish the mathematics examination subjects or language scores.",
+    "fundingDetail": "Not reverified: Current mathematics support package not researched; historical 2024 exemption eligibility is not a current award.",
+    "cycle": "Not reverified: Science page's November 2026 IPC/SISC deadlines concern physics/chemistry/biology routes, not ordinary mathematics. No mathematics deadline verified."
+  },
+  "the-university-of-osaka-doctorate-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2024 graduate annual tuition JPY 535,800.",
+        "url": "https://www.osaka-u.ac.jp/sp/whyou/uploads/faq-useful/OsakaUniversityAdmissionGuide2024.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Provisional doctoral supervisor approval required.",
+        "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central graduate fee: JPY 535,800 annually / 267,900 per half-year; admission …",
+        "url": "https://www.osaka-u.ac.jp/en/campus/life/tuition/tuition.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.osaka-u.ac.jp/sp/whyou/uploads/faq-useful/OsakaUniversityAdmissionGuide2024.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+        "label": "Official selection evidence"
+      },
+      {
+        "url": "https://www.osaka-u.ac.jp/en/campus/life/tuition/tuition.html",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.osaka-u.ac.jp/en/campus/life/tuition/tuition.html",
+          "year": null,
+          "note": "Current central table, not an explicitly dated 2027 mathematics schedule; no citizenship split.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.osaka-u.ac.jp/sp/whyou/uploads/faq-useful/OsakaUniversityAdmissionGuide2024.pdf",
+          "year": null,
+          "note": "Current mathematics support package not researched; historical 2024 exemption eligibility is not a current award.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "year": null,
+          "note": "Mathematics-specific test subjects and current-year dates remain unresolved.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.sci.osaka-u.ac.jp/en/admissions/graduate-admissions/",
+          "year": "2027",
+          "note": "Science page's November 2026 IPC/SISC deadlines concern physics/chemistry/biology routes, not ordinary mathematics. No mathematics deadline verified.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 2,
+      "secondPassFields": [
+        "tuition"
+      ]
+    },
+    "tuition": "Central graduate fee: JPY 535,800 annually / 267,900 per half-year; admission JPY 282,000 and entrance examination JPY 30,000 separately. Tuition payable in May and November.",
+    "selection": "Ordinary doctorate outside IPC/SISC follows domestic selection. Contact a proposed professor, discuss research plan and obtain application approval before proceeding.",
+    "fundingDetail": "Not reverified: Current mathematics support package not researched; historical 2024 exemption eligibility is not a current award.",
+    "cycle": "Not reverified: Science page's November 2026 IPC/SISC deadlines concern physics/chemistry/biology routes, not ordinary mathematics. No mathematics deadline verified."
+  },
+  "nagoya-university-master-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "January 2026 graduate annual fee JPY 535,800.",
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "JASSO support requires university recommendation.",
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/scholarships/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "April 2027 summer admissions closed July 2, 2026.",
+        "url": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Written exam; English-request deadlines conflict on page.",
+        "url": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/scholarships/",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html",
+        "label": "Official cycle evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/",
+          "year": "January 2026 schedule",
+          "note": "Degree-seeking graduate category; not non-degree monthly research-student tuition.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/scholarships/",
+          "year": null,
+          "note": "University recommendation and selection required; no automatic funding. Tuition-waiver terms checked on fee page.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html",
+          "year": "2027",
+          "note": "Degree eligibility in linked Japanese guide not fully researched.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html",
+          "year": "April 2027",
+          "note": "These deadlines have passed as of review date.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1
+    },
+    "tuition": "January 2026 graduate schedule: JPY 535,800 annually; application JPY 30,000 and registration JPY 282,000 separately. MEXT tuition exemption; 2027 rate not established.",
+    "fundingDetail": "Privately financed international students may seek university-recommended JASSO support, reference JPY 48,000 monthly. Separate merit/financial-need tuition waiver decisions are per semester; award and tenure require confirmation.",
+    "cycle": "Historical April 2027 master's first round: online/payment June 5–July 2, 2026 at 15:00 JST; documents June 19–July 2 at 16:00 JST. No next round verified.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-07-02",
+        "label": "Historical online/payment closing 15:00 JST",
+        "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-07-02",
+        "label": "Historical documents closing 16:00 JST",
+        "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-mc-1.html"
+      }
+    ],
+    "intakeYear": "2027",
+    "selection": "Historical 2027 first round used a written exam, with English by advance request. Page inconsistently gives June 8 versus June 9 for that request; do not resolve the conflict by guessing."
+  },
+  "nagoya-university-doctorate-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "January 2026 graduate annual fee JPY 535,800.",
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "JASSO support requires university recommendation.",
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/scholarships/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "April 2027 summer admissions closed July 2, 2026.",
+        "url": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Doctoral oral entrance examination, English available.",
+        "url": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/scholarships/",
+        "label": "Official fundingDetail evidence"
+      },
+      {
+        "url": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html",
+        "label": "Official cycle evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/tuition/",
+          "year": "January 2026 schedule",
+          "note": "Degree-seeking graduate category; not non-degree monthly research-student tuition.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://life.gmc.nagoya-u.ac.jp/en/life-at-nu/scholarships/",
+          "year": null,
+          "note": "University recommendation and selection required; no automatic funding. Tuition-waiver terms checked on fee page.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html",
+          "year": "2027",
+          "note": "No full next-round qualification rules established.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html",
+          "year": "April 2027",
+          "note": "These deadlines have passed as of review date.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 1
+    },
+    "tuition": "January 2026 graduate schedule: JPY 535,800 annually; application JPY 30,000 and registration JPY 282,000 separately. MEXT tuition exemption; 2027 rate not established.",
+    "fundingDetail": "Privately financed international students may seek university-recommended JASSO support, reference JPY 48,000 monthly. Separate merit/financial-need tuition waiver decisions are per semester; award and tenure require confirmation.",
+    "cycle": "Historical April 2027 doctoral summer round: online/payment June 5–July 2, 2026 at 15:00 JST; documents June 19–July 2 at 16:00 JST. No next round verified.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-07-02",
+        "label": "Historical online/payment closing 15:00 JST",
+        "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-07-02",
+        "label": "Historical documents closing 16:00 JST",
+        "source": "https://www.math.nagoya-u.ac.jp/en/admission/2027/appl-dc-1.html"
+      }
+    ],
+    "intakeYear": "2027",
+    "selection": "Historical 2027 summer doctoral round used an oral exam, with English available. Master's equivalence and supervisor rules need the complete applicant requirements."
+  },
+  "kyushu-university-master-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 annual tuition JPY 535,800, provisional.",
+        "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Documents and oral subject/language screening.",
+        "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "January 6–14, 2026 application period.",
+        "url": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/",
+        "label": "Official cycle evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+          "year": "2026",
+          "note": "Historical international route only.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+          "year": null,
+          "note": "Guide establishes MEXT fee exemption, but scholarship amount, tenure and eligibility were not fully researched.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+          "year": "2026",
+          "note": "Not universal English-only admission or a 2027 rule.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/",
+          "year": "2026",
+          "note": "Explicit year, passed deadline.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 0
+    },
+    "tuition": "Historical April 2026 screening guide: JPY 535,800 annual tuition, JPY 282,000 admission; provisional. MEXT scholars exempt. 2027 fees unverified.",
+    "selection": "Historical foreign-student route: bachelor's/equivalence assessment; documents plus oral mathematics/foreign-language/Japanese examination. PSD pre-application assistance and prospective-supervisor contact apply.",
+    "cycle": "Historical April 2026 applications January 6–14, 2026; exam February 10. No next intake dates established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-01-14",
+        "label": "Historical April 2026 closing date",
+        "source": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/"
+      }
+    ],
+    "fundingDetail": "Not reverified: Guide establishes MEXT fee exemption, but scholarship amount, tenure and eligibility were not fully researched."
+  },
+  "kyushu-university-doctorate-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 annual tuition JPY 535,800, provisional.",
+        "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Documents and oral subject/language screening.",
+        "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "January 6–14, 2026 application period.",
+        "url": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+        "label": "Official tuition evidence"
+      },
+      {
+        "url": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/",
+        "label": "Official cycle evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+          "year": "2026",
+          "note": "Historical international route only.",
+          "checked": "2026-10-12"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+          "year": null,
+          "note": "Guide establishes MEXT fee exemption, but scholarship amount, tenure and eligibility were not fully researched.",
+          "checked": "2026-10-12"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.math.kyushu-u.ac.jp/wp-content/uploads/2025/10/R8_SSIS.pdf",
+          "year": "2026",
+          "note": "Not universal English-only admission or a 2027 rule.",
+          "checked": "2026-10-12"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/",
+          "year": "2026",
+          "note": "Explicit year, passed deadline.",
+          "checked": "2026-10-12"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official programme route reviewed; gaps below distinguish unreviewed fee/award terms from published admission facts.",
+      "partiallyVerifiedFourFields": 0
+    },
+    "tuition": "Historical April 2026 screening guide: JPY 535,800 annual tuition, JPY 282,000 admission; provisional. MEXT scholars exempt. 2027 fees unverified.",
+    "selection": "Historical foreign-student route: master's/equivalence assessment; documents/thesis plus oral mathematics/foreign-language/Japanese examination. PSD assistance and supervisor contact apply.",
+    "cycle": "Historical April 2026 applications January 6–14, 2026; exam February 10. No next intake dates established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-01-14",
+        "label": "Historical April 2026 closing date",
+        "source": "https://www.math.kyushu-u.ac.jp/admission/graduateschool/en/information/7912/"
+      }
+    ],
+    "fundingDetail": "Not reverified: Guide establishes MEXT fee exemption, but scholarship amount, tenure and eligibility were not fully researched."
+  },
+  "kaust-master-applied-mathematics-and-computational-science": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "kaust-doctorate-applied-mathematics-and-computational-science": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://amcs.kaust.edu.sa/study/prospective-students",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "king-saud-university-master-mathematics": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "king-saud-university-doctorate-mathematics": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://graduatestudies.ksu.edu.sa/en/node/921",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "hong-kong-university-of-science-and-technology-bsc-mathematics-science-group-a-entry": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://join.hkust.edu.hk/admissions/international-qualifications?general_requirement=46200",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "national-university-of-singapore-mathematics-major-undergraduate-science-route": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.math.nus.edu.sg/ug/majmin/primajors/ma/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.math.nus.edu.sg/ug/majmin/primajors/ma/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.math.nus.edu.sg/ug/majmin/primajors/ma/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.math.nus.edu.sg/ug/majmin/primajors/ma/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "chennai-mathematical-institute-bs-hons-mathematics-and-mathematical-joint-routes": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.cmi.ac.in/admissions/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.cmi.ac.in/admissions/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.cmi.ac.in/admissions/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.cmi.ac.in/admissions/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "national-taiwan-university-master-in-mathematics-international-route": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://www.math.ntu.edu.tw/en/node/4552",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://www.math.ntu.edu.tw/en/node/4552",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://www.math.ntu.edu.tw/en/node/4552",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.math.ntu.edu.tw/en/node/4552",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "kaist-mathematical-sciences-international-graduate-admission": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://mathsci.kaist.ac.kr/home/en/education/enter/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://mathsci.kaist.ac.kr/home/en/education/enter/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://mathsci.kaist.ac.kr/home/en/education/enter/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://mathsci.kaist.ac.kr/home/en/education/enter/",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "indian-institute-of-science-integrated-phd-mathematics": {
+    "evidence": [],
+    "sources": [],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://math.iisc.ac.in/degprog-intphd.html",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": "https://math.iisc.ac.in/degprog-intphd.html",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "selection": {
+          "status": "Not verified",
+          "source": "https://math.iisc.ac.in/degprog-intphd.html",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://math.iisc.ac.in/degprog-intphd.html",
+          "year": null,
+          "note": "Not established in the official-route review. Existing programme text is retained as prior review, not fresh verification."
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft."
+    }
+  },
+  "peking-university-bicmr-mathematics-phd-peking-university-bicmr": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2026 mainland-only application-assessment: master's degree or eligible six-year bachelor's-equivalent route; two …",
+        "url": "https://math.pku.edu.cn/zygg/170363.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical 2026 intake: online application 20 October–19 December 2025; paper and …",
+        "url": "https://math.pku.edu.cn/zygg/170363.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 domestic full-time academic doctorate: CNY 10,000 per academic year; CNY …",
+        "url": "https://admission.pku.edu.cn/docs/20251010134140836566.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The 2026 central guide links scholarship policies; students whose personnel files …",
+        "url": "https://admission.pku.edu.cn/docs/20251010134140836566.pdf",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.pku.edu.cn/zygg/170363.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://admission.pku.edu.cn/docs/20251010134140836566.pdf",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://admission.pku.edu.cn/docs/20251010134140836566.pdf",
+          "year": "2026",
+          "note": "Central appendix; not an international fee.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://admission.pku.edu.cn/docs/20251010134140836566.pdf",
+          "year": "2026",
+          "note": "Eligibility limitation reviewed; funding policies and 2027 awards not fully reviewed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://math.pku.edu.cn/zygg/170363.htm",
+          "year": "2026",
+          "note": "Hong Kong/Macao/Taiwan and foreign-national applicants use separate guides; 2027 rules unresolved.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.pku.edu.cn/zygg/170363.htm",
+          "year": "2026",
+          "note": "No 2027 ordinary-call deadline established.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "Mainland domestic ordinary admission only; separate 2027 recommendation and foreign-national channels are not conflated.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2026 mainland-only application-assessment: master's degree or eligible six-year bachelor's-equivalent route; two senior academic references and research materials. GRE 300 is one alternative English proof, not a compulsory mathematics GRE; departmental assessment follows screening.",
+    "cycle": "Historical 2026 intake: online application 20 October–19 December 2025; paper and electronic materials due 22 December 2025 at 17:00.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2025-12-19",
+        "label": "Historical 2026 mainland ordinary-call deadline, 17:00",
+        "source": "https://math.pku.edu.cn/zygg/170363.htm"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2025-12-22",
+        "label": "Historical 2026 paper/electronic materials, 17:00",
+        "source": "https://math.pku.edu.cn/zygg/170363.htm"
+      }
+    ],
+    "tuition": "2026 domestic full-time academic doctorate: CNY 10,000 per academic year; CNY 40,000–50,000 over 4–5 years, depending on study length.",
+    "fundingDetail": "The 2026 central guide links scholarship policies; students whose personnel files are not transferred receive no university scholarship. No current mathematics package amount or renewal schedule established.",
+    "applicationWindow": null
+  },
+  "tsinghua-university-ymsc-qiuzhen-mathematics-phd-tsinghua-university-ymsc-qiuzhen": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2027 domestic Qiuzhen: recommendation-based direct doctorate or ordinary application-assessment; overseas-bachelor route …",
+        "url": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Domestic 2027 application/material window was 1 July 10:00–28 July 15:00, 2026, …",
+        "url": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "2027 international Qiuzhen Mathematics PhD: CNY 40,000 per academic year. Domestic …",
+        "url": "https://yzbm.tsinghua.edu.cn/publish/s05/s0501/detail/bb745c8c-e817-4532-8cc1-70fa21bae1b5",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Qiuzhen Outstanding Doctoral Students Programme competitively selects at least five incoming …",
+        "url": "https://yz.tsinghua.edu.cn/en/info/1014/1293.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://yzbm.tsinghua.edu.cn/publish/s05/s0501/detail/bb745c8c-e817-4532-8cc1-70fa21bae1b5",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://yz.tsinghua.edu.cn/en/info/1014/1293.htm",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://yzbm.tsinghua.edu.cn/publish/s05/s0501/detail/bb745c8c-e817-4532-8cc1-70fa21bae1b5",
+          "year": "2027",
+          "note": "Exact international programme row; domestic category still unresolved.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://yz.tsinghua.edu.cn/en/info/1014/1293.htm",
+          "year": "2027",
+          "note": "Not automatic admission funding; updated 2027 programme page retains some older contextual prose.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+          "year": "2027",
+          "note": "Domestic channel reviewed; international programme-specific testing and full central degree criteria remain unresolved.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm",
+          "year": "2027",
+          "note": "Dates refer only to domestic channel; international schedule separately unresolved.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "Domestic Chinese-national call and international tuition/funding evidence labelled separately.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 3,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2027 domestic Qiuzhen: recommendation-based direct doctorate or ordinary application-assessment; overseas-bachelor route is for Chinese nationals, normally GPA 3.5/4. Two senior references and English proof required. Ordinary applicants take three English-language subject papers plus interview; select 'supervisor group' at application and choose a supervisor after enrolment.",
+    "cycle": "Domestic 2027 application/material window was 1 July 10:00–28 July 15:00, 2026, already closed. International departmental deadlines differ; no exact Qiuzhen international cutoff established.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-07-28",
+        "label": "Historical 2027 domestic Qiuzhen cutoff, 15:00",
+        "source": "https://qzc.tsinghua.edu.cn/info/1162/8268.htm"
+      }
+    ],
+    "tuition": "2027 international Qiuzhen Mathematics PhD: CNY 40,000 per academic year. Domestic fee not verified.",
+    "fundingDetail": "Qiuzhen Outstanding Doctoral Students Programme competitively selects at least five incoming students annually: CNY 200,000/year in the first two years; total support up to five years depends on performance. Later-year amount and precise renewal conditions unresolved.",
+    "applicationWindow": null
+  },
+  "academy-of-mathematics-and-systems-science-ucas-mathematics-phd-academy-of-mathematics-and-systems-science-ucas": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 domestic national-plan full-time doctorate: CNY 10,000 per academic year; accommodation …",
+        "url": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "2026 ordinary route requires PRC citizenship and master's-level eligibility (or specified …",
+        "url": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical 2026 autumn intake: online 8 December 2025–9 January 2026; materials …",
+        "url": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+          "year": "2026",
+          "note": "Official indexed call; direct retrieval returned 502.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "AMSS/UCAS doctoral award amounts, duration and renewal were not reviewed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+          "year": "2026",
+          "note": "Official indexed call; international and 2027 rules not reviewed.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html",
+          "year": "2026",
+          "note": "Indexed notice; no projected 2027 dates.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "2026 domestic PRC-national route; foreign-national fees and admission are separate and unreviewed.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 0,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "tuition": "2026 domestic national-plan full-time doctorate: CNY 10,000 per academic year; accommodation charged separately.",
+    "selection": "2026 ordinary route requires PRC citizenship and master's-level eligibility (or specified equivalent qualifications), two professor references, application screening, written English and two specialist papers; equivalent-qualification applicants also take politics.",
+    "cycle": "Historical 2026 autumn intake: online 8 December 2025–9 January 2026; materials by 16 January 2026, postal postmark accepted.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-01-09",
+        "label": "Historical 2026 domestic online closing date",
+        "source": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-01-16",
+        "label": "Historical 2026 material/postmark cutoff",
+        "source": "https://www.amss.ac.cn/admission/bszs/jzml/202512/t20251205_8022714.html"
+      }
+    ],
+    "fundingDetail": "Not verified: AMSS/UCAS doctoral award amounts, duration and renewal were not reviewed.",
+    "applicationWindow": null
+  },
+  "fudan-university-mathematics-phd-fudan-university": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "A mathematics 2026 application-assessment notice is published, but its body is …",
+        "url": "https://math.fudan.edu.cn/81/40/c33035a753984/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Reviewed mathematics notice concerns 2026 intake and was published 29 October …",
+        "url": "https://math.fudan.edu.cn/81/40/c33035a753984/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Proposed 2026 mathematics living allowances: category A CNY 100,000/year; B CNY …",
+        "url": "https://math.fudan.edu.cn/_upload/article/files/50/27/34290e6b43fcb8b8dacf907229a0/7bd98c55-3c97-444b-a32f-198197b4b331.pdf",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.fudan.edu.cn/81/40/c33035a753984/page.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://math.fudan.edu.cn/_upload/article/files/50/27/34290e6b43fcb8b8dacf907229a0/7bd98c55-3c97-444b-a32f-198197b4b331.pdf",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Current domestic/international mathematics fee categories were not reviewed.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://math.fudan.edu.cn/_upload/article/files/50/27/34290e6b43fcb8b8dacf907229a0/7bd98c55-3c97-444b-a32f-198197b4b331.pdf",
+          "year": "2026",
+          "note": "C-category amount, exact normal duration and international applicability not established.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://math.fudan.edu.cn/81/40/c33035a753984/page.htm",
+          "year": "2026",
+          "note": "Title/date inspected; failed image retrieval is not verification of the hidden requirements.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.fudan.edu.cn/81/40/c33035a753984/page.htm",
+          "year": "2026",
+          "note": "Do not use publication date as an application deadline.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "2026 mathematics evidence only; hidden call text prevents nationality-channel confirmation.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 2,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "A mathematics 2026 application-assessment notice is published, but its body is an image that could not be retrieved; degree, tests and supervisor conditions remain unresolved.",
+    "cycle": "Reviewed mathematics notice concerns 2026 intake and was published 29 October 2025; no exact application cutoff extracted.",
+    "fundingDetail": "Proposed 2026 mathematics living allowances: category A CNY 100,000/year; B CNY 80,000/year, including university living allowance during normal study. Category C follows university rules. Categories are periodically reviewed and adjusted; no individual award guaranteed.",
+    "tuition": "Not verified: Current domestic/international mathematics fee categories were not reviewed.",
+    "applicationWindow": null,
+    "applicationDates": []
+  },
+  "nankai-university-mathematics-phd-nankai-university": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2026 ordinary and overseas-bachelor direct routes use material review and comprehensive …",
+        "url": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical second batch: online 25 March–15 April 2026; materials 17 April; …",
+        "url": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "The 2026 central doctorate guide identifies academic scholarships and grants; the …",
+        "url": "https://yzb.nankai.edu.cn/2025/1028/c2962a582329/page.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://yzb.nankai.edu.cn/2025/1028/c2962a582329/page.htm",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Not verified",
+          "source": "https://yzb.nankai.edu.cn/2026/1009/c3396a604003/page.htm",
+          "year": "2027",
+          "note": "Central 2027 fee notice inspected but table content was not exposed in retrieved text; no amount confirmed.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://yzb.nankai.edu.cn/2025/1028/c2962a582329/page.htm",
+          "year": "2026",
+          "note": "Bare scheme existence is not a verified package.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm",
+          "year": "2026",
+          "note": "Central degree qualifications and foreign-national admission require separate guides.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm",
+          "year": "2026",
+          "note": "No exact 2027 mathematics deadline reviewed.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "Domestic ordinary/overseas-educated direct admission, not foreign-national admission.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2026 ordinary and overseas-bachelor direct routes use material review and comprehensive assessment. English proof alternatives include CET6 425, CET4 550, TOEFL 90, IELTS Academic 6, GRE 310/GMAT 640 or an English-taught degree; GRE is not universal.",
+    "cycle": "Historical second batch: online 25 March–15 April 2026; materials 17 April; comprehensive assessment 6–20 May.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-04-15",
+        "label": "Historical 2026 second-batch online cutoff",
+        "source": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-04-17",
+        "label": "Historical 2026 second-batch materials",
+        "source": "https://math.nankai.edu.cn/2026/0325/c34408a591491/page.htm"
+      }
+    ],
+    "tuition": "Not verified: Central 2027 fee notice inspected but table content was not exposed in retrieved text; no amount confirmed.",
+    "fundingDetail": "The 2026 central doctorate guide identifies academic scholarships and grants; the linked finance-support index exposed no award details. Amounts, eligibility and duration remain unresolved.",
+    "applicationWindow": null
+  },
+  "shandong-university-mathematics-phd-shandong-university": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2026 application-assessment: research plan, master's thesis/materials and two professor references; screening …",
+        "url": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical 2026 route: online 10 December 09:00–22 December 17:00, 2025; electronic …",
+        "url": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 domestic full-time academic doctorate: CNY 10,000 per year; application-assessment study …",
+        "url": "https://yz.sdu.edu.cn/info/1007/1265.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 central policy lists competitive scholarships, grants and assistantship allowances for …",
+        "url": "https://yz.sdu.edu.cn/info/1010/1294.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://yz.sdu.edu.cn/info/1007/1265.htm",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://yz.sdu.edu.cn/info/1010/1294.htm",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://yz.sdu.edu.cn/info/1007/1265.htm",
+          "year": "2026",
+          "note": "Not international tuition.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://yz.sdu.edu.cn/info/1010/1294.htm",
+          "year": "2026",
+          "note": "Eligibility and award decisions conditional; no automatic package.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+          "year": "2026",
+          "note": "Department does not establish numeric language-test thresholds; foreign-national route not reviewed.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://www.math.sdu.edu.cn/info/1031/21146.htm",
+          "year": "2026",
+          "note": "No dated 2027 ordinary call reviewed.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2026 application-assessment: research plan, master's thesis/materials and two professor references; screening followed by foreign-language, specialist-subject and comprehensive assessment. Contact the department or supervisor team to confirm vacancies and route.",
+    "cycle": "Historical 2026 route: online 10 December 09:00–22 December 17:00, 2025; electronic materials by the same cutoff and paper originals at assessment.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2025-12-22",
+        "label": "Historical 2026 domestic application/upload cutoff, 17:00",
+        "source": "https://www.math.sdu.edu.cn/info/1031/21146.htm"
+      }
+    ],
+    "tuition": "2026 domestic full-time academic doctorate: CNY 10,000 per year; application-assessment study length four years, direct doctorate five years.",
+    "fundingDetail": "2026 central policy lists competitive scholarships, grants and assistantship allowances for eligible students; annual award rules govern. No universal mathematics amount or duration verified.",
+    "applicationWindow": null
+  },
+  "beijing-normal-university-mathematics-phd-beijing-normal-university": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2027 domestic recommended direct doctorate: recommendation eligibility, language evidence, two references; …",
+        "url": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 recommendation round already closed: 9 September 2026 at 14:00 Beijing …",
+        "url": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Historical 2026 domestic academic doctorate: CNY 10,000/year. Ordinary direct-doctorate students pay …",
+        "url": "https://yz.bnu.edu.cn/detail/f8768233-9d98-4af1-92b1-e1bbc5a2d25b",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Selected 2027 卓越博士-plan students receive its scholarship; mathematics allocation, amount and …",
+        "url": "https://yz.bnu.edu.cn/detail/be0e6268-0bfd-4a34-aa31-e72207bf2577",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://yz.bnu.edu.cn/detail/f8768233-9d98-4af1-92b1-e1bbc5a2d25b",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://yz.bnu.edu.cn/detail/be0e6268-0bfd-4a34-aa31-e72207bf2577",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://yz.bnu.edu.cn/detail/f8768233-9d98-4af1-92b1-e1bbc5a2d25b",
+          "year": "2026",
+          "note": "2027 rates not established.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://yz.bnu.edu.cn/detail/be0e6268-0bfd-4a34-aa31-e72207bf2577",
+          "year": "2027",
+          "note": "Selection into the plan is required, not automatic for every direct-doctorate student.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+          "year": "2027",
+          "note": "General requirements checked separately; ordinary master's-entry and international channels not reviewed.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm",
+          "year": "2027",
+          "note": "Not a future ordinary or international cutoff.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 2,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2027 domestic recommended direct doctorate: recommendation eligibility, language evidence, two references; material screening and on-site interview; admission ranked by subject and supervisor.",
+    "cycle": "2027 recommendation round already closed: 9 September 2026 at 14:00 Beijing time; check-in 12 September and interview 13 September.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-09-09",
+        "label": "Historical 2027 recommended-direct doctorate cutoff, 14:00 Beijing",
+        "source": "https://math.bnu.edu.cn/yjshd/93cf6f2c10d240689b4ae168a835cbd9.htm"
+      }
+    ],
+    "tuition": "Historical 2026 domestic academic doctorate: CNY 10,000/year. Ordinary direct-doctorate students pay CNY 8,000/year for first two years, then CNY 10,000/year for three; 卓越博士 students pay CNY 10,000/year for all five.",
+    "fundingDetail": "Selected 2027 卓越博士-plan students receive its scholarship; mathematics allocation, amount and renewal terms were not established.",
+    "applicationWindow": null
+  },
+  "shenzhen-university-mathematics-phd-shenzhen-university": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2027 domestic recommended direct doctorate: eligible final-year bachelor's students, two senior …",
+        "url": "https://math.szu.edu.cn/info/1034/9416.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "2027 direct-doctorate paper materials had to be posted before 8 October …",
+        "url": "https://math.szu.edu.cn/info/1034/9416.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 domestic non-directed doctorate: CNY 10,000/year; directed-employment fees require separate finance …",
+        "url": "https://yz.szu.edu.cn/info/1042/14166.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 policy lists annual national grant CNY 15,000, university grant CNY …",
+        "url": "https://yz.szu.edu.cn/info/1011/14116.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.szu.edu.cn/info/1034/9416.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://yz.szu.edu.cn/info/1042/14166.htm",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://yz.szu.edu.cn/info/1011/14116.htm",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://yz.szu.edu.cn/info/1042/14166.htm",
+          "year": "2026",
+          "note": "Do not apply to foreign-national tuition or assume 2027 continuation.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://yz.szu.edu.cn/info/1011/14116.htm",
+          "year": "2026",
+          "note": "Official indexed table after direct failure; additional competitive awards not automatic.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://math.szu.edu.cn/info/1034/9416.htm",
+          "year": "2027",
+          "note": "Official indexed call after direct access failed; ordinary master's-entry and international rules separate.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.szu.edu.cn/info/1034/9416.htm",
+          "year": "2027",
+          "note": "Printed 'before' preserved; no presumed end-of-day inclusion or future ordinary dates.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 2,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2027 domestic recommended direct doctorate: eligible final-year bachelor's students, two senior references and research plan; interview at least 20 minutes. English alternatives include CET4/6 425, TOEFL 75, IELTS 6, PETS5, GRE 310 or first-author English publication.",
+    "cycle": "2027 direct-doctorate paper materials had to be posted before 8 October 2026 (postmark rule); electronic materials and national recommendation-system steps also required. Round already closed.",
+    "applicationDates": [
+      {
+        "type": "Supporting documents",
+        "date": "2026-10-08",
+        "label": "Historical 2027 direct-doctorate boundary: paper postmark BEFORE this date",
+        "source": "https://math.szu.edu.cn/info/1034/9416.htm"
+      }
+    ],
+    "tuition": "2026 domestic non-directed doctorate: CNY 10,000/year; directed-employment fees require separate finance schedule.",
+    "fundingDetail": "2026 policy lists annual national grant CNY 15,000, university grant CNY 18,000 and academic scholarship CNY 20,000 during standard study; supervisor allowance CNY 3,000–15,000/year depends on discipline. Directed students excluded; mathematics tier and 2027 terms unresolved.",
+    "applicationWindow": null
+  },
+  "zhejiang-university-mathematics-phd-international-route": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "2026 English-taught international Mathematics PhD: CNY 42,800 per year; three-year listed …",
+        "url": "https://iczu.zju.edu.cn/_upload/article/files/2b/3b/e20929be480ba21faedb2a0198ed/5dc7d290-ef6f-49f5-8a76-c4e4a1f5c6fa.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "2026 international route: non-Chinese ordinary-passport holders with a master's degree, normally …",
+        "url": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical international 2026 intake: self-funded admission by 28 February 2026; CSC …",
+        "url": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "2026 CSC Type B competitively provides tuition waiver, accommodation or allowance, …",
+        "url": "https://iczu.zju.edu.cn/admissionsen/2022/0530/c68996a2590724/page.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://iczu.zju.edu.cn/_upload/article/files/2b/3b/e20929be480ba21faedb2a0198ed/5dc7d290-ef6f-49f5-8a76-c4e4a1f5c6fa.pdf",
+        "label": "Official second-pass tuition evidence"
+      },
+      {
+        "url": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://iczu.zju.edu.cn/admissionsen/2022/0530/c68996a2590724/page.htm",
+        "label": "Official second-pass fundingDetail evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://iczu.zju.edu.cn/_upload/article/files/2b/3b/e20929be480ba21faedb2a0198ed/5dc7d290-ef6f-49f5-8a76-c4e4a1f5c6fa.pdf",
+          "year": "2026",
+          "note": "Foreign-national English programme, not domestic tuition.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://iczu.zju.edu.cn/admissionsen/2022/0530/c68996a2590724/page.htm",
+          "year": "2026",
+          "note": "Not automatic with admission; CSC award duration cannot be changed by recipients.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+          "year": "2026",
+          "note": "Language thresholds and next-cycle assessment details not fully reviewed; not a domestic route.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm",
+          "year": "2026",
+          "note": "No 2027 dates projected.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "Foreign-national international channel only; domestic fees/tests excluded.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 2,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "tuition": "2026 English-taught international Mathematics PhD: CNY 42,800 per year; three-year listed study duration. This programme-specific rate takes priority over the generic Science doctoral fee table.",
+    "selection": "2026 international route: non-Chinese ordinary-passport holders with a master's degree, normally under 40 (flexibility stated), two senior references, transcripts and study proposal. Supervisor provisional-acceptance form is programme-dependent; mathematics row does not mark it mandatory.",
+    "cycle": "Historical international 2026 intake: self-funded admission by 28 February 2026; CSC Type B scholarship by 31 December 2025. Beijing time; CSC Type A follows dispatch-country deadlines.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-02-28",
+        "label": "Historical 2026 self-funded international cutoff, Beijing time",
+        "source": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2025-12-31",
+        "label": "Historical 2026 CSC Type B cutoff, Beijing time",
+        "source": "https://iczu.zju.edu.cn/admissionsen/2024/1030/c68990a2981900/page.htm"
+      }
+    ],
+    "fundingDetail": "2026 CSC Type B competitively provides tuition waiver, accommodation or allowance, stipend and insurance. University screening/video interview and CSC review required. Stipend amount and precise renewal/duration not established from this guide.",
+    "applicationWindow": null
+  },
+  "university-of-science-and-technology-of-china-mathematics-phd-university-of-science-and-technology-of-china": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "2026 domestic PRC-national ordinary route: master's-level eligibility, prior supervisor consent and …",
+        "url": "https://math.ustc.edu.cn/2026/0123/c18650a720386/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Historical 2026 mathematics application/payment window: 24 January–25 February 2026; next ordinary …",
+        "url": "https://math.ustc.edu.cn/2026/0123/c18650a720386/page.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "2026 domestic ordinary full-time doctorate: CNY 10,000 per academic year; central …",
+        "url": "https://yz.ustc.edu.cn/article/2819/177?num=-1",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.ustc.edu.cn/2026/0123/c18650a720386/page.htm",
+        "label": "Official second-pass selection evidence"
+      },
+      {
+        "url": "https://yz.ustc.edu.cn/article/2819/177?num=-1",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://yz.ustc.edu.cn/article/2819/177?num=-1",
+          "year": "2026",
+          "note": "Central ordinary-call tuition; foreign-national and 2027 fees separate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Not verified",
+          "source": null,
+          "year": null,
+          "note": "Mathematics-specific current stipend, eligibility and duration were not reviewed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://math.ustc.edu.cn/2026/0123/c18650a720386/page.htm",
+          "year": "2026",
+          "note": "No GRE substitution or international eligibility inferred.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://math.ustc.edu.cn/2026/0123/c18650a720386/page.htm",
+          "year": "2026",
+          "note": "Department cutoff, not the later central university maximum date.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 0,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "scope": "2026 domestic ordinary application-assessment only.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 0,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Intake year and domestic/international scope are specified individually in field audits; not all rules are current 2027 calls."
+    },
+    "selection": "2026 domestic PRC-national ordinary route: master's-level eligibility, prior supervisor consent and confirmation of specialist written-exam subjects; application review and departmental assessment. Direct doctorate and overseas-bachelor channels follow separate procedures.",
+    "cycle": "Historical 2026 mathematics application/payment window: 24 January–25 February 2026; next ordinary cycle not verified.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-02-25",
+        "label": "Historical 2026 domestic mathematics application/payment cutoff",
+        "source": "https://math.ustc.edu.cn/2026/0123/c18650a720386/page.htm"
+      }
+    ],
+    "tuition": "2026 domestic ordinary full-time doctorate: CNY 10,000 per academic year; central basic study duration 3–4 years.",
+    "fundingDetail": "Not verified: Mathematics-specific current stipend, eligibility and duration were not reviewed.",
+    "applicationWindow": null
+  },
+  "peking-university-bicmr-mathematics-postdoctoral-route-peking-university-bicmr": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Not applicable: a salaried postdoctoral appointment, not a tuition-charging degree.",
+        "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CNY 240,000–320,000 annual pre-tax salary for two years, with possible one-year …",
+        "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematics PhD with international-journal publications; cover letter, publication-list CV, application form, …",
+        "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Dated 2026 notice accepts postdoctoral applications throughout the year; no exact …",
+        "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+          "year": "2026",
+          "note": "Classification follows the advertised employment appointment.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+          "year": "2026",
+          "note": "Dated 8 January 2026 call; supplemental competitive awards not guaranteed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+          "year": "2026",
+          "note": "Published appointment requirements, not student admissions tests.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/31-18.html",
+          "year": "2026",
+          "note": "No invented annual ISO cutoff.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 4,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 0,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Official call published 2026-01-08"
+    },
+    "tuition": "Not applicable: a salaried postdoctoral appointment, not a tuition-charging degree.",
+    "fundingDetail": "CNY 240,000–320,000 annual pre-tax salary for two years, with possible one-year renewal; health/other PKU postdoc benefits and extra teaching compensation. Distinguished/Boya or national awards require separate consideration.",
+    "selection": "Mathematics PhD with international-journal publications; cover letter, publication-list CV, application form, research statement and at least two references sent directly by referees.",
+    "cycle": "Dated 2026 notice accepts postdoctoral applications throughout the year; no exact closing date.",
+    "applicationWindow": null,
+    "applicationDates": []
+  },
+  "tsinghua-university-ymsc-mathematics-postdoctoral-route-tsinghua-university-ymsc": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Not applicable: postdoctoral employment rather than a taught or research degree.",
+        "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Listed postdoc application requires cover letter, CV, research statement and three …",
+        "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Two-year appointment with possible one-year extension; salary/benefits and travel grant advertised …",
+        "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Jobs page describes starts from 2025 and links application services; no …",
+        "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+          "year": null,
+          "note": "Employment classification.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+          "year": "2025",
+          "note": "Full salary, renewal criteria and current-year package not published in reviewed text.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Historical",
+          "source": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+          "year": "2025",
+          "note": "Page still describes positions starting in 2025; current appointment eligibility not fully specified.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Historical",
+          "source": "https://ymsc.tsinghua.edu.cn/en/Jobs/Postdocs.htm",
+          "year": "2025",
+          "note": "Do not relabel 2025 start as current.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Jobs page explicitly advertises starts from 2025"
+    },
+    "tuition": "Not applicable: postdoctoral employment rather than a taught or research degree.",
+    "selection": "Listed postdoc application requires cover letter, CV, research statement and three references.",
+    "fundingDetail": "Two-year appointment with possible one-year extension; salary/benefits and travel grant advertised without amounts.",
+    "cycle": "Jobs page describes starts from 2025 and links application services; no verified 2026/27 exact deadline.",
+    "applicationWindow": null,
+    "applicationDates": []
+  },
+  "amss-institute-of-applied-mathematics-mathematics-postdoctoral-route-amss-institute-of-applied-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Not applicable: postdoctoral employment, not a fee-paying degree.",
+        "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Under 35 with doctorate obtained within three years; two references including …",
+        "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Compensation follows AMSS regulations; recruitment notice gives no amount, appointment duration …",
+        "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Standing notice says long-term recruitment; no dated 2027 cutoff published.",
+        "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://amt.amss.cas.cn/bsh/bshzp/",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://amt.amss.cas.cn/bsh/bshzp/",
+          "year": null,
+          "note": "Official indexed appointment notice; direct access timed out.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://amt.amss.cas.cn/bsh/bshzp/",
+          "year": null,
+          "note": "Known compensation mechanism, incomplete package.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://amt.amss.cas.cn/bsh/bshzp/",
+          "year": null,
+          "note": "Standing official indexed criteria; direct retrieval timed out, current-year exceptions unresolved.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://amt.amss.cas.cn/bsh/bshzp/",
+          "year": null,
+          "note": "Official indexed notice; current host vacancies unresolved.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 3,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Undated standing recruitment page"
+    },
+    "tuition": "Not applicable: postdoctoral employment, not a fee-paying degree.",
+    "selection": "Under 35 with doctorate obtained within three years; two references including doctoral supervisor, publications and host-supervisor signed opinion. AMSS graduates cannot return as postdocs in the same first-level discipline.",
+    "fundingDetail": "Compensation follows AMSS regulations; recruitment notice gives no amount, appointment duration or renewal terms.",
+    "cycle": "Standing notice says long-term recruitment; no dated 2027 cutoff published.",
+    "applicationWindow": null,
+    "applicationDates": []
+  },
+  "fudan-university-mathematics-postdoctoral-route-fudan-university": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Not applicable: postdoctoral employment rather than a degree programme.",
+        "url": "https://math.fudan.edu.cn/30416/list.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Mathematics/related PhD, normally age at most 35 and degree obtained within …",
+        "url": "https://math.fudan.edu.cn/30416/list.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Salary follows national/Fudan standards; housing and family-service assistance advertised. Competitive super-postdoc/national/Shanghai …",
+        "url": "https://math.fudan.edu.cn/30416/list.htm",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Year-round applications; committee usually considers cases in June and December. No …",
+        "url": "https://math.fudan.edu.cn/30416/list.htm",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.fudan.edu.cn/30416/list.htm",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://math.fudan.edu.cn/30416/list.htm",
+          "year": null,
+          "note": "Actual recruitment page replaces old station introduction as evidence.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://math.fudan.edu.cn/30416/list.htm",
+          "year": null,
+          "note": "Not a guaranteed personal funding package.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://math.fudan.edu.cn/30416/list.htm",
+          "year": null,
+          "note": "Standing call; individual exceptions and current host vacancies unresolved.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://math.fudan.edu.cn/30416/list.htm",
+          "year": null,
+          "note": "Recurring committee months not projected into ISO deadlines.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 3,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Undated standing recruitment page"
+    },
+    "tuition": "Not applicable: postdoctoral employment rather than a degree programme.",
+    "selection": "Mathematics/related PhD, normally age at most 35 and degree obtained within three years; first identify a host teacher. Two references: doctoral supervisor and host.",
+    "fundingDetail": "Salary follows national/Fudan standards; housing and family-service assistance advertised. Competitive super-postdoc/national/Shanghai awards require selection. Salary amount and appointment tenure not published.",
+    "cycle": "Year-round applications; committee usually considers cases in June and December. No dated future cutoff.",
+    "applicationWindow": null,
+    "applicationDates": []
+  },
+  "university-of-science-and-technology-of-china-mathematics-postdoctoral-route-university-of-science-and-technology-of-china": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Not applicable: salaried postdoctoral employment, separate from doctoral study.",
+        "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "selection",
+        "text": "Doctoral defence passed, normally age at most 35 (enterprise postdocs at …",
+        "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Postdoc base salary from CNY 200,000/year, including social insurance, housing-fund contributions …",
+        "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Listed mathematics vacancies recruit until filled; confirm with the group. No …",
+        "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+        "label": "Official second-pass tuition evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+          "year": null,
+          "note": "Uses postdoc section B, not associate-researcher section A.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+          "year": null,
+          "note": "Undated central page; actual platform offer and tax treatment not established.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+          "year": null,
+          "note": "University requirements plus one group example; not universal mathematics reference policy.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://employment.ustc.edu.cn/cn/indexnews.aspx?sign=635487875427187007",
+          "year": null,
+          "note": "Standing advertised vacancies may close; not verified individually as still open.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 1,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 3,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Undated standing recruitment page"
+    },
+    "tuition": "Not applicable: salaried postdoctoral employment, separate from doctoral study.",
+    "selection": "Doctoral defence passed, normally age at most 35 (enterprise postdocs at most 38); mathematics groups impose topic/material requirements. A listed reaction-diffusion group requests at least two direct references.",
+    "fundingDetail": "Postdoc base salary from CNY 200,000/year, including social insurance, housing-fund contributions and rental subsidy. Contract up to three years with one possible renewal; early exit ends compensation. Mozi/assessment bonuses require selection.",
+    "cycle": "Listed mathematics vacancies recruit until filled; confirm with the group. No dated 2027 deadline.",
+    "applicationWindow": null,
+    "applicationDates": []
+  },
+  "peking-university-bicmr-enhanced-program-for-graduate-study-spring-2027": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Normally undergraduate years 3–4 or graduate years 1–2; two mathematics professor/associate-professor …",
+        "url": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Selected students from outside Beijing receive arranged/paid accommodation; successful completers can …",
+        "url": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Spring 2027 applications: 23 September–23 October 2026, email cutoff 24:00; paper …",
+        "url": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+        "label": "Official second-pass selection evidence"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Not published",
+          "source": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+          "year": "2027",
+          "note": "Spring 2027 preparation notice does not state a tuition amount; do not infer zero.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+          "year": "2027",
+          "note": "Only stated in-kind/reimbursement support; no complete living-cost package.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+          "year": "2027",
+          "note": "Preparation programme eligibility distinct from PhD admission.",
+          "checked": "2026-10-13"
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://bicmr.pku.edu.cn/content/show/38-365.html",
+          "year": "2027",
+          "note": "Printed cutoff hour preserved; notice does not explicitly label timezone.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFourFields": 2,
+      "researchNote": "Official route retrieval attempted or reviewed; detailed field audit not yet complete. No fresh field override supplied in this draft.",
+      "reviewed": true,
+      "calendarCorrection": "applicationWindow is null: no derived or projected range; applicationDates contain only reviewed exact dates, with historical and channel labels. Empty dates mean no exact cutoff established, not year-round unless cycle explicitly states it.",
+      "partiallyVerifiedFourFields": 1,
+      "secondPassFields": [
+        "tuition",
+        "fundingDetail",
+        "selection",
+        "cycle"
+      ],
+      "publicationScope": "Spring 2027 call; application period explicitly in 2026"
+    },
+    "tuition": "Not verified: Spring 2027 preparation notice does not state a tuition amount; do not infer zero.",
+    "selection": "Normally undergraduate years 3–4 or graduate years 1–2; two mathematics professor/associate-professor references and home-department consent. Expert selection, full attendance and course examinations; completion certificate, not a degree.",
+    "fundingDetail": "Selected students from outside Beijing receive arranged/paid accommodation; successful completers can claim inbound second-class high-speed/train fare. Beijing students normally receive no dormitory. Meal card supplied, not evidence of free meals or cash stipend.",
+    "cycle": "Spring 2027 applications: 23 September–23 October 2026, email cutoff 24:00; paper materials must arrive before that cutoff. Report on 22 February 2027.",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-23",
+        "label": "Spring 2027 email cutoff, 24:00; timezone unstated",
+        "source": "https://bicmr.pku.edu.cn/content/show/38-365.html"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-10-23",
+        "label": "Spring 2027 paper materials must arrive BEFORE email cutoff",
+        "source": "https://bicmr.pku.edu.cn/content/show/38-365.html"
+      }
+    ],
+    "applicationWindow": null
+  }
+}

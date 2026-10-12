@@ -1,0 +1,2575 @@
+{
+  "harvard-university-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Tiered annual PhD tuition.",
+        "url": "https://gsas.harvard.edu/apply/cost-attendance-2026-2027",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Recommended subject GRE and separate language requirement.",
+        "url": "https://www.math.harvard.edu/graduate/admissions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Mathematics is a five-year funded program.",
+        "url": "https://gsas.harvard.edu/natural-sciences-engineering-and-applied-sciences-and-medical-sciences-support",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full-time enrollment, satisfactory progress and annual activation required.",
+        "url": "https://gsas.harvard.edu/financial-support/funding-and-aid/financial-support-phd-students",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall 2027 deadline explicitly dated.",
+        "url": "https://www.math.harvard.edu/graduate/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://gsas.harvard.edu/apply/cost-attendance-2026-2027",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.harvard.edu/graduate/admissions/",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://gsas.harvard.edu/natural-sciences-engineering-and-applied-sciences-and-medical-sciences-support",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://gsas.harvard.edu/financial-support/funding-and-aid/financial-support-phd-students",
+        "label": "Funding renewal conditions"
+      },
+      {
+        "url": "https://www.math.harvard.edu/graduate/",
+        "label": "Official application dates"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://gsas.harvard.edu/apply/cost-attendance-2026-2027",
+          "year": "2026-27",
+          "note": "Before support; schedule does not distinguish citizenship."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://gsas.harvard.edu/natural-sciences-engineering-and-applied-sciences-and-medical-sciences-support",
+          "year": null,
+          "note": "Current stipend amount unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.math.harvard.edu/graduate/admissions/",
+          "year": null,
+          "note": "No numerical competitive cutoff inferred."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.math.harvard.edu/graduate/",
+          "year": "2027",
+          "note": "No opening date inferred. Remove old applicationWindow: its opensAt is only a review confirmation, not a published opening date. Keep the verified deadline in applicationDates."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2026–27 annual tuition: USD 59,048 in years 1–2; USD 15,352 in years 3–4; continuation fee USD 3,906 thereafter. Health charges additional; 2027–28 unverified.",
+    "selection": "Three recommendations, transcripts and a mathematically focused statement. Mathematics Subject GRE recommended, not compulsory. TOEFL/IELTS unless the stated English-medium undergraduate exemption applies.",
+    "fundingDetail": "Mathematics has five years of funding; tuition, health and living support terms appear in the admission notice. Continued full-time enrollment and satisfactory progress required, with annual activation through the department.",
+    "cycle": "Fall 2027 applications open; deadline December 15, 2026. Opening day and closing hour unspecified.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-15",
+        "label": "Fall 2027; closing hour unspecified",
+        "source": "https://www.math.harvard.edu/graduate/"
+      }
+    ],
+    "applicationWindow": null
+  },
+  "massachusetts-institute-of-technology-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Standard tuition charged per term.",
+        "url": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Optional GRE; shortlisted faculty interviews.",
+        "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Five-year guarantee; stipend table labeled 2025–26.",
+        "url": "https://math.mit.edu/academics/grad/phd/financial/index.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Admission deadline year omitted.",
+        "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Central and department dates conflict; inherited dated admission entry and any legacy window explicitly cleared. Fee-waiver date retained only in prose because the permitted date types do not include application-fee waiver.",
+        "url": "https://oge.mit.edu/programs/mathematics/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Department: December 1 admission deadline without year; November 20, 2026 fee-waiver deadline. This differs from central OGE.",
+        "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://math.mit.edu/academics/grad/phd/financial/index.html",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://oge.mit.edu/programs/mathematics/",
+        "label": "Official central mathematics admissions profile"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://registrar.mit.edu/registration-academics/tuition-fees/graduate",
+          "year": "2026-27",
+          "note": "Standard resident rate; no citizenship distinction."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://math.mit.edu/academics/grad/phd/financial/index.html",
+          "year": "Policy undated; amounts 2025-26",
+          "note": "Guarantee current; stated stipend amounts historical."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://math.mit.edu/academics/grad/phd/admission/index.html",
+          "year": null,
+          "note": "Interview is admissions-related."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://oge.mit.edu/programs/mathematics/",
+          "year": "Undated admission rules; fee waiver 2026",
+          "note": "Central and department dates conflict; inherited dated admission entry and any legacy window explicitly cleared. Fee-waiver date retained only in prose because the permitted date types do not include application-fee waiver.",
+          "checked": "2026-10-13"
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "2026–27 standard graduate tuition: USD 33,360 per Fall or Spring term. Summer and approved non-resident thesis registration have separate rates; fees additional. 2027–28 unverified.",
+    "selection": "GRE optional. Transcripts, objectives and at least three recommendations; shortlisted applicants interview remotely in January. English evidence separate: IELTS preferred, TOEFL iBT and DET accepted subject to waiver rules.",
+    "fundingDetail": "Five years of full tuition, stipend and individual health support subject to satisfactory progress; first-year fellowship without teaching. Historical 2025–26 monthly rates: USD 4,370.21 fellowship; USD 4,488.28 TA/RA. That 2025–26 table also provides one summer fellowship month at 85% of stipend rate; additional summer support varies.",
+    "cycle": "Fall entry only. Official pages conflict: mathematics department gives December 1 at 23:59 EST, while central OGE mathematics profile gives December 15 at 23:59 Eastern and September 1 opening. Admission dates are undated, so neither is projected into a 2027 intake window. Department explicitly gives November 20, 2026 for fee-waiver requests; this is not an admission deadline. Confirm the live mathematics application with the department.",
+    "applicationDates": [],
+    "applicationWindow": null
+  },
+  "princeton-university-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Regular tuition and health fee separate.",
+        "url": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Optional GRE; adviser after general exam.",
+        "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Three letters; optional subject test highly recommended.",
+        "url": "https://www.math.princeton.edu/graduate/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Fellowship and RA rates specify duration.",
+        "url": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Funding during regular PhD enrollment.",
+        "url": "https://gradschool.princeton.edu/student-experience/student-support-overview",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Deadline for Fall 2027.",
+        "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Fall 2027 application deadlines are in calendar 2026.",
+        "url": "https://gradschool.princeton.edu/admission-onboarding/prepare/application-deadlines",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mathematics",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://www.math.princeton.edu/graduate/admissions",
+        "label": "Department materials"
+      },
+      {
+        "url": "https://gradschool.princeton.edu/student-experience/student-support-overview",
+        "label": "Regular-enrollment funding"
+      },
+      {
+        "url": "https://gradschool.princeton.edu/admission-onboarding/prepare/application-deadlines",
+        "label": "Fall 2027 deadlines in 2026"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+          "year": "2026-27",
+          "note": "Charge before funding."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://gradschool.princeton.edu/financial-support/financial-support-model/funding-calendar-university-rates-costs",
+          "year": "2026-27",
+          "note": "Rates are appointment-specific."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mathematics",
+          "year": "2027",
+          "note": "Department recommendation separately reviewed."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mathematics",
+          "year": "2027",
+          "note": "Year corroborated by central deadlines page."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2026–27 regular graduate tuition USD 65,210 per academic year; Student Health Plan USD 4,220 separately. Marginal enrollment differs; 2027–28 unverified.",
+    "selection": "Fall 2027 general and Mathematics Subject GRE optional. Department highly recommends the subject test; submit statements, CV, transcripts and three recommendations. Thesis adviser chosen after the general exam.",
+    "fundingDetail": "Funding applies during regular PhD enrollment. 2026–27 appointment rates: university fellowship USD 52,680 for 12 months; first-year science fellowship USD 46,200 for 10 months; summer RA USD 9,240 for two months. Appointment and offer determine the package.",
+    "cycle": "Fall 2027 deadline December 15, 2026 at 11:59 pm EST.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-15",
+        "label": "Fall 2027; 11:59 pm EST",
+        "source": "https://gradschool.princeton.edu/academics/degrees-requirements/fields-study/mathematics"
+      }
+    ]
+  },
+  "stanford-university-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Quarterly tuition varies by units/status.",
+        "url": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Subject GRE waiver; general GRE not accepted.",
+        "url": "https://mathematics.stanford.edu/academics/graduate-admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Five-year support; separate KHS eligibility.",
+        "url": "https://mathematics.stanford.edu/academics/graduate-admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Separate degree and scholarship deadlines.",
+        "url": "https://mathematics.stanford.edu/academics/graduate-admissions",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://mathematics.stanford.edu/academics/graduate-admissions",
+        "label": "Official admission requirements"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://studentservices.stanford.edu/tuition-rates/2026-2027-graduate-and-professional-tuition-rates",
+          "year": "2026-27",
+          "note": "Standard graduate classification."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://mathematics.stanford.edu/academics/graduate-admissions",
+          "year": null,
+          "note": "Five-year progress-dependent mechanism verified; stipend amount unresolved. KHS separately competitive."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://mathematics.stanford.edu/academics/graduate-admissions",
+          "year": "2027",
+          "note": "Qualifying exams are later degree milestones."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://mathematics.stanford.edu/academics/graduate-admissions",
+          "year": "2027",
+          "note": "Scholarship date already past. Remove old applicationWindow: its opensAt is only a review confirmation, not a published opening date. Keep the verified deadline in applicationDates."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2026–27 graduate tuition per quarter: USD 14,180 for 8–10 units; USD 21,815 for 11–18 units; approved terminal graduate registration USD 4,254. Other charges additional; 2027–28 unverified.",
+    "selection": "Mathematics Subject GRE expected; waiver form if impractical. General GRE neither required nor accepted. Course list, transcripts, statement and 3–4 recommendations; TOEFL/IELTS if applicable. US-equivalent bachelor's sufficient; master's not required.",
+    "fundingDetail": "Five years of full support subject to satisfactory progress through fellowships, TA/RA appointments; stipend unspecified. Knight-Hennessy is separately competitive, with degree-recency rules, all citizenships eligible, and up to three years of support.",
+    "cycle": "Autumn 2027: December 1, 2026, 11:59 pm Pacific. Knight-Hennessy closed October 6, 2026, 1 pm Pacific.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "Autumn 2027; 11:59 pm Pacific",
+        "source": "https://mathematics.stanford.edu/academics/graduate-admissions"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-10-06",
+        "label": "Knight-Hennessy; 1 pm Pacific; historical/past",
+        "source": "https://mathematics.stanford.edu/academics/graduate-admissions"
+      }
+    ],
+    "applicationWindow": null
+  },
+  "university-of-california-berkeley-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Graduate academic semester tuition.",
+        "url": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Required subject GRE and GPA minimum.",
+        "url": "https://math.berkeley.edu/graduate/admissions/frequently-asked-questions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Five-year progress-dependent support.",
+        "url": "https://math.berkeley.edu/graduate/admissions/frequently-asked-questions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Exact Pacific closing time.",
+        "url": "https://math.berkeley.edu/graduate/admissions",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://math.berkeley.edu/graduate/admissions/frequently-asked-questions",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://math.berkeley.edu/graduate/admissions",
+        "label": "Official application dates"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://registrar.berkeley.edu/tuition-fees/fee-schedule/",
+          "year": "2026-27",
+          "note": "Residency, not citizenship alone, sets classification."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://math.berkeley.edu/graduate/admissions/frequently-asked-questions",
+          "year": null,
+          "note": "Offer amount unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://math.berkeley.edu/graduate/admissions/frequently-asked-questions",
+          "year": "2027",
+          "note": "Eligibility minimum, not competitive cutoff."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://math.berkeley.edu/graduate/admissions",
+          "year": "2027",
+          "note": "Opening day unspecified. Remove old applicationWindow: its opensAt is only a review confirmation, not a published opening date. Keep the verified deadline in applicationDates."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "2026–27 estimated academic-graduate tuition USD 6,861 per semester; nonresidents additionally USD 7,551 supplemental tuition where applicable. Services, campus, transit and health fees extra. Amounts subject to revision; 2027–28 unverified.",
+    "selection": "Mathematics Subject GRE required for Fall 2027; general GRE optional. Three recommendations, transcripts and statements; GPA minimum 3.0/4.0. English evidence and bachelor's equivalency follow Graduate Division rules.",
+    "fundingDetail": "Five years of full PhD funding subject to satisfactory progress. Reviewed FAQ does not quantify stipend or itemize all covered charges.",
+    "cycle": "Fall 2027 applications open; deadline December 1, 2026, 8:59 pm Pacific. References due with application.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-01",
+        "label": "Fall 2027; 8:59 pm Pacific",
+        "source": "https://math.berkeley.edu/graduate/admissions"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-01",
+        "label": "References; late receipt not assured review",
+        "source": "https://math.berkeley.edu/graduate/admissions"
+      }
+    ],
+    "applicationWindow": null
+  },
+  "university-of-california-los-angeles-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree-specific admission requirements.",
+        "url": "https://grad.ucla.edu/requirements/?app=admission&major=0540",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Five-year statement qualified as almost all.",
+        "url": "https://ww3.math.ucla.edu/financial-support/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "International policy: four years plus conditional fifth.",
+        "url": "https://ww3.math.ucla.edu/admissions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "December 13, 2026 published.",
+        "url": "https://grad.ucla.edu/requirements/?app=admission&major=0540",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central financial-aid budget reviewed; rates explicitly provisional. Final registrar table could not be accessed; residency classification and remission remain separate.",
+        "url": "https://financialaid.ucla.edu/graduate-aid/cost-of-attendance",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Central conditional coverage mechanism verified; mathematics stipend remains unresolved and earlier official funding-duration discrepancy preserved. No award assumed.",
+        "url": "https://grad.ucla.edu/funding/financial-aid/funding-for-entering-students/teaching-research-assistantships/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://grad.ucla.edu/programs/physical-sciences/mathematics/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://grad.ucla.edu/requirements/?app=admission&major=0540",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://ww3.math.ucla.edu/financial-support/",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://ww3.math.ucla.edu/admissions/",
+        "label": "International support conditions"
+      },
+      {
+        "url": "https://financialaid.ucla.edu/graduate-aid/cost-of-attendance",
+        "label": "Official provisional graduate budget"
+      },
+      {
+        "url": "https://grad.ucla.edu/funding/financial-aid/funding-for-entering-students/teaching-research-assistantships/",
+        "label": "Official central assistantship remission policy"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://financialaid.ucla.edu/graduate-aid/cost-of-attendance",
+          "year": "2026-27 provisional budget",
+          "note": "Central financial-aid budget reviewed; rates explicitly provisional. Final registrar table could not be accessed; residency classification and remission remain separate.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://grad.ucla.edu/funding/financial-aid/funding-for-entering-students/teaching-research-assistantships/",
+          "year": "Undated appointment rules reviewed 2026-10-13",
+          "note": "Central conditional coverage mechanism verified; mathematics stipend remains unresolved and earlier official funding-duration discrepancy preserved. No award assumed.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://grad.ucla.edu/requirements/?app=admission&major=0540",
+          "year": "2027-28",
+          "note": "Department oral-proficiency test concerns TA eligibility."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://grad.ucla.edu/requirements/?app=admission&major=0540",
+          "year": "2027-28",
+          "note": "Year-specific central requirements."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "selection": "2027–28 admits only PhD applicants. Mathematics Subject GRE, three recommendations and substantial upper-division coursework required. Minimum 3.5 in upper-division mathematics; applicants holding a master's need better than 3.5 in graduate study.",
+    "fundingDetail": "Support page describes five years for almost all recent PhD admits, covering registration fees, health and nonresident tuition. International admissions policy describes four guaranteed years and a usual fifth conditional on progress/candidacy, plus first-year oral-proficiency conditions. Confirm offer duration. Central appointment policy: eligible TA/GSR/tutor/reader/special-reader appointments of at least 25% for the whole quarter receive paid medical insurance and full tuition/student-services fee offsets; qualified GSR appointments of at least 45% may receive nonresident remission. These conditions do not establish the mathematics offer’s stipend or settle the differing four-/five-year department descriptions.",
+    "cycle": "Fall 2027 / 2027–28 deadline December 13, 2026; closing hour unspecified.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-13",
+        "label": "Fall 2027; closing hour unspecified",
+        "source": "https://grad.ucla.edu/requirements/?app=admission&major=0540"
+      }
+    ],
+    "tuition": "Provisional 2026–27 central graduate budget: USD 15,066 annual UC systemwide tuition; USD 542 campus fees separately. Nonresidents add USD 15,102 annual supplemental tuition. Health insurance budget USD 7,515 annually, waivable with qualifying insurance. These are estimated charges, not living costs or final registrar rates; 2027–28 not established."
+  },
+  "university-of-toronto-msc-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree minima; supervision begins after admission.",
+        "url": "https://www.sgs.utoronto.ca/programs/mathematics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Calendar distinguishes MSc structures.",
+        "url": "https://sgs.calendar.utoronto.ca/degree/Mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Prior-year handbook funding terms.",
+        "url": "https://www.mathematics.utoronto.ca/sites/www.mathematics.utoronto.ca/files/2025-26%20Graduate%20Studies%20in%20Mathematics%20Handbook%2007222025-compressed.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Pages 42 and 51 list research MSc domestic/international fees; page 34 identifies Schedule 2 as Fall 2026/Winter 2027. Amounts not projected into 2027–28. Current incidental and summer amounts not established.",
+        "url": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Registrar states domestic non-Ontario rates do not apply to graduate programs; archived PDF schedules are historical, and current fees are in Tuition Explorer. Explorer extraction returned the form without a mathematics-specific selection.",
+        "url": "https://www.registrar.utoronto.ca/fees-payments/tuition-fee-schedules/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Prior October 12 review: Department prospective-student page returned human-verification screen; official SGS program links back to it. No bypass attempted and no dated next-intake deadline established.",
+        "url": "https://www.mathematics.utoronto.ca/graduate/prospective-students",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.sgs.utoronto.ca/programs/mathematics/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.mathematics.utoronto.ca/graduate/prospective-students",
+        "label": "Official application dates"
+      },
+      {
+        "url": "https://sgs.calendar.utoronto.ca/degree/Mathematics",
+        "label": "2026–27 degree regulations"
+      },
+      {
+        "url": "https://www.mathematics.utoronto.ca/sites/www.mathematics.utoronto.ca/files/2025-26%20Graduate%20Studies%20in%20Mathematics%20Handbook%2007222025-compressed.pdf",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+        "label": "Official approved-year tuition report"
+      },
+      {
+        "url": "https://www.registrar.utoronto.ca/fees-payments/tuition-fee-schedules/",
+        "label": "Official fee category and schedule guidance"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+          "year": "2026-27 Schedule 2, Fall 2026/Winter 2027",
+          "note": "Pages 42 and 51 list research MSc domestic/international fees; page 34 identifies Schedule 2 as Fall 2026/Winter 2027. Amounts not projected into 2027–28. Current incidental and summer amounts not established.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.mathematics.utoronto.ca/sites/www.mathematics.utoronto.ca/files/2025-26%20Graduate%20Studies%20in%20Mathematics%20Handbook%2007222025-compressed.pdf",
+          "year": "2025-26",
+          "note": "Official indexed PDF excerpt reviewed; full department access blocked. Not a current offer."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.sgs.utoronto.ca/programs/mathematics/",
+          "year": "2026-27",
+          "note": "GRE/language-test specifics were not established in this review."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.mathematics.utoronto.ca/graduate/prospective-students",
+          "year": null,
+          "note": "Department prospective-student page returned human-verification screen; official SGS program links back to it. No bypass attempted and no dated next-intake deadline established."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "selection": "MSc minimum final-year average mid-B; excellent mathematical preparation expected. Separate 12/16/24-month MSc structures exist. Supervisor is identified by applicant after admission; admission is not conditional on pre-securing one.",
+    "fundingDetail": "Historical 2025–26 handbook indexed text lists CAD 24,250 plus tuition/fees for MSc support, with approximately 180 TA hours. Award period and 2026–27/2027 package are not established.",
+    "tuition": "Published 2026–27 Schedule 2, Arts & Science St. George research MSc: CAD 7,600 domestic program fee (2025/2026 entry), CAD 33,460 international. Fall 2026/Winter 2027 schedule, not a full-course total; incidental fees, UHIP where applicable and separate summer charges additional. Exact current mathematics invoice and summer charges not extracted. 2027–28 rows are planning information, not final approved rates.",
+    "cycle": "Prior directory timing is not reverified and must not be treated as a confirmed next-intake deadline. Department prospective-student page returned human-verification screen; official SGS program links back to it. No bypass attempted and no dated next-intake deadline established.",
+    "applicationDates": [],
+    "applicationWindow": null
+  },
+  "university-of-toronto-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Degree minima; supervision begins after admission.",
+        "url": "https://www.sgs.utoronto.ca/programs/mathematics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Calendar permits direct BSc entry at GPA 3.7+.",
+        "url": "https://sgs.calendar.utoronto.ca/degree/Mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Prior-year handbook funding terms.",
+        "url": "https://www.mathematics.utoronto.ca/sites/www.mathematics.utoronto.ca/files/2025-26%20Graduate%20Studies%20in%20Mathematics%20Handbook%2007222025-compressed.pdf",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Pages 42 and 51 align domestic/international PhD fees; page 34 identifies Fall 2026/Winter 2027 Schedule 2. Exact ancillary/summer charges not established.",
+        "url": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Registrar states domestic non-Ontario rates do not apply to graduate programs; archived PDF schedules are historical, and current fees are in Tuition Explorer. Explorer extraction returned the form without a mathematics-specific selection.",
+        "url": "https://www.registrar.utoronto.ca/fees-payments/tuition-fee-schedules/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "cycle",
+        "text": "Prior October 12 review: Department prospective-student page returned human-verification screen; official SGS program links back to it. No bypass attempted and no dated next-intake deadline established.",
+        "url": "https://www.mathematics.utoronto.ca/graduate/prospective-students",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.sgs.utoronto.ca/programs/mathematics/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.mathematics.utoronto.ca/graduate/prospective-students",
+        "label": "Official application dates"
+      },
+      {
+        "url": "https://sgs.calendar.utoronto.ca/degree/Mathematics",
+        "label": "2026–27 degree regulations"
+      },
+      {
+        "url": "https://www.mathematics.utoronto.ca/sites/www.mathematics.utoronto.ca/files/2025-26%20Graduate%20Studies%20in%20Mathematics%20Handbook%2007222025-compressed.pdf",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+        "label": "Official approved-year tuition report"
+      },
+      {
+        "url": "https://www.registrar.utoronto.ca/fees-payments/tuition-fee-schedules/",
+        "label": "Official fee category and schedule guidance"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Historical",
+          "source": "https://planningandbudget.utoronto.ca/wp-content/uploads/2026/04/2026-27-Tuition-Fee-Report_FINAL.pdf",
+          "year": "2026-27 Schedule 2, Fall 2026/Winter 2027",
+          "note": "Pages 42 and 51 align domestic/international PhD fees; page 34 identifies Fall 2026/Winter 2027 Schedule 2. Exact ancillary/summer charges not established.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Historical",
+          "source": "https://www.mathematics.utoronto.ca/sites/www.mathematics.utoronto.ca/files/2025-26%20Graduate%20Studies%20in%20Mathematics%20Handbook%2007222025-compressed.pdf",
+          "year": "2025-26",
+          "note": "Official indexed PDF excerpt reviewed; full department access blocked. Not a current offer."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.sgs.utoronto.ca/programs/mathematics/",
+          "year": "2026-27",
+          "note": "GRE/language-test specifics were not established in this review."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://www.mathematics.utoronto.ca/graduate/prospective-students",
+          "year": null,
+          "note": "Department prospective-student page returned human-verification screen; official SGS program links back to it. No bypass attempted and no dated next-intake deadline established."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "selection": "PhD minimum B+ and a relevant master's; exceptionally strong BSc applicants may apply direct with GPA 3.7+. Supervisor identified after admission by applicant. Comprehensive exam is a later program milestone.",
+    "fundingDetail": "Historical 2025–26 handbook describes PhD support for normally four to five years, five for direct entry, subject to progress, good standing and satisfactory TA performance. Current amounts remain unverified.",
+    "tuition": "Published 2026–27 Schedule 2, Arts & Science St. George PhD: CAD 6,330 program fee for both domestic and international students. Fall 2026/Winter 2027 schedule, not a full-course total; incidental fees, UHIP where applicable and separate summer charges additional. Exact current mathematics invoice and summer charges not extracted. 2027–28 rows are planning information, not final approved rates.",
+    "cycle": "Prior directory timing is not reverified and must not be treated as a confirmed next-intake deadline. Department prospective-student page returned human-verification screen; official SGS program links back to it. No bypass attempted and no dated next-intake deadline established.",
+    "applicationDates": [],
+    "applicationWindow": null
+  },
+  "university-of-british-columbia-msc-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Three tuition installments; annual rates separately listed.",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "No GRE; two references; no precommitted supervisor.",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Senior mathematics preparation prioritized.",
+        "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "All three deadlines December 23, 2026.",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Entrance award is a total annual pool.",
+        "url": "https://www.math.ubc.ca/graduate/prospective-students/financial-support",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "MSc normally from relevant bachelor's.",
+        "url": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-graduate-and-postdoctoral-studies/degree-programs/mathematics",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
+        "label": "Department coursework/application requirements"
+      },
+      {
+        "url": "https://www.math.ubc.ca/graduate/prospective-students/financial-support",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-graduate-and-postdoctoral-studies/degree-programs/mathematics",
+        "label": "Separate MSc/PhD prerequisite rules"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+          "year": null,
+          "note": "Published profile amounts verified; fiscal year unspecified. Domestic categories include citizens/PR/refugees/diplomats."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.math.ubc.ca/graduate/prospective-students/financial-support",
+          "year": null,
+          "note": "Scholarship opportunity verified; universal MSc funding not verified. Stale NSERC figures omitted."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+          "year": "2027",
+          "note": "Degree prerequisite verified separately in UBC calendar; language evidence follows program-specific rules."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+          "year": "2027",
+          "note": "Current profiles supersede prior directory December 31 supporting-document claim."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Published full-time tuition: CAD 1,912.84 domestic or CAD 3,360.55 international per installment, three installments/year (CAD 5,738.52/10,081.65 annually). Fee year unnamed; 2027 rate not established. Annual student fees about CAD 1,203.20 additional.",
+    "selection": "MSc normally requires a mathematics/related bachelor's. GRE not required; two references, transcripts, CV and research interests. Identify faculty interests; prior supervisor commitment unnecessary. Senior analysis, complex analysis, algebra and another area prioritized. Language evidence follows separate program rules.",
+    "cycle": "September 2027: opens October 1, 2026; application, transcripts and references due December 23, 2026 for Canadian/international applicants. Closing hour unspecified.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-01",
+        "label": "September 2027 applications open",
+        "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-23",
+        "label": "Application deadline",
+        "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-23",
+        "label": "Transcript and referee deadline",
+        "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics"
+      }
+    ],
+    "fundingDetail": "RA funding depends on supervisor grants; TA appointments may be available. Department entrance scholarships total CAD 2,500 annually, by departmental recommendation; this is a shared award pool, not CAD 2,500 guaranteed per entrant. A current MSc base package/duration is not established.",
+    "applicationWindow": {
+      "institution": "University of British Columbia",
+      "degree": "Masters",
+      "intake": "September 2027",
+      "openingDate": "2026-10-01",
+      "deadlineDate": "2026-12-23",
+      "deadlinePrecision": "date",
+      "opensAt": "2026-10-01T00:00:00Z",
+      "closesAt": "2026-12-23T00:00:00Z",
+      "openingLabel": "October 1, 2026; opening hour unspecified",
+      "deadlineLabel": "December 23, 2026; closing hour unspecified",
+      "timeZone": "America/Vancouver",
+      "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-mathematics",
+      "note": "Date-only machine markers, not published UTC hours. Application, transcript and referee deadlines are all December 23, 2026; remove former December 31 note.",
+      "reviewed": "2026-10-12"
+    }
+  },
+  "university-of-british-columbia-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Three tuition installments; annual rates separately listed.",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "No GRE; two references; no precommitted supervisor.",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Senior mathematics preparation prioritized.",
+        "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "All three deadlines December 23, 2026.",
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CAD 40,000 minimum; conditional progress; tuition deducted.",
+        "url": "https://www.grad.ubc.ca/awards/minimum-funding-policy-phd-students",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Relevant master's prerequisite; exceptional direct-entry approval.",
+        "url": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-graduate-and-postdoctoral-studies/degree-programs/mathematics",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.ubc.ca/graduate/prospective-students/admissions",
+        "label": "Department coursework/application requirements"
+      },
+      {
+        "url": "https://www.grad.ubc.ca/awards/minimum-funding-policy-phd-students",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://vancouver.calendar.ubc.ca/faculties-colleges-and-schools/faculty-graduate-and-postdoctoral-studies/degree-programs/mathematics",
+        "label": "Separate MSc/PhD prerequisite rules"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+          "year": null,
+          "note": "Published profile amounts verified; fiscal year unspecified. Domestic categories include citizens/PR/refugees/diplomats."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://www.grad.ubc.ca/awards/minimum-funding-policy-phd-students",
+          "year": "From 2026-09",
+          "note": "Gross package, not net disposable cash. Fast-track duration counts from first master's registration."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+          "year": "2027",
+          "note": "Degree prerequisite verified separately in UBC calendar; language evidence follows program-specific rules."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+          "year": "2027",
+          "note": "Current profiles supersede prior directory December 31 supporting-document claim."
+        }
+      },
+      "verifiedFieldCount": 3,
+      "partiallyVerifiedFieldCount": 1
+    },
+    "tuition": "Published full-time tuition: CAD 1,912.84 domestic or CAD 3,360.55 international per installment, three installments/year (CAD 5,738.52/10,081.65 annually). Fee year unnamed; 2027 rate not established. Annual student fees about CAD 1,203.20 additional.",
+    "selection": "PhD normally requires a relevant master's; exceptional direct bachelor's entry needs faculty approval. GRE not required; two references, transcripts, CV and research interests. Identify faculty interests; prior supervisor commitment unnecessary. Senior analysis, complex analysis, algebra and another area prioritized. Language evidence follows separate program rules.",
+    "cycle": "September 2027: opens October 1, 2026; application, transcripts and references due December 23, 2026 for Canadian/international applicants. Closing hour unspecified.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-10-01",
+        "label": "September 2027 applications open",
+        "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics"
+      },
+      {
+        "type": "Admission",
+        "date": "2026-12-23",
+        "label": "Application deadline",
+        "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2026-12-23",
+        "label": "Transcript and referee deadline",
+        "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics"
+      }
+    ],
+    "fundingDetail": "From September 2026: full-time domestic/international Vancouver PhDs receive at least CAD 40,000/year in years 1–4, conditional on satisfactory progress and required scholarship applications. Package includes awards/employment, vacation pay and benefits; excludes International Tuition Award. External awards may reduce departmental support; award payments first cover tuition/fees.",
+    "applicationWindow": {
+      "institution": "University of British Columbia",
+      "degree": "Doctorate",
+      "intake": "September 2027",
+      "openingDate": "2026-10-01",
+      "deadlineDate": "2026-12-23",
+      "deadlinePrecision": "date",
+      "opensAt": "2026-10-01T00:00:00Z",
+      "closesAt": "2026-12-23T00:00:00Z",
+      "openingLabel": "October 1, 2026; opening hour unspecified",
+      "deadlineLabel": "December 23, 2026; closing hour unspecified",
+      "timeZone": "America/Vancouver",
+      "source": "https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/phd-mathematics",
+      "note": "Date-only machine markers, not published UTC hours. Application, transcript and referee deadlines are all December 23, 2026; remove former December 31 note.",
+      "reviewed": "2026-10-12"
+    }
+  },
+  "university-of-waterloo-mmath-pure-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Research degree tuition per term.",
+        "url": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-domestic-ontario-0",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree-specific preparation and entry rules.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full support includes master's entrants.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Support does not eliminate tuition obligation.",
+        "url": "https://uwaterloo.ca/pure-mathematics/financial-information/tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Central page lists January 7 without year.",
+        "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-master-mathematics-mmath",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Department lists MMath January 1.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/application-procedure-and-admissions",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-domestic-ontario-0",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/financial-information/tuition-fees",
+        "label": "Tuition payment from support"
+      },
+      {
+        "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-master-mathematics-mmath",
+        "label": "Official application dates"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/application-procedure-and-admissions",
+        "label": "Department deadline differs"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-domestic-ontario-0",
+          "year": "Fall 2026",
+          "note": "Only domestic Ontario category established; no universal rate asserted."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+          "year": null,
+          "note": "Offer needed for amount, period and renewal conditions."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+          "year": null,
+          "note": "GRE requirement not established; language proficiency is separate."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-master-mathematics-mmath",
+          "year": null,
+          "note": "No recurring month/day projected into 2027."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 4
+    },
+    "tuition": "Fall 2026 full-time research tuition for domestic Ontario students: CAD 2,298 per term, plus CAD 698.11 incidental fees. International/out-of-province rates and Fall 2027 rates not verified.",
+    "selection": "Substantial undergraduate pure-math preparation required, beyond calculus/linear algebra/ODE. Applicants enter MMath thesis option; later research-paper transfer possible. PhD admission requires a separate assessment.",
+    "fundingDetail": "Department FAQ states all admitted graduate students, including MMath, receive full support. Amount/duration not stated; tuition remains payable and may be arranged from stipend or awards.",
+    "cycle": "Official conflict: central MMath page January 7 versus department January 1 for September entry. Neither names deadline year; obtain current confirmation."
+  },
+  "institute-for-advanced-study-school-of-mathematics-postdoctoral-membership": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Research membership categories.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Career-stage eligibility.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Duration and support mechanism.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Deadline omits year.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ias.edu/math/apply/membership",
+        "label": "Official tuition schedule"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Non-degree category; not a zero-fee quotation."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Amount and individual award unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Academic recruitment, not student examination admission."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Linked current call year not established."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Research membership, not a degree admission; no degree tuition rate applies.",
+    "selection": "Postdoctoral memberships for researchers no more than five years beyond PhD; joint positions require applications to both hosts.",
+    "fundingDetail": "Competitive stipendiary postdoctoral memberships last one or two years; amount unspecified.",
+    "cycle": "Applications described as open; December 1 application/reference deadline has no explicit year."
+  },
+  "institute-for-advanced-study-school-of-mathematics-mid-to-senior-career-membership": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Research membership categories.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Career-stage eligibility.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Duration and support mechanism.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Deadline omits year.",
+        "url": "https://www.ias.edu/math/apply/membership",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ias.edu/math/apply/membership",
+        "label": "Official tuition schedule"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Non-degree category; not a zero-fee quotation."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Amount and individual award unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Academic recruitment, not student examination admission."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.ias.edu/math/apply/membership",
+          "year": null,
+          "note": "Linked current call year not established."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "Research membership, not a degree admission; no degree tuition rate applies.",
+    "selection": "Mid/senior membership for researchers beyond five years from PhD, including sabbatical visitors.",
+    "fundingDetail": "Usually one year or one term; limited support for researchers lacking sufficient external funds; amount unspecified.",
+    "cycle": "Applications described as open; December 1 application/reference deadline has no explicit year."
+  },
+  "johns-hopkins-university-phd-mathematics": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Annual and semester tuition.",
+        "url": "https://krieger.jhu.edu/graduate-admissions/apply/cost-of-attendance/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Optional subject test.",
+        "url": "https://mathematics.jhu.edu/graduate/admissions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Five-year support and competitive Owen supplement.",
+        "url": "https://mathematics.jhu.edu/graduate/admissions/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "AY 2026–27 compensation USD 52,000 from July 1, 2026.",
+        "url": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Separate ordinary and VTSI dates.",
+        "url": "https://mathematics.jhu.edu/graduate/admissions/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://krieger.jhu.edu/graduate-admissions/apply/cost-of-attendance/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://mathematics.jhu.edu/graduate/admissions/",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://provost.jhu.edu/education/graduate-and-professional-education/phd-union/collective-bargaining-agreement/",
+        "label": "2026–27 CBA compensation"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://krieger.jhu.edu/graduate-admissions/apply/cost-of-attendance/",
+          "year": "2026-27",
+          "note": "Resident/non-resident is academic enrollment status here."
+        },
+        "fundingDetail": {
+          "status": "Verified",
+          "source": "https://mathematics.jhu.edu/graduate/admissions/",
+          "year": "2026-27 compensation; undated guarantee",
+          "note": "Sixth year generally possible, not guaranteed; 2027–28 stipend unverified."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://mathematics.jhu.edu/graduate/admissions/",
+          "year": "2027",
+          "note": "No general GRE requirement inferred."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://mathematics.jhu.edu/graduate/admissions/",
+          "year": "2027",
+          "note": "VTSI has institution-attendance eligibility; no automatic scholarship."
+        }
+      },
+      "verifiedFieldCount": 4,
+      "partiallyVerifiedFieldCount": 0
+    },
+    "tuition": "2026–27 full-time KSAS tuition USD 68,670 annually / USD 34,335 per semester, before support. Non-resident academic-status fee USD 6,867 annually differs from citizenship. Matriculation and other charges separate; 2027–28 unverified.",
+    "selection": "Academic records, statement and three recommendations. Mathematics Subject GRE optional; English evidence separately required where applicable. Subject-score verification may wait until acceptance.",
+    "fundingDetail": "All admitted PhDs receive stipend, full tuition and benefits for five years subject to satisfactory progress. CBA summary gives USD 52,000 annual compensation effective July 1, 2026 for AY 2026–27; future offer and appointment terms govern. Owen supplement is competitive: USD 6,000/year for three years.",
+    "cycle": "Fall 2027: all ordinary materials due December 15, 2026; VTSI and supplementary materials December 1, 2026. Hours unspecified.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2026-12-15",
+        "label": "Ordinary application materials",
+        "source": "https://mathematics.jhu.edu/graduate/admissions/"
+      },
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "VTSI consideration; eligibility and supplement required",
+        "source": "https://mathematics.jhu.edu/graduate/admissions/"
+      }
+    ]
+  },
+  "new-york-university-phd-mathematics-courant": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Admissions policy expects subject GRE.",
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/admission-policies/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Funding page calls general and subject GRE optional.",
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/financial-support/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Coverage and progress-dependent renewal.",
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/financial-support/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring January 4.",
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/admission-policies/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Central GSAS charging/lookup mechanism reviewed; current Courant amount inaccessible. No access-control bypass; no unsupported directory tuition estimate carried forward.",
+        "url": "https://bulletins.nyu.edu/graduate/arts-science/cost-attendance/",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/admission-policies/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/financial-support/",
+        "label": "Conflicting GRE statement and support"
+      },
+      {
+        "url": "https://bulletins.nyu.edu/graduate/arts-science/cost-attendance/",
+        "label": "Official GSAS 2026–27 cost guidance"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://bulletins.nyu.edu/graduate/arts-science/cost-attendance/",
+          "year": "2026-27 bulletin; amount unresolved",
+          "note": "Central GSAS charging/lookup mechanism reviewed; current Courant amount inaccessible. No access-control bypass; no unsupported directory tuition estimate carried forward.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/financial-support/",
+          "year": null,
+          "note": "Competitive award; not presumed granted."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/admission-policies/",
+          "year": null,
+          "note": "Official GRE conflict unresolved; materials and degree entry verified."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://math.nyu.edu/dynamic/graduate/phd-mathematics/admission-policies/",
+          "year": null,
+          "note": "No 2027 date projected."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 4
+    },
+    "selection": "Bachelor's/equivalent may lead directly to full-time PhD. Three references and transcripts. Admissions policy expects Mathematics Subject GRE, with explanation if impractical, and rejects General GRE; funding page calls both optional. Confirm current-cycle test policy. English evidence separate.",
+    "fundingDetail": "Competitive MacCracken support for full-time PhD applicants supplies a nine-month stipend, tuition/registration fees and individual comprehensive health insurance. Renewable up to five years with good progress. Current stipend amount unspecified.",
+    "cycle": "January 4 PhD deadline for domestic/international applicants; deadline year unspecified.",
+    "tuition": "2026–27 GSAS bulletin directs graduate applicants to the Bursar lookup by school/program, admit term and credits. Applicable Courant PhD tuition amount remains unverified: Bursar lookup returned HTTP 405 and the linked 2025–26 PDF required human verification. Do not substitute Tisch or other schools’ rates, or the bulletin’s living-cost/health-insurance budget, for tuition."
+  },
+  "university-of-saskatchewan-mathematics-msc-thesis": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Degree-specific term rates.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Normal fellowship amount; period unclear.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree-specific academic minimum.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring deadline only.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official tuition schedule"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": "2026-27",
+          "note": "Before support."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": null,
+          "note": "Not an unconditional award."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": null,
+          "note": "GRE/supervisor commitment not established."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": null,
+          "note": "No 2027 projection."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3
+    },
+    "tuition": "2026–27: CAD 1,902 domestic / CAD 4,279 international per term, three terms/year (CAD 5,706/12,837 annually). Student fees extra; 2027–28 unverified.",
+    "fundingDetail": "Eligible applicants automatically considered for normal teaching fellowships of at least CAD 21,000; award period, duration and renewal unspecified.",
+    "selection": "Relevant four-year honours/equivalent degree; minimum 70% in last two study years. Three references, two academic; English evidence if required.",
+    "cycle": "Fall deadline December 15; intake/deadline year unspecified."
+  },
+  "university-of-saskatchewan-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Degree-specific term rates.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Normal fellowship amount; period unclear.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree-specific academic minimum.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Recurring deadline only.",
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://grad.usask.ca/programs/mathematics.php",
+        "label": "Official tuition schedule"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": "2026-27",
+          "note": "Before support."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": null,
+          "note": "Not an unconditional award."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": null,
+          "note": "GRE/supervisor commitment not established."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://grad.usask.ca/programs/mathematics.php",
+          "year": null,
+          "note": "No 2027 projection."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3
+    },
+    "tuition": "2026–27: CAD 1,879 per term for domestic/international PhDs, three terms/year (CAD 5,637 annually). Student fees extra; 2027–28 unverified.",
+    "fundingDetail": "Eligible applicants automatically considered for normal teaching fellowships of at least CAD 25,000; award period, duration and renewal unspecified.",
+    "selection": "Relevant master's required; direct bachelor's-to-PhD prohibited. Minimum 70% in master's coursework; three references, two academic; English evidence if required.",
+    "cycle": "Fall deadline December 15; intake/deadline year unspecified."
+  },
+  "memorial-university-of-newfoundland-mathematics-msc-thesis-or-course-project": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Semester charges by student category.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree and research-supervision guidance.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Displayed funding amount has no explicit period.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Eligible full-time research funding is competitive.",
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Annual month/day only.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "label": "Competitive research funding"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "Published summary, not confirmed 2027–28 schedule."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "Programme amount verified, not annualized or guaranteed."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "GRE/language-test specifics not reverified."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "No next-intake year inferred."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 4
+    },
+    "tuition": "Published MSc tuition CAD 635–1,313/semester for Newfoundland/Labrador, CAD 826–1,707 other Canadian, CAD 1,074–2,218 international. Payment plan and fee year require confirmation; extra charges separate.",
+    "selection": "MSc: appropriate bachelor's, minimum second class. Research applicants strongly encouraged to contact a supervisor; thesis and course/project routes distinct.",
+    "fundingDetail": "Programme lists CAD 18,300 with award period unspecified. Canadian/international full-time research students may compete for internal support; coursework eligibility is not established.",
+    "cycle": "Fall-only MSc; recurring January 15 deadline without year."
+  },
+  "memorial-university-of-newfoundland-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Semester charges by student category.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree and research-supervision guidance.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Displayed funding amount has no explicit period.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Eligible full-time research funding is competitive.",
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Annual month/day only.",
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.mun.ca/become/graduate/tuition-fees-and-funding/graduate-funding--scholarships/",
+        "label": "Competitive research funding"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "Published summary, not confirmed 2027–28 schedule."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "Programme amount verified, not annualized or guaranteed."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "GRE/language-test specifics not reverified."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.mun.ca/become/graduate/programs-and-courses/mathematics-and-statistics/",
+          "year": null,
+          "note": "No next-intake year inferred."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 4
+    },
+    "tuition": "Published PhD tuition per semester: CAD 888 Newfoundland/Labrador; CAD 1,154 other Canadian; CAD 1,499 international. Fee year unnamed; extra charges separate.",
+    "selection": "PhD: appropriate master's. Research applicants strongly encouraged to contact a supervisor; comprehensive examinations are later degree requirements.",
+    "fundingDetail": "Programme lists CAD 22,300 with award period unspecified. Canadian/international full-time research students may compete for internal support.",
+    "cycle": "Recurring January 15 for Fall; August 15 for Winter, PhD only; years unspecified."
+  },
+  "university-of-manitoba-mathematics-msc": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Degree-specific tuition and continuation.",
+        "url": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree and supervisor requirements.",
+        "url": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-msc",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "CGRS-M amount, eligibility and exact deadline.",
+        "url": "https://umanitoba.ca/graduate-studies/funding-awards",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Category-specific annual deadline table.",
+        "url": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-msc",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-msc",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://umanitoba.ca/graduate-studies/funding-awards",
+        "label": "Official funding policy"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+          "year": "2026-27",
+          "note": "Charging schedule is not total degree cost."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://umanitoba.ca/graduate-studies/funding-awards",
+          "year": "2026",
+          "note": "Award opportunity verified; route-wide funding package unresolved."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-msc",
+          "year": null,
+          "note": "Old URLs fail; current admissions-path pages reviewed. GRE requirement not established."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-msc",
+          "year": null,
+          "note": "No precise 2027 dates inferred."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 3
+    },
+    "tuition": "2026–27 full-time MSc: CAD 3,266.48 domestic / CAD 7,186.36 international in terms 1–2, then CAD 800 continuing fee per term. General fees extra; 2027–28 unverified.",
+    "selection": "Honours/four-year mathematics BSc or equivalent; transcripts, CV, two recommendations, essay/math questions and conditional English evidence. Faculty supervisor required before acceptance.",
+    "fundingDetail": "CGRS-M opportunity listed at CAD 27,000 for full-time research master's applicants who are Canadian citizens, permanent residents or protected persons. December 1, 2026, 7:59 pm EST deadline. Award period/renewal and mathematics base package not established.",
+    "cycle": "Recurring MSc deadlines: Canadian/US May 1 Fall and September 1 Winter; international January 8 Fall and March 15 Winter. Years unspecified; pre-master's dates differ.",
+    "applicationDates": [
+      {
+        "type": "Scholarship",
+        "date": "2026-12-01",
+        "label": "CGRS-M; 7:59 pm EST; limited citizenship eligibility",
+        "source": "https://umanitoba.ca/graduate-studies/funding-awards"
+      }
+    ]
+  },
+  "university-of-manitoba-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Degree-specific tuition and continuation.",
+        "url": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree and supervisor requirements.",
+        "url": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "PhD entry terms stated; extracted deadlines ambiguous.",
+        "url": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Central award rules verified as stated; no mathematics base-package guarantee or dated departmental competition established. Actual award duration and selection depend on department and official award letter.",
+        "url": "https://www.umanitoba.ca/graduate-studies/funding-awards/university-manitoba-graduate-fellowship-umgf",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-phd",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://umanitoba.ca/graduate-studies/funding-awards",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://www.umanitoba.ca/graduate-studies/funding-awards/university-manitoba-graduate-fellowship-umgf",
+        "label": "Official UMGF award conditions"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://umanitoba.ca/registrar/tuition-fees/graduate",
+          "year": "2026-27",
+          "note": "Charging schedule is not total degree cost."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.umanitoba.ca/graduate-studies/funding-awards/university-manitoba-graduate-fellowship-umgf",
+          "year": "Undated policy reviewed 2026-10-13",
+          "note": "Central award rules verified as stated; no mathematics base-package guarantee or dated departmental competition established. Actual award duration and selection depend on department and official award letter.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-phd",
+          "year": null,
+          "note": "Old URLs fail; current admissions-path pages reviewed. GRE requirement not established."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://umanitoba.ca/graduate-studies/admissions/programs-of-study/mathematics-phd",
+          "year": null,
+          "note": "Source extraction includes unrelated hidden tables; next-cycle deadline unresolved."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "2026–27 PhD from completed master's: CAD 3,266.48 per term in terms 1, 2, 4, 5 for both domestic/international students; CAD 800 continuing fee otherwise. General fees extra; 2027–28 unverified.",
+    "selection": "Mathematics MSc/equivalent; transcripts, CV, two recommendations, essay/math questions and conditional English evidence. Faculty supervisor required before acceptance.",
+    "cycle": "Fall/Winter entry described, but fetched PhD page includes many other departments' deadline tables. Correct mathematics deadline table could not be isolated reliably; no MSc dates copied.",
+    "fundingDetail": "Competitive UMGF doctoral award: CAD 25,000 per year for 12, 24, 36 or 48 months, departmental nomination required; not guaranteed mathematics funding. All citizenships eligible in eligible research programs. Minimum admission/maintenance GPA 3.0, no grade below C+, full-time registration and satisfactory progress; departmental GPA threshold may be higher. Eligibility duration reduces with elapsed PhD months; total UMGF support across degrees capped at four years. An equal-or-larger single scholarship prevents holding UMGF. Ask mathematics for its nomination deadline and award duration.",
+    "applicationDates": [],
+    "applicationWindow": null
+  },
+  "university-of-waterloo-pure-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Research degree tuition per term.",
+        "url": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-domestic-ontario-0",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Degree-specific preparation and entry rules.",
+        "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-doctor-philosophy-phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "PhD students begin with a supervisor.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Full support includes master's entrants.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Support does not eliminate tuition obligation.",
+        "url": "https://uwaterloo.ca/pure-mathematics/financial-information/tuition-fees",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Central page lists January 7 without year.",
+        "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-doctor-philosophy-phd",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Department lists PhD December 1.",
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/application-procedure-and-admissions",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-domestic-ontario-0",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-doctor-philosophy-phd",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+        "label": "Direct entry and supervisor policy"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/financial-information/tuition-fees",
+        "label": "Tuition payment from support"
+      },
+      {
+        "url": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/application-procedure-and-admissions",
+        "label": "Department deadline differs"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/finance/masters-and-phd-program-tuition-fall-2026-domestic-ontario-0",
+          "year": "Fall 2026",
+          "note": "Only domestic Ontario category established; no universal rate asserted."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/pure-mathematics/graduate-studies/future-students/faq",
+          "year": null,
+          "note": "Offer needed for amount, period and renewal conditions."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-doctor-philosophy-phd",
+          "year": null,
+          "note": "GRE requirement not established; language proficiency is separate."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://uwaterloo.ca/future-graduate-students/programs/by-faculty/math/pure-mathematics-doctor-philosophy-phd",
+          "year": null,
+          "note": "No recurring month/day projected into 2027."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 4
+    },
+    "tuition": "Fall 2026 full-time research tuition for domestic Ontario students: CAD 2,298 per term, plus CAD 698.11 incidental fees. International/out-of-province rates and Fall 2027 rates not verified.",
+    "selection": "Normally a mathematics master's with at least 78%; exceptional honours bachelor's applicants may enter directly. PhD students must begin with a supervisor; identify a small set of potential faculty in the application.",
+    "fundingDetail": "Department FAQ states all admitted graduate students, including MMath, receive full support. Amount/duration not stated; tuition remains payable and may be arranged from stipend or awards.",
+    "cycle": "Official conflict: central PhD page January 7 versus department December 1 for September entry. Neither names deadline year; obtain current confirmation."
+  },
+  "university-of-maine-mathematics-ma": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Graduate per-credit rate categories.",
+        "url": "https://umaine.edu/sfs/tuition-and-fees/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "Separate preliminary and formal applications.",
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Budget minimum, not department award.",
+        "url": "https://umaine.edu/ora/2026/05/19/update-interim-budgeting-guidance-for-graduate-workers-effective-may-2026/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Tuition scholarships are competitive and require departmental nomination.",
+        "url": "https://umaine.edu/graduate/funding/prospective/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Prior October 12 review: Page-wide Fall 2027/December 1 aid banner is not specifically a mathematics MA deadline. Central funding page gives January 15 without year. No program-specific dated deadline established.",
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://umaine.edu/sfs/tuition-and-fees/",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://umaine.edu/ora/2026/05/19/update-interim-budgeting-guidance-for-graduate-workers-effective-may-2026/",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://umaine.edu/graduate/funding/prospective/",
+        "label": "Funding competition and historical stipend example"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://umaine.edu/sfs/tuition-and-fees/",
+          "year": "2026-27",
+          "note": "NEBHE eligibility must be checked; no assistantship assumed."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://umaine.edu/ora/2026/05/19/update-interim-budgeting-guidance-for-graduate-workers-effective-may-2026/",
+          "year": "2026",
+          "note": "Older central funding example is 2024–25; no 2027 mathematics package inferred."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+          "year": null,
+          "note": "Current GRE/language thresholds not established; informal review not formal admission."
+        },
+        "cycle": {
+          "status": "Not verified",
+          "source": "https://umaine.edu/las/mathematics-statistics/graduate-studies/",
+          "year": null,
+          "note": "Page-wide Fall 2027/December 1 aid banner is not specifically a mathematics MA deadline. Central funding page gives January 15 without year. No program-specific dated deadline established."
+        }
+      },
+      "verifiedFieldCount": 1,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "2026–27 Orono standard graduate tuition per credit: USD 596 Maine/Canadian residents; USD 1,817 nonresidents; USD 1,043 eligible NEBHE. Graduate assistants assessed USD 596/credit regardless of residency. Fees additional; 2027–28 unverified.",
+    "selection": "Department preliminary review: cover letter, objectives, three recommendations and transcripts. Conditional/verbal offer still requires formal Graduate School application; English/admission and TA tests follow separate central rules.",
+    "fundingDetail": "Assistantships and tuition scholarships are competitive. May 2026 sponsored-project budgeting guidance lists a USD 21,000 master's base stipend; this is a budgeting minimum, not a mathematics offer. Tuition remission only where sponsor permits. Current mathematics duration and coverage unresolved.",
+    "cycle": "Prior directory timing is not reverified and must not be treated as a confirmed next-intake deadline. Page-wide Fall 2027/December 1 aid banner is not specifically a mathematics MA deadline. Central funding page gives January 15 without year. No program-specific dated deadline established.",
+    "applicationDates": [],
+    "applicationWindow": null
+  },
+  "university-of-arizona-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Optional GRE; separate TA speaking condition.",
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "TA recognition prize is not an entering funding package.",
+        "url": "https://www.math.arizona.edu/academics/graduate/scholarships",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Deadline explicitly names 2027.",
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Central benefits establish appointment-contingent minimums and coverage, not an unconditional PhD offer or multiyear funding guarantee.",
+        "url": "https://grad.arizona.edu/gaships/resources-graduate-students/benefits",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "GA eligibility requires degree-seeking graduate registration and GPA of at least 3.0.",
+        "url": "https://grad.arizona.edu/gaships/",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Central fee rule established, not exact mathematics tuition. Calculator required JavaScript; the undergraduate Student Engagement fee was not assigned to graduate students.",
+        "url": "https://bursar.arizona.edu/tuition/mandatory-fees",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Bursar directs applicants to semester/program/career/residency calculator and separately lists college, program and differential charges.",
+        "url": "https://bursar.arizona.edu/tuition",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.arizona.edu/academics/graduate/scholarships",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://grad.arizona.edu/gaships/resources-graduate-students/benefits",
+        "label": "Official GA benefit and stipend rules"
+      },
+      {
+        "url": "https://grad.arizona.edu/gaships/",
+        "label": "Official GA eligibility"
+      },
+      {
+        "url": "https://bursar.arizona.edu/tuition/mandatory-fees",
+        "label": "Official mandatory graduate fee rule"
+      },
+      {
+        "url": "https://bursar.arizona.edu/tuition",
+        "label": "Official tuition calculation guidance"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://bursar.arizona.edu/tuition/mandatory-fees",
+          "year": "Fee policy effective Fall 2024, reviewed 2026-10-13; tuition amount unresolved",
+          "note": "Central fee rule established, not exact mathematics tuition. Calculator required JavaScript; the undergraduate Student Engagement fee was not assigned to graduate students.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://grad.arizona.edu/gaships/resources-graduate-students/benefits",
+          "year": "2026-27 minimum stipends; other rules undated",
+          "note": "Central benefits establish appointment-contingent minimums and coverage, not an unconditional PhD offer or multiyear funding guarantee.",
+          "checked": "2026-10-13"
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+          "year": "2027; TOEFL scale from 2026-01-21",
+          "note": "Older admission TOEFL scale still appears; use current Graduate College rule for admission."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.math.arizona.edu/academics/graduate/math-program/admissions",
+          "year": "2027",
+          "note": "Exact opening date unverified."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "selection": "General/Mathematics Subject GRE not required. Upper-level real analysis, abstract algebra, linear algebra and complex variables expected; transcripts, course list, statement and three recent dated letters. English admission tests and TA speaking eligibility separate; post-January 21, 2026 TOEFL TA speaking threshold is 5 on the 1–6 scale.",
+    "cycle": "January 10, 2027 deadline; applications open late October, exact day unspecified. Late applications require department inquiry. Fall 2026 domestic fee waiver is historical.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-10",
+        "label": "Closing hour unspecified; late applications by inquiry",
+        "source": "https://www.math.arizona.edu/academics/graduate/math-program/admissions"
+      }
+    ],
+    "fundingDetail": "Conditional on an eligible GA appointment: central 2026–27 minimum at 0.5 FTE is USD 25,654 for a nine-month academic appointment (USD 33,350 fiscal appointment); prorated for appointment length/FTE. At 0.5 FTE or above, 100% base-tuition remission; below 0.5 FTE, 50%. GAs of any residency are billed resident-equivalent tuition. Single-student Campus Health premium covered during appointment, not mandatory/course/program fees. Degree-seeking status and GPA at least 3.0 required. No mathematics-specific multiyear stipend or guaranteed appointment established.",
+    "tuition": "Base tuition varies by semester, graduate program and residency; the central calculator required JavaScript and did not expose the mathematics rates in this review. Exact 2026–27 resident/nonresident base tuition remains unverified. Central mandatory-fee policy effective Fall 2024 lists AFAT up to USD 61 per term, reduced below seven units; it identifies AFAT as the only mandatory fee charged to graduate students. Program/course/college charges may still be additional; GA remission is conditional and does not cover these fees."
+  },
+  "northwestern-university-pure-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "tuition",
+        "text": "Quarterly PhD tuition by stage.",
+        "url": "https://www.northwestern.edu/evanston-graduate-financial-aid/getting-started/tuition-cost-of-attendance/tgs/phd.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "GRE not considered for September 2027.",
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Minimum annual stipend USD 47,748.",
+        "url": "https://www.tgs.northwestern.edu/funding/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Good-standing support; first/fifth-year fellowships.",
+        "url": "https://www.math.northwestern.edu/graduate/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "Opening and deadline month/day only.",
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "checked": "2026-10-12"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.northwestern.edu/evanston-graduate-financial-aid/getting-started/tuition-cost-of-attendance/tgs/phd.html",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.northwestern.edu/graduate/application.html",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://www.tgs.northwestern.edu/funding/",
+        "label": "Official funding policy"
+      },
+      {
+        "url": "https://www.math.northwestern.edu/graduate/",
+        "label": "Mathematics funding arrangement"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-12",
+      "fields": {
+        "tuition": {
+          "status": "Verified",
+          "source": "https://www.northwestern.edu/evanston-graduate-financial-aid/getting-started/tuition-cost-of-attendance/tgs/phd.html",
+          "year": "2026-27",
+          "note": "Amounts verified from PhD table, not master's/professional tuition."
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.tgs.northwestern.edu/funding/",
+          "year": "2026-27",
+          "note": "2026–27 minimum amount and department arrangement verified; precise individual duration/appointment terms remain offer-specific."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.math.northwestern.edu/graduate/application.html",
+          "year": "2027",
+          "note": "Pure mathematics PhD; no separately admitted mathematics master's."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.math.northwestern.edu/graduate/application.html",
+          "year": "September 2027",
+          "note": "No precise 2026 deadline date projected."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "tuition": "2026–27 PhD tuition USD 18,689 per quarter through eight quarters; advanced TGS 500 USD 4,672 per quarter thereafter. Health-services fee and insurance separate; same published tuition categories for domestic/international students. 2027–28 unverified.",
+    "selection": "September 2027 applications: neither General nor Subject GRE considered. Academic/personal statements, advanced course/text list, transcripts and 3–4 recommendations required. English admission evidence and second-year spoken-English requirement are separate.",
+    "fundingDetail": "TGS minimum annual PhD stipend USD 47,748 in 2026–27. Mathematics offers stipend/full health coverage while in good standing, with first/fifth-year fellowships and TA support otherwise. Current offer controls terms; 2027–28 stipend unverified.",
+    "cycle": "Application page addresses September 2027 but lists September 15 opening/December 31 full-consideration without calendar years beside those dates. Portal years/closing hour remain unverified."
+  },
+  "university-of-wisconsin-madison-mathematics-ma-foundations-of-advanced-studies": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "MA application materials omit GRE.",
+        "url": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "General FAQ states Subject GRE required.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "USD 5,000 tuition reduction award.",
+        "url": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "MA-specific deadlines.",
+        "url": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Annual general graduate figures verified, with unchanged 2026–27 rule from separate central announcement. Programme/dissertator/credit-load and international-specific worksheet cells unresolved; Tableau workbook returned an error.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2025-tuition-announcement",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "June 4, 2026 announcement says graduate tuition rates will not increase; undergraduate tuition totals are not used as graduate charges.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Bursar distinguishes graduate/dissertator careers, credits and residency categories; tuition workbook includes segregated fees. The linked workbook returned an error in this review.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "FAQ GRE statement requires clarification"
+      },
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2025-tuition-announcement",
+        "label": "Official 2025 graduate tuition benchmark"
+      },
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+        "label": "Official 2026 tuition announcement"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://bursar.wisc.edu/tuition-and-fees/fall-2025-tuition-announcement",
+          "year": "2025-26 benchmarks; 2026-27 unchanged rule",
+          "note": "Annual general graduate figures verified, with unchanged 2026–27 rule from separate central announcement. Programme/dissertator/credit-load and international-specific worksheet cells unresolved; Tableau workbook returned an error.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+          "year": null,
+          "note": "USD 5,000 second-year merit mechanism verified; current award-year deadline and detailed renewal/selection terms not published here."
+        },
+        "selection": {
+          "status": "Partially verified",
+          "source": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+          "year": null,
+          "note": "MA GRE applicability unresolved; no PhD test automatically imposed."
+        },
+        "cycle": {
+          "status": "Partially verified",
+          "source": "https://www.math.wisc.edu/graduate/master-of-arts-foundation-of-studies/applying-for-ma-fas/",
+          "year": null,
+          "note": "Degree-specific page preferred over inconsistent generic FAQ."
+        }
+      },
+      "verifiedFieldCount": 0,
+      "partiallyVerifiedFieldCount": 4
+    },
+    "selection": "MA-FAS requires mathematical bachelor's/related degree, advanced course list, transcripts, statement, CV and three recommendations; English proof if applicable. Dedicated MA-FAS list omits GRE, while general FAQ says Subject GRE required: confirm degree-specific applicability.",
+    "fundingDetail": "MA-FAS has no tuition remission. Competitive VISP/MA-FAS merit award provides USD 5,000 toward second/final-year tuition; no award assumed. Graduate-assistant/hourly employment may be available without tuition remission.",
+    "cycle": "MA-FAS admits Fall/Spring: March 15 Fall deadline; November 1 Spring deadline. Calendar years unspecified.",
+    "tuition": "Central 2025–26 graduate tuition benchmark: USD 10,728 annually for Wisconsin residents, USD 24,054 for nonresidents. Central June 2026 announcement says graduate tuition is unchanged for 2026–27. These are general graduate benchmarks, not an extracted mathematics/dissertator invoice. Exact programme, credit-load, Minnesota reciprocity and international classifications require the tuition workbook; segregated and other fees are additional. 2027–28 not established."
+  },
+  "university-of-wisconsin-madison-mathematics-phd": {
+    "evidence": [
+      {
+        "field": "selection",
+        "text": "Fall 2027 subject GRE required.",
+        "url": "https://www.math.wisc.edu/graduate/prospective-phd/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "selection",
+        "text": "No supervisor required before application.",
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "fundingDetail",
+        "text": "Conditional five-year support and remission exceptions.",
+        "url": "https://www.math.wisc.edu/graduate/prospective-phd/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "cycle",
+        "text": "All materials due January 1 for Fall 2027.",
+        "url": "https://www.math.wisc.edu/graduate/prospective-phd/",
+        "checked": "2026-10-12"
+      },
+      {
+        "field": "tuition",
+        "text": "Annual general graduate figures verified, with unchanged 2026–27 rule from separate central announcement. Programme/dissertator/credit-load and international-specific worksheet cells unresolved; Tableau workbook returned an error.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2025-tuition-announcement",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "June 4, 2026 announcement says graduate tuition rates will not increase; undergraduate tuition totals are not used as graduate charges.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+        "checked": "2026-10-13"
+      },
+      {
+        "field": "tuition",
+        "text": "Bursar distinguishes graduate/dissertator careers, credits and residency categories; tuition workbook includes segregated fees. The linked workbook returned an error in this review.",
+        "url": "https://bursar.wisc.edu/tuition-and-fees",
+        "checked": "2026-10-13"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees",
+        "label": "Official tuition schedule"
+      },
+      {
+        "url": "https://www.math.wisc.edu/graduate/prospective-phd/",
+        "label": "Official admission requirements"
+      },
+      {
+        "url": "https://www.math.wisc.edu/graduate/faq/",
+        "label": "Advisor not needed before applying"
+      },
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2025-tuition-announcement",
+        "label": "Official 2025 graduate tuition benchmark"
+      },
+      {
+        "url": "https://bursar.wisc.edu/tuition-and-fees/fall-2026-increase",
+        "label": "Official 2026 tuition announcement"
+      }
+    ],
+    "audit": {
+      "checked": "2026-10-13",
+      "fields": {
+        "tuition": {
+          "status": "Partially verified",
+          "source": "https://bursar.wisc.edu/tuition-and-fees/fall-2025-tuition-announcement",
+          "year": "2025-26 benchmarks; 2026-27 unchanged rule",
+          "note": "Annual general graduate figures verified, with unchanged 2026–27 rule from separate central announcement. Programme/dissertator/credit-load and international-specific worksheet cells unresolved; Tableau workbook returned an error.",
+          "checked": "2026-10-13"
+        },
+        "fundingDetail": {
+          "status": "Partially verified",
+          "source": "https://www.math.wisc.edu/graduate/prospective-phd/",
+          "year": null,
+          "note": "Duration and coverage verified; current salary unresolved."
+        },
+        "selection": {
+          "status": "Verified",
+          "source": "https://www.math.wisc.edu/graduate/prospective-phd/",
+          "year": "2027",
+          "note": "GRE requirement explicitly cycle-specific; advisor rule reviewed in FAQ."
+        },
+        "cycle": {
+          "status": "Verified",
+          "source": "https://www.math.wisc.edu/graduate/prospective-phd/",
+          "year": "2027",
+          "note": "Updated cycle-specific notice resolves older FAQ December 15/January 1 split."
+        }
+      },
+      "verifiedFieldCount": 2,
+      "partiallyVerifiedFieldCount": 2
+    },
+    "selection": "Fall 2027 Mathematics Subject GRE required; General GRE optional. Transcripts, advanced course list, statement, CV and three mathematics-promise letters; conditional English proof. Dissertation advisor not required before application.",
+    "fundingDetail": "Five years of support subject to satisfactory progress, typically TA; applicants automatically considered. Tuition remission excludes segregated fees, international fee and one-time document fee; eligible for employee health insurance. Stipend unspecified.",
+    "cycle": "Fall 2027: application, letters and test scores due January 1, 2027. Dedicated PhD page explicitly places January 1 in the same year as Fall entry.",
+    "intakeYear": "2027",
+    "applicationDates": [
+      {
+        "type": "Admission",
+        "date": "2027-01-01",
+        "label": "Fall 2027 application deadline",
+        "source": "https://www.math.wisc.edu/graduate/prospective-phd/"
+      },
+      {
+        "type": "Supporting documents",
+        "date": "2027-01-01",
+        "label": "Recommendation letters and test scores",
+        "source": "https://www.math.wisc.edu/graduate/prospective-phd/"
+      }
+    ],
+    "tuition": "Central 2025–26 graduate tuition benchmark: USD 10,728 annually for Wisconsin residents, USD 24,054 for nonresidents. Central June 2026 announcement says graduate tuition is unchanged for 2026–27. These are general graduate benchmarks, not an extracted mathematics/dissertator invoice. Exact programme, credit-load, Minnesota reciprocity and international classifications require the tuition workbook; segregated and other fees are additional. 2027–28 not established."
+  }
+}

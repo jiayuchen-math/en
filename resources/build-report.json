@@ -214,8 +214,46 @@
   ],
   "masters": 99,
   "doctorates": 64,
-  "reviewedWindows": 13,
-  "openAtReview": 10,
+  "reviewedWindows": 9,
+  "openAtReview": 6,
+  "admissionsReview": {
+    "checked": "2026-10-13",
+    "routes": 225,
+    "fields": {
+      "tuition": {
+        "Verified": 107,
+        "Partially verified": 54,
+        "Historical": 44,
+        "Not published": 5,
+        "Not verified": 15,
+        "Not reviewed": 0
+      },
+      "fundingDetail": {
+        "Verified": 65,
+        "Partially verified": 101,
+        "Historical": 26,
+        "Not published": 1,
+        "Not verified": 32,
+        "Not reviewed": 0
+      },
+      "selection": {
+        "Verified": 142,
+        "Partially verified": 59,
+        "Historical": 15,
+        "Not published": 1,
+        "Not verified": 8,
+        "Not reviewed": 0
+      },
+      "cycle": {
+        "Verified": 88,
+        "Partially verified": 51,
+        "Historical": 31,
+        "Not published": 5,
+        "Not verified": 50,
+        "Not reviewed": 0
+      }
+    }
+  },
   "libraryCardCounts": {
     "total": 400,
     "byTopic": {
