@@ -1,5 +1,6 @@
 import expansion from './researchers-expansion.mjs';
 import fs from 'node:fs';
+import {canonicalCountry} from './researcher-coverage.mjs';
 // Current official affiliation is evidence, not an announcement of vacancies.
 const checked='2026-10-11';const people=[];
 function add(id,name,institution,country,region,role,area,topics,official,researchSource=official,extra={}){people.push({id,name,institution,country,region,role,area,topics,official,researchSource,affiliationChecked:checked,interestsChecked:checked,availability:'Not confirmed',availabilityNote:'No current student vacancy is asserted. Use the relevant degree programme’s official admission rules before contacting a researcher.',studentRecords:[],...extra})}
@@ -28,8 +29,10 @@ export function recentRecord(record){const start=record.precision==='year'?recor
 const seidel=people.find(p=>p.id==='paul-seidel');Object.assign(seidel,{email:'pseidel@mit.edu',emailSource:'https://math.mit.edu/directory/index.html?show=detail',emailChecked:checked});
 export const legacyResearchers=[...people,...expansion];
 const globalSnapshot=JSON.parse(fs.readFileSync(new URL('./researchers-global.json',import.meta.url),'utf8'));
+const europeSnapshot=JSON.parse(fs.readFileSync(new URL('./researchers-europe.json',import.meta.url),'utf8'));
+const europeUpdates=new Map(europeSnapshot.updates.map(p=>[p.id,p]));
 // Keep the original curated sources/student records; the snapshot adds current rosters.
-export default globalSnapshot.records.map(p=>p.institution==='University of Copenhagen'&&p.interestsChecked!=='Not verified'?{
+export default [...globalSnapshot.records.map(p=>europeUpdates.get(p.id)||p),...europeSnapshot.records].map(p=>({...p,country:canonicalCountry(p.country)})).map(p=>p.institution==='University of Copenhagen'&&p.interestsChecked!=='Not verified'?{
  ...p,researchEvidence:'Research group membership',
  researchNote:'The source verifies membership of these departmental research groups, not a personal statement of every listed research topic. Open the individual profile to check a finer specialization.'
 }:p);

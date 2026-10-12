@@ -4,7 +4,10 @@ const form=document.querySelector('[data-catalogue]');if(!form)return;
 const normalize=s=>String(s).normalize('NFKD').replace(/\p{M}/gu,'').toLowerCase().replace(/[’']/g,'');
 const entries=[...document.querySelectorAll('article[data-search]')];
 const fields=[...form.querySelectorAll('select[data-field]')],search=form.querySelector('input[type=search]');
-search.value=new URLSearchParams(location.search).get('q')||'';
+const parameters=new URLSearchParams(location.search);
+search.value=parameters.get('q')||'';
+// Country audit links use a real exact-match filter, not an ambiguous keyword.
+fields.forEach(f=>{const v=parameters.get(f.dataset.field);if(v&&[...f.options].some(o=>o.value===v))f.value=v});
 const status=document.getElementById('result-count'),empty=document.getElementById('no-results');
 const pages=[...document.querySelectorAll('.pagination')];
 const from=form.querySelector('[name=deadline-from]'),to=form.querySelector('[name=deadline-to]');
