@@ -1,10 +1,11 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {applicationState} from './assets/application-time.js';import {nodes,routeFor} from './data/learning-paths.mjs';import {feeAssessment,backgroundAssessment} from './assets/background-rules.js';import researchers,{recentRecord} from './data/researchers.mjs';
 const decode=s=>s.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
 const camel=s=>s.replace(/-([a-z])/g,(_,c)=>c.toUpperCase());
-for(const file of ['notes/reading-notes/library/catalogue.html','notes/reading-notes/library/open-reading.html','notes/reading-notes/library/exposition.html','resources/links/index.html','resources/study-careers/index.html','resources/study-careers/researchers.html']){
+for(const file of ['notes/reading-notes/library/catalogue.html','notes/reading-notes/library/exposition.html','resources/links/index.html','resources/study-careers/index.html','resources/study-careers/researchers.html']){
  const html=fs.readFileSync(file,'utf8'),applications=file.endsWith('study-careers/index.html');
  const entries=[...html.matchAll(/<article class="entry" ([^>]+)>/g)].map(m=>({dataset:Object.fromEntries([...m[1].matchAll(/data-([a-z-]+)="([^"]*)"/g)].map(a=>[camel(a[1]),decode(a[2])])),hidden:false,querySelector:()=>applications?{}:null}));
  const fields=[...html.matchAll(/<select[^>]*data-field="([^"]+)"/g)].map(m=>({dataset:{field:m[1]},value:''}));
+ if(file.endsWith('catalogue.html')){assert(html.includes('value="Free to read" selected'));fields.find(f=>f.dataset.field==='readingAccess').value='Free to read';}
  const search={value:''},listeners={},status={textContent:'',focus(){this.focused=true}},empty={hidden:true};
  const button=()=>({disabled:false,attributes:{},addEventListener(t,fn){this.fn=fn},setAttribute(k,v){this.attributes[k]=v}});
  const from={value:''},to={value:''},dateType={value:'Admission'},sort={value:''},dateError={hidden:true};
@@ -16,6 +17,7 @@ for(const file of ['notes/reading-notes/library/catalogue.html','notes/reading-n
  vm.runInNewContext(fs.readFileSync('resources/assets/catalogue.js','utf8').replace(/^import[^\n]+\n/,''),{document,applicationState,Date:TestDate,location:{search:''},URLSearchParams,setInterval:fn=>{tick=fn}});
  const visible=()=>entries.filter(e=>!e.hidden);
  if(applications){assert(!html.includes('data-open-now'));assert(status.textContent.startsWith(entries.length+' of'));assert(entries.some(e=>!e.dataset.deadlineDate))}
+ if(file.endsWith('catalogue.html')){assert(visible().every(e=>e.dataset.readingAccess==='Free to read'));assert(status.textContent.startsWith(entries.filter(e=>e.dataset.readingAccess==='Free to read').length+' of'));}
  assert.equal(visible().length,Math.min(25,entries.length));if(entries.length>25){pages[0].querySelector('[data-next]').fn();assert.equal(visible().length,Math.min(25,entries.length-25));assert(status.focused);}
  search.value='no-such-mathematical-resource-7429';listeners.input();assert.equal(visible().length,0);assert.equal(empty.hidden,false);
  fields[0].value='nonmatching-filter';let prevented=false;listeners.reset({preventDefault(){prevented=true}});assert(prevented);assert.equal(search.value,'');assert(fields.every(f=>f.value===''));assert.equal(visible().length,Math.min(25,entries.length));assert.equal(empty.hidden,true);

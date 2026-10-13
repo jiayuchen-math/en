@@ -12,7 +12,7 @@ for(const e of open){
  assert(e.verification?.method&&e.verification.source&&e.verification.url,e.title+' access evidence');
  assert(catalogue.topics.some(t=>t.id===e.topic));
 }
-for(const [file,expected] of [['open-reading.html',free],['exposition.html',popular]]){
+for(const [file,expected] of [['exposition.html',popular]]){
  const html=read('notes/reading-notes/library/'+file);
  assert.equal((html.match(/<article class="entry"/g)||[]).length,expected.length);
  assert(html.includes('data-catalogue hidden')&&html.includes('<noscript>'));
@@ -24,9 +24,11 @@ for(const [file,expected] of [['open-reading.html',free],['exposition.html',popu
 }
 const entry=read('notes/reading-notes/library.html');
 assert.equal((entry.match(/<!-- open-reading:start -->/g)||[]).length,1,'Repeated free entrance');
-assert(entry.includes('library/open-reading.html')&&entry.includes('library/exposition.html'));
+assert(!entry.includes('library/open-reading.html')&&entry.includes('library/catalogue.html')&&entry.includes('library/exposition.html'));
 const full=read('notes/reading-notes/library/catalogue.html');assert(full.includes('filter-readingAccess')&&full.includes('filter-readingMode'));
-for(const t of catalogue.topics){const html=read('notes/reading-notes/library/'+t.route);const shortcut='open-reading.html?topic='+encodeURIComponent(t.title);assert.equal(html.split(shortcut).length-1,1,'Missing / repeated subject shortcut '+t.id)}
+assert(full.includes('value="Free to read" selected')&&full.includes('catalogue.html?readingAccess='));
+const old=read('notes/reading-notes/library/open-reading.html');assert(old.includes('content="0;url=catalogue.html"')&&old.includes("location.search+location.hash"));
+for(const t of catalogue.topics){const html=read('notes/reading-notes/library/'+t.route);const shortcut='catalogue.html?topic='+encodeURIComponent(t.title);assert.equal(html.split(shortcut).length-1,1,'Missing / repeated subject shortcut '+t.id);assert(!html.includes('open-reading.html'))}
 const report=JSON.parse(read('resources/build-report.json'));
 assert.equal(report.openReading.freeWorks,free.length);assert.equal(report.openReading.essays,popular.length);assert.equal(report.openReading.newOpenWorks,open.length);
 console.log(JSON.stringify({newFreelyReadableWorks:open.length,allFreeWorks:free.length,popularWorks:popular.length,paidEntriesExcluded:true,sourceDatesPreserved:true}));
