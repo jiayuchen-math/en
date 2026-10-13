@@ -1,51 +1,51 @@
 {
   "date": "2026-10-12",
-  "librarySourceReview": "2026-10-11",
-  "library": 400,
-  "newLiterature": 348,
+  "librarySourceReview": "2026-10-13",
+  "library": 576,
+  "newLiterature": 524,
   "balancedExpansion": 36,
   "foundationExpansion": 53,
   "learningPaths": 29,
   "subjects": [
     {
       "id": "proofs",
-      "works": 12
+      "works": 25
     },
     {
       "id": "logic",
-      "works": 13
+      "works": 20
     },
     {
       "id": "set-theory",
-      "works": 12
+      "works": 17
     },
     {
       "id": "model-theory",
-      "works": 13
-    },
-    {
-      "id": "linear-algebra",
-      "works": 12
-    },
-    {
-      "id": "abstract-algebra",
-      "works": 14
-    },
-    {
-      "id": "commutative-algebra",
       "works": 16
     },
     {
-      "id": "homological-algebra",
-      "works": 12
+      "id": "linear-algebra",
+      "works": 16
     },
     {
-      "id": "category-theory",
+      "id": "abstract-algebra",
       "works": 19
     },
     {
+      "id": "commutative-algebra",
+      "works": 17
+    },
+    {
+      "id": "homological-algebra",
+      "works": 17
+    },
+    {
+      "id": "category-theory",
+      "works": 25
+    },
+    {
       "id": "representation-theory",
-      "works": 12
+      "works": 16
     },
     {
       "id": "algebraic-geometry",
@@ -53,75 +53,75 @@
     },
     {
       "id": "calculus",
-      "works": 12
-    },
-    {
-      "id": "real-analysis",
-      "works": 12
-    },
-    {
-      "id": "measure-theory",
-      "works": 13
-    },
-    {
-      "id": "complex-analysis",
-      "works": 12
-    },
-    {
-      "id": "functional-analysis",
-      "works": 12
-    },
-    {
-      "id": "harmonic-analysis",
-      "works": 12
-    },
-    {
-      "id": "differential-equations",
       "works": 17
     },
     {
-      "id": "point-set-topology",
-      "works": 12
+      "id": "real-analysis",
+      "works": 14
     },
     {
-      "id": "algebraic-topology",
-      "works": 19
+      "id": "measure-theory",
+      "works": 17
     },
     {
-      "id": "differential-geometry",
+      "id": "complex-analysis",
+      "works": 17
+    },
+    {
+      "id": "functional-analysis",
       "works": 15
     },
     {
+      "id": "harmonic-analysis",
+      "works": 15
+    },
+    {
+      "id": "differential-equations",
+      "works": 31
+    },
+    {
+      "id": "point-set-topology",
+      "works": 17
+    },
+    {
+      "id": "algebraic-topology",
+      "works": 28
+    },
+    {
+      "id": "differential-geometry",
+      "works": 25
+    },
+    {
       "id": "symplectic-geometry",
-      "works": 13
+      "works": 21
     },
     {
       "id": "elementary-number-theory",
-      "works": 12
+      "works": 16
     },
     {
       "id": "algebraic-number-theory",
-      "works": 12
+      "works": 20
     },
     {
       "id": "analytic-number-theory",
-      "works": 13
+      "works": 21
     },
     {
       "id": "modular-forms",
-      "works": 12
-    },
-    {
-      "id": "combinatorics",
-      "works": 13
-    },
-    {
-      "id": "probability",
       "works": 18
     },
     {
+      "id": "combinatorics",
+      "works": 21
+    },
+    {
+      "id": "probability",
+      "works": 32
+    },
+    {
       "id": "dynamics",
-      "works": 12
+      "works": 19
     }
   ],
   "websites": 80,
@@ -216,6 +216,42 @@
   "doctorates": 64,
   "reviewedWindows": 9,
   "openAtReview": 6,
+  "openReading": {
+    "freeWorks": 386,
+    "essays": 14,
+    "newOpenWorks": 176,
+    "newByTopic": {
+      "proofs": 13,
+      "logic": 7,
+      "set-theory": 5,
+      "model-theory": 3,
+      "linear-algebra": 4,
+      "abstract-algebra": 5,
+      "commutative-algebra": 1,
+      "homological-algebra": 5,
+      "category-theory": 6,
+      "representation-theory": 4,
+      "algebraic-geometry": 0,
+      "calculus": 5,
+      "real-analysis": 2,
+      "measure-theory": 4,
+      "complex-analysis": 5,
+      "functional-analysis": 3,
+      "harmonic-analysis": 3,
+      "differential-equations": 14,
+      "point-set-topology": 5,
+      "algebraic-topology": 9,
+      "differential-geometry": 10,
+      "symplectic-geometry": 8,
+      "elementary-number-theory": 4,
+      "algebraic-number-theory": 8,
+      "analytic-number-theory": 8,
+      "modular-forms": 6,
+      "combinatorics": 8,
+      "probability": 14,
+      "dynamics": 7
+    }
+  },
   "admissionsReview": {
     "checked": "2026-10-13",
     "routes": 225,
@@ -255,46 +291,46 @@
     }
   },
   "libraryCardCounts": {
-    "total": 400,
+    "total": 576,
     "byTopic": {
-      "proofs": 12,
-      "logic": 13,
-      "set-theory": 12,
-      "model-theory": 13,
-      "linear-algebra": 12,
-      "abstract-algebra": 14,
-      "commutative-algebra": 16,
-      "homological-algebra": 12,
-      "category-theory": 19,
-      "representation-theory": 12,
+      "proofs": 25,
+      "logic": 20,
+      "set-theory": 17,
+      "model-theory": 16,
+      "linear-algebra": 16,
+      "abstract-algebra": 19,
+      "commutative-algebra": 17,
+      "homological-algebra": 17,
+      "category-theory": 25,
+      "representation-theory": 16,
       "algebraic-geometry": 33,
-      "calculus": 12,
-      "real-analysis": 12,
-      "measure-theory": 13,
-      "complex-analysis": 12,
-      "functional-analysis": 12,
-      "harmonic-analysis": 12,
-      "differential-equations": 17,
-      "point-set-topology": 12,
-      "algebraic-topology": 19,
-      "differential-geometry": 15,
-      "symplectic-geometry": 13,
-      "elementary-number-theory": 12,
-      "algebraic-number-theory": 12,
-      "analytic-number-theory": 13,
-      "modular-forms": 12,
-      "combinatorics": 13,
-      "probability": 18,
-      "dynamics": 12
+      "calculus": 17,
+      "real-analysis": 14,
+      "measure-theory": 17,
+      "complex-analysis": 17,
+      "functional-analysis": 15,
+      "harmonic-analysis": 15,
+      "differential-equations": 31,
+      "point-set-topology": 17,
+      "algebraic-topology": 28,
+      "differential-geometry": 25,
+      "symplectic-geometry": 21,
+      "elementary-number-theory": 16,
+      "algebraic-number-theory": 20,
+      "analytic-number-theory": 21,
+      "modular-forms": 18,
+      "combinatorics": 21,
+      "probability": 32,
+      "dynamics": 19
     },
     "byGroup": {
-      "foundations": 50,
-      "algebra": 117,
-      "analysis": 90,
-      "geometry-topology": 59,
-      "number-theory": 49,
-      "discrete-mathematics": 13,
-      "probability-dynamics": 30
+      "foundations": 78,
+      "algebra": 142,
+      "analysis": 126,
+      "geometry-topology": 91,
+      "number-theory": 75,
+      "discrete-mathematics": 21,
+      "probability-dynamics": 51
     }
   },
   "researcherCountryCounts": {

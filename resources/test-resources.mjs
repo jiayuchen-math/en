@@ -1,7 +1,7 @@
 import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {applicationState} from './assets/application-time.js';import {nodes,routeFor} from './data/learning-paths.mjs';import {feeAssessment,backgroundAssessment} from './assets/background-rules.js';import researchers,{recentRecord} from './data/researchers.mjs';
 const decode=s=>s.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
 const camel=s=>s.replace(/-([a-z])/g,(_,c)=>c.toUpperCase());
-for(const file of ['notes/reading-notes/library/catalogue.html','resources/links/index.html','resources/study-careers/index.html','resources/study-careers/researchers.html']){
+for(const file of ['notes/reading-notes/library/catalogue.html','notes/reading-notes/library/open-reading.html','notes/reading-notes/library/exposition.html','resources/links/index.html','resources/study-careers/index.html','resources/study-careers/researchers.html']){
  const html=fs.readFileSync(file,'utf8'),applications=file.endsWith('study-careers/index.html');
  const entries=[...html.matchAll(/<article class="entry" ([^>]+)>/g)].map(m=>({dataset:Object.fromEntries([...m[1].matchAll(/data-([a-z-]+)="([^"]*)"/g)].map(a=>[camel(a[1]),decode(a[2])])),hidden:false,querySelector:()=>applications?{}:null}));
  const fields=[...html.matchAll(/<select[^>]*data-field="([^"]+)"/g)].map(m=>({dataset:{field:m[1]},value:''}));
@@ -16,18 +16,20 @@ for(const file of ['notes/reading-notes/library/catalogue.html','resources/links
  vm.runInNewContext(fs.readFileSync('resources/assets/catalogue.js','utf8').replace(/^import[^\n]+\n/,''),{document,applicationState,Date:TestDate,location:{search:''},URLSearchParams,setInterval:fn=>{tick=fn}});
  const visible=()=>entries.filter(e=>!e.hidden);
  if(applications){assert(!html.includes('data-open-now'));assert(status.textContent.startsWith(entries.length+' of'));assert(entries.some(e=>!e.dataset.deadlineDate))}
- assert.equal(visible().length,25);pages[0].querySelector('[data-next]').fn();assert.equal(visible().length,25);assert(status.focused);
+ assert.equal(visible().length,Math.min(25,entries.length));if(entries.length>25){pages[0].querySelector('[data-next]').fn();assert.equal(visible().length,Math.min(25,entries.length-25));assert(status.focused);}
  search.value='no-such-mathematical-resource-7429';listeners.input();assert.equal(visible().length,0);assert.equal(empty.hidden,false);
- fields[0].value='nonmatching-filter';let prevented=false;listeners.reset({preventDefault(){prevented=true}});assert(prevented);assert.equal(search.value,'');assert(fields.every(f=>f.value===''));assert.equal(visible().length,25);assert.equal(empty.hidden,true);
+ fields[0].value='nonmatching-filter';let prevented=false;listeners.reset({preventDefault(){prevented=true}});assert(prevented);assert.equal(search.value,'');assert(fields.every(f=>f.value===''));assert.equal(visible().length,Math.min(25,entries.length));assert.equal(empty.hidden,true);
+ if(file.endsWith('open-reading.html')){assert(entries.every(e=>e.dataset.readingAccess==='Free to read'));search.value='Scholze';listeners.input();assert(visible().some(e=>e.dataset.search.includes('Condensed Mathematics')));listeners.reset({preventDefault(){}});}
+ if(file.endsWith('exposition.html'))assert(entries.every(e=>e.dataset.readingMode==='Popular / exposition'));
  if(file.includes('catalogue.html')){
   search.value='etale';listeners.input();assert(visible().some(e=>e.dataset.search.includes('Étale')));
-  search.value='HTT';listeners.input();assert.equal(visible().length,1);
+  search.value='HTT';listeners.input();assert(visible().some(e=>e.dataset.search.includes('Higher Topos Theory')));assert(visible().every(e=>e.dataset.search.toLowerCase().includes('htt')));
   search.value='';fields.find(f=>f.dataset.field==='level').value='Graduate';fields.find(f=>f.dataset.field==='access').value='Institutional / purchase access';listeners.change();assert(visible().length>0);assert(visible().every(e=>e.dataset.level==='Graduate'&&e.dataset.access==='Institutional / purchase access'));
  }
  if(file.endsWith('researchers.html')){
   search.value='Liouville';fields.find(f=>f.dataset.field==='institution').value='University of Chicago';listeners.input();assert.equal(visible().length,1);assert(visible()[0].dataset.search.includes('Ewain Gwynne'));
   search.value='';fields.find(f=>f.dataset.field==='institution').value='';fields.find(f=>f.dataset.field==='recent').value='Public records within review window';listeners.change();assert.equal(visible().length,3);
-  listeners.reset({preventDefault(){}});fields.find(f=>f.dataset.field==='contact').value='Public professional email';fields.find(f=>f.dataset.field==='topicStatus').value='Published topics verified';listeners.change();assert.equal(visible().length,25);assert(visible().every(e=>e.dataset.contact==='Public professional email'&&e.dataset.topicStatus==='Published topics verified'));
+  listeners.reset({preventDefault(){}});fields.find(f=>f.dataset.field==='contact').value='Public professional email';fields.find(f=>f.dataset.field==='topicStatus').value='Published topics verified';listeners.change();assert.equal(visible().length,Math.min(25,entries.length));assert(visible().every(e=>e.dataset.contact==='Public professional email'&&e.dataset.topicStatus==='Published topics verified'));
   listeners.reset({preventDefault(){}});fields.find(f=>f.dataset.field==='topicStatus').value='Not verified';listeners.change();assert(visible().every(e=>e.dataset.topicStatus==='Not verified'));
  }
  if(applications){
@@ -37,7 +39,7 @@ for(const file of ['notes/reading-notes/library/catalogue.html','resources/links
   assert(!visible().some(e=>/Harvard University|Stanford University|University of California, Berkeley/.test(e.dataset.search)),'A known deadline alone must not invent an opening date');
   now=Date.parse('2026-12-02T05:00:00Z');tick();assert(!visible().some(e=>e.dataset.search.includes('Berkeley')));assert(!visible().some(e=>e.dataset.search.includes('Stanford')));
   now=Date.parse('2026-12-02T08:00:00Z');tick();assert(!visible().some(e=>e.dataset.search.includes('Stanford')));
-  now=Date.parse('2027-04-01T00:00:00Z');tick();assert.equal(visible().length,0,'Expired and unknown cycles must not reappear as open');listeners.reset({preventDefault(){}});assert.equal(visible().length,25);
+  now=Date.parse('2027-04-01T00:00:00Z');tick();assert.equal(visible().length,0,'Expired and unknown cycles must not reappear as open');listeners.reset({preventDefault(){}});assert.equal(visible().length,Math.min(25,entries.length));
   select('country','Italy');select('programmeForm','Multi-country joint programme');listeners.change();assert(visible().some(e=>e.dataset.search.includes('ALGANT')));assert(visible().every(e=>e.dataset.country.split('|').includes('Italy')));
   listeners.reset({preventDefault(){}});from.value='2027-01-06';to.value='2027-01-06';dateType.value='Scholarship';listeners.change();assert(visible().length>=2);assert(visible().every(e=>/Cambridge|Oxford/.test(e.dataset.search)));
   dateType.value='Admission';listeners.change();assert.equal(visible().length,0);from.value='2027-02-01';to.value='2026-12-01';listeners.change();assert.equal(visible().length,0);assert(!dateError.hidden);
