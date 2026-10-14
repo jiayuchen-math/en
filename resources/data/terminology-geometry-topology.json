@@ -1,0 +1,3086 @@
+[
+  {
+    "id": "topological-space",
+    "english": "topological space",
+    "chinese": "拓扑空间",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A pair consisting of a set and a family of subsets containing the empty set and the whole set and closed under arbitrary unions and finite intersections.",
+    "definitionZh": "集合与其开集族组成的二元组；开集族含空集和全集，并对任意并及有限交封闭。",
+    "example": "$\\{\\varnothing,\\{a\\},\\{a,b\\}\\}$ is a topology on $\\{a,b\\}$.",
+    "distinction": "Hausdorff separation and countability are additional axioms, not part of this definition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2A, Definitions, printed p. 17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日：拓扑公理，拓扑空间中的一些基本概念，度量空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-compactness",
+    "english": "compactness",
+    "chinese": "紧致性",
+    "aliases": [
+      "compactness of a topological space",
+      "紧致"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The property that every open cover of a topological space admits a finite subcover; Hausdorff separation is not imposed here.",
+    "definitionZh": "拓扑空间的每个开覆盖均有有限子覆盖的性质；此处不把 Hausdorff 条件包含在定义内。",
+    "example": "$[0,1]$ is compact; the cover $(1/n,1)$ shows $(0,1)$ is not.",
+    "distinction": "Closed and bounded characterizes compact subsets of Euclidean space, not arbitrary spaces.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 7A, Definition, printed p. 45",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第5周10月12日：紧致与列紧；特别关注：紧致性",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "open-subset",
+    "english": "open subset",
+    "chinese": "开集",
+    "aliases": [
+      "open set"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A subset belonging to the specified topology of a space.",
+    "definitionZh": "属于给定拓扑的子集。",
+    "example": "$(0,1)$ is open in $\\mathbb R$, and $[0,1)$ is open in the subspace $[0,1]$.",
+    "distinction": "Openness depends on the ambient space; it does not mean that an interval has two missing endpoints in every context.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2A, Definitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：开集",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "closed-subset",
+    "english": "closed subset",
+    "chinese": "闭集",
+    "aliases": [
+      "closed set"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A subset whose complement in the specified ambient topological space is open.",
+    "definitionZh": "在指定拓扑空间中，其补集为开集的子集。",
+    "example": "$\\mathbb Z$ is closed in the usual real line.",
+    "distinction": "A set may be both open and closed; closedness is not the negation of openness.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 3A, Closed sets",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：闭集",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-basis",
+    "english": "basis for a topology",
+    "chinese": "拓扑基",
+    "aliases": [
+      "topological base",
+      "base for a topology"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A family of open subsets such that every open subset is a union of members of that family.",
+    "definitionZh": "由开集组成的族，使每个开集均可写成该族中若干成员的并。",
+    "example": "Intervals with rational endpoints form a basis for the usual topology on $\\mathbb R$.",
+    "distinction": "A subbasis requires finite intersections before arbitrary unions; a basis does not.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 6B, Base, printed p. 37",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月26日，主要概念：拓扑基",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "subspace-topology",
+    "english": "subspace topology",
+    "chinese": "子空间拓扑",
+    "aliases": [
+      "relative topology"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a subset A of a topological space X, the topology on A consisting of intersections of A with open subsets of X.",
+    "definitionZh": "对 $A\\subseteq X$，由 $A$ 与 $X$ 的开集的所有交集构成的拓扑。",
+    "example": "$[0,1/2)$ is relatively open in $[0,1]$.",
+    "distinction": "Relatively open subsets need not be open in the ambient space.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 3D, Subspaces, printed pp. 26–27",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：子空间拓扑",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "product-topology",
+    "english": "product topology",
+    "chinese": "乘积空间",
+    "aliases": [
+      "product space"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A Cartesian product equipped with the coarsest topology making every coordinate projection continuous; basic opens restrict only finitely many coordinates.",
+    "definitionZh": "在笛卡尔积上赋予使各坐标投射连续的最粗拓扑；基本开集仅限制有限多个坐标。",
+    "example": "The product topology on $\\mathbb R^2$ is generated by open rectangles.",
+    "distinction": "The Chinese headword names the equipped space; for infinite products, allowing unrestricted open conditions in every coordinate gives the generally finer box topology.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 6A, Product space; Chapter 7G, Product spaces",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月26日：拓扑基与邻域基，乘积空间，可数公理（上）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quotient-topology",
+    "english": "quotient topology",
+    "chinese": "商拓扑",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a surjection q from a topological space X onto a set Y, the topology in which U is open in Y exactly when its inverse image under q is open in X.",
+    "definitionZh": "对满射 $q:X\\to Y$，规定 $U\\subseteq Y$ 为开集当且仅当 $q^{-1}(U)$ 在 $X$ 中开，由此得到的拓扑。",
+    "example": "Identifying the endpoints of $[0,1]$ yields a quotient homeomorphic to the circle.",
+    "distinction": "A continuous surjection need not give its target the quotient topology.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 6F, Quotient topology, printed p. 41",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第7周10月26日，主要概念：商拓扑",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hausdorff-space",
+    "english": "Hausdorff space",
+    "chinese": "Hausdorff 空间",
+    "aliases": [
+      "T2 space"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A topological space in which any two distinct points have disjoint open neighborhoods.",
+    "definitionZh": "任意两个不同点都有互不相交的开邻域的拓扑空间。",
+    "example": "Any metric space is Hausdorff by taking balls of radius less than half the distance between two points.",
+    "distinction": "Closed singletons alone give T1 separation, which is weaker.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 9A, Definition 9.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第3周9月28日，主要概念：Hausdorff 空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "homeomorphism",
+    "english": "homeomorphism",
+    "chinese": "同胚",
+    "aliases": [
+      "同胚映射"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A bijective continuous map of topological spaces whose inverse is also continuous.",
+    "definitionZh": "拓扑空间之间的双射，且该映射及其逆映射均连续。",
+    "example": "$x\\mapsto e^x$ is a homeomorphism from $\\mathbb R$ to $(0,\\infty)$.",
+    "distinction": "Continuity and bijectivity alone do not imply continuity of the inverse.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 5A, Homeomorphisms, printed p. 33",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月19日，主要概念：同胚",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "open-neighborhood",
+    "english": "open neighborhood",
+    "chinese": "邻域",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "An open subset of a topological space containing the specified point.",
+    "definitionZh": "含指定点的开集；本条采用开邻域约定。",
+    "example": "$(-1,1)$ is an open neighborhood of $0$ in $\\mathbb R$.",
+    "distinction": "Some authors allow any set containing an open neighborhood to be called a neighborhood; that broader convention includes $[-1,1]$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2E, Neighborhoods and limits",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：邻域",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-closure",
+    "english": "closure of a subset",
+    "chinese": "闭包",
+    "aliases": [
+      "closure"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The intersection of all closed subsets of the ambient space containing the given subset.",
+    "definitionZh": "包含给定子集的所有闭集的交，亦即包含它的最小闭集。",
+    "example": "The closure of $\\mathbb Q$ in $\\mathbb R$ is $\\mathbb R$.",
+    "distinction": "A point belongs to the closure if every open neighborhood meets the subset; a sequence characterization needs extra hypotheses.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 3B, Interior and closure",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：闭包",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-interior",
+    "english": "interior of a subset",
+    "chinese": "内部",
+    "aliases": [
+      "interior"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The union of all open subsets of the ambient space contained in the given subset.",
+    "definitionZh": "包含于给定子集的所有开集的并，亦即其最大的开子集。",
+    "example": "The interior of $[0,1]$ in $\\mathbb R$ is $(0,1)$.",
+    "distinction": "Interior is relative to the ambient topology; the same interval is all interior when it is the entire ambient space.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 3B, Interior and closure",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：内部",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "discrete-topology",
+    "english": "discrete topology",
+    "chinese": "离散拓扑",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The topology on a set in which every subset is open.",
+    "definitionZh": "把集合的全部子集都规定为开集的拓扑。",
+    "example": "Every subset of $\\mathbb Z$ is open in its usual subspace topology.",
+    "distinction": "A subset being discrete is different from the entire ambient space having discrete topology; a discrete subspace need not be closed.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2B, Examples",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，常用例子：离散拓扑",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topologically-dense-subset",
+    "english": "dense subset",
+    "chinese": "稠密",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A subset whose closure equals the entire ambient topological space.",
+    "definitionZh": "闭包等于整个拓扑空间的子集。",
+    "example": "$\\mathbb Q$ is dense in $\\mathbb R$.",
+    "distinction": "Density does not imply having positive measure or containing an open interval.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 3B, Interior and closure; 8C, Nets and separability",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：稠密",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "separable-topological-space",
+    "english": "separable space",
+    "chinese": "可分",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A topological space admitting a countable dense subset.",
+    "definitionZh": "存在可数稠密子集的拓扑空间。",
+    "example": "The usual real line is separable because $\\mathbb Q$ is countable and dense.",
+    "distinction": "In metric spaces separability is equivalent to second countability, but the equivalence fails for arbitrary topologies.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 8C, Nets and separability, printed p. 57",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，主要概念：可分",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-countable-space",
+    "english": "first-countable space",
+    "chinese": "C1 可数公理",
+    "aliases": [
+      "first countability"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space in which every point has a countable basis of open neighborhoods: every open neighborhood contains a member of that basis.",
+    "definitionZh": "每一点均有可数开邻域基，即该点的任意开邻域都包含基中的某个成员。",
+    "example": "Metric balls $B(x,1/n)$ give such a basis at $x$.",
+    "distinction": "The basis may depend on the point; this is weaker than a countable basis for the whole topology. C1 is the source's notation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 9E, Comments, printed p. 70",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月26日，主要概念：C_{1} 可数公理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "second-countable-space",
+    "english": "second-countable space",
+    "chinese": "C2 可数公理",
+    "aliases": [
+      "second countability"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A topological space whose topology has a countable basis.",
+    "definitionZh": "其拓扑具有可数基的拓扑空间。",
+    "example": "Rational open intervals give a countable basis for $\\mathbb R$.",
+    "distinction": "Second countability is global; an uncountable discrete space is first countable but not second countable. C2 follows the cited notation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 8D, Countable base; 9E, Comments",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月26日，主要概念：C_{2} 可数公理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "t1-space",
+    "english": "T1 space",
+    "chinese": "T1 分离公理",
+    "aliases": [
+      "T1 separation"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A topological space in which every singleton is closed.",
+    "definitionZh": "每个单点集均为闭集的拓扑空间。",
+    "example": "An infinite set with the cofinite topology is T1.",
+    "distinction": "T1 does not imply Hausdorff separation: two nonempty opens in an infinite cofinite space always intersect.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 9B, Observation 9.8; 9E, separation conditions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第3周9月28日，主要概念：T_{1} 分离公理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "regular-topological-space",
+    "english": "regular space",
+    "chinese": "T3 分离公理",
+    "aliases": [
+      "regular separation"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space in which a point and a disjoint closed subset can be enclosed in disjoint open sets; T1 is not included in this record.",
+    "definitionZh": "点与不含该点的闭集可用互不相交的开集分开的空间；本条不附加 T1 条件。",
+    "example": "Every metric space satisfies this separation property.",
+    "distinction": "Some authors include T1 in regular or T3; the cited syllabus explicitly treats T1 plus T3 separately.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 9E, Comments, separation-condition list, printed pp. 70–71",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第3周9月28日，主要概念及常用结论：T_{3}，T_{1}+T_{3}=>T_{2}",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "normal-topological-space",
+    "english": "normal space",
+    "chinese": "T4 分离公理",
+    "aliases": [
+      "normal separation"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space in which any two disjoint closed subsets have disjoint open neighborhoods; T1 is not included here.",
+    "definitionZh": "任意两个不交闭集均可被不交开集分别包含的空间；本条不附加 T1。",
+    "example": "Metric spaces separate disjoint closed sets using their distance functions.",
+    "distinction": "This is topological normality, unrelated to normal subgroups or Gaussian distributions; definitions including T1 are stronger.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 9E, Comments, Exercise 9.24 and separation-condition list",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第3周9月28日，主要概念及常用结论：T_{4}，T_{1}+T_{4}=>T_{3}",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sequential-compactness",
+    "english": "sequential compactness",
+    "chinese": "列紧",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The property that every sequence in a space has a subsequence converging to a point of that space.",
+    "definitionZh": "空间中的任意序列都有收敛到该空间内某点的子序列。",
+    "example": "Every sequence in $[0,1]$ has a convergent subsequence with limit in $[0,1]$.",
+    "distinction": "Equivalent to open-cover compactness for metric spaces; not an unrestricted equivalence in topology.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 8B, Compactness implies sequential compactness; 8E, converse",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第5周10月12日，主要概念：列紧",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "metrizable-space",
+    "english": "metrizable space",
+    "chinese": "可度量化",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A topological space whose topology is induced by some metric.",
+    "definitionZh": "存在一个度量，其诱导拓扑恰为给定拓扑的空间。",
+    "example": "The usual circle is metrizable by the restricted Euclidean distance.",
+    "distinction": "A displayed metric is extra data; different metrics may induce the same topology while having different completeness properties.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2B, Examples; 9E, Comments on metrizability",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第5周10月10日，主要概念：可度量化",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "one-point-compactification",
+    "english": "one-point compactification",
+    "chinese": "一点紧化",
+    "aliases": [
+      "Alexandroff compactification"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a noncompact locally compact Hausdorff space X, the compact Hausdorff space formed by adding infinity, whose neighborhoods have compact closed complements in X.",
+    "definitionZh": "对非紧局部紧 Hausdorff 空间添一个无穷远点；该点的开邻域的补集在原空间中紧且闭，由此得到紧 Hausdorff 空间。",
+    "example": "The one-point compactification of $\\mathbb R$ is homeomorphic to $S^1$.",
+    "distinction": "The closed-compact-complement construction exists more generally, but the stated hypotheses ensure the intended Hausdorff compactification and dense inclusion.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 7F, One-point compactification, printed pp. 49–50",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第5周10月12日，主要概念：一点紧化",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "connected-space",
+    "english": "connected space",
+    "chinese": "连通",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space with no decomposition into two disjoint nonempty open subsets; the empty space is included here.",
+    "definitionZh": "不能分成两个非空不交开集之并的空间；本条把空空间也视为连通。",
+    "example": "$[0,1]$ is connected; $[0,1]\\cup[2,3]$ is not.",
+    "distinction": "Connectedness need not imply path connectedness. Petrunin excludes the empty space; this record states its own convention.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 11A, Definitions; 11B, Key statements",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第6周10月17日，主要概念：连通",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "path-connected-space",
+    "english": "path-connected space",
+    "chinese": "道路连通",
+    "aliases": [
+      "path connectedness"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space in which every pair of points is joined by a continuous map from the unit interval.",
+    "definitionZh": "任意两点都可由从 $[0,1]$ 出发的连续道路连接的空间。",
+    "example": "A convex subset of $\\mathbb R^n$ is path connected by straight segments.",
+    "distinction": "Paths may cross themselves and need not be embeddings; path connectedness is stronger than connectedness.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 12A, Path-connected spaces, definitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第7周10月24日，主要概念：道路连通",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "connected-component",
+    "english": "connected component",
+    "chinese": "连通分支",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A maximal connected subset of a topological space.",
+    "definitionZh": "拓扑空间中关于包含关系极大的连通子集。",
+    "example": "Each singleton is a connected component of $\\mathbb Q$.",
+    "distinction": "Components are closed but need not be open; local connectedness makes them open.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 11D, Connected components",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第6周10月17日，主要概念：连通分支",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "path-component",
+    "english": "path component",
+    "chinese": "道路分支",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "An equivalence class under the relation that two points can be joined by a path in the space.",
+    "definitionZh": "按两点之间存在道路这一等价关系得到的等价类。",
+    "example": "The topologist's sine curve has a graph path component and a separate vertical-segment path component.",
+    "distinction": "A path component is contained in a connected component, but equality needs additional hypotheses such as local path connectedness.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 12C, Path-connected components",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第7周10月24日，主要概念：道路分支",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "locally-connected-space",
+    "english": "locally connected space",
+    "chinese": "局部连通",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space in which every open neighborhood of a point contains a connected open neighborhood of that point.",
+    "definitionZh": "任一点的任意开邻域内都含该点的连通开邻域的空间。",
+    "example": "Euclidean balls show $\\mathbb R^n$ is locally connected.",
+    "distinction": "Being connected globally does not imply local connectedness, as the topologist's sine curve demonstrates.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 11E, Locally connected spaces",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第6周10月17日，主要概念：局部连通",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "locally-path-connected-space",
+    "english": "locally path connected space",
+    "chinese": "局部道路连通",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space in which every open neighborhood of a point contains a path connected open neighborhood of that point.",
+    "definitionZh": "任一点的每个开邻域内均含该点的道路连通开邻域的空间。",
+    "example": "Every topological manifold is locally path connected through its coordinate balls.",
+    "distinction": "On such spaces path components are open and coincide with connected components; global path connectedness alone does not suffice.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 12D, Locally path-connected spaces",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第7周10月24日，主要概念：局部道路连通",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quotient-map",
+    "english": "quotient map",
+    "chinese": "商映射",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A surjective map q of topological spaces such that a subset of the target is open exactly when its inverse image under q is open.",
+    "definitionZh": "拓扑空间间的满射 $q$，满足目标中的子集开当且仅当其原像开。",
+    "example": "The endpoint-identification map $[0,1]\\to S^1$ is quotient.",
+    "distinction": "A continuous surjection supplies only one direction of the defining equivalence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 6F, Quotient topology",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第7周10月26日，主要概念：商映射",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-embedding",
+    "english": "topological embedding",
+    "chinese": "嵌入映射",
+    "aliases": [
+      "embedding of topological spaces"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous map that is a homeomorphism onto its image equipped with the subspace topology.",
+    "definitionZh": "到其像的同胚映射，其中像使用目标空间的子空间拓扑。",
+    "example": "The inclusion $S^1\\hookrightarrow\\mathbb R^2$ is a topological embedding.",
+    "distinction": "This imposes no differential-rank condition; smooth embeddings additionally require immersion.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 5A, Homeomorphisms, embedding definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月19日，常用例子：嵌入映射",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "homotopy-of-maps",
+    "english": "homotopy",
+    "chinese": "同伦",
+    "aliases": [
+      "homotopy of maps"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous map H from X times the unit interval to Y whose endpoint slices are the specified continuous maps X to Y.",
+    "definitionZh": "连续映射 $H:X\\times[0,1]\\to Y$，其两端切片分别为给定的两个连续映射。",
+    "example": "For maps into a convex Euclidean set, $H(x,t)=(1-t)f(x)+tg(x)$ is a homotopy.",
+    "distinction": "Continuity must be joint in x and t; based or relative homotopies impose additional fixed-point conditions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Homotopy and Homotopy Type, printed p. 3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第10周11月14日，主要概念：同伦",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "homotopy-equivalence",
+    "english": "homotopy equivalence",
+    "chinese": "同伦等价",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous map f:X to Y admitting a continuous g:Y to X such that both composites are homotopic to the corresponding identities.",
+    "definitionZh": "连续映射 $f:X\\to Y$ 存在连续的同伦逆 $g:Y\\to X$，使两个复合分别同伦于恒等映射。",
+    "example": "The inclusion $S^1\\hookrightarrow\\mathbb R^2\\setminus\\{0\\}$ is a homotopy equivalence.",
+    "distinction": "A homotopy equivalence need not be a bijection or a homeomorphism.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Homotopy and Homotopy Type, printed pp. 3–4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第11周11月23日，主要概念：同伦等价",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "null-homotopic-map",
+    "english": "null-homotopic map",
+    "chinese": "零伦",
+    "aliases": [
+      "null homotopy"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous map homotopic to a constant map, with any required based or relative condition stated separately.",
+    "definitionZh": "同伦于常值映射的连续映射；若要求保基点或相对某子集，应另行说明。",
+    "example": "A map into $\\mathbb R^n$ is null homotopic by linear contraction.",
+    "distinction": "For a loop, contraction in the fundamental group fixes its endpoint basepoint; an unqualified null homotopy of general maps does not.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Homotopy and Homotopy Type, printed pp. 3–4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第10周11月14日，主要概念：零伦",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "contractible-space",
+    "english": "contractible space",
+    "chinese": "可缩空间",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A nonempty topological space whose identity map is homotopic to a constant map.",
+    "definitionZh": "非空拓扑空间，其恒等映射同伦于一个常值映射。",
+    "example": "Every nonempty convex subset of $\\mathbb R^n$ is contractible.",
+    "distinction": "Contractibility implies trivial positive homotopy and reduced homology, but trivial homology alone does not imply contractibility.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Homotopy and Homotopy Type, printed p. 4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第11周11月23日，主要概念：可缩空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "deformation-retract",
+    "english": "deformation retract",
+    "chinese": "强形变收缩",
+    "aliases": [
+      "strong deformation retract"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A subspace A of X for which a homotopy of the identity of X to a retraction onto A fixes every point of A at every time.",
+    "definitionZh": "子空间 $A\\subseteq X$，存在从 $X$ 的恒等映射到映向 $A$ 的收缩映射的同伦，且全程固定 $A$ 中每一点。",
+    "example": "The punctured plane strongly deformation retracts onto $S^1$ by radial motion.",
+    "distinction": "Some authors use deformation retract without the fixed-subspace requirement; this record uses the strong convention.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, deformation retraction definition, printed p. 2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第11周11月23日，主要概念：形变收缩，强形变收缩",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fundamental-group",
+    "english": "fundamental group",
+    "chinese": "基本群",
+    "aliases": [
+      "pi-one"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The group of loops at a chosen point modulo homotopy fixing the endpoints, with multiplication given here by traversing the first loop then the second.",
+    "definitionZh": "以指定点为基点的闭道路在定端同伦下的等价类组成的群；乘积约定先走第一条再走第二条。",
+    "example": "$\\pi_1(S^1,1)\\cong\\mathbb Z$ via winding number.",
+    "distinction": "Changing basepoint along different paths can change the comparison by an inner automorphism.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.1, Paths and Homotopy; The Fundamental Group of the Circle",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第11周11月21日，主要概念：基本群",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "simply-connected-space",
+    "english": "simply connected space",
+    "chinese": "单连通",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A nonempty path connected space whose fundamental group at one, hence every, basepoint is trivial.",
+    "definitionZh": "非空道路连通空间，且任一基点处的基本群为平凡群。",
+    "example": "$S^n$ is simply connected for $n\\geq2$.",
+    "distinction": "Trivial fundamental groups on each component do not by themselves imply simple connectivity; path connectedness is required.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.1, simply-connected definition and Proposition 1.14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第11周11月21日，主要概念：单连通",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "covering-space",
+    "english": "covering space",
+    "chinese": "覆盖空间",
+    "aliases": [
+      "复迭空间"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A space E with a continuous surjection to B such that each point of B has a neighborhood whose inverse image splits into disjoint open sheets each homeomorphic to that neighborhood.",
+    "definitionZh": "空间 $E$ 连同连续满射 $p:E\\to B$；底空间每一点都有开邻域，其原像为不交开片之并，每片由 $p$ 同胚地映到该邻域。",
+    "example": "$t\\mapsto e^{2\\pi it}$ covers $S^1$ by $\\mathbb R$.",
+    "distinction": "A local homeomorphism is not automatically a covering map; the whole neighborhood must be evenly covered.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.3, covering definition, printed p. 56",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§1.2 基础拓扑学，核心内容：覆盖空间",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第13周12月7日：复迭空间；主要概念：复迭空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "universal-covering-space",
+    "english": "universal covering space",
+    "chinese": "泛复迭空间",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A covering with path connected and simply connected total space.",
+    "definitionZh": "总空间道路连通且单连通的复迭空间。",
+    "example": "$\\mathbb R\\to S^1$ is a universal covering.",
+    "distinction": "Existence is guaranteed for path connected, locally path connected, semilocally simply connected bases, not arbitrary spaces.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.3, Classification of Covering Spaces, universal covering discussion",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第15周12月19日，主要概念：泛复迭空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "deck-transformation",
+    "english": "deck transformation",
+    "chinese": "复迭变换",
+    "aliases": [
+      "covering transformation"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A homeomorphism of a covering's total space E satisfying p composed with that homeomorphism equals p.",
+    "definitionZh": "复迭空间总空间 $E$ 的同胚 $h$，满足 $p\\circ h=p$。",
+    "example": "Integer translations are deck transformations of $\\mathbb R\\to S^1$.",
+    "distinction": "A deck transformation must preserve the projection, not just permute fibers by an arbitrary bijection.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.3, Deck Transformations and Group Actions, printed p. 70",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第15周12月19日，主要概念：复迭变换",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "van-kampen-theorem",
+    "english": "van Kampen theorem",
+    "chinese": "Van Kampen 定理",
+    "aliases": [
+      "Seifert–van Kampen theorem"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a space covered by two path connected open sets with nonempty path connected intersection and a basepoint in that intersection, its fundamental group is the pushout of the two fundamental groups over that of the intersection.",
+    "definitionZh": "空间由两个道路连通开集覆盖，交集非空且道路连通，基点位于交集中时，总空间基本群是两开集基本群沿交集基本群的推出。",
+    "example": "For two circles meeting at a point, suitable open neighborhoods give $\\pi_1\\cong\\mathbb Z*\\mathbb Z$.",
+    "distinction": "A disconnected intersection needs a groupoid version or additional bookkeeping; the stated group formulation cannot simply ignore it.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.2, The van Kampen Theorem, printed pp. 43–45",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第12周11月28日，主要概念：Van Kampen 定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "singular-homology",
+    "english": "singular homology",
+    "chinese": "奇异同调",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The homology of the free chain complex generated by continuous standard simplices in X, using alternating face boundaries; coefficients are integers unless stated otherwise.",
+    "definitionZh": "由映入 $X$ 的连续标准单形生成的自由链复形的同调，边界取交错面和；默认系数为整数。",
+    "example": "$H_1(S^1;\\mathbb Z)\\cong\\mathbb Z$ and $H_1(D^2;\\mathbb Z)=0$.",
+    "distinction": "Ordinary homology has $H_0$ of a point equal to $\\mathbb Z$; reduced homology of a point vanishes.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§2.1, Singular Homology, printed pp. 108–110",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§1.2 基础拓扑学，核心内容：奇异同调",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "singular-simplex",
+    "english": "singular simplex",
+    "chinese": "奇异单形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous map from the standard n-simplex with ordered vertices into a topological space, for some nonnegative integer n.",
+    "definitionZh": "从具有有序顶点的标准 $n$ 维单形到拓扑空间的连续映射，$n\\geq0$。",
+    "example": "A constant map $\\Delta^2\\to\\{p\\}\\subseteq X$ is a singular two-simplex.",
+    "distinction": "The map need not be injective; its image need not look like a geometric simplex.",
+    "translationStatus": "Community usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§2.1, Singular Homology, printed p. 108",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "FDU Math — 现代几何学导论, student-compiled original notes",
+        "url": "https://liquid-geo.github.io/Kewei.github.io/%E7%8E%B0%E4%BB%A3%E5%87%A0%E4%BD%95%E5%AD%A6%E5%AF%BC%E8%AE%BA%201st%20edition.pdf",
+        "locator": "§4.3 奇异同调，Definition 奇异单形，printed p. 73",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cellular-homology",
+    "english": "cellular homology",
+    "chinese": "胞腔同调",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "definitionEn": "For a CW complex, the homology of the chain complex with C_n=H_n(X^n,X^{n-1};Z), whose boundary is formed from the relative connecting map followed by projection to the next skeletal pair.",
+    "definitionZh": "对 CW 复形，取 $C_n=H_n(X^n,X^{n-1};\\mathbb Z)$，以相对同调连接映射及向下一骨架对的映射组成边界，所得链复形的同调。",
+    "example": "A sphere with one zero-cell and one n-cell has cellular homology $\\mathbb Z$ in degrees 0 and n for $n>0$.",
+    "distinction": "This computes singular homology but uses a chosen cell structure; the differential depends on attaching maps, not just cell counts.",
+    "translationStatus": "Community usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§2.2, Cellular Homology, printed pp. 137–140",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Notes for Algebraic Topology — author-hosted Chinese notes",
+        "url": "https://apolloniussun.github.io/AT.pdf",
+        "locator": "§13.0.2 胞腔同调",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cw-complex",
+    "english": "CW complex",
+    "chinese": "CW-复形",
+    "aliases": [
+      "cell complex"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "definitionEn": "A space built by attaching disks to successive skeleta along their boundary spheres and giving the union the weak topology determined by the skeleta.",
+    "definitionZh": "逐层把闭球的边界粘到低维骨架上，并给最终并集赋予由骨架决定的弱拓扑所形成的空间。",
+    "example": "$S^n$ has a CW structure with one zero-cell and one n-cell.",
+    "distinction": "A finite-dimensional CW complex can have infinitely many cells; finite-dimensional and finite are different conditions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Cell Complexes, printed pp. 5–7; Appendix, Topology of Cell Complexes",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "UCAS — 代数拓扑 course syllabus",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/202507",
+        "locator": "第一章第4节 CW-复形；第二章 CW-复形的同伦性质",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "singular-cohomology",
+    "english": "singular cohomology",
+    "chinese": "奇异上同调群",
+    "aliases": [
+      "singular cohomology group"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "definitionEn": "For an abelian coefficient group A, the cohomology of Hom(C_*(X;Z),A), with coboundary given by precomposing a cochain with the singular boundary.",
+    "definitionZh": "给定阿贝尔系数群 $A$，对奇异链复形取 $\\operatorname{Hom}(C_*(X;\\mathbb Z),A)$，余边界由预复合链边界给出，其上同调群即所定义的群。",
+    "example": "$H^1(S^1;\\mathbb Z)\\cong\\mathbb Z$.",
+    "distinction": "Induced maps reverse direction; with integral coefficients this is not always simply the dual of homology because Ext terms can occur.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§3.1, Cohomology of Spaces, printed pp. 197–199",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "00137914 course plan, 第5–6周：奇异同调群及奇异上同调群的定义，PDF p. 78 (printed p. 75)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cup-product",
+    "english": "cup product",
+    "chinese": "杯积",
+    "aliases": [
+      "上积"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "definitionEn": "The product on singular cohomology with coefficients in a commutative ring, induced by evaluating a p-cochain on the first p-face and a q-cochain on the last q-face of an ordered (p+q)-simplex and multiplying.",
+    "definitionZh": "以交换环为系数时，在有序 $(p+q)$ 单形的前 $p$ 面与后 $q$ 面分别计算余链并相乘，由此诱导的上同调乘积。",
+    "example": "On $T^2$, degree-one generators a,b can be chosen so $a\\smile b$ generates $H^2(T^2;\\mathbb Z)$.",
+    "distinction": "Graded commutativity holds on cohomology; the usual cochain formula is not literally graded commutative.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§3.2, Cup Product, printed pp. 206–208",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§1.2 基础拓扑学，核心内容：杯积",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "00137914 course plan, 第9–10周：上同调的环结构（上积）简介，PDF p. 78 (printed p. 75)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "poincare-duality",
+    "english": "Poincaré duality",
+    "chinese": "Poincaré 对偶",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "definitionEn": "For a closed oriented n-manifold with chosen integral fundamental class, cap product with that class is an isomorphism from H^k(M;Z) to H_{n-k}(M;Z).",
+    "definitionZh": "对选定整数基本类的闭定向 $n$ 维流形，与该基本类取卡积给出 $H^k(M;\\mathbb Z)$ 到 $H_{n-k}(M;\\mathbb Z)$ 的同构。",
+    "example": "On an oriented closed surface, degree-one cohomology is dual by cap product to degree-one homology.",
+    "distinction": "Noncompact manifolds require compact supports or locally finite homology; manifolds with boundary require the relative Lefschetz version.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§3.3, Theorem 3.30, printed p. 241",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§1.2 基础拓扑学，核心内容：Poincaré 对偶",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "higher-homotopy-group",
+    "english": "higher homotopy group",
+    "chinese": "同伦群",
+    "aliases": [
+      "pi-n"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "definitionEn": "For n at least two, the abelian group of based maps from S^n to a based space modulo based homotopy, with addition from pinching the sphere into a wedge of two spheres.",
+    "definitionZh": "当 $n\\geq2$ 时，保基点映射 $S^n\\to X$ 的保基点同伦类形成的阿贝尔群；加法由球面的捏合映射给出。",
+    "example": "$\\pi_2(S^2)\\cong\\mathbb Z$.",
+    "distinction": "The Chinese source uses the general name 同伦群; this record restricts to n≥2. Such groups can be nonzero above the dimension of the target.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§4.1, Definitions and Basic Constructions, printed pp. 340–342",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "UCAS — 代数拓扑 course syllabus",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/202507",
+        "locator": "第一章第5节 同伦群的定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "stable-homotopy-group",
+    "english": "stable homotopy group",
+    "chinese": "稳定同伦群",
+    "aliases": [
+      "stable stem (for spheres)"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Research",
+    "definitionEn": "For a based CW complex X, the colimit of pi_{k+r}(Sigma^r X) under suspension homomorphisms, with r large enough to use group-valued degrees.",
+    "definitionZh": "对带基点 CW 复形 $X$，沿悬挂同态取 $\\pi_{k+r}(\\Sigma^rX)$ 的余极限，$r$ 从群结构已定义的充分大值开始。",
+    "example": "For sphere stems, $\\pi_0^s\\cong\\mathbb Z$ and $\\pi_1^s\\cong\\mathbb Z/2$.",
+    "distinction": "For spheres the target is S^r; adding a disjoint basepoint to X changes the reduced suspension-spectrum convention.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§4.2, Stable Homotopy Groups, printed p. 384; Corollary 4.24",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Du Qingnian — Chinese Annals of Mathematics, Series A, 31(6), 2010",
+        "url": "https://camath.fudan.edu.cn/camaen/ch/reader/view_abstract.aspx?file_no=31A610&flag=1",
+        "locator": "Article title 球面稳定同伦群的一族新元素(γ)th0b41 and 中文关键词：稳定同伦群",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "smooth-manifold",
+    "english": "smooth manifold",
+    "chinese": "微分流形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "A Hausdorff, second countable space locally homeomorphic to open subsets of a fixed Euclidean space, together with a smooth structure represented by charts whose transition maps are infinitely differentiable; boundary is excluded here.",
+    "definitionZh": "具有 Hausdorff 性和第二可数性、局部同胚于固定维数欧氏空间开集，并配有坐标变换无穷次可微的微分结构的空间；本条不含边界。",
+    "example": "The unit sphere $S^2$ is smooth: near a point with $z\\ne0$, solve $z=\\pm\\sqrt{1-x^2-y^2}$ to obtain local coordinates.",
+    "distinction": "Local Euclidean topology alone does not choose a smooth structure. The union of two crossing coordinate axes fails even the manifold condition at the crossing.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§1.2.1, Definition 1.2.1 and Remark 1.2.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，微分流形，内容提要一：微分流形的定义；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "tangent-space",
+    "english": "tangent space",
+    "chinese": "切空间",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "The tangent space at an interior point of a smooth manifold, or on a manifold without boundary, is the real vector space of velocities of smooth two-sided curves through that point, identifying curves with equal coordinate derivatives at time zero. At a boundary point it is the full vector space of real-linear derivations on smooth real-valued function germs, obeying the product rule at that point and using smooth extensions of half-space charts, rather than the cone of inward velocities.",
+    "definitionZh": "在无边光滑流形上一点或带边流形的内点，切空间为经过该点的双侧光滑曲线速度所成的实向量空间，坐标中的零时刻导数相同的曲线等价。在边界点，采用光滑实值函数芽上满足该点乘积法则的实线性导子，借助半空间坐标的光滑延拓得到完整切向量空间，而非仅有朝内速度的锥。",
+    "example": "For $S^2\\subset\\mathbb R^3$, $T_pS^2=\\{v:p\\cdot v=0\\}$; at $p=(0,0,1)$ this is the plane $v_3=0$.",
+    "distinction": "The tangent space belongs to one point and is an abstract vector space. A chosen embedding represents it in an ambient space; that representation is additional data.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.1.1, Definitions 2.1.2 and 2.1.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要二、向量场：切空间；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "differential-form",
+    "english": "differential form",
+    "chinese": "外微分形式",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "For a smooth manifold and a nonnegative integer k, a smooth section of the kth exterior power of its cotangent bundle; pointwise it is an alternating real multilinear function of k tangent vectors.",
+    "definitionZh": "在光滑流形上，余切丛的第 $k$ 次外幂的光滑截面，$k$ 为非负整数；在每一点，它是关于 $k$ 个切向量的交替实多线性函数。",
+    "example": "On $\\mathbb R^2$, $\\alpha=x\\,dy$ satisfies $\\alpha_{(2,3)}(\\partial_y)=2$; $dx\\wedge dy(\\partial_y,\\partial_x)=-1$.",
+    "distinction": "A differential form is alternating; a general covariant tensor need not be. The phrase exterior form does not assert that the form is an exterior derivative.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.3.2, Definition 2.3.4(b) and Example 2.3.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要三、外微分形式；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "de-rham-cohomology",
+    "english": "de Rham cohomology",
+    "chinese": "de Rham 上同调",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "For a smooth manifold, the real vector spaces obtained in each degree by dividing the closed smooth differential forms by the exact ones, using the exterior derivative; degree zero has no incoming differential.",
+    "definitionZh": "对光滑流形，逐次数将闭的光滑微分形式空间除以恰当形式空间所得的实向量空间；微分为外微分，零次没有流入的微分。",
+    "example": "On $S^1$, $\\eta=x\\,dy-y\\,dx$ has integral $2\\pi$. Hence it is closed but cannot equal $df$ for a global function, giving a nonzero class in $H^1_{\\mathrm{dR}}(S^1)$.",
+    "distinction": "Local primitives do not supply a global primitive. Integral singular cohomology can have torsion, whereas these groups use real coefficients.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§7.1.3, Very little homological algebra, Example 7.1.9, The DeRham complex",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§1.1 微分流形，核心内容：de Rham 上同调",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "riemannian-metric",
+    "english": "Riemannian metric",
+    "chinese": "黎曼度量",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "A smooth symmetric covariant two-tensor on a smooth real manifold whose value at every point is a positive definite bilinear form on that point's tangent space.",
+    "definitionZh": "光滑实流形上的光滑对称二次协变张量，在每一点的切空间上给出正定双线性型。",
+    "example": "The Euclidean metric $dx^2+dy^2$ becomes $dr^2+r^2d\\theta^2$ in polar coordinates for $r>0$; a vector $a\\partial_r+b\\partial_\\theta$ has squared length $a^2+r^2b^2$.",
+    "distinction": "The tensor measures tangent vectors. The induced distance between points is obtained by infima of curve lengths; an arbitrary metric-space distance is not such a tensor.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.3.2, Definition 2.3.4(c); §4.1.1, Definitions and examples",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Zhang Sirong — Beihang University, 微分流形与黎曼几何, Chapter 3 slides",
+        "url": "https://math.buaa.edu.cn/__local/6/FE/60/C5D2A3AB72119638FC6FF65DAB0_FC2EC426_10A011.pdf?e=.pdf",
+        "locator": "Chapter 3，黎曼度量，Definition on slide 47/54; PDF p. 12",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "levi-civita-connection",
+    "english": "Levi–Civita connection",
+    "chinese": "Levi-Civita 联络",
+    "aliases": [
+      "黎曼联络"
+    ],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "For a smooth Riemannian manifold, the unique connection on its tangent bundle that preserves the metric and has zero torsion: its covariant derivatives satisfy the metric product rule and their antisymmetric difference equals the vector-field Lie bracket.",
+    "definitionZh": "光滑黎曼流形切丛上唯一的保度量、无挠联络；协变导数满足度量的乘积法则，其反对称部分等于向量场的李括号。",
+    "example": "For $g=dr^2+r^2d\\theta^2$, $\\nabla_{\\partial_\\theta}\\partial_\\theta=-r\\partial_r$ and $\\nabla_{\\partial_r}\\partial_\\theta=r^{-1}\\partial_\\theta$ when $r>0$.",
+    "distinction": "Metric compatibility alone does not determine a connection. Christoffel symbols may be nonzero in curvilinear coordinates even for a flat metric.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§4.1.2, Proposition 4.1.9 and equations (4.1.3)–(4.1.4)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要二：Riemann 流形的 Levi-Civita 联络；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Zhang Sirong — Beihang University, 微分流形与黎曼几何, Chapter 3 slides",
+        "url": "https://math.buaa.edu.cn/__local/6/FE/60/C5D2A3AB72119638FC6FF65DAB0_FC2EC426_10A011.pdf?e=.pdf",
+        "locator": "Chapter 3，黎曼联络的存在唯一，slide 52/54; PDF p. 13",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "symplectic-manifold",
+    "english": "symplectic manifold",
+    "chinese": "辛流形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Graduate",
+    "definitionEn": "A smooth manifold equipped with a smooth closed two-form whose value on every tangent space is nondegenerate; closed means its exterior derivative vanishes, and nondegenerate means contraction identifies tangent and cotangent spaces.",
+    "definitionZh": "配有光滑闭二形式的光滑流形，且该形式在各切空间上非退化；闭指外微分为零，非退化指缩并给出切空间到余切空间的同构。",
+    "example": "On $\\mathbb R^{2n}$, $\\omega=\\sum_{i=1}^n dx_i\\wedge dy_i$ is closed and has invertible skew matrix, so it defines a symplectic manifold.",
+    "distinction": "Even dimension is necessary but does not itself provide a symplectic form. Unlike a Riemannian metric, the form is alternating and gives no lengths of individual vectors.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ana Cannas da Silva — Lectures on Symplectic Geometry",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+        "locator": "§1.3, Definitions 1.5–1.6 and the standard Euclidean example",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Jinan University — Wang Bai-Ling, Lectures on fundamental symplectic geometry I",
+        "url": "https://xxxy.jnu.edu.cn/2020/1214/c27469a573279/page.htm",
+        "locator": "内容简介：辛流形及其子流形；数学系学术讲座(十六), published 2020-12-14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lagrangian-submanifold",
+    "english": "Lagrangian submanifold",
+    "chinese": "拉格朗日子流形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Graduate",
+    "definitionEn": "An embedded smooth submanifold of a symplectic manifold of dimension 2n whose dimension is n and on whose tangent spaces the symplectic form vanishes. The submanifold need not be a closed subset under this entry's convention.",
+    "definitionZh": "在 $2n$ 维辛流形中的 $n$ 维光滑嵌入子流形，其各切空间上辛形式均为零；本条不要求子流形在环境空间中为闭集。",
+    "example": "For $\\omega=\\sum dq_i\\wedge dp_i$ on $T^*\\mathbb R^n$, the graph $p_i=\\partial f/\\partial q_i$ is Lagrangian: the symmetric Hessian cancels in the pulled-back two-form.",
+    "distinction": "Vanishing of the restricted form alone gives isotropy; the half-dimension condition is essential. Cannas da Silva uses a closed-embedding convention that is relaxed explicitly here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ana Cannas da Silva — Lectures on Symplectic Geometry",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+        "locator": "§3.1, Definition 3.2; §3.2, Definition 3.3 and Proposition 3.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Wang Yi — Beijing Institute of Technology, 弦拓扑和拉格朗日子流形 report notice",
+        "url": "https://math.bit.edu.cn/docs/2024-06/e4e0be6f16894e389849fb6fda4cde57.pdf",
+        "locator": "Report title 弦拓扑和拉格朗日子流形 and abstract containing 拉格朗日子流形（Lagrangian submanifold）; PDF p. 1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hamiltonian-floer-homology",
+    "english": "Hamiltonian Floer homology",
+    "chinese": "Hamilton 系统周期解的 Floer 同调",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Research",
+    "definitionEn": "In the closed symplectic setting where the symplectic form and first Chern class vanish on sphere classes, the homology over the field with two elements of the complex generated by nondegenerate contractible one-periodic Hamiltonian orbits, whose differential counts isolated finite-energy Floer cylinders modulo translation after regular choices.",
+    "definitionZh": "在闭辛流形上，若辛形式和第一 Chern 类在球面类上均为零，取非退化的可缩一周期 Hamilton 轨道生成二元域上的链复形；经正则选择后，以模平移的孤立有限能量 Floer 圆柱计数定义边界，其同调即本条所指对象。",
+    "example": "For the standard symplectic two-torus and a sufficiently small suitable Morse Hamiltonian, the ungraded Floer homology has total $\\mathbb F_2$-dimension $1+2+1=4$.",
+    "distinction": "This scoped construction concerns Hamiltonian periodic orbits. Lagrangian Floer homology uses different generators; manifolds with sphere bubbling require a broader construction and additional hypotheses.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Will J. Merry — Floer theory",
+        "url": "https://www2.math.ethz.ch/will-merry/files/Merry%20-%20Floer%20Theory%20(2014).pdf",
+        "locator": "§2, Definition 2.24 and Theorem 2.25; §4, Floer equation; §9, Invariance of Floer homology",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Jiang Meiyue — Peking University, （辛）Floer 同调简介 report notice",
+        "url": "https://math.pku.edu.cn/kxyj/xsbg/tlb/78040.htm",
+        "locator": "（辛）Floer 同调简介，主要内容 item 3：Hamilton 系统周期解的 Floer 同调; item 4 distinguishes Lagrange submanifold intersection theory",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cotangent-space",
+    "english": "cotangent space",
+    "chinese": "余切空间",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "For a point p of a smooth real manifold M, the real dual vector space of its tangent space, consisting of real linear functions on tangent vectors at p.",
+    "definitionZh": "对光滑实流形 $M$ 上一点 $p$，切空间 $T_pM$ 的实对偶空间，即该点切向量上的实线性函数所成的空间。",
+    "example": "On $\\mathbb R^2$, $(dx)_p(a\\partial_x+b\\partial_y)=a$ and $(dy)_p(a\\partial_x+b\\partial_y)=b$; these covectors form a basis of $T_p^*\\mathbb R^2$.",
+    "distinction": "Covectors evaluate vectors; they are not canonically tangent vectors. A chosen Riemannian metric supplies such an identification, which changes if the metric changes.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.3.1, dual vector bundles; §2.3.2, cotangent bundle and Example 2.3.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要二、向量场：余切空间；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "tangent-bundle",
+    "english": "tangent bundle",
+    "chinese": "切丛",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "For a smooth n-manifold, the disjoint union of all its tangent spaces, with projection sending a tangent vector to its point and smooth local trivializations obtained by differentiating coordinate charts; it is a real vector bundle of rank n.",
+    "definitionZh": "对光滑 $n$ 维流形，将各点切空间作不交并，以切向量所在点为投影，并由坐标卡的微分给出光滑局部平凡化，所得秩为 $n$ 的实向量丛。",
+    "example": "The field $(-y,x)$ on $S^1$ never vanishes and gives $TS^1\\cong S^1\\times\\mathbb R$ by $(p,a)\\mapsto a(-p_2,p_1)$.",
+    "distinction": "The rank is n, but the total-space dimension is 2n. Local product descriptions do not imply a global product description; the tangent bundle of $S^2$ is nontrivial.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.1.2, The tangent bundle; §2.1.4, Vector bundles",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00137914，第3–4周：切丛与余切丛的各种定义及其统一；PDF p. 78, printed p. 75",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "smooth-vector-bundle",
+    "english": "smooth vector bundle",
+    "chinese": "向量丛",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "A smooth projection over a smooth manifold with finite-dimensional real vector spaces of fixed rank as fibers and local product trivializations that are linear on each fiber; the changes between trivializations are smooth invertible linear maps.",
+    "definitionZh": "光滑流形上的光滑投影，其纤维是固定有限维数的实向量空间，且有在每根纤维上线性的局部乘积平凡化；平凡化之间的变换为光滑的可逆线性映射。",
+    "example": "The quotient of $[0,1]\\times\\mathbb R$ by $(0,t)\\sim(1,-t)$ is a real line bundle over $S^1$; its sign reversal makes it nontrivial.",
+    "distinction": "A fiber bundle may have nonlinear fibers and transition functions. In a vector bundle each fiber has linear operations, but vectors in different fibers cannot be added without extra choices.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.1.4, vector-bundle defining data and Definition 2.1.23",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要四、向量丛和主丛的联络：向量丛；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "smooth-vector-field",
+    "english": "smooth vector field",
+    "chinese": "光滑向量场",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "A smooth section of the tangent bundle of a smooth manifold: it assigns to each point a tangent vector at that point, with smooth coefficient functions in every coordinate chart.",
+    "definitionZh": "光滑流形切丛的光滑截面，即在每一点选取该点的切向量，且在每个局部坐标中各系数函数都光滑。",
+    "example": "On $\\mathbb R^2$, $X=-y\\partial_x+x\\partial_y$ is smooth and tangent to each centered circle since $X(x^2+y^2)=0$.",
+    "distinction": "A vector field assigns vectors at all points, whereas a tangent vector belongs to one point. Smoothness is stronger than continuity of a section.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.1.4, Definition 2.1.27(b)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Zhang Sirong — Beihang University, 微分流形与黎曼几何, Chapter 3 slides",
+        "url": "https://math.buaa.edu.cn/__local/6/FE/60/C5D2A3AB72119638FC6FF65DAB0_FC2EC426_10A011.pdf?e=.pdf",
+        "locator": "Chapter 3，切向量场，slide 12/54: 特别光滑映射是光滑向量场; PDF p. 3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "smooth-immersion",
+    "english": "smooth immersion",
+    "chinese": "浸入",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "A smooth map between smooth manifolds whose differential is injective at every point of its domain.",
+    "definitionZh": "光滑流形之间的光滑映射，在定义域的每一点，其切映射均为单射。",
+    "example": "The map $\\mathbb R\\to S^1$, $t\\mapsto(\\cos t,\\sin t)$ is an immersion because $(-\\sin t,\\cos t)$ never vanishes, but it is not injective.",
+    "distinction": "Immersion is a differential-rank condition. An embedding also requires a homeomorphism onto the image with its subspace topology; immersion alone imposes neither global injectivity nor that topology.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.1.3, Definition 2.1.20 (immersion and submersion)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Wang Jiajun — Peking University, 微分拓扑, Spring 2018 course page",
+        "url": "https://math.pku.edu.cn/teachers/wangjj/2018spring/index.html",
+        "locator": "教学计划，2018-03-01：反函数定理、浸入；2018-03-20 作业内容",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "smooth-submersion",
+    "english": "smooth submersion",
+    "chinese": "淹没",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "A smooth map between smooth manifolds whose differential is surjective at every point of the domain; surjectivity of the map itself is not required.",
+    "definitionZh": "光滑流形之间的光滑映射，在定义域每一点的切映射均为满射；不要求原映射整体为满射。",
+    "example": "The projection $(x,y)\\mapsto x$ is a submersion $\\mathbb R^2\\to\\mathbb R$. The map $x\\mapsto x^2$ fails at zero because its differential there is zero.",
+    "distinction": "A submersion is locally a coordinate projection. A surjective smooth map can have critical points, so surjectivity of the map is a different condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§2.1.3, Definition 2.1.20 (immersion and submersion)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Wang Jiajun — Peking University, 微分拓扑, Spring 2018 course page",
+        "url": "https://math.pku.edu.cn/teachers/wangjj/2018spring/index.html",
+        "locator": "教学计划，2018-03-06：淹没、正则值原像定理；2018-03-20 作业内容",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "exterior-derivative",
+    "english": "exterior derivative",
+    "chinese": "外微分运算",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "The degree-one real linear operator on smooth differential forms that agrees with the differential on functions, squares to zero, and satisfies the graded product rule; in local coordinates it differentiates each coefficient and wedges its differential with the coordinate differentials.",
+    "definitionZh": "光滑微分形式上的升一次实线性算子，在函数上等于通常的微分，平方为零并满足分次乘积法则；在局部坐标中对系数微分，再与坐标微分取外积。",
+    "example": "For $\\alpha=x\\,dy$ on $\\mathbb R^2$, $d\\alpha=dx\\wedge dy$ and $d(d\\alpha)=0$. Also $d(xy)=y\\,dx+x\\,dy$.",
+    "distinction": "This operation does not require a metric or a connection. It raises form degree, while a covariant derivative produces an additional covector slot without imposing alternation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§3.2.1, Proposition 3.2.3 and coordinate construction of d",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要三：外微分运算；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "riemannian-geodesic",
+    "english": "Riemannian geodesic",
+    "chinese": "测地线",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "A smooth parametrized curve on a Riemannian manifold whose velocity is parallel along the curve with respect to the Levi–Civita connection, so its covariant acceleration is zero; the parameter is affine.",
+    "definitionZh": "黎曼流形上的光滑参数曲线，其速度关于 Levi-Civita 联络沿曲线平行，即协变加速度为零；参数采用仿射参数。",
+    "example": "On the unit sphere, $\\gamma(t)=(\\cos t,\\sin t,0)$ has ambient acceleration $-\\gamma(t)$, normal to the sphere, and hence zero tangential covariant acceleration.",
+    "distinction": "A geodesic need not minimize length between distant endpoints. A full great-circle traversal is a geodesic although its endpoints can coincide; arbitrary reparametrization may destroy the equation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§4.1.2, Definition 4.1.10 and geodesic equation (4.1.5)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要二：测地线；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "parallel-transport",
+    "english": "parallel transport",
+    "chinese": "平行移动",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "Given a connection on a smooth vector bundle and a smooth path in its base, the linear map between endpoint fibers that sends an initial vector to the endpoint value of the unique section along the path with zero covariant derivative and that initial value.",
+    "definitionZh": "给定光滑向量丛上的联络及底空间中的光滑道路，由指定初值且沿道路协变导数为零的唯一截面的终值，定义两端纤维之间的线性映射。",
+    "example": "For the Euclidean connection on $T\\mathbb R^2$, a vector with constant Cartesian components remains parallel along any smooth path.",
+    "distinction": "Transport depends on a connection and generally on the whole path, not just its endpoints. A metric-compatible connection preserves inner products, but this is additional to being a connection.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§3.3.2, Parallel transport, initial-value problem (3.3.7)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要二：平行移动和协变微分；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "manifold-orientation",
+    "english": "orientation of a smooth manifold",
+    "chinese": "光滑流形的定向",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "On a smooth real n-manifold, an equivalence class of nowhere-vanishing smooth n-forms, where two forms are equivalent when one is a positive smooth function times the other; such a class exists exactly when the manifold is orientable.",
+    "definitionZh": "在光滑实 $n$ 维流形上，处处非零的光滑 $n$ 形式的等价类；两形式相差一个正的光滑函数因子时等价。存在这样的等价类当且仅当流形可定向。",
+    "example": "On $\\mathbb R^2$, $dx\\wedge dy$ and $e^x dx\\wedge dy$ define the same orientation; $-dx\\wedge dy$ defines the opposite orientation.",
+    "distinction": "Orientability is existence of an orientation, whereas orientation is a choice. An orientation fixes signs in integration without selecting the lengths or areas supplied by a metric.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§3.4.2, Definition 3.4.4 and the volume-form equivalence relation immediately following it",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要二：光滑流形的定向；PDF p. 77, printed p. 74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "symplectic-form",
+    "english": "symplectic form",
+    "chinese": "辛形式",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Graduate",
+    "definitionEn": "A smooth two-form on a smooth manifold whose exterior derivative is zero and whose contraction map from each tangent space to its dual is invertible.",
+    "definitionZh": "光滑流形上的光滑二形式，外微分为零，且在每一点由缩并得到的切空间到其对偶空间的映射均可逆。",
+    "example": "The form $dx\\wedge dy$ on $\\mathbb R^2$ is symplectic. The form $x\\,dx\\wedge dy$ is closed but degenerates where $x=0$.",
+    "distinction": "An alternating form can be nondegenerate pointwise and still fail closedness in dimension at least four. A symplectic form is the additional structure; the pair with its manifold is a symplectic manifold.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ana Cannas da Silva — Lectures on Symplectic Geometry",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+        "locator": "§1.3, Definition 1.5; §1.1, nondegenerate alternating forms",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§2.2 辛几何，核心内容：辛形式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "almost-complex-structure",
+    "english": "almost complex structure",
+    "chinese": "近复结构",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Graduate",
+    "definitionEn": "A smooth real bundle endomorphism of the tangent bundle of a smooth manifold whose square is minus the identity on every tangent space.",
+    "definitionZh": "光滑流形切丛的光滑实丛自同态，在每个切空间上其平方等于负恒等映射。",
+    "example": "On $\\mathbb R^2$, set $J\\partial_x=\\partial_y$ and $J\\partial_y=-\\partial_x$. Then $J^2=-\\operatorname{id}$, the usual complex structure.",
+    "distinction": "An almost complex structure is pointwise data and need not arise from holomorphic charts. Compatibility with a specified symplectic form is a separate positive-definiteness condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ana Cannas da Silva — Lectures on Symplectic Geometry",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+        "locator": "§12.3, Definitions 12.4–12.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Li Xiaobin — Southwest Jiaotong University, Gromov–Witten study guide",
+        "url": "https://faculty.swjtu.edu.cn/lixiaobin1/zh_CN/article/117928/content/2775.htm",
+        "locator": "§2.2 辛几何，核心内容：近复结构",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hamiltonian-vector-field",
+    "english": "Hamiltonian vector field",
+    "chinese": "Hamilton 矢量场",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Graduate",
+    "definitionEn": "For a smooth real function H on a symplectic manifold with form omega, the unique smooth vector field X_H satisfying contraction of omega with X_H equals dH; this entry uses the positive-dH sign convention.",
+    "definitionZh": "对辛流形上的光滑实函数 $H$，以缩并方程 $\\iota_{X_H}\\omega=dH$ 唯一确定的光滑向量场；本条采用正 $dH$ 的符号约定。",
+    "example": "With $\\omega=dq\\wedge dp$ and $H=(q^2+p^2)/2$, $X_H=p\\partial_q-q\\partial_p$, giving $\\dot q=p$ and $\\dot p=-q$.",
+    "distinction": "Some authors use the opposite sign. A vector field preserving the symplectic form need not be Hamiltonian: contraction must be globally exact, rather than merely closed.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ana Cannas da Silva — Lectures on Symplectic Geometry",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+        "locator": "§18.1, Hamiltonian and Symplectic Vector Fields, Definition 18.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Liu Shixing, Xing Yan, Liu Chang and Guo Yongxin — 对称约化对完整系统数值积分的影响",
+        "url": "https://xbna.pku.edu.cn/html/2016-4-592.htm",
+        "locator": "§1 完整约束系统的辛约化，paragraph immediately after equation (1)：Hamilton矢量场",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "pseudoholomorphic-curve",
+    "english": "pseudoholomorphic curve",
+    "chinese": "伪全纯曲线",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "symplectic-geometry",
+    "level": "Graduate",
+    "definitionEn": "A smooth map from a Riemann surface with complex structure j to a smooth manifold with almost complex structure J whose differential intertwines those structures, so du composed with j equals J composed with du.",
+    "definitionZh": "从复结构为 $j$ 的黎曼曲面到近复结构为 $J$ 的光滑流形的光滑映射 $u$，满足 $du\\circ j=J\\circ du$。",
+    "example": "For the usual structures on $\\mathbb C$, $u(z)=z^2$ is pseudoholomorphic; $u(z)=\\overline z$ is not, since its differential anticommutes with multiplication by $i$.",
+    "distinction": "The word curve denotes a parametrized map, not just its image. The map need not be embedded or immersive; branch points and constant maps are allowed by this definition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Chris Wendl — Lectures on Holomorphic Curves in Symplectic and Contact Geometry",
+        "url": "https://www.mathematik.hu-berlin.de/~wendl/pub/Jhol_arXiv.pdf",
+        "locator": "§2.1, Definition 2.8 and equation (2.2), printed p. 26",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Jinan University — Wang Bai-Ling, Lectures on fundamental symplectic geometry I",
+        "url": "https://xxxy.jnu.edu.cn/2020/1214/c27469a573279/page.htm",
+        "locator": "内容简介：伪全纯曲线；数学系学术讲座(十六), published 2020-12-14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-manifold",
+    "english": "topological manifold",
+    "chinese": "拓扑流形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a fixed nonnegative integer n, a Hausdorff, second countable space in which each point has a neighborhood homeomorphic to an open subset of real n-dimensional Euclidean space; boundary is excluded in this record.",
+    "definitionZh": "对固定的非负整数 $n$，具有 Hausdorff 性和第二可数性的空间，每一点都有同胚于 $n$ 维实欧氏空间开集的邻域；本条不含边界。",
+    "example": "The product $S^1\\times S^1$ is a two-dimensional topological manifold: products of small open arcs give coordinate neighborhoods homeomorphic to open rectangles.",
+    "distinction": "No differentiability condition is imposed on chart transitions. Some authors omit second countability, yielding a broader convention; this entry includes it.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Marco Gualtieri — MAT1300F, Manifolds, 2012 course notes",
+        "url": "https://www.math.toronto.edu/mgualt/courses/MAT1300F-2012/docs/1300-2012-notes-1.html",
+        "locator": "§1.1 Topological manifolds, Definition 1.1 and Example 1.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第3周9月28日，主要概念：拓扑流形；第8周10月31日：拓扑流形",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "manifold-with-boundary",
+    "english": "manifold with boundary",
+    "chinese": "带边流形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A Hausdorff, second countable space locally homeomorphic to relatively open subsets of the closed Euclidean half-space of a fixed positive dimension; the boundary consists of points corresponding to the bounding hyperplane in such charts.",
+    "definitionZh": "具有 Hausdorff 性和第二可数性的空间，局部同胚于固定正维数欧氏闭半空间的相对开集；对应于半空间边界超平面的点组成流形的边界。",
+    "example": "The interval $[0,1]$ is a one-dimensional manifold with boundary $\\{0,1\\}$. Its interior points have interval charts and its endpoints have half-interval charts.",
+    "distinction": "A manifold with boundary may have empty boundary. Intrinsic boundary differs from the boundary of an embedded subset: $S^1$ has no manifold boundary although it is its own boundary in $mathbb R^2$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§3.3, Other Forms of Duality, manifold-with-boundary definition, printed pp. 252–253",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Marco Gualtieri — MAT1300F, Manifolds, 2012 course notes",
+        "url": "https://www.math.toronto.edu/mgualt/courses/MAT1300F-2012/docs/1300-2012-notes-1.html",
+        "locator": "§1.1, Definition 1.1, second-countability convention for manifolds",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Wang Jiajun — Peking University, 微分拓扑, Spring 2018 course page",
+        "url": "https://math.pku.edu.cn/teachers/wangjj/2018spring/index.html",
+        "locator": "作业表，2018-04-24，内容：带边流形、横截性定理和邻域定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "closed-manifold",
+    "english": "closed manifold",
+    "chinese": "闭流形",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A compact topological manifold without boundary; manifolds here are Hausdorff and second countable.",
+    "definitionZh": "紧致且没有边界的拓扑流形；此处的流形具有 Hausdorff 性和第二可数性。",
+    "example": "The sphere $S^2$ is closed. The compact disk $D^2$ is not a closed manifold because its boundary is $S^1$.",
+    "distinction": "Closed does not merely mean closed as a subset of some ambient space. The real line is closed in itself but is not a closed manifold because it is noncompact.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§3.3, Poincaré Duality, closed-manifold definition, printed p. 231",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第8周10月31日，主要概念：闭流形，闭曲面",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "locally-compact-space",
+    "english": "locally compact space",
+    "chinese": "局部紧致",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A topological space in which every point lies in an open subset contained in some compact subspace; no Hausdorff condition is included in this definition.",
+    "definitionZh": "拓扑空间的每一点都属于某个开集，且该开集包含于一个紧致子空间中；本定义不附加 Hausdorff 条件。",
+    "example": "For $x\\in\\mathbb R$, the open interval $(x-1,x+1)$ lies in the compact interval $[x-1,x+1]$, so $\\mathbb R$ is locally compact but not compact.",
+    "distinction": "In Hausdorff spaces this agrees with having a basis of neighborhoods with compact closure. Without separation hypotheses different formulations of local compactness can diverge.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. Peter May — Finite Topological Spaces",
+        "url": "https://math.uchicago.edu/~may/FINITE/REUNotes2010/FiniteSpaces.pdf",
+        "locator": "§7, Function spaces and homotopies, Definition 7.3, printed p. 11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第5周10月12日，主要概念：局部紧致",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "indiscrete-topology",
+    "english": "indiscrete topology",
+    "chinese": "平凡拓扑",
+    "aliases": [
+      "trivial topology"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The topology on a set whose only open subsets are the empty set and the whole set.",
+    "definitionZh": "在一个集合上，仅规定空集和全集为开集的拓扑。",
+    "example": "For $X=\\{a,b\\}$, $\\{\\varnothing,X\\}$ is the indiscrete topology. Both points are limits of every constant sequence in this topology.",
+    "distinction": "It is the coarsest topology on the set, whereas the discrete topology is the finest. On a set with at least two points it is not Hausdorff.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Fochler — Math 330 - Additional Material",
+        "url": "https://people.math.binghamton.edu/mfochler/bu-mfx/bu-math-arv/math-330-arv/math-330-2015-08/html/lec-notes/bu-ln-330-m330-solns-2015-10-04.pdf",
+        "locator": "§7.1.4, Example 7.6, Indiscrete topology",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2B, Examples, concrete/trivial topology",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，常用例子：平凡拓扑",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cofinite-topology",
+    "english": "cofinite topology",
+    "chinese": "余有限拓扑",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The topology on a set whose open subsets are the empty set together with subsets having finite complement.",
+    "definitionZh": "在集合上，以空集及补集为有限集的子集作为开集的拓扑。",
+    "example": "On $\\mathbb N$, $\\mathbb N\\setminus\\{1,4\\}$ is open. Any two nonempty opens intersect because the union of their finite complements cannot exhaust $\\mathbb N$.",
+    "distinction": "On an infinite set this topology is T1 but not Hausdorff. On a finite set it coincides with the discrete topology, so the infinite-set qualification matters.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2B, Examples, cofinite topology and Exercise 2.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，常用例子：余有限拓扑",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cocountable-topology",
+    "english": "cocountable topology",
+    "chinese": "余可数拓扑",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "The topology on a set whose open subsets are the empty set together with subsets having at most countable complement; finite complements are allowed.",
+    "definitionZh": "在集合上，以空集及补集至多可数的子集作为开集的拓扑，其中允许有限补集。",
+    "example": "On $\\mathbb R$, $\\mathbb R\\setminus\\mathbb Q$ is open in the cocountable topology. It is not open in the cofinite topology because its complement is infinite.",
+    "distinction": "On a countable set this topology is discrete. On an uncountable set it is T1 and any two nonempty opens intersect; it is generally finer than the cofinite topology.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 2E, Advanced exercise 2.12, cocountable topology on the real set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月14日，常用例子：余可数拓扑",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "neighborhood-basis",
+    "english": "neighborhood basis",
+    "chinese": "邻域基",
+    "aliases": [
+      "local base"
+    ],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "At a point of a topological space, a family of neighborhoods such that every neighborhood of that point contains a member of the family; here a neighborhood may be any set containing an open set that contains the point.",
+    "definitionZh": "在拓扑空间的一点处，由该点邻域组成的族，使任意邻域都包含族中某个成员；此处邻域允许是含有该点开邻域的任意集合。",
+    "example": "The intervals $(-1/n,1/n)$, for positive integers $n$, form a neighborhood basis at zero in the usual real line.",
+    "distinction": "Members need not be open under the stated convention, unlike the separate open-neighborhood sense. A neighborhood basis belongs to one point; a topology basis describes opens throughout the space.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Fochler — Math 330 - Additional Material",
+        "url": "https://people.math.binghamton.edu/mfochler/bu-mfx/bu-math-arv/math-330-arv/math-330-2015-08/html/lec-notes/bu-ln-330-m330-solns-2015-10-04.pdf",
+        "locator": "§7.1.4, Definition 7.12, Basis and neighborhood basis",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月26日，主要概念及特别关注：邻域基",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-open-map",
+    "english": "open map",
+    "chinese": "开映射",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A map between topological spaces that sends every open subset of its domain to an open subset of its codomain; continuity and surjectivity are not included in the definition.",
+    "definitionZh": "拓扑空间之间的映射，将定义域的每个开集映为目标空间的开集；定义本身不要求连续或满射。",
+    "example": "The projection $\\mathbb R^2\\to\\mathbb R$ onto the first coordinate is open. Its restriction to the closed set $\\{(x,y):xy=1\\}$ has image $\\mathbb R\\setminus\\{0\\}$, so the full projection is not closed.",
+    "distinction": "Continuity concerns inverse images of opens, while openness concerns direct images. An open continuous surjection is quotient, but openness alone does not assert continuity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 5B, Closed and open maps, Definition 5.9; Chapter 6A, Exercise 6.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月19日，主要概念：开/闭映射 (open-map sense)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-closed-map",
+    "english": "closed map",
+    "chinese": "闭映射",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A map between topological spaces that sends every closed subset of its domain to a closed subset of its codomain; it need not be continuous or surjective merely by this definition.",
+    "definitionZh": "拓扑空间之间的映射，将定义域的每个闭集映为目标空间的闭集；该定义本身不推出连续性或满射性。",
+    "example": "The inclusion $[0,1]\\hookrightarrow\\mathbb R$ is closed: its domain is compact and the target Hausdorff. It is not open since $[0,1/2)$ is relatively open but not open in $\\mathbb R$.",
+    "distinction": "A map with a closed graph need not be a closed map. Closedness is a property of direct images, whereas continuity tests inverse images.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Anton Petrunin — A minimalist intro to topology",
+        "url": "https://anton-petrunin.github.io/topology/book.pdf",
+        "locator": "Chapter 5B, Definition 5.9; Chapter 9D, Observation 9.15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第2周9月19日，主要概念：开/闭映射 (closed-map sense)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-retraction",
+    "english": "retraction onto a subspace",
+    "chinese": "收缩",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a subspace A of a topological space X, a continuous map from X to A whose restriction to A is the identity.",
+    "definitionZh": "对拓扑空间 $X$ 的子空间 $A$，连续映射 $r:X\\to A$，其在 $A$ 上的限制为恒等映射。",
+    "example": "The map $r:S^1\\to\\{1\\}$ that sends every point to $1$ is a retraction. It cannot be the endpoint of a deformation retraction of $S^1$ onto $\\{1\\}$ because their fundamental groups differ.",
+    "distinction": "A retraction supplies a continuous projection fixing the subspace; it supplies no homotopy from the identity. The Chinese name 收缩 here has this topological sense, rather than metric contraction.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Homotopy and Homotopy Type, retraction definition and point example, printed p. 3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第11周11月23日，主要概念：收缩，形变收缩，强形变收缩",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-projective-space",
+    "english": "real projective space",
+    "chinese": "实射影空间",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a nonnegative integer n, the space of one-dimensional real linear subspaces of real (n+1)-space, topologized as the quotient of nonzero vectors by multiplication by nonzero real scalars.",
+    "definitionZh": "对非负整数 $n$，实 $(n+1)$ 维空间中一维线性子空间所成的空间；用非零向量在非零实数倍关系下的商拓扑。",
+    "example": "The points $[1:2:3]$ and $[-2:-4:-6]$ in $\\mathbb{RP}^2$ coincide. Equivalently, $\\mathbb{RP}^2$ is the quotient of $S^2$ identifying antipodal points.",
+    "distinction": "The dimension is n despite using n+1 homogeneous coordinates. This is a topological quotient over the reals, distinct from a complex projective space or an algebraic scheme construction.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Cell Complexes, Example 0.4, printed p. 6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第7周10月26日，主要概念：实射影空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "euler-characteristic",
+    "english": "Euler characteristic of a finite CW complex",
+    "chinese": "Euler 数",
+    "aliases": [
+      "Euler示性数"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a finite CW complex, the integer obtained by summing the number of cells in each dimension with alternating signs, starting positive in dimension zero; it is independent of the chosen finite cell structure.",
+    "definitionZh": "对有限 CW 复形，以零维为正号，按维数交错求和各维胞腔数所得的整数；它不依赖所选的有限胞腔结构。",
+    "example": "The torus has one zero-cell, two one-cells and one two-cell, so $\\chi(T^2)=1-2+1=0$. A sphere has one zero-cell and one two-cell, giving $2$.",
+    "distinction": "This is an integer invariant, not the Euler cohomology class of a vector bundle. An infinite alternating cell count is not automatically defined; the finite hypothesis is essential here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0, Cell Complexes, Euler-characteristic definition; §2.2, Euler Characteristic, Theorem 2.44, printed p. 146",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第9周11月9日：Euler 数与定向；主要概念：闭曲面的 Euler 数",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00137914，第15–16周：Euler示性数；PDF p. 78, printed p. 75",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "orientable-surface-genus",
+    "english": "genus of a closed orientable surface",
+    "chinese": "亏格",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "point-set-topology",
+    "level": "Undergraduate",
+    "definitionEn": "For a connected closed orientable surface, the nonnegative integer g determined by its Euler characteristic through chi=2-2g; equivalently, the number of torus summands in its classification, with the sphere having genus zero.",
+    "definitionZh": "对连通闭可定向曲面，由 Euler 数 $\\chi=2-2g$ 确定的非负整数 $g$；等价地，它是分类中环面连通和项的个数，球面的亏格为零。",
+    "example": "A connected sum of two tori has $\\chi=-2$, so $g=(2-(-2))/2=2$. The sphere has $\\chi=2$ and genus zero.",
+    "distinction": "The scope is closed orientable connected surfaces. Nonorientable genus counts crosscaps and obeys a different Euler formula; algebraic-curve genus is not defined by this unqualified surface formula.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+        "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+        "locator": "§4.2, Definition 4.2.39 and Remark 4.2.40",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§2.2, Example 2.36, closed orientable surfaces and their cellular homology",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第8周10月31日，主要概念：曲面的可定向性及亏格；第9周11月9日，常用结论：gT² 的 Euler 数为 2-2g",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "regular-covering-space",
+    "english": "regular covering space",
+    "chinese": "正则复迭空间",
+    "aliases": [
+      "normal covering space"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "definitionEn": "A covering map for which the deck-transformation group acts transitively on each fiber, so any two points over the same base point are related by a deck transformation.",
+    "definitionZh": "复迭映射的每根纤维上，复迭变换群的作用均为传递的，即同一底点上方任意两点可由某个复迭变换相连。",
+    "example": "For $p:S^1\\to S^1$, $p(z)=z^n$ with $n\\geq1$, multiplication by the nth roots of unity gives deck transformations acting transitively on each fiber.",
+    "distinction": "Regularity concerns covering symmetries, not regular topological separation. For path connected coverings over path connected locally path connected bases, it is equivalent to normality of the associated fundamental-group subgroup.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Allen Hatcher — Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "§1.3, Deck Transformations and Group Actions, normal/regular covering definition and Proposition 1.39, printed pp. 70–71",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Bao Zhiqiang — Peking University topology syllabus",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第15周12月19日，主要概念及特别关注：正则复迭空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

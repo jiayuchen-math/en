@@ -1,0 +1,3014 @@
+[
+  {
+    "id": "continuous-function",
+    "english": "continuous function",
+    "chinese": "连续函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A map between metric spaces is continuous if, at every domain point, every positive output tolerance is met by some positive input tolerance.",
+    "definitionZh": "度量空间之间的映射，若在定义域每一点，对任意正的输出误差都能选取正的输入误差使条件成立，则称为连续函数。",
+    "example": "$f(x)=x^2$ is continuous on $\\mathbb R$.",
+    "distinction": "The tolerance may depend on the point; uniform continuity removes that dependence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, continuity definition and Proposition 3.1.1",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§2.1, Definition 2.1.9 (continuity by open preimages), together with §3.1, Example 3.1.34 (metric topology by open balls)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第四章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/17/d1/b3a73286480996cd092544a85f3a/306e83f7-607f-4784-bf4a-730f33e7c82b.pdf",
+        "locator": "§1 一、函数在一点的连续性; 三、区间上的连续函数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-derivative",
+    "english": "derivative of a real function",
+    "chinese": "导数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For a real function defined near a, its derivative at a is the finite limit of (f(a+h)-f(a))/h as nonzero h tends to zero.",
+    "definitionZh": "实函数在点 a 附近有定义，若增量商 (f(a+h)-f(a))/h 在 h 趋于零时有有限极限，该极限就是 a 处的导数。",
+    "example": "For $f(x)=x^3$, $f'(2)=12$.",
+    "distinction": "A two-sided derivative requires agreement of the left and right limits.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§4.1, equations (4.1.1)–(4.1.3)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第五章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/ba/ce/714b8685444fb71326b96df342df/c15ac39b-5ef7-40a8-b275-a29fd48147c3.pdf",
+        "locator": "§1 导数的概念",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-sequence-limit",
+    "english": "limit of a real sequence",
+    "chinese": "数列极限",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A real sequence has limit a if, for every positive epsilon, all terms beyond some index lie within epsilon of a.",
+    "definitionZh": "实数列以 a 为极限，是指任给正误差，存在一个指标，使其后所有项与 a 的距离都小于该误差。",
+    "example": "$a_n=2+1/n$ tends to $2$.",
+    "distinction": "A finite limit differs from divergence to positive infinity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§1.5 Sequences",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第二章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/2a/f0/510095c94679a3701d4bc32aea4c/f3e5ec79-cc31-4223-9834-e8f9d0e25a1b.pdf",
+        "locator": "§1 数列极限的概念, 定义1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-sequence-subsequence",
+    "english": "subsequence of a real sequence",
+    "chinese": "子列",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A subsequence of (a_n) is (a_{n_k}) where the positive integer indices n_k increase strictly.",
+    "definitionZh": "从实数列按严格递增的正整数指标抽取各项所组成的数列称为子列，原有次序必须保留。",
+    "example": "The even-index subsequence of $(-1)^n$ is constantly $1$.",
+    "distinction": "Reordering terms arbitrarily does not define a subsequence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§1.5 Sequences, subsequences",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第二章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/2a/f0/510095c94679a3701d4bc32aea4c/f3e5ec79-cc31-4223-9834-e8f9d0e25a1b.pdf",
+        "locator": "§2, 子列定义1, printed p.14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "removable-real-discontinuity",
+    "english": "removable discontinuity",
+    "chinese": "可去间断点",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "At an accumulation point a of a real domain, a finite punctured limit exists but the function is absent or has a different value at a.",
+    "definitionZh": "在实定义域的聚点 a，函数的去心极限存在且有限，但 a 处未定义或函数值不等于该极限时，称 a 为可去间断点。",
+    "example": "$f(x)=\\sin(x)/x$ for $x\\ne0$ extends continuously with $f(0)=1$.",
+    "distinction": "A jump has unequal one-sided limits and cannot be repaired at one point.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, continuity criterion",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "OpenStax — Calculus Volume 1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity",
+        "locator": "§2.4, Types of Discontinuities, Definition item 1 (removable discontinuity)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第四章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/17/d1/b3a73286480996cd092544a85f3a/306e83f7-607f-4784-bf4a-730f33e7c82b.pdf",
+        "locator": "§1 二、间断点的分类, 1 可去间断点",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "jump-real-discontinuity",
+    "english": "jump discontinuity",
+    "chinese": "跳跃间断点",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A real function has a jump at a when both finite one-sided limits exist and are unequal.",
+    "definitionZh": "实函数在 a 处左右极限都存在且有限、但不相等，则 a 为跳跃间断点。",
+    "example": "$\\mathbf1_{[0,\\infty)}$ jumps from $0$ to $1$ at $0$.",
+    "distinction": "Changing the value at a cannot make unequal side limits agree.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, continuity and limits",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "OpenStax — Calculus Volume 1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity",
+        "locator": "§2.4, Types of Discontinuities, Definition item 2 (jump discontinuity)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第四章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/17/d1/b3a73286480996cd092544a85f3a/306e83f7-607f-4784-bf4a-730f33e7c82b.pdf",
+        "locator": "§1 二、间断点的分类, 2 跳跃间断点",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "right-continuous-real-function",
+    "english": "right-continuous real function",
+    "chinese": "右连续函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A real function is right-continuous at a if its limit along domain points decreasing to a equals f(a).",
+    "definitionZh": "实函数在 a 处的右极限等于 f(a)，则称其在该点右连续。",
+    "example": "$\\mathbf1_{[0,\\infty)}$ is right-continuous at $0$.",
+    "distinction": "Right continuity alone says nothing about the left limit.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, relative-domain continuity",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "OpenStax — Calculus Volume 1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity",
+        "locator": "§2.4, Continuity from the Right and from the Left, right-continuity definition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第四章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/17/d1/b3a73286480996cd092544a85f3a/306e83f7-607f-4784-bf4a-730f33e7c82b.pdf",
+        "locator": "§1 一、函数在一点的连续性, 定义2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "left-continuous-real-function",
+    "english": "left-continuous real function",
+    "chinese": "左连续函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A real function is left-continuous at a if its limit along domain points increasing to a equals f(a).",
+    "definitionZh": "实函数在 a 处的左极限等于 f(a)，则称其在该点左连续。",
+    "example": "$\\mathbf1_{(0,\\infty)}$ is left-continuous at $0$.",
+    "distinction": "At an interval endpoint only the side belonging to the domain is tested.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, relative-domain continuity",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "OpenStax — Calculus Volume 1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/2-4-continuity",
+        "locator": "§2.4, Continuity from the Right and from the Left, left-continuity definition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第四章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/17/d1/b3a73286480996cd092544a85f3a/306e83f7-607f-4784-bf4a-730f33e7c82b.pdf",
+        "locator": "§1 一、函数在一点的连续性, 定义2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-function-differential",
+    "english": "differential of a real function",
+    "chinese": "微分",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For a function differentiable at a, its differential is the linear map h mapped to f'(a)h in f(a+h)=f(a)+f'(a)h+o(|h|).",
+    "definitionZh": "实函数在 a 处可微时，展开式中把增量 h 映为 f'(a)h 的线性映射称为微分，其余项相对于 |h| 趋于零。",
+    "example": "For $f(x)=x^2$ at $a=3$, $df_3(h)=6h$.",
+    "distinction": "The differential is the linear approximation, not the exact finite increment.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§4.1, equation (4.1.3)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第五章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/ba/ce/714b8685444fb71326b96df342df/c15ac39b-5ef7-40a8-b275-a29fd48147c3.pdf",
+        "locator": "§5 一、微分的概念, 定义1 and 定理1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "second-real-derivative",
+    "english": "second derivative",
+    "chinese": "二阶导数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "If f is differentiable near a and f' is differentiable at a, the second derivative f''(a) is the derivative of f' there.",
+    "definitionZh": "若 f 在 a 附近可导且其导函数 f' 在 a 处可导，则 f' 在该点的导数称为 f 的二阶导数。",
+    "example": "For $f(x)=x^3$, $f''(2)=12$.",
+    "distinction": "Two derivatives need not imply a continuous second derivative.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§4.1, equation (4.1.43)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国矿业大学数学学院 — 数学分析讲义，第五章",
+        "url": "https://math.cumt.edu.cn/_upload/article/files/ba/ce/714b8685444fb71326b96df342df/c15ac39b-5ef7-40a8-b275-a29fd48147c3.pdf",
+        "locator": "§4 高阶导数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "uniform-continuity",
+    "english": "uniform continuity",
+    "chinese": "一致连续",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A map f between metric spaces is uniformly continuous if for every epsilon > 0 there is delta > 0 such that d(x,y) < delta implies d(f(x),f(y)) < epsilon for every pair of domain points.",
+    "definitionZh": "度量空间间的映射若对每个正误差都可选取一个适用于定义域所有点对的正距离阈值，则称为一致连续。",
+    "example": "$f(x)=3x$ on $\\mathbb R$ works with $\\delta=\\varepsilon/3$.",
+    "distinction": "The input threshold is independent of the base point; ordinary continuity allows that dependence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, equations (3.1.10)–(3.1.12)",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.2, Definition 3.2.4 (uniform continuity between metric spaces), printed p.26",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第一部分 一元微积分学，三、函数的极限与连续性：一致连续函数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "uniform-convergence",
+    "english": "uniform convergence",
+    "chinese": "一致收敛",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A sequence of real functions f_n on a common set E converges uniformly to f if for every epsilon > 0 some N makes |f_n(x)-f(x)| < epsilon for all n >= N and all x in E.",
+    "definitionZh": "同一定义域上的实函数列若对每个正误差都有统一指标，使以后所有函数在每一点的误差均小于该值，则一致收敛。",
+    "example": "$f_n(x)=x/n$ on $[0,2]$ has supremum error $2/n\\to0$.",
+    "distinction": "A pointwise convergence index may depend on x; a uniform index must work over the whole stated domain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.1, Definition 3.1.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.5 可测函数极限，一致收敛",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "pointwise-convergence",
+    "english": "pointwise convergence",
+    "chinese": "点点收敛",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A sequence of real functions f_n on E converges pointwise to f if for each fixed x in E the scalar sequence f_n(x) converges to f(x).",
+    "definitionZh": "实函数列在集合 E 上点点收敛，是指固定任一点 x 后，数列 f_n(x) 收敛于 f(x)；所需指标可以随 x 改变。",
+    "example": "$x^n$ on $[0,1)$ tends pointwise to zero, although its supremum is always $1$.",
+    "distinction": "Pointwise convergence need not preserve continuity or imply uniform convergence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.1, Definition 3.1.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.5 可测函数极限，点点收敛",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cauchy-sequence",
+    "english": "Cauchy sequence",
+    "chinese": "基本列",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A sequence x_n in a metric space is Cauchy if for every epsilon > 0 some N makes d(x_m,x_n) < epsilon whenever m,n >= N.",
+    "definitionZh": "度量空间中的点列若任给正误差，充分靠后的任意两项距离都小于该误差，则称为基本列。",
+    "example": "$x_n=1/n$ satisfies $|x_m-x_n|\\le1/N$ for $m,n\\ge N$.",
+    "distinction": "The condition compares terms to one another, and supplies a limit in the space only when the space is complete.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§2.2, equation (2.2.3), printed p.74",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.12.1 定义，基本列与完备距离空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-supremum",
+    "english": "supremum of a real set",
+    "chinese": "上确界",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For a nonempty real set A bounded above, its supremum is the least real upper bound: it bounds every member of A and is no larger than any other upper bound.",
+    "definitionZh": "非空且有上界的实数集，其上确界是所有上界中最小的实数；集合无有限上界时，可在扩展实数中记为正无穷。",
+    "example": "$A=(0,4)$ has $\\sup A=4$, even though $4\\notin A$.",
+    "distinction": "A maximum must belong to the set; a supremum need not be attained.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§1.6, supremum construction around equation (1.6.35)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.1 集合运算，上确界段落",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-infimum",
+    "english": "infimum of a real set",
+    "chinese": "下确界",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For a nonempty real set A bounded below, its infimum is the greatest real lower bound: it is no larger than any member of A and dominates every other lower bound.",
+    "definitionZh": "非空且有下界的实数集，其下确界是所有下界中最大的实数；集合无有限下界时，可在扩展实数中记为负无穷。",
+    "example": "$\\inf\\{1+1/n:n\\ge1\\}=1$, which is not a member.",
+    "distinction": "The infimum concerns all lower bounds, whereas a minimum is an attained least member.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§1.6, infimum definition around equation (1.6.48)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.1 集合运算，上确界段落末句“类似定义下确界”",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-sequence-limsup",
+    "english": "limit superior of a real sequence",
+    "chinese": "数列上极限",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "The limit superior of a real sequence a_n is the extended-real limit of the decreasing tail suprema sup_{k>=n} a_k.",
+    "definitionZh": "实数列的上极限是其各尾部上确界构成的单调递减列的扩展实数极限，也可等于正无穷或负无穷。",
+    "example": "For $a_n=(-1)^n+1/n$, $\\limsup a_n=1$ and $\\liminf a_n=-1$.",
+    "distinction": "It records the eventual upper envelope; it is not the supremum of all terms, which includes early outliers.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, equation (3.1.8)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.1 集合运算，数列上极限公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-sequence-liminf",
+    "english": "limit inferior of a real sequence",
+    "chinese": "数列下极限",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "The limit inferior of a real sequence a_n is the extended-real limit of the increasing tail infima inf_{k>=n} a_k.",
+    "definitionZh": "实数列的下极限是其各尾部下确界构成的单调递增列的扩展实数极限，刻画最终的下方包络。",
+    "example": "For $a_n=2+(-1)^n$, the lower limit is $1$ and the upper limit is $3$.",
+    "distinction": "A finite ordinary limit exists exactly when the lower and upper limits coincide at a finite value.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.1, equation (3.1.9)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.1 集合运算，数列上极限公式后“类似定义下极限”",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "absolute-series-convergence",
+    "english": "absolute convergence of a numerical series",
+    "chinese": "绝对收敛",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A real or complex numerical series sum a_n is absolutely convergent when the nonnegative series sum |a_n| has a finite sum.",
+    "definitionZh": "实数或复数项级数若各项绝对值组成的非负级数之和有限，则原级数绝对收敛。",
+    "example": "$\\sum_{n=1}^\\infty(-1)^n/3^n$ converges absolutely because $\\sum 3^{-n}=1/2$.",
+    "distinction": "Conditional convergence means convergence of the original series without convergence of its absolute-value series.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§1.6, equation (1.6.40) and definition after Proposition 1.6.13",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：一、数项级数，条件收敛与绝对收敛性",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "convergent-power-series",
+    "english": "power series in analysis",
+    "chinese": "幂级数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A power series centered at a is a series sum_{n>=0} c_n(z-a)^n with real or complex coefficients, studied as a function on the points where its partial sums converge.",
+    "definitionZh": "分析中的幂级数由以同一中心为基点的非负整数次幂组成，在部分和收敛的点集上定义一个函数。",
+    "example": "$\\sum_{n=0}^\\infty (x/3)^n=1/(1-x/3)$ for $|x|<3$.",
+    "distinction": "An analytic power series has a convergence domain; a formal power series in algebra is defined without numerical convergence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§3.3, equations (3.3.1)–(3.3.5) and Proposition 3.3.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：三、幂级数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fundamental-theorem-calculus",
+    "english": "fundamental theorem of calculus",
+    "chinese": "微积分基本定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For continuous real f on [a,b], the function G(x)=integral_a^x f(t) dt has derivative f(x) in (a,b); if F is any antiderivative of f on that interval, continuous at the endpoints, then integral_a^b f=F(b)-F(a).",
+    "definitionZh": "实函数 f 在闭区间连续时，其变上限积分在内部的导数等于 f；若 F 是 f 的原函数且在端点连续，则定积分等于端点处 F 的差。",
+    "example": "For $f(t)=2t+1$, $G(x)=x^2+x$ on $[0,2]$, so $\\int_0^2f=6$.",
+    "distinction": "The continuous-integrand version gives differentiation at every interior point; a general Lebesgue integrand yields an almost-everywhere statement.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§4.2, Theorems 4.2.6–4.2.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第一部分 一元微积分学，七、定积分：定积分概念与微积分基本定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "riemann-integral",
+    "english": "Riemann integral",
+    "chinese": "黎曼积分",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For a bounded real function on [a,b], the Riemann integral is the common value of the supremum of its lower partition sums and the infimum of its upper partition sums, when those values agree.",
+    "definitionZh": "闭区间上的有界实函数，若所有分割的下和之上确界与上和之下确界相等，此共同值称为黎曼积分。",
+    "example": "For $f(x)=x$ on $[0,1]$, n equal subintervals give lower and upper sums $(n-1)/(2n)$ and $(n+1)/(2n)$, hence integral $1/2$.",
+    "distinction": "On $[0,1]$, the rational indicator is Lebesgue integrable but its Riemann lower and upper integrals are $0$ and $1$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§4.2, equations (4.2.1)–(4.2.7)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.6 勒贝格积分，与黎曼积分的关系",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-antiderivative",
+    "english": "antiderivative of a real function",
+    "chinese": "原函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "An antiderivative of f on an open real interval I is a differentiable function F on I with F'(x)=f(x) at every point of I.",
+    "definitionZh": "实函数 f 在开区间上的原函数，是在该区间可导并且导数处处等于 f 的函数 F。",
+    "example": "$F(x)=x^3/3+7$ is an antiderivative of $x^2$.",
+    "distinction": "On an interval, two antiderivatives differ by one constant; on a disconnected domain the constants may differ between components.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "OpenStax — Calculus Volume 1",
+        "url": "https://openstax.org/books/calculus-volume-1/pages/4-10-antiderivatives",
+        "locator": "§4.10, The Reverse of Differentiation, Definition and Theorem 4.14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第一部分 一元微积分学，六、不定积分：原函数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "real-mean-value-theorem",
+    "english": "mean value theorem for real functions",
+    "chinese": "微分中值定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "If a real function f is continuous on [a,b], differentiable on (a,b), and a<b, some c in (a,b) satisfies f'(c)=(f(b)-f(a))/(b-a).",
+    "definitionZh": "实函数在非退化闭区间连续且在内部可导，则内部有一点的导数等于两端点函数值之差除以区间长度。",
+    "example": "For $f(x)=x^2$ on $[1,3]$, the secant slope is $4$ and $f'(2)=4$.",
+    "distinction": "The real scalar conclusion does not automatically extend to a vector-valued function with a single common c.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in One Variable",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/anal1v.pdf",
+        "locator": "§4.1, Theorem 4.1.2 and equation (4.1.15)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第一部分 一元微积分学，五、导数的应用：微分中值定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "taylor-formula",
+    "english": "Taylor formula with integral remainder",
+    "chinese": "Taylor公式",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For an integer m>=0 and a real C^{m+1} function on an interval containing a and x, Taylor's formula writes f(x)=sum_{k=0}^m f^{(k)}(a)(x-a)^k/k! + (1/m!) integral_a^x (x-t)^m f^{(m+1)}(t) dt.",
+    "definitionZh": "实函数在包含 a 和 x 的区间上具有连续的 m+1 阶导数时，可表示为 a 处直到 m 阶的 Taylor 多项式加上由 m+1 阶导数积分构成的余项。",
+    "example": "For $f(x)=e^x$ at $a=0$, $e^x=1+x+x^2/2+R_2(x)$, where $|R_2(x)|\\le e^{|x|}|x|^3/6$.",
+    "distinction": "This is a finite expansion with a controlled remainder; smoothness alone does not guarantee equality with an infinite Taylor series.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in Several Variables (Advanced Calculus)",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/analmv.pdf",
+        "locator": "§2.1, equations (2.1.39)–(2.1.40), printed p.46",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第一部分 一元微积分学，五、导数的应用：Taylor公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "partial-derivative",
+    "english": "partial derivative",
+    "chinese": "偏导数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For f on an open subset of R^n, its jth partial derivative at a is the finite limit [f(a+h e_j)-f(a)]/h as nonzero h tends to zero, when that limit exists.",
+    "definitionZh": "定义在欧氏空间开集上的函数，固定其他坐标，仅沿第 j 个坐标方向的增量商若有有限极限，该极限为相应偏导数。",
+    "example": "For $f(x,y)=x^2y$, $\\partial_xf(2,3)=2\\cdot2\\cdot3=12$.",
+    "distinction": "Existence of every partial derivative at one point does not by itself imply total differentiability there.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in Several Variables (Advanced Calculus)",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/analmv.pdf",
+        "locator": "§1.1, equation (1.1.38), printed p.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第二部分，多元微积分：二、多元函数微分学，偏导数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "directional-derivative",
+    "english": "directional derivative",
+    "chinese": "方向导数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For f on an open subset of R^n and a specified unit vector v, the directional derivative at a is the finite two-sided limit [f(a+tv)-f(a)]/t as t tends to zero, when it exists.",
+    "definitionZh": "沿指定单位向量 v，函数的增量商在参数双侧趋于零时若有有限极限，则该极限为此方向的方向导数。",
+    "example": "For $f(x,y)=x^2+y^2$ at $(1,2)$ and $v=(3/5,4/5)$, $D_vf=2(3/5)+4(4/5)=22/5$.",
+    "distinction": "Unit directions measure change per unit distance; allowing arbitrary vectors scales the parameter derivative by their lengths.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "OpenStax — Calculus Volume 3",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/4-6-directional-derivatives-and-the-gradient",
+        "locator": "§4.6, Directional Derivatives, Definition (4.36); three-dimensional Definition (4.41)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第二部分，多元微积分：二、多元函数微分学，方向导数与梯度",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "gradient-real-function",
+    "english": "gradient of a real function",
+    "chinese": "梯度",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For a differentiable real scalar function f on an open subset of Euclidean R^n, its gradient at a is the vector of its coordinate partial derivatives, satisfying Df(a)h=gradient f(a) dot h.",
+    "definitionZh": "可微实值函数在欧氏空间中的梯度，是由各坐标偏导数组成的向量；与增量向量作内积可得全微分。",
+    "example": "For $f(x,y)=xy+x^2$, $\\nabla f(2,3)=(7,2)$.",
+    "distinction": "The gradient uses an inner product to represent the derivative; a derivative as a linear functional does not need an inner product.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in Several Variables (Advanced Calculus)",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/analmv.pdf",
+        "locator": "§3.2, equation (3.2.85) and following gradient definition",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "OpenStax — Calculus Volume 3",
+        "url": "https://openstax.org/books/calculus-volume-3/pages/4-6-directional-derivatives-and-the-gradient",
+        "locator": "§4.6, Gradient, Definition (4.39) and Theorem 4.12",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第二部分，多元微积分：二、多元函数微分学，方向导数与梯度",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "total-differential",
+    "english": "total differential",
+    "chinese": "全微分",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "For f from an open subset of R^n to R^m, the total differential at a is the linear map A for which f(a+h)-f(a)-Ah=o(|h|), if such A exists.",
+    "definitionZh": "欧氏空间开集上的映射若在 a 处的增量可写为某个线性映射作用于 h 加上相对于 |h| 的高阶小量，该线性映射称为全微分。",
+    "example": "For $f(x,y)=xy$ at $(2,3)$, $df(h,k)=3h+2k$ and the omitted increment is $hk=o(\\sqrt{h^2+k^2})$.",
+    "distinction": "Partial derivatives test coordinate lines; the remainder condition must hold along every direction simultaneously.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in Several Variables (Advanced Calculus)",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/analmv.pdf",
+        "locator": "§2.1, equations (2.1.1)–(2.1.4), printed pp.41–42",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第二部分，多元微积分：二、多元函数微分学，全微分",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "implicit-function-theorem",
+    "english": "implicit function theorem",
+    "chinese": "隐函数定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "calculus",
+    "level": "Undergraduate",
+    "definitionEn": "If F is a C^1 map near (a,b) in R^n times R^m, F(a,b)=0, and its derivative with respect to the second variable is invertible there, then nearby solutions F(x,y)=0 uniquely have y=g(x) for a C^1 map g with g(a)=b.",
+    "definitionZh": "C^1 映射 F 在 (a,b) 为零，且关于第二组变量的导数可逆时，附近的零点唯一写为 y=g(x)，其中 g 是 C^1 映射并满足 g(a)=b。",
+    "example": "For $F(x,y)=y^3+x-8$ at $(0,2)$, $F_y=12$, and the local branch is $y=(8-x)^{1/3}$ with $g'(0)=-1/12$.",
+    "distinction": "The C^1 conclusion is local and depends on an invertible partial derivative; at (8,0) in this example, F_y=0 and the branch y=(8-x)^{1/3} is not differentiable.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Analysis in Several Variables (Advanced Calculus)",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/analmv.pdf",
+        "locator": "§2.2, Theorem 2.2.5 and equations (2.2.38)–(2.2.45)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第二部分，多元微积分：三、隐函数定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lebesgue-measure",
+    "english": "Lebesgue measure",
+    "chinese": "勒贝格测度",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "Lebesgue measure on R^n is the complete measure obtained by restricting the countable rectangular-cover outer measure to the sets satisfying the Carathéodory splitting criterion.",
+    "definitionZh": "欧氏空间上的勒贝格测度，是把可数矩形覆盖定义的外测度限制在满足卡拉泰奥多里分割条件的集合上所得的完备测度。",
+    "example": "The rectangle $[1,3]\\times[0,4]$ has measure $(3-1)(4-0)=8$.",
+    "distinction": "Outer measure is defined for every subset; Lebesgue measure is defined on the Lebesgue sigma-algebra.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§2.3, Definitions 2.8 and 2.10, Theorem 2.9, printed pp.14–17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，可测集及 m(E)=m*(E)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lebesgue-integral",
+    "english": "Lebesgue integral",
+    "chinese": "勒贝格积分",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For nonnegative measurable f on a measure space, its Lebesgue integral is the supremum of integrals of nonnegative simple functions below f. For signed f, subtract the negative-part integral from the positive-part integral when they are not both infinite.",
+    "definitionZh": "测度空间上非负可测函数的勒贝格积分，是其下方非负简单函数积分的上确界；一般实值函数按正负部分相减定义，但不允许两个无穷积分相减。",
+    "example": "On $[0,2]$, $\\int\\mathbf1_{\\mathbb Q}=0$ since the rational set has measure zero.",
+    "distinction": "Having a defined extended integral differs from being integrable, which requires a finite integral of the absolute value.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§§4.1–4.3, Definitions 4.1, 4.4, 4.8",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.6 勒贝格积分，简单函数积分与一般函数积分",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lebesgue-outer-measure",
+    "english": "Lebesgue outer measure",
+    "chinese": "外测度",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The Lebesgue outer measure of any E in R^n is the infimum of sums of rectangular volumes over all countable rectangle families covering E.",
+    "definitionZh": "欧氏空间任意子集的勒贝格外测度，是所有覆盖该集合的可数矩形族的体积和之下确界。",
+    "example": "For a countable set $\\{x_k\\}$, coverings with total volume below any $\\varepsilon>0$ give outer measure zero.",
+    "distinction": "An outer measure is countably subadditive; countable additivity is guaranteed only after restricting to its measurable sets.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§2.1, Definition 2.2 and Theorem 2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，外测度覆盖公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lebesgue-measurable-set",
+    "english": "Lebesgue measurable set",
+    "chinese": "勒贝格可测集",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A subset E of R^n is Lebesgue measurable if m*(A)=m*(A intersect E)+m*(A minus E) for every subset A of R^n, where m* is Lebesgue outer measure.",
+    "definitionZh": "若任意测试集合 A 的外测度都等于它在 E 内外两部分的外测度之和，则 E 为勒贝格可测集。",
+    "example": "$[0,1]$ and every subset of a Lebesgue null set are Lebesgue measurable.",
+    "distinction": "Lebesgue measurable does not mean Borel: completing Borel measure adds subsets of null sets.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§2.3, Definition 2.10, printed p.17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，勒贝格可测条件",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "measurable-real-function",
+    "english": "measurable real function",
+    "chinese": "可测函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A real function f on a measurable space (X,A) is measurable when the inverse image of every Borel subset of R belongs to A; equivalently each set {x:f(x)>t} is measurable.",
+    "definitionZh": "可测空间上的实函数，若每个实数阈值 t 对应的上水平集 {x:f(x)>t} 都可测，则称为可测函数，等价于所有 Borel 集的原像可测。",
+    "example": "$\\mathbf1_{[0,1]}$ on $\\mathbb R$ is measurable despite its endpoint discontinuities.",
+    "distinction": "Measurability depends on specified sigma-algebras and does not require continuity or even a measure value.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§§3.1–3.2, Definitions 3.1, 3.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.4 勒贝格可测函数，可测函数定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "measurable-simple-function",
+    "english": "simple measurable function",
+    "chinese": "简单函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A simple function on a measurable space is a real measurable function taking finitely many values, equivalently a finite linear combination of indicators of measurable sets.",
+    "definitionZh": "可测空间上只取有限多个实值的可测函数称为简单函数，也可写成有限个可测集指示函数的线性组合。",
+    "example": "$2\\mathbf1_{[0,1]}-3\\mathbf1_{(1,2]}$ is simple and has integral $2-3=-1$.",
+    "distinction": "Simple functions may be constant on irregular measurable sets; step functions usually use interval or rectangle pieces.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§3.4, Definition 3.11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.4 勒贝格可测函数，简单函数与阶梯函数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "measure-space",
+    "english": "measure space",
+    "chinese": "测度空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A measure space (X,A,mu) consists of a set X, a sigma-algebra A of its subsets, and a nonnegative extended-real function mu on A with mu(empty)=0 and countable additivity on disjoint measurable sets.",
+    "definitionZh": "集合、其上的 σ 代数以及在该 σ 代数上非负、空集值为零且可列可加的测度，三者组成测度空间。",
+    "example": "$([0,3],\\mathcal L,m)$ with restricted Lebesgue measure has total mass $3$.",
+    "distinction": "A measurable space has only a set and sigma-algebra; a probability space additionally has total measure one.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§1.6, Definition 1.9 and measure-space paragraph",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，测度与测度空间段落",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sigma-finite-measure",
+    "english": "sigma-finite measure",
+    "chinese": "σ有限测度",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A measure mu on X is sigma-finite if X is the union of countably many measurable sets each having finite measure.",
+    "definitionZh": "若整个测度空间能由可数多个测度有限的可测集覆盖，则该测度是 σ 有限测度。",
+    "example": "Lebesgue measure on $\\mathbb R$ is sigma-finite because $\\mathbb R=\\bigcup_{n\\ge1}[-n,n]$, but its total mass is infinite.",
+    "distinction": "Finite measure implies sigma-finiteness; counting measure on an uncountable set is not sigma-finite.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§1.6, paragraph after Definition 1.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，有限测度与σ有限测度",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "measure-null-set",
+    "english": "null set",
+    "chinese": "零测集",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A null set for a specified measure mu is a measurable set N with mu(N)=0.",
+    "definitionZh": "相对于指定测度，测度值为零的可测集称为零测集；零测集未必是空集。",
+    "example": "$\\mathbb Q\\cap[0,1]$ is a Lebesgue null set although it is dense in $[0,1]$.",
+    "distinction": "A subset of a null set need not be measurable unless the measure space is complete.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§1.7, opening null-set paragraph",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，零测集段落",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complete-measure-space",
+    "english": "complete measure space",
+    "chinese": "完备测度空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A measure space is complete if every subset of each measurable null set is measurable.",
+    "definitionZh": "测度空间若每个可测零测集的任意子集也可测，则称为完备测度空间。",
+    "example": "Lebesgue measure on its full Lebesgue sigma-algebra is complete; restriction to the Borel sigma-algebra is not.",
+    "distinction": "Measure completeness concerns null subsets; metric completeness concerns Cauchy limits and is a different property.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§1.7, Definition 1.14 and Theorem 1.15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，零测集子集与完备性",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "monotone-convergence-theorem",
+    "english": "monotone convergence theorem",
+    "chinese": "非负单调收敛定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "If measurable functions 0<=f_n increase pointwise to f on a measure space, then their integrals increase to the integral of f, allowing the value infinity.",
+    "definitionZh": "测度空间上的非负可测函数列逐点单调递增于 f 时，各函数积分的极限等于 f 的积分，允许为正无穷。",
+    "example": "On $[0,1]$, $f_n(x)=\\min(nx,1)$ increases to $1$ except at zero, and $\\int f_n=1-1/(2n)\\to1$.",
+    "distinction": "No single integrable dominating function is required; nonnegativity and monotonicity replace that hypothesis.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§4.2, Theorem 4.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.7 极限与积分的交换，非负单调收敛定理（Levi定理）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dominated-convergence-theorem",
+    "english": "dominated convergence theorem",
+    "chinese": "控制收敛定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "If measurable f_n converge almost everywhere to a measurable f and |f_n|<=g almost everywhere for one nonnegative integrable g, then f is integrable and the integrals of f_n converge to that of f.",
+    "definitionZh": "可测函数列几乎处处收敛于可测函数 f，且绝对值由同一个非负可积函数控制时，f 可积并可交换极限与积分。",
+    "example": "On $[0,1]$, $f_n(x)=x^n$ is bounded by $1$ and tends to $0$ almost everywhere; $\\int f_n=1/(n+1)\\to0$.",
+    "distinction": "Pointwise convergence alone is insufficient: n squared times the indicator of (0,1/n squared) tends to zero but has integral one.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§4.5, Theorem 4.24; §4.6, a.e. version",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.7 极限与积分的交换，控制收敛定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fatou-lemma",
+    "english": "Fatou's lemma",
+    "chinese": "Fatou引理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For a sequence of nonnegative measurable functions on a measure space, the integral of the pointwise lower limit is at most the lower limit of their integrals.",
+    "definitionZh": "测度空间上的非负可测函数列，其逐点下极限的积分不大于各积分的下极限，二者可以为无穷。",
+    "example": "For $f_n=n^2\\mathbf1_{(0,1/n^2)}$, $\\int\\liminf f_n=0<1=\\liminf\\int f_n$.",
+    "distinction": "The inequality may be strict and requires nonnegativity, or an appropriate common integrable lower bound after reduction.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§4.5, Theorem 4.22 and equation (4.7)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.7 极限与积分的交换，Fatou引理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fubini-theorem",
+    "english": "Fubini's theorem",
+    "chinese": "Fubini定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For sigma-finite measure spaces X and Y, an integrable real or complex function on their product has integrable sections almost everywhere, and its product integral equals either iterated integral.",
+    "definitionZh": "两个 σ 有限测度空间上的乘积可积函数，其截面几乎处处可积，而且重积分等于任一顺序的累次积分。",
+    "example": "On $[0,1]^2$, $\\int\\!\\int xy\\,dx\\,dy=(1/2)(1/2)=1/4$.",
+    "distinction": "Fubini uses absolute integrability for signed functions; Tonelli permits a nonnegative integrand with an infinite integral.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§5.6, Theorem 5.18",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.8 重积分与累次积分，Fubini定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "almost-everywhere",
+    "english": "almost everywhere",
+    "chinese": "几乎处处",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A property holds mu-almost everywhere on X when there is a measurable null set N such that the property holds at every point of X minus N.",
+    "definitionZh": "若存在一个可测零测集，使某性质在该集之外每一点都成立，则称该性质相对于指定测度几乎处处成立。",
+    "example": "The rational indicator on $[0,1]$ equals zero Lebesgue almost everywhere, but not at every point.",
+    "distinction": "The exceptional set may be dense and infinite; almost everywhere does not mean everywhere except finitely many points.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§1.7, almost-everywhere paragraph; §3.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.3 勒贝格测度，几乎处处成立段落",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "holomorphic-function",
+    "english": "holomorphic function",
+    "chinese": "全纯函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A complex-valued function on an open subset of C is holomorphic when its complex difference quotient has a finite limit at every point, with the increment approaching zero through all complex directions.",
+    "definitionZh": "复平面开集上的复值函数，若每一点的复增量商沿任意方向趋于零时都有同一有限极限，则为全纯函数。",
+    "example": "For $f(z)=z^3$, the quotient is $3z^2+3zh+h^2\\to3z^2$.",
+    "distinction": "Real differentiability of a map R^2 to R^2 is weaker; complex differentiability requires a complex-linear differential.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§1, definition after (1.4); §8, Goursat's theorem",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第二章，学习重点及难点：初等全纯函数；第四章：全纯函数的Taylor展开，printed pp.5,8",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complex-residue",
+    "english": "residue at an isolated singularity",
+    "chinese": "留数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "If f is holomorphic on a punctured disk centered at a, its residue at a is the coefficient of (z-a)^(-1) in the Laurent expansion on that disk.",
+    "definitionZh": "函数在以 a 为中心的去心圆盘全纯时，洛朗展开中 (z-a) 的负一次幂的系数称为 a 处留数。",
+    "example": "For $f(z)=(2z+1)/(z-2)$, the residue at $2$ is $2\\cdot2+1=5$.",
+    "distinction": "A pole can have zero residue: $1/(z-a)^2$ has no inverse-first-power term.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§16, equations (16.1)–(16.5)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第六章，第一节 留数，printed p.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "laurent-series",
+    "english": "Laurent series",
+    "chinese": "洛朗展式",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A Laurent series centered at a is a two-sided power expansion sum_{k in Z} c_k(z-a)^k, with its negative- and nonnegative-power parts converging on a specified annulus.",
+    "definitionZh": "洛朗展式是包含正负整数次幂的双边展开式，其正幂部分和负幂部分须在指定圆环内分别收敛。",
+    "example": "For $0<|z|<2$, $1/[z(2-z)]=1/(2z)+\\sum_{n=0}^\\infty z^n/2^{n+2}$.",
+    "distinction": "Negative powers are allowed; a Taylor expansion around a requires holomorphic extension through its center.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§12, Proposition 12.1 and equations (12.1)–(12.8)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第五章，第一节 解析函数的洛朗展式，printed p.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complex-pole",
+    "english": "pole of a complex function",
+    "chinese": "极点",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "An isolated singularity a of f is a pole of order m>=1 if f(z)=g(z)/(z-a)^m near a with g holomorphic and g(a) nonzero.",
+    "definitionZh": "孤立奇点 a 附近若 f 可写为全纯函数 g 除以 (z-a)^m，且 g(a) 不为零、m 为正整数，则 a 是 m 阶极点。",
+    "example": "$f(z)=(z+3)/(z-1)^2$ has a pole of order $2$ at $1$ since the numerator there is $4$.",
+    "distinction": "At a pole the Laurent principal part is finite and nonempty; an essential singularity has infinitely many negative terms.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§11, Proposition 11.2 and equation (11.8); §12, Proposition 12.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第五章，第二节 解析函数的孤立奇点，极点，printed p.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complex-essential-singularity",
+    "english": "essential isolated singularity",
+    "chinese": "本性奇点",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "An isolated singularity of a holomorphic function is essential if it is neither removable nor a pole; equivalently its Laurent expansion has infinitely many nonzero negative-power coefficients.",
+    "definitionZh": "全纯函数的孤立奇点若既不可去又不是极点，则为本性奇点；等价地，洛朗展开有无穷多个非零负幂项。",
+    "example": "$e^{2/z}=\\sum_{n=0}^\\infty 2^n/(n!z^n)$ has an essential singularity at $0$.",
+    "distinction": "The classification requires an isolated singularity; a boundary accumulation of singularities is not classified by this trichotomy.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§11, definition after Proposition 11.2, printed p.127; §12, Proposition 12.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第五章，第二节 解析函数的孤立奇点，本性奇点，printed p.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complex-removable-singularity",
+    "english": "removable complex singularity",
+    "chinese": "可去奇点",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "An isolated singularity a of a holomorphic f is removable if a value can be assigned at a so that f extends holomorphically to the whole disk.",
+    "definitionZh": "去心圆盘上的全纯函数若能在中心补一个值，使其在整圆盘全纯，则中心为可去奇点。",
+    "example": "$(e^z-1)/z=1+z/2+z^2/6+\\cdots$ extends with value $1$ at $0$.",
+    "distinction": "A removable real discontinuity needs a continuous extension; here the extension must be holomorphic.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§11, removable-singularity definition and Theorem 11.1, printed p.126",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第五章，第二节 解析函数的孤立奇点，可去奇点，printed p.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cauchy-integral-formula",
+    "english": "Cauchy integral formula",
+    "chinese": "柯西积分公式",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "If f is holomorphic near the closed disk of radius r centered at a, then for every z in that disk's interior, f(z)=(2 pi i)^(-1) integral_{|w-a|=r} f(w)/(w-z) dw with counterclockwise orientation.",
+    "definitionZh": "函数在闭圆盘附近全纯时，其内点值等于沿逆时针边界积分 f(w)/(w-z)，再除以 2πi。",
+    "example": "On $|w|=2$, $\\int w^2/(w-1)\\,dw=2\\pi i$ because $f(1)=1$.",
+    "distinction": "The evaluation point must be inside and the function holomorphic throughout the disk; enclosing other singularities invalidates this form.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§5, Theorem 5.3 and equations (5.5)–(5.9)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第三章，第三节 柯西积分公式及其推论，printed p.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cauchy-riemann-equations",
+    "english": "Cauchy–Riemann equations",
+    "chinese": "柯西-黎曼方程",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For f=u+iv on a plane domain, the Cauchy–Riemann equations are u_x=v_y and u_y=-v_x. Under C^1 regularity they characterize holomorphicity.",
+    "definitionZh": "对平面区域上的 f=u+iv，柯西-黎曼方程为 u_x=v_y、u_y=-v_x；在一阶偏导连续的条件下，它们等价于全纯性。",
+    "example": "For $z^2$, $u=x^2-y^2$ and $v=2xy$, so $u_x=v_y=2x$ and $u_y=-v_x=-2y$.",
+    "distinction": "Equations satisfied at an isolated point without sufficient differentiability do not establish holomorphicity on a neighborhood.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§1, equations (1.28)–(1.38) and Proposition 1.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第二章，第一节 解析函数概念与柯西-黎曼方程，printed p.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "entire-function",
+    "english": "entire function",
+    "chinese": "整函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "An entire function is a complex-valued function holomorphic at every finite point of C.",
+    "definitionZh": "在整个复平面每个有限点都全纯的复值函数称为整函数，不要求在无穷远点全纯。",
+    "example": "$e^{2z}$ and $z^4+1$ are entire.",
+    "distinction": "Entire does not mean polynomial or bounded; an entire function that is bounded on C must be constant.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§6, paragraph before Proposition 6.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第五章，学习要求8：整函数与亚纯函数，printed p.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "meromorphic-function",
+    "english": "meromorphic function",
+    "chinese": "亚纯函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "A meromorphic function on a complex domain is holomorphic except at a discrete set of poles, with the identically infinite function excluded here.",
+    "definitionZh": "复区域上的函数若除去离散的极点集后全纯，则称为亚纯函数；此处约定不包括恒取无穷的函数。",
+    "example": "$1/(z^2-4)$ is meromorphic on C and has poles at $2$ and $-2$.",
+    "distinction": "Poles are allowed, but essential singularities and interior accumulation of poles are not.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§11, meromorphic definition after Proposition 11.3, printed p.127",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第五章，学习要求8：整函数与亚纯函数，printed p.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complex-contour-integral",
+    "english": "complex contour integral",
+    "chinese": "复积分",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For continuous f along a piecewise C^1 path gamma:[a,b] to C, its contour integral is integral_a^b f(gamma(t)) gamma'(t) dt, summed over the smooth pieces.",
+    "definitionZh": "沿分段一阶光滑路径的连续复函数，其复积分由参数式 f(γ(t))γ'(t) 对参数积分定义，并对各光滑段求和。",
+    "example": "Along $\\gamma(t)=2e^{it}$, $0\\le t\\le2\\pi$, $\\int dz/z=\\int_0^{2\\pi}i\\,dt=2\\pi i$.",
+    "distinction": "The factor gamma' includes orientation; this differs from arc-length integration against |gamma'|.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§1, equations (1.44) and (1.44B), printed p.30",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第三章，第一节 复积分概念及其简单性质，printed p.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "argument-principle",
+    "english": "argument principle",
+    "chinese": "辐角原理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For a meromorphic f near the closure of a bounded domain with positively oriented piecewise smooth boundary, if f has neither zeros nor poles on the boundary, (2 pi i)^(-1) integral f'/f equals the number of interior zeros minus poles, counted with multiplicity.",
+    "definitionZh": "函数在有界区域闭包附近亚纯，且在正向分段光滑边界上既无零点又无极点时，f'/f 的边界积分除以 2πi 等于内部零点数减极点数，按重数计算。",
+    "example": "For $f(z)=(z-1)^2/(z+1)$ inside $|z|=2$, the count is $2-1=1$ and $\\int f'/f=2\\pi i$.",
+    "distinction": "It counts zeros minus poles, whereas the residue of f itself does not generally count either.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§17, Propositions 17.1 and 17.9; equations (17.1)–(17.5)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第六章，第三节 辐角原理及其应用，printed p.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "rouche-theorem",
+    "english": "Rouché's theorem",
+    "chinese": "Rouché定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "complex-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "If f and g are holomorphic near the closure of a bounded domain with piecewise smooth boundary and |g-f|<|f| on that boundary, then f and g have the same number of interior zeros, with multiplicity.",
+    "definitionZh": "两个函数在有界区域闭包附近全纯，且边界上 |g-f|<|f| 时，它们在内部的零点个数相同，零点须按重数计数。",
+    "example": "On $|z|=2$, $f=z^3$ and $g=z^3+z+1$ satisfy $|g-f|\\le3<8$; hence g has three zeros inside.",
+    "distinction": "The strict estimate is needed on the boundary, not throughout the interior; it counts zeros without locating them.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Michael Taylor — Introduction to Complex Analysis",
+        "url": "https://mtaylor.web.unc.edu/wp-content/uploads/sites/16915/2018/04/complex.pdf",
+        "locator": "§17, Proposition 17.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "肇庆学院 —《复变函数》课程教学大纲",
+        "url": "https://maths.zqu.edu.cn/__local/8/FD/F8/F7BFCCA25F0355FCFF6564020F4_9ACC8063_49599.pdf",
+        "locator": "第六章，学习要求4及第三节，Rouché定理，printed p.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "banach-space",
+    "english": "Banach space",
+    "chinese": "Banach空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A Banach space is a real or complex normed vector space in which every Cauchy sequence for the norm distance converges to an element of the space.",
+    "definitionZh": "Banach 空间是对范数所诱导的距离完备的实或复赋范线性空间，即每个基本列都有属于该空间的范数极限。",
+    "example": "$C([0,2])$ with $\\|f\\|_\\infty=\\max|f|$ is Banach: a uniformly Cauchy sequence has a continuous uniform limit.",
+    "distinction": "Completeness depends on the norm; the same continuous-function space with its integral norm is incomplete.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§4.1, Definition 4.1.1 and Example 4.1.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第一章赋范线性空间，1.2 Banach空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hilbert-space",
+    "english": "Hilbert space",
+    "chinese": "Hilbert空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A Hilbert space is a real or complex inner-product space complete for the norm $\\sqrt{\\langle x,x\\rangle}$ induced by that inner product.",
+    "definitionZh": "Hilbert 空间是由内积诱导的范数下完备的实或复内积空间；复内积须指定共轭线性所在的变量。",
+    "example": "$\\ell^2$ with $\\langle x,y\\rangle=\\sum x_n\\overline{y_n}$ is Hilbert; $\\|(1,2,0,\\ldots)\\|=\\sqrt5$.",
+    "distinction": "A Banach space needs only a complete norm; a Hilbert norm also obeys the parallelogram identity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§4.1, Definition 4.1.1 and Example 4.1.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第一章，1.3 Hilbert空间；掌握6：正交分解",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lp-space",
+    "english": "Lp space",
+    "chinese": "Lp空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "For a measure space and 1<=p<infinity, Lp consists of measurable real or complex functions with finite integral of |f|^p, identified when equal almost everywhere, with norm (integral |f|^p)^(1/p). L-infinity instead uses the essential-supremum norm.",
+    "definitionZh": "给定测度空间，1≤p<∞ 时，Lp 空间由 p 次绝对值可积函数的几乎处处相等类组成，范数为该积分的 p 次方根；p=∞ 时用本性上确界。",
+    "example": "For $f(x)=x$ on $[0,1]$, $\\|f\\|_2=(\\int_0^1x^2dx)^{1/2}=1/\\sqrt3$.",
+    "distinction": "The equivalence classes remove changes on null sets; literal pointwise functions would give only a seminorm.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Measure Theory",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "locator": "§7.1, Definitions 7.1, 7.3–7.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.9.1 定义，L^p空间与本性有界函数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sobolev-space",
+    "english": "Sobolev space",
+    "chinese": "Sobolev空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "For open Omega in R^n, an integer k>=0, and 1<=p<=infinity, W^{k,p}(Omega) consists of Lp equivalence classes whose distributional derivatives of every order at most k are represented by Lp functions.",
+    "definitionZh": "对欧氏空间开集、非负整数 k 及 1≤p≤∞，Sobolev 空间 W^{k,p} 由本身及直到 k 阶的分布导数均由 Lp 函数表示的几乎处处相等类组成。",
+    "example": "On $(-2,2)$, $u(x)=|x|$ lies in $W^{1,2}$: its weak derivative is the sign function, with squared integral $4$.",
+    "distinction": "Classical differentiability everywhere is unnecessary; a jump indicator has a Dirac derivative and is not in W^{1,p} across the jump.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "§3.5, Definition 3.23",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第三章，3.2 Sobolev空间的定义及其基本性质",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "vector-norm",
+    "english": "norm on a vector space",
+    "chinese": "范数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A norm on a real or complex vector space is a nonnegative real function N with N(x)=0 exactly for x=0, N(alpha x)=|alpha|N(x), and N(x+y)<=N(x)+N(y).",
+    "definitionZh": "实或复线性空间上的非负函数，若仅在零向量取零、满足绝对齐次性及三角不等式，则为范数。",
+    "example": "$\\|(x,y)\\|_1=|x|+|y|$ is a norm and $\\|(3,-2)\\|_1=5$.",
+    "distinction": "A seminorm may vanish on nonzero vectors; squared Euclidean length is not a norm because it scales quadratically.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§1.2, Definition 1.2.13",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.9.2 距离空间，范数三条公理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "normed-vector-space",
+    "english": "normed vector space",
+    "chinese": "赋范线性空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A normed vector space is a real or complex vector space equipped with a specified norm, inducing the distance d(x,y)=norm(x-y).",
+    "definitionZh": "赋范线性空间是配有指定范数的实或复线性空间，其距离由两向量之差的范数给出。",
+    "example": "Finite-support sequences with $\\|x\\|_2=(\\sum |x_n|^2)^{1/2}$ form a normed space but are incomplete.",
+    "distinction": "A vector space alone specifies algebraic operations; a Banach space additionally requires completeness for its norm.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§1.2, Definition 1.2.13 and following normed-space paragraph",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第一章赋范线性空间；了解2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "bounded-linear-operator",
+    "english": "bounded linear operator",
+    "chinese": "有界线性算子",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A linear map T between normed spaces is bounded when some finite C satisfies norm(Tx)<=C norm(x) for every domain vector x.",
+    "definitionZh": "赋范空间之间的线性映射若有一个有限常数 C，使每个向量的像范数不超过 C 倍原范数，则为有界线性算子。",
+    "example": "For $T(x,y)=(2x,-y)$ in Euclidean norm, $\\|T(x,y)\\|\\le2\\|(x,y)\\|$.",
+    "distinction": "A bounded linear operator maps bounded sets to bounded sets, but its image on the entire nonzero vector space is usually unbounded.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.2, Definition 3.2.1 and Theorem 3.2.5(f)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，了解1：有界线性算子",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "linear-operator-norm",
+    "english": "operator norm",
+    "chinese": "线性算子范数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "For a bounded linear map T between normed spaces, its operator norm is sup{norm(Tx):norm(x)<=1}, equivalently the least constant in its global linear bound.",
+    "definitionZh": "有界线性映射的算子范数，是单位闭球中所有向量之像范数的上确界，也就是线性界中最小的常数。",
+    "example": "For $T(x,y)=(2x,-y)$ on Euclidean $\\mathbb R^2$, $\\|T\\|=2$, attained at $(1,0)$.",
+    "distinction": "The matrix entry maximum is generally different; the operator norm depends on the norms chosen for domain and codomain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.2, Proposition 3.2.6 and Definition 3.2.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，掌握1：线性算子范数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "continuous-dual-space",
+    "english": "continuous dual space",
+    "chinese": "对偶空间",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "The continuous dual X* of a normed space X is the vector space of bounded linear scalar-valued functionals on X, equipped with the operator norm.",
+    "definitionZh": "赋范空间 X 的对偶空间，由 X 上所有有界线性标量泛函组成，并配以算子范数。",
+    "example": "For $\\ell^2$, $\\lambda(x)=x_3$ belongs to the continuous dual and has norm $1$.",
+    "distinction": "The algebraic dual contains all linear functionals, including discontinuous ones in infinite-dimensional normed spaces.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.2, Example 3.2.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，2.2 对偶与Hahn-Banach定理；了解1：对偶空间",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "weak-convergence-normed-space",
+    "english": "weak convergence in a normed space",
+    "chinese": "弱收敛",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A sequence x_n in a normed space converges weakly to x if lambda(x_n) tends to lambda(x) for every bounded linear scalar functional lambda.",
+    "definitionZh": "赋范空间中的序列若经每个连续线性泛函测量后的标量列都趋于该泛函在 x 处的值，则弱收敛于 x。",
+    "example": "In $\\ell^2$, the unit vectors $e_n$ converge weakly to $0$ since every square-summable sequence has nth coordinate tending to zero.",
+    "distinction": "Norm convergence implies weak convergence; the converse fails because $\\|e_n\\|_2=1$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§6.7, Definition 6.7.11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.10.2 性质，弱收敛",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "compact-linear-operator",
+    "english": "compact linear operator",
+    "chinese": "紧算子",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A linear map between Banach spaces is compact if the image of every bounded set has compact closure in the codomain.",
+    "definitionZh": "Banach 空间之间的线性映射若把每个有界集映为相对紧集，即其像的闭包紧，则为紧算子。",
+    "example": "On $\\ell^2$, $Tx=(x_n/(n+1))$ is compact: truncation to $n\\le N$ approximates it in operator norm with error $1/(N+2)$.",
+    "distinction": "A bounded operator need not be compact; the identity on an infinite-dimensional Hilbert space is the basic counterexample.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§7.1, Definition 7.1.12 and Proposition 7.1.14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，2.4 紧算子；了解1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hahn-banach-theorem",
+    "english": "Hahn–Banach extension theorem",
+    "chinese": "Hahn-Banach定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A bounded linear scalar functional on any linear subspace of a real or complex normed space extends to the whole space with the same norm.",
+    "definitionZh": "实或复赋范空间任意线性子空间上的有界线性泛函，都可延拓到整个空间且保持范数不变。",
+    "example": "On the x-axis of Euclidean $\\mathbb R^2$, $\\lambda(x,0)=x$ extends as $\\Lambda(x,y)=x$, both of norm $1$.",
+    "distinction": "Completeness and closedness of the subspace are unnecessary; this scalar-functional theorem does not assert the same extension for arbitrary vector-valued maps.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§3.8, Theorem 3.8.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，2.2 对偶与Hahn-Banach定理；掌握4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "banach-open-mapping-theorem",
+    "english": "open mapping theorem for Banach spaces",
+    "chinese": "开映射定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A bounded surjective linear map between Banach spaces sends every open set in its domain to an open set in its codomain.",
+    "definitionZh": "Banach 空间之间的有界线性满射，把定义域中的每个开集映成值域空间的开集。",
+    "example": "$T:\\mathbb R^2\\to\\mathbb R$, $T(x,y)=x$, maps the open unit disk to $(-1,1)$.",
+    "distinction": "Surjectivity is essential: inclusion of a line into R^2 is continuous but its image of an open interval is not open in R^2.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§6.3, Theorem 6.3.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，了解2及重点与难点：开映射定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "closed-graph-theorem",
+    "english": "closed graph theorem",
+    "chinese": "闭图像定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "An everywhere-defined linear map T between Banach spaces is bounded if its graph {(x,Tx)} is closed in their product norm topology.",
+    "definitionZh": "在两个 Banach 空间之间处处有定义的线性映射，若其图像在乘积范数拓扑中为闭集，则该映射有界。",
+    "example": "The coordinate swap $T(x,y)=(y,x)$ has a closed graph in $\\mathbb R^2\\times\\mathbb R^2$ and norm $1$.",
+    "distinction": "An operator defined only on a proper dense domain may be closed and unbounded; the theorem requires the full Banach domain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§6.4, Theorem 6.4.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，了解2：闭图像定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "uniform-boundedness-principle",
+    "english": "uniform boundedness principle",
+    "chinese": "一致有界原理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "For a family of bounded linear maps from a Banach space X to a normed space Y, if sup_T norm(Tx) is finite for every x in X, then sup_T norm(T) is finite.",
+    "definitionZh": "从 Banach 空间到赋范空间的一族有界线性算子，若在每个固定向量上像的范数一致有界，则整族算子范数一致有界。",
+    "example": "On $\\ell^2$, the functionals $T_nx=x_n$ are pointwise bounded by $\\|x\\|_2$ and all have operator norm $1$.",
+    "distinction": "Pointwise bounds may depend on x; the conclusion gives one operator-norm bound for the entire family, using completeness of X.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+        "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+        "locator": "§6.7, Definitions 6.7.1–6.7.2 and principle stated after Exercise 6.7.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第2章，了解2：一致有界原理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fourier-series",
+    "english": "Fourier series",
+    "chinese": "Fourier级数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For a 2 pi-periodic square-integrable function f, its Fourier series is sum_{k in Z} c_k e^{ikx}, where c_k=(2 pi)^(-1) integral_{-pi}^pi f(x)e^{-ikx} dx. The series converges in L2, and stronger modes of convergence need extra justification.",
+    "definitionZh": "对 2π 周期平方可积函数，以其与各整数频率复指数的积分配对所得系数构成的级数称为 Fourier 级数；它在 L2 意义下收敛，更强的收敛方式须另加论证。",
+    "example": "For $f(x)=4+\\cos(2x)$, $c_0=4$ and $c_2=c_{-2}=1/2$; all other coefficients vanish.",
+    "distinction": "L2 convergence, pointwise convergence, and uniform convergence are different assertions about the same coefficient series.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§2.1, Theorem 2.1.3 and Fourier coefficient formula",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：四、Fourier级数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fourier-transform",
+    "english": "Fourier transform",
+    "chinese": "傅立叶变换",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For f in L1(R^n), the Fourier transform in the convention used here is the function f-hat(xi)=integral f(x)e^{-i x dot xi} dx.",
+    "definitionZh": "对 R^n 上可积函数，此处把积分 f(x)e^{-ix·ξ} 定义为傅立叶变换；采用这一约定时，逆变换需乘 (2π)^{-n}。",
+    "example": "For $f(x)=e^{-2x}\\mathbf1_{[0,\\infty)}(x)$, $\\widehat f(\\xi)=1/(2+i\\xi)$ by integrating the exponential.",
+    "distinction": "The transform has a continuous frequency variable; a periodic Fourier series has integer-indexed coefficients. Normalization constants vary by source.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "Chapter 3 opening and §3.3, equation (3.5)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.11.3 傅立叶变换，开头定义；Chinese source uses a different normalization",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "inverse-fourier-transform",
+    "english": "inverse Fourier transform",
+    "chinese": "逆傅立叶变换",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Graduate",
+    "definitionEn": "For g in Schwartz space on R^n, the inverse Fourier transform in the nonunitary convention is (2 pi)^(-n) integral e^{i x dot xi}g(xi) dxi; it inverts the forward transform with the negative exponential.",
+    "definitionZh": "对速降函数 g，非酉归一化约定下的逆傅立叶变换是正指数积分乘 (2π)^{-n}，它与使用负指数的正变换互为逆。",
+    "example": "If $g(\\xi)=\\sqrt\\pi e^{-\\xi^2/4}$, then $(2\\pi)^{-1}\\int e^{ix\\xi}g(\\xi)\\,d\\xi=e^{-x^2}$.",
+    "distinction": "The sign and constant are paired with the forward convention; this integral need not converge absolutely for arbitrary L2 data.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§3.3, equation (3.6) and Theorem 3.3.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.11.3 傅立叶变换，速降函数的逆傅立叶变换定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "function-convolution",
+    "english": "convolution of functions",
+    "chinese": "卷积",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For f,g in L1(R^n), their convolution is the almost-everywhere-defined integrable function (f*g)(x)=integral f(x-y)g(y) dy.",
+    "definitionZh": "两个 R^n 上可积函数的卷积，是几乎处处由积分 f(x-y)g(y) 定义的可积函数。",
+    "example": "For $f=g=\\mathbf1_{[0,2]}$, $(f*g)(x)=\\max(0,2-|x-2|)$, the length of overlap of $[0,2]$ and $[x-2,x]$.",
+    "distinction": "Convolution integrates translated products; pointwise multiplication is a different operation, and discrete sequence convolution uses a sum.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§3.8, equations (3.25)–(3.26)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风（北京大学）— 金融时间序列分析备课笔记，附录E",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
+        "locator": "E.11.2 卷积，定义与可积函数情形",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "schwartz-function",
+    "english": "Schwartz function",
+    "chinese": "速降函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Graduate",
+    "definitionEn": "A Schwartz function on R^n is a smooth complex-valued function phi such that sup_x |x^alpha partial^beta phi(x)| is finite for every pair of multi-indices alpha,beta.",
+    "definitionZh": "速降函数是欧氏空间上的光滑函数，任意阶偏导数乘任意坐标多项式后都保持有界。",
+    "example": "$\\varphi(x)=e^{-2x^2}$ is Schwartz, since each derivative is a polynomial times that Gaussian.",
+    "distinction": "Rapid decay is required for every derivative; ordinary integrability or decay of the function alone is insufficient.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§3.1, definition and equation (3.1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第三章，了解5：速降函数和缓增分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "tempered-distribution",
+    "english": "tempered distribution",
+    "chinese": "缓增分布",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A tempered distribution on R^n is a continuous linear functional on Schwartz space with its topology given by all polynomially weighted derivative seminorms.",
+    "definitionZh": "缓增分布是速降函数空间上的连续线性泛函，连续性须相对于所有多项式加权导数半范数所定义的拓扑。",
+    "example": "The constant function $2$ defines $T(\\varphi)=2\\int\\varphi$, bounded by a sufficiently weighted Schwartz seminorm.",
+    "distinction": "Continuity on compactly supported tests defines an ordinary distribution; Schwartz tests impose additional control at infinity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§3.2, definition of S′ and Example 3.2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学 — 泛函分析教学大纲",
+        "url": "https://i.study.uestc.edu.cn/FUNANALYSIS/menu/teaching-programme",
+        "locator": "第三章，了解5：速降函数和缓增分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "analysis-distribution",
+    "english": "distribution in analysis",
+    "chinese": "广义函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "A distribution on an open set Omega in R^n is a continuous linear functional on C_c^infinity(Omega); locally, its action is bounded by finitely many derivative suprema of tests with support in a fixed compact set.",
+    "definitionZh": "分析中的广义函数，是开集上紧支撑光滑测试函数空间的连续线性泛函；固定紧支集后，其作用可由有限多个导数的上确界控制。",
+    "example": "$\\delta_2(\\varphi)=\\varphi(2)$ is a distribution, with $|\\delta_2(\\varphi)|\\le\\sup|\\varphi|$.",
+    "distinction": "This sense of distribution is a generalized function, not a probability law; point evaluation need not come from an integrable function.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§3.7, definition of D′ and equation (3.18)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京国际数学研究中心 — Enhanced Program for Graduate Study（2024）",
+        "url": "https://bicmr.pku.edu.cn/content/show/38-305.html",
+        "locator": "五、课程简介，4.微分方程基础选讲，（2）课程内容：广义函数和基本解",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "littlewood-paley-decomposition",
+    "english": "Littlewood–Paley decomposition",
+    "chinese": "Littlewood-Paley分解",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Research",
+    "definitionEn": "An inhomogeneous Littlewood–Paley decomposition splits a tempered distribution into smooth Fourier multiplier pieces using a low-frequency cutoff and dyadic annular cutoffs whose sum is one; the piece sum reconstructs the distribution in S′.",
+    "definitionZh": "非齐次 Littlewood-Paley 分解，用一个低频截断和一列二进制尺度圆环上的光滑频率截断分割单位，将缓增分布拆成频率局部化片段，并在缓增分布意义下重构。",
+    "example": "If $\\psi_0(0)=1$ and all annular $\\psi_j(0)=0$, the constant distribution $1$ has low-frequency piece $1$ and every higher piece $0$.",
+    "distinction": "The homogeneous decomposition omits a low-frequency block and requires attention to the zero frequency and polynomial ambiguity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Function Spaces",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/fsp08_lectures.pdf",
+        "locator": "§3.3, Theorem 2 and dyadic pieces; §3.4, general partitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京国际数学研究中心 — Enhanced Program for Graduate Study（2024）",
+        "url": "https://bicmr.pku.edu.cn/content/show/38-305.html",
+        "locator": "五、课程简介，4.微分方程基础选讲，（2）课程内容：Littlewood-Paley分解",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "wavefront-set",
+    "english": "smooth wavefront set",
+    "chinese": "波前集",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Research",
+    "definitionEn": "For a distribution u, its smooth wavefront set consists of pairs (x,xi) with xi nonzero for which no smooth compactly supported cutoff equal to one near x has a Fourier transform of its product with u decaying faster than every inverse power in a conic neighborhood of xi.",
+    "definitionZh": "分布的光滑波前集由点与非零余向量方向的配对组成；若任何在该点附近为一的光滑局部截断，都不能使其傅立叶变换在此方向的锥邻域中快速衰减，则该配对属于波前集。",
+    "example": "For the Dirac distribution at $a$ in one dimension, the localized transform is $e^{-ia\\xi}$, so $\\operatorname{WF}(\\delta_a)=\\{(a,\\xi):\\xi\\ne0\\}$.",
+    "distinction": "Singular support records positions only; the wavefront set also records covector directions and excludes the zero covector.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Applications of Microlocal Analysis to Inverse Problems",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/MA_IP_lectures_v3.pdf",
+        "locator": "§2.1, Definition (Wave front set), printed p.8",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "国立台湾大学科学推展中心 — 表現理論波前集之新突破",
+        "url": "https://spec.ntu.edu.tw/research/research-detail76",
+        "locator": "开篇引言“波前集(wavefront set) WF(f)”；图1说明",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "parseval-fourier-series",
+    "english": "Parseval identity for Fourier series",
+    "chinese": "Parseval等式",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Undergraduate",
+    "definitionEn": "For a 2 pi-periodic function f in L2 and coefficients c_k=(2 pi)^(-1) integral f(x)e^{-ikx} dx, Parseval's identity states (2 pi)^(-1) integral_{-pi}^pi |f|^2=sum_{k in Z}|c_k|^2.",
+    "definitionZh": "对平方可积的 2π 周期函数，以通常平均积分定义 Fourier 系数时，Parseval 等式把周期内平方模的平均积分等同于所有系数平方模的和。",
+    "example": "For $f=2+\\cos x$, the coefficient sum is $4+1/4+1/4=9/2$, matching the mean-square integral.",
+    "distinction": "Bessel's inequality gives only an upper bound for a general orthonormal system; equality requires completeness.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+        "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+        "locator": "§2.1, Theorem 2.1.3, Parseval identity",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：四、Fourier级数，均方收敛与Parseval等式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "weak-pde-solution",
+    "english": "weak solution of a PDE",
+    "chinese": "弱解",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Graduate",
+    "definitionEn": "In the zero-Dirichlet Poisson problem on bounded open Omega with f in L2, a weak solution is u in H_0^1(Omega) satisfying integral gradient u dot gradient phi=integral f phi for every phi in H_0^1(Omega); other PDEs require their own test identity and solution space.",
+    "definitionZh": "对有界开集 $\\Omega$ 上的零边界 Poisson 问题及 $f\\in L^2(\\Omega)$，弱解是 $u\\in H_0^1(\\Omega)$，对每个 $\\varphi\\in H_0^1(\\Omega)$ 满足 $\\int_\\Omega\\nabla u\\cdot\\nabla\\varphi\\,dx=\\int_\\Omega f\\varphi\\,dx$；其他方程须另定测试式与解空间。",
+    "example": "On $(0,1)$, $u=x(1-x)$ obeys $\\int_0^1u'\\varphi'=2\\int_0^1\\varphi$, so it weakly solves $-u''=2$ with zero boundary values.",
+    "distinction": "A distributional identity without the specified H_0^1 membership does not impose this boundary condition or finite energy.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "§4.1, Definition 4.2 and equation (4.4), printed p.92",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "孙天阳 — 偏微分方程2",
+        "url": "https://tysunseven.github.io/note/Partial%20Differential%20Equation%202.pdf",
+        "locator": "§4.2 散度型椭圆方程弱解的定义，printed p.73",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "weak-derivative",
+    "english": "weak derivative",
+    "chinese": "弱导数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Graduate",
+    "definitionEn": "For locally integrable u and v on an open Omega, v is the jth weak derivative of u if integral u partial_j phi=-integral v phi for every smooth compactly supported test phi. Higher-order derivatives use the sign (-1)^{|alpha|}.",
+    "definitionZh": "开集 $\\Omega$ 上的局部可积函数 $u,v$ 若对每个 $\\varphi\\in C_c^\\infty(\\Omega)$ 满足 $\\int_\\Omega u\\partial_j\\varphi\\,dx=-\\int_\\Omega v\\varphi\\,dx$，则 $v$ 为 $u$ 的第 $j$ 个弱导数；高阶情形的分部积分符号为 $(-1)^{|\\alpha|}$。",
+    "example": "For $u(x)=|x-1|$ on $(0,2)$, splitting at $1$ gives weak derivative $-1$ for $x<1$ and $1$ for $x>1$.",
+    "distinction": "Every distribution has distributional derivatives, but a weak derivative in this sense must have a locally integrable representative.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "§3.1, Definition 3.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "孙天阳 — 偏微分方程2",
+        "url": "https://tysunseven.github.io/note/Partial%20Differential%20Equation%202.pdf",
+        "locator": "§3.2 弱导数，定义3.2.1，printed p.47",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "harmonic-function",
+    "english": "harmonic function",
+    "chinese": "调和函数",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Undergraduate",
+    "definitionEn": "A real or complex C^2 function u on an open subset of R^n is harmonic when its Laplacian, the sum of the coordinate second derivatives, vanishes throughout the domain.",
+    "definitionZh": "欧氏空间开集上的二阶连续可微函数，其各坐标二阶偏导数之和处处为零时，称为调和函数。",
+    "example": "$u(x,y)=3x^2-3y^2$ is harmonic because $u_{xx}+u_{yy}=6-6=0$.",
+    "distinction": "A harmonic function is a solution of the homogeneous Laplace equation; a nonzero source gives a Poisson equation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "Chapter 2 opening, printed p.19; §2.1, Theorem 2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：六、调和函数和Laplace方程初步",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "laplace-equation",
+    "english": "Laplace equation",
+    "chinese": "Laplace方程",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Undergraduate",
+    "definitionEn": "The Laplace equation on an open set in R^n is the homogeneous second-order PDE Delta u=sum_{j=1}^n partial_j^2 u=0, classically for u in C^2 or with derivatives interpreted weakly.",
+    "definitionZh": "Laplace 方程是各坐标二阶偏导数之和等于零的齐次偏微分方程，经典解要求二阶连续可微，也可在弱意义下解释。",
+    "example": "An affine function $u(x,y)=2x-5y+3$ solves $\\Delta u=0$ since all second derivatives vanish.",
+    "distinction": "Boundary data are a separate part of the problem; the equation alone does not determine a unique solution.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "Chapter 2 opening, Laplace equation and coordinate Laplacian, printed p.19",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：六、调和函数和Laplace方程初步",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "poisson-equation",
+    "english": "Poisson equation",
+    "chinese": "Poisson方程",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Undergraduate",
+    "definitionEn": "The Poisson equation is an inhomogeneous Laplace equation -Delta u=f on an open set, with prescribed source f; using Delta u=f instead changes the sign convention for the source.",
+    "definitionZh": "Poisson 方程是带给定源项的非齐次 Laplace 方程，此处约定 -Δu=f；若采用 Δu=f，则右端符号相应改变。",
+    "example": "In $\\mathbb R^n$, $u(x)=-|x|^2/(2n)$ satisfies $-\\Delta u=1$.",
+    "distinction": "Poisson equation names a PDE; Poisson distribution names a probability law and is a separate sense.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "Chapter 2 opening, Poisson equation; §4.1, equation (4.1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "孙天阳 — 偏微分方程2",
+        "url": "https://tysunseven.github.io/note/Partial%20Differential%20Equation%202.pdf",
+        "locator": "§1.7 Dirichlet边值的Poisson方程经典解的存在性，printed p.17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "heat-equation",
+    "english": "heat equation",
+    "chinese": "热方程",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Undergraduate",
+    "definitionEn": "The constant-coefficient heat equation is partial_t u=kappa Delta_x u with kappa>0, for a space-time function u that is once time differentiable and twice space differentiable in the classical formulation.",
+    "definitionZh": "常系数热方程为 u_t=κΔu，其中 κ>0；经典表述要求关于时间一阶、关于空间二阶可微。",
+    "example": "$u(x,t)=e^{-4\\kappa t}\\cos(2x)$ solves it because $u_t=-4\\kappa u$ and $u_{xx}=-4u$.",
+    "distinction": "The first-order time derivative produces diffusive decay, unlike the second-order time dynamics of the wave equation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "§5.1, equations (5.1)–(5.2), printed p.127; diffusivity obtained by time rescaling",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：五、Fourier分析初步，波方程和热方程简介",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "wave-equation",
+    "english": "wave equation",
+    "chinese": "波方程",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Undergraduate",
+    "definitionEn": "The constant-speed wave equation is partial_t^2 u=c^2 Delta_x u with c>0, classically for a twice differentiable space-time function; an initial value problem normally specifies both u and partial_t u at time zero.",
+    "definitionZh": "常速波方程为 u_tt=c²Δu，其中 c>0；经典解要求相应二阶导数存在，初值问题通常同时给定初始位移和初始速度。",
+    "example": "$u(x,t)=\\cos(3x)\\cos(3ct)$ solves it since $u_{tt}=-9c^2u=c^2u_{xx}$.",
+    "distinction": "Prescribing displacement alone does not generally determine the solution; an independent initial velocity is needed.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "§7.1, equations (7.1)–(7.2), printed p.211; general speed obtained by time rescaling",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 数学分析（实验班）课程介绍",
+        "url": "https://math.pku.edu.cn/bks/sykc/148727.htm",
+        "locator": "第三部分，级数理论：五、Fourier分析初步，波方程和热方程简介",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

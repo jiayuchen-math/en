@@ -1,0 +1,1014 @@
+[
+  {
+    "id": "category",
+    "english": "category",
+    "chinese": "范畴",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "Objects and directed morphisms with specified sources, targets, associative composition and a two-sided identity at each object.",
+    "definitionZh": "由对象及有指定来源、目标的态射组成，配有结合的合成和各对象上的双侧恒等态射的结构。",
+    "example": "A poset gives a category with one arrow $x\\to y$ exactly when $x\\leq y$.",
+    "distinction": "The arrows are part of the definition: the same objects with different allowed arrows give different categories.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.1, Definition 1.1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，定义 def:category",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "category-morphism",
+    "english": "morphism in a category",
+    "chinese": "态射",
+    "aliases": [
+      "arrow"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "An arrow with a specified source and target in a category, composable with other arrows when their endpoints match.",
+    "definitionZh": "范畴中有指定来源和目标的箭头；端点相接时可与其他态射合成。",
+    "example": "A linear map $k^2\\to k^3$ is a morphism in $\\mathbf{Vect}_k$.",
+    "distinction": "A morphism need not be a set function; an abstract category specifies its own arrows.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.1, Definition 1.1.1 and Example 1.1.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，def:category 中「态射」及 Hom-集",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "category-isomorphism",
+    "english": "isomorphism in a category",
+    "chinese": "同构",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A morphism $f:X\\to Y$ admitting $g:Y\\to X$ with $gf=1_X$ and $fg=1_Y$.",
+    "definitionZh": "存在态射 g:Y→X 满足 gf=1_X、fg=1_Y 的态射 f:X→Y。",
+    "example": "$v\\mapsto3v$ is an isomorphism in real vector spaces, with inverse $v\\mapsto v/3$.",
+    "distinction": "A bijective continuous map need not be an isomorphism in Top; its inverse must be continuous.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.1, Definition 1.1.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，def:category 后的「同构（可逆）」段",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "opposite-category",
+    "english": "opposite category",
+    "chinese": "反范畴",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The category with the same objects as C, all arrows reversed, and composition performed in the reverse order.",
+    "definitionZh": "对象与原范畴相同、态射方向反转、合成顺序相应反转的范畴。",
+    "example": "The opposite of the poset category $0<1$ has its nonidentity arrow $1\\to0$.",
+    "distinction": "Reversing all arrows does not in general give a category isomorphic to the original.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.2 Duality",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，末尾「反范畴」定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "small-category",
+    "english": "small category",
+    "chinese": "小范畴",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "A category whose objects and all morphisms form sets in the chosen size convention.",
+    "definitionZh": "在选定大小约定下，其对象和全部态射均构成集合的范畴。",
+    "example": "The category of a finite poset is small.",
+    "distinction": "Smallness is relative to a universe when universes are used; locally small is a weaker condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.1, Definition 1.1.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，def:U-cat 的「U-小范畴」；固定宇宙约定 con:U-small",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "locally-small-category",
+    "english": "locally small category",
+    "chinese": "局部小范畴",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "A category whose collection of morphisms between each fixed pair of objects is a set.",
+    "definitionZh": "任意固定的一对对象之间的态射构成集合的范畴。",
+    "example": "$\\mathbf{Set}$ is locally small although the class of all sets is not a set.",
+    "distinction": "The Chinese source explicitly uses 局部 U-小范畴; this entry suppresses the fixed universe, as its convention allows.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.1, Definition 1.1.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，def:U-cat 后「有些文献将 U-范畴称为局部 U-小范畴」；con:U-small",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "functor",
+    "english": "functor",
+    "chinese": "函子",
+    "aliases": [
+      "covariant functor",
+      "共变函子"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "An assignment of objects and arrows between categories that respects source, target, identities and composition.",
+    "definitionZh": "范畴之间同时指定对象和态射的对应，并保持来源、目标、恒等态射和合成的结构。",
+    "example": "$A\\mapsto A\\times A$, $f\\mapsto f\\times f$, is a functor on sets.",
+    "distinction": "An object assignment alone is insufficient; preservation of identities must also be checked.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.3, Definition 1.3.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，def:functor；其后「共变函子」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "contravariant-functor",
+    "english": "contravariant functor",
+    "chinese": "反变函子",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A functor Cᵒᵖ→D, viewed as an assignment from C reversing the direction of arrows.",
+    "definitionZh": "从反范畴 Cᵒᵖ 到 D 的函子；视作从 C 出发的对应时，它反转态射方向。",
+    "example": "For fixed $A$, $\\operatorname{Hom}(-,A)$ sends $f:X\\to Y$ to precomposition $\\operatorname{Hom}(Y,A)\\to\\operatorname{Hom}(X,A)$.",
+    "distinction": "Reversing arrows changes the composition law: F(gf)=F(f)F(g).",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.3, Definition 1.3.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，def:functor 后「反变函子」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "faithful-functor",
+    "english": "faithful functor",
+    "chinese": "忠实函子",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A functor inducing an injective map on each hom-set for a fixed pair of source objects.",
+    "definitionZh": "对来源范畴任意一对对象，诱导的态射集映射均为单射的函子。",
+    "example": "The forgetful functor $\\mathbf{Vect}_k\\to\\mathbf{Set}$ is faithful.",
+    "distinction": "Faithfulness need not distinguish objects; it distinguishes parallel morphisms.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.5, Definition 1.5.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，紧随 def:functor 的定义，项「忠实」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "full-functor",
+    "english": "full functor",
+    "chinese": "全函子",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A functor inducing a surjective map on each hom-set for a fixed pair of source objects.",
+    "definitionZh": "对来源范畴任意一对对象，诱导的态射集映射均为满射的函子。",
+    "example": "The inclusion of abelian groups into groups is full.",
+    "distinction": "Fullness is about arrows between image objects, not about reaching every target object.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.5, Definition 1.5.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，紧随 def:functor 的定义，项「全」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "equivalence-of-categories",
+    "english": "equivalence of categories",
+    "chinese": "范畴等价",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "A functor F:C→D with a functor G:D→C and natural isomorphisms GF≅1_C and FG≅1_D.",
+    "definitionZh": "具有拟逆函子 G 且 GF 与恒等函子、FG 与恒等函子分别自然同构的函子 F:C→D。",
+    "example": "Finite-dimensional $k$-vector spaces are equivalent to the category of natural-number dimensions and matrices.",
+    "distinction": "Equivalence allows composites naturally isomorphic to identities; isomorphism of categories requires actual inverse functors.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.5, Definition 1.5.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，def:equivalence 与范畴等价判别；源码中的「范畴等价」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "natural-transformation",
+    "english": "natural transformation",
+    "chinese": "自然变换",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $F,G:C\\to D$, components $\\eta_X:F(X)\\to G(X)$ satisfying $G(f)\\eta_X=\\eta_YF(f)$ for every $f:X\\to Y$.",
+    "definitionZh": "对于 F、G:C→D，由分量 η_X:F(X)→G(X) 组成且对每个 f:X→Y 满足 G(f)η_X=η_YF(f) 的族。",
+    "example": "The projections $A\\times A\\to A$ are natural in $A$.",
+    "distinction": "A collection of correctly typed components need not satisfy naturality.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.4, Definition 1.4.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，定义「自然变换，或函子间的态射」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "natural-isomorphism",
+    "english": "natural isomorphism",
+    "chinese": "自然同构",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A natural transformation all of whose components are isomorphisms, equivalently an invertible morphism in the functor category.",
+    "definitionZh": "各分量均为同构的自然变换；等价地，是函子范畴中的可逆态射。",
+    "example": "$(a,b)\\mapsto(b,a)$ naturally identifies $A\\times B$ and $B\\times A$.",
+    "distinction": "Pointwise existence of unrelated isomorphisms does not guarantee a natural isomorphism.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.4, Exercise 1.4.i; §1.5, discussion preceding Definition 1.5.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子与自然变换」，约定 con:naturaltrans-morphism 中「自然同构」及范畴等价讨论",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "functor-category",
+    "english": "functor category",
+    "chinese": "函子范畴",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For small C and locally small D, the category whose objects are functors C→D and whose morphisms are natural transformations.",
+    "definitionZh": "当 C 小且 D 局部小时，以 C→D 的函子为对象、自然变换为态射、逐分量合成为态射合成的范畴。",
+    "example": "For a discrete two-object $C$, $[C,\\mathbf{Set}]$ is the category of pairs of sets.",
+    "distinction": "The smallness of C ensures transformation collections are sets in this formulation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§1.5, Definition 1.5.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「函子范畴」，定义「函子范畴」及其后大小说明",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "representable-functor",
+    "english": "representable functor",
+    "chinese": "可表函子",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "A set-valued functor naturally isomorphic to Hom(-,A) in the contravariant case, or Hom(A,-) in the covariant case.",
+    "definitionZh": "反变情形自然同构于 Hom(-,A)、或共变情形自然同构于 Hom(A,-) 的集合值函子。",
+    "example": "On sets, $B\\mapsto B^A$ is represented covariantly by $A$.",
+    "distinction": "A family of bijections without naturality is not a representation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§2.1, Definition 2.1.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「可表函子」，定义 def:representable-functor",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "yoneda-lemma",
+    "english": "Yoneda lemma",
+    "chinese": "米田引理",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For small $C$, presheaf $P$, and $A\\in C$, evaluation at $1_A$ gives $\\operatorname{Nat}(\\operatorname{Hom}(-,A),P)\\cong P(A)$ naturally.",
+    "definitionZh": "对于小范畴 C、预层 P 和对象 A，在 1_A 处取值给出 Nat(Hom(-,A),P) 与 P(A) 的自然双射。",
+    "example": "For the poset $0<1<2$ and constant presheaf $\\{0,1\\}$, exactly two transformations $h_1\\to P$ exist.",
+    "distinction": "The direction of the hom-functor must match the variance of P.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Tom Leinster — Basic Category Theory (author arXiv edition)",
+        "url": "https://arxiv.org/pdf/1612.09375",
+        "locator": "§4.2, Theorem 4.2.1; §4.3, Corollary 4.3.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「可表函子」，定理 prop:Yoneda-lemma 与「米田引理」段",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "universal-property",
+    "english": "universal property",
+    "chinese": "泛性质",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "A characterization of specified object-and-map data by a unique factorization for every competing compatible object-and-map datum.",
+    "definitionZh": "用任意其他相容对象及映射资料的唯一分解，刻画指定对象及映射资料的性质。",
+    "example": "Maps $X\\to A\\times B$ correspond uniquely to pairs of maps $X\\to A$ and $X\\to B$.",
+    "distinction": "The structure maps belong to the data; uniqueness normally means up to a unique compatible isomorphism.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Tom Leinster — Basic Category Theory (author arXiv edition)",
+        "url": "https://arxiv.org/pdf/1612.09375",
+        "locator": "Introduction, Examples 0.6–0.7 and Lemma 0.7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「泛性质」，开头及始终对象之后的「泛性质」段",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "categorical-limit",
+    "english": "categorical limit",
+    "chinese": "极限",
+    "aliases": [
+      "projective limit",
+      "投射极限",
+      "inverse limit",
+      "逆向极限"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For a small diagram D:J→C, a cone through which every other cone factors by a unique vertex map respecting all legs.",
+    "definitionZh": "对于小图表 D:J→C，一个锥使任意其他锥都通过唯一的顶点态射分解，并保持所有锥边。",
+    "example": "A pullback of $2a$ and $3b$ on integers is $\\{(3k,2k):k\\in\\mathbb Z\\}$.",
+    "distinction": "Li’s table uses 极限 for lim and 余极限 for colim; inverse limit may also denote a particular inverse-system shape.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, cone and limit definitions; §3.2 Limits in the Category of Sets",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「极限」，def:limit 后术语对照表中的「极限 (lim)」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "categorical-colimit",
+    "english": "categorical colimit",
+    "chinese": "余极限",
+    "aliases": [
+      "inductive limit",
+      "归纳极限"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For a small diagram, a cocone from which every compatible cocone factors by a unique map of vertices respecting all legs.",
+    "definitionZh": "对于小图表，一个余锥使任意其他相容余锥都由它经唯一的顶点态射分解，并保持所有余锥边。",
+    "example": "The colimit in sets of $\\{0\\}\\subset\\{0,1\\}\\subset\\cdots$ is $\\mathbb N$.",
+    "distinction": "Colimits reverse the universal arrow direction; a categorical colimit is not generally a union.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.23; §3.2 Limits in the Category of Sets",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「极限」，def:limit 后术语对照表中的「余极限 (colim)」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "terminal-object",
+    "english": "terminal object",
+    "chinese": "终对象",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "An object T receiving exactly one morphism X→T from every object X of its category.",
+    "definitionZh": "从范畴任意对象 X 出发，到它的态射恰有一个的对象 T。",
+    "example": "Any singleton is terminal in $\\mathbf{Set}$.",
+    "distinction": "A one-point space is terminal in Top; the empty set is initial in Set, not terminal.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「泛性质」，定义 def:universal-objects 中「终对象」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "initial-object",
+    "english": "initial object",
+    "chinese": "始对象",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "An object I having exactly one morphism I→X to every object X of its category.",
+    "definitionZh": "到范畴任意对象 X 的态射恰有一个的对象 I。",
+    "example": "$\\emptyset$ is initial in $\\mathbf{Set}$.",
+    "distinction": "Initial does not mean a least element unless the category is a poset category.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.23",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「泛性质」，定义 def:universal-objects 中「始对象」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "categorical-product",
+    "english": "categorical product",
+    "chinese": "积",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "Objects P with projections to a specified family such that every matching family of maps from any X arises uniquely from a map X→P.",
+    "definitionZh": "配有到指定对象族的投影的对象 P，使从任意 X 出发的相应映射族都唯一来自 X→P 的态射。",
+    "example": "The product of sets $\\{2\\}$ and $\\{5,7\\}$ has two ordered pairs.",
+    "distinction": "The product includes its projections; in a poset it is a greatest lower bound.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「极限」，有限极限讨论，积与余积的第一项",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "categorical-coproduct",
+    "english": "categorical coproduct",
+    "chinese": "余积",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "An object with maps from a specified family such that each family of maps into any Y extends uniquely to a map from that object to Y.",
+    "definitionZh": "配有从指定对象族进入的态射的对象，使到任意 Y 的对应态射族都唯一延拓为从该对象到 Y 的态射。",
+    "example": "$\\{2\\}\\sqcup\\{2\\}$ is a two-element coproduct in sets.",
+    "distinction": "Ordinary union of overlapping sets fails to retain independent maps out of each component.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.23",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「极限」，有限极限讨论，积与余积的第一项「余积」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "categorical-pullback",
+    "english": "categorical pullback",
+    "chinese": "拉回",
+    "aliases": [
+      "fiber product",
+      "纤维积"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For A→C←B, an object P with maps to A and B making the square commute and universal among such commuting pairs.",
+    "definitionZh": "对于 A→C←B，带有到 A、B 的态射、使相应方块交换，且对所有这种交换态射对具有唯一分解性质的对象。",
+    "example": "For inclusions $A,B\\subseteq C$, their pullback in sets is $A\\cap B$.",
+    "distinction": "A commuting square need not be a pullback; the universal property is additional.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「完备性」，def:completeness 后「纤维积及其对偶版本」定义第一项；非 Hom 函子的同名拉回",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "categorical-equalizer",
+    "english": "categorical equalizer",
+    "chinese": "等化子",
+    "aliases": [
+      "差核"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For parallel f,g:A→B, a map e:E→A with fe=ge universal among maps with that equality.",
+    "definitionZh": "对于平行态射 f、g:A→B，满足 fe=ge 且对所有满足同样等式的映射具有唯一分解性质的态射 e:E→A。",
+    "example": "The equalizer of $n\\mapsto n^2$ and $n\\mapsto n$ on $\\mathbb Z$ is $\\{0,1\\}\\hookrightarrow\\mathbb Z$.",
+    "distinction": "A kernel is a special equalizer in a pointed setting; arbitrary equalizers need not involve zero maps.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§3.1, Definition 3.1.13",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「极限」，平行箭头的极限项：「等化子 或差核」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "adjunction",
+    "english": "adjunction",
+    "chinese": "伴随对",
+    "aliases": [
+      "adjunction pair"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "Functors F:C→D and G:D→C together with bijections Hom_D(FX,Y)≅Hom_C(X,GY) natural in X and Y.",
+    "definitionZh": "函子 F:C→D、G:D→C 连同在 X、Y 两变元中自然的双射 Hom_D(FX,Y)≅Hom_C(X,GY)。",
+    "example": "The free $k$-vector-space functor is left adjoint to the underlying-set functor.",
+    "distinction": "Adjoint functors need not be inverse equivalences; the hom-set correspondence is the requirement.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§4.1, Definition 4.1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「伴随函子」，定义 def:adjunction-pair「伴随对」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "adjunction-unit",
+    "english": "unit of an adjunction",
+    "chinese": "单位",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For $F\\dashv G$, the natural transformation $\\eta:1_C\\Rightarrow GF$ whose component corresponds to $1_{FX}$ under the adjunction bijection.",
+    "definitionZh": "对于 F⊣G，由伴随双射把 1_FX 对应到 η_X:X→GFX 而组成的自然变换 η:1_C⇒GF。",
+    "example": "For free vector spaces, $\\eta_S(s)=e_s$.",
+    "distinction": "Unit here belongs to an adjunction; it is not the multiplicative identity of a ring.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§4.2, Lemma 4.2.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「伴随函子」，定义 def:adjunction-unit-counit「单位」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "adjunction-counit",
+    "english": "counit of an adjunction",
+    "chinese": "余单位",
+    "aliases": [
+      "co-unit"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "definitionEn": "For $F\\dashv G$, the natural transformation $\\varepsilon:FG\\Rightarrow1_D$ whose component corresponds to $1_{GY}$ under the inverse adjunction bijection.",
+    "definitionZh": "对于 F⊣G，由伴随双射的逆把 1_GY 对应到 ε_Y:FGY→Y 而组成的自然变换 ε:FG⇒1_D。",
+    "example": "For free vector spaces, $\\varepsilon_V(\\sum a_i e_{v_i})=\\sum a_i v_i$.",
+    "distinction": "The counit and unit have different domains; triangle identities do not make their components literal inverses.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Emily Riehl — Category Theory in Context (current second-edition draft)",
+        "url": "https://emilyriehl.github.io/files/context.pdf",
+        "locator": "§4.2, Lemma 4.2.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「伴随函子」，定义 def:adjunction-unit-counit「余单位」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "groupoid",
+    "english": "groupoid",
+    "chinese": "广群",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A category in which every morphism is invertible.",
+    "definitionZh": "每个态射都可逆的范畴。",
+    "example": "A group viewed as a one-object category is a groupoid.",
+    "distinction": "A groupoid may have many objects; higher groupoids retain higher homotopies beyond an ordinary groupoid.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Jacob Lurie — Higher Topos Theory (author IAS PDF)",
+        "url": "https://www.math.ias.edu/~lurie/papers/HTT.pdf",
+        "locator": "§1.1.1, discussion of groupoids and higher groupoids",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
+        "locator": "第2章，「范畴与态射」，定义「广群 (groupoid)」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "higher-category",
+    "english": "higher category",
+    "chinese": "高阶范畴",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Research",
+    "definitionEn": "A categorical structure with higher morphisms and coherent composition; the scoped (∞,1) model here is a simplicial set admitting fillers for every inner horn.",
+    "definitionZh": "具有高阶态射和相容合成资料的范畴结构；本条限定的 (∞,1) 模型是每个内角都可填充的单纯集合。",
+    "example": "The nerve of an ordinary category and every Kan complex give $(\\infty,1)$-category examples.",
+    "distinction": "Higher category is broader than (∞,1)-category; this entry fixes a model instead of claiming all higher theories share one definition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Jacob Lurie — Higher Topos Theory (author IAS PDF)",
+        "url": "https://www.math.ias.edu/~lurie/papers/HTT.pdf",
+        "locator": "§1.1.2, Definition 1.1.2.4 and Examples 1.1.2.5–1.1.2.6; §6.1, Definition 6.1.0.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "徐斐（汕头大学）— 教师页面",
+        "url": "https://math.stu.edu.cn/jsdw/zrjs/xf.htm",
+        "locator": "「研究介绍」末段：「高阶范畴理论」；仅支持中文名称的使用",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

@@ -1,0 +1,2144 @@
+[
+  {
+    "id": "integer-greatest-common-divisor",
+    "english": "greatest common divisor of integers",
+    "chinese": "整数的最大公因数",
+    "aliases": [
+      "gcd",
+      "greatest common factor",
+      "最大公约数",
+      "最大公因子"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For integers $a,b$ not both zero, the positive common divisor divisible by every common divisor; set $\\gcd(0,0)=0$ by convention.",
+    "definitionZh": "对不全为零的整数 $a,b$，能被每个公因数整除的正公因数；约定 $\\gcd(0,0)=0$。",
+    "example": "$\\gcd(252,198)=18$.",
+    "distinction": "In a general domain a gcd is only unique up to units; positivity selects a unique integer representative.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Section 2.2, gcd definition before Theorem 2.2.2; zero-zero convention is editorial",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈碧琴 — 矩阵初等变换在初等数论中的应用，南通工学院学报",
+        "url": "https://ngzk.cbpt.cnki.net/portal/journal/portal/client/paper/9d4357ca79270e825f7e92fa05f33846",
+        "locator": "中文摘要与关键词，最大公因数; reference [5] title 最大公约数",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性，paragraph defining 最大公因子 before def:UFD",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integer-divisibility",
+    "english": "integer divisibility",
+    "chinese": "整数整除",
+    "aliases": [
+      "divides",
+      "整除性"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For integers $a,b$, $a\\mid b$ means that $b=ak$ for an integer $k$.",
+    "definitionZh": "对整数 $a,b$，若存在整数 $k$ 使 $b=ak$，则称 $a$ 整除 $b$。",
+    "example": "$-3\\mid12$ because $12=(-3)(-4)$.",
+    "distinction": "The order matters: $a\\mid b$ means $a$ divides $b$; also $0\\mid b$ holds only for $b=0$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Section 2.2, divisibility paragraph before Theorem 2.2.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性，opening definition 整除关系 and preceding sentence specializing to Z",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integer-coprimality",
+    "english": "coprimality of integers",
+    "chinese": "整数互素",
+    "aliases": [
+      "relatively prime integers",
+      "coprime integers"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "Integers $a,b$ are coprime when $\\gcd(a,b)=1$.",
+    "definitionZh": "两个整数的最大公因数为 $1$ 时，称它们互素。",
+    "example": "$8$ and $15$ are coprime although neither is prime.",
+    "distinction": "For three integers, a joint gcd of one does not imply pairwise coprimality: use $6,10,15$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Section 2.2, relatively prime definition before Theorem 2.2.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性，sentence naming 互素 immediately after 最大公因子 definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integer-euclidean-algorithm",
+    "english": "Euclidean algorithm for integers",
+    "chinese": "整数辗转相除法",
+    "aliases": [
+      "Euclidean algorithm"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "Repeatedly replace a nonnegative integer pair $(a,b)$ with $(b,a\\bmod b)$ while $b>0$; when $b=0$, the terminal first coordinate $a$ is the gcd of the original pair, including $\\gcd(0,0)=0$ by convention.",
+    "definitionZh": "对非负整数对 $(a,b)$，当 $b>0$ 时反复替换为 $(b,a\\bmod b)$；当 $b=0$ 时，终止数对的第一个坐标 $a$ 就是原数对的最大公因数，包括约定的 $\\gcd(0,0)=0$。",
+    "example": "$(30,18)\\to(18,12)\\to(12,6)\\to(6,0)$ gives gcd $6$.",
+    "distinction": "The extended algorithm additionally computes integer linear-combination coefficients; ordinary remainder iteration computes only the gcd.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Subsection 2.2.1, The Euclidean Algorithm, Example 2.2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 初等数论习题课，中国科学院大学课程讲义，合肥工业大学托管",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zR2jQEZ2Ac2vzAAOgvGtD4ZU844.pdf",
+        "locator": "第一章，4 补充，printed page 2, proof naming 辗转相除法",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fundamental-theorem-of-arithmetic",
+    "english": "fundamental theorem of arithmetic",
+    "chinese": "算术基本定理",
+    "aliases": [
+      "unique prime factorization of positive integers"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "Every integer greater than one is a finite product of positive primes, unique up to the order of its factors.",
+    "definitionZh": "每个大于 $1$ 的整数都可分解为有限个正素数的乘积，且除因子次序外此分解唯一。",
+    "example": "$84=2^2\\cdot3\\cdot7$.",
+    "distinction": "Existence of irreducible factorizations alone is weaker than uniqueness; general domains need not satisfy this theorem.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性, definition def:UFD and following paragraph specializing to Z and naming 算术基本定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性，paragraph following def:UFD identifying Z as UFD and naming 算术基本定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integer-division-algorithm",
+    "english": "division algorithm for integers",
+    "chinese": "整数带余数除法",
+    "aliases": [
+      "division with remainder"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $a\\in\\mathbb Z$ and $b>0$, there are unique integers $q,r$ with $a=bq+r$ and $0\\le r<b$.",
+    "definitionZh": "对整数 $a$ 和正整数 $b$，存在唯一整数 $q,r$ 使 $a=bq+r$ 且 $0\\le r<b$。",
+    "example": "$-17=5(-4)+3$ has quotient $-4$ and remainder $3$.",
+    "distinction": "The division theorem specifies one quotient and remainder; the Euclidean algorithm repeatedly applies it to compute a gcd.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Section 2.2, Theorem 2.2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第一章，第一节，第3项 带余数除法定理 (PDF page 2); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "prime-number",
+    "english": "prime number",
+    "chinese": "素数",
+    "aliases": [
+      "prime"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A positive integer $p>1$ whose only positive divisors are $1$ and $p$.",
+    "definitionZh": "仅有 $1$ 和自身两个正因数的大于 $1$ 的正整数。",
+    "example": "$29$ is prime; testing $2,3,5$ suffices.",
+    "distinction": "One is excluded, and primality here concerns positive integers; prime elements in other rings have a different ambient definition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Subsection 2.2.2, opening prime definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第一章 整数的可除性，基本概念段落 素数，PDF page 2 (zero-based index 1); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "composite-number",
+    "english": "composite number",
+    "chinese": "合数",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "An integer $n>1$ having a positive divisor strictly between $1$ and $n$.",
+    "definitionZh": "存在严格介于 $1$ 与自身之间的正因数的大于 $1$ 的整数。",
+    "example": "$21=3\\cdot7$ is composite.",
+    "distinction": "Zero, one and negative integers are outside this positive-integer classification.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Thomas W. Judson — Abstract Algebra: Theory and Applications",
+        "url": "https://judsonbooks.org/aata-files/aata-html/integers-section-division-algorithm.html",
+        "locator": "Subsection 2.2.2, composite definition after prime definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第一章 整数的可除性，基本概念段落 素数与合数，PDF page 2 (zero-based index 1); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integer-congruence",
+    "english": "integer congruence",
+    "chinese": "整数同余",
+    "aliases": [
+      "congruence modulo an integer"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $m\\ge1$, integers $a,b$ satisfy $a\\equiv b\\pmod m$ exactly when $m\\mid(a-b)$.",
+    "definitionZh": "对正整数 $m$，若 $m\\mid(a-b)$，则称整数 $a,b$ 模 $m$ 同余。",
+    "example": "$23\\equiv5\\pmod6$ because $23-5=18$.",
+    "distinction": "Cancellation requires care: $2\\cdot1\\equiv2\\cdot4\\pmod6$ but $1\\not\\equiv4\\pmod6$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Modular Arithmetic, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/modarith.pdf",
+        "locator": "Section 2, Definition 2.1; Section 3, Theorem 3.8 on cancellation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第三章，第一节 同余的概念及其基本性质 (PDF page 4); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complete-residue-system",
+    "english": "complete residue system",
+    "chinese": "完全剩余系",
+    "aliases": [
+      "complete system of residues"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $m\\ge1$, a set of integers containing exactly one representative of every congruence class modulo $m$.",
+    "definitionZh": "对正整数 $m$，从每个模 $m$ 剩余类恰取一个整数代表所组成的集合。",
+    "example": "$\\{-2,-1,0,1,2\\}$ is a complete residue system modulo $5$.",
+    "distinction": "Representatives need not lie in the least nonnegative range; the classes, rather than their chosen representatives, are canonical.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Modular Arithmetic, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/modarith.pdf",
+        "locator": "Theorem 2.4, Definition 2.8 and Example 3.11, representatives of all congruence classes",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第三章，第二节 剩余类及完全剩余系 (PDF page 4); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "reduced-residue-system",
+    "english": "reduced residue system",
+    "chinese": "简化剩余系",
+    "aliases": [
+      "reduced system of residues"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $m\\ge2$, a set of integers representing each invertible congruence class modulo $m$ exactly once.",
+    "definitionZh": "对 $m\\ge2$，从每个模 $m$ 可逆剩余类恰取一个整数代表所组成的集合。",
+    "example": "$\\{1,5,7,11\\}$ is a reduced residue system modulo $12$.",
+    "distinction": "It contains only classes coprime to the modulus, whereas a complete residue system contains every class.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Euler's Theorem, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/eulerthm.pdf",
+        "locator": "Section 1, printed page 1, modulo-12 representatives and formula (1.1); Section 2, printed pages 2–3, distinct representatives for every unit",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第三章，第三节 简化剩余系与欧拉函数 (PDF page 4); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "euler-totient",
+    "english": "Euler totient function",
+    "chinese": "欧拉函数",
+    "aliases": [
+      "Euler phi function",
+      "totient"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $n\\ge1$, $\\varphi(n)$ counts the integers $1\\le a\\le n$ satisfying $\\gcd(a,n)=1$.",
+    "definitionZh": "对正整数 $n$，$\\varphi(n)$ 是 $1\\le a\\le n$ 中与 $n$ 互素的整数个数。",
+    "example": "$\\varphi(18)=6$, represented by $1,5,7,11,13,17$.",
+    "distinction": "$\\varphi(1)=1$ under this convention; $\\varphi(n)$ counts invertible residue classes, not primes below $n$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Euler's Theorem, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/eulerthm.pdf",
+        "locator": "Section 1, formula (1.1) and footnote 2 on the convention at 1",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第三章，第三节 欧拉函数 (PDF page 4); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "eulers-theorem",
+    "english": "Euler's theorem on congruences",
+    "chinese": "欧拉定理",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "If $n\\ge2$ and $\\gcd(a,n)=1$, then $a^{\\varphi(n)}\\equiv1\\pmod n$.",
+    "definitionZh": "若 $n\\ge2$ 且 $\\gcd(a,n)=1$，则 $a^{\\varphi(n)}\\equiv1\\pmod n$。",
+    "example": "$3^4=81\\equiv1\\pmod{10}$ since $\\varphi(10)=4$.",
+    "distinction": "Coprimality cannot be weakened to $a\\not\\equiv0$: $2^4\\not\\equiv1\\pmod{10}$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Euler's Theorem, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/eulerthm.pdf",
+        "locator": "Section 1, Theorem 1.2",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第三章，第四节 欧拉定理、费尔马定理 (PDF page 4); name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fermats-little-theorem",
+    "english": "Fermat's little theorem",
+    "chinese": "费尔马小定理",
+    "aliases": [
+      "Fermat little theorem",
+      "费马小定理"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "If $p$ is prime and $p\\nmid a$, then $a^{p-1}\\equiv1\\pmod p$; equivalently $a^p\\equiv a$ for every integer $a$.",
+    "definitionZh": "若 $p$ 为素数且 $p\\nmid a$，则 $a^{p-1}\\equiv1\\pmod p$；等价地，对任意整数 $a$ 有 $a^p\\equiv a\\pmod p$。",
+    "example": "$3^6=729\\equiv1\\pmod7$.",
+    "distinction": "The hypothesis that the modulus is prime matters; the little theorem differs from Fermat's last theorem about sums of powers.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Euler's Theorem, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/eulerthm.pdf",
+        "locator": "Section 1, Theorem 1.1; equivalent all-integer formulation follows by separating p divides a",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新乡学院数学与统计学院 — 初等数论课程教学大纲",
+        "url": "https://sx.xxu.edu.cn/chudengshulun-110823.pdf",
+        "locator": "第三章 同余，基本概念段落 Fermat 小定理及第四节 费尔马定理，PDF page 4 (zero-based index 3); combined naming evidence",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "熊平、朱天清 — 信息安全原理及应用，清华大学出版社官方目录",
+        "url": "https://www.tup.tsinghua.edu.cn/bookscenter/book_02883701.html",
+        "locator": "目录，第4章 公钥密码体制，4.2.4 费尔马小定理; publisher naming evidence only, not textbook body",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "清华大学出版社 — 官方图书目录（catalogue 01216901）",
+        "url": "https://www.tup.tsinghua.edu.cn/bookscenter/bookcatalog?id=01216901",
+        "locator": "第11章 初等数论，11.5 欧拉定理和费马小定理 (printed-page listing 306); name variant evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "chinese-remainder-theorem",
+    "english": "Chinese remainder theorem for integers",
+    "chinese": "整数中国剩余定理",
+    "aliases": [
+      "CRT"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For pairwise coprime positive integers $m_1,\\ldots,m_r$, any prescribed residues have a simultaneous integer solution unique modulo $\\prod_i m_i$.",
+    "definitionZh": "对两两互素的正整数 $m_1,\\ldots,m_r$，任意指定的剩余类都有同时满足的整数解，且解模 $\\prod_i m_i$ 唯一。",
+    "example": "$x\\equiv2\\pmod3,\\ x\\equiv3\\pmod5$ gives $x\\equiv8\\pmod{15}$.",
+    "distinction": "For noncoprime moduli, compatibility is required and the uniqueness modulus becomes the least common multiple.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，第五章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "Theorem prop:CRT and following paragraph specializing R=Z, I_i=a_i Z",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，第五章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "定理 prop:CRT 中国剩余定理，紧随的初等数论特例",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "mobius-function",
+    "english": "Möbius function on positive integers",
+    "chinese": "默比乌斯函数",
+    "aliases": [
+      "arithmetic Möbius function"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "$\\mu(1)=1$; $\\mu(n)=(-1)^r$ if $n$ is a product of $r$ distinct primes, and $\\mu(n)=0$ if a prime square divides $n$.",
+    "definitionZh": "$\\mu(1)=1$；若 $n$ 是 $r$ 个不同素数的乘积则 $\\mu(n)=(-1)^r$；若有素数平方整除 $n$ 则 $\\mu(n)=0$。",
+    "example": "$\\mu(30)=-1$, while $\\mu(12)=0$.",
+    "distinction": "This is the arithmetic function on positive integers; Möbius functions of arbitrary partially ordered sets have a broader domain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.2.4, footnote 2, printed page 11: definition of mu",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.4，printed page 11 脚注2 默比乌斯函数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "mobius-inversion",
+    "english": "Möbius inversion for divisor sums",
+    "chinese": "默比乌斯反演",
+    "aliases": [
+      "divisor-sum Möbius inversion"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For functions on positive integers, $F(n)=\\sum_{d\\mid n}f(d)$ implies $f(n)=\\sum_{d\\mid n}\\mu(n/d)F(d)$.",
+    "definitionZh": "对正整数上的函数，若 $F(n)=\\sum_{d\\mid n}f(d)$，则 $f(n)=\\sum_{d\\mid n}\\mu(n/d)F(d)$。",
+    "example": "From $n=\\sum_{d\\mid n}\\varphi(d)$ one gets $\\varphi(6)=6-3-2+1=2$.",
+    "distinction": "This divisor-poset formula uses the arithmetic Möbius function; it is not matrix inversion or a Möbius transformation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.2.4, footnote 2, printed page 11: divisor-sum inversion formula",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.4，printed page 11 脚注2 默比乌斯反演",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "pell-equation",
+    "english": "Pell equation",
+    "chinese": "佩尔方程",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For a positive nonsquare integer $d$, the equation $x^2-dy^2=1$ with integer unknowns $x,y$.",
+    "definitionZh": "对正的非平方整数 $d$，以整数 $x,y$ 为未知量的方程 $x^2-dy^2=1$。",
+    "example": "$3^2-2\\cdot2^2=1$, so $(x,y)=(3,2)$ solves the equation for $d=2$.",
+    "distinction": "Some authors include the negative equation with right side -1 under the same name; this entry fixes the right side as +1.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.3.4, printed page 17, equations with right sides ±1; entry restricted to +1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.3.4 佩尔方程，printed page 17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cyclotomic-polynomial",
+    "english": "cyclotomic polynomial",
+    "chinese": "分圆多项式",
+    "aliases": [
+      "cyclotomic polynomial of order n"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For $n\\ge1$, $\\Phi_n(X)$ is the monic polynomial whose roots are the complex roots of unity of exact order $n$.",
+    "definitionZh": "对正整数 $n$，$\\Phi_n(X)$ 是以所有阶恰为 $n$ 的复单位根为根的首一多项式。",
+    "example": "$\\Phi_6(X)=X^2-X+1$.",
+    "distinction": "$X^n-1$ includes roots of all orders dividing $n$; $\\Phi_n$ includes only primitive $n$th roots.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.2.4, printed page 11, product defining Phi_N and factorization of T^N-1; n=1,2 are immediate extensions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.4，printed page 11 分圆多项式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quadratic-field",
+    "english": "quadratic number field",
+    "chinese": "二次数域",
+    "aliases": [
+      "quadratic field"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A degree-two extension of $\\mathbb Q$, equivalently $\\mathbb Q(\\sqrt d)$ for a squarefree integer $d\\ne0,1$.",
+    "definitionZh": "有理数域的二次扩张；等价地，形如 $\\mathbb Q(\\sqrt d)$，其中 $d\\ne0,1$ 为无平方因子整数。",
+    "example": "$\\mathbb Q(\\sqrt{-3})$ is an imaginary quadratic field.",
+    "distinction": "The sign of d separates real and imaginary quadratic fields; adjoining a square root to an arbitrary base field is a broader construction.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.2.2, Example 1.2 and Section 1.2.3, Exercise 1.2.8(1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.3，printed page 10 习题1.2.8(1) 二次域；§1.2.2 例题1.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "number-field",
+    "english": "number field",
+    "chinese": "数域",
+    "aliases": [
+      "algebraic number field"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A field $K$ containing $\\mathbb Q$ with finite degree $[K:\\mathbb Q]$.",
+    "definitionZh": "有理数域 $\\mathbb Q$ 的有限扩张。",
+    "example": "$\\mathbb Q(\\sqrt2)$ has degree $2$ over $\\mathbb Q$.",
+    "distinction": "$\\mathbb Q(t)$ with transcendental $t$ is not a number field; algebraicity alone without finite degree also does not suffice.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Chapter 1 opening paragraph, printed page 1: finite extension of Q",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "第一章开头，printed page 1 代数数域",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "algebraic-integer",
+    "english": "algebraic integer",
+    "chinese": "代数整数",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A complex number satisfying a monic polynomial with coefficients in $\\mathbb Z$.",
+    "definitionZh": "满足某个首一整系数多项式的复数。",
+    "example": "$(1+\\sqrt5)/2$ satisfies $X^2-X-1=0$.",
+    "distinction": "An algebraic number need not be integral: $1/2$ satisfies $2X-1=0$ but no monic integer polynomial.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definitions 1.10 and 1.14, printed pages 6–7; monicity comes from Definition 1.10",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义1.14，printed page 7 代数整数；定义1.10，printed page 6 首一条件",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ring-of-integers",
+    "english": "ring of integers of a number field",
+    "chinese": "数域的整数环",
+    "aliases": [
+      "number-field integer ring"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$, $\\mathcal O_K$ is the subring of elements integral over $\\mathbb Z$.",
+    "definitionZh": "对数域 $K$，其整数环 $\\mathcal O_K$ 是 $K$ 中所有在 $\\mathbb Z$ 上整的元素组成的子环。",
+    "example": "$\\mathcal O_{\\mathbb Q(\\sqrt5)}=\\mathbb Z[(1+\\sqrt5)/2]$.",
+    "distinction": "It is the full integral closure, and may be larger than a ring generated by a convenient algebraic integer.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definitions 1.10, 1.14 and Example 1.2, printed pages 6–7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.2 定义1.14 整数环，printed page 7",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integral-basis",
+    "english": "integral basis of a number field",
+    "chinese": "数域的整基",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "A $\\mathbb Z$-basis of the additive group $\\mathcal O_K$ for a number field $K$.",
+    "definitionZh": "数域整数环 $\\mathcal O_K$ 作为自由阿贝尔群的一组 $\\mathbb Z$-基。",
+    "example": "$\\{1,(1+\\sqrt5)/2\\}$ is an integral basis of $\\mathbb Q(\\sqrt5)$.",
+    "distinction": "$\\{1,\\sqrt5\\}$ is a $\\mathbb Q$-basis of that field but does not generate its full integer ring over $\\mathbb Z$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Theorem 1.15 and text before Proposition 1.16 and Definition 1.17, printed pages 7–8",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.2，printed page 8 命题1.16前的 整基 及定义1.17",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "number-field-discriminant",
+    "english": "discriminant of a number field",
+    "chinese": "数域的判别式",
+    "aliases": [
+      "absolute number-field discriminant"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For an integral basis $\\omega_1,\\ldots,\\omega_n$ of $K$, $D_K=\\det(\\operatorname{Tr}_{K/\\mathbb Q}(\\omega_i\\omega_j))$, independent of that basis.",
+    "definitionZh": "若 $\\omega_1,\\ldots,\\omega_n$ 是 $K$ 的整基，则 $D_K=\\det(\\operatorname{Tr}_{K/\\mathbb Q}(\\omega_i\\omega_j))$，此值与整基选取无关。",
+    "example": "$D_{\\mathbb Q(\\sqrt5)}=5$.",
+    "distinction": "A power-basis discriminant may differ by the square of an index; for the basis 1, sqrt(5) it is 20.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definition 1.5, Proposition 1.16 and Definition 1.17, printed pages 4,8",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义1.17，printed page 8 K的判别式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "number-field-trace",
+    "english": "trace of a number-field element",
+    "chinese": "数域元素的迹",
+    "aliases": [
+      "absolute field trace"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$ and $\\alpha\\in K$, $\\operatorname{Tr}_{K/\\mathbb Q}(\\alpha)$ is the trace of the $\\mathbb Q$-linear map $x\\mapsto\\alpha x$ on $K$.",
+    "definitionZh": "数域 $K$ 中元素 $\\alpha$ 的迹，是乘法映射 $x\\mapsto\\alpha x$ 作为 $K$ 上 $\\mathbb Q$-线性变换的迹。",
+    "example": "$\\operatorname{Tr}_{\\mathbb Q(\\sqrt2)/\\mathbb Q}(3+\\sqrt2)=6$.",
+    "distinction": "The ambient extension matters: the trace of 3 from a quadratic field is 6, although its minimal polynomial over Q has degree one.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.1.1, Definition 1.1, printed page 1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.1.1 定义1.1 迹，printed page 1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "number-field-norm",
+    "english": "norm of a number-field element",
+    "chinese": "数域元素的范数",
+    "aliases": [
+      "absolute field norm"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For $\\alpha\\in K$ with $K$ a number field, $N_{K/\\mathbb Q}(\\alpha)$ is the determinant of multiplication by $\\alpha$ on the $\\mathbb Q$-vector space $K$.",
+    "definitionZh": "数域 $K$ 中元素 $\\alpha$ 的范数，是乘法映射 $x\\mapsto\\alpha x$ 在 $\\mathbb Q$-向量空间 $K$ 上的行列式。",
+    "example": "$N_{\\mathbb Q(\\sqrt2)/\\mathbb Q}(1+\\sqrt2)=-1$.",
+    "distinction": "A field norm may be negative; it differs from a metric norm and from the positive index defining the norm of an integral ideal.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.1.1, Definition 1.1 and footnote a, printed page 1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.1.1 定义1.1 范数，printed page 1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cyclotomic-field",
+    "english": "cyclotomic number field",
+    "chinese": "分圆域",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "A field $\\mathbb Q(\\zeta_n)$ generated by a complex root of unity $\\zeta_n$ of exact order $n$.",
+    "definitionZh": "由一个阶恰为 $n$ 的复单位根 $\\zeta_n$ 生成的数域 $\\mathbb Q(\\zeta_n)$。",
+    "example": "$\\mathbb Q(\\zeta_4)=\\mathbb Q(i)$.",
+    "distinction": "Different orders can define the same field: $\\mathbb Q(\\zeta_3)=\\mathbb Q(\\zeta_6)$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.2.3, Exercise 1.2.8(2) and Section 1.2.4, Proposition 1.22",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.3 习题1.2.8(2) 分圆域；§1.2.4，printed pages 10–11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "fractional-ideal-of-number-field",
+    "english": "fractional ideal of a number field",
+    "chinese": "数域的分式理想",
+    "aliases": [
+      "number-field fractional ideal"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$, a nonzero finitely generated $\\mathcal O_K$-submodule of $K$; equivalently it becomes an integral ideal after multiplication by a nonzero denominator in $\\mathcal O_K$.",
+    "definitionZh": "数域 $K$ 的一个非零有限生成 $\\mathcal O_K$-子模；等价地，乘以某个非零的整数环元素后成为整理想。",
+    "example": "$\\tfrac12\\mathbb Z[i]$ is a fractional ideal of $\\mathbb Q(i)$.",
+    "distinction": "A fractional ideal need not be contained in the integer ring; an integral ideal is.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.3.1, Definition 1.33, printed page 14, specialized to O_K",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.3.1 定义1.33 分式理想，printed page 14",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ideal-class-group",
+    "english": "ideal class group of a number field",
+    "chinese": "数域的理想类群",
+    "aliases": [
+      "number-field class group"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "The quotient of the multiplicative group of nonzero fractional $\\mathcal O_K$-ideals by the subgroup of principal fractional ideals.",
+    "definitionZh": "非零分式 $\\mathcal O_K$-理想的乘法群对主分式理想子群的商群。",
+    "example": "$\\operatorname{Cl}(\\mathbb Q(i))$ is trivial since $\\mathbb Z[i]$ is a principal ideal domain.",
+    "distinction": "It measures failure of ideals to be principal; it is different from the group of units of the integer ring.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.3.2, quotient Cl_K=I_K/P_K, printed page 15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.3.2，printed page 15 理想类群",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "class-number",
+    "english": "class number of a number field",
+    "chinese": "数域的类数",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "The finite cardinality $h_K=|\\operatorname{Cl}(K)|$ of the ideal class group of a number field $K$.",
+    "definitionZh": "数域 $K$ 的理想类群的有限阶数 $h_K=|\\operatorname{Cl}(K)|$。",
+    "example": "$h_{\\mathbb Q(i)}=1$.",
+    "distinction": "Class number one means every ideal is principal; it does not mean the field has degree one over Q.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.3.2, Theorem 1.38 and following paragraph, printed page 15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定理1.38后，printed page 15 类数",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quadratic-fundamental-unit",
+    "english": "fundamental unit of a real quadratic field",
+    "chinese": "实二次域的基本单位",
+    "aliases": [
+      "fundamental unit in a real quadratic field"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a real quadratic field $K$, a unit $\\varepsilon$ generating $\\mathcal O_K^\\times/\\{\\pm1\\}$, so every unit is $\\pm\\varepsilon^n$ for some $n\\in\\mathbb Z$.",
+    "definitionZh": "对实二次域 $K$，基本单位 $\\varepsilon$ 是 $\\mathcal O_K^\\times/\\{\\pm1\\}$ 的生成元；每个单位均可写成 $\\pm\\varepsilon^n$。",
+    "example": "$1+\\sqrt2$ is a fundamental unit of $\\mathbb Q(\\sqrt2)$.",
+    "distinction": "A fundamental unit need not have norm +1; squaring a norm -1 generator produces a smaller norm-one subgroup.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.3.4, opening unit-group description, printed page 17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.3.4 开头 基本单位，printed page 17",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dirichlet-unit-theorem",
+    "english": "Dirichlet's unit theorem",
+    "chinese": "狄利克雷单位定理",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "If a number field has $r_1$ real embeddings and $r_2$ conjugate pairs of complex embeddings, then $\\mathcal O_K^\\times\\cong\\mu_K\\times\\mathbb Z^{r_1+r_2-1}$, where $\\mu_K$ is its group of roots of unity.",
+    "definitionZh": "若数域有 $r_1$ 个实嵌入和 $r_2$ 对共轭复嵌入，则 $\\mathcal O_K^\\times\\cong\\mu_K\\times\\mathbb Z^{r_1+r_2-1}$，其中 $\\mu_K$ 为单位根群。",
+    "example": "For $\\mathbb Q(\\sqrt2)$ the unit rank is $2+0-1=1$.",
+    "distinction": "The rank uses $r_1+r_2$, whereas the field degree is $r_1+2r_2$; roots of unity are the finite torsion part.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 1.3.2, Theorem 1.37, printed page 15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定理1.37 狄利克雷单位定理，printed page 15",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "p-adic-valuation",
+    "english": "p-adic additive valuation",
+    "chinese": "p 进加性赋值",
+    "aliases": [
+      "p-adic order"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For prime $p$ and nonzero $x\\in\\mathbb Q$, write $x=p^e a/b$ with $p\\nmid ab$ and define $v_p(x)=e$; set $v_p(0)=+\\infty$.",
+    "definitionZh": "对素数 $p$，若非零有理数 $x=p^e a/b$ 且 $p\\nmid ab$，则 $v_p(x)=e$；约定 $v_p(0)=+\\infty$。",
+    "example": "$v_3(18/5)=2$ and $v_3(1/9)=-2$.",
+    "distinction": "This additive exponent is different from the multiplicative absolute value $|x|_p=p^{-v_p(x)}$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definition 2.3 and Exercise 2.1.4, printed page 32; rational specialization",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义2.3 加性赋值及习题2.1.4 p进赋值，printed page 32",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "p-adic-number-field",
+    "english": "p-adic number field",
+    "chinese": "p 进数域",
+    "aliases": [
+      "field of p-adic numbers"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For prime $p$, $\\mathbb Q_p$ is the completion of $\\mathbb Q$ for the absolute value $|x|_p=p^{-v_p(x)}$.",
+    "definitionZh": "对素数 $p$，$\\mathbb Q_p$ 是有理数域关于绝对值 $|x|_p=p^{-v_p(x)}$ 的完备化。",
+    "example": "In $\\mathbb Q_3$, $1+3+3^2+\\cdots=-1/2$.",
+    "distinction": "Despite its name, $\\mathbb Q_p$ is not a number field in the finite-extension-of-$\\mathbb Q$ sense.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，第五章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "Example eg:Z_p, Proposition prop:p-adic and following paragraph defining Q_p as completion of Q",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，第五章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "命题 prop:p-adic 后的 p-进数域 定义段落",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "p-adic-integer",
+    "english": "ring of p-adic integers",
+    "chinese": "p 进整数环",
+    "aliases": [
+      "p-adic integer ring"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For prime $p$, $\\mathbb Z_p=\\{x\\in\\mathbb Q_p:v_p(x)\\ge0\\}$, equivalently the inverse limit of $\\mathbb Z/p^n\\mathbb Z$ under reduction.",
+    "definitionZh": "对素数 $p$，$\\mathbb Z_p=\\{x\\in\\mathbb Q_p:v_p(x)\\ge0\\}$；等价地，它是 $\\mathbb Z/p^n\\mathbb Z$ 关于约化映射的逆极限。",
+    "example": "$1/2\\in\\mathbb Z_3$ but $1/3\\notin\\mathbb Z_3$.",
+    "distinction": "$\\mathbb Z_p$ is a complete ring with infinitely many digits, not the finite quotient $\\mathbb Z/p\\mathbb Z$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，第五章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "Example eg:Z_p, discussion defining v_p and Proposition prop:p-adic",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，第五章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "例 eg:Z_p 中 p-进整数环；命题 prop:p-adic",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hensels-lemma",
+    "english": "Hensel's lemma",
+    "chinese": "亨泽尔引理",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For prime $p$ and $f\\in\\mathbb Z_p[X]$, a simple root $a$ of $f\\bmod p$ lifts to a unique root $\\alpha\\in\\mathbb Z_p$ with $\\alpha\\equiv a\\pmod p$.",
+    "definitionZh": "对素数 $p$ 及 $f\\in\\mathbb Z_p[X]$，$f$ 模 $p$ 的单根 $a$ 可唯一提升为 $\\mathbb Z_p$ 中满足 $\\alpha\\equiv a\\pmod p$ 的根。",
+    "example": "The simple root $3$ of $X^2-2$ modulo $7$ lifts to a $7$-adic root congruent to $10$ modulo $49$.",
+    "distinction": "The derivative must be nonzero modulo p in this version; multiple roots require stronger hypotheses or different lifting statements.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keith Conrad — Hensel's Lemma, University of Connecticut author notes",
+        "url": "https://kconrad.math.uconn.edu/blurbs/gradnumthy/hensel.pdf",
+        "locator": "Section 2, Theorem 2.1, printed page 1; uniqueness proof on printed page 3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "引理2.15 亨泽尔引理，printed page 37",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ramification-index",
+    "english": "ramification index of a local number-field extension",
+    "chinese": "局部数域扩张的分歧指数",
+    "aliases": [
+      "local ramification index"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a finite extension $L/K$ of finite extensions of $\\mathbb Q_p$, the integer $e$ determined by $\\mathfrak m_K\\mathcal O_L=\\mathfrak m_L^e$.",
+    "definitionZh": "对 $\\mathbb Q_p$ 的有限扩张间的有限扩张 $L/K$，分歧指数是满足 $\\mathfrak m_K\\mathcal O_L=\\mathfrak m_L^e$ 的整数 $e$。",
+    "example": "$\\mathbb Q_3(\\sqrt3)/\\mathbb Q_3$ has ramification index $2$.",
+    "distinction": "It measures change of uniformizer order; residue degree measures the extension of residue fields.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 2.3.3, paragraph defining e and equality p O_L=P^e, printed page 49",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§2.3.3 分歧指数 定义段落，printed page 49",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "residue-degree",
+    "english": "residue degree of a local number-field extension",
+    "chinese": "局部数域扩张的惯性指数",
+    "aliases": [
+      "local residue degree",
+      "inertia degree"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a finite extension $L/K$ of $p$-adic local fields, $f(L/K)=[\\mathcal O_L/\\mathfrak m_L:\\mathcal O_K/\\mathfrak m_K]$.",
+    "definitionZh": "对 $p$ 进局部域的有限扩张 $L/K$，惯性指数是剩余域扩张的次数 $[\\mathcal O_L/\\mathfrak m_L:\\mathcal O_K/\\mathfrak m_K]$。",
+    "example": "$\\mathbb Q_3(i)/\\mathbb Q_3$ has residue degree $2$, since $X^2+1$ is irreducible over $\\mathbb F_3$.",
+    "distinction": "The inspected Chinese author calls f the inertia index (惯性指数); it is not the order of the inertia group, which is e in a Galois local extension.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 2.3.3, f=[kappa_L:kappa] and Proposition 2.39, printed page 49",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§2.3.3 明称剩余域扩张次数为 惯性指数，printed page 49",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "unramified-extension",
+    "english": "unramified extension of p-adic local fields",
+    "chinese": "p 进局部域的非分歧扩张",
+    "aliases": [
+      "unramified local extension"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "A finite extension $L/K$ of finite extensions of $\\mathbb Q_p$ having ramification index $e(L/K)=1$.",
+    "definitionZh": "$\\mathbb Q_p$ 的有限扩张间的一个分歧指数为 $1$ 的有限扩张 $L/K$。",
+    "example": "$\\mathbb Q_3(i)/\\mathbb Q_3$ is an unramified quadratic extension.",
+    "distinction": "For general complete discretely valued fields, separability of the residue extension is also required; it is automatic for the finite residue fields used here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 2.3.3, definition following Proposition 2.39, printed page 49",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§2.3.3 非分歧(惯性)，printed page 49",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "tame-ramification",
+    "english": "tame ramification of p-adic local fields",
+    "chinese": "p 进局部域的温分歧",
+    "aliases": [
+      "tamely ramified local extension"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "A finite extension $L/K$ of $p$-adic local fields is tamely ramified when $p\\nmid e(L/K)$.",
+    "definitionZh": "对 $p$ 进局部域的有限扩张 $L/K$，若 $p$ 不整除分歧指数，则称其温分歧。",
+    "example": "$\\mathbb Q_3(\\sqrt3)/\\mathbb Q_3$ is tamely ramified, with $e=2$.",
+    "distinction": "Tame includes unramified extensions (e=1); wild ramification has p dividing e in this finite-residue-field setting.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 2.3.4, Definition 2.45, printed page 50",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义2.45 温分歧，printed page 50",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "adele-ring",
+    "english": "adele ring of a number field",
+    "chinese": "数域的阿代尔环",
+    "aliases": [
+      "adèle ring"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$, the ring of tuples $(x_v)\\in\\prod_v K_v$ such that $x_v\\in\\mathcal O_v$ at all but finitely many finite places, with the restricted product topology.",
+    "definitionZh": "数域 $K$ 的各完备化 $K_v$ 的限制直积：元组 $(x_v)$ 在除有限多个有限素位外均属于 $\\mathcal O_v$，并赋予限制直积拓扑。",
+    "example": "For $K=\\mathbb Q$, $(0,0,0,\\ldots)$ and the diagonal tuple $(1,1,1,\\ldots)$ are adeles.",
+    "distinction": "The full product allows nonintegral components at infinitely many finite places; the adele ring imposes the almost-everywhere integrality condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 3.3.1, Definition 3.47, printed page 89",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义3.47 阿代尔环，printed page 89",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "idele-group",
+    "english": "idele group of a number field",
+    "chinese": "数域的伊代尔群",
+    "aliases": [
+      "idèle group"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$, the restricted product of $K_v^\\times$ relative to $\\mathcal O_v^\\times$ at finite places; algebraically it is $\\mathbb A_K^\\times$.",
+    "definitionZh": "数域 $K$ 的各 $K_v^\\times$ 关于有限素位处 $\\mathcal O_v^\\times$ 的限制直积；在代数上等于阿代尔环的可逆元群。",
+    "example": "The diagonal tuple $(2,2,2,\\ldots)$ is an idele of $\\mathbb Q$, with inverse $(1/2,1/2,1/2,\\ldots)$.",
+    "distinction": "Nonzero components alone are insufficient: the tuple with component p at every finite prime p is an adele but not an idele.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 3.3.1, Definition 3.48, printed page 89",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义3.48 伊代尔群，printed page 89",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hilbert-class-field",
+    "english": "Hilbert class field",
+    "chinese": "希尔伯特类域",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$, its maximal abelian extension unramified at every finite place and split at every real place.",
+    "definitionZh": "数域 $K$ 在所有有限素位非分歧、且所有实素位完全分裂的极大阿贝尔扩张。",
+    "example": "The Hilbert class field of $\\mathbb Q(i)$ is $\\mathbb Q(i)$ itself, since its class number is $1$.",
+    "distinction": "Requiring real places to split selects the ordinary class field; permitting real places to become complex gives the narrow version used in some conventions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 3.3.5, printed page 99 (PDF page 107, zero-based index 106), paragraph defining H_K after Proposition 3.75 and Proposition 3.76",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§3.3.5，printed page 99 (PDF page 107, zero-based index 106)，命题3.75后的 希尔伯特类域 段落及命题3.76",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dirichlet-character",
+    "english": "Dirichlet character",
+    "chinese": "狄利克雷特征",
+    "aliases": [
+      "Dirichlet multiplicative character"
+    ],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For $N\\ge1$, a homomorphism $(\\mathbb Z/N\\mathbb Z)^\\times\\to\\mathbb C^\\times$, extended periodically to integers and assigned $0$ on integers not coprime to $N$.",
+    "definitionZh": "对正整数 $N$，从 $(\\mathbb Z/N\\mathbb Z)^\\times$ 到 $\\mathbb C^\\times$ 的群同态；周期性延拓到整数，并在与 $N$ 不互素的整数上取零。",
+    "example": "Modulo $4$, $\\chi(n)=0$ for even $n$, $1$ for $n\\equiv1$, and $-1$ for $n\\equiv3$.",
+    "distinction": "Its restriction to units is a group character; the extension to all integers has zeros and is not a group homomorphism on their additive group.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 4.1.1, Definition 4.2, printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义4.2 狄利克雷特征，printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "primitive-dirichlet-character",
+    "english": "primitive Dirichlet character",
+    "chinese": "本原狄利克雷特征",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "A Dirichlet character modulo $N$ that is not induced from a character modulo any proper divisor of $N$.",
+    "definitionZh": "模 $N$ 的狄利克雷特征，若不由模 $N$ 的任何真因子的特征诱导而来，则称其本原。",
+    "example": "The nontrivial character modulo $3$, with $\\chi(1)=1$ and $\\chi(2)=-1$, is primitive.",
+    "distinction": "Primitive means minimal modulus of induction; it does not mean a generator of the character group.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 4.1.1, Definition 4.3, printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义4.3 导子和本原，printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "conductor-of-dirichlet-character",
+    "english": "conductor of a Dirichlet character",
+    "chinese": "狄利克雷特征的导子",
+    "aliases": [
+      "Dirichlet-character conductor"
+    ],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a character modulo $N$, the least positive divisor $f$ of $N$ from whose character group it is induced by reduction of units.",
+    "definitionZh": "对模 $N$ 的特征，其导子是使该特征可由模 $f$ 的特征经单位群约化映射诱导而来的最小正因子 $f\\mid N$。",
+    "example": "The character modulo $8$ with values $1,-1,1,-1$ at $1,3,5,7$ has conductor $4$.",
+    "distinction": "The displayed modulus may exceed the conductor; extensions by zero at nonunits need not agree as integer-valued functions at primes removed from the modulus.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definition 4.3 and Example 4.1(1), printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义4.3 导子，例题4.1(1)，printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dirichlet-l-function",
+    "english": "Dirichlet L-function",
+    "chinese": "狄利克雷 L 函数",
+    "aliases": [
+      "Dirichlet L-series"
+    ],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a Dirichlet character $\\chi$, $L(s,\\chi)=\\sum_{n\\ge1}\\chi(n)n^{-s}$ for $\\operatorname{Re}s>1$, with its meromorphic continuation.",
+    "definitionZh": "对狄利克雷特征 $\\chi$，在 $\\operatorname{Re}s>1$ 定义 $L(s,\\chi)=\\sum_{n\\ge1}\\chi(n)n^{-s}$，并取其亚纯延拓。",
+    "example": "For the nontrivial character modulo $4$, $L(2,\\chi)=1-3^{-2}+5^{-2}-7^{-2}+\\cdots$.",
+    "distinction": "A principal character at modulus N gives zeta with the Euler factors at primes dividing N removed; it equals zeta itself only at modulus 1.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definition 4.4, printed page 103, and Theorem 4.10 on continuation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义4.4 狄利克雷特征的L函数，§4.1标题，printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "riemann-zeta-function",
+    "english": "Riemann zeta function",
+    "chinese": "黎曼 ζ 函数",
+    "aliases": [
+      "Riemann zeta"
+    ],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "The function $\\zeta(s)=\\sum_{n\\ge1}n^{-s}$ for $\\operatorname{Re}s>1$, continued meromorphically to $\\mathbb C$ with a simple pole at $1$.",
+    "definitionZh": "在 $\\operatorname{Re}s>1$ 由 $\\zeta(s)=\\sum_{n\\ge1}n^{-s}$ 定义，并亚纯延拓到复平面的函数；在 $1$ 处有一个单极点。",
+    "example": "$\\zeta(2)=1+1/4+1/9+\\cdots=\\pi^2/6$.",
+    "distinction": "The defining series does not converge throughout the continuation domain; zeta at a negative argument means analytic continuation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Definition 4.4, printed page 103, and Theorem 4.10 specialized to trivial character",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§4.1 标题及定义4.4后的 黎曼ζ函数，printed page 103",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "gauss-sum",
+    "english": "Gauss sum of a Dirichlet character",
+    "chinese": "狄利克雷特征的高斯和",
+    "aliases": [
+      "character Gauss sum"
+    ],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a Dirichlet character $\\chi$ modulo $N$, $\\tau(\\chi)=\\sum_{a\\bmod N}\\chi(a)e^{2\\pi i a/N}$.",
+    "definitionZh": "模 $N$ 的狄利克雷特征 $\\chi$ 的高斯和为 $\\tau(\\chi)=\\sum_{a\\bmod N}\\chi(a)e^{2\\pi i a/N}$。",
+    "example": "For the nontrivial character modulo $3$, $\\tau(\\chi)=e^{2\\pi i/3}-e^{4\\pi i/3}=i\\sqrt3$.",
+    "distinction": "The magnitude formula $|\\tau(\\chi)|=\\sqrt N$ requires primitivity; the finite sum is defined more generally.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 4.1.1, equation (4.1), printed page 104; magnitude result follows Lemma 4.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§4.1.1，printed page 104 高斯和 及公式(4.1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dedekind-zeta-function",
+    "english": "Dedekind zeta function",
+    "chinese": "戴德金 ζ 函数",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "analytic-number-theory",
+    "level": "Graduate",
+    "definitionEn": "For a number field $K$, $\\zeta_K(s)=\\sum_{0\\ne\\mathfrak a\\subseteq\\mathcal O_K}|\\mathcal O_K/\\mathfrak a|^{-s}$ for $\\operatorname{Re}s>1$, with its meromorphic continuation.",
+    "definitionZh": "数域 $K$ 的戴德金ζ函数在 $\\operatorname{Re}s>1$ 定义为 $\\sum_{0\\ne\\mathfrak a\\subseteq\\mathcal O_K}|\\mathcal O_K/\\mathfrak a|^{-s}$，并取其亚纯延拓。",
+    "example": "For $K=\\mathbb Q$, $\\zeta_K(s)=\\zeta(s)$ since nonzero ideals of $\\mathbb Z$ are $n\\mathbb Z$.",
+    "distinction": "The sum is over integral ideals rather than algebraic integers; counting elements would repeatedly count generators differing by units.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 4.2 opening, printed page 109, and Corollary 4.23, printed page 112, for meromorphic continuation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§4.2 开头 戴德金ζ函数，printed page 109",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "modular-form",
+    "english": "holomorphic modular form",
+    "chinese": "模形式",
+    "aliases": [
+      "classical modular form"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "For integer $k$ and a congruence subgroup $\\Gamma\\subseteq\\operatorname{SL}_2(\\mathbb Z)$, a holomorphic function on the upper half-plane satisfying $f((a\\tau+b)/(c\\tau+d))=(c\\tau+d)^k f(\\tau)$ for every matrix in $\\Gamma$, and holomorphic at every cusp.",
+    "definitionZh": "对整数权 $k$ 和同余子群 $\\Gamma\\subseteq\\operatorname{SL}_2(\\mathbb Z)$，上半平面上的全纯函数若对群中每个矩阵满足 $f((a\\tau+b)/(c\\tau+d))=(c\\tau+d)^k f(\\tau)$，且在所有尖点全纯，则称为模形式。",
+    "example": "$E_4(\\tau)=1+240\\sum_{n\\ge1}(\\sum_{d\\mid n}d^3)q^n$, $q=e^{2\\pi i\\tau}$, has weight $4$ on $\\operatorname{SL}_2(\\mathbb Z)$.",
+    "distinction": "The transformation law alone defines a weaker object; holomorphy at the cusps is an additional condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "Section sec:modular-form-cong, Definition def:modular-form",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "J. S. Milne — Modular Functions and Modular Forms v1.31",
+        "url": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+        "locator": "Chapter 4, Definition 4.5, printed page 49 (PDF page index 48); Milne writes even weights as 2k",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "李文威 — 模形式初步，第二章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap2.tex",
+        "locator": "Section sec:Eisenstein-fulllevel, E_k and its Fourier expansion",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "定义 def:modular-form 的 模形式 索引和正文",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cusp-form",
+    "english": "holomorphic cusp form",
+    "chinese": "尖点形式",
+    "aliases": [
+      "cuspidal modular form"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "A holomorphic modular form on a congruence subgroup whose Fourier expansion at each cusp has zero constant term.",
+    "definitionZh": "在同余子群的每个尖点处，傅里叶展开的常数项均为零的全纯模形式。",
+    "example": "$\\Delta(\\tau)=q\\prod_{n\\ge1}(1-q^n)^{24}$, $q=e^{2\\pi i\\tau}$, is a weight-$12$ cusp form on $\\operatorname{SL}_2(\\mathbb Z)$.",
+    "distinction": "Vanishing at one cusp is insufficient if the subgroup has several inequivalent cusps; E_4 has constant term 1 and is not cuspidal.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "Definition def:modular-form and Definition-Proposition def:Const",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "J. S. Milne — Modular Functions and Modular Forms v1.31",
+        "url": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+        "locator": "Chapter 4, Definition 4.5, printed page 49 (PDF page index 48); Milne writes even weights as 2k",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "李文威 — 模形式初步，第二章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap2.tex",
+        "locator": "Definition def:Delta and following proposition: Delta belongs to S_12",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "定义 def:modular-form 尖点形式",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "congruence-subgroup",
+    "english": "congruence subgroup of the modular group",
+    "chinese": "模群的同余子群",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "A subgroup of $\\operatorname{SL}_2(\\mathbb Z)$ containing $\\Gamma(N)=\\{\\gamma:\\gamma\\equiv I\\pmod N\\}$ for some $N\\ge1$.",
+    "definitionZh": "包含某个主同余子群 $\\Gamma(N)=\\{\\gamma:\\gamma\\equiv I\\pmod N\\}$ 的 $\\operatorname{SL}_2(\\mathbb Z)$ 的子群。",
+    "example": "$\\Gamma_0(5)=\\{\\left(\\begin{smallmatrix}a&b\\\\c&d\\end{smallmatrix}\\right)\\in\\operatorname{SL}_2(\\mathbb Z):5\\mid c\\}$ contains $\\Gamma(5)$.",
+    "distinction": "Finite index is necessary but not sufficient: a subgroup of finite index need not contain any principal congruence subgroup.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "Section sec:cong-subgroup, definitions of Gamma(N), Gamma_0(N) and congruence subgroup",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "节 sec:cong-subgroup，定义 同余子群",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "modular-curve",
+    "english": "classical modular curve",
+    "chinese": "模曲线",
+    "aliases": [
+      "complex modular curve"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "For a congruence subgroup $\\Gamma$, let $\\mathcal H=\\{\\tau\\in\\mathbb C:\\operatorname{Im}\\tau>0\\}$. The modular curves are the Riemann surface $Y(\\Gamma)=\\Gamma\\backslash\\mathcal H$ and its compactification $X(\\Gamma)$ by adjoining $\\Gamma\\backslash\\mathbb P^1(\\mathbb Q)$; specify Y or X to distinguish them.",
+    "definitionZh": "对同余子群 $\\Gamma$，令 $\\mathcal H=\\{\\tau\\in\\mathbb C:\\operatorname{Im}\\tau>0\\}$。模曲线指商黎曼面 $Y(\\Gamma)=\\Gamma\\backslash\\mathcal H$ 以及添入尖点类 $\\Gamma\\backslash\\mathbb P^1(\\mathbb Q)$ 后的紧化 $X(\\Gamma)$；须用 $Y$ 或 $X$ 区分。",
+    "example": "$X(1)=X(\\operatorname{SL}_2(\\mathbb Z))$ is isomorphic to $\\mathbb P^1(\\mathbb C)$ via $j$.",
+    "distinction": "The quotient has a Riemann surface structure even at elliptic orbits; it is not a smooth free quotient everywhere. This entry fixes the classical complex-analytic sense.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第三章 模曲线的解析理论，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap3.tex",
+        "locator": "Sections sec:Y-charts (final paragraph), sec:X-charts, sec:cong-compactification and Theorem prop:j-Hauptmodul",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第三章 模曲线的解析理论，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap3.tex",
+        "locator": "节 sec:Y-charts 最后一段 (开)模曲线；节 sec:X-charts 与 sec:cong-compactification 的紧化用法",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "modular-function",
+    "english": "modular function",
+    "chinese": "模函数",
+    "aliases": [
+      "meromorphic modular function"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "For a congruence subgroup $\\Gamma$, a meromorphic function on the upper half-plane invariant under $\\Gamma$ and meromorphic at all cusps, equivalently a meromorphic weight-zero modular form.",
+    "definitionZh": "对同余子群 $\\Gamma$，在上半平面亚纯、对 $\\Gamma$ 不变、且在所有尖点也亚纯的函数；即权为零的亚纯模形式。",
+    "example": "$j(\\tau)=q^{-1}+744+196884q+\\cdots$, $q=e^{2\\pi i\\tau}$, is a modular function for $\\operatorname{SL}_2(\\mathbb Z)$.",
+    "distinction": "A pole at a cusp is allowed; a holomorphic weight-zero modular form for a congruence subgroup is constant.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "Remark rem:modular-function",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "李文威 — 模形式初步，第二章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap2.tex",
+        "locator": "Definition def:modular-invariant, following q-expansion and paragraph identifying j as a modular function",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第一章 基本定义，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap1.tex",
+        "locator": "注记 rem:modular-function 模函数",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "eisenstein-series",
+    "english": "normalized full-level holomorphic Eisenstein series",
+    "chinese": "全模群的正规化艾森斯坦级数",
+    "aliases": [
+      "normalized Eisenstein series"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "For even $k\\ge4$ and $\\operatorname{Im}\\tau>0$, $E_k(\\tau)=\\tfrac12\\sum_{(c,d)\\in\\mathbb Z^2,\\ \\gcd(c,d)=1}(c\\tau+d)^{-k}$, an absolutely convergent weight-$k$ modular form with constant term $1$.",
+    "definitionZh": "对偶数 $k\\ge4$ 及 $\\operatorname{Im}\\tau>0$，$E_k(\\tau)=\\tfrac12\\sum_{(c,d)\\in\\mathbb Z^2,\\ \\gcd(c,d)=1}(c\\tau+d)^{-k}$ 是绝对收敛、常数项为 $1$ 的权 $k$ 模形式。",
+    "example": "$E_4(\\tau)=1+240q+2160q^2+\\cdots$, $q=e^{2\\pi i\\tau}$.",
+    "distinction": "This normalization divides the unrestricted lattice sum by 2 zeta(k); weight 2 needs a different treatment and is not included in the convergent definition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "Section 4.3.3, Definition 4.37 and Proposition 4.38, printed page 117; k restricted to at least 4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义 v2.5 (2024-01-09)，合肥工业大学作者讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "定义4.37 艾森斯坦级数，命题4.38，printed page 117",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "hecke-operator",
+    "english": "Hecke operator on classical modular forms",
+    "chinese": "经典模形式上的 Hecke 算子",
+    "aliases": [
+      "full-level Hecke operator"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "On full-level weight-$k$ modular forms, for prime $p$ define $(T_pf)(\\tau)=p^{k-1}f(p\\tau)+p^{-1}\\sum_{b=0}^{p-1}f((\\tau+b)/p)$. Set $T_1=I$, $T_{mn}=T_mT_n$ for coprime $m,n$, and $T_{p^{r+1}}=T_pT_{p^r}-p^{k-1}T_{p^{r-1}}$ for $r\\ge1$.",
+    "definitionZh": "在全模群的权 $k$ 模形式空间上，素数指标算子定义为 $(T_pf)(\\tau)=p^{k-1}f(p\\tau)+p^{-1}\\sum_{b=0}^{p-1}f((\\tau+b)/p)$；并以 $T_1=I$、互素指标的乘性及 $T_{p^{r+1}}=T_pT_{p^r}-p^{k-1}T_{p^{r-1}}$ 定义其余算子。",
+    "example": "For weight $4$, $T_2E_4=9E_4$, since the eigenvalue is $1+2^3$.",
+    "distinction": "This entry fixes full level and the arithmetic normalization; at primes dividing a higher level, the operator has a different formula.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第六章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap6.tex",
+        "locator": "Proposition prop:T_p and its proof; Definition def:T-general, specialized to N=1",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "李文威 — 模形式初步，第五章 Hecke 算子通论，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap5.tex",
+        "locator": "Section sec:Hecke-full-level, example following eg:full-level-eigenform-1, eigenvalue 1+p^(k-1) of an Eisenstein series",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第五章 Hecke 算子通论，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap5.tex",
+        "locator": "第五章标题 Hecke 算子通论；节 sec:modular-form-vs-Hecke-algebra 的正文",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "normalized-hecke-eigenform",
+    "english": "normalized Hecke eigenform",
+    "chinese": "正规化 Hecke 特征形式",
+    "aliases": [
+      "normalized eigenform"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "A nonzero modular form on $\\Gamma_1(N)$ that is a simultaneous eigenvector for its Hecke algebra and has Fourier coefficient $a_1=1$ at infinity.",
+    "definitionZh": "$\\Gamma_1(N)$ 上对其 Hecke 代数为共同特征向量、且在无穷尖点的傅里叶系数满足 $a_1=1$ 的非零模形式。",
+    "example": "$\\Delta=q-24q^2+252q^3+\\cdots$, with $q=e^{2\\pi i\\tau}$, is normalized and satisfies $T_2\\Delta=-24\\Delta$.",
+    "distinction": "Normalization fixes scalar ambiguity but does not assert that the form is new at its level; a general eigenform need not be a cusp form.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第六章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap6.tex",
+        "locator": "Definitions def:eigenform, def:normalized-eigenform and Corollary prop:Hecke-Fourier-eigenvalue",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "李文威 — 模形式初步，第五章 Hecke 算子通论，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap5.tex",
+        "locator": "Section sec:Hecke-full-level, Example eg:full-level-eigenform-1: Delta is normalized",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第六章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap6.tex",
+        "locator": "定义 def:normalized-eigenform 正规化 Hecke 特征形式",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "newform",
+    "english": "newform in the classical cuspidal sense",
+    "chinese": "新形式",
+    "aliases": [
+      "primitive cusp form"
+    ],
+    "area": "number-theory",
+    "topic": "modular-forms",
+    "level": "Graduate",
+    "definitionEn": "A normalized Hecke eigenform in $S_k(\\Gamma_1(N))$ lying in the Petersson orthogonal complement of the old subspace generated by degeneracy images from proper divisor levels.",
+    "definitionZh": "$S_k(\\Gamma_1(N))$ 中的正规化 Hecke 特征形式，且属于由真因子级的退化映射像生成的旧空间的 Petersson 正交补。",
+    "example": "$\\Delta=q\\prod_{n\\ge1}(1-q^n)^{24}$ is a weight-$12$, level-$1$ newform, with $q=e^{2\\pi i\\tau}$.",
+    "distinction": "Being normalized or being in the new subspace alone is insufficient: the definition also requires simultaneous Hecke eigenvector status.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 模形式初步，第六章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap6.tex",
+        "locator": "Definitions def:oldform, def:newform and paragraph stating that the old space at N=1 is zero",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，第六章，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/Modulform/master/chap6.tex",
+        "locator": "定义 def:newform 新形式，又称本原形式",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

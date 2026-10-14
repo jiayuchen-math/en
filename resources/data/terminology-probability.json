@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "probability-space",
+    "english": "probability space",
+    "chinese": "概率空间",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A triple $(\\Omega,\\mathcal F,P)$ in which $\\mathcal F$ is a sigma-algebra on $\\Omega$ and $P$ is a countably additive nonnegative measure with $P(\\Omega)=1$.",
+    "definitionZh": "由样本空间、事件的σ代数及总质量为1的概率测度组成的三元组。",
+    "example": "For a fair four-sided die, $P(\\{1,3\\})=1/2$.",
+    "distinction": "A sample space alone does not specify which events are measurable or their probabilities.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 1, Probability spaces, opening definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.1.4 概率，定义1.5",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sample-space",
+    "english": "sample space",
+    "chinese": "样本空间",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "The set $\\Omega$ of possible outcomes in a specified probability model.",
+    "definitionZh": "给定概率模型中所有可能结果组成的集合。",
+    "example": "Two binary observations have sample space $\\{0,1\\}^2$.",
+    "distinction": "Outcomes are points; events are measurable sets of outcomes.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 1, Probability spaces, explanation of Omega",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.1.1 样本空间，基本概念",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "probability-event",
+    "english": "event",
+    "chinese": "随机事件",
+    "aliases": [
+      "事件"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A member $A$ of the sigma-algebra $\\mathcal F$ in a probability space, so that $P(A)$ is defined.",
+    "definitionZh": "概率空间中属于指定事件σ代数的集合，因而其概率有定义。",
+    "example": "On a die space, $\\{2,4,6\\}$ is the event of an even result.",
+    "distinction": "An arbitrary subset need not be an event on an uncountable sample space.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 1, Probability spaces, explanation of F",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.1.2 σ代数，定义1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "conditional-probability",
+    "english": "conditional probability",
+    "chinese": "条件概率",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For events $A,B$ with $P(B)>0$, the probability of $A$ given $B$ is $P(A\\mid B)=P(A\\cap B)/P(B)$.",
+    "definitionZh": "当条件事件B的概率为正时，A在B条件下的概率等于交事件的概率除以B的概率。",
+    "example": "For a fair die, $P(\\{6\\}\\mid\\{2,4,6\\})=1/3$.",
+    "distinction": "The elementary ratio does not define conditioning on a probability-zero event.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Richard Weber — Probability",
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf",
+        "locator": "§6.1 Conditional probability",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — 概率统计，第1章",
+        "url": "https://ai4edu.sjtu.edu.cn/gltj/chapters/1",
+        "locator": "第1章，核心概念与定义：条件概率（定义 #D）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "independent-events",
+    "english": "independent events",
+    "chinese": "独立事件",
+    "aliases": [
+      "independence of events",
+      "事件独立性"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "Events $A_i$ are mutually independent if every finite subfamily satisfies $P(\\bigcap_{i\\in J}A_i)=\\prod_{i\\in J}P(A_i)$.",
+    "definitionZh": "任意有限子族的交事件概率都等于各事件概率之积时，该事件族相互独立。",
+    "example": "Heads on the first and second toss of independent fair coins are independent events.",
+    "distinction": "Pairwise independence checks pairs only and need not imply mutual independence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Richard Weber — Probability",
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf",
+        "locator": "§§5.2–5.3 Independence of two / multiple events",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.1 独立性，定义1.15及注2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "random-variable",
+    "english": "random variable",
+    "chinese": "随机变量",
+    "aliases": [
+      "r.v."
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A real-valued measurable map $X:(\\Omega,\\mathcal F)\\to(\\mathbb R,\\mathcal B(\\mathbb R))$ on a probability space.",
+    "definitionZh": "概率空间上取实数值的可测函数；每个Borel集合的原像必须是事件。",
+    "example": "If $A$ is an event, $X=1_A$ is a random variable.",
+    "distinction": "A random variable is a function; its observed value and its distribution are different objects.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 2, Random variables, opening definition and indicator example",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.1 随机变量，定义1.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "probability-distribution",
+    "english": "probability distribution",
+    "chinese": "概率分布",
+    "aliases": [
+      "law",
+      "分布"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "The probability measure induced by a random variable $X$, given by $\\mu_X(B)=P(X\\in B)$ on Borel sets.",
+    "definitionZh": "随机变量在取值空间上诱导的概率测度，即把每个Borel集合赋值为变量落入其中的概率。",
+    "example": "A fair binary indicator has mass $1/2$ at each of $0$ and $1$.",
+    "distinction": "Identical distributions do not imply that two variables agree on their underlying probability space.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 2, Random variables, distribution mu_X",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.1 随机变量，分布与同一分布函数的说明",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cumulative-distribution-function",
+    "english": "cumulative distribution function",
+    "chinese": "分布函数",
+    "aliases": [
+      "CDF",
+      "cdf"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For a real random variable $X$, $F_X(x)=P(X\\le x)$; it is nondecreasing, right-continuous, and has limits $0$ and $1$ at the two infinities.",
+    "definitionZh": "实随机变量不超过x的概率所构成的函数；它单调不减、右连续，两端极限分别为0和1。",
+    "example": "For $X=0$ almost surely, $F_X(x)=0$ for $x<0$ and $1$ for $x\\ge0$.",
+    "distinction": "The convention uses a non-strict inequality; a jump is the mass at that point.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 2, Random variables, distribution function and its properties",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.1 定义1.6；§1.2.2 分布函数的性质",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "probability-mass-function",
+    "english": "probability mass function",
+    "chinese": "概率质量函数",
+    "aliases": [
+      "PMF",
+      "pmf"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For a discrete random variable with countable support $S$, the function $p(x)=P(X=x)$ on $S$, whose nonnegative values sum to one.",
+    "definitionZh": "离散随机变量在各个可能取值处的概率函数，所有非负质量之和为1。",
+    "example": "A fair binary variable has $p(0)=p(1)=1/2$.",
+    "distinction": "Mass is point probability; density with respect to length is not point probability.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Richard Weber — Probability",
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf",
+        "locator": "§7.2 Discrete random variables, probability mass function",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3 常用分布，离散型随机变量与PMF",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "probability-density-function",
+    "english": "probability density function",
+    "chinese": "概率密度",
+    "aliases": [
+      "PDF",
+      "pdf",
+      "概率密度函数"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A nonnegative measurable function $f$ with $P(X\\in B)=\\int_B f(x)\\,dx$ for every Borel set $B$, when the law is absolutely continuous with respect to Lebesgue measure.",
+    "definitionZh": "当分布对勒贝格测度绝对连续时，用在集合上的积分给出概率的非负可测函数。",
+    "example": "Uniform probability on $[0,1/2]$ has density $2$ on that interval.",
+    "distinction": "A density may exceed one and is determined only almost everywhere; a continuous CDF need not have a density.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 2, Random variables, density and Cantor-function example",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3 常用分布，连续型随机变量与概率密度",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "expectation",
+    "english": "expectation",
+    "chinese": "数学期望",
+    "aliases": [
+      "expected value",
+      "mean"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For an integrable real random variable $X$, its expectation is $E[X]=\\int_\\Omega X\\,dP$; for nonnegative $X$, an extended value $+\\infty$ is allowed.",
+    "definitionZh": "可积实随机变量关于概率测度的积分；对非负变量可允许结果为正无穷。",
+    "example": "If $P(X=2)=1/4$ and $P(X=0)=3/4$, then $E[X]=1/2$.",
+    "distinction": "A Cauchy variable has no expectation; its symmetric principal value is not an expectation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 2, expectation definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.3.2 数字特征，定义1.11(1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "variance",
+    "english": "variance",
+    "chinese": "方差",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For $E[X^2]<\\infty$, the variance is $\\operatorname{Var}(X)=E[(X-E[X])^2]$.",
+    "definitionZh": "二阶矩有限的随机变量与其均值之差的平方的期望。",
+    "example": "A fair $0/1$ variable has variance $1/4$.",
+    "distinction": "Variance has squared units; standard deviation is its nonnegative square root.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 2, variance definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.3.2 数字特征，定义1.11，方差",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "covariance",
+    "english": "covariance",
+    "chinese": "协方差",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For square-integrable real $X,Y$, $\\operatorname{Cov}(X,Y)=E[(X-E[X])(Y-E[Y])]$.",
+    "definitionZh": "两个二阶矩有限变量的中心化乘积的期望。",
+    "example": "If $Y=2X$ and $\\operatorname{Var}(X)=3$, then $\\operatorname{Cov}(X,Y)=6$.",
+    "distinction": "Zero covariance need not imply independence: symmetric $X$ and $X^2$ can be dependent and uncorrelated.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Richard Weber — Probability",
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf",
+        "locator": "Chapter 10, Covariance and correlation, covariance definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.3.2 数字特征，定义1.11，协方差",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "bernoulli-distribution",
+    "english": "Bernoulli distribution",
+    "chinese": "Bernoulli分布",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A distribution supported on $\\{0,1\\}$ with $P(X=1)=p$ and $P(X=0)=1-p$, where $0\\le p\\le1$.",
+    "definitionZh": "取值0和1的分布，其中1的概率为p，0的概率为1−p，且p介于0和1之间。",
+    "example": "An event indicator $1_A$ has Bernoulli distribution with parameter $P(A)$.",
+    "distinction": "Bernoulli counts one success indicator; a binomial variable counts successes across a fixed number of independent trials.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§8.1.1 Bernoulli and Binomial",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3.2 Bernoulli分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "binomial-distribution",
+    "english": "binomial distribution",
+    "chinese": "二项分布",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For an integer $n\\ge0$ and $0\\le p\\le1$, the law of the sum of $n$ independent Bernoulli$(p)$ variables; its mass is $\\binom nk p^k(1-p)^{n-k}$ for $0\\le k\\le n$.",
+    "definitionZh": "n个独立、成功概率均为p的0/1变量之和的分布，n为非负整数；端点参数按退化分布理解。",
+    "example": "For $n=3,p=1/2$, the probability of two successes is $3/8$.",
+    "distinction": "Independent trials with different success probabilities do not generally give a binomial law.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§8.1.1 Bernoulli and Binomial",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3.3 二项分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "poisson-distribution",
+    "english": "Poisson distribution",
+    "chinese": "泊松分布",
+    "aliases": [
+      "Poisson分布"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For $\\lambda>0$, a law on nonnegative integers with $P(X=k)=e^{-\\lambda}\\lambda^k/k!$.",
+    "definitionZh": "在非负整数上取值、k处概率为指数因子与λ的k次方除以k阶乘的分布，参数λ为正。",
+    "example": "For $\\lambda=2$, $P(X=0)=e^{-2}$ and $E[X]=2$.",
+    "distinction": "The parameter is the mean count, not the probability of a single event; both mean and variance equal lambda.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§8.1.2 Poisson distribution",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3.4 泊松分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "uniform-distribution",
+    "english": "continuous uniform distribution",
+    "chinese": "均匀分布",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For real $a<b$, the law with density $1/(b-a)$ on $[a,b]$ and zero elsewhere.",
+    "definitionZh": "有限非退化区间上的连续分布，密度在该区间内恒为区间长度的倒数，在外为0。",
+    "example": "Uniform probability on $[2,6]$ assigns probability $1/4$ to $[3,4]$.",
+    "distinction": "This record concerns a real interval; a discrete uniform law uses equal masses, and endpoints do not change this continuous law.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 3, Exercise 3.8(i), uniform law on [0,1] and density",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3.9 均匀分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "gaussian-distribution",
+    "english": "normal distribution",
+    "chinese": "正态分布",
+    "aliases": [
+      "Gaussian distribution",
+      "高斯分布"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For $\\mu\\in\\mathbb R$ and $\\sigma>0$, the law with density $(\\sigma\\sqrt{2\\pi})^{-1}\\exp(-(x-\\mu)^2/(2\\sigma^2))$ on $\\mathbb R$.",
+    "definitionZh": "均值为μ、方差为正数σ²的实数分布，其密度具有对应的高斯指数形式。",
+    "example": "The standard normal law is $N(0,1)$.",
+    "distinction": "Here the second parameter of N is variance, not standard deviation; the singular sigma=0 extension must be stated separately.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§8.2.1 Normal distribution",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3.10 正态分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "exponential-distribution",
+    "english": "exponential distribution",
+    "chinese": "指数分布",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For rate $\\lambda>0$, the nonnegative law with survival probability $P(X>t)=e^{-\\lambda t}$ for $t\\ge0$.",
+    "definitionZh": "速率参数λ为正的非负连续分布，超过非负t的概率为exp(−λt)。",
+    "example": "With rate $2$, $P(X>1)=e^{-2}$ and $E[X]=1/2$.",
+    "distinction": "Rate lambda is the reciprocal of the mean; some texts parameterize by the mean instead.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§8.2.2 Exponential distribution",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.2.3.13 指数分布",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "characteristic-function-probability",
+    "english": "characteristic function of a probability distribution",
+    "chinese": "特征函数",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For a real random variable $X$, the function $\\varphi_X(t)=E[e^{itX}]$ for $t\\in\\mathbb R$, using this sign convention.",
+    "definitionZh": "实随机变量的复指数exp(itX)的期望所组成的函数，t取任意实数。",
+    "example": "For a fair sign $X$, $\\varphi_X(t)=\\cos t$.",
+    "distinction": "This is not an event indicator, which analysis texts may also call a characteristic function; it exists without moment assumptions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 5, Central limit theorem, characteristic-function definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.3.5 特征函数，定义1.13",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "conditional-expectation",
+    "english": "conditional expectation",
+    "chinese": "条件期望",
+    "aliases": [
+      "条件数学期望"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "For integrable $X$ and a sub-sigma-algebra $\\mathcal G$, an integrable $\\mathcal G$-measurable variable $Y$ satisfying $\\int_A Y\\,dP=\\int_A X\\,dP$ for every $A\\in\\mathcal G$; $Y$ is unique almost surely.",
+    "definitionZh": "给定子σ代数时，与原变量在其中每个事件上积分相同的可积、该子σ代数可测的变量；它在几乎必然相等意义下唯一。",
+    "example": "For a fair die $X$, conditioning on parity gives $E[X\\mid\\text{parity}]=4$ on even outcomes and $3$ on odd outcomes.",
+    "distinction": "It is a random variable relative to information; conditioning on one positive-probability event instead produces a number.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§6.1 Definition and properties, characterization (16)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.4 关于σ代数的条件期望，定义1.19",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "pairwise-independent-events",
+    "english": "pairwise independent events",
+    "chinese": "两两独立事件",
+    "aliases": [
+      "pairwise independence"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A family of events in one probability space for which $P(A_i\\cap A_j)=P(A_i)P(A_j)$ whenever $i\\ne j$.",
+    "definitionZh": "同一概率空间中的事件族，任意两个不同事件的交概率都等于各自概率之积。",
+    "example": "For two independent fair bits, events 'first is 1', 'second is 1', and 'bits differ' are pairwise independent but their triple intersection is empty.",
+    "distinction": "Checking all pairs does not establish mutual independence for three or more events.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Richard Weber — Probability",
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/prob/prob-weber.pdf",
+        "locator": "§5.3 Independence of multiple events, pairwise-independence discussion",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.1 独立性，注2：两两独立不一定相互独立",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "independent-random-variables",
+    "english": "independent random variables",
+    "chinese": "独立随机变量",
+    "aliases": [
+      "independence of random variables"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "Variables $X_i$ whose every finite subfamily satisfies $P(X_{i_j}\\in B_j,\\ 1\\le j\\le r)=\\prod_{j=1}^rP(X_{i_j}\\in B_j)$ for all Borel sets $B_j$.",
+    "definitionZh": "任意有限子族在任意指定Borel集合中同时取值的概率，都等于各自取值概率之积的随机变量族。",
+    "example": "The coordinates on a product of independent fair-coin spaces are independent random variables.",
+    "distinction": "Zero covariance is insufficient; independence concerns all measurable questions, not just first and second moments.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 3, Independence, random-variable definition and infinite-family convention",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.1 独立性，定义1.15(5)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "conditionally-independent-events",
+    "english": "conditionally independent events",
+    "chinese": "条件独立",
+    "aliases": [
+      "conditional independence of events"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For an event $C$ with $P(C)>0$, events $A,B$ are independent given $C$ when $P(A\\cap B\\mid C)=P(A\\mid C)P(B\\mid C)$.",
+    "definitionZh": "当条件事件C的概率为正时，在C所诱导的概率律下交事件概率等于各条件概率之积。",
+    "example": "For independent fair bits, conditioning on the bits being equal makes the two 'bit is 1' events dependent: $1/2\\ne(1/2)^2$.",
+    "distinction": "Unconditional independence and independence after conditioning do not imply one another; this entry uses event conditioning.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.3 定义1.18，条件独立的数学公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.3 关于一个随机变量的条件期望，定义1.18",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "almost-sure-convergence",
+    "english": "almost sure convergence",
+    "chinese": "几乎必然收敛",
+    "aliases": [
+      "a.s. convergence",
+      "convergence with probability one",
+      "以概率1收敛"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "On one probability space, $X_n\\to X$ almost surely if $P(\\{\\omega:\\lim_nX_n(\\omega)=X(\\omega)\\})=1$.",
+    "definitionZh": "在同一概率空间上，存在概率为1的事件，使变量序列在其中每个样本点上收敛于目标变量。",
+    "example": "For uniform $U\\in(0,1)$, $n1_{\\{U<1/n\\}}\\to0$ almost surely although every expectation is $1$.",
+    "distinction": "The exceptional null set is chosen for the whole sequence, not separately to assert convergence at one time.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 4, opening definition of almost-sure convergence",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.4 收敛性，定义1.14(1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "convergence-in-probability",
+    "english": "convergence in probability",
+    "chinese": "依概率收敛",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "Variables on one probability space satisfy $X_n\\to X$ in probability when $P(|X_n-X|>\\varepsilon)\\to0$ for every $\\varepsilon>0$.",
+    "definitionZh": "同一概率空间上的变量序列，其偏离目标超过任何固定正误差的概率趋于0。",
+    "example": "If $P(A_n)=1/n$, then $1_{A_n}\\to0$ in probability, whether or not the events are independent.",
+    "distinction": "This does not guarantee convergence on almost every path; the bad events may keep moving.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 4, opening definition of convergence in probability",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.4 收敛性，定义1.14(2)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "convergence-in-distribution",
+    "english": "convergence in distribution",
+    "chinese": "依分布收敛",
+    "aliases": [
+      "weak convergence of probability laws"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "Real-valued laws converge in distribution when their CDFs converge to the limiting CDF at all its continuity points.",
+    "definitionZh": "实数概率分布的分布函数在极限分布函数的每个连续点上收敛。",
+    "example": "If $Z$ is a fair sign, $(-1)^n Z$ has the same law for all $n$ and thus converges in distribution to that law, while its paths alternate.",
+    "distinction": "The variables need not share a probability space; continuity points are essential when the limiting law has atoms.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+        "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "locator": "§3.2 Weak Convergence, opening definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.4 收敛性，定义1.14(4)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lp-convergence-random-variables",
+    "english": "Lp convergence of random variables",
+    "chinese": "p次平均收敛",
+    "aliases": [
+      "mean-square convergence when p=2",
+      "均方收敛（p=2）"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "For $p\\ge1$, random variables $X_n,X$ on one probability space with finite $p$th moments converge in $L^p$ when $E|X_n-X|^p\\to0$.",
+    "definitionZh": "p≥1时，具有有限p阶矩的同空间随机变量，其误差绝对值的p次方期望趋于0。",
+    "example": "A deterministic sequence $X_n=1/n$ converges to zero in every $L^p$, $p\\ge1$.",
+    "distinction": "It controls error size as well as frequency; almost sure convergence alone does not suffice.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.4 定义1.14(3)，p阶误差积分公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.4 收敛性，定义1.14(3)：p次平均收敛及均方收敛",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "independent-identically-distributed",
+    "english": "independent and identically distributed",
+    "chinese": "独立同分布",
+    "aliases": [
+      "i.i.d.",
+      "iid"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "A family of random variables that is mutually independent and whose members all have the same probability law.",
+    "definitionZh": "各成员具有相同分布且整个变量族相互独立。",
+    "example": "Independent repeated rolls of the same fair die give an i.i.d. sequence.",
+    "distinction": "Identical marginals do not imply independence: repeating one random variable at every time gives the same marginals but dependence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 4, i.i.d. definition before the weak law",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+        "locator": "§1.5.3 例1.32，独立同分布序列",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "martingale",
+    "english": "martingale",
+    "chinese": "鞅",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "An adapted discrete-time process $M_n$ with $E|M_n|<\\infty$ and $E[M_{n+1}\\mid\\mathcal F_n]=M_n$ almost surely for each $n$, relative to a specified filtration.",
+    "definitionZh": "对指定信息流适应、每时刻可积，并且下一时刻给定当前信息的条件期望等于当前值的过程。",
+    "example": "Partial sums of independent integrable mean-zero increments form a martingale in their natural filtration.",
+    "distinction": "Constant unconditional expectations are insufficient, and enlarging the filtration with future information can destroy the property.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§6.2 Martingales, definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+        "locator": "§6.1.1 定义，定义6.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "submartingale",
+    "english": "submartingale",
+    "chinese": "下鞅",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "An integrable adapted discrete-time process $X_n$ with $E[X_{n+1}\\mid\\mathcal F_n]\\ge X_n$ almost surely for every $n$.",
+    "definitionZh": "各时刻可积且适应指定信息流，下一时刻的条件期望不小于当前值的离散过程。",
+    "example": "For a square-integrable martingale $M_n$, the process $M_n^2$ is a submartingale.",
+    "distinction": "The Chinese 下鞅 corresponds to conditional increase; this record requires full integrability, unlike broader one-sided conventions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+        "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "locator": "§4.2 Martingales, Almost Sure Convergence, submartingale definition and Theorem 4.2.6",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+        "locator": "§6.1.1 定义，定义6.2(6.3)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "supermartingale",
+    "english": "supermartingale",
+    "chinese": "上鞅",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "An integrable adapted discrete-time process $X_n$ with $E[X_{n+1}\\mid\\mathcal F_n]\\le X_n$ almost surely for every $n$.",
+    "definitionZh": "各时刻可积且适应指定信息流，下一时刻的条件期望不大于当前值的离散过程。",
+    "example": "The deterministic process $X_n=-n$ is a supermartingale in any filtration.",
+    "distinction": "Negating a submartingale produces a supermartingale; 上鞅 here describes conditional decrease.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+        "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "locator": "§4.2 Martingales, Almost Sure Convergence, supermartingale definition and Theorem 4.2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+        "locator": "§6.1.1 定义，定义6.2(6.4)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "probability-filtration",
+    "english": "filtration in probability",
+    "chinese": "σ代数流",
+    "aliases": [
+      "filtration"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "An increasing family $(\\mathcal F_t)$ of sub-sigma-algebras of a probability space's event sigma-algebra, indexed by ordered times: $s\\le t$ implies $\\mathcal F_s\\subseteq\\mathcal F_t$.",
+    "definitionZh": "概率空间内按时间递增的子σ代数族，用来记录截至各时刻可获得的信息。",
+    "example": "For coin observations $\\xi_j$, $\\mathcal F_n=\\sigma(\\xi_1,\\ldots,\\xi_n)$ is their natural filtration.",
+    "distinction": "Completeness and right-continuity are additional conditions, not built into this definition; a dynamical flow is a different object.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§6.2 Martingales, opening filtration definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+        "locator": "§6.1.1 定义，定义6.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "adapted-stochastic-process",
+    "english": "adapted stochastic process",
+    "chinese": "适应过程",
+    "aliases": [
+      "adapted process",
+      "适应列（离散时间）"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "Relative to a filtration $(\\mathcal F_t)$, a process $(X_t)$ is adapted when $X_t$ is $\\mathcal F_t$-measurable at every time $t$.",
+    "definitionZh": "相对于给定信息流，每个时刻的变量都只使用该时刻已知的可测信息的过程。",
+    "example": "The partial sum $S_n$ of the first $n$ coin increments is adapted to their natural filtration.",
+    "distinction": "Adaptedness does not alone imply joint measurability or predictability; discrete predictable values are measurable one step earlier.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§6.2 Martingales, measurability requirement in martingale definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+        "locator": "§6.1.1 定义，定义6.3：适应的、适应列；§6.5.1 连续时间鞅",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "stopping-time",
+    "english": "stopping time",
+    "chinese": "停时",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "For a filtration $(\\mathcal F_t)$, a random time $\\tau$ valued in $[0,\\infty]$ is a stopping time when $\\{\\tau\\le t\\}\\in\\mathcal F_t$ for every $t$.",
+    "definitionZh": "取非负时间或无穷值的随机时刻；是否已在t时刻之前停止，只依赖于截至t的信息。",
+    "example": "For a discrete adapted process $X_n$, $\\inf\\{n\\ge0:X_n\\ge1\\}$ is a stopping time.",
+    "distinction": "A last visit before a future deadline generally uses future information; finite-valued stopping times and bounded ones are different restrictions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "§6.2 Martingales, stopping-time definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+        "locator": "§6.2.1 停时，定义6.8；§6.5.2 定义6.14（该处另加几乎必然有限约定）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "brownian-motion",
+    "english": "standard Brownian motion",
+    "chinese": "布朗运动",
+    "aliases": [
+      "Wiener process",
+      "维纳过程"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "A process $B_t$ starting at zero, with almost surely continuous paths and independent increments on disjoint intervals, such that $B_t-B_s\\sim N(0,t-s)$ for $0\\le s<t$.",
+    "definitionZh": "从0出发、轨道几乎必然连续、不同时间区间增量独立，且s至t的增量服从均值0方差t−s正态分布的过程。",
+    "example": "For standard Brownian motion, $E[B_sB_t]=\\min(s,t)$.",
+    "distinction": "Normal marginals alone are insufficient; this definition explicitly includes continuity and uses elapsed time as variance.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 7, Brownian motion, defining conditions (i)–(iv)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第7章 布朗运动（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/bm.html",
+        "locator": "§7.2.2 定义，定义7.3：布朗运动、维纳过程",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "stochastic-process",
+    "english": "stochastic process",
+    "chinese": "随机过程",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "An indexed family $(X_t)_{t\\in T}$ of random variables or random elements on one probability space, with a specified common state space.",
+    "definitionZh": "同一概率空间上按指标集合排列、取值于指定状态空间的一族随机变量或随机元素。",
+    "example": "Independent coin increments $(\\xi_n)_{n\\ge1}$ form a discrete-time process; Brownian motion has continuous time.",
+    "distinction": "The time index and the state space can be discrete or continuous independently; an arbitrary process need not have continuous paths.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 7, Brownian motion, opening fixed-time and fixed-outcome interpretation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第7章 布朗运动（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/bm.html",
+        "locator": "§7.1.3 高斯过程，定义7.2中“随机过程”用语",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "gaussian-process",
+    "english": "Gaussian process",
+    "chinese": "高斯过程",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "definitionEn": "A real stochastic process for which every finite vector of observations has a multivariate normal distribution, allowing degenerate Gaussian vectors.",
+    "definitionZh": "任意有限个时刻的观测组成的向量均服从多元正态分布的实值过程，允许退化情形。",
+    "example": "The constant-in-time process $X_t=Z$ with $Z\\sim N(0,1)$ is Gaussian but not Brownian.",
+    "distinction": "Gaussian one-dimensional marginals do not by themselves guarantee that every observation vector is jointly Gaussian.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+        "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "locator": "§7.1 Brownian Motion, equivalent Gaussian-process formulation (a0)–(c0)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第7章 布朗运动（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/bm.html",
+        "locator": "§7.1.3 高斯过程，定义7.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "poisson-process",
+    "english": "Poisson process",
+    "chinese": "泊松过程",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "For rate $\\lambda>0$, a right-continuous counting process $N_t$ starting at zero with stationary independent increments and $N_t-N_s\\sim\\operatorname{Pois}(\\lambda(t-s))$ for $s<t$.",
+    "definitionZh": "从0出发、右连续的计数过程，不相交区间增量独立，s至t的计数增量服从参数λ(t−s)的泊松分布。",
+    "example": "For rate $3$, the probability of no arrival in two time units is $e^{-6}$.",
+    "distinction": "A Poisson random variable describes one count; a Poisson process specifies the joint evolution of counts.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Stochastic Calculus: An Introduction with Applications",
+        "url": "https://www.math.uchicago.edu/~lawler/finbook.pdf",
+        "locator": "§6.2 Poisson process, counting construction and rate",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 应用随机过程，第3章 泊松过程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/poisson.html",
+        "locator": "§3.1 泊松过程定义，定义3.1–3.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "stochastic-differential-equation",
+    "english": "stochastic differential equation",
+    "chinese": "随机微分方程",
+    "aliases": [
+      "SDE"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Research",
+    "definitionEn": "In the Brownian Itô setting, an equation $dX_t=b(X_t)dt+\\sigma(X_t)dB_t$ means an adapted continuous process satisfies $X_t=X_0+\\int_0^t b(X_s)ds+\\int_0^t\\sigma(X_s)dB_s$, with the integrals well defined.",
+    "definitionZh": "在布朗运动的Itô框架下，要求适应连续过程满足相应漂移积分与随机积分之和的积分恒等式，且各积分有定义的演化方程。",
+    "example": "The Itô solution of $dX_t=cX_t\\,dB_t$, $X_0=1$, is $\\exp(cB_t-c^2t/2)$.",
+    "distinction": "Itô and Stratonovich conventions generally produce different drift terms; strong and weak solutions specify different relationships to the prescribed noise.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Stochastic Calculus: An Introduction with Applications",
+        "url": "https://www.math.uchicago.edu/~lawler/finbook.pdf",
+        "locator": "§3.5 Diffusions, equation (3.21) and integral solution construction",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "北京大学数学科学学院 — 随机过程课程",
+        "url": "https://math.pku.edu.cn/bks/sykc/148757.htm",
+        "locator": "内容提要，条目4：多维扩散过程的描述方式，随机微分方程",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

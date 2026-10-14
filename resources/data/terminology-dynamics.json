@@ -1,0 +1,1041 @@
+[
+  {
+    "id": "invariant-measure",
+    "english": "invariant measure",
+    "chinese": "不变测度",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a measurable $T:X\\to X$, a measure $\\mu$ is invariant if $\\mu(T^{-1}A)=\\mu(A)$ for every measurable set $A$.",
+    "definitionZh": "对可测变换T，每个可测集合的原像与该集合具有相同测度时，μ称为T的不变测度。",
+    "example": "Normalized length on the circle is invariant under rotations and under $x\\mapsto2x\\bmod1$.",
+    "distinction": "Invariance uses preimages even for noninvertible maps; it does not require every state to be fixed or the measure to be ergodic.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+        "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+        "locator": "§1.2 The abstract setup of ergodic theory, Definition 1.2",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "朱子阳 — 算术动力系统：代数数论专题 VI（作者主页讲义）",
+        "url": "https://ziyangzhu.github.io/home/DS.pdf",
+        "locator": "§1，定义1.1：T-不变测度",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "measure-preserving-transformation",
+    "english": "measure-preserving transformation",
+    "chinese": "保测变换",
+    "aliases": [
+      "m.p.t.",
+      "mpt"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "On a measure space $(X,\\mathcal B,\\mu)$, a measurable self-map $T$ that satisfies $\\mu(T^{-1}A)=\\mu(A)$ for all $A\\in\\mathcal B$.",
+    "definitionZh": "测度空间上的可测自映射，保持每个可测集合原像的测度。",
+    "example": "The doubling map on the circle preserves length although it is not one-to-one.",
+    "distinction": "The transformation need not be invertible; preservation of the image measure of every set is a different assertion.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+        "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+        "locator": "§1.2, Definition 1.2, measurable and measure-preserving conditions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "朱子阳 — 算术动力系统：代数数论专题 VI（作者主页讲义）",
+        "url": "https://ziyangzhu.github.io/home/DS.pdf",
+        "locator": "§1，定义1.1：保测变换",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ergodic-transformation",
+    "english": "ergodic transformation",
+    "chinese": "遍历变换",
+    "aliases": [
+      "ergodicity",
+      "遍历性"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "A probability-preserving map $T$ such that $\\mu(T^{-1}A\\triangle A)=0$ implies $\\mu(A)=0$ or $1$ for every measurable $A$.",
+    "definitionZh": "保概率变换，其模零不变的任何可测事件只能具有概率0或1。",
+    "example": "An irrational circle rotation is ergodic for normalized length.",
+    "distinction": "Ergodicity depends on the chosen invariant measure and is weaker than weak mixing.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+        "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+        "locator": "§1.4, Definition 1.4 and Proposition 1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "朱子阳 — 算术动力系统：代数数论专题 VI（作者主页讲义）",
+        "url": "https://ziyangzhu.github.io/home/DS.pdf",
+        "locator": "§2 遍历论，定义2.1及段首“遍历变换”",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "strong-mixing",
+    "english": "strong mixing",
+    "chinese": "强混合",
+    "aliases": [
+      "measure-theoretic mixing",
+      "mixing"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "A probability-preserving map is strongly mixing if $\\mu(A\\cap T^{-n}B)\\to\\mu(A)\\mu(B)$ for every fixed pair of measurable events $A,B$.",
+    "definitionZh": "保概率变换在时间间隔趋于无穷时，任意固定两事件的交概率趋于各自概率之积的性质。",
+    "example": "The fair binary Bernoulli shift is strongly mixing by eventual independence of separated cylinder blocks.",
+    "distinction": "This fixed-event definition differs from uniform mixing coefficients of stochastic processes and from topological mixing.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Henk Bruin — Notes on Ergodic Theory",
+        "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+        "locator": "Section 12, Mixing and weak mixing, Definition 13",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "何伟鲲 — 遍历论课程大纲（中国科学院大学）",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/236472",
+        "locator": "大纲内容，第二章 混合性，第1节 强混合、弱混合",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "weak-mixing",
+    "english": "weak mixing",
+    "chinese": "弱混合",
+    "aliases": [
+      "measure-theoretic weak mixing"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "A probability-preserving map is weakly mixing if $N^{-1}\\sum_{n=0}^{N-1}|\\mu(A\\cap T^{-n}B)-\\mu(A)\\mu(B)|\\to0$ for every measurable $A,B$.",
+    "definitionZh": "保概率变换的任意两个固定事件，其相关概率误差的绝对值在时间上的平均趋于0。",
+    "example": "A Bernoulli shift is weakly mixing, while an irrational circle rotation is ergodic but not weakly mixing.",
+    "distinction": "The absolute values prevent cancellation; removing them gives an ergodicity criterion rather than weak mixing.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Henk Bruin — Notes on Ergodic Theory",
+        "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+        "locator": "Section 12, Definition 14 and Theorem 16",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "何伟鲲 — 遍历论课程大纲（中国科学院大学）",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/236472",
+        "locator": "大纲内容，第二章 混合性，第1节 强混合、弱混合",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "birkhoff-ergodic-theorem",
+    "english": "Birkhoff pointwise ergodic theorem",
+    "chinese": "Birkhoff遍历定理",
+    "aliases": [
+      "pointwise ergodic theorem"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For a probability-preserving $T$ and $f\\in L^1(\\mu)$, the averages $n^{-1}\\sum_{j=0}^{n-1}f(T^jx)$ converge almost everywhere to $E[f\\mid\\mathcal I]$, with $\\mathcal I$ the invariant sigma-algebra; for ergodic $T$ the limit is $\\int f\\,d\\mu$.",
+    "definitionZh": "在概率空间 $(X,\\mathcal B,\\mu)$ 上，若可测变换 $T$ 保持 $\\mu$ 且 $f\\in L^1(\\mu)$，则轨道平均几乎处处收敛于 $E[f\\mid\\mathcal I]$，其中 $\\mathcal I$ 为不变σ代数；若 $T$ 遍历，极限为 $\\int f\\,d\\mu$。",
+    "example": "For a cyclic permutation of $r$ equally weighted states, the orbit average equals the arithmetic mean of the $r$ observable values.",
+    "distinction": "The nonergodic limit need not be constant; the theorem is pointwise almost everywhere, unlike a bare norm-convergence statement.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Henk Bruin — Notes on Ergodic Theory",
+        "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+        "locator": "Section 4, The Ergodic Theorem, Theorem 4 and its proof (invariant limit and ergodic constant case)",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+        "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+        "locator": "§2.3.1, Theorem 2.3, printed p.40 / PDF p.48 (conditional-expectation limit for probability-preserving transformations)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "朱子阳 — 算术动力系统：代数数论专题 VI（作者主页讲义）",
+        "url": "https://ziyangzhu.github.io/home/DS.pdf",
+        "locator": "§2，遍历定理段落，Birkhoff遍历定理（PDF第5页）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "poincare-recurrence",
+    "english": "Poincaré recurrence theorem",
+    "chinese": "庞加莱回复定理",
+    "aliases": [
+      "Poincaré recurrence"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For a probability-preserving transformation $T$ and measurable $A$, almost every $x\\in A$ returns to $A$ infinitely often under positive iterates.",
+    "definitionZh": "保概率系统中，可测集合内几乎所有点在正向迭代下无穷多次返回该集合的定理。",
+    "example": "A rotation preserving circle length has almost-everywhere returns to any measurable arc.",
+    "distinction": "Finite total measure is essential for this conclusion; translation on the integers with counting measure can have no returns.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+        "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+        "locator": "§1.2, Theorem 1.1 (Poincaré's Recurrence Theorem)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "何伟鲲 — 遍历论课程大纲（中国科学院大学）",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/236472",
+        "locator": "大纲内容，第一章，第2节 回复性、庞加莱回复定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "unique-ergodicity",
+    "english": "unique ergodicity",
+    "chinese": "唯一遍历性",
+    "aliases": [
+      "uniquely ergodic"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "A continuous self-map of a nonempty compact metric space is uniquely ergodic when it has exactly one invariant Borel probability measure.",
+    "definitionZh": "非空紧致度量空间上的连续自映射只有一个不变Borel概率测度的性质。",
+    "example": "An irrational circle rotation has normalized length as its unique invariant probability measure.",
+    "distinction": "Uniqueness is among all invariant probability measures; it is not merely ergodicity of a preselected measure.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Henk Bruin — Notes on Ergodic Theory",
+        "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+        "locator": "Section 3, Ergodicity and unique ergodicity",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "何伟鲲 — 遍历论课程大纲（中国科学院大学）",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/236472",
+        "locator": "大纲内容，第一章，第5节 唯一遍历性，Weyl等分布定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-dynamical-system",
+    "english": "topological dynamical system",
+    "chinese": "拓扑动力系统",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "In the discrete-time convention, a pair $(X,T)$ with a topological space $X$ and continuous self-map $T:X\\to X$, whose evolution is given by the iterates of $T$.",
+    "definitionZh": "按离散时间约定，由拓扑空间及其连续自映射组成、以该映射的迭代为演化的系统。",
+    "example": "The map $x\\mapsto2x\\bmod1$ defines a topological dynamical system on the circle.",
+    "distinction": "Some authors require a homeomorphism and two-sided time; continuous noninvertible maps are included here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§6.1 Dynamical systems, semigroup action and iterated-map example",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.34，正文首段：拓扑动力系统",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dynamical-flow",
+    "english": "flow",
+    "chinese": "流",
+    "aliases": [
+      "continuous-time dynamical system"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "A jointly continuous action $\\phi:\\mathbb R\\times X\\to X$ with $\\phi_0=\\operatorname{id}$ and $\\phi_{t+s}=\\phi_t\\circ\\phi_s$.",
+    "definitionZh": "满足零时刻恒同及时间相加对应映射复合的、实数时间对空间的连续作用。",
+    "example": "The global solution flow of $\\dot x=-x$ is $\\phi_t(x)=e^{-t}x$.",
+    "distinction": "All real times are required here; local solutions may explode, and a forward-only semiflow is a different convention.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§§6.1–6.2, real-time action and autonomous-equation flow",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.1 拓扑动力系统，p.10：G=R时称为流",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dynamical-semiflow",
+    "english": "semiflow",
+    "chinese": "半动力系统",
+    "aliases": [
+      "continuous-time semidynamical system"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "A jointly continuous action $\\phi:[0,\\infty)\\times X\\to X$ satisfying $\\phi_0=\\operatorname{id}$ and $\\phi_{t+s}=\\phi_t\\circ\\phi_s$ for $s,t\\ge0$.",
+    "definitionZh": "仅用非负实数时间、满足恒同与时间复合律的连续演化；这里取半动力系统的连续时间情形。",
+    "example": "On $[0,\\infty)$, $\\phi_t(x)=\\max(x-t,0)$ is a semiflow with noninjective time maps.",
+    "distinction": "The cited Chinese source also allows discrete semigroup time; this record fixes continuous nonnegative time and does not assume reversibility.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§6.1 Dynamical systems, G=R+ semigroup convention",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.1，定义2.1.2，p.11：半动力系统",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dynamical-orbit",
+    "english": "orbit of a dynamical system",
+    "chinese": "轨道",
+    "aliases": [
+      "forward orbit",
+      "正半轨道"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a self-map $T$, the forward orbit of $x$ is $\\{T^nx:n\\ge0\\}$; when $T$ is invertible, its full orbit is $\\{T^nx:n\\in\\mathbb Z\\}$.",
+    "definitionZh": "自映射反复作用于一点得到的点集；非负迭代组成正半轨道，可逆时所有整数迭代组成完整轨道。",
+    "example": "Under $T(x)=x/2$, the forward orbit of $1$ is $\\{1,1/2,1/4,\\ldots\\}$.",
+    "distinction": "An orbit is the visited set, not its closure or its limiting set; forward and full orbits must be distinguished.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§6.3 Orbits and invariant sets; §10.2 Fixed and periodic points",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.1，定义2.1.6，p.12：轨道、正半轨道、负半轨道",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dynamical-fixed-point",
+    "english": "fixed point in dynamics",
+    "chinese": "不动点",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a map $T:X\\to X$, a point $x$ with $T(x)=x$; for a flow, a point fixed by every time map.",
+    "definitionZh": "离散映射下作用一次仍为自身的点；对流则要求所有时间映射都固定该点。",
+    "example": "The map $T(x)=x/2$ has the fixed point $0$.",
+    "distinction": "Being fixed by one sampled time map of a flow need not mean equilibrium; a periodic flow orbit may return at that sampling time.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§6.3 Orbits and invariant sets; §10.2 Fixed and periodic points",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.1，p.13：周期为1时为不动点",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dynamical-periodic-point",
+    "english": "periodic point",
+    "chinese": "周期点",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "A point $x$ for which $T^rx=x$ for some integer $r\\ge1$; its least period is the smallest such positive integer, and the orbit is called periodic.",
+    "definitionZh": "存在正整数次迭代后返回自身的点；其中最小次数是最小周期，经过该点的轨道为周期轨道。",
+    "example": "Under circle rotation by $1/3$, every point has least period $3$.",
+    "distinction": "A periodic point is one point; its periodic orbit (周期轨道) is the set of points visited through iteration. A least-period-r orbit has r distinct periodic points. A fixed point has period one; distinguish a return time from the least period.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§10.2 Fixed and periodic points, periodic-point definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.1，p.13：周期点、周期轨道、周期",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "omega-limit-set",
+    "english": "omega-limit set",
+    "chinese": "ω极限点集",
+    "aliases": [
+      "omega limit set"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a continuous map $T$ on a metric space, $\\omega(x)$ is the set of limits of $T^{n_k}x$ along sequences $n_k\\to\\infty$.",
+    "definitionZh": "连续映射下一点的正向迭代，沿趋于无穷的时间子序列所得的全部极限点。",
+    "example": "For $T(x)=x/2$ on $[0,1]$, $\\omega(1)=\\{0\\}$.",
+    "distinction": "It can differ from the orbit closure, which includes early visited points; compactness ensures nonemptiness.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.2及注2.2.1，p.13，子序列公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.2，p.13：ω极限点集",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "alpha-limit-set",
+    "english": "alpha-limit set",
+    "chinese": "α极限点集",
+    "aliases": [
+      "alpha limit set"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For a homeomorphism $T$, $\\alpha(x)$ is the set of limits of $T^{-n_k}x$ along sequences $n_k\\to\\infty$.",
+    "definitionZh": "同胚下沿负向轨道、绝对时间趋于无穷的子序列所得的全部极限点。",
+    "example": "For the homeomorphism $T(x)=x^2$ on $[0,1]$ and $0<x<1$, $\\alpha(x)=\\{1\\}$ whereas $\\omega(x)=\\{0\\}$.",
+    "distinction": "A noninvertible map does not specify one backward orbit; any extension requires a chosen past history.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.2及注2.2.1，p.13，负迭代子序列公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.2，p.13：α极限点集",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "dynamical-invariant-set",
+    "english": "invariant set in topological dynamics",
+    "chinese": "不变集",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a self-map $T$, a subset $A$ satisfying $T(A)=A$; this record uses equality rather than only forward inclusion.",
+    "definitionZh": "自映射把该集合的像恰好变为该集合自身的子集；这里采用像相等的约定。",
+    "example": "For $T(x)=x^2$ on $[0,1]$, both $\\{0\\}$ and $[0,1]$ are invariant sets.",
+    "distinction": "Forward invariance $T(A)subseteq A$ is weaker for a general map; measurable invariant events in ergodic theory instead use preimages modulo null sets.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.3，p.14，f(E)=E",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.3，p.14：不变集",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "nonwandering-point",
+    "english": "nonwandering point",
+    "chinese": "非游荡点",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a continuous self-map $T$, a point $x$ such that every neighborhood $U$ of $x$ has $T^n(U)\\cap U\\ne\\varnothing$ for some integer $n\\ge1$.",
+    "definitionZh": "连续自映射下一点的每个邻域都在某次正迭代后与自身相交。",
+    "example": "Every periodic point is nonwandering; every point of the full binary shift is nonwandering.",
+    "distinction": "A returning neighborhood may contain a returning point different from x; nonwandering is weaker than recurrence of x itself.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.4及注2.2.2，pp.14–15，邻域原像公式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.4，p.14：非游荡点",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "wandering-point",
+    "english": "wandering point",
+    "chinese": "游荡点",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a continuous self-map $T$, a point having a neighborhood $U$ such that $T^n(U)\\cap U=\\varnothing$ for every integer $n\\ge1$.",
+    "definitionZh": "存在一个邻域，其任何正迭代的像都不与原邻域相交的点。",
+    "example": "Every point of $T(x)=x+1$ on $\\mathbb R$ is wandering: choose an interval of length less than one.",
+    "distinction": "Wandering is the negation of nonwandering; it is not merely failure of one particular orbit to converge.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.4，p.14，游荡邻域的两两不交原像条件",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.2，定义2.2.4，p.14：游荡点",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "minimal-dynamical-system",
+    "english": "minimal dynamical system",
+    "chinese": "极小系统",
+    "aliases": [
+      "minimality",
+      "极小性"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous self-map of a nonempty compact space is minimal when every forward orbit is dense in the whole space.",
+    "definitionZh": "非空紧空间上的连续自映射，其每个点的正向轨道都在整个空间中稠密。",
+    "example": "Every irrational circle rotation is minimal.",
+    "distinction": "Transitivity needs open-set connections or, under suitable hypotheses, one dense orbit; minimality requires all forward orbits to be dense.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.3 轨道稠密性，定义2.3.1，p.17，连续映射情形",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.3，p.17，定义2.3.1及“极小性”用语",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-transitivity",
+    "english": "topological transitivity",
+    "chinese": "拓扑传递",
+    "aliases": [
+      "topologically transitive",
+      "拓扑传递性"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "A continuous self-map $T$ is topologically transitive if for every nonempty open $U,V$ some $n\\ge0$ satisfies $T^n(U)\\cap V\\ne\\varnothing$.",
+    "definitionZh": "连续自映射的任意两个非空开区域，存在某个非负迭代次数把前一区域的一部分送到后一区域。",
+    "example": "An irrational circle rotation and the full binary shift are topologically transitive.",
+    "distinction": "A dense forward orbit is equivalent in the usual compact metric setting without isolated points; do not use that equivalence without hypotheses.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§11.3 On the definition of chaos, open-set definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.36，注记3(4)：拓扑传递的开集定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-mixing",
+    "english": "topological mixing",
+    "chinese": "拓扑混合",
+    "aliases": [
+      "topological strong mixing"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "A continuous self-map $T$ is topologically mixing when for every nonempty open $U,V$, some $N$ makes $T^n(U)\\cap V\\ne\\varnothing$ for every $n\\ge N$.",
+    "definitionZh": "任意两个非空开区域在所有充分大的迭代时刻均能相连的连续动力系统性质。",
+    "example": "The one-sided full binary shift is topologically mixing by concatenating prescribed words with any sufficiently long gap.",
+    "distinction": "It requires every sufficiently late time, not just one time; it says nothing about event probabilities for a chosen measure.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.3，定义2.3.2，p.17，所有充分大n的开集相交条件",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.3，定义2.3.2，p.17：拓扑混合的",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-conjugacy",
+    "english": "topological conjugacy",
+    "chinese": "拓扑共轭",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "Maps $T:X\\to X$ and $S:Y\\to Y$ are topologically conjugate if a homeomorphism $h:X\\to Y$ satisfies $h\\circ T=S\\circ h$.",
+    "definitionZh": "两个系统由一个同胚联系，且先演化再换坐标与先换坐标再演化所得结果相同。",
+    "example": "On $[0,1]$, $h(x)=1-x$ conjugates $T(x)=x^2$ to $S(y)=2y-y^2$.",
+    "distinction": "The conjugacy must be a homeomorphism; a noninvertible intertwining map is a semiconjugacy, and time changes define a different flow equivalence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§11.3, equation (11.10) and equivalence discussion",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.1，定义2.1.4，p.12：拓扑共轭",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "poincare-return-map",
+    "english": "Poincaré return map",
+    "chinese": "首次返回映射",
+    "aliases": [
+      "Poincaré map",
+      "Poincaré 映射"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "definitionEn": "For a flow and a transverse section, the map taking a point to its next positive-time intersection with that section, on the domain where the first return exists.",
+    "definitionZh": "流的一条横截面上，把有首次正时间返回的点送至其下一次交点的映射。",
+    "example": "For unit-speed motion around a circle, a section at one point has return time $1$ and identity return map.",
+    "distinction": "A return time must exist; a return map is not generally the time-one map and depends on the section.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§6.4 The Poincaré map",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.1，注2.1.1，p.12：首次返回映射（Poincaré 映射）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "suspension-flow",
+    "english": "suspension flow construction",
+    "chinese": "扭扩",
+    "aliases": [
+      "suspension"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For a homeomorphism $T:X\\to X$ of a nonempty compact metric space and a continuous roof $r:X\\to(0,\\infty)$, the global real-time flow on the quotient of $\\{(x,s):0\\le s\\le r(x)\\}$ identifying $(x,r(x))$ with $(Tx,0)$, obtained by advancing the height coordinate.",
+    "definitionZh": "对非空紧致度量空间 $X$ 上的同胚 $T:X\\to X$ 及连续正顶函数 $r:X\\to(0,\\infty)$，将 $\\{(x,s):0\\le s\\le r(x)\\}$ 中各柱顶 $(x,r(x))$ 与下一柱底 $(Tx,0)$ 粘合，并沿高度前进所得到的全局实数时间流。",
+    "example": "Suspending the identity on a single point with roof $1$ gives unit-speed rotation of a circle.",
+    "distinction": "Compactness and a positive continuous roof give a positive minimum, preventing infinitely many roof crossings in finite time. Sarig's cited construction is a measurable suspension semiflow variant; this record fixes the topological compact-base flow convention. Noninvertible bases lead to semiflows. The inspected Chinese source calls suspension 扭扩, a documented naming variant.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+        "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+        "locator": "§1.6.5, Definition 1.20 and preceding assumption inf r > 0, printed p.30 / PDF p.38 (measurable suspension semiflow construction; this record uses the scoped topological variant with compact metric base, homeomorphism and continuous positive roof)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈绥阳、褚蕾蕾 — 动力系统基础及其方法（科学出版社预览）",
+        "url": "https://www.ecsponline.com/yz/BBC6874D396194DA3981A0BBFCD9F78AE000.pdf",
+        "locator": "§2.1，注2.1.1，p.11：扭扩（suspension）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sensitive-dependence",
+    "english": "sensitive dependence on initial conditions",
+    "chinese": "敏感依赖于初始条件",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For a map of a metric space, some $\\delta>0$ has the property that for every $x$ and every neighborhood $U$ of $x$, there exist $y\\in U$ and $n\\ge0$ with $d(T^nx,T^ny)>\\delta$.",
+    "definitionZh": "存在统一的正分离尺度，使每个点的任意邻域内都能找到某个点，二者的某次迭代距离超过该尺度。",
+    "example": "On $(0,\\infty)$ the map $T(x)=2x$ is sensitive, although it is not topologically transitive.",
+    "distinction": "Sensitivity alone is not Devaney chaos; on noncompact spaces it can depend on the chosen compatible metric.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§11.3, sensitive-dependence definition and expanding noncompact example",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "黎日松 — 关于 f×f 与 f 的动力性质间关系的研究",
+        "url": "https://hndk.hainanu.edu.cn/cn/article/pdf/preview/10.15886/j.cnki.hdxbzkb.2005.01.006.pdf",
+        "locator": "Printed p.23，定理5之后注记1）：敏感依赖于初始条件",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "devaney-chaos",
+    "english": "Devaney chaos",
+    "chinese": "Devaney混沌",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For a continuous self-map of an infinite compact metric space without isolated points, topological transitivity together with density of periodic points; these hypotheses imply sensitive dependence.",
+    "definitionZh": "在无孤立点的无限紧致度量空间上，连续系统具有拓扑传递性且周期点稠密；在这些假设下敏感性可由二者推出。",
+    "example": "The full binary shift is Devaney chaotic by word concatenation and periodic repetition of words.",
+    "distinction": "Some definitions list sensitivity separately; always state the state-space assumptions, and do not equate this criterion with Li–Yorke chaos.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gerald Teschl — Ordinary Differential Equations and Dynamical Systems",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "§11.3, Devaney definition and Lemma 11.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.36，注记3(4)：Devaney混沌",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "li-yorke-chaos",
+    "english": "Li–Yorke chaos",
+    "chinese": "Li-Yorke混沌",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "A continuous map of a metric space is Li–Yorke chaotic when it admits an uncountable set in which every distinct pair satisfies $\\liminf_n d(T^nx,T^ny)=0$ and $\\limsup_n d(T^nx,T^ny)>0$.",
+    "definitionZh": "存在不可数点集，其中任意不同两点的迭代距离下极限为0且上极限为正的连续系统性质。",
+    "example": "The full binary shift admits such a set by interleaving shared zero blocks with repeatedly separated coded blocks.",
+    "distinction": "One scrambled pair is not an uncountable scrambled set; a common positive limsup bound is an additional uniform variant.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.34, Definition 1, scrambled-pair equations and uncountable-set condition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.34，定义1：Li-Yorke混沌",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "li-yorke-scrambled-pair",
+    "english": "Li–Yorke scrambled pair",
+    "chinese": "Li-Yorke攀援偶对",
+    "aliases": [
+      "scrambled pair"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "Distinct points $x,y$ in a metric dynamical system with $\\liminf_n d(T^nx,T^ny)=0$ and $\\limsup_n d(T^nx,T^ny)>0$.",
+    "definitionZh": "两个不同点的正迭代距离能任意接近0，却不能最终一直趋于0的偶对。",
+    "example": "In the binary shift, compare the all-zero sequence with one whose isolated ones are separated by increasingly long zero blocks.",
+    "distinction": "A proximal pair satisfies only the liminf-zero condition; an asymptotic pair has distance tending to zero and is not scrambled.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.34, Definition 1, two distance conditions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李健、谭枫 — 关于 Li-Yorke δ-混沌与按序列分布 δ-混沌的等价性",
+        "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
+        "locator": "Printed p.34，定义1：Li-Yorke攀援偶对",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "topological-entropy",
+    "english": "topological entropy",
+    "chinese": "拓扑熵",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "definitionEn": "For continuous $T$ on a compact space, $h_{\\mathrm{top}}(T)=\\sup_{\\mathcal U}\\lim_{n\\to\\infty}n^{-1}\\log N(\\bigvee_{j=0}^{n-1}T^{-j}\\mathcal U)$, where $\\mathcal U$ ranges over finite open covers and $N$ is the least size of a subcover.",
+    "definitionZh": "连续紧空间系统中，对有限开覆盖沿迭代拉回并联合加细，计算最小子覆盖数量的指数增长率，再对覆盖取上确界所得的量。",
+    "example": "The full binary shift has topological entropy $\\log2$, using natural logarithms.",
+    "distinction": "The logarithm base determines units; topological entropy needs no selected invariant measure and differs from measure entropy.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Henk Bruin — Notes on Ergodic Theory",
+        "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+        "locator": "§15.1 The original definition, equation (24)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "何伟鲲 — 遍历论课程大纲（中国科学院大学）",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/236472",
+        "locator": "大纲内容，第三章 熵，第2节 拓扑熵",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

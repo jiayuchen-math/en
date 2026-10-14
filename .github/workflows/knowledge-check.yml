@@ -1,0 +1,48 @@
+name: Knowledge content checks
+on:
+  pull_request:
+    paths:
+      - 'resources/content/**'
+      - 'resources/build.mjs'
+      - 'resources/assets/knowledge.css'
+      - 'resources/assets/catalogue.js'
+      - 'resources/data/terminology-*.json'
+      - 'resources/*knowledge*'
+      - 'resources/knowledge-markdown.mjs'
+      - 'resources/package*.json'
+      - '.github/workflows/knowledge-check.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'resources/content/**'
+      - 'resources/build.mjs'
+      - 'resources/assets/knowledge.css'
+      - 'resources/assets/catalogue.js'
+      - 'resources/data/terminology-*.json'
+      - 'resources/*knowledge*'
+      - 'resources/knowledge-markdown.mjs'
+      - 'resources/package*.json'
+      - '.github/workflows/knowledge-check.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - run: npm ci --prefix resources --ignore-scripts --no-audit --no-fund
+      - run: node resources/build.mjs
+      - name: Generated knowledge pages are committed
+        run: |
+          git diff --exit-code -- resources/encyclopedia resources/terminology resources/data/knowledge-index.json resources/knowledge-report.json resources/index.html resources/build-report.json resources/assets/knowledge.css resources/assets/katex
+          test -z "$(git ls-files --others --exclude-standard -- resources/encyclopedia resources/terminology resources/data/knowledge-index.json resources/knowledge-report.json resources/assets/katex)"
+      - run: node resources/test-knowledge.mjs --minimum
+      - run: node resources/check.mjs
+      - run: node resources/test-controls.mjs

@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "counting-addition-principle",
+    "english": "addition principle",
+    "chinese": "加法原理",
+    "aliases": [
+      "sum rule"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For finitely many pairwise disjoint finite sets, the cardinality of their union equals the sum of their cardinalities.",
+    "definitionZh": "有限个两两不交的有限集合，其并集的元素个数等于各集合元素个数之和。",
+    "example": "There are $3+4=7$ symbols when choosing one symbol from disjoint alphabets of sizes 3 and 4.",
+    "distinction": "Cases must be both exhaustive and disjoint; overlapping cases require a correction.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Sections 2.1–2.2, Theorems 2.1.2 and 2.2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-1-counting.html",
+        "locator": "第1讲，开篇「加法原理与乘法原理」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "counting-multiplication-principle",
+    "english": "multiplication principle",
+    "chinese": "乘法原理",
+    "aliases": [
+      "product rule"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "If a finite construction has k stages and every valid prefix has exactly n_i continuations at stage i, its number of completed outcomes is the product of the n_i, provided construction histories uniquely specify outcomes.",
+    "definitionZh": "有限构造分为若干阶段，若第 i 阶段每个合法前缀都有恰好 n_i 种延续，且构造历史与结果一一对应，则结果数为各 n_i 的乘积。",
+    "example": "Three distinct books can be placed in order in $3\\cdot2\\cdot1=6$ ways.",
+    "distinction": "The available objects may depend on earlier choices; the number of continuations must be uniform at each stage.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Sections 2.1–2.2, Theorems 2.1.2 and 2.2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-1-counting.html",
+        "locator": "第1讲，开篇「加法原理与乘法原理」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "binomial-coefficient",
+    "english": "binomial coefficient",
+    "chinese": "二项式系数",
+    "aliases": [
+      "n choose k"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For integers n ≥ 0 and 0 ≤ k ≤ n, the binomial coefficient counts the k-element subsets of an n-element set and equals n!/(k!(n−k)!). It is defined as zero for integer k outside that range.",
+    "definitionZh": "对整数 n≥0，二项式系数表示 n 元集合的 k 元子集数；0≤k≤n 时为 n!/(k!(n−k)!)，范围外的整数 k 对应零。",
+    "example": "$\\binom{6}{2}=15$.",
+    "distinction": "Subset order does not matter; ordered selections have an additional factor k!.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Section 3.2, Theorem 3.2.3 and Notation 3.2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-1-counting.html",
+        "locator": "§1.1 十二重计数法，第3种情形「二项式系数」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "finite-set-permutation",
+    "english": "permutation of a finite set",
+    "chinese": "排列",
+    "aliases": [
+      "full permutation"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A permutation of a finite set X is an ordering of all its elements, equivalently a bijection from {1,…,|X|} to X. An n-element set has n! such orderings, including one empty ordering when n=0.",
+    "definitionZh": "有限集合 X 的排列是其全部元素的一种顺序，也可看成从 {1,…,|X|} 到 X 的双射；空集有一个空排列。",
+    "example": "The order $(c,a,b)$ is one permutation of $\\{a,b,c\\}$.",
+    "distinction": "This record uses full orderings; some counting texts also call shorter injective strings permutations. A self-bijection requires a chosen identification with positions.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_strings_permutations.html",
+        "locator": "Section 2.2, definition of an X-permutation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-2-generating-functions.html",
+        "locator": "§2.4，例2.14「排列」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "inclusion-exclusion-principle",
+    "english": "inclusion–exclusion principle",
+    "chinese": "容斥原理",
+    "aliases": [
+      "PIE",
+      "principle of inclusion and exclusion"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For finite sets A_1,…,A_m, the size of their union is the sum over nonempty index sets S of (−1)^(|S|+1) times the size of the intersection indexed by S.",
+    "definitionZh": "对有限集合 A_1,…,A_m，并集大小等于各非空指标子集对应的交集大小按交集阶数交替加减所得的和。",
+    "example": "If $|A|=7$, $|B|=6$, and $|A\\cap B|=2$, then $|A\\cup B|=11$.",
+    "distinction": "In a complement formula the empty intersection is the specified universe; its sign is positive.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_inclusion-exclusion_statement.html",
+        "locator": "Section 7.2, Theorem 7.7 and equation (7.2.1)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-3-inclusion-exclusion.html",
+        "locator": "§3.1，定理3.1「容斥原理」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "permutation-derangement",
+    "english": "derangement",
+    "chinese": "错排",
+    "aliases": [
+      "fixed-point-free permutation"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A derangement of {1,…,n} is a bijection σ of that set with σ(i) ≠ i for every i. The empty permutation is a derangement by the vacuous convention.",
+    "definitionZh": "集合 {1,…,n} 的错排是不固定任何元素的自双射；按空条件约定，空置换也算一个错排。",
+    "example": "On three positions, $(2,3,1)$ and $(3,1,2)$ are the two derangements.",
+    "distinction": "Having at least one moved element is insufficient; every element must move.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_inclusion-exclusion_derangements.html",
+        "locator": "Section 7.4, opening definition, Lemma 7.10 and Theorem 7.11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）课程目录",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/",
+        "locator": "目录，第3讲说明「满射与错排」（名称证据，仅课程目录）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ordinary-generating-function",
+    "english": "ordinary generating function",
+    "chinese": "普通生成函数",
+    "aliases": [
+      "OGF"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For a sequence (a_n) indexed by nonnegative integers in a commutative ring R, its ordinary generating function is the formal series ∑ a_n x^n in R[[x]].",
+    "definitionZh": "交换环 R 中从零开始编号的数列 (a_n)，其普通生成函数是 R[[x]] 中的形式级数 ∑a_n x^n。",
+    "example": "The sequence $a_n=3^n$ has OGF $1/(1-3x)$.",
+    "distinction": "Recover a_n as [x^n]A(x); exponential generating functions instead divide each coefficient by n!.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_genfunction_intro.html",
+        "locator": "Section 8.1, opening definition and Proposition 8.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-2-generating-functions.html",
+        "locator": "§2.1，定义2.1「普通生成函数」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "exponential-generating-function",
+    "english": "exponential generating function",
+    "chinese": "指数生成函数",
+    "aliases": [
+      "EGF"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For a sequence (a_n) in a commutative algebra over the rational numbers, its exponential generating function is the formal series ∑ a_n x^n/n!.",
+    "definitionZh": "有理数上的交换代数中，数列 (a_n) 的指数生成函数是形式级数 ∑a_n x^n/n!。",
+    "example": "The counts $a_n=4^n$ give EGF $e^{4x}$.",
+    "distinction": "The count is n![x^n]A(x), not merely the coefficient of x^n; division by factorials needs an appropriate coefficient algebra.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_genfunction_exponential.html",
+        "locator": "Section 8.6, opening definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-2-generating-functions.html",
+        "locator": "§2.4，定义2.13「指数生成函数」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "formal-power-series",
+    "english": "formal power series",
+    "chinese": "形式幂级数",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "Over a commutative ring R, a formal power series is a coefficient sequence written ∑ a_n x^n; equality is coefficientwise, addition is termwise, and multiplication uses finite convolution at each degree.",
+    "definitionZh": "交换环 R 上的形式幂级数是写作 ∑a_n x^n 的系数列；相等与加法逐系数判定，乘法在每个次数采用有限卷积。",
+    "example": "$\\sum_{n\\ge0}n!x^n$ is a valid formal series over $\\mathbb{Q}$.",
+    "distinction": "Formal existence does not assert convergence at any nonzero numerical argument.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_genfunction_intro.html",
+        "locator": "Section 8.1, opening definition and Proposition 8.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-2-generating-functions.html",
+        "locator": "§2.1，注解2.2「形式幂级数」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sequence-convolution",
+    "english": "convolution of sequences",
+    "chinese": "卷积",
+    "aliases": [
+      "Cauchy product coefficients"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For sequences (a_n) and (b_n) in a commutative ring indexed by n ≥ 0, their convolution is c_n = ∑_{k=0}^n a_k b_{n−k}.",
+    "definitionZh": "从零开始编号的两个交换环值数列，其卷积定义为 c_n=∑_{k=0}^n a_k b_{n−k}。",
+    "example": "Convolving the constant sequences $a_n=b_n=1$ gives $c_n=n+1$.",
+    "distinction": "This is discrete ordinary convolution; multiplying EGFs produces binomial-weighted counts instead.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_genfunction_intro.html",
+        "locator": "Section 8.1, opening definition and Proposition 8.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-2-generating-functions.html",
+        "locator": "§2.2末，普通生成函数常用操作表，「卷积」行",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "finite-simple-graph",
+    "english": "finite simple graph",
+    "chinese": "简单图",
+    "aliases": [
+      "simple undirected graph"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A finite simple graph is a pair (V,E) with V finite and E a set of two-element subsets of V; edges are undirected, with no loops or repetitions.",
+    "definitionZh": "有限简单图由有限顶点集 V 和二元子集构成的边集 E 组成；边无方向，不允许自环和重边。",
+    "example": "$V=\\{a,b,c\\}$ and $E=\\{\\{a,b\\},\\{b,c\\}\\}$ define a simple graph.",
+    "distinction": "Drawing crossings are not vertices unless included in V; parallel routes require a multigraph if their identities matter.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, graph/degree/subgraph/path/cycle/isomorphism/tree definitions; Theorem 5.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新疆大学 — 本科课程教学大纲汇编，图论（050762）",
+        "url": "https://math.xju.edu.cn/__local/0/67/DB/5C21D11D29F36A4B66B2BFBE0F9_3E63DCBE_14FD47.pdf",
+        "locator": "PDF pp.94–95，图论课程四、第一部分，教学目的「简单图」及第一章「图与子图」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-vertex-degree",
+    "english": "vertex degree",
+    "chinese": "顶点度",
+    "aliases": [
+      "degree of a vertex"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "In a finite simple graph, the degree d(v) of a vertex v is the number of its neighbors, equivalently the number of edges incident with v.",
+    "definitionZh": "在有限简单图中，顶点 v 的度 d(v) 是与它相邻的顶点数，也等于关联于它的边数。",
+    "example": "The center of $K_{1,4}$ has degree four; each other vertex has degree one.",
+    "distinction": "The neighbor-count equality uses simplicity. In multigraph degree conventions, parallel edges have multiplicity and a loop counts twice.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, neighborhood and degree definitions; Theorem 5.9",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，§1.2「顶点度」（中文名称证据，仅目录）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-path",
+    "english": "path in a graph",
+    "chinese": "路",
+    "aliases": [
+      "simple path"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "In a simple graph, a path is a finite sequence of distinct vertices whose consecutive pairs are edges; its length is the number of consecutive pairs.",
+    "definitionZh": "简单图中的路是一个顶点不重复的有限序列，连续两点之间都有边；长度为所用边数。",
+    "example": "In the graph with edges $ab,bc$, the sequence $(a,b,c)$ is a path of length two.",
+    "distinction": "A walk may repeat vertices; a path may not. This convention admits a one-vertex path of length zero.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, walk/path definition and path-length convention",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，§1.3「路和圈」（中文名称证据，仅目录）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-cycle",
+    "english": "cycle in a simple graph",
+    "chinese": "圈",
+    "aliases": [
+      "simple cycle"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "In a simple graph, a cycle consists of distinct vertices v_1,…,v_k with k ≥ 3, consecutive pairs joined, and v_k joined to v_1; its length is k.",
+    "definitionZh": "简单图中的圈由至少三个互不相同的顶点依次连接而成，最后一个顶点再与第一个相连；长度为顶点数，也为边数。",
+    "example": "The three edges $ab,bc,ca$ form a cycle of length three.",
+    "distinction": "Traversing an edge and immediately returning does not form a cycle in a simple graph; reversing or rotating a traversal describes the same underlying cycle.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, cycle definition and length convention",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，§1.3「路和圈」（中文名称证据，仅目录）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "connected-graph",
+    "english": "connected graph",
+    "chinese": "连通图",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A nonempty finite simple graph is connected when each pair of vertices is joined by a path.",
+    "definitionZh": "非空有限简单图中，任意两点之间都存在路时，称该图为连通图。",
+    "example": "A single vertex with no edges is connected; two isolated vertices are not.",
+    "distinction": "This record excludes the null graph by convention. Connected does not mean complete: a three-vertex path is connected.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, connected/disconnected graph and component definitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学教学平台 — 《图论及其应用》习题课教材（片段）",
+        "url": "https://i.study.uestc.edu.cn/storage/pdfs/2021-12-07/32YwaBG4dFKKxHBVktpigVqxPzF5NnUbCEZ9Tz8Q.pdf",
+        "locator": "PDF p.1，习题1，第1题「n阶连通图」（名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-tree",
+    "english": "tree in graph theory",
+    "chinese": "树",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A tree is a nonempty connected simple graph containing no cycle; this record restricts to finite trees.",
+    "definitionZh": "本记录中，树是非空、连通且不含圈的有限简单图。",
+    "example": "The graph with edges $ab,ac,ad$ is a tree on four vertices.",
+    "distinction": "A forest need not be connected. A one-vertex graph is a tree even though it has no degree-one leaf.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, forest/tree definitions and Proposition 5.11",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，§1.5「树和森林」（中文名称证据，仅目录）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-spanning-tree",
+    "english": "spanning tree",
+    "chinese": "支撑树",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A spanning tree of a nonempty finite graph G is a subgraph with the entire vertex set of G that is a tree.",
+    "definitionZh": "非空有限图 G 的支撑树，是保留 G 全部顶点且本身为树的子图。",
+    "example": "Deleting one edge from a four-cycle gives a spanning tree of that cycle.",
+    "distinction": "Spanning refers to vertices, not retention of all edges. A disconnected graph has no spanning tree.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, spanning subgraph and spanning tree definitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，于青林译",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseSample5.pdf",
+        "locator": "第二章开篇，印刷p.33，§2.4介绍中的「支撑树」（名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "complete-graph",
+    "english": "complete graph",
+    "chinese": "完全图",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A complete graph K_n, for n ≥ 0, is a simple graph on n vertices with an edge between every pair of distinct vertices.",
+    "definitionZh": "对 n≥0，完全图 K_n 是任意两个不同顶点都相邻的 n 阶简单图。",
+    "example": "$K_4$ has $\\binom42=6$ edges.",
+    "distinction": "Complete is stronger than connected; completeness requires direct adjacency, not merely a connecting path.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, complete graph definition and notation K_n",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "电子科技大学教学平台 — 《图论及其应用》习题课教材（片段）",
+        "url": "https://i.study.uestc.edu.cn/storage/pdfs/2021-12-07/32YwaBG4dFKKxHBVktpigVqxPzF5NnUbCEZ9Tz8Q.pdf",
+        "locator": "PDF pp.1–2，习题1，第2题与第6题「完全图」（名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "bipartite-graph",
+    "english": "bipartite graph",
+    "chinese": "二部图",
+    "aliases": [
+      "偶图"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A simple graph is bipartite if its vertex set admits a partition into two disjoint parts such that every edge has one endpoint in each part.",
+    "definitionZh": "若简单图的顶点集可分成两个不交部分，且每条边的两端分属两部分，则它是二部图。",
+    "example": "A four-cycle is bipartite, with alternating vertices in each part; a triangle is not.",
+    "distinction": "The parts need not have equal size, and vertices within a part have no edges between them. We allow an empty part.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_flowapplications_bip-match.html",
+        "locator": "Section 14.2, opening bipartite-graph and independent-part description",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "南京大学计算机科学与技术系 — 二部图中的匹配，离散数学课程组",
+        "url": "https://cs.nju.edu.cn/shiyh/DM2018/parts/25.pdf",
+        "locator": "slide 3 / PDF p.3「二部图(bipartite graph，偶图)」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-independent-set",
+    "english": "independent set in a graph",
+    "chinese": "独立集",
+    "aliases": [
+      "stable set"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "An independent set in a simple graph is a vertex subset containing no adjacent pair of distinct vertices.",
+    "definitionZh": "简单图的独立集是一个顶点子集，其中任意两个不同顶点均不相邻。",
+    "example": "In the path $a-b-c-d$, $\\{a,c\\}$ is an independent set.",
+    "distinction": "An independent set consists of vertices; a matching consists of edges with no common endpoints. Independence asserts no maximality.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_flowapplications_bip-match.html",
+        "locator": "Section 14.2, opening description of the two independent vertex parts",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新疆大学 — 本科课程教学大纲汇编，图论（050762）",
+        "url": "https://math.xju.edu.cn/__local/0/67/DB/5C21D11D29F36A4B66B2BFBE0F9_3E63DCBE_14FD47.pdf",
+        "locator": "PDF p.95 / printed p.94，图论课程四、第三部分，第七章「独立集和团」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-clique",
+    "english": "clique",
+    "chinese": "团",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A clique in a simple graph is a vertex subset in which every pair of distinct vertices is adjacent, so its induced subgraph is complete.",
+    "definitionZh": "简单图中的团是任意两个不同顶点都相邻的顶点子集，即其导出子图为完全图。",
+    "example": "Any three vertices of $K_4$ form a clique of size three.",
+    "distinction": "A clique need not be inclusion-maximal or of maximum size. Counting vertices and counting its edges give different parameters.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Yufei Zhao — Graph Theory and Additive Combinatorics, author manuscript",
+        "url": "https://yufeizhao.com/gtacbook/gtacbook.pdf",
+        "locator": "Section 1.2, Forbidding a Clique: Turán’s Theorem, K_{r+1}-free formulation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新疆大学 — 本科课程教学大纲汇编，图论（050762）",
+        "url": "https://math.xju.edu.cn/__local/0/67/DB/5C21D11D29F36A4B66B2BFBE0F9_3E63DCBE_14FD47.pdf",
+        "locator": "PDF p.95 / printed p.94，图论课程四、第三部分，第七章「独立集和团」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-matching",
+    "english": "matching in a graph",
+    "chinese": "匹配",
+    "aliases": [
+      "independent edge set"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A matching in a finite simple graph is a subset of edges such that no two chosen edges share an endpoint.",
+    "definitionZh": "有限简单图中的匹配是一个边子集，其中任意两条所选边都没有公共端点。",
+    "example": "In $a-b-c-d$, the edges $ab$ and $cd$ form a matching of size two.",
+    "distinction": "Matching size counts edges. A matching of size k saturates exactly 2k vertices; it need not be maximum.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_flowapplications_bip-match.html",
+        "locator": "Section 14.2, matching and saturation definitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，于青林译",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseSample5.pdf",
+        "locator": "第二章开篇，印刷p.33，「匹配 (matching)」定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-perfect-matching",
+    "english": "perfect matching",
+    "chinese": "完美匹配",
+    "aliases": [
+      "1-factor edge set"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A perfect matching in a finite simple graph is a matching incident with every vertex.",
+    "definitionZh": "有限简单图中的完美匹配是饱和全部顶点的匹配，即每个顶点恰好属于一条所选边。",
+    "example": "In the cycle $a-b-c-d-a$, $\\{ab,cd\\}$ is a perfect matching.",
+    "distinction": "A matching saturating only one bipartite part is not necessarily perfect. The empty graph has a perfect empty matching by the vacuous convention.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Reinhard Diestel — Graph Theory, fourth electronic edition (2010), corrected reprint 2012",
+        "url": "https://diestel-graph-theory.com/Sample.pdf",
+        "locator": "Chapter 2 opening, a matching of the entire vertex set and its correspondence with a 1-factor",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "南京大学计算机科学与技术系 — 二部图中的匹配，离散数学课程组",
+        "url": "https://cs.nju.edu.cn/shiyh/DM2018/parts/25.pdf",
+        "locator": "slides 6–7 / PDF pp.6–7「完美匹配」，完备匹配说明",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-maximum-matching",
+    "english": "maximum matching",
+    "chinese": "最大匹配",
+    "aliases": [
+      "maximum-cardinality matching"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A maximum matching of a finite graph is a matching with at least as many edges as every other matching of that graph.",
+    "definitionZh": "有限图的最大匹配是边数达到所有匹配中最大值的匹配。",
+    "example": "In $a-b-c-d$, $\\{ab,cd\\}$ is maximum, with two edges.",
+    "distinction": "Maximum compares cardinalities globally; maximal forbids only strict containment by another matching.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_flowapplications_bip-match.html",
+        "locator": "Section 14.2, maximum matching definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，于青林译",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseSample5.pdf",
+        "locator": "§2.1，印刷p.34，增广路讨论末「寻找最大匹配」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-maximal-matching",
+    "english": "maximal matching",
+    "chinese": "极大匹配",
+    "aliases": [
+      "inclusion-maximal matching"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A maximal matching is a matching not properly contained in another matching of the same graph.",
+    "definitionZh": "极大匹配是不真包含于该图任何其他匹配的匹配，即不能直接添加一条边而仍保持匹配。",
+    "example": "In $a-b-c-d$, $\\{bc\\}$ is maximal, but its one edge is fewer than the two edges in $\\{ab,cd\\}$.",
+    "distinction": "Maximality permits a better matching obtained by deleting and replacing edges; it does not certify maximum size.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Reinhard Diestel — Graph Theory, fourth electronic edition (2010), corrected reprint 2012",
+        "url": "https://diestel-graph-theory.com/Sample.pdf",
+        "locator": "Section 2.1, proof of Theorem 2.1.1, passage using maximality to ensure an edge touches the matching",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "南京大学计算机科学与技术系 — 二部图中的匹配，离散数学课程组",
+        "url": "https://cs.nju.edu.cn/shiyh/DM2018/parts/25.pdf",
+        "locator": "slide 6 / PDF p.6，图中的匹配，标签「极大匹配」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-vertex-cover",
+    "english": "vertex cover",
+    "chinese": "顶点覆盖",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A vertex cover of a simple graph G is a vertex subset C such that every edge of G has at least one endpoint in C.",
+    "definitionZh": "简单图的顶点覆盖是顶点子集 C，使图中每条边至少有一个端点属于 C。",
+    "example": "In $a-b-c-d$, $\\{b,c\\}$ covers all three edges.",
+    "distinction": "A vertex cover meets every edge; a dominating set need only meet or neighbor every vertex. No minimality is implied by the word cover.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Reinhard Diestel — Graph Theory, fourth electronic edition (2010), corrected reprint 2012",
+        "url": "https://diestel-graph-theory.com/Sample.pdf",
+        "locator": "Section 2.1, vertex cover definition immediately before Theorem 2.1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，于青林译",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseSample5.pdf",
+        "locator": "§2.1，印刷p.34，定理2.1.1前「（顶点）覆盖」定义及定理中的「顶点覆盖」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "halls-marriage-theorem",
+    "english": "Hall’s marriage theorem",
+    "chinese": "Hall定理",
+    "aliases": [
+      "Hall's theorem",
+      "marriage theorem"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A finite bipartite graph with parts L and R has a matching saturating L if and only if every S ⊆ L has at least |S| distinct neighbors in R.",
+    "definitionZh": "有限二部图的两个部分为 L、R；存在饱和 L 的匹配，当且仅当每个 S⊆L 在 R 中的邻集大小至少为 |S|。",
+    "example": "If $N(a)=\\{1\\}$ and $N(b)=\\{1\\}$, the set $\\{a,b\\}$ violates Hall’s condition.",
+    "distinction": "The theorem saturates the designated part; calling the result perfect additionally requires all opposite-side vertices to be saturated.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_flowapplications_bip-match.html",
+        "locator": "Section 14.2, Theorem 14.7 Hall’s Theorem",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "南京大学计算机科学与技术系 — 二部图中的匹配，离散数学课程组",
+        "url": "https://cs.nju.edu.cn/shiyh/DM2018/parts/25.pdf",
+        "locator": "slide 9 / PDF p.9「Hall定理(1935, Marriage Theorem)」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "extremal-graph-theory",
+    "english": "extremal graph theory",
+    "chinese": "极值图论",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "Extremal graph theory studies optimal values of graph parameters under structural restrictions, such as the maximum edge count of an n-vertex graph avoiding a fixed subgraph.",
+    "definitionZh": "极值图论研究图在给定结构限制下某个参数的最优值，例如固定顶点数并禁含指定子图时的最大边数。",
+    "example": "Among seven-vertex triangle-free graphs, the largest edge count is 12, attained by $K_{3,4}$.",
+    "distinction": "Specify the optimized parameter and whether forbidden copies are ordinary or induced; those choices define different problems.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Yufei Zhao — Graph Theory and Additive Combinatorics, author manuscript",
+        "url": "https://yufeizhao.com/gtacbook/gtacbook.pdf",
+        "locator": "Chapter 1, Definition 1.0.2 and Question 1.0.3",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，第七章「极值图论」（名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ramsey-number",
+    "english": "two-color clique Ramsey number",
+    "chinese": "拉姆齐数",
+    "aliases": [
+      "Ramsey number",
+      "Ramsey数"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For positive integers s,t, R(s,t) is the least positive N such that every red-blue edge coloring of K_N has a red K_s or a blue K_t.",
+    "definitionZh": "对正整数 s、t，R(s,t) 是使 K_N 的每一种红蓝边着色都包含红色 K_s 或蓝色 K_t 的最小正整数 N。",
+    "example": "$R(3,3)=6$; coloring a five-cycle red and the other edges of $K_5$ blue avoids both triangles.",
+    "distinction": "These are edge colors, not proper vertex colors. A one-vertex clique is monochromatic vacuously, giving R(1,t)=1.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Section 14.2, Definition 14.2.2, Example 14.2.3 and Proposition 14.2.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国科学技术大学数学科学学院 — 马杰教授团队在拉姆齐数下界研究中取得突破性进展",
+        "url": "https://math.ustc.edu.cn/2026/0505/c18649a736866/page.htm",
+        "locator": "文章标题和正文首段「拉姆齐数」；仅作为名称证据",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，§9.2「Ramsey数」（混合文字别名证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "probabilistic-method",
+    "english": "probabilistic method",
+    "chinese": "概率方法",
+    "aliases": [
+      "probabilistic existence method"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "The probabilistic method proves existence of a combinatorial object by defining a distribution on candidates and showing that the desired property has positive probability, sometimes after a controlled alteration.",
+    "definitionZh": "概率方法通过在候选组合对象上定义分布，并证明所需性质有正概率出现来证明存在性；有时还需进行受控的修改。",
+    "example": "If a nonnegative integer-valued bad-configuration count X has $\\mathbb E X<1$, some outcome has $X=0$.",
+    "distinction": "A sufficient expectation bound may fail even when a good object exists; an existence proof is not automatically an efficient construction algorithm.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_ramsey_girth.html",
+        "locator": "Section 11.6, Theorem 11.7, random-graph construction and alteration proof",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，§11.2「概率方法」（名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "binomial-random-graph",
+    "english": "binomial random graph",
+    "chinese": "随机图",
+    "aliases": [
+      "G(n,p)",
+      "Erdős–Rényi G(n,p) model"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For n ≥ 0 and 0 ≤ p ≤ 1, G(n,p) is the random simple graph on a fixed labeled n-vertex set in which each possible edge is included independently with probability p.",
+    "definitionZh": "本记录限定 G(n,p) 模型：在固定的 n 个有标号顶点上，每条可能的边独立地以概率 p 出现，其中 n≥0、0≤p≤1。",
+    "example": "For $G(4,1/2)$, the expected number of edges is $6/2=3$.",
+    "distinction": "The Chinese name 随机图 is broader than this model. G(n,m) fixes the number of edges and generally does not have independent edge indicators.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_ramsey_girth.html",
+        "locator": "Section 11.6, proof of Theorem 11.7, random graph with independent edge probability p",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，官方中文目录",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseContents5.pdf",
+        "locator": "目录，第十一章「随机图」、§11.1「随机图的概念」（名称证据；本记录限定G(n,p)）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-chromatic-number",
+    "english": "chromatic number",
+    "chinese": "色数",
+    "aliases": [
+      "vertex chromatic number"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "The chromatic number χ(G) of a finite simple graph is the least nonnegative integer k admitting a vertex coloring with k colors in which adjacent vertices receive different colors.",
+    "definitionZh": "有限简单图的色数 χ(G) 是允许相邻顶点颜色不同的顶点着色所需的最少颜色数；本记录允许零个颜色用于空图。",
+    "example": "$\\chi(C_5)=3$, whereas $\\chi(C_4)=2$.",
+    "distinction": "This counts vertex colors, not edge colors; an arbitrary Ramsey edge coloring has no proper-coloring requirement.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Section 14.3, Definitions 14.3.2–14.3.3 and Notation 14.3.4",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新疆大学 — 本科课程教学大纲汇编，图论（050762）",
+        "url": "https://math.xju.edu.cn/__local/0/67/DB/5C21D11D29F36A4B66B2BFBE0F9_3E63DCBE_14FD47.pdf",
+        "locator": "PDF p.95 / printed p.94，图论课程第三部分，第八章「顶点着色」内容中的「色数」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-subgraph",
+    "english": "subgraph",
+    "chinese": "子图",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A graph H=(W,F) is a subgraph of G=(V,E) when W ⊆ V and F ⊆ E, with every edge of F having its endpoints in W.",
+    "definitionZh": "图 H=(W,F) 是 G=(V,E) 的子图，意指 W⊆V、F⊆E，且 F 的每条边的端点都属于 W。",
+    "example": "A three-vertex path is an ordinary subgraph of a triangle after one edge is omitted.",
+    "distinction": "A subgraph may omit edges between retained vertices; an induced subgraph must retain all of them.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, subgraph/induced/spanning subgraph definitions",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新疆大学 — 本科课程教学大纲汇编，图论（050762）",
+        "url": "https://math.xju.edu.cn/__local/0/67/DB/5C21D11D29F36A4B66B2BFBE0F9_3E63DCBE_14FD47.pdf",
+        "locator": "PDF p.95 / printed p.94，图论课程第一部分，第一章「图与子图」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-induced-subgraph",
+    "english": "induced subgraph",
+    "chinese": "导出子图",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For a simple graph G=(V,E) and W ⊆ V, the induced subgraph G[W] has vertex set W and exactly the edges of E whose two endpoints belong to W.",
+    "definitionZh": "对简单图 G=(V,E) 和 W⊆V，导出子图 G[W] 的顶点集是 W，边恰为 E 中两端都在 W 内的边。",
+    "example": "In a triangle, the induced subgraph on any two vertices is $K_2$.",
+    "distinction": "This record uses the source’s term 导出子图. Deleting an edge while keeping both endpoints usually stops the result being induced.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, induced subgraph definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "海南大学学报自然科学版 — 对于2树和3树的一个刻画",
+        "url": "https://hndk.hainanu.edu.cn/cn/article/pdf/preview/10.15886/j.cnki.hdxbzkb.2014.02.003.pdf",
+        "locator": "p.111，正文开篇，G[X]的「导出子图」记号（名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-isomorphism",
+    "english": "graph isomorphism",
+    "chinese": "图的同构",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "An isomorphism of simple graphs G=(V,E) and H=(W,F) is a bijection f:V→W such that uv is in E if and only if f(u)f(v) is in F for each distinct u,v.",
+    "definitionZh": "简单图 G、H 的同构是顶点间的双射，且两点在 G 中相邻当且仅当对应两点在 H 中相邻。",
+    "example": "Relabeling the path $a-b-c$ as $3-1-2$ gives an isomorphic graph.",
+    "distinction": "A one-way adjacency-preserving map is not enough; both adjacency and nonadjacency must be preserved by the bijection.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Keller and Trotter — Applied Combinatorics (2016)",
+        "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+        "locator": "Section 5.1, graph isomorphism definition",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "新疆大学 — 本科课程教学大纲汇编，图论（050762）",
+        "url": "https://math.xju.edu.cn/__local/0/67/DB/5C21D11D29F36A4B66B2BFBE0F9_3E63DCBE_14FD47.pdf",
+        "locator": "PDF pp.94–95 / printed pp.93–94，图论课程，第一部分教学目的和要求「图的同构」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "additive-combinatorics",
+    "english": "additive combinatorics",
+    "chinese": "加法组合学",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Research",
+    "definitionEn": "Additive combinatorics studies arithmetic configurations, additive growth, and structural inverse questions for finite sets, especially in integers and abelian groups.",
+    "definitionZh": "加法组合学研究有限集合中的算术配置、加法增长及其逆向结构问题，典型背景是整数或阿贝尔群。",
+    "example": "For $A=\\{0,2,4,6\\}$, $|A+A|=7$ and $A$ contains three-term arithmetic progressions.",
+    "distinction": "The ambient group matters: a finite subgroup has doubling ratio one, while a nontrivial finite subgroup of the integers does not exist.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ben Green — Additive Combinatorics, Oxford C3.10 (2024–25)",
+        "url": "https://people.maths.ox.ac.uk/greenbj/papers/C3.10-Oxford-2025.pdf",
+        "locator": "Section 0.1 Overview; Section 3.5, Definitions 3.10–3.11 and Proposition 3.12; Section 4.1, Theorem 4.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "华东师范大学 — 2019年运筹学与控制论在校博士全日制培养方案",
+        "url": "https://math.ecnu.edu.cn/education/2019%E5%B9%B4%E8%BF%90%E7%AD%B9%E5%AD%A6%E4%B8%8E%E6%8E%A7%E5%88%B6%E8%AE%BA%E5%9C%A8%E6%A0%A1%E5%8D%9A%E5%A3%AB%E5%85%A8%E6%97%A5%E5%88%B6%E5%9F%B9%E5%85%BB%E6%96%B9%E6%A1%88.pdf",
+        "locator": "PDF p.7，课程MATH0011120079「加法组合学 / Additive Combinatorics」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "additive-sumset",
+    "english": "sumset",
+    "chinese": "和集",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For subsets A,B of an additively written abelian group, their sumset A+B is {a+b:a∈A,b∈B}; each resulting element is included once, regardless of representation multiplicity.",
+    "definitionZh": "加法记号的阿贝尔群中，子集 A、B 的和集 A+B 是所有 a+b 构成的集合；同一个和值无论有多少种表示，都只计一个元素。",
+    "example": "$\\{0,2\\}+\\{0,3\\}=\\{0,2,3,5\\}$.",
+    "distinction": "A+A allows equal summands and is not the dilation {2a:a∈A}; restricted sumsets impose extra conditions not present here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ben Green — Additive Combinatorics, Oxford C3.10 (2024–25)",
+        "url": "https://people.maths.ox.ac.uk/greenbj/papers/C3.10-Oxford-2025.pdf",
+        "locator": "Section 0.1 Overview, sumset A+A definition; Section 3.5, pair-of-sets sumset convention",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "数学年刊A辑（复旦大学）— 整数中限制符号和集的一些逆问题",
+        "url": "https://camath.fudan.edu.cn/camaen/ch/reader/view_abstract.aspx?file_no=45A302&flag=1",
+        "locator": "文章记录，中文关键词「和集」与英文关键词「Sumset」；名称证据，不作为普通和集定义来源",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "pigeonhole-principle",
+    "english": "pigeonhole principle",
+    "chinese": "鸽巢原理",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "If n objects are assigned to m ≥ 1 categories, at least one category contains at least the ceiling of n/m objects; in particular n>m forces a repeated category.",
+    "definitionZh": "将 n 个对象分入 m≥1 个类别，至少一类含有不少于 n/m 向上取整个对象；特别地，n>m 时必有一类至少含两个对象。",
+    "example": "Among nine integers, at least three have the same residue modulo four.",
+    "distinction": "The claim guarantees some category, not any designated category; distinct objects may have identical values.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Section 10.1, generalized pigeonhole principle and discussion preceding Proposition 10.1.8",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "湖南大学数学学院 — 组合数学课程介绍",
+        "url": "https://math.hnu.edu.cn/info/1040/1173.htm",
+        "locator": "教学目的和要求「鸽巢原理」；教学内容（六）「鸽巢原理和Ramsey定理」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sequence-recurrence-relation",
+    "english": "recurrence relation",
+    "chinese": "递推关系",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "A recurrence relation specifies each term of a sequence after a stated starting index in terms of earlier terms; an associated recursive specification also gives enough initial data to determine the sequence.",
+    "definitionZh": "递推关系是在指定起始指标之后，用此前各项规定数列当前项的关系；递归定义还需给出足够的初始数据。",
+    "example": "$a_0=2$ and $a_n=3a_{n-1}+1$ for $n\\ge1$ determine $2,7,22,67,\\ldots$.",
+    "distinction": "The equation alone need not fix a sequence: a_n=2a_{n−1} has different solutions for different a_0. A recurrence need not be linear.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Joy Morris — Combinatorics, version 2.1.1",
+        "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+        "locator": "Section 6.1, Definition 6.1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "上海交通大学 — CS0901 组合数学（2026）",
+        "url": "https://jhc.sjtu.edu.cn/public/home/kuanyang/teaching/CS0901/2026/content/chapter-2-generating-functions.html",
+        "locator": "§2.3「用生成函数解递推」，开篇「递推关系」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "graph-augmenting-path",
+    "english": "augmenting path for a matching",
+    "chinese": "增广路",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "definitionEn": "For a matching M in a finite bipartite graph, an augmenting path is a path of positive length whose edges alternate outside and inside M and whose two endpoints are unmatched; switching membership along it increases matching size by one.",
+    "definitionZh": "有限二部图中，相对于匹配 M，增广路是长度为正、边交替属于 M 外和 M 内、且两个端点均未匹配的路；沿路切换所选边可使匹配边数增加一。",
+    "example": "In $a-b-c-d$ with $M=\\{bc\\}$, the path $(a,b,c,d)$ augments M to $\\{ab,cd\\}$.",
+    "distinction": "An alternating path with a matched endpoint need not augment. A single edge between unmatched vertices is an augmenting path.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Reinhard Diestel — Graph Theory, fourth electronic edition (2010), corrected reprint 2012",
+        "url": "https://diestel-graph-theory.com/Sample.pdf",
+        "locator": "Section 2.1, alternating and augmenting path definitions, Figure 2.1.1 and switching argument",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Reinhard Diestel — 图论，第五版，于青林译",
+        "url": "https://diestel-graph-theory.com/Chinese/ChineseSample5.pdf",
+        "locator": "§2.1，印刷pp.33–34，「增广路 (augmenting path)」定义及图2.1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

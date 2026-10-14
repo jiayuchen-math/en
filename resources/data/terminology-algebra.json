@@ -1,0 +1,2329 @@
+[
+  {
+    "id": "group",
+    "english": "group",
+    "chinese": "群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A set with an associative binary operation, an identity, and a two-sided inverse for every element.",
+    "definitionZh": "配备结合的二元运算、单位元且每个元素都有双侧逆元的集合。",
+    "example": "$(\\mathbb Z,+)$ has identity $0$ and inverse $-n$ for $n$.",
+    "distinction": "Commutativity is not a group axiom; it defines the additional abelian condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. S. Milne — Group Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "locator": "Chapter 1, Definition 1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "第四章，半群, 幺半群与群，definition labelled def:group（群）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "abelian-group",
+    "english": "abelian group",
+    "chinese": "交换群",
+    "aliases": [
+      "commutative group",
+      "Abel 群"
+    ],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A group whose operation satisfies $ab=ba$ for every pair of elements.",
+    "definitionZh": "任意两个元素的运算次序均可交换的群。",
+    "example": "The additive group $\\mathbb Z/6\\mathbb Z$ is abelian.",
+    "distinction": "Additive notation is conventional, but does not by itself prove commutativity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. S. Milne — Group Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "locator": "Chapter 1, Definitions and examples, discussion following Definition 1.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群，paragraph following def:group naming 交换群 and Abel 群",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "monoid",
+    "english": "monoid",
+    "chinese": "幺半群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A set with an associative binary operation and a two-sided identity element.",
+    "definitionZh": "具有结合的二元运算及双侧单位元的集合。",
+    "example": "$(\\mathbb Z_{\\ge0},+)$ is a monoid with identity $0$.",
+    "distinction": "A monoid need not have inverses; its invertible elements form a group.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群，definition labelled def:monoid, associativity and identity clauses",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群，definition heading 半群与幺半群; index entry 幺半群 (monoid)",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-identity-element",
+    "english": "identity element of a group",
+    "chinese": "群的单位元",
+    "aliases": [
+      "neutral element",
+      "幺元"
+    ],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "The unique element $e$ of a group $G$ satisfying $eg=ge=g$ for all $g\\in G$.",
+    "definitionZh": "群中与任意元素在左右两侧运算都保持该元素不变的唯一元素。",
+    "example": "The identity in $\\operatorname{GL}_2(\\mathbb R)$ is $I_2$.",
+    "distinction": "The group identity is not a ring unit in the sense of an arbitrary invertible ring element.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. S. Milne — Group Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "locator": "Chapter 1, Definition 1.1, identity axiom",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群，item naming 幺元或单位元 before def:monoid",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-inverse-element",
+    "english": "inverse element in a group",
+    "chinese": "群的逆元",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For $g$ in a group with identity $e$, the unique element $g^{-1}$ with $gg^{-1}=g^{-1}g=e$.",
+    "definitionZh": "对群元素 $g$，与它在左右两侧运算均得到单位元的唯一元素。",
+    "example": "The additive inverse of $4$ in $\\mathbb Z$ is $-4$.",
+    "distinction": "In a general monoid a one-sided inverse need not be a two-sided inverse.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. S. Milne — Group Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "locator": "Chapter 1, Definition 1.1, inverse axiom",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群，items 左逆 and 右逆; following paragraph proving inverse uniqueness",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "vector-space",
+    "english": "vector space",
+    "chinese": "向量空间",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An abelian group $V$ with a unital scalar action of a field $F$, distributive in both inputs and satisfying $(ab)v=a(bv)$.",
+    "definitionZh": "配备域 $F$ 的标量作用的交换群，该作用保持两种加法、满足乘法结合律且 $1v=v$。",
+    "example": "$\\mathbb C$ has real basis $1,i$.",
+    "distinction": "Dimension changes when the scalar field changes; specify that field.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "向量空间 (sec:vector-space), definition of 向量空间 and following field/left-right convention; module axioms in 基本概念",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "向量空间 (sec:vector-space), definition of 向量空间 and following field/left-right convention; module axioms in 基本概念",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "linear-map",
+    "english": "linear map",
+    "chinese": "线性映射",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A map $T:V\\to W$ between vector spaces over the same field $F$ satisfying $T(av+bw)=aT(v)+bT(w)$.",
+    "definitionZh": "同一域上向量空间之间保持线性组合的映射。",
+    "example": "$D(a+bx+cx^2)=b+2cx$ is real-linear.",
+    "distinction": "Conjugation on $\\mathbb C$ is real-linear but not complex-linear.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Elementary Algebra lecture notes, author manuscript",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§4.5 线性映射, Definition 4.5.1 (线性映射), printed p.129 / PDF p.139",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学讲义，作者公开稿",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§4.5 线性映射, Definition 4.5.1 (线性映射), printed p.129 / PDF p.139",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "linear-independence",
+    "english": "linear independence",
+    "chinese": "线性无关",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A family $(v_i)$ is linearly independent if every finite relation $\\sum_i a_iv_i=0$ has all coefficients zero.",
+    "definitionZh": "向量族的任何有限线性组合等于零时，各系数都必须为零。",
+    "example": "$(1,0),(0,1)$ are independent over $\\mathbb R$.",
+    "distinction": "Only finite sums occur in algebraic linear independence, even for infinite families.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "自由模 (sec:free-modules), definition immediately after prop:free-module-property, first item 线性无关 and following finite-relation equation; specialize R to a field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "自由模 (sec:free-modules), definition immediately after prop:free-module-property, first item 线性无关 and following finite-relation equation; specialize R to a field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "vector-basis",
+    "english": "basis of a vector space",
+    "chinese": "向量空间的基",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A linearly independent family spanning the vector space by finite linear combinations.",
+    "definitionZh": "通过有限线性组合生成整个向量空间的线性无关向量族。",
+    "example": "$1,x,x^2$ is a basis of $F[x]_{\\le2}$.",
+    "distinction": "A spanning family can have redundancy; a basis cannot.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "向量空间 (sec:vector-space), definition-theorem naming 基, items (i)–(iv), in particular unique finite expansions; specialize D to a field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "向量空间 (sec:vector-space), definition-theorem naming 基, items (i)–(iv), in particular unique finite expansions; specialize D to a field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "vector-space-dimension",
+    "english": "dimension of a vector space",
+    "chinese": "向量空间的维数",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "The cardinality of any basis of a vector space over its specified field.",
+    "definitionZh": "在指定标量域上，向量空间任一基的元素个数。",
+    "example": "$\\dim_{\\mathbb R}\\mathbb C=2$, while $\\dim_{\\mathbb C}\\mathbb C=1$.",
+    "distinction": "Infinite dimension is a cardinal, not a largest finite independent-set size.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "向量空间 (sec:vector-space), definition-theorem def:dimension-vector-space (维数的不变性), cardinality of a basis",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "向量空间 (sec:vector-space), definition-theorem def:dimension-vector-space (维数的不变性), cardinality of a basis",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "linear-map-rank",
+    "english": "rank of a linear map",
+    "chinese": "线性映射的秩",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "The dimension of the image of a linear map, measured over its scalar field.",
+    "definitionZh": "线性映射的像作为标量域上的向量空间的维数。",
+    "example": "$(x,y)\\mapsto(x,0)$ has rank one.",
+    "distinction": "Rank concerns the image; nullity concerns the kernel.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Xiamen University — Higher Algebra course team, lecture notes (2008)",
+        "url": "https://gdjpkc.xmu.edu.cn/FileDown.aspx?DownLink=Q2008122206553837948.pdf&dID=102",
+        "locator": "§4.4 线性映射的像与核, Definition 1, rank defined as dim Im φ, PDF p.1",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "厦门大学数学科学学院 — 高等代数教案（08版）",
+        "url": "https://gdjpkc.xmu.edu.cn/FileDown.aspx?DownLink=Q2008122206553837948.pdf&dID=102",
+        "locator": "§4.4 线性映射的像与核, 定义1, dim Im φ 称为 φ 的秩, PDF p.1",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "rank-nullity-theorem",
+    "english": "rank–nullity theorem",
+    "chinese": "维数公式",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For a linear map $T:V\\to W$ with $V$ finite-dimensional, $\\dim V=\\dim\\ker T+\\dim\\operatorname{im}T$.",
+    "definitionZh": "有限维定义域上的线性映射满足定义域维数等于核的维数与像的维数之和。",
+    "example": "Differentiation on $F[x]_{\\le2}$ in characteristic zero has nullity one and rank two.",
+    "distinction": "The finite-dimensional form uses ordinary integer addition; subtraction of infinite cardinals is not an equivalent formulation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Elementary Algebra lecture notes, author manuscript",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§4.8 核, 像与消元法, Theorem 4.8.4, finite-dimensional domain hypothesis and kernel/image dimension formula, printed p.146 / PDF p.156",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "厦门大学数学科学学院 — 高等代数教案（08版）",
+        "url": "https://gdjpkc.xmu.edu.cn/FileDown.aspx?DownLink=Q2008122206553837948.pdf&dID=102",
+        "locator": "§4.4 线性映射的像与核, 推论3（线性映射的维数公式）及紧接的证明, PDF pp.2–3",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "eigenvalue-linear-map",
+    "english": "eigenvalue of a linear map",
+    "chinese": "线性映射的特征值",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A scalar $\\lambda\\in F$ for which an endomorphism $T$ has a nonzero vector $v$ with $Tv=\\lambda v$.",
+    "definitionZh": "使线性自映射满足 $Tv=\\lambda v$ 且存在非零 $v$ 的标量。",
+    "example": "$\\operatorname{diag}(2,3)$ has eigenvalues $2,3$.",
+    "distinction": "The zero vector is never an eigenvector; eigenvalues must belong to the specified field.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Elementary Algebra lecture notes, author manuscript",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§7.1 特征值与特征向量, Definition 7.1.2 (特征值和特征向量), printed p.286 / PDF p.296",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学讲义，作者公开稿",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§7.1 特征值与特征向量, Definition 7.1.2 (特征值和特征向量), printed p.286 / PDF p.296",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "characteristic-polynomial-linear-map",
+    "english": "characteristic polynomial of a linear map",
+    "chinese": "线性映射的特征多项式",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For an endomorphism of an $n$-dimensional $F$-space, the basis-independent monic polynomial $\\det(xI-A)$.",
+    "definitionZh": "有限维线性自映射在任一基下的矩阵 $A$ 所给出的首一多项式 $\\det(xI-A)$。",
+    "example": "For $A=\\operatorname{diag}(2,3)$ it is $(x-2)(x-3)$.",
+    "distinction": "Some sources use $\\det(A-xI)$; it differs by $(-1)^n$ from the monic convention here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Elementary Algebra lecture notes, author manuscript",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§5.8 特征多项式和 Cayley–Hamilton 定理, Definition 5.8.2 and Proposition 5.8.3 with following basis-independence paragraph, printed pp.213–214 / PDF pp.223–224",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学讲义，作者公开稿",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§5.8 特征多项式和 Cayley–Hamilton 定理, Definition 5.8.2 and Proposition 5.8.3 with following basis-independence paragraph, printed pp.213–214 / PDF pp.223–224",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "diagonalizable-linear-map",
+    "english": "diagonalizable linear map",
+    "chinese": "可对角化线性映射",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "linear-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A finite-dimensional endomorphism possessing a basis of eigenvectors over the specified scalar field.",
+    "definitionZh": "在指定标量域上具有一组特征向量基的有限维线性自映射。",
+    "example": "$\\begin{pmatrix}2&1\\\\0&3\\end{pmatrix}$ is diagonalizable over $\\mathbb Q$.",
+    "distinction": "A split characteristic polynomial does not suffice; a nontrivial Jordan block fails.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Elementary Algebra lecture notes, author manuscript",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§7.1 特征值与特征向量, Definition 7.1.3 (可对角化线性变换和矩阵), eigenvector-basis clause, printed p.286 / PDF p.296",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学讲义，作者公开稿",
+        "url": "https://wwli.asia/downloads/books/EAlg-Notes.pdf",
+        "locator": "§7.1 特征值与特征向量, Definition 7.1.3 (可对角化线性变换和矩阵), eigenvector-basis clause, printed p.286 / PDF p.296",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "subgroup",
+    "english": "subgroup",
+    "chinese": "子群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A subset $H$ of a group $G$ containing the identity and closed under multiplication and inverses.",
+    "definitionZh": "包含群的单位元且对乘法和取逆均封闭的子集。",
+    "example": "$2\\mathbb Z$ is a subgroup of $(\\mathbb Z,+)$.",
+    "distinction": "A nonempty subset closed only under multiplication need not be a subgroup for infinite groups.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群 (sec:group-and-monoid), definition headed 子群和正规子群, first paragraph defining subgroup closure and identity",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群 (sec:group-and-monoid), definition headed 子群和正规子群, first paragraph defining subgroup closure and identity",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cyclic-group",
+    "english": "cyclic group",
+    "chinese": "循环群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A group generated by one element, so every element is an integer power of that generator.",
+    "definitionZh": "可由单个元素生成、每个元素均为其整数次幂的群。",
+    "example": "$\\mathbb Z/7\\mathbb Z$ is generated additively by $\\bar1$.",
+    "distinction": "Cyclic groups may be infinite; cyclic does not mean finite.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群 (sec:group-and-monoid), definition def:cyclic-group (循环群)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群 (sec:group-and-monoid), definition def:cyclic-group (循环群)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-homomorphism",
+    "english": "group homomorphism",
+    "chinese": "群同态",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A map $f:G\\to H$ between groups satisfying $f(ab)=f(a)f(b)$ for all $a,b$.",
+    "definitionZh": "保持群乘法的群间映射。",
+    "example": "$\\det:\\operatorname{GL}_n(F)\\to F^\\times$ is a homomorphism.",
+    "distinction": "Preservation of identity and inverses follows from the multiplication condition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "同态和商群 (sec:homomorphism), proposition immediately after the paragraph naming 群同态, multiplication-preservation criterion",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "同态和商群 (sec:homomorphism), proposition immediately after the paragraph naming 群同态, multiplication-preservation criterion",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-homomorphism-kernel",
+    "english": "kernel of a group homomorphism",
+    "chinese": "群同态的核",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For $f:G\\to H$, the subgroup $\\{g:f(g)=e_H\\}$.",
+    "definitionZh": "群同态中映到目标群单位元的全部元素组成的子群。",
+    "example": "Reduction $\\mathbb Z\\to\\mathbb Z/5\\mathbb Z$ has kernel $5\\mathbb Z$.",
+    "distinction": "Use the target identity, not the empty set or an arbitrarily chosen zero.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "同态和商群 (sec:homomorphism), definition of the image and 核 of φ, equation Ker(φ)=φ^{-1}(1)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "同态和商群 (sec:homomorphism), definition of the image and 核 of φ, equation Ker(φ)=φ^{-1}(1)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "normal-subgroup",
+    "english": "normal subgroup",
+    "chinese": "正规子群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A subgroup $N\\le G$ satisfying $gNg^{-1}=N$ for every $g\\in G$.",
+    "definitionZh": "对群内任意元素的共轭运算都保持不变的子群。",
+    "example": "$A_3$ is normal in $S_3$.",
+    "distinction": "Being a subgroup alone does not make multiplication of its cosets well-defined.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群 (sec:group-and-monoid), definition headed 子群和正规子群, second paragraph and equation xHx^{-1}=H",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "半群, 幺半群与群 (sec:group-and-monoid), definition headed 子群和正规子群, second paragraph and equation xHx^{-1}=H",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quotient-group",
+    "english": "quotient group",
+    "chinese": "商群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For a normal subgroup $N$ of $G$, the group of cosets with $(gN)(hN)=ghN$.",
+    "definitionZh": "对正规子群 $N$，由陪集构成并以代表元乘法诱导运算的群。",
+    "example": "$\\mathbb Z/4\\mathbb Z$ is an additive quotient group.",
+    "distinction": "For a nonnormal subgroup the coset set exists but this multiplication need not.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "同态和商群 (sec:homomorphism), definition headed 商群, normal-subgroup hypothesis and coset multiplication",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "同态和商群 (sec:homomorphism), definition headed 商群, normal-subgroup hypothesis and coset multiplication",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-action",
+    "english": "group action",
+    "chinese": "群作用",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A map $G\\times X\\to X$ with $ex=x$ and $(gh)x=g(hx)$; this is a left action.",
+    "definitionZh": "满足单位元作用恒等且与群乘法相容的映射 $G\\times X\\to X$；此处取左作用。",
+    "example": "$S_3$ acts on $\\{1,2,3\\}$ by permutations.",
+    "distinction": "A right action has a different order convention; an arbitrary assignment of permutations is insufficient.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "群作用和计数原理 (sec:group-action), definition def:monoid-action (幺半群的作用), left action clauses (i)–(ii); specialize the monoid to a group",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "群作用和计数原理 (sec:group-action), definition def:monoid-action (幺半群的作用), left action clauses (i)–(ii); specialize the monoid to a group",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-orbit",
+    "english": "orbit of a group action",
+    "chinese": "群作用的轨道",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For $x$ in a $G$-set, the subset $Gx=\\{gx:g\\in G\\}$.",
+    "definitionZh": "给定群作用下，一个点经所有群元素变换所能到达的点的集合。",
+    "example": "The square symmetry group has one orbit on vertices.",
+    "distinction": "A group orbit is unrelated to iteration of a single map unless the action is specified.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "群作用和计数原理 (sec:group-action), definition of Gx={gx:g∈G} naming 轨道, followed by its group specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "群作用和计数原理 (sec:group-action), definition of Gx={gx:g∈G} naming 轨道, followed by its group specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "group-stabilizer",
+    "english": "stabilizer of a group action",
+    "chinese": "群作用的稳定化子",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "The subgroup $G_x=\\{g\\in G:gx=x\\}$ fixing a specified point.",
+    "definitionZh": "使指定点保持不动的所有群元素组成的子群。",
+    "example": "A square vertex has stabilizer of order two in its eight-element symmetry group.",
+    "distinction": "The stabilizer fixes one point; the action kernel fixes every point.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "群作用和计数原理 (sec:group-action), same definition's G_x={g:gx=x} clause naming 稳定化子, followed by its group specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "群作用和计数原理 (sec:group-action), same definition's G_x={g:gx=x} clause naming 稳定化子, followed by its group specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sylow-subgroup",
+    "english": "Sylow subgroup",
+    "chinese": "Sylow 子群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For a finite group of order $p^am$ with prime $p$ and $p\\nmid m$, a subgroup of order $p^a$.",
+    "definitionZh": "有限群的阶为 $p^am$ 且 $p\\nmid m$ 时，阶为 $p^a$ 的子群。",
+    "example": "A subgroup generated by a transposition is a Sylow $2$-subgroup of $S_3$.",
+    "distinction": "A maximal $p$-power divisor of the group order is required, not any $p$-subgroup.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "Sylow 定理 (sec:Sylow), definition immediately after the p^a || n convention following Cauchy's theorem (prop:group-Cauchy), naming Sylow p-子群 by its order p^m",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter4.tex",
+        "locator": "Sylow 定理 (sec:Sylow), definition immediately after the p^a || n convention following Cauchy's theorem (prop:group-Cauchy), naming Sylow p-子群 by its order p^m",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "unital-ring",
+    "english": "unital ring",
+    "chinese": "含幺环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An abelian additive group with associative multiplication, two-sided distributivity, and a multiplicative identity.",
+    "definitionZh": "加法构成交换群、乘法结合并对加法满足双侧分配律且有乘法单位元的集合。",
+    "example": "$M_2(\\mathbb R)$ is a noncommutative unital ring.",
+    "distinction": "Commutativity of multiplication is an extra assumption; ring maps here preserve identity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "环的定义, first definition: additive group, associative multiplication, distributive and identity clauses",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), first definition beginning (含幺)环, multiplicative identity clause and contrast with 无幺环",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "commutative-ring",
+    "english": "commutative ring",
+    "chinese": "交换环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A unital ring whose multiplication satisfies $ab=ba$ for all elements.",
+    "definitionZh": "乘法对任意两个元素都满足交换律的含幺环。",
+    "example": "$\\mathbb Z[x]$ is commutative.",
+    "distinction": "The zero ring is allowed here, but excluded from fields and integral domains.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), definition of 相反环, final clause R^op=R iff ab=ba naming 交换环",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), definition of 相反环, final clause R^op=R iff ab=ba naming 交换环",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ring-unit",
+    "english": "unit of a ring",
+    "chinese": "环的可逆元",
+    "aliases": [
+      "invertible element of a ring"
+    ],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An element $u$ in a unital ring admitting $v$ with $uv=vu=1$.",
+    "definitionZh": "在含幺环中具有双侧乘法逆元的元素。",
+    "example": "The units of $\\mathbb Z$ are $1,-1$.",
+    "distinction": "In a noncommutative ring, a one-sided inverse is not sufficient.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, paragraph beginning 既然 R 对乘法构成幺半群, R^× of 可逆元; two-sided inverse convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, paragraph beginning 既然 R 对乘法构成幺半群, R^× of 可逆元; two-sided inverse convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "zero-divisor",
+    "english": "zero divisor",
+    "chinese": "零因子",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A nonzero element of a commutative ring whose product with some nonzero element is zero.",
+    "definitionZh": "交换环中能与某个非零元素相乘得到零的非零元素。",
+    "example": "$\\bar2$ is a zero divisor in $\\mathbb Z/6\\mathbb Z$.",
+    "distinction": "Some authors include zero itself; this record excludes it explicitly.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, same paragraph's left/right 零因子 definition requiring nonzero r and a; commutative specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, same paragraph's left/right 零因子 definition requiring nonzero r and a; commutative specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "integral-domain",
+    "english": "integral domain",
+    "chinese": "整环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A commutative unital ring with $1\\ne0$ in which $ab=0$ implies $a=0$ or $b=0$.",
+    "definitionZh": "满足 $1\\ne0$ 且无非零零因子的交换含幺环。",
+    "example": "$\\mathbb Z[\\sqrt{-5}]$ is a domain.",
+    "distinction": "A domain need not be a field or have unique factorization.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, definition of 整环 (no nonzero zero divisors), under the section's explicit nonzero-ring convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, definition of 整环 (no nonzero zero divisors), under the section's explicit nonzero-ring convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "field",
+    "english": "field",
+    "chinese": "域",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A commutative unital ring with $1\\ne0$ in which every nonzero element is a unit.",
+    "definitionZh": "满足 $1\\ne0$ 且每个非零元素都可逆的交换含幺环。",
+    "example": "$\\mathbb Z/5\\mathbb Z$ is a field.",
+    "distinction": "A division ring need not be commutative; field means commutative here.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, definition def:field, 域 as a commutative division ring, under the section's nonzero-ring convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "几类特殊的环, definition def:field, 域 as a commutative division ring, under the section's nonzero-ring convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "ring-ideal",
+    "english": "ideal of a commutative ring",
+    "chinese": "交换环的理想",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An additive subgroup $I$ of a commutative ring $R$ with $rI\\subseteq I$ for every $r\\in R$.",
+    "definitionZh": "对环中任意元素的乘法均具有吸收性的加法子群。",
+    "example": "$(2,x)$ is an ideal of $\\mathbb Z[x]$.",
+    "distinction": "An ideal need not contain $1$; if it does, it equals the whole ring.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), definition def:ideals, additive-subgroup and scalar-absorption clauses, final commutative-ring convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), definition def:ideals, additive-subgroup and scalar-absorption clauses, final commutative-ring convention",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quotient-ring",
+    "english": "quotient ring",
+    "chinese": "商环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For an ideal $I$ of a commutative ring $R$, the cosets $R/I$ with addition and multiplication induced by representatives.",
+    "definitionZh": "对交换环理想 $I$，在陪集 $R/I$ 上由代表元运算诱导得到的环。",
+    "example": "$\\mathbb R[x]/(x^2+1)\\cong\\mathbb C$.",
+    "distinction": "For noncommutative rings a quotient ring requires a two-sided ideal.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), definition naming 商环 after the ideal operations, (r+I)(s+I)=rs+I and induced additive quotient",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "基本概念 (sec:ring-basics), definition naming 商环 after the ideal operations, (r+I)(s+I)=rs+I and induced additive quotient",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "prime-ideal",
+    "english": "prime ideal",
+    "chinese": "素理想",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A proper ideal $\\mathfrak p$ in a commutative ring with $ab\\in\\mathfrak p$ implying $a\\in\\mathfrak p$ or $b\\in\\mathfrak p$.",
+    "definitionZh": "交换环中包含乘积就必包含某一因子的真理想。",
+    "example": "$(0)$ is prime in $\\mathbb Z$.",
+    "distinction": "Properness matters; the whole ring is never a prime ideal.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), definition def:ring-ideal, first item 素理想, proper-ideal hypothesis and product condition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), definition def:ring-ideal, first item 素理想, proper-ideal hypothesis and product condition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "maximal-ideal",
+    "english": "maximal ideal",
+    "chinese": "极大理想",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A proper ideal not strictly contained in any other proper ideal of the ring.",
+    "definitionZh": "不严格包含于任何其他真理想的真理想。",
+    "example": "$(5)$ is maximal in $\\mathbb Z$.",
+    "distinction": "Every maximal ideal of a commutative ring is prime, but $(0)$ in $\\mathbb Z$ is not maximal.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), proof of prop:existence-maximal-ideal, paragraph identifying maximal elements among proper ideals with 极大理想",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), definition def:ring-ideal, second item 极大理想; proper-ideal clarification in proof of prop:existence-maximal-ideal",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "polynomial-ring",
+    "english": "polynomial ring",
+    "chinese": "多项式环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For a commutative ring $R$, the ring $R[x]$ of finite formal sums $\\sum a_ix^i$ with coefficientwise addition and convolution multiplication.",
+    "definitionZh": "以交换环为系数、由有限形式和构成并按多项式规则运算的环。",
+    "example": "$x^2+1\\in\\mathbb F_2[x]$.",
+    "distinction": "Over a finite field distinct formal polynomials may induce the same polynomial function.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "从幺半群环到多项式环 (sec:polynomial-ring), definition headed 多项式环 with one-variable specialization; def:monoidal-ring supplies finite coefficients and convolution multiplication",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "从幺半群环到多项式环 (sec:polynomial-ring), definition headed 多项式环 with one-variable specialization; def:monoidal-ring supplies finite coefficients and convolution multiplication",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "irreducible-element",
+    "english": "irreducible element",
+    "chinese": "不可约元",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A nonzero nonunit $r$ in a domain such that $r=ab$ forces $a$ or $b$ to be a unit.",
+    "definitionZh": "整环中不能分解为两个非单位乘积的非零非单位元素。",
+    "example": "$2$ is irreducible in $\\mathbb Z[\\sqrt{-5}]$.",
+    "distinction": "Irreducible need not mean prime in an arbitrary domain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), definition def:UFD, opening clause defining nonzero nonunit 不可约 elements",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), definition def:UFD, opening clause defining nonzero nonunit 不可约 elements",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "prime-element",
+    "english": "prime element",
+    "chinese": "素元",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A nonzero nonunit $p$ in a domain such that $p\\mid ab$ implies $p\\mid a$ or $p\\mid b$.",
+    "definitionZh": "整环中整除乘积就必整除某一因子的非零非单位元素。",
+    "example": "$x$ is prime in $F[x]$.",
+    "distinction": "Prime implies irreducible; the reverse requires extra factorization hypotheses.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), paragraph beginning 如果整环 R 中的非零元 p, after def:UFD, defining 素元 by the product-divisibility condition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), paragraph beginning 如果整环 R 中的非零元 p, after def:UFD, defining 素元 by the product-divisibility condition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "unique-factorization-domain",
+    "english": "unique factorization domain",
+    "chinese": "唯一分解环",
+    "aliases": [
+      "UFD"
+    ],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A domain in which each nonzero nonunit factors into irreducibles uniquely up to factor order and multiplication by units.",
+    "definitionZh": "每个非零非单位都能不可约分解，且除因子次序和单位因子外分解唯一的整环。",
+    "example": "$\\mathbb Z[x]$ is a UFD.",
+    "distinction": "Existence of factorizations alone does not imply their uniqueness.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), definition def:UFD, 唯一分解环 clause and uniqueness modulo units and factor order",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), definition def:UFD, 唯一分解环 clause and uniqueness modulo units and factor order",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "principal-ideal-domain",
+    "english": "principal ideal domain",
+    "chinese": "主理想环",
+    "aliases": [
+      "PID"
+    ],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A domain whose every ideal is generated by a single element.",
+    "definitionZh": "每个理想都由单个元素生成的整环。",
+    "example": "$F[x]$ is a PID when $F$ is a field.",
+    "distinction": "A ring with principal ideals but zero divisors is not a principal ideal domain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), definition def:PID, 主理想环 clause requiring an integral domain",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), definition def:PID, 主理想环 clause requiring an integral domain",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "euclidean-domain",
+    "english": "Euclidean domain",
+    "chinese": "Euclid 环",
+    "aliases": [
+      "ED"
+    ],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A domain with a function $\\delta:R\\setminus\\{0\\}\\to\\mathbb Z_{\\ge0}$ such that $a=bq+r$ with $r=0$ or $\\delta(r)<\\delta(b)$ whenever $b\\ne0$.",
+    "definitionZh": "具有非零元素上的非负整数函数并能进行使余数函数值严格下降的带余除法的整环。",
+    "example": "Polynomial degree makes $F[x]$ Euclidean.",
+    "distinction": "This record specializes Li's well-ordered codomain to $L=\\mathbb Z_{\\ge0}$, as in his polynomial-degree example; the Euclidean function need not be ordinary absolute value.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), lemma prop:Euclidean-ring, division condition specialized to L=Z_{≥0}; following example eg:polynomial-PID uses this integer-valued codomain",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "唯一分解性 (sec:UFD), lemma prop:Euclidean-ring, final sentence naming Euclid 环; integer-valued example eg:polynomial-PID",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "noetherian-ring",
+    "english": "Noetherian commutative ring",
+    "chinese": "Noether 环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A commutative ring in which every ascending chain of ideals stabilizes, equivalently every ideal is finitely generated.",
+    "definitionZh": "每条理想升链最终稳定、等价地每个理想均有限生成的交换环。",
+    "example": "$\\mathbb Z[x_1,\\ldots,x_n]$ is Noetherian for finite $n$.",
+    "distinction": "A Noetherian ring may have infinitely many ideals; stabilization is not finiteness of their collection.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "链条件和模的合成列, definition def:ACC-DCC-mod and following ring specialization; lemma prop:fg-noetherian for the equivalent finite-generation condition",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "链条件和模的合成列, def:ACC-DCC-mod and following paragraph naming Noether 环",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "localization-commutative-ring",
+    "english": "localization of a commutative ring",
+    "chinese": "交换环的局部化",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Graduate",
+    "definitionEn": "For a multiplicative set $S$, the universal ring $S^{-1}R$ receiving a map from $R$ that makes every member of $S$ invertible.",
+    "definitionZh": "使指定乘性集的元素全变为可逆元并满足相应泛性质的环构造。",
+    "example": "$\\mathbb Z[1/2]$ contains $3/8$ but not $1/3$.",
+    "distinction": "Zero divisors require $a/s=b/t$ to mean $u(ta-sb)=0$ for some $u\\in S$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), construction beginning 构作对乘性子集 S 的局部化 and proposition immediately after eqn:localization-zero giving its universal property",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+        "locator": "交换环初探 (sec:comm-ring-intro), construction beginning 构作对乘性子集 S 的局部化 and proposition immediately after eqn:localization-zero giving its universal property",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "local-ring",
+    "english": "commutative local ring",
+    "chinese": "交换局部环",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "commutative-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A nonzero commutative ring with a unique maximal ideal.",
+    "definitionZh": "具有唯一极大理想的非零交换环。",
+    "example": "$\\mathbb Z_{(p)}$ has maximal ideal $p\\mathbb Z_{(p)}$.",
+    "distinction": "Local does not mean finite or a ring of analytic functions; fields are local rings.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "definition def:noncommutative-local-ring and immediately following paragraph, commutative specialization with a unique maximal ideal",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter10.tex",
+        "locator": "一般扩域的赋值, paragraph after def:valuation-ring naming 局部环",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "algebraic-prime-spectrum",
+    "english": "prime spectrum of a commutative ring",
+    "chinese": "交换环的素谱空间",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "definitionEn": "The set of prime ideals of $R$ with closed sets $V(I)=\\{\\mathfrak p:I\\subseteq\\mathfrak p\\}$.",
+    "definitionZh": "以素理想为点、以包含指定理想的素理想集合为闭集的拓扑空间。",
+    "example": "$\\operatorname{Spec}\\mathbb Z$ contains $(0)$ and each $(p)$.",
+    "distinction": "This is an algebraic prime spectrum, distinct from operator spectra and topological spectra.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. S. Milne — A Primer of Commutative Algebra",
+        "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+        "locator": "§14 The spectrum of a ring, Definition before Proposition 14.1 and paragraph after its proof defining the Zariski topology, printed p.63 / PDF p.63",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "许金兴 — 交换代数讲义（作者讲义，USTC 评课社区托管）",
+        "url": "https://icourse.club/uploads/files/4dac25df70bacfc98f9f7da0fba0a4f775ac6565.pdf",
+        "locator": "§1.2 素谱空间, Definition 1.2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "field-extension",
+    "english": "field extension",
+    "chinese": "域扩张",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A field $L$ together with an injective unital field homomorphism $K\\to L$, usually identified with a subfield inclusion.",
+    "definitionZh": "一个域及一个基域到它的含幺嵌入，通常把基域看成其子域。",
+    "example": "$\\mathbb Q\\subset\\mathbb Q(\\sqrt2)$ has degree two.",
+    "distinction": "The degree is vector-space dimension, not the number of field elements.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "扩张的几种类型, opening paragraph defining 域扩张 as an embedding F→E and identifying F with a subfield",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "扩张的几种类型, opening paragraph defining 域扩张 as an embedding F→E and identifying F with a subfield",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "algebraic-element",
+    "english": "algebraic element over a field",
+    "chinese": "代数元",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An element $\\alpha$ of an extension $L/K$ annihilated by a nonzero polynomial in $K[x]$.",
+    "definitionZh": "域扩张中能使基域上的某个非零多项式取值为零的元素。",
+    "example": "$\\sqrt2$ is algebraic over $\\mathbb Q$.",
+    "distinction": "Algebraicity is relative to the base field; the zero polynomial cannot witness it.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter7.tex",
+        "locator": "definition def:algebraic-element, nonzero evaluation-kernel clause defining 代数元; specialize the ambient algebra to an extension field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter7.tex",
+        "locator": "definition def:algebraic-element, nonzero evaluation-kernel clause defining 代数元; specialize the ambient algebra to an extension field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "minimal-polynomial-field-extension",
+    "english": "minimal polynomial of an algebraic element",
+    "chinese": "代数元的极小多项式",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "The unique monic polynomial of smallest positive degree in $K[x]$ annihilating an algebraic element $\\alpha$.",
+    "definitionZh": "使代数元取值为零的、次数最小的唯一首一基域多项式。",
+    "example": "The minimal polynomial of $\\sqrt2$ over $\\mathbb Q$ is $x^2-2$.",
+    "distinction": "The minimal polynomial is irreducible; an arbitrary annihilating polynomial need not be.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter7.tex",
+        "locator": "definition def:algebraic-element, nonzero-kernel clause defining the unique monic 极小多项式 of least degree; specialize to an extension field",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "张神星 — 代数数论讲义",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+        "locator": "§1.2.2 整基, statement of Theorem 1.18 uses 极小多项式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "splitting-field",
+    "english": "splitting field",
+    "chinese": "分裂域",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "For $f\\in K[x]$, an extension generated over $K$ by all roots of $f$ in which $f$ splits into linear factors.",
+    "definitionZh": "由给定多项式全部根在基域上生成、使其完全分解为一次因子的扩域。",
+    "example": "$\\mathbb Q(\\sqrt2)$ splits $x^2-2$ over $\\mathbb Q$.",
+    "distinction": "An extension in which a polynomial splits need not be its splitting field if it contains unnecessary elements.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "分裂域和正规扩张 (sec:splitting-field), opening definition naming 分裂域, nonconstant-polynomial family and root-generation clauses; singleton-family specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "分裂域和正规扩张 (sec:splitting-field), opening definition naming 分裂域, nonconstant-polynomial family and root-generation clauses; singleton-family specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "separable-field-extension",
+    "english": "separable algebraic extension",
+    "chinese": "可分扩张",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An algebraic extension $L/K$ in which every element's minimal polynomial has distinct roots in an algebraic closure.",
+    "definitionZh": "每个元素在基域上的极小多项式均无重根的代数扩张。",
+    "example": "Every algebraic extension in characteristic zero is separable.",
+    "distinction": "An algebraic extension in positive characteristic need not be separable.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "可分性, definition headed 可分元 (minimal polynomial without repeated roots), and later definition naming an algebraic 可分扩张 when every element is separable",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "可分性, definition headed 可分元 (minimal polynomial without repeated roots), and later definition naming an algebraic 可分扩张 when every element is separable",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "normal-field-extension",
+    "english": "normal algebraic extension",
+    "chinese": "正规扩张",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An algebraic extension $L/K$ such that every irreducible polynomial over $K$ having a root in $L$ splits completely in $L$.",
+    "definitionZh": "基域上的不可约多项式一旦在扩域中有根，就在其中完全分裂的代数扩张。",
+    "example": "$\\mathbb F_p(t^{1/p})/\\mathbb F_p(t)$ is normal but inseparable.",
+    "distinction": "Normality does not imply separability or perfectness of either field.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "分裂域和正规扩张 (sec:splitting-field), definition-theorem def:normal-ext, condition N.1 and sentence naming 正规扩张",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter8.tex",
+        "locator": "分裂域和正规扩张 (sec:splitting-field), definition-theorem def:normal-ext, condition N.1 and sentence naming 正规扩张",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "galois-extension",
+    "english": "Galois extension",
+    "chinese": "Galois 扩张",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An algebraic field extension that is both normal and separable.",
+    "definitionZh": "同时正规且可分的代数域扩张。",
+    "example": "$\\mathbb Q(\\sqrt2)/\\mathbb Q$ is Galois.",
+    "distinction": "For a finite extension its automorphism group has size equal to the degree exactly in this case.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter9.tex",
+        "locator": "有限 Galois 对应, definition def:Galois-ext, 可分正规扩张 clause (no finiteness restriction in this definition)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter9.tex",
+        "locator": "有限 Galois 对应, definition def:Galois-ext, 可分正规扩张 clause (no finiteness restriction in this definition)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "finite-field",
+    "english": "finite field",
+    "chinese": "有限域",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "A field with finitely many elements; its cardinality is $p^n$ for a prime $p$ and positive integer $n$.",
+    "definitionZh": "元素个数有限的域，其元素个数必为素数的正整数次幂。",
+    "example": "$\\mathbb F_2[x]/(x^2+x+1)$ has four elements.",
+    "distinction": "A finite ring need not be a field; $\\mathbb Z/4\\mathbb Z$ is not one.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter9.tex",
+        "locator": "有限域, opening paragraph on positive characteristic and theorem prop:finite-field-uniqueness, |F|=p^[F:F_p] and positive extension degree",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter9.tex",
+        "locator": "有限域, opening paragraph on positive characteristic and theorem prop:finite-field-uniqueness, |F|=p^[F:F_p] and positive extension degree",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "submodule",
+    "english": "submodule",
+    "chinese": "子模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "An additive subgroup $N$ of an $R$-module $M$ closed under the $R$-scalar action.",
+    "definitionZh": "模中对标量作用封闭的加法子群。",
+    "example": "$2\\mathbb Z$ is a submodule of the $\\mathbb Z$-module $\\mathbb Z$.",
+    "distinction": "An arbitrary subgroup of the additive group need not be stable under other ring scalars.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, definition def:submodule, additive-subgroup and scalar-closure clauses",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, definition def:submodule, additive-subgroup and scalar-closure clauses",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quotient-module",
+    "english": "quotient module",
+    "chinese": "商模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "For a submodule $N\\le M$, the additive quotient $M/N$ with scalar action $r(m+N)=rm+N$.",
+    "definitionZh": "由子模取加法商并以代表元标量运算诱导作用所得的模。",
+    "example": "$\\mathbb Z/3\\mathbb Z$ is the quotient of $\\mathbb Z$ by $3\\mathbb Z$.",
+    "distinction": "Scalar stability of $N$ is needed for the action to be well-defined.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, definition naming 商模, (m+N)+(m′+N) and r(m+N)=rm+N",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, definition naming 商模, (m+N)+(m′+N) and r(m+N)=rm+N",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "free-module",
+    "english": "free module",
+    "chinese": "自由模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "An $R$-module with a basis, equivalently a direct sum of copies of $R$ indexed by a set.",
+    "definitionZh": "具有基、等价地同构于若干个环自身之直和的模。",
+    "example": "$R^3$ is free with its coordinate basis.",
+    "distinction": "Finitely generated modules need not be free; $\\mathbb Z/2\\mathbb Z$ is not free over $\\mathbb Z$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "自由模 (sec:free-modules), definition def:free-module and intrinsic basis definition immediately after prop:free-module-property",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "自由模 (sec:free-modules), definition def:free-module and intrinsic basis definition immediately after prop:free-module-property",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "left-module",
+    "english": "left module",
+    "chinese": "左模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Undergraduate",
+    "definitionEn": "An abelian group with a distributive, associative unital left scalar action of a ring $R$.",
+    "definitionZh": "带有含幺环的左标量作用且满足分配律、结合律和单位律的交换群。",
+    "example": "Any abelian group becomes a $\\mathbb Z$-module.",
+    "distinction": "For noncommutative rings left and right actions cannot be interchanged without further structure.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, first definition of 左 R-模, abelian additive group and four unital scalar-action axioms",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, first definition of 左 R-模, abelian additive group and four unital scalar-action axioms",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "tensor-product-modules",
+    "english": "tensor product of modules",
+    "chinese": "模的张量积",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "For a right $R$-module $M$ and left $R$-module $N$, the abelian group representing biadditive maps satisfying $b(mr,n)=b(m,rn)$.",
+    "definitionZh": "对右模与左模，由满足标量平衡条件的双加性映射所表出的阿贝尔群。",
+    "example": "$(\\mathbb Z/4)\\otimes_{\\mathbb Z}(\\mathbb Z/6)\\cong\\mathbb Z/2$.",
+    "distinction": "Elements are finite sums of pure tensors; not every element is a single pure tensor.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "模的张量积 (sec:module-tensor-prod), definitions def:balanced-product and def:tensor-product, balanced biadditive maps and universal property",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "模的张量积 (sec:module-tensor-prod), definitions def:balanced-product and def:tensor-product, balanced biadditive maps and universal property",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "module-homomorphism",
+    "english": "module homomorphism",
+    "chinese": "模同态",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "An additive map $f:M\\to N$ between left $R$-modules satisfying $f(rm)=rf(m)$.",
+    "definitionZh": "在同一环的左模之间保持加法与标量作用的映射。",
+    "example": "Multiplication by $2$ is a $\\mathbb Z$-module map $\\mathbb Z\\to\\mathbb Z$.",
+    "distinction": "The scalar ring must be specified; additive maps are only automatically $\\mathbb Z$-linear.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, definition of 模同态 for φ:M_1→M_2 between left R-modules, additive and scalar-preservation clauses",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "基本概念, definition of 模同态 for φ:M_1→M_2 between left R-modules, additive and scalar-preservation clauses",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "module-annihilator",
+    "english": "annihilator of a module",
+    "chinese": "模的零化子",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "For a module $M$ over a commutative ring $R$, the ideal $\\{r:rM=0\\}$.",
+    "definitionZh": "交换环中使模的每个元素都被乘成零的全部标量所组成的理想。",
+    "example": "$\\operatorname{Ann}_{\\mathbb Z}(\\mathbb Z/6)=6\\mathbb Z$.",
+    "distinction": "The annihilator of one vector may be larger than the annihilator of the entire module.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "模的基本操作 (sec:mod-operations), definition def:tor-ann, second item defining 模 M 的零化子 ann(M)={r:∀x∈M,rx=0}",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "模的基本操作 (sec:mod-operations), definition def:tor-ann, second item defining 模 M 的零化子 ann(M)={r:∀x∈M,rx=0}",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "finitely-generated-module",
+    "english": "finitely generated module",
+    "chinese": "有限生成模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "An $R$-module spanned by a finite list of elements under finite $R$-linear combinations.",
+    "definitionZh": "能由有限多个元素的环上线性组合生成的模。",
+    "example": "$\\mathbb Z/6\\mathbb Z$ is generated by $\\bar1$.",
+    "distinction": "Finite generation does not imply that the underlying set is finite; $\\mathbb Z$ is finitely generated.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "自由模 (sec:free-modules), definition immediately after prop:free-module-property, second item naming 有限生成模 through a finite generating set",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "自由模 (sec:free-modules), definition immediately after prop:free-module-property, second item naming 有限生成模 through a finite generating set",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "module-direct-sum",
+    "english": "direct sum of modules",
+    "chinese": "模的直和",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "abstract-algebra",
+    "level": "Graduate",
+    "definitionEn": "The module of tuples from a family $(M_i)$ having only finitely many nonzero coordinates, with coordinatewise operations.",
+    "definitionZh": "模族中仅有有限多个非零坐标的元组所构成的模，运算逐坐标进行。",
+    "example": "$\\bigoplus_{n\\ge1}\\mathbb Z$ consists of finite-support integer sequences.",
+    "distinction": "For an infinite index set the direct product allows infinite support and differs from the direct sum.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "模的基本操作 (sec:mod-operations), proof of prop:module-cat-completeness, item 2, construction named 余积（直和）as finite-support tuples",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "模的基本操作 (sec:mod-operations), proof of prop:module-cat-completeness, item 2, construction named 余积（直和）as finite-support tuples",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "short-exact-sequence-modules",
+    "english": "short exact sequence of modules",
+    "chinese": "模的短正合列",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "A sequence $0\\to A\\xrightarrow{i}B\\xrightarrow{p}C\\to0$ with $i$ injective, $p$ surjective and $\\operatorname{im}i=\\ker p$.",
+    "definitionZh": "首个非零箭头单射、末个非零箭头满射且中间处像等于核的模序列。",
+    "example": "$0\\to\\mathbb Z\\xrightarrow{2}\\mathbb Z\\to\\mathbb Z/2\\to0$ is exact.",
+    "distinction": "Exactness does not imply splitting; an $R$-linear section is additional data.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "正合列入门 (sec:exactseq-module), definition of 短正合列 before prop:split-ses-mod and following injective/surjective/kernel-image explanation",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "正合列入门 (sec:exactseq-module), definition of 短正合列 before prop:split-ses-mod and following injective/surjective/kernel-image explanation",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "projective-module",
+    "english": "projective module",
+    "chinese": "投射模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "A module $P$ such that every module map $P\\to C$ lifts through every surjective module map $B\\to C$.",
+    "definitionZh": "到任意模的同态均能沿任意满同态提升的模。",
+    "example": "Every free module is projective.",
+    "distinction": "A projective module is a direct summand of a free module, but need not itself be free.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "投射模, 内射模, 平坦模, definition def:inj-proj-modules item 1; following paragraph 回到定义…它们的泛性质图解如下, item 1 gives the surjection-lifting criterion",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "投射模, 内射模, 平坦模, definition def:inj-proj-modules item 1; following paragraph 回到定义…它们的泛性质图解如下, item 1 gives the surjection-lifting criterion",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "flat-module",
+    "english": "flat module",
+    "chinese": "平坦模",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "A module over a commutative ring for which tensoring preserves every short exact sequence.",
+    "definitionZh": "在交换环上，与之张量的函子保持所有短正合列的模。",
+    "example": "$\\mathbb Q$ is flat over $\\mathbb Z$.",
+    "distinction": "Flatness requires exact tensoring, not finite generation or existence of a basis.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "投射模, 内射模, 平坦模, unnamed definition of 平坦模 immediately after def:inj-proj-modules, exact tensor functor; commutative-ring specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "投射模, 内射模, 平坦模, unnamed definition of 平坦模 immediately after def:inj-proj-modules, exact tensor functor; commutative-ring specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "chain-complex-modules",
+    "english": "chain complex of modules",
+    "chinese": "模的链复形",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "Modules $C_n$ and maps $d_n:C_n\\to C_{n-1}$ with $d_{n-1}d_n=0$ for every integer $n$.",
+    "definitionZh": "配备降一次指标的模同态且相邻两个微分复合为零的模族。",
+    "example": "$\\mathbb Z\\xrightarrow{2}\\mathbb Z$ in degrees one and zero is a chain complex.",
+    "distinction": "A complex need not be exact; cochain conventions instead raise the index.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra II, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter2.tex",
+        "locator": "remark rem:cochain-vs-chain (链复形的同调), decreasing-index complex and d_{n-1}d_n=0; specialize to modules",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷二，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter2.tex",
+        "locator": "remark rem:cochain-vs-chain (链复形的同调), explicit naming of decreasing-index 链复形 versus increasing-index 上链复形",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "module-homology",
+    "english": "homology of a module complex",
+    "chinese": "模复形的同调",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "For a chain complex $C$, the module $H_n(C)=\\ker d_n/\\operatorname{im}d_{n+1}$.",
+    "definitionZh": "链复形中某次微分的核对前一次微分的像取商所得的模。",
+    "example": "For $\\mathbb Z\\xrightarrow{2}\\mathbb Z$, $H_0\\cong\\mathbb Z/2$ and $H_1=0$.",
+    "distinction": "The relation $d^2=0$ is needed for the denominator to be a submodule of the numerator.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra I, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "正合列入门 (sec:exactseq-module), opening complex definition's 同调群 quotient and immediately following indexed formula H_i=Ker d_i / Im d_{i+1}",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷一，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+        "locator": "正合列入门 (sec:exactseq-module), opening complex definition's 同调群 quotient and immediately following indexed formula H_i=Ker d_i / Im d_{i+1}",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "module-ext-group",
+    "english": "Ext group of modules",
+    "chinese": "模的 Ext 群",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "For left $R$-modules $M,N$, $\\operatorname{Ext}^n_R(M,N)$ is degree-$n$ cohomology of $\\operatorname{Hom}_R(P_\\bullet,N)$ for a projective resolution $P_\\bullet\\to M$.",
+    "definitionZh": "将第一变量的投射解消施以到第二变量的 Hom 后取第 $n$ 次上同调所得的群。",
+    "example": "$\\operatorname{Ext}^1_{\\mathbb Z}(\\mathbb Z/2,\\mathbb Z)\\cong\\mathbb Z/2$.",
+    "distinction": "$\\operatorname{Ext}^0$ is Hom, while $\\operatorname{Ext}^1$ classifies extensions with fixed outer terms.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra II, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter3.tex",
+        "locator": "实例: Ext 和 Tor (sec:Ext-Tor), definition-proposition def:Ext-classical (Ext 函子), preceding projective-resolution definition and following R-Mod specialization",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷二，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter3.tex",
+        "locator": "实例: Ext 和 Tor (sec:Ext-Tor), def:Ext-classical (Ext 函子), value in Ab and following notation Ext_R^n for module categories",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "finite-group-linear-representation",
+    "english": "linear representation of a finite group",
+    "chinese": "有限群的线性表示",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "representation-theory",
+    "level": "Graduate",
+    "definitionEn": "A homomorphism $\\rho:G\\to\\operatorname{GL}(V)$ for a finite group $G$ and an $F$-vector space $V$.",
+    "definitionZh": "由有限群到某域上向量空间的一般线性群的群同态。",
+    "example": "$S_3$ permutes coordinates of $F^3$.",
+    "distinction": "Complete reducibility is guaranteed by Maschke only when the characteristic does not divide $|G|$.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "J. S. Milne — Group Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/GT.pdf",
+        "checked": "2026-10-14",
+        "locator": "Chapter 7, Linear representations and Maschke's theorem"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "中国科学院数学与系统科学研究院暑期学校 — 群表示论讲义（HFUT 教学页所链接）",
+        "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zR2jQEVKARzGGABDKdnVFJ60618.pdf",
+        "locator": "§1, 有限群的表示, definition of a representation",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "differential-graded-category",
+    "english": "differential graded category",
+    "chinese": "dg-范畴",
+    "aliases": [
+      "dg category",
+      "DG category"
+    ],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Research",
+    "definitionEn": "A category enriched in cochain complexes over a commutative ring, with associative unital degree-zero composition that is a map of complexes.",
+    "definitionZh": "在交换基环上的上链复形中充实、复合满足结合律和单位律且与微分相容的范畴。",
+    "example": "A dg algebra is a dg category with one object.",
+    "distinction": "$H^0$ discards chain-level data; a triangulated category alone is not a supplied dg enhancement.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Bernhard Keller — On Differential Graded Categories",
+        "url": "https://arxiv.org/pdf/math/0601185v5",
+        "checked": "2026-10-14",
+        "locator": "§2.2, Differential graded categories"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷二",
+        "url": "https://www.wwli.asia/downloads/books/Al-jabr-2.pdf",
+        "locator": "§7.4 案例研究: dg-范畴的闭结构",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]

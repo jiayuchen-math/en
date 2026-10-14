@@ -1,0 +1,1699 @@
+[
+  {
+    "id": "set",
+    "english": "set",
+    "chinese": "集合",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A primitive collection in ZF set theory, whose identity is determined by its members.",
+    "definitionZh": "ZF 集合论中的基本对象；两个集合相等当且仅当元素完全相同。",
+    "example": "$\\{2,5\\}=\\{5,2,2\\}$.",
+    "distinction": "Listing order and repetitions do not change a set; they can change a sequence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "subset",
+    "english": "subset",
+    "chinese": "子集",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "$A$ is a subset of $B$ if $x\\in A$ implies $x\\in B$ for every $x$.",
+    "definitionZh": "若 A 的每个元素均属于 B，则 A 是 B 的子集。",
+    "example": "$\\{2\\}\\subseteq\\{2,5\\}$.",
+    "distinction": "Use ⊆ inclusively; ⊊ requires inequality. The meaning of ⊂ varies between authors.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "empty-set",
+    "english": "empty set",
+    "chinese": "空集",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The unique set with no members.",
+    "definitionZh": "没有任何元素的唯一集合。",
+    "example": "$\\{n\\in\\mathbb N:n<0\\}=\\emptyset$, with $\\mathbb N=\\{0,1,\\ldots\\}$.",
+    "distinction": "The empty set has zero elements; the singleton containing it has one.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "power-set",
+    "english": "power set",
+    "chinese": "幂集",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The set of every subset of a given set A.",
+    "definitionZh": "由给定集合 A 的全部子集组成的集合。",
+    "example": "$\\mathcal P(\\{2\\})=\\{\\emptyset,\\{2\\}\\}$.",
+    "distinction": "Members of a power set are subsets, rather than necessarily members, of A.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "cartesian-product",
+    "english": "Cartesian product",
+    "chinese": "笛卡尔积",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For sets A and B, the set of ordered pairs with first coordinate in A and second in B.",
+    "definitionZh": "集合 A 与 B 的笛卡尔积是所有第一分量属于 A、第二分量属于 B 的有序对的集合。",
+    "example": "$\\{2\\}\\times\\{5,7\\}=\\{(2,5),(2,7)\\}$.",
+    "distinction": "Coordinate order matters. Li calls this 积集; the university syllabus explicitly uses 笛卡尔积.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "鲍志强（北京大学）— 拓扑学2007年秋季教学纲要",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月12日，主要概念：笛卡尔积",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "universal-quantifier",
+    "english": "universal quantifier",
+    "chinese": "全称量词",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "$\\forall x\\,\\varphi$ holds under an assignment in a structure precisely when $\\varphi$ holds for every domain value assigned to $x$.",
+    "definitionZh": "在给定结构和赋值下，∀x φ 为真当且仅当把 x 赋为论域中的任意元素时 φ 都为真。",
+    "example": "$\\forall n\\in\\mathbb Z\\;(n^2\\geq0)$.",
+    "distinction": "Restricted universal quantification uses implication: ∀x∈A P means ∀x(x∈A→P).",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.2 The Universal Quantifier; §7.3 The Existential Quantifier",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.17–20: 一阶逻辑的语言；自由出现与约束出现",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "existential-quantifier",
+    "english": "existential quantifier",
+    "chinese": "存在量词",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "$\\exists x\\,\\varphi$ holds when some domain value for $x$ makes $\\varphi$ true under the remaining assignment.",
+    "definitionZh": "保持其他变元赋值不变，若论域中至少一个元素作为 x 的值使 φ 为真，则 ∃x φ 为真。",
+    "example": "$\\exists n\\in\\mathbb Z\\;(n^2=9)$, witnessed by $3$.",
+    "distinction": "Existence does not assert uniqueness; ∃! is a different assertion.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.2 The Universal Quantifier; §7.3 The Existential Quantifier",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.17–20: 一阶逻辑的语言；自由出现与约束出现",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "free-variable",
+    "english": "free variable",
+    "chinese": "自由变元",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "A variable is free in a formula if at least one occurrence is outside any quantifier binding that occurrence.",
+    "definitionZh": "若变元在公式中至少有一次出现未被相应量词约束，则它是该公式的自由变元。",
+    "example": "$y$ is free in $\\forall x\\;(x+y=y+x)$.",
+    "distinction": "Freedom is a property of occurrences first: one variable can have both free and bound occurrences.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.2 The Universal Quantifier; §7.3 The Existential Quantifier",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第15讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic15h.pdf",
+        "locator": "PDF p.4 前情提要：「自由变元的语义」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "bound-variable-occurrence",
+    "english": "bound variable occurrence",
+    "chinese": "约束出现",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "An occurrence of a variable within the scope of a quantifier for that variable, bound by the nearest such quantifier.",
+    "definitionZh": "变元在相应量词作用域内、由最近的同名量词约束的一次出现。",
+    "example": "The second $x$ in $\\forall x\\;(x=y)$ is bound.",
+    "distinction": "Renaming must avoid capture; changing a bound name is not the same as changing a free parameter.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.2 The Universal Quantifier; §7.3 The Existential Quantifier",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.17–20: 一阶逻辑的语言；自由出现与约束出现",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-order-sentence",
+    "english": "first-order sentence",
+    "chinese": "语句",
+    "aliases": [
+      "sentence"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "A formula of a first-order language with no free variable occurrences.",
+    "definitionZh": "一阶语言中不含自由变元出现的公式。",
+    "example": "$\\forall x\\;(x=x)$ is a sentence; $x=x$ is an open formula.",
+    "distinction": "A sentence may be false in a structure; being closed does not mean being a theorem.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.2 The Universal Quantifier; §7.3 The Existential Quantifier",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF p.20：「语句（sentence）」及没有自由出现的定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "direct-proof",
+    "english": "direct proof",
+    "chinese": "直接证明",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "proofs",
+    "level": "Undergraduate",
+    "definitionEn": "An argument deriving the conclusion from the given hypotheses by justified steps, without adopting its negation as the main temporary assumption.",
+    "definitionZh": "从已给假设出发，通过有根据的推理得到结论的一种证明方法。",
+    "example": "If $a=5r$ and $b=5s$ for integers $r,s$, then $a+b=5(r+s)$.",
+    "distinction": "Proving an implication directly still permits assuming its antecedent; direct does not mean assumption-free.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/natural_deduction_for_propositional_logic.html",
+        "locator": "§3.1 Derivations in Natural Deduction; §3.3 Forward and Backward Reasoning",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§3.2 直接证明（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "proof-by-contradiction",
+    "english": "proof by contradiction",
+    "chinese": "反证法",
+    "aliases": [
+      "reductio ad absurdum"
+    ],
+    "area": "foundations",
+    "topic": "proofs",
+    "level": "Undergraduate",
+    "definitionEn": "In classical logic, a proof of $P$ obtained by deriving $\\bot$ from the premises together with $\\neg P$.",
+    "definitionZh": "在经典逻辑中，暂设结论的否定并推出矛盾，从而确立结论的证明方法。",
+    "example": "A least positive rational $r$ would be contradicted by the smaller positive rational $r/3$.",
+    "distinction": "For positive conclusions the method uses double-negation elimination; proving a negation from a contradiction is already intuitionistically valid.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/classical_reasoning.html",
+        "locator": "§5.1 Proof by Contradiction; §5.2 Some Classical Principles",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第12讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic12h.pdf",
+        "locator": "PDF p.17 推论「反证法」；其形式先证明否定结论",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "proof-by-contraposition",
+    "english": "proof by contraposition",
+    "chinese": "逆否法证明",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "proofs",
+    "level": "Undergraduate",
+    "definitionEn": "A classical proof of $P\\to Q$ by deriving $\\neg P$ from $\\neg Q$.",
+    "definitionZh": "通过证明逆否命题 ¬Q→¬P 来确立原命题 P→Q 的经典证明方法。",
+    "example": "To show $n^2$ odd implies $n$ odd, show even $n=2k$ has even square $4k^2$.",
+    "distinction": "The converse Q→P is not the contrapositive; reversing an implication alone is invalid.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/classical_reasoning.html",
+        "locator": "§5.1 Proof by Contradiction; §5.2 Some Classical Principles",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§3.3 逆否法证明（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "mathematical-induction",
+    "english": "mathematical induction",
+    "chinese": "数学归纳法",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "proofs",
+    "level": "Undergraduate",
+    "definitionEn": "For $P$ on $\\mathbb N$, the principle that $P(0)$ and every implication $P(n)\\to P(n+1)$ together yield $\\forall n\\,P(n)$.",
+    "definitionZh": "自然数上的证明原理：零处成立且从任意 n 处成立能推出 n+1 处成立，则所有自然数处均成立。",
+    "example": "$3\\mid(4^n-1)$ follows from the base $n=0$ and $4^{n+1}-1=4(4^n-1)+3$.",
+    "distinction": "A successor implication without a true base case proves nothing about all indices.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/the_natural_numbers_and_induction.html",
+        "locator": "§17.1 The Principle of Induction; §17.2 Variants of Induction",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：第6章 数学归纳法；§6.1 数学归纳法原理（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "strong-induction",
+    "english": "strong induction",
+    "chinese": "强数学归纳法",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "proofs",
+    "level": "Undergraduate",
+    "definitionEn": "The principle that proving $P(n)$ from all $P(k)$ with $k<n$, for each $n\\in\\mathbb N$, proves $P$ everywhere.",
+    "definitionZh": "对每个自然数 n，在假设所有 k<n 的情形成立时证明 n 的情形，即可得到全部情形成立的归纳原理。",
+    "example": "Factorization existence for $n\\geq2$: a composite $n=ab$ uses the earlier cases $2\\leq a,b<n$.",
+    "distinction": "The n=0 obligation is not omitted; its earlier-case hypothesis is empty.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/the_natural_numbers_and_induction.html",
+        "locator": "§17.1 The Principle of Induction; §17.2 Variants of Induction",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§6.3 强数学归纳法原理（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "counterexample",
+    "english": "counterexample",
+    "chinese": "反例",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "proofs",
+    "level": "Undergraduate",
+    "definitionEn": "An admissible instance satisfying a claim’s hypotheses but falsifying its asserted conclusion.",
+    "definitionZh": "满足命题的假设而使其结论为假的一个具体实例。",
+    "example": "$n=2$ refutes $\\forall n\\in\\mathbb N\\;(n^2=n)$.",
+    "distinction": "An input violating the hypotheses is not a counterexample to the conditional theorem.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.2 The Universal Quantifier; §7.3 The Existential Quantifier",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§5.1 反例（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "logical-implication",
+    "english": "material implication",
+    "chinese": "蕴涵",
+    "aliases": [
+      "implication"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "The classical connective $P\\to Q$, false exactly when $P$ is true and $Q$ is false.",
+    "definitionZh": "经典命题联结词 P→Q；它恰在 P 真且 Q 假时为假。",
+    "example": "$(2=3)\\to(5=7)$ is true as a material implication.",
+    "distinction": "A true implication with false antecedent is not evidence of a causal connection.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/propositional_logic.html",
+        "locator": "§2.4 The Language of Propositional Logic",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§2.4 蕴涵（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "logical-equivalence",
+    "english": "logical equivalence",
+    "chinese": "逻辑等价",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "Two propositional formulas are logically equivalent when they have equal truth values under every valuation.",
+    "definitionZh": "两个命题公式在所有真值赋值下均有相同真值时称逻辑等价。",
+    "example": "$P\\to Q$ is classically equivalent to $\\neg P\\lor Q$.",
+    "distinction": "Agreement under one valuation is weaker than logical equivalence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/propositional_logic.html",
+        "locator": "§2.4 The Language of Propositional Logic",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§2.8 逻辑等价（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "conjunction",
+    "english": "conjunction",
+    "chinese": "合取",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "The connective producing a statement true exactly when both component statements are true.",
+    "definitionZh": "恰在两个分量命题都为真时为真的联结方式。",
+    "example": "$(3<4)\\land(4<8)$ is true.",
+    "distinction": "Conjunction requires both components; disjunction in this glossary is inclusive.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/propositional_logic.html",
+        "locator": "§2.4 The Language of Propositional Logic",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§2.3 析取与合取（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "disjunction",
+    "english": "disjunction",
+    "chinese": "析取",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "The inclusive connective producing a statement true when at least one component is true.",
+    "definitionZh": "至少一个分量命题为真时即为真的包含式联结方式。",
+    "example": "$(3<4)\\lor(4<8)$ is true even though both components are true.",
+    "distinction": "Exclusive or imposes an additional prohibition on both components being true.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/propositional_logic.html",
+        "locator": "§2.4 The Language of Propositional Logic",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§2.3 析取与合取（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "negation",
+    "english": "negation",
+    "chinese": "否定",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "In classical semantics, the connective reversing a statement’s truth value.",
+    "definitionZh": "在经典语义中把命题的真值反转的联结方式。",
+    "example": "$\\neg(3=4)$ is true.",
+    "distinction": "Constructively, ¬P means a derivation of falsity from P, not an automatic decision of P.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/propositional_logic.html",
+        "locator": "§2.4 The Language of Propositional Logic",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§2.2 否定（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-order-formula",
+    "english": "first-order formula",
+    "chinese": "合式公式",
+    "aliases": [
+      "well-formed formula"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "A finite expression of a fixed first-order language built from atomic formulas using its permitted connectives and quantifiers.",
+    "definitionZh": "在固定一阶语言中，由原子公式按该语言的联结词和量词构成规则生成的有限表达式。",
+    "example": "$\\forall x\\;(P(x)\\to P(f(x)))$ is a formula if $P$ is unary and $f$ unary.",
+    "distinction": "An expression with the wrong number of predicate arguments is not well formed.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.1 Functions, Predicates, and Relations (terms and formulas); §§7.2–7.3 (quantified formulas)",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第11讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.15–16「合式公式」：原子公式及联结词、量词的递归构成规则",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.15–16「合式公式」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-order-term",
+    "english": "first-order term",
+    "chinese": "项",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "An expression naming a domain value, built from variables, constants and correctly applied function symbols in a first-order language.",
+    "definitionZh": "一阶语言中由变元、常数符号和按元数正确使用的函数符号构成、用于指称论域元素的表达式。",
+    "example": "$f(c)$ is a term when $f$ is unary and $c$ a constant.",
+    "distinction": "Terms denote objects; formulas assert conditions and have truth values after interpretation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/first_order_logic.html",
+        "locator": "§7.1 Functions, Predicates, and Relations, compound expressions called terms",
+        "checked": "2026-10-14"
+      },
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第11讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.13–14「项」：变元、常数及按元数应用函数符号的递归定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF pp.13–14「项」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "atomic-formula",
+    "english": "atomic formula",
+    "chinese": "原子公式",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "definitionEn": "A first-order formula obtained by applying a relation symbol to terms, or by equating two terms when equality is present.",
+    "definitionZh": "由关系符号施用于适当个数的项，或在含等词时由两个项的等式形成的基本公式。",
+    "example": "$R(f(c),x)$ is atomic for binary $R$.",
+    "distinction": "Atomic refers to syntactic construction; a complex term inside it does not make the formula non-atomic.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第11讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF p.15「原子公式」：关系符号作用于项及含等词时的项等式",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，2021年秋季",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic11h.pdf",
+        "locator": "PDF p.15「原子公式」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-order-structure",
+    "english": "first-order structure",
+    "chinese": "结构",
+    "aliases": [
+      "L-structure"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "A nonempty domain equipped with interpretations of a first-order language’s constants, functions and relations of the prescribed arities.",
+    "definitionZh": "非空论域连同一阶语言中各常数、函数和关系符号的符合元数的解释。",
+    "example": "$(\\mathbb Z,0,+,<)$ interprets an ordered additive language.",
+    "distinction": "A structure becomes a model of a theory only if it satisfies that theory’s sentences.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/semantics_of_first_order_logic.html",
+        "locator": "§10.2 Truth in a Model; §10.4 Validity and Logical Consequence; §10.5 Soundness and Completeness",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第14讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic14h.pdf",
+        "locator": "PDF p.19「结构」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "logical-consequence",
+    "english": "logical consequence",
+    "chinese": "语义蕴含",
+    "aliases": [
+      "semantic consequence"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "For a sentence set Γ, a sentence φ is a consequence when every structure satisfying Γ satisfies φ.",
+    "definitionZh": "对于语句集 Γ，若每个满足 Γ 的结构都满足 φ，则称 Γ 语义蕴含 φ。",
+    "example": "$\\{P(c),\\forall x(P(x)\\to Q(x))\\}\\models Q(c)$.",
+    "distinction": "⊨ compares truth in structures; ⊢ asserts existence of a derivation.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/semantics_of_first_order_logic.html",
+        "locator": "§10.2 Truth in a Model; §10.4 Validity and Logical Consequence; §10.5 Soundness and Completeness",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第15讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic15h.pdf",
+        "locator": "PDF p.6 定义「语义蕴含」；同页用「逻辑蕴涵」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "logical-validity",
+    "english": "logical validity",
+    "chinese": "逻辑有效",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "A sentence is logically valid if every nonempty structure for its language satisfies it.",
+    "definitionZh": "语句在其语言的每个非空结构中都为真时称逻辑有效。",
+    "example": "$\\forall x\\;(x=x)$ is valid in logic with equality.",
+    "distinction": "Truth in the intended natural-number structure alone is not validity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/semantics_of_first_order_logic.html",
+        "locator": "§10.2 Truth in a Model; §10.4 Validity and Logical Consequence; §10.5 Soundness and Completeness",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第15讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic15h.pdf",
+        "locator": "PDF p.6：⊨α 与「逻辑有效」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "satisfiability",
+    "english": "satisfiability",
+    "chinese": "可满足",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "A set of first-order sentences is satisfiable if one structure satisfies all of them together.",
+    "definitionZh": "存在一个结构同时满足全部语句时，该语句集称可满足。",
+    "example": "$\\{\\exists x\\,P(x),\\exists x\\,\\neg P(x)\\}$ has a two-element model.",
+    "distinction": "Separate models for individual sentences need not give a simultaneous model for the set.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/semantics_of_first_order_logic.html",
+        "locator": "§10.2 Truth in a Model; §10.4 Validity and Logical Consequence; §10.5 Soundness and Completeness",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第17讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic17h.pdf",
+        "locator": "PDF pp.21–22：「可满足」与紧致性定理",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "syntactic-consistency",
+    "english": "syntactic consistency",
+    "chinese": "一致",
+    "aliases": [
+      "consistency"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "A sentence set is syntactically consistent in a specified classical calculus if no derivation from it concludes falsity.",
+    "definitionZh": "对于指定的经典演绎系统，若不能从一个语句集推出矛盾，则称它一致。",
+    "example": "$\\{P(c),\\neg P(c)\\}$ is inconsistent.",
+    "distinction": "Consistency is relative to proof rules; satisfiability is semantic. Completeness connects them.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Jeremy Avigad — Logic and Computation (January 2002)",
+        "url": "https://www.andrew.cmu.edu/user/avigad/Teaching/landc_notes.pdf",
+        "locator": "§6.3, Theorems 6.3.1–6.3.2; §7.2, Theorem 7.2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第12讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic12h.pdf",
+        "locator": "PDF p.17 定义「不一致」；第17讲 PDF pp.5–6 使用「一致」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-order-completeness",
+    "english": "first-order completeness theorem",
+    "chinese": "完全性定理",
+    "aliases": [
+      "Gödel completeness theorem"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "For a sound complete classical first-order calculus, every semantic consequence of a sentence set has a finite derivation from it.",
+    "definitionZh": "对于可靠且完全的经典一阶演绎系统，语句集的每个语义后承都有从该集合出发的有限推演。",
+    "example": "If $\\Gamma\\models Q(c)$, completeness supplies $\\Gamma\\vdash Q(c)$.",
+    "distinction": "Completeness of the logic does not assert that an individual theory decides every sentence.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Jeremy Avigad — Logic and Computation (January 2002)",
+        "url": "https://www.andrew.cmu.edu/user/avigad/Teaching/landc_notes.pdf",
+        "locator": "§6.3, Theorems 6.3.1–6.3.2; §7.2, Theorem 7.2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第17讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic17h.pdf",
+        "locator": "PDF p.5 定理「完全性定理」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "first-order-compactness",
+    "english": "first-order compactness theorem",
+    "chinese": "紧致性定理",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "definitionEn": "A set of classical first-order sentences has a model if and only if every finite subset has a model.",
+    "definitionZh": "经典一阶语句集有模型，当且仅当其每个有限子集有模型。",
+    "example": "The axioms $c>\\bar n$ for all standard $n$, together with arithmetic, have a nonstandard model.",
+    "distinction": "Finite fragments may use different models; the theorem does not force a model on a fixed domain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Jeremy Avigad — Logic and Computation (January 2002)",
+        "url": "https://www.andrew.cmu.edu/user/avigad/Teaching/landc_notes.pdf",
+        "locator": "§6.3, Theorems 6.3.1–6.3.2; §7.2, Theorem 7.2.1",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "杨睿之（复旦大学）— 数理逻辑，第17讲",
+        "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic17h.pdf",
+        "locator": "PDF p.22 定理「紧致性定理」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "set-union",
+    "english": "union of sets",
+    "chinese": "并集",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The union of A and B contains exactly the objects belonging to at least one of them.",
+    "definitionZh": "A 与 B 的并集恰由至少属于其中一个集合的对象组成。",
+    "example": "$\\{2,5\\}\\cup\\{5,7\\}=\\{2,5,7\\}$.",
+    "distinction": "Union discards duplicate members; tagged disjoint union retains which component supplied them.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，并集公理及派生运算 X∪Y",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "set-intersection",
+    "english": "intersection of sets",
+    "chinese": "交",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The intersection of A and B contains exactly the objects belonging to both.",
+    "definitionZh": "A 与 B 的交恰由同时属于二者的对象组成。",
+    "example": "$\\{2,5\\}\\cap\\{5,7\\}=\\{5\\}$.",
+    "distinction": "An empty indexed intersection needs an ambient universe; it is not an unrestricted universal set in ZF.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，派生运算段「交 X∩Y」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "set-difference",
+    "english": "set difference",
+    "chinese": "差",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The difference A∖B consists of members of A that do not belong to B.",
+    "definitionZh": "集合 A 与 B 的差由属于 A 而不属于 B 的元素组成。",
+    "example": "$\\{2,5\\}\\setminus\\{5,7\\}=\\{2\\}$.",
+    "distinction": "Set difference is ordered: swapping A and B generally changes the result.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/sets.html",
+        "locator": "§11.1 Elementary Set Theory; §11.4 Cartesian Product and Power Set",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，派生运算段「差」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "disjoint-union",
+    "english": "disjoint union",
+    "chinese": "无交并",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For indexed sets, the set of pairs (i,x) with x in the i-th set, retaining the component index.",
+    "definitionZh": "一族带指标集合的无交并是所有 (i,x)（x 属于第 i 个集合）的集合，保留元素的来源指标。",
+    "example": "$\\{2\\}\\sqcup\\{2\\}$ has two tagged members.",
+    "distinction": "Already disjoint subsets may use their ordinary union as a model; tagging handles overlapping inputs.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，X⊔Y 与指标族的无交并",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "set-function",
+    "english": "function between sets",
+    "chinese": "映射",
+    "aliases": [
+      "function"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For specified sets A and B, an assignment giving each member of A exactly one member of B.",
+    "definitionZh": "对于指定的集合 A、B，为 A 的每个元素指定 B 中唯一一个元素的对应。",
+    "example": "$n\\mapsto n+2$ defines a map $\\mathbb Z\\to\\mathbb Z$.",
+    "distinction": "A formula alone does not specify a function until domain and codomain are stated.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/functions.html",
+        "locator": "§15.1 The Function Concept; §15.2 Injective, Surjective, and Bijective Functions; §15.3 Functions and Subsets of the Domain",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，配对公理后的映射图形段",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "injective-function",
+    "english": "injective function",
+    "chinese": "单射",
+    "aliases": [
+      "injection"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A function $f:A\\to B$ for which $f(x)=f(y)$ implies $x=y$ for all $x,y\\in A$.",
+    "definitionZh": "对所有定义域元素 x、y，f(x)=f(y) 都推出 x=y 的映射。",
+    "example": "$n\\mapsto5n$ is an injection $\\mathbb Z\\to\\mathbb Z$.",
+    "distinction": "Injectivity prohibits collisions; it does not require covering the codomain.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/functions.html",
+        "locator": "§15.1 The Function Concept; §15.2 Injective, Surjective, and Bijective Functions; §15.3 Functions and Subsets of the Domain",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§10.2 单射函数与满射函数（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "surjective-function",
+    "english": "surjective function",
+    "chinese": "满射",
+    "aliases": [
+      "surjection"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A function f:A→B whose image is all of B.",
+    "definitionZh": "像等于整个陪域 B 的映射 f:A→B。",
+    "example": "$n\\mapsto n+2$ is surjective on $\\mathbb Z$.",
+    "distinction": "Surjectivity can change when the codomain changes even if the formula and domain stay fixed.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/functions.html",
+        "locator": "§15.1 The Function Concept; §15.2 Injective, Surjective, and Bijective Functions; §15.3 Functions and Subsets of the Domain",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§10.2 单射函数与满射函数（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "bijective-function",
+    "english": "bijective function",
+    "chinese": "双射",
+    "aliases": [
+      "bijection",
+      "一一对应"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A function that is both injective and surjective, equivalently one admitting a two-sided inverse.",
+    "definitionZh": "既单又满的映射；等价地，具有左右两侧逆映射的映射。",
+    "example": "$n\\mapsto-n$ is a bijection $\\mathbb Z\\to\\mathbb Z$.",
+    "distinction": "An inverse relation becomes an inverse function on the entire codomain only for a bijection.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/functions.html",
+        "locator": "§15.1 The Function Concept; §15.2 Injective, Surjective, and Bijective Functions; §15.3 Functions and Subsets of the Domain",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§10.3 双射函数（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "function-image",
+    "english": "image of a subset under a function",
+    "chinese": "像",
+    "aliases": [
+      "direct image"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For f:A→B and S⊆A, the set of values f(s) for s∈S.",
+    "definitionZh": "对于 f:A→B 和 S⊆A，所有 f(s)（s∈S）构成的集合。",
+    "example": "For $f(n)=n^2$, $f[\\{-2,2\\}]=\\{4\\}$.",
+    "distinction": "Images preserve unions but need not preserve intersections when f is not injective.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/functions.html",
+        "locator": "§15.1 The Function Concept; §15.2 Injective, Surjective, and Bijective Functions; §15.3 Functions and Subsets of the Domain",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "鲍志强（北京大学）— 拓扑学2007年秋季教学纲要",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月12日，主要概念：「像」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "function-preimage",
+    "english": "preimage of a subset under a function",
+    "chinese": "原像",
+    "aliases": [
+      "inverse image"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For f:A→B and T⊆B, the members a of A such that f(a) belongs to T.",
+    "definitionZh": "对于 f:A→B 和 T⊆B，由满足 f(a)∈T 的所有 a∈A 组成的集合。",
+    "example": "For $f(n)=n^2$ on $\\mathbb Z$, $f^{-1}[\\{4\\}]=\\{-2,2\\}$.",
+    "distinction": "Inverse-image notation does not assert that f has an inverse function.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/functions.html",
+        "locator": "§15.1 The Function Concept; §15.2 Injective, Surjective, and Bijective Functions; §15.3 Functions and Subsets of the Domain",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "鲍志强（北京大学）— 拓扑学2007年秋季教学纲要",
+        "url": "https://math.pku.edu.cn/teachers/baozq/year07/topology.htm",
+        "locator": "第1周9月12日，主要概念：「原像」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "equivalence-relation",
+    "english": "equivalence relation",
+    "chinese": "等价关系",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A binary relation on a specified set that is reflexive, symmetric and transitive.",
+    "definitionZh": "指定集合上满足反身性、对称性和传递性的二元关系。",
+    "example": "On $\\mathbb Z$, $a\\sim b$ iff $4\\mid(a-b)$.",
+    "distinction": "Reflexivity and symmetry alone are insufficient: distance at most one fails transitivity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/relations.html",
+        "locator": "§13.1 Order Relations; §13.3 Equivalence Relations and Equality",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，等价关系及三条性质",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "equivalence-class",
+    "english": "equivalence class",
+    "chinese": "等价类",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "For an equivalence relation on X, the class [x] consists of all elements related to x.",
+    "definitionZh": "对于 X 上的等价关系，x 的等价类 [x] 是所有与 x 等价的元素的集合。",
+    "example": "Modulo four, $[2]=\\{\\ldots,-2,2,6,\\ldots\\}$.",
+    "distinction": "A class is a set of representatives, rather than one preferred representative.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，等价类 [x] 的定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "quotient-set",
+    "english": "quotient set",
+    "chinese": "商集",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The set of equivalence classes of a specified equivalence relation on a set X.",
+    "definitionZh": "由指定集合 X 上某一等价关系的全部等价类组成的集合。",
+    "example": "$\\mathbb Z/{\\sim}$ for congruence modulo four has four members.",
+    "distinction": "Operations require compatibility with the relation before they descend to the quotient.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「ZFC 公理一览」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「ZFC 公理一览」，商集 X/∼ 的定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "partial-order",
+    "english": "partial order",
+    "chinese": "偏序",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A reflexive, antisymmetric and transitive binary relation on a set.",
+    "definitionZh": "集合上满足反身性、反对称性和传递性的二元关系。",
+    "example": "Inclusion orders $\\mathcal P(\\{2,5\\})$; $\\{2\\}$ and $\\{5\\}$ are incomparable.",
+    "distinction": "A partial order (偏序) is the relation; a partially ordered set or poset (偏序集) is the set equipped with that relation. Antisymmetry says mutual comparison forces equality; it is not the negation of symmetry.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/relations.html",
+        "locator": "§13.1 Order Relations; §13.3 Equivalence Relations and Equality",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「序结构与序数」，带源码标签 def:partial-order 的定义；正文称「偏序」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "well-order",
+    "english": "well-order",
+    "chinese": "良序",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Graduate",
+    "definitionEn": "A total order on a set in which every nonempty subset has a least element.",
+    "definitionZh": "一个全序，其中每个非空子集都有最小元素。",
+    "example": "The usual order well-orders $\\mathbb N$ but not $\\mathbb Z$.",
+    "distinction": "A least element of the whole set is insufficient; every nonempty subset must have one.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「序结构与序数」，定义 def:well-ordered（良序集；每个非空子集有极小元）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章：「序结构与序数」，带源码标签 def:well-ordered 的定义「良序集」",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "set-cardinality",
+    "english": "cardinality of a set",
+    "chinese": "基数",
+    "aliases": [
+      "cardinality"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "In ZFC, the least ordinal bijective with a set; equality of cardinalities is equivalently existence of a bijection.",
+    "definitionZh": "在 ZFC 中，与给定集合等势的最小序数；两个集合基数相等等价于它们之间存在双射。",
+    "example": "$|\\{2,5,7\\}|=3$ and $|5\\mathbb N|=|\\mathbb N|=\\aleph_0$.",
+    "distinction": "Cardinal size ignores order; ordinal type remembers an ordering.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/the_infinite.html",
+        "locator": "§22.1 Equinumerosity; §22.2 Countably Infinite Sets; §22.3 Cantor’s Theorem; §22.5 The Cantor-Bernstein Theorem",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「基数」：等势的定义；基数的定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "equinumerosity",
+    "english": "equinumerosity",
+    "chinese": "等势",
+    "aliases": [
+      "equipollence"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "The relation between sets A and B that holds precisely when a bijection A→B exists.",
+    "definitionZh": "集合 A 与 B 之间存在双射时成立的关系。",
+    "example": "$\\mathbb N$ and $\\{0,5,10,\\ldots\\}$ are equinumerous.",
+    "distinction": "Equal cardinality does not require sets to be equal or nested.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/the_infinite.html",
+        "locator": "§22.1 Equinumerosity; §22.2 Countably Infinite Sets; §22.3 Cantor’s Theorem; §22.5 The Cantor-Bernstein Theorem",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法，第一卷（作者源码）",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
+        "locator": "第1章「基数」：等势的定义；基数的定义",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "countable-set",
+    "english": "countable set",
+    "chinese": "可数集",
+    "aliases": [],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Undergraduate",
+    "definitionEn": "A set that is finite or admits a bijection with the natural numbers, including the empty set.",
+    "definitionZh": "有限或与自然数集之间存在双射的集合；本条约定包括空集。",
+    "example": "$\\emptyset$, $\\mathbb N$, and $\\mathbb Z$ are countable; $\\mathcal P(\\mathbb N)$ is not.",
+    "distinction": "Some Chinese and English texts use countable exclusively for the infinite case; this entry includes finite sets.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+        "url": "https://leanprover-community.github.io/logic_and_proof/the_infinite.html",
+        "locator": "§22.1 Equinumerosity; §22.2 Countably Infinite Sets; §22.3 Cantor’s Theorem; §22.5 The Cantor-Bernstein Theorem",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "高等教育出版社 — 数学证明 通往高等数学的阶梯（第4版）影印版，官方中文目录",
+        "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=67b60fa73e46f5f63ffe395a",
+        "locator": "官方中文目录：§11.2 可数集（名称证据，非正文定义证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "continuum-hypothesis",
+    "english": "continuum hypothesis",
+    "chinese": "连续统假设",
+    "aliases": [
+      "CH"
+    ],
+    "area": "foundations",
+    "topic": "set-theory",
+    "level": "Research",
+    "definitionEn": "In ZFC, the assertion $2^{\\aleph_0}=\\aleph_1$, where $\\aleph_1$ is the least uncountable cardinal.",
+    "definitionZh": "在 ZFC 中断言 2^ℵ₀=ℵ₁，其中 ℵ₁ 是最小不可数基数。",
+    "example": "CH rules out a cardinal $\\kappa$ with $\\aleph_0<\\kappa<|\\mathbb R|$.",
+    "distinction": "Cantor’s uncountability theorem is provable in ZFC; CH is independent if ZFC is consistent.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Chris Lambie-Hanson — The Continuum Hypothesis, the Axiom of Choice, and Lebesgue Measurability",
+        "url": "https://www.math.cmu.edu/~clambieh/ch.pdf",
+        "locator": "PDF pp.57–63 Real numbers / The Continuum Hypothesis; pp.71–79 Gödel’s Constructible Universe / Forcing",
+        "checked": "2026-10-14"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "复旦大学哲学学院 — 第154期丨杨睿之：追求生活的乐趣，探索逻辑的边界",
+        "url": "https://philosophy.fudan.edu.cn/53/d2/c20854a283602/page.htm",
+        "locator": "访谈「探索逻辑的边界」中讨论连续统假设的段落（中文名称证据）",
+        "checked": "2026-10-14"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  }
+]
