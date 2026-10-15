@@ -20,6 +20,7 @@ import * as catalogueCore from './assets/portal-catalogue-core.js';
 import {backgroundForm} from './data/background-form.mjs';
 import {protectedBytes,windowsSourceBlobs} from './protected-bytes.mjs';
 import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
+import {loadConceptReadings} from './study-content.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
@@ -59,6 +60,9 @@ const identityHashes = {
 };
 const catalogue = json('notes/reading-notes/library/catalogue.json');
 const knowledge = loadKnowledge(root);
+const readingGuides = loadConceptReadings(root);
+// Immutable original content counts stay separate from the growing directory.
+const directoryCounts = {...counts, encyclopedia:knowledge.articles.length+readingGuides.length};
 const firstWorks = new Map();
 for (const topic of catalogue.topics) for (const e of topic.books) {
   const key = e.url.replace(/\/$/, '');
@@ -67,6 +71,7 @@ for (const topic of catalogue.topics) for (const e of topic.books) {
 const works = [...firstWorks.values()];
 const source = {library:works, encyclopedia:knowledge.articles, terminology:knowledge.terms,
   links:json('resources/data/links.json'), programs:json('resources/data/programs.json'), researchers};
+const directorySource = {...source, encyclopedia:[...knowledge.articles,...readingGuides]};
 const failures = [], passed = [], cache = new Map(), anchorCache = new Map(), cardCache = new Map();
 async function check(label, fn) {
   try { await fn(); passed.push(label); console.log('PASS '+label); }
@@ -362,7 +367,7 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
   for (const [collection, file] of Object.entries(routes)) await check(collection+': data, full details, static pages, old anchors and sources', () => {
     const indexFile = `resources/catalogue-data/${collection}/index.json`, data = json(indexFile), records = data.records;
     directories.set(collection, records); directoryIndexBytes += bytes(indexFile);
-    assert(Array.isArray(records)); assert.equal(records.length,counts[collection]);
+    assert(Array.isArray(records)); assert.equal(records.length,directoryCounts[collection]);
     assert(Array.isArray(data.filters)); assert(data.defaults && typeof data.defaults === 'object');
     if (collection === 'programs') {
       sameSet(data.filters.find(f => f.field === 'applicationStatus')?.values || [],applicationStatuses,'Application-status choices');
@@ -377,14 +382,14 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
       }
     }
     sameSet(records.map(r => r.id), [...new Set(records.map(r => r.id))], collection+' record IDs');
-    if (identityHashes[collection]) sameSet(records.map(r => r.id), source[collection].map(e => e.id), collection+' original IDs');
+    if (identityHashes[collection]) sameSet(records.map(r => r.id), directorySource[collection].map(e => e.id), collection+' original and appended IDs');
     if (['library','links'].includes(collection)) {
       assert(registry && registry[collection], 'Missing persistent stable-ui-ids.json registry');
       const entries = source[collection].map(e => [collection === 'library' ? e.url.replace(/\/$/,'') : e.url,e]);
       sameSet(entries.map(([key]) => registry[collection][key]), records.map(r => r.id), collection+' registry associations');
       assert.equal(new Set(Object.values(registry[collection])).size,Object.values(registry[collection]).length,collection+' registry ID collision');
     }
-    const byID = new Map(source[collection].map(e => [e.id || registry?.[collection]?.[collection === 'library' ? e.url.replace(/\/$/,'') : e.url],e]));
+    const byID = new Map(directorySource[collection].map(e => [e.id || registry?.[collection]?.[collection === 'library' ? e.url.replace(/\/$/,'') : e.url],e]));
     for (const r of records) {
       for (const field of ['id','title','url']) assert.equal(typeof r[field],'string',collection+' record '+field);
       for (const field of ['subtitle','summary']) assert.equal(typeof r[field],'string',collection+'/'+r.id+' '+field);
@@ -430,7 +435,12 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
         const evidence = collection === 'encyclopedia' ? original.references : [...original.definitionSources,...original.translationSources];
         sourceLinks(detail,evidence,r.id);
         for (const s of evidence) { hasText(detail,s.locator,r.id+' source locator'); hasText(detail,s.checked,r.id+' source review date'); }
-        if (collection === 'encyclopedia') assert.equal(articleBody(detail),renderArticle(original.body).html,r.id+' unchanged math/body');
+        if (collection === 'encyclopedia' && original.contentKind==='External reading guide') {
+          hasText(detail,original.summary,r.id+' reading orientation');
+          assert(!detail.includes('class="article-body"'),r.id+' external guide must not masquerade as an original article');
+          for(const reference of original.references)for(const field of ['author','kind','language','access'])hasText(detail,reference[field],r.id+'/'+field);
+        }
+        else if (collection === 'encyclopedia') assert.equal(articleBody(detail),renderArticle(original.body).html,r.id+' unchanged math/body');
         else for (const field of ['definitionEn','definitionZh','example','distinction']) assert(detail.includes(markdown.render(original[field])),r.id+'/'+field+' rendered content');
         assert(detail.includes('data-content-license') && detail.includes('CC BY-SA 4.0'),r.id+' content licence');
         assert(detail.includes('/en/resources/assets/katex/katex.min.css'),r.id+' local math stylesheet');
@@ -586,7 +596,7 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
       const entries = search.validateShard(json(indexFile),collection.id); total += bytes(indexFile); all.push(...entries);
       sameSet(entries.map(e => e.id), [...new Set(entries.map(e => e.id))],collection.id+' search IDs');
       if (counts[collection.id]) {
-        assert.equal(entries.length,counts[collection.id],collection.id+' search count');
+        assert.equal(entries.length,directoryCounts[collection.id],collection.id+' search count');
         assert(directories.has(collection.id),collection.id+' directory checks did not load data');
         sameSet(entries.map(e => e.id),directories.get(collection.id).map(r => r.id),collection.id+' search/directory parity');
         const records = new Map(directories.get(collection.id).map(r => [r.id,r]));

@@ -1,0 +1,1087 @@
+[
+  {
+    "id": "simplicial-set",
+    "title": "Simplicial Set",
+    "chinese": "",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "summary": "A simplicial set is a contravariant functor from the simplex category to sets. Read the order-preserving maps as operations on simplices, keeping degenerate simplices as part of the data.",
+    "prerequisites": [
+      "category",
+      "contravariant-functor",
+      "set-function"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Kerodon — Simplicial Sets",
+        "author": "Jacob Lurie",
+        "url": "https://kerodon.net/tag/000H",
+        "sourceUrl": "https://kerodon.net/tag/0004",
+        "kind": "Online reference",
+        "locator": "§1.1, Definitions 1.1.0.2 (simplex category), 1.1.0.4 (simplicial object), and 1.1.0.6 (simplicial set; tag 000H)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "kan-complex",
+    "title": "Kan Complex",
+    "chinese": "",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "summary": "A Kan complex is a simplicial set in which every horn admits a filler. Check outer as well as inner horns to distinguish this condition from the inner-horn condition for quasicategories.",
+    "prerequisites": [
+      "simplicial-set",
+      "homotopy-of-maps",
+      "groupoid"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Kerodon — Kan Complexes",
+        "author": "Jacob Lurie",
+        "url": "https://kerodon.net/tag/002H",
+        "sourceUrl": "https://kerodon.net/tag/002H",
+        "kind": "Online reference",
+        "locator": "§1.2.5, Definition 1.2.5.1 (tag 002H), including all horns with n > 0 and 0 ≤ i ≤ n",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "inner-fibration",
+    "title": "Inner Fibration",
+    "chinese": "",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Research",
+    "summary": "Inner fibrations impose the inner-horn lifting condition relative to a map of simplicial sets. Compare left, right, and inner fibrations, then specialize the base to a point to recover the quasicategory condition.",
+    "prerequisites": [
+      "simplicial-set",
+      "kan-complex",
+      "higher-category"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Higher Topos Theory",
+        "author": "Jacob Lurie",
+        "url": "https://www.math.ias.edu/~lurie/papers/HTT.pdf",
+        "sourceUrl": "https://www.math.ias.edu/~lurie/papers/HTT.pdf",
+        "kind": "Book",
+        "locator": "Chapter 2, Definition 2.0.0.3 (Joyal), printed p. 53: relative left-, right-, and inner-horn lifting conditions",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "model-category",
+    "title": "Model Category",
+    "chinese": "",
+    "aliases": [],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Graduate",
+    "summary": "Weak equivalences, cofibrations, and fibrations provide an abstract setting for homotopy theory. Riehl expresses the model axioms through two weak factorization systems; unpack their lifting and factorization requirements before using replacements.",
+    "prerequisites": [
+      "category",
+      "categorical-limit",
+      "categorical-colimit",
+      "homotopy-equivalence"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Categorical Homotopy Theory",
+        "author": "Emily Riehl",
+        "url": "https://emilyriehl.github.io/files/cathtpy.pdf",
+        "sourceUrl": "https://emilyriehl.github.io/files/cathtpy.pdf",
+        "kind": "Book",
+        "locator": "§11.3 Model categories and Quillen functors, Definition 11.3.1, printed p. 138; §§11.1–11.2 Lifting problems and lifting properties / Weak factorization systems",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "stable-infinity-category",
+    "title": "Stable Infinity-Category",
+    "chinese": "",
+    "aliases": [
+      "stable ∞-category"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Research",
+    "summary": "Stability requires a zero object, fibers and cofibers of every map, and agreement of fiber and cofiber sequences. Begin with spectra, then follow how stable infinity-categories retain the homotopy information behind triangulated categories.",
+    "prerequisites": [
+      "higher-category",
+      "categorical-limit",
+      "categorical-colimit",
+      "stable-homotopy-group"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Higher Algebra",
+        "author": "Jacob Lurie",
+        "url": "https://www.math.ias.edu/~lurie/papers/HA.pdf",
+        "sourceUrl": "https://www.math.ias.edu/~lurie/papers/HA.pdf",
+        "kind": "Book manuscript",
+        "locator": "§1.1.1, Definition 1.1.1.9 and Example 1.1.1.11 (spectra); §1.1.2, Remark 1.1.2.16 (relation to triangulated categories)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "infinity-topos",
+    "title": "Infinity-Topos",
+    "chinese": "",
+    "aliases": [
+      "∞-topos"
+    ],
+    "area": "category-theory",
+    "topic": "category-theory",
+    "level": "Research",
+    "summary": "An infinity-topos is an accessible left exact localization of a category of space-valued presheaves on a small infinity-category. Track both accessibility and preservation of finite limits when extending the ordinary topos analogy.",
+    "prerequisites": [
+      "higher-category",
+      "grothendieck-topos",
+      "adjunction",
+      "categorical-limit"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Higher Topos Theory",
+        "author": "Jacob Lurie",
+        "url": "https://www.math.ias.edu/~lurie/papers/HTT.pdf",
+        "sourceUrl": "https://www.math.ias.edu/~lurie/papers/HTT.pdf",
+        "kind": "Book",
+        "locator": "§6.1, Definition 6.1.0.4 and Remark 6.1.0.5, printed p. 529 (accessible left exact localization and its size condition)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "arzela-ascoli-theorem",
+    "title": "Arzelà–Ascoli Theorem",
+    "chinese": "",
+    "aliases": [
+      "Ascoli–Arzelà theorem"
+    ],
+    "area": "analysis",
+    "topic": "real-analysis",
+    "level": "Undergraduate",
+    "summary": "Uniform boundedness and equicontinuity provide convergent subsequences in spaces of continuous functions on compact domains. Compare this criterion with mere pointwise boundedness to see what controls convergence uniformly.",
+    "prerequisites": [
+      "continuous-function",
+      "uniform-convergence",
+      "topological-compactness"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Notes on Partial Differential Equations",
+        "author": "John K. Hunter",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/ch1.pdf",
+        "sourceUrl": "https://www.math.ucdavis.edu/~hunter/pdes/ch1.pdf",
+        "kind": "Lecture notes",
+        "locator": "§1.5 Compactness, Theorem 1.14, printed p. 6",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "radon-nikodym-theorem",
+    "title": "Radon–Nikodym Theorem",
+    "chinese": "",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "measure-theory",
+    "level": "Graduate",
+    "summary": "Absolute continuity lets one sigma-finite measure be expressed by integrating a density against another. Read the accompanying Lebesgue decomposition to distinguish this density from the mutually singular part.",
+    "prerequisites": [
+      "measure-space",
+      "sigma-finite-measure",
+      "lebesgue-integral"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Measure Theory",
+        "author": "John K. Hunter",
+        "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "sourceUrl": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+        "kind": "Lecture notes",
+        "locator": "§6.8 Radon-Nikodym theorem, Theorem 6.27 (Lebesgue-Radon-Nikodym theorem)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "banach-alaoglu-theorem",
+    "title": "Banach–Alaoglu Theorem",
+    "chinese": "",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "summary": "The closed dual unit ball is compact for pointwise evaluation on the original normed space. The separate sequential theorem identifies where separability enters arguments that extract convergent subsequences.",
+    "prerequisites": [
+      "normed-vector-space",
+      "continuous-dual-space",
+      "topological-compactness"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "245B, Notes 11: The strong and weak topologies",
+        "author": "Terence Tao",
+        "url": "https://terrytao.wordpress.com/2009/02/21/245b-notes-11-the-strong-and-weak-topologies/",
+        "sourceUrl": "https://terrytao.wordpress.com/2009/02/21/245b-notes-11-the-strong-and-weak-topologies/",
+        "kind": "Lecture notes",
+        "locator": "§3 The weak and weak* topologies, Theorem 3 and Theorem 4 (Sequential Banach-Alaoglu theorem)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "rellich-kondrachov-compactness",
+    "title": "Rellich–Kondrachov Compactness",
+    "chinese": "",
+    "aliases": [
+      "compact Sobolev embedding"
+    ],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Graduate",
+    "summary": "On a bounded open domain, bounded families in the zero-boundary-value Sobolev space gain strong subsequential convergence below the critical exponent. Follow the translation estimates that turn derivative control into compactness.",
+    "prerequisites": [
+      "sobolev-space",
+      "weak-derivative",
+      "lp-space"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Notes on Partial Differential Equations",
+        "author": "John K. Hunter",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/ch3.pdf",
+        "sourceUrl": "https://www.math.ucdavis.edu/~hunter/pdes/ch3.pdf",
+        "kind": "Lecture notes",
+        "locator": "§3.10 Compactness results, Theorem 3.45 and its proof, printed pp. 73–75",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "lax-milgram-theorem",
+    "title": "Lax–Milgram Theorem",
+    "chinese": "",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "differential-equations",
+    "level": "Graduate",
+    "summary": "A bounded coercive bilinear form gives a unique solution for each continuous linear functional. The elliptic application shows how adding a sufficiently large zeroth-order term can restore coercivity.",
+    "prerequisites": [
+      "hilbert-space",
+      "continuous-dual-space",
+      "weak-pde-solution"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Notes on Partial Differential Equations",
+        "author": "John K. Hunter",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/ch4.pdf",
+        "sourceUrl": "https://www.math.ucdavis.edu/~hunter/pdes/ch4.pdf",
+        "kind": "Lecture notes",
+        "locator": "§4.7 The Lax-Milgram theorem and general elliptic PDEs, Theorems 4.20–4.22",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "pseudodifferential-operator",
+    "title": "Pseudodifferential Operator",
+    "chinese": "",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "harmonic-analysis",
+    "level": "Research",
+    "summary": "Pseudodifferential operators extend differential operators through kernels conormal to the diagonal. Follow the bundle-valued kernel construction into ellipticity to connect symbol information with approximate inverses.",
+    "prerequisites": [
+      "analysis-distribution",
+      "fourier-transform",
+      "smooth-manifold",
+      "smooth-vector-bundle"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Lectures on Pseudodifferential Operators",
+        "author": "Richard Melrose",
+        "url": "https://math.mit.edu/~rbm/18.157-F05.pdf",
+        "sourceUrl": "https://math.mit.edu/~rbm/18.157-F05.pdf",
+        "kind": "Lecture notes",
+        "locator": "Chapter 5, §L5.5 Pseudodifferential operators, equation (L5.16), printed p. 55; Chapter 6 Ellipticity, equation (L6.13)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "cw-complex",
+    "title": "CW complex",
+    "chinese": "",
+    "aliases": [
+      "cell complex"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "summary": "A CW complex is assembled by attaching disks along their boundary spheres, dimension by dimension. Spheres and projective spaces illustrate how the attaching maps carry information beyond cell counts.",
+    "prerequisites": [
+      "topological-space",
+      "quotient-topology"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "sourceUrl": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+        "kind": "Book",
+        "locator": "Chapter 0, Cell Complexes, printed pp. 5–8, including Examples 0.3–0.4",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "cellular-homology",
+    "title": "cellular homology",
+    "chinese": "",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Undergraduate",
+    "summary": "Cellular homology computes singular homology using generators indexed by cells. Track how attaching-map degrees determine boundary maps, making a finite CW decomposition into an explicit chain computation.",
+    "prerequisites": [
+      "cw-complex",
+      "singular-homology",
+      "chain-complex-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "sourceUrl": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+        "kind": "Book",
+        "locator": "§2.2, Cellular Homology, Theorem 2.35 and the following Cellular Boundary Formula",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "cup-product",
+    "title": "cup product",
+    "chinese": "",
+    "aliases": [
+      "上积"
+    ],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "summary": "The cup product adds multiplication to cohomology groups. Compare its cochain definition with the surface calculation to see what information survives beyond the ranks of the groups.",
+    "prerequisites": [
+      "singular-cohomology",
+      "singular-homology"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "sourceUrl": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+        "kind": "Book",
+        "locator": "§3.2 Cup Product, cochain definition and Example 3.7, printed pp. 206–207",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "serre-fibration",
+    "title": "Serre Fibration",
+    "chinese": "",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "summary": "Lifting homotopies from disks relates the homotopy groups of a fiber, total space, and base. The long exact sequence extends the lifting viewpoint already familiar from covering spaces.",
+    "prerequisites": [
+      "covering-space",
+      "homotopy-of-maps",
+      "higher-homotopy-group"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "sourceUrl": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+        "kind": "Book",
+        "locator": "§4.2, Fiber Bundles, Theorem 4.41 and the subsequent definition of Serre fibration, printed pp. 375–376",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "stiefel-whitney-classes",
+    "title": "Stiefel–Whitney Classes",
+    "chinese": "",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "summary": "These mod-two cohomology classes detect features of real vector bundles that survive pullback. Start with the axioms and Whitney sum formula, then relate the classes to obstructions to independent sections.",
+    "prerequisites": [
+      "smooth-vector-bundle",
+      "singular-cohomology",
+      "cup-product"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Vector Bundles & K-Theory (Version 2.2)",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf",
+        "sourceUrl": "https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html",
+        "kind": "Book draft",
+        "locator": "§3.1 Stiefel-Whitney and Chern Classes, Axioms and Construction, Theorem 3.1 (naturality and Whitney sum formula); §3.3 Characteristic Classes as Obstructions",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "thom-isomorphism",
+    "title": "Thom Isomorphism",
+    "chinese": "",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "algebraic-topology",
+    "level": "Graduate",
+    "summary": "A Thom class shifts cohomology from a vector bundle's base into the relative cohomology of its disk and sphere bundles. Track the orientation hypothesis when moving from mod-two to integer coefficients.",
+    "prerequisites": [
+      "smooth-vector-bundle",
+      "singular-cohomology",
+      "cup-product",
+      "manifold-orientation"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "sourceUrl": "https://pi.math.cornell.edu/~hatcher/AT/ATpage.html",
+        "kind": "Book",
+        "locator": "§4.D Cohomology of Fiber Bundles, Corollary 4D.9 (Thom isomorphism) and Theorem 4D.10 (existence of Thom classes), printed pp. 441–442",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "quadratic-reciprocity-law",
+    "title": "Quadratic Reciprocity Law",
+    "chinese": "",
+    "aliases": [
+      "quadratic reciprocity"
+    ],
+    "area": "number-theory",
+    "topic": "elementary-number-theory",
+    "level": "Undergraduate",
+    "summary": "Quadratic reciprocity relates whether one odd prime is a square modulo another to the reversed question. The Legendre symbol and Gauss's lemma turn the sign rule into a method for reducing computations.",
+    "prerequisites": [
+      "integer-congruence",
+      "fermats-little-theorem"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Quadratic Residues, Quadratic Reciprocity, Lecture 9 Notes",
+        "author": "Abhinav Kumar (course instructor; MIT OpenCourseWare)",
+        "url": "https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/d5cdd1b802194a2a236eed934da8ae36_MIT18_781S12_lec9.pdf",
+        "sourceUrl": "https://ocw.mit.edu/courses/18-781-theory-of-numbers-spring-2012/resources/mit18_781s12_lec9/",
+        "kind": "Lecture notes",
+        "locator": "Lecture 9, Legendre Symbol, Lemma 40 (Gauss Lemma), and Theorem 42 (Quadratic Reciprocity Law)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "p-adic-number-field",
+    "title": "p-adic number field",
+    "chinese": "",
+    "aliases": [
+      "field of p-adic numbers"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "summary": "Completing the rationals for the p-adic absolute value produces a field with nonarchimedean convergence. Compute digit expansions before studying its valuation ring and local-field extensions.",
+    "prerequisites": [
+      "p-adic-valuation",
+      "cauchy-sequence",
+      "field"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Number Theory (v3.08)",
+        "author": "James S. Milne",
+        "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+        "sourceUrl": "https://www.jmilne.org/math/CourseNotes/ant.html",
+        "kind": "Lecture notes",
+        "locator": "Chapter 7 Absolute Values; Local Fields, Completions, Remark 7.24, Proposition 7.26 (valuation expansions), and Examples 7.27–7.29",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "hensels-lemma",
+    "title": "Hensel's lemma",
+    "chinese": "",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "summary": "A simple root over the residue field lifts to a root in a complete discrete valuation ring. Follow Newton's successive corrections, then compare the coprime-factor lifting form of Hensel's lemma.",
+    "prerequisites": [
+      "p-adic-number-field",
+      "polynomial-ring",
+      "integer-congruence"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Number Theory (v3.08)",
+        "author": "James S. Milne",
+        "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+        "sourceUrl": "https://www.jmilne.org/math/CourseNotes/ant.html",
+        "kind": "Lecture notes",
+        "locator": "Chapter 7, Newton's lemma, Proposition 7.31 (simple-root lifting), and Theorem 7.33 (Hensel's lemma, coprime-factor lifting), printed pp. 120–121",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "dirichlet-unit-theorem",
+    "title": "Dirichlet's unit theorem",
+    "chinese": "",
+    "aliases": [],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Graduate",
+    "summary": "The signature of a number field determines the rank of its unit group. Compare real and imaginary quadratic fields, then follow the logarithmic embedding used to prove finite generation.",
+    "prerequisites": [
+      "number-field",
+      "ring-of-integers",
+      "abelian-group"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Number Theory (v3.08)",
+        "author": "James S. Milne",
+        "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+        "sourceUrl": "https://www.jmilne.org/math/CourseNotes/ant.html",
+        "kind": "Lecture notes",
+        "locator": "Chapter 5 The Unit Theorem, Theorem 5.1 and the logarithmic-embedding proof",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "chebotarev-density-theorem",
+    "title": "Chebotarev Density Theorem",
+    "chinese": "",
+    "aliases": [
+      "Chebotarëv density theorem"
+    ],
+    "area": "number-theory",
+    "topic": "algebraic-number-theory",
+    "level": "Research",
+    "summary": "Frobenius conjugacy classes control how often unramified primes exhibit each splitting behavior in a finite Galois extension. Polynomial examples translate the density statement into factorization patterns modulo primes.",
+    "prerequisites": [
+      "galois-extension",
+      "number-field",
+      "prime-ideal",
+      "residue-degree"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Algebraic Number Theory (v3.08)",
+        "author": "James S. Milne",
+        "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+        "sourceUrl": "https://www.jmilne.org/math/CourseNotes/ant.html",
+        "kind": "Lecture notes",
+        "locator": "Chapter 8 Global Fields, Chebotarev density theorem, Theorem 8.31 and Example 8.36",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "borel-cantelli-lemmas",
+    "title": "Borel–Cantelli Lemmas",
+    "chinese": "",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "summary": "Summable event probabilities force only finitely many occurrences almost surely. With independence, a divergent sum gives infinitely many occurrences; the repeated-event example explains why that hypothesis cannot simply be omitted.",
+    "prerequisites": [
+      "probability-space",
+      "independent-events",
+      "almost-sure-convergence"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Notes on Probability",
+        "author": "Greg Lawler",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "sourceUrl": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "kind": "Lecture notes",
+        "locator": "§4 Sums of independent random variables, Lemma 4.3 (Borel-Cantelli Lemma) and the dependent-event counterexample",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "uniform-integrability",
+    "title": "Uniform Integrability",
+    "chinese": "",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "summary": "Uniform integrability controls the contribution of large values across a family of random variables. It supplies the extra condition that upgrades convergence in probability to convergence in mean.",
+    "prerequisites": [
+      "expectation",
+      "convergence-in-probability",
+      "lp-convergence-random-variables"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Probability: Theory and Examples (Version 5)",
+        "author": "Rick Durrett",
+        "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "sourceUrl": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "kind": "Book",
+        "locator": "§4.6 Uniform Integrability, opening definition and Theorem 4.6.3 (convergence in probability plus uniform integrability versus L1 convergence)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "donsker-invariance-principle",
+    "title": "Donsker's Invariance Principle",
+    "chinese": "",
+    "aliases": [
+      "functional central limit theorem",
+      "Donsker's theorem"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "summary": "For independent identically distributed increments with mean zero and variance one, rescaled interpolated partial-sum paths converge in distribution to Brownian motion. The path-space statement also controls continuous functionals such as maxima.",
+    "prerequisites": [
+      "central-limit-theorem",
+      "brownian-motion",
+      "convergence-in-distribution",
+      "uniform-convergence"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Probability: Theory and Examples (Version 5)",
+        "author": "Rick Durrett",
+        "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "sourceUrl": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "kind": "Book",
+        "locator": "§8.1 Donsker's Theorem, Theorems 8.1.2 and 8.1.4 (hypotheses and path-space limit), Example 8.1.6 (maximum), and the proof of Theorem 8.1.4",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "ito-formula",
+    "title": "Itô's Formula",
+    "chinese": "",
+    "aliases": [
+      "Ito's formula"
+    ],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Graduate",
+    "summary": "Applying a smooth function to Brownian motion introduces a second-derivative correction absent from ordinary calculus. Work through the square-function example to connect that correction with quadratic variation.",
+    "prerequisites": [
+      "brownian-motion",
+      "martingale",
+      "second-real-derivative"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Probability: Theory and Examples (Version 5)",
+        "author": "Rick Durrett",
+        "url": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "sourceUrl": "https://sites.math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "kind": "Book",
+        "locator": "§7.6 Itô's formula, Theorem 7.6.1 and Example 7.6.3",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "binomial-random-graph",
+    "title": "binomial random graph",
+    "chinese": "",
+    "aliases": [
+      "G(n,p)",
+      "Erdős–Rényi G(n,p) model"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Undergraduate",
+    "summary": "Choosing each edge independently gives a graph model in which subgraph counts can be estimated by expectation. The deletion argument converts those estimates into deterministic graphs avoiding a prescribed subgraph.",
+    "prerequisites": [
+      "finite-simple-graph",
+      "independent-events",
+      "expectation"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Graph Theory and Additive Combinatorics: Exploring Structure and Randomness (author manuscript)",
+        "author": "Yufei Zhao",
+        "url": "https://yufeizhao.com/gtacbook/gtacbook.pdf",
+        "sourceUrl": "https://yufeizhao.com/gtacbook/",
+        "kind": "Book",
+        "locator": "§1.9 Randomized Constructions, opening definition of G(n,p) and Theorem 1.9.1",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "szemeredi-regularity-lemma",
+    "title": "Szemerédi's Graph Regularity Lemma",
+    "chinese": "",
+    "aliases": [
+      "graph regularity lemma"
+    ],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Graduate",
+    "summary": "A bounded partition makes most vertex pairs behave regularly with respect to edge density. The energy-increment proof explains why repeated refinements terminate, despite the rapidly growing number of parts.",
+    "prerequisites": [
+      "finite-simple-graph",
+      "bipartite-graph",
+      "extremal-graph-theory"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Graph Theory and Additive Combinatorics: Exploring Structure and Randomness (author manuscript)",
+        "author": "Yufei Zhao",
+        "url": "https://yufeizhao.com/gtacbook/gtacbook.pdf",
+        "sourceUrl": "https://yufeizhao.com/gtacbook/",
+        "kind": "Book",
+        "locator": "§2.1 Szemerédi's Graph Regularity Lemma, Theorem 2.1.9 and its energy-increment proof",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "graphon",
+    "title": "Graphon",
+    "chinese": "",
+    "aliases": [],
+    "area": "combinatorics",
+    "topic": "combinatorics",
+    "level": "Research",
+    "summary": "A symmetric measurable kernel represents a dense graph limit. Compare step graphons with sampled random graphs, then study how cut distance captures convergence without fixing vertex labels.",
+    "prerequisites": [
+      "finite-simple-graph",
+      "lebesgue-measure",
+      "fubini-theorem"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Graph Theory and Additive Combinatorics: Exploring Structure and Randomness (author manuscript)",
+        "author": "Yufei Zhao",
+        "url": "https://yufeizhao.com/gtacbook/gtacbook.pdf",
+        "sourceUrl": "https://yufeizhao.com/gtacbook/",
+        "kind": "Book",
+        "locator": "§4.1 Graphons, Definitions 4.1.1, 4.1.4 and 4.1.5; §4.2 Cut Distance, Definitions 4.2.1 and 4.2.4; §4.4 W-Random Graphs",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "halting-problem",
+    "title": "Halting Problem",
+    "chinese": "",
+    "aliases": [
+      "undecidability of the halting problem"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Undergraduate",
+    "summary": "There is no algorithm deciding whether every encoded machine halts on its supplied input. Follow the diagonal construction carefully: a machine's own description becomes the input that defeats the proposed decision procedure.",
+    "prerequisites": [
+      "set-function",
+      "countable-set",
+      "proof-by-contradiction"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Sets, Logic, Computation: An Open Introduction to Metalogic",
+        "author": "Richard Zach; based on the Open Logic Text by the Open Logic Project",
+        "url": "https://slc.openlogicproject.org/slc-screen.pdf",
+        "sourceUrl": "https://builds.openlogicproject.org/",
+        "kind": "Open textbook",
+        "locator": "§15.3 The Halting Problem, Definition 15.5 and Theorem 15.8 (Unsolvability of the Halting Problem)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "lowenheim-skolem-theorem",
+    "title": "Löwenheim–Skolem Theorem (Countable Model Form)",
+    "chinese": "",
+    "aliases": [
+      "countable model theorem"
+    ],
+    "area": "foundations",
+    "topic": "model-theory",
+    "level": "Graduate",
+    "summary": "In a countable first-order language, a satisfiable theory has a model with at most countably many elements. Skolem's paradox distinguishes an external enumeration from a bijection available inside that model.",
+    "prerequisites": [
+      "first-order-structure",
+      "first-order-completeness",
+      "countable-set"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Sets, Logic, Computation: An Open Introduction to Metalogic",
+        "author": "Richard Zach; based on the Open Logic Text by the Open Logic Project",
+        "url": "https://slc.openlogicproject.org/slc-screen.pdf",
+        "sourceUrl": "https://builds.openlogicproject.org/",
+        "kind": "Open textbook",
+        "locator": "§12.11 The Löwenheim–Skolem Theorem, Theorem 12.32 (finite or countably infinite model) and Example 12.34 (Skolem's Paradox)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "godel-first-incompleteness-theorem",
+    "title": "Gödel's First Incompleteness Theorem",
+    "chinese": "",
+    "aliases": [
+      "Gödel–Rosser incompleteness theorem"
+    ],
+    "area": "foundations",
+    "topic": "logic",
+    "level": "Graduate",
+    "summary": "A consistent effectively axiomatized theory extending Robinson arithmetic cannot decide every sentence. Compare Gödel's omega-consistency argument with Rosser's refinement to separate the hypotheses used in the two proofs.",
+    "prerequisites": [
+      "first-order-sentence",
+      "syntactic-consistency",
+      "mathematical-induction"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Incompleteness and Computability: An Open Introduction to Gödel's Theorems",
+        "author": "Richard Zach; based on the Open Logic Text by the Open Logic Project",
+        "url": "https://ic.openlogicproject.org/ic-screen.pdf",
+        "sourceUrl": "https://builds.openlogicproject.org/",
+        "kind": "Open textbook",
+        "locator": "§5.3 The First Incompleteness Theorem, Theorem 5.6; §5.4 Rosser's Theorem, Theorem 5.7",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "topological-conjugacy",
+    "title": "topological conjugacy",
+    "chinese": "",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Undergraduate",
+    "summary": "A homeomorphism intertwining two evolution maps transports their orbit structure. Use the defining commuting equation to track periodic points and transitivity, and distinguish this equivalence from a noninvertible factor map.",
+    "prerequisites": [
+      "homeomorphism",
+      "dynamical-orbit",
+      "topological-transitivity"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Ordinary Differential Equations and Dynamical Systems (author's preliminary version)",
+        "author": "Gerald Teschl",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "sourceUrl": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "kind": "Book",
+        "locator": "§11.3 On the definition of chaos, equation (11.10) and the following discussion of periodic points and transitivity, printed p. 296",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "unique-ergodicity",
+    "title": "unique ergodicity",
+    "chinese": "",
+    "aliases": [
+      "uniquely ergodic"
+    ],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "summary": "A continuous map of a compact metric space is uniquely ergodic when it has exactly one invariant probability measure. Oxtoby's theorem connects this uniqueness to uniform convergence of continuous-observable time averages.",
+    "prerequisites": [
+      "invariant-measure",
+      "ergodic-transformation",
+      "topological-compactness",
+      "uniform-convergence"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "MAGIC010 Ergodic Theory, Lecture 6: Continuous transformations of compact metric spaces",
+        "author": "Charles Walkden",
+        "url": "https://personalpages.manchester.ac.uk/staff/charles.walkden/magic/lecture06.pdf",
+        "sourceUrl": "https://personalpages.manchester.ac.uk/staff/Charles.Walkden/magic/",
+        "kind": "Lecture notes",
+        "locator": "§6.8 Unique Ergodicity, definition and Theorem 6.11 (Oxtoby's ergodic theorem)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "topological-entropy",
+    "title": "topological entropy",
+    "chinese": "",
+    "aliases": [],
+    "area": "dynamics",
+    "topic": "dynamics",
+    "level": "Graduate",
+    "summary": "Topological entropy measures the exponential growth of orbit segments distinguishable at a fixed resolution. Compare spanning and separated sets before using the variational principle to relate this growth to invariant measures.",
+    "prerequisites": [
+      "topological-dynamical-system",
+      "topological-compactness",
+      "invariant-measure"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "MAGIC010 Ergodic Theory, Lecture 8: Topological entropy",
+        "author": "Charles Walkden",
+        "url": "https://personalpages.manchester.ac.uk/staff/charles.walkden/magic/lecture08.pdf",
+        "sourceUrl": "https://personalpages.manchester.ac.uk/staff/Charles.Walkden/magic/",
+        "kind": "Lecture notes",
+        "locator": "§8.4.2 Bowen's definition, spanning/separated-set definitions and Lemma 8.10; §8.5.1 The variational principle, Theorem 8.18",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1324 @@
+{
+  "proofs": {
+    "objectives": [
+      "Negate statements with nested quantifiers correctly.",
+      "Choose between direct proof, contrapositive and contradiction.",
+      "Write an induction argument with a stated base case and induction hypothesis.",
+      "Disprove a universal claim with a counterexample and explain why it qualifies."
+    ],
+    "primary": {
+      "title": "Book of Proof, third edition",
+      "author": "Richard Hammack",
+      "url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+      "locator": "Read sections 2.7 and 2.10 on quantifiers and negation; 4.3, 5.1 and 6.1 on proof methods; 5.3 on writing; then 9.1 and 10.1 on counterexamples and induction.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+      "label": "Book of Proof exercises and selected solutions",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; a public Solutions section starts on printed page 292. Treat it as selected solutions, not a complete answer key.",
+      "locator": "Exercise sets following sections 2.10, 4.3, 5.1, 6.1 and 10.1; compare with the corresponding headings in Solutions."
+    },
+    "checks": [
+      "Negate: for every real x there is a real y with y > x. Then determine the truth of the original statement and its negation.",
+      "Prove that an integer n is even if and only if n squared is even, giving each implication separately.",
+      "Prove by induction that 1 + 3 + ... + (2n - 1) = n squared for every integer n >= 1."
+    ],
+    "skip": "Skip the introductory proof-method readings if you can complete all three checks, state each domain and hypothesis, and revise a proof so every inference is justified. Review quantifiers alone if negation is the remaining gap.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://richardhammack.github.io/BookOfProof/Main.pdf", "note": "Complete author PDF opened; edition 3.4 title page, contents, free-download statement and Solutions heading inspected. Locators use printed numbering."}
+      ],
+      "uncertainties": ["Coverage of every exercise in the solutions section was not audited."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The negation is: there exists real x such that every real y satisfies y<=x; it is false, since y=x+1 refutes it. Evenness follows by direct substitution and by the contrapositive for odd integers. The induction step adds 2n+1 to n squared."],
+      "editorialNote": "The reading selection and checks are editorial study prompts."
+    }
+  },
+  "logic": {
+    "objectives": [
+      "Evaluate a first-order formula in a specified structure and assignment.",
+      "Distinguish semantic consequence from formal derivability.",
+      "Use compactness to construct a model satisfying infinitely many constraints.",
+      "Trace a Turing-machine computation and explain the halting-problem diagonal argument."
+    ],
+    "primary": {
+      "title": "Sets, Logic, Computation: An Open Introduction to Metalogic",
+      "author": "Richard Zach, based on the Open Logic Project",
+      "url": "https://slc.openlogicproject.org/slc-screen.pdf",
+      "locator": "Start with sections 7.2-7.5 on structures, satisfaction and variable assignments and 11.1-11.6 on natural deduction. Continue with 12.8-12.11 on completeness, compactness and Lowenheim-Skolem, then 14.3-14.4 and 15.4 on machines and halting.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://slc.openlogicproject.org/slc-screen.pdf",
+      "label": "Metalogic and computation problem sets",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Problems for chapters 7, 11, 12 and 14, beginning on printed pages 133, 224, 253 and 303 respectively."
+    },
+    "checks": [
+      "Use compactness to show that any first-order theory with arbitrarily large finite models has an infinite model; write the additional sentences explicitly.",
+      "Assume a total algorithm decides whether a machine halts on its own encoding. Construct a machine that contradicts the algorithm's answer on its own encoding."
+    ],
+    "skip": "Skip the satisfaction and deduction review only if you can evaluate quantified formulas and give rule-by-rule derivations. Skip the whole selection only if you can also prove the compactness application and reconstruct the halting argument without conflating truth and provability.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://slc.openlogicproject.org/", "note": "Project page links the free complete screen edition and describes the metalogic and computability scope."},
+        {"url": "https://slc.openlogicproject.org/slc-screen.pdf", "note": "437-page PDF opened; authorship credits, July 2026 revision information, contents and Problems headings checked."}
+      ],
+      "uncertainties": ["No claim is made that this selection covers arithmetic incompleteness."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["Adjoin constants c_n and inequalities c_i!=c_j for i<j; each finite subset has a model by the finite-size hypothesis. For halting, make D(e) loop when the decider says halt and halt otherwise, then use D's own encoding."],
+      "editorialNote": "Assumes prior familiarity with elementary formal logic."
+    }
+  },
+  "set-theory": {
+    "objectives": [
+      "Prove countability by constructing an enumeration or injection.",
+      "Apply Cantor's diagonal argument to a power set.",
+      "Distinguish ordinal addition from cardinal addition.",
+      "Explain the role of replacement, transfinite recursion and choice in basic constructions."
+    ],
+    "primary": {
+      "title": "Set Theory: An Open Introduction",
+      "author": "Tim Button, based on the Open Logic Project",
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf",
+      "locator": "Use sections 5.2 and 5.6-5.9 for cardinality; 10.3-10.7 and 10.9-10.10 for well-orders, ordinals and replacement; 11.2 for transfinite recursion; 13.2-13.3 for ordinal addition; 15.1-15.2 for cardinal arithmetic; and 16.4 for choice and well-ordering.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://st.openlogicproject.org/settheory-screen.pdf",
+      "label": "Cardinality, ordinal and choice problems",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Chapter 5 Problems, printed page 70; chapter 10 Problems, page 148; chapter 11 Problems, page 160; chapter 13 Problems, page 186; chapter 16 Problems, page 229."
+    },
+    "checks": [
+      "Construct an explicit injection from the integers into the natural numbers, then prove no map A -> P(A) can be surjective.",
+      "Compute 1 + omega and omega + 1 as ordinal order types and explain why they differ, although their underlying sets have the same cardinality."
+    ],
+    "skip": "Skip the naive-set review if you can construct countability proofs and prove Cantor's theorem. Skip the ordinal selection only if you can work with order types and explain why transfinite recursion requires more than ordinary induction.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://st.openlogicproject.org/", "note": "Official project page attributes the text to Tim Button and links the complete free PDF."},
+        {"url": "https://st.openlogicproject.org/settheory-screen.pdf", "note": "263-page PDF opened; title, author credit, contents, chapter problem locations and section 16.4 on the choice equivalence checked."}
+      ],
+      "uncertainties": ["This introductory selection does not supply a forcing or large-cardinal course."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["An injection into positive naturals is n->2n+1 for n>=0 and n->-2n for n<0. The diagonal subset {a in A:a not in f(a)} defeats surjectivity. Ordinally 1+omega=omega and omega+1>omega; both are countable."],
+      "editorialNote": "Use the text's conventions for natural numbers and ordinals."
+    }
+  },
+  "model-theory": {
+    "objectives": [
+      "Compare substructures, elementary substructures and elementary equivalence.",
+      "Apply the Tarski-Vaught test in a concrete example.",
+      "Use compactness to realize a finitely satisfiable set of formulas in an extension.",
+      "Explain how quantifier elimination describes definable sets."
+    ],
+    "primary": {
+      "title": "Lecture Notes - Model Theory (Math 411)",
+      "author": "Anand Pillay",
+      "url": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
+      "locator": "Section 1, Notation and review, printed pages 1-14: emphasize elementary embeddings, the Tarski-Vaught test and compactness. Then read the opening of section 2, Types, omega-saturation and quantifier elimination, beginning on page 15, through the back-and-forth criterion.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
+      "label": "Elementary-substructure and type exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Exercises 1.2, 1.5, 1.7, 1.8 (Tarski-Vaught), 1.11 and 1.14 within section 1."
+    },
+    "checks": [
+      "In the language with one binary relation <, use back-and-forth to show that any two countable dense linear orders without endpoints are isomorphic.",
+      "For the usual ordered rationals, show that {x > q : q is rational} is finitely satisfiable but not realized; use compactness and the elementary diagram to realize it in an elementary extension."
+    ],
+    "skip": "Skip section 1 if you can use elementary diagrams and the Tarski-Vaught test correctly. Skip this entry if you can also prove the back-and-forth result and distinguish realizing a type in the original model from realizing it in an elementary extension.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf", "note": "Complete 61-page university PDF opened; title, Pillay authorship and December 9, 2002 date checked. Section 1 exercises and section 2 heading and quantifier-elimination criterion inspected."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["Alternately extend finite increasing partial maps using density and lack of endpoints; the union gives the isomorphism. Each finite set x>q is satisfied by a larger rational, while none realizes the entire set; add the elementary diagram and use compactness."],
+      "editorialNote": "Requires first-order syntax and semantics; the two checks are editorial applications."
+    }
+  },
+  "linear-algebra": {
+    "objectives": [
+      "Compute kernels and images and prove rank-nullity.",
+      "Express the same map in two bases and derive the change-of-basis formula.",
+      "Decide diagonalizability using eigenspaces or the minimal polynomial.",
+      "State the real and complex spectral theorems with the correct hypotheses."
+    ],
+    "primary": {
+      "title": "Linear Algebra Done Right, fourth edition",
+      "author": "Sheldon Axler",
+      "url": "https://linear.axler.net/LADR4e.pdf",
+      "locator": "Read 3B, Null Spaces and Ranges, and the Change of Basis subsection of 3D. Then use 5B and 5D for the minimal polynomial and diagonalizability; finish with 7A-7B for adjoints and the spectral theorem after reviewing inner products in chapter 6 if needed.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://linear.axler.net/LADR4e.pdf",
+      "label": "Linear-map and spectral exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Exercises 3B, 3D, 5B, 5D and 7B; each set follows its named section."
+    },
+    "checks": [
+      "For D on the real polynomials of degree at most 3, where Dp = p', compute kernel, image and a matrix, and verify rank-nullity.",
+      "Compare the matrices [[1,1],[0,1]] and [[2,1],[1,2]]: find eigenspaces, determine diagonalizability, and give an orthonormal eigenbasis when one exists."
+    ],
+    "skip": "Skip the map review if you can explain rank-nullity without row-reduction alone and derive change of basis. Skip the spectral selection only if you can distinguish diagonalizable, normal and self-adjoint operators over the appropriate field.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://linear.axler.net/LADR4e.pdf", "note": "Complete 404-page author-hosted open-access PDF opened; author, fourth edition and August 16, 2026 revision checked. Contents confirm 5D is Diagonalizable Operators and 7B is Spectral Theorem."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["Differentiation has kernel span(1), image span(1,x,x squared), and rank 3 plus nullity 1. In basis (1,x,x squared,x cubed), its nonzero matrix entries above the diagonal are 1,2,3. The Jordan block is not diagonalizable; the symmetric matrix has eigenvalues 3 and 1 with normalized eigenvectors (1,1)/sqrt(2) and (1,-1)/sqrt(2)."],
+      "editorialNote": "This is a structural review; beginners may first need bases and dimension in chapter 2."
+    }
+  },
+  "abstract-algebra": {
+    "objectives": [
+      "Construct quotient groups and use the first isomorphism theorem.",
+      "Distinguish prime and maximal ideals through quotient rings.",
+      "Compute degrees and bases of simple field extensions.",
+      "Match subgroups and intermediate fields in a finite Galois extension."
+    ],
+    "primary": {
+      "title": "Abstract Algebra: Theory and Applications",
+      "author": "Thomas W. Judson; Sage exercises by Robert A. Beezer",
+      "url": "https://judsonbooks.org/aata-files/aata-html/aata-toc.html",
+      "locator": "For quotients read chapters 10, Normal Subgroups and Factor Groups, and 11, Homomorphisms. Review the ideal and quotient-ring material in chapter 16, Rings. For the field route use chapter 21, Fields, then sections 23.1-23.2 on field automorphisms and the fundamental theorem.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://judsonbooks.org/aata-files/aata-html/galois.html",
+      "label": "Galois-theory reading questions and exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Chapter 23: section 23.4 Reading Questions and section 23.5 Exercises; use chapter 10 or 16 exercise sets when reviewing quotients."
+    },
+    "checks": [
+      "List the ideals of Z/12Z and identify which are prime or maximal by examining their quotient rings.",
+      "Compute the Galois group and all intermediate fields of Q(sqrt(2), sqrt(3))/Q, and exhibit the subgroup fixing each field."
+    ],
+    "skip": "Skip quotient review if you can construct the first-isomorphism map and prove it is well-defined. Skip the field route if you can complete the biquadratic Galois correspondence and explain why separability and normality enter the general theorem.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://judsonbooks.org/aata-files/aata-html/aata.html", "note": "Author's public HTML title page opened; Judson authorship, Beezer's Sage contribution and August 4, 2026 date checked."},
+        {"url": "https://judsonbooks.org/aata-files/aata-html/aata-toc.html", "note": "Full contents inspected for quotient groups, rings, fields and Galois theory."},
+        {"url": "https://judsonbooks.org/aata-files/aata-html/galois.html", "note": "Chapter body and links to sections 23.1-23.5 opened; the free text is not a publisher preview."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["Ideals in Z/12Z are generated by the divisors 1,2,3,4,6,12; precisely (2) and (3) are prime and maximal. The biquadratic Galois group is C2 times C2; the three quadratic intermediate fields are Q(sqrt(2)), Q(sqrt(3)) and Q(sqrt(6)), fixed respectively by flipping only sqrt(3), only sqrt(2), and both signs."],
+      "editorialNote": "Choose the quotient or field route according to the actual gap."
+    }
+  },
+  "commutative-algebra": {
+    "objectives": [
+      "Test prime and maximal ideals using quotients.",
+      "Construct a localization and track extension and contraction of ideals.",
+      "Use the ascending-chain condition and Hilbert's basis theorem.",
+      "Prove that a specified element is integral by finding a monic equation."
+    ],
+    "primary": {
+      "title": "A Primer of Commutative Algebra",
+      "author": "James S. Milne",
+      "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+      "locator": "Read section 2, Ideals, as needed; then section 3, Noetherian rings, printed pages 9-13; section 5, Rings of fractions, pages 18-24; and section 6, Integral dependence, pages 25-29. Use section 14, The spectrum of a ring, only for the geometric continuation.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+      "label": "Localization and integrality exercises with selected solutions",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions to selected numbered exercises are present in Appendix A, printed page 110. Full coverage is not claimed.",
+      "locator": "Exercises in sections 2, 3, 5 and 6; consult Appendix A only for exercise numbers actually listed there."
+    },
+    "checks": [
+      "Describe Z localized at the complement of (5), determine its units, and list its prime ideals with justification.",
+      "For a field k, prove k[t] is integral over k[t squared, t cubed] and identify an element of its fraction field integral over the smaller ring but absent from it."
+    ],
+    "skip": "Skip sections 2-3 if ideal correspondences and Noetherian proofs are routine. Skip localization and integrality only if you can do both checks and state the universal property of localization; familiarity with the notation S inverse A is insufficient.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://www.jmilne.org/math/xnotes/CA.pdf", "note": "Complete 113-page author PDF opened; v4.03 dated March 23, 2020. Contents and the actual start of Appendix A, including a numbered solution, inspected."}
+      ],
+      "uncertainties": ["Later sections announced as future additions are not included in this reading selection."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["Z_(5) consists of fractions with denominator prime to 5; units also have numerator prime to 5, and prime ideals are (0) and (5). The element t satisfies X squared-t squared=0 over k[t squared,t cubed]; t=t cubed/t squared lies in its fraction field but not the subring, and adjoining t yields an integral extension."],
+      "editorialNote": "Requires rings, modules and polynomial algebra."
+    }
+  },
+  "homological-algebra": {
+    "objectives": [
+      "Compute homology from kernels and images in an explicit complex.",
+      "Construct a connecting map for a short exact sequence of complexes.",
+      "Build a free resolution of a cyclic module.",
+      "Compute first Ext and Tor groups from that resolution."
+    ],
+    "primary": {
+      "title": "Notes on Basic Homological Algebra",
+      "author": "Andrew Baker",
+      "url": "https://www.maths.gla.ac.uk/~ajb/dvi-ps/Homologicalalgebra.pdf",
+      "locator": "Read sections 1-3: Chain complexes and their homology; Short exact sequences of chain complexes; Chain homotopies and quasi-isomorphisms. In section 2 work through the connecting-map construction before proceeding to resolutions in the alternative text.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "Introduction to Representation Theory",
+        "author": "Pavel Etingof, Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, Dmitry Vaintrob and Elena Yudovina",
+        "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+        "locator": "Sections 7.8-7.9 on complexes and exact functors; 8.1-8.2 on projective modules, resolutions, Tor and Ext, printed pages 205-211 for chapter 8.",
+        "checked": "2026-10-16",
+        "purpose": "Continue from complexes to explicit derived-functor calculations; representation theory chapters are not prerequisites for these algebra sections."
+      }
+    ],
+    "practice": {
+      "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+      "label": "Resolutions and Ext/Tor problems",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified. Some problems contain hints.",
+      "locator": "Exercise 8.2.2 on existence of projective resolutions; Problem 8.2.5 on independence of resolution; Problem 8.2.7 on finitely generated modules over Z and k[x]."
+    },
+    "checks": [
+      "For the complex 0 -> Z --6--> Z -> 0 in degrees 1 and 0, compute both homology groups and explain why its differential condition holds.",
+      "Resolve Z/4Z by free Z-modules and compute Tor_1 over Z of (Z/4Z, Z/6Z) and Ext^1 over Z of (Z/4Z, Z/6Z), showing the kernel or cokernel used in each case."
+    ],
+    "skip": "Skip the complex review if you can construct and check the connecting homomorphism, including independence of representatives. Skip the resolution selection only if you can compute both Ext and Tor in the cyclic example and justify independence of the chosen resolution.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://www.maths.gla.ac.uk/~ajb/dvi-ps/Homologicalalgebra.pdf", "note": "Complete 15-page university PDF opened; Baker title and sections 1-3 inspected, including the long exact sequence and chain-homotopy formula."},
+        {"url": "https://math.mit.edu/~etingof/reprbook.pdf", "note": "Complete 235-page author PDF opened; full author list, chapter 8 contents and actual Exercises 8.2.2 and Problems 8.2.5/8.2.7 verified."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The displayed complex has H1=0 and H0=Z/6Z, with all adjacent differential composites zero. The resolution 0->Z --4--> Z -> Z/4Z ->0 gives Tor_1=ker(4 on Z/6Z) and Ext^1=coker(4 on Z/6Z), both isomorphic to Z/2Z."],
+      "editorialNote": "A short two-text route; derived categories and spectral sequences are later choices."
+    }
+  },
+  "category-theory": {
+    "objectives": [
+      "Check functoriality and naturality in examples of sets or modules.",
+      "Identify a representing object from a universal property.",
+      "Construct products, equalizers and their universal cones.",
+      "Describe an adjunction by a natural hom-set bijection and its unit and counit."
+    ],
+    "primary": {
+      "title": "Category Theory in Context",
+      "author": "Emily Riehl",
+      "url": "https://emilyriehl.github.io/files/context.pdf",
+      "locator": "Read sections 1.3-1.4 on functoriality and naturality; 2.1-2.3 on representability and Yoneda; 3.1-3.2 on limits in categories and sets; and 4.1-4.2 on adjunctions and universal arrows. Review 1.1 only if category axioms are unfamiliar.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://emilyriehl.github.io/files/context.pdf",
+      "label": "Functor, Yoneda, limit and adjunction exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Exercises embedded in sections 1.3-1.4, 2.2-2.3, 3.1-3.2 and 4.1-4.2; keep each naturality square in the written solution."
+    },
+    "checks": [
+      "Prove the universal property of the set-theoretic product X times Y and show that any two products of X and Y are uniquely isomorphic as cones.",
+      "Exhibit the free-group/forgetful adjunction between sets and groups, describe its unit, and verify naturality of the hom-set bijection in both variables."
+    ],
+    "skip": "Skip the first sections if you can write naturality squares without guessing arrow directions. Skip this route if you can prove uniqueness of universal objects and construct the free-group adjunction; reserve monads and Kan extensions for a specific later need.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://emilyriehl.github.io/files/context.pdf", "note": "Complete 299-page author PDF opened; title, author and contents checked. Current file identifies a second edition; locators follow its section headings. Preface confirms exercises throughout."}
+      ],
+      "uncertainties": ["The current author PDF differs from the original print edition; page numbers were deliberately avoided."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["Pairing maps gives the unique product mediator and unique cone isomorphism. A function from X to a group's underlying set uniquely extends to a homomorphism F(X)->G; the unit sends a generator to its one-letter word, and pre/postcomposition verify naturality."],
+      "editorialNote": "Use familiar algebraic examples while learning the language."
+    }
+  },
+  "representation-theory": {
+    "objectives": [
+      "Find invariant subspaces and intertwiners of a finite-dimensional representation.",
+      "Apply Maschke's theorem over a field of suitable characteristic.",
+      "Compute a finite group's character table and tensor-product multiplicities.",
+      "Verify the sl(2) relations in an explicit matrix representation."
+    ],
+    "primary": {
+      "title": "Introduction to Representation Theory",
+      "author": "Pavel Etingof, Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, Dmitry Vaintrob and Elena Yudovina",
+      "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+      "locator": "Read section 2.3 for representations; 4.1-4.5 and 4.8-4.9 for finite groups and characters. For a first Lie-algebra example use sections 2.9 and 2.15, then the problems in 2.16.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+      "label": "Finite-group character and sl(2) problems",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Section 4.12 Problems, printed page 83; section 2.16 Problems on Lie algebras, page 39."
+    },
+    "checks": [
+      "Compute the complex character table of S3 and decompose the tensor square of its two-dimensional irreducible representation by character inner products.",
+      "For E=[[0,1],[0,0]], F=[[0,0],[1,0]] and H=diag(1,-1), verify [H,E]=2E, [H,F]=-2F and [E,F]=H. Prove the resulting action on C squared is irreducible."
+    ],
+    "skip": "Skip finite-group review if you can build the S3 table and explain the characteristic restriction in Maschke's theorem. The sl(2) example can be skipped if weights and raising/lowering operators are already usable in computations.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://math.mit.edu/~etingof/reprbook.pdf", "note": "Public full PDF, title-page author list and contents inspected for the representation sections and both problem sets. Historical interludes are credited separately to Slava Gerovitch."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["On the identity, transposition and 3-cycle classes, the S3 character rows are (1,1,1), (1,-1,1) and (2,0,-1); the tensor square of the last is the sum of all three. The E,F,H commutators have the stated values; an H-invariant line must be a coordinate line, and neither is invariant under both E and F."],
+      "editorialNote": "Finite-group characters and the Lie-algebra example are two distinct starting routes."
+    }
+  },
+  "algebraic-geometry": {
+    "objectives": [
+      "Translate between affine algebraic sets and radical ideals over an algebraically closed field.",
+      "Compute coordinate rings and describe regular maps through ring homomorphisms.",
+      "Compute a Zariski tangent space and detect a singular point.",
+      "Explain what additional information a scheme's structure sheaf records."
+    ],
+    "primary": {
+      "title": "Algebraic Geometry",
+      "author": "James S. Milne",
+      "url": "https://www.jmilne.org/math/CourseNotes/AG.pdf",
+      "locator": "Read chapter 2, sections a-e and h-j on algebraic sets, Nullstellensatz, irreducibility and regular maps. Then use chapter 4, sections a and d on tangent spaces. Read chapter 3, sections a-f only when ready for the sheaf description of affine varieties.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "The Rising Sea: Foundations of Algebraic Geometry, October 21, 2025 draft",
+        "author": "Ravi Vakil",
+        "url": "https://math.stanford.edu/~vakil/216blog/FOAGoct2125public.pdf",
+        "locator": "Sections 2.1-2.4 on sheaves and stalks; 3.2-3.5 on Spec and its topology; 4.1-4.3 on the structure sheaf, nilpotents and schemes.",
+        "checked": "2026-10-16",
+        "purpose": "Take the scheme continuation after localization and sheaves; this is a focused selection from a long draft."
+      }
+    ],
+    "practice": {
+      "url": "https://www.jmilne.org/math/CourseNotes/AG.pdf",
+      "label": "Affine varieties and tangent-space exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "End-of-chapter exercises for chapter 2, printed page 58; chapter 3, page 80; and chapter 4, page 98."
+    },
+    "checks": [
+      "Over C, compute the coordinate ring and irreducible components of V(xy) in affine two-space and identify its minimal prime ideals.",
+      "Compute the Zariski tangent spaces of y squared = x cubed at (0,0) and (1,1), compare their dimensions with the curve dimension, and identify which point is singular."
+    ],
+    "skip": "Skip affine-variety review if you can do both checks and explain the reversed direction of maps on coordinate rings. Enter Vakil's scheme selection directly only if localization, sheaf gluing and stalks are already familiar; nilpotents still need attention even when the underlying spaces look familiar.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://www.jmilne.org/math/CourseNotes/AG.pdf", "note": "Complete 231-page author PDF opened; v6.10 dated November 11, 2024, contents and exercise locations checked. Introduction explicitly starts with varieties over algebraically closed fields."},
+        {"url": "https://math.stanford.edu/~vakil/216blog/FOAGoct2125public.pdf", "note": "Complete 852-page Stanford-hosted draft opened; Vakil copyright/title date and sheaf, Spec and structure-sheaf contents inspected."}
+      ],
+      "uncertainties": ["Vakil's linked edition is a dated draft; section numbers here refer to that file."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The coordinate ring is C[x,y]/(xy), with minimal primes (x) and (y) and two coordinate-axis components. For y squared-x cubed the differential is -3x squared dx+2y dy: the tangent space at the origin has dimension 2, while at (1,1) it is the line -3u+2v=0; only the origin is singular."],
+      "editorialNote": "The scheme objective belongs to the optional continuation, after the affine checks."
+    }
+  },
+  "calculus": {
+    "objectives": [
+      "Compute a derivative from its defining limit and interpret it as a rate.",
+      "Use chain and implicit differentiation in an equation with a stated domain.",
+      "Find and justify a constrained one-variable optimum, including endpoints.",
+      "Use the fundamental theorem of calculus to connect accumulation and differentiation."
+    ],
+    "primary": {
+      "title": "CLP-1 Differential Calculus",
+      "author": "Joel Feldman, Andrew Rechnitzer and Elyse Yeager",
+      "url": "https://personal.math.ubc.ca/~CLP/CLP1/clp_1_dc_text.pdf",
+      "locator": "Read sections 1.3 and 1.6 on limits and continuity; 2.2-2.3 on the derivative; 2.9 and 2.11 on chain and implicit rules; and 3.5 on optimisation. Use worked examples to identify domains and endpoint checks.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "CLP-2 Integral Calculus",
+        "author": "Joel Feldman, Andrew Rechnitzer and Elyse Yeager",
+        "url": "https://personal.math.ubc.ca/~CLP/CLP2/clp_2_ic_text.pdf",
+        "locator": "Sections 1.1-1.4: Definition of the Integral, Basic Properties, Fundamental Theorem of Calculus and Substitution; use 1.7 for integration by parts.",
+        "checked": "2026-10-16",
+        "purpose": "Continue from derivatives to accumulation and integration; this selection addresses the fourth objective."
+      }
+    ],
+    "practice": {
+      "url": "https://personal.math.ubc.ca/~CLP/CLP1/combined_clp_1.pdf",
+      "label": "CLP-1 combined text and exercises, August 23, 2022 PDF",
+      "checked": "2026-10-16",
+      "availability": "Public exercises, Hints for Exercises, Answers to Exercises and Solutions to Exercises were inspected in this author-hosted 2022 combined PDF. Sample entries were checked; complete question-to-solution coverage was not audited.",
+      "locator": "Use the exercises within sections 2.2, 2.9, 2.11 and 3.5 of this combined edition; section 2.2's exercise labels begin 2.2.4 and section 2.9's begin 2.9.4. Match those full labels in the hint, answer and solution appendices rather than using page numbers from the 2024 standalone text."
+    },
+    "checks": [
+      "Derive the derivative of x squared from the difference quotient, then find the tangent line at x = 3.",
+      "A rectangle has perimeter 20. Maximize its area, specify the allowable side lengths, and explain what happens at the boundary.",
+      "For F(x) = integral from 0 to x squared of exp(t) dt, find F'(x) and name both rules used."
+    ],
+    "skip": "Skip differential-calculus review if you can complete the first two checks with domains, units where relevant, and endpoint reasoning. Skip the integral continuation only if the accumulation check and substitution are also routine; multivariable calculus remains a separate selection.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://personal.math.ubc.ca/~CLP/", "note": "Authors' UBC site explicitly offers free PDF and web textbooks and problem books and names all three authors."},
+        {"url": "https://personal.math.ubc.ca/~CLP/CLP1/clp_1_dc_text.pdf", "note": "Complete 426-page text opened; August 16, 2024 title date and differential-calculus contents checked."},
+        {"url": "https://personal.math.ubc.ca/~CLP/CLP2/clp_2_ic_text.pdf", "note": "Complete 468-page integral text opened; title, authors and sections 1.1-1.7 checked."},
+        {"url": "https://github.com/arechnitzer/CLP1", "note": "Author-maintained public repository README confirms problem-book sources and hint, answer and solution appendices."},
+        {"url": "https://personal.math.ubc.ca/~CLP/CLP1/", "note": "Authors' index opened; the current linked problem-book PDF and combined HTML index failed to open. A dated combined PDF on the same author host was subsequently verified.", "checked": "2026-10-16"},
+        {"url": "https://personal.math.ubc.ca/~CLP/CLP1/combined_clp_1.pdf", "note": "1014-page combined PDF opened. Title credits all three authors and is dated August 23, 2022. Exercise-use instructions, derivative exercise labels, actual hints and answers, and a worked entry in Solutions to Exercises inspected.", "checked": "2026-10-16"}
+      ],
+      "uncertainties": ["Practice uses the verified 2022 combined PDF, while the primary reading is the 2024 standalone text; page numbers and full exercise labels need not match. The current standalone problem-book PDF was not inspected, and full solution coverage of the combined PDF was not audited."],
+      "practiceVerificationStatus": "verified: dated 2022 combined PDF; current standalone problem-book file unverified",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The derivative of x squared is 2x and the tangent line at 3 is y=6x-9. Rectangle sides x and 10-x have 0<x<10; area is at most 25 at x=5 and tends to 0 at the excluded degenerate endpoints. The accumulation derivative is 2x exp(x squared) by FTC and the chain rule."],
+      "editorialNote": "The primary and continuation cover different parts of single-variable calculus."
+    }
+  },
+  "real-analysis": {
+    "objectives": [
+      "Write epsilon proofs for limits of sequences.",
+      "Use completeness to prove convergence of monotone bounded or Cauchy sequences.",
+      "Distinguish continuity from uniform continuity by examples.",
+      "Test uniform convergence before interchanging limits, integrals or derivatives."
+    ],
+    "primary": {
+      "title": "Basic Analysis I: Introduction to Real Analysis, Volume I",
+      "author": "Jiří Lebl",
+      "url": "https://www.jirka.org/ra/realanal.pdf",
+      "locator": "Read sections 2.1-2.4 on sequences and completeness, 3.2-3.4 on continuity, and 6.1-6.2 on uniform convergence and interchange of limits. Review 1.2 on the real numbers if the least-upper-bound property is unfamiliar.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://www.jirka.org/ra/realanal.pdf",
+      "label": "Sequence, continuity and convergence exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Exercises embedded in sections 2.1-2.4, 3.4 and 6.1-6.2; include proof and counterexample questions."
+    },
+    "checks": [
+      "Give an epsilon-N proof that (3n + 1)/(n + 2) converges to 3, with an explicit choice of N.",
+      "Determine the pointwise limit of x to the nth power on [0,1] and prove convergence is not uniform. Explain why each function is continuous but the limit is not.",
+      "Prove that x squared is uniformly continuous on [0,1] and is not uniformly continuous on the whole real line."
+    ],
+    "skip": "Skip the sequence review if epsilon arguments and completeness proofs are reliable. Skip the full selection if you can produce the stated counterexamples and state sufficient hypotheses for interchanging a limit with an integral or derivative, not just compute sample limits.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://www.jirka.org/ra/realanal.pdf", "note": "Complete 312-page author PDF opened; v6.3 dated May 15, 2026, title, contents, open licence and author's suggested course routes inspected."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The sequence error is 5/(n+2), so N>5/epsilon suffices. The pointwise power limit is 0 on [0,1) and 1 at 1, and the supremum error is 1 for every n. On [0,1], |x squared-y squared|<=2|x-y|; on R use x_n=n and y_n=n+1/n to refute uniform continuity."],
+      "editorialNote": "This selection targets proof and convergence gaps; differentiation and Riemann integration are separate chapters available when needed."
+    }
+  },
+  "measure-theory": {
+    "objectives": [
+      "Check measurability through inverse images.",
+      "Construct integrals from nonnegative simple functions.",
+      "Choose an applicable convergence theorem and verify its hypotheses.",
+      "Distinguish Tonelli's nonnegativity condition from Fubini's integrability condition."
+    ],
+    "primary": {
+      "title": "Measure, Integration & Real Analysis",
+      "author": "Sheldon Axler",
+      "url": "https://measure.axler.net/MIRA.pdf",
+      "locator": "Read 2B-2C on measurable spaces and measures, 3A-3B on integration and convergence, then 5B on iterated integrals. Consult 2D only when the construction of Lebesgue measure is the gap.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://measure.axler.net/MIRA.pdf",
+      "label": "Measurability, convergence and iterated-integral exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Exercises 2B, 2C, 3A, 3B and 5B, immediately following the named sections."
+    },
+    "checks": [
+      "On (0,1) with Lebesgue measure let f_n = n times the indicator of (0,1/n). Find the pointwise limit and each integral; prove that no single integrable function dominates all f_n.",
+      "Compute the integral of exp(-x-y) over 0 < x < y < infinity in both orders, stating which theorem permits the exchange."
+    ],
+    "skip": "Skip this review if you can justify both checks and verify monotone or dominated convergence in a new example. Review measurable-space definitions separately if you know integration formulas but cannot prove a function measurable.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://measure.axler.net/MIRA.pdf", "note": "Complete 426-page author open-access PDF opened; June 12, 2026 revision, authorship, selected contents and exercise headings checked."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The spike functions converge pointwise to 0 and all have integral 1; an integrable common dominator would contradict dominated convergence. The double integral is 1/2 in either order; nonnegativity and Lebesgue sigma-finiteness justify Tonelli."],
+      "editorialNote": "Printed section labels are used; the Fourier selection below uses a different chapter of this same book."
+    }
+  },
+  "complex-analysis": {
+    "objectives": [
+      "Use complex differentiability and Cauchy-Riemann equations with the required regularity hypotheses.",
+      "Apply Cauchy's formula to obtain derivatives and estimates.",
+      "Classify isolated singularities and compute residues.",
+      "Compare zero sets and holomorphic extension in one and several complex variables."
+    ],
+    "primary": {
+      "title": "Guide to Cultivating Complex Analysis: Working the Complex Field",
+      "author": "Jiří Lebl",
+      "url": "https://www.jirka.org/ca/ca.pdf",
+      "locator": "Read 2.1 on holomorphic functions, 3.2-3.3 on Cauchy's theorem and consequences, 4.4 on Laurent series, and 5.1-5.4 on zeros, singularities and residues. Review line integrals in 3.1 if needed.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "Tasty Bits of Several Complex Variables: A Whirlwind Tour of the Subject",
+        "author": "Jiří Lebl",
+        "url": "https://www.jirka.org/scv/scv.pdf",
+        "locator": "Sections 1.1-1.3 on functions, power series and derivatives; 1.6 on extension and zero sets; 2.1 on domains of holomorphy and holomorphic extension.",
+        "checked": "2026-10-16",
+        "purpose": "Continue after one-variable Cauchy theory to see which familiar geometric conclusions change in several variables."
+      }
+    ],
+    "practice": {
+      "url": "https://www.jirka.org/ca/ca.pdf",
+      "label": "Holomorphic-function and residue exercises",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public solutions not verified.",
+      "locator": "Exercises 2.1.1-2.1.6 for differentiability and Cauchy-Riemann; exercises embedded in sections 4.4 and 5.3 for Laurent series and residues."
+    },
+    "checks": [
+      "Determine every point where f(z) = absolute value of z squared is complex differentiable, using the derivative definition as well as the Cauchy-Riemann equations.",
+      "Compute the positively oriented unit-circle integral of exp(z)/z squared and identify the residue.",
+      "In C squared describe the zero set of f(z,w)=zw and show that its zeros are not isolated. Explain why this does not contradict the one-variable isolated-zero theorem."
+    ],
+    "skip": "Skip the one-variable selection if you can do the first two checks and state the domain hypotheses of Cauchy's theorem. Take the several-variable route only after that; skip it if extension phenomena and positive-dimensional zero sets are already familiar.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://www.jirka.org/ca/ca.pdf", "note": "Complete 304-page author PDF opened; v1.9 dated July 11, 2026. Contents and actual exercises 2.1.1-2.1.6 checked."},
+        {"url": "https://www.jirka.org/scv/scv.pdf", "note": "Complete 248-page author PDF opened; v4.4 dated May 31, 2026. Contents, exercises statement and prerequisites inspected."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The function |z| squared is complex differentiable only at 0, with derivative 0. The circle integral is 2pi i and the residue is 1. The zero set zw=0 is the union of two complex coordinate lines, so zeros are not isolated in C squared."],
+      "editorialNote": "The final objective and check use the optional several-variable continuation."
+    }
+  },
+  "functional-analysis": {
+    "objectives": [
+      "Prove completeness or exhibit an incomplete normed space.",
+      "Compute norms of elementary bounded operators and functionals.",
+      "Choose between uniform boundedness, open mapping, closed graph and Hahn-Banach arguments.",
+      "Use orthogonal projections, adjoints and compact-operator spectral theory."
+    ],
+    "primary": {
+      "title": "Functional Analysis: Lecture Notes for 18.102",
+      "author": "Richard Melrose",
+      "url": "https://math.mit.edu/~rbm/18.102-S13/FunctAnal.pdf",
+      "locator": "Chapter 1, sections 2-6 and 8-12 for Banach spaces and the main operator theorems. Then chapter 3, sections 8-11 for projections and adjoints and 14-18 for compactness, weak convergence and the compact self-adjoint spectral theorem.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://math.mit.edu/~rbm/18.102-S13/FunctAnal.pdf",
+      "label": "Functional-analysis problems, hints and selected solutions",
+      "checked": "2026-10-16",
+      "availability": "Exercises provided; public hints and selected worked solutions verified within chapter 5. Coverage of every problem is not claimed.",
+      "locator": "Chapter 5 Problems and solutions, starting at printed page 133; Problems - Chapter 1, Hints for some problems, and the subsequent Solutions to problems sections."
+    },
+    "checks": [
+      "On C[0,1] with the supremum norm compute the operator norm of L(f)=integral from 0 to 1 of t f(t) dt, proving both an upper bound and attainment.",
+      "On the complex Hilbert space ell squared, let Te_n=e_n/n for n>=1. Prove T is compact by finite-rank approximation and determine its spectrum, explaining the status of 0."
+    ],
+    "skip": "Skip Banach-space review if completeness and boundedness proofs are routine. Skip the Hilbert-space selection only if you can complete the compact-operator check and distinguish spectrum from point spectrum; finite-dimensional eigenvalue calculations alone do not suffice.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://math.mit.edu/~rbm/18.102-S13/FunctAnal.pdf", "note": "Complete 197-page MIT PDF opened; Melrose authorship, version 0.8D and May 16, 2013 run date checked. Contents and actual hint/solution text in chapter 5 inspected."}
+      ],
+      "uncertainties": ["The draft labels chapter 3's Kuiper theorem section as under construction; that section is excluded."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The functional norm is 1/2, achieved by the constant function 1. Finite-rank truncations of T have norm error 1/(N+1); its spectrum on complex ell squared is {1/n:n>=1} union {0}, and 0 is not an eigenvalue."],
+      "editorialNote": "Measure/integration review in chapter 2 can be used selectively."
+    }
+  },
+  "harmonic-analysis": {
+    "objectives": [
+      "Compute Fourier coefficients with a consistent normalization.",
+      "Distinguish pointwise and L2 convergence of Fourier series.",
+      "Use convolution to relate Fourier coefficients or transforms.",
+      "Apply Fourier inversion and the L2 extension under their stated hypotheses."
+    ],
+    "primary": {
+      "title": "Measure, Integration & Real Analysis - Fourier Analysis chapter",
+      "author": "Sheldon Axler",
+      "url": "https://measure.axler.net/MIRA.pdf",
+      "locator": "Chapter 11: 11A Fourier Series and Poisson Integral, 11B Fourier Series and Lp of Unit Circle, and 11C Fourier Transform, printed pages 340-379. Review orthonormal bases in 8C only as needed.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "EE261: The Fourier Transform and its Applications",
+        "author": "Brad Osgood",
+        "url": "https://see.stanford.edu/Course/EE261",
+        "locator": "Read the linked HTML/PDF transcripts for lectures 3-4 on Fourier-series convergence and orthogonality, then 6-9 on transforms, Gaussian examples, shifting, scaling and convolution.",
+        "checked": "2026-10-16",
+        "purpose": "Use the engineering examples and public problem sets to connect the analytic statements with explicit calculations."
+      }
+    ],
+    "practice": {
+      "url": "https://see.stanford.edu/Course/EE261",
+      "label": "Stanford EE261 problem sets and solutions",
+      "checked": "2026-10-16",
+      "availability": "The public assignments table lists question and solution links for problem sets 1-9 and exams. The 16-page Problem Set 1 solution PDF was opened; the remaining solution PDFs were not individually inspected, and complete exercise coverage is not claimed.",
+      "locator": "Assignments table: start with Problem Sets 1-3 alongside lectures 3-9; match later sets to their lecture due markers."
+    },
+    "checks": [
+      "For the 2pi-periodic extension of f(x)=x on (-pi,pi), compute its sine-series coefficients and identify the Fourier-series limit at a jump.",
+      "Using F(f)(xi)=integral of f(x) exp(-2pi i x xi) dx, compute the transform of the indicator of [-1/2,1/2] and then the transform of its convolution with itself."
+    ],
+    "skip": "Skip basic Fourier calculations if both checks are routine. Skip the analytic reading only if you can also justify an L2 convergence statement and specify hypotheses for inversion; an informal transform table does not settle those questions.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://measure.axler.net/MIRA.pdf", "note": "Full open-access book and chapter 11 contents inspected; 11A-11C and their exercise sections verified."},
+        {"url": "https://see.stanford.edu/Course/EE261", "note": "Stanford page identifies Osgood, lists detailed lecture topics and full-text transcript links, and supplies question/solution links in its assignments table."},
+        {"url": "https://see.stanford.edu/materials/lsoftaee261/PS-1-2007-Solutions.pdf", "note": "Public 16-page Problem Set 1 solution PDF opened; the other solution files were not individually checked.", "checked": "2026-10-16"}
+      ],
+      "uncertainties": ["Stanford's complete Course Reader and individual lecture transcripts were not inspected in this review. The course page verifies the listed lecture topics and transcript links; only the first problem-set solution PDF was opened."],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The sine coefficients are 2(-1)^(n+1)/n and the jump value is the midpoint 0. With the stated normalization the indicator transform is sin(pi xi)/(pi xi), continuously 1 at 0; convolution squares this transform."],
+      "editorialNote": "Requires integration and Hilbert spaces for the primary selection; this is a classical Fourier bridge."
+    }
+  },
+  "differential-equations": {
+    "objectives": [
+      "Solve separable and first-order linear initial-value problems.",
+      "Solve a constant-coefficient system using eigenvalues or matrix exponentials.",
+      "Derive separated solutions of the heat and wave equations with boundary conditions.",
+      "Check that a proposed solution satisfies both the equation and the initial or boundary data."
+    ],
+    "primary": {
+      "title": "Notes on Diffy Qs: Differential Equations for Engineers",
+      "author": "Jiří Lebl",
+      "url": "https://www.jirka.org/diffyqs/diffyqs.pdf",
+      "locator": "Read 1.3-1.4 for first-order methods, 3.3-3.4 for linear systems and 3.8 for matrix exponentials, and 4.1-4.4 for Fourier boundary expansions. Continue with 4.6-4.7 for the heat and wave equations; 4.8 supplies d'Alembert's alternative on the line.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "Ordinary Differential Equations and Dynamical Systems",
+        "author": "Gerald Teschl",
+        "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+        "locator": "Sections 2.1-2.2 on fixed points and existence/uniqueness, then 2.4 and 2.6 on initial-data dependence and extensibility.",
+        "checked": "2026-10-16",
+        "purpose": "Add a proof-based ODE existence course when explicit solution methods are already familiar."
+      }
+    ],
+    "practice": {
+      "url": "https://www.jirka.org/diffyqs/diffyqs.pdf",
+      "label": "Initial-value and separated-PDE exercises",
+      "checked": "2026-10-16",
+      "availability": "Public exercises and Solutions to Selected Exercises are present in the PDF. Answers for numbered heat-equation exercises in section 4.6 were inspected; a complete worked key is not claimed.",
+      "locator": "Exercise sets in sections 1.3-1.4, 3.4, 3.8 and 4.6-4.7; compare only the matching numbered entries in Solutions to Selected Exercises. Section 4.6 answers appear on printed page 454."
+    },
+    "checks": [
+      "Solve y' + 2y = exp(-t), y(0)=0, and verify the result by substitution.",
+      "Solve u_t=u_xx on 0<x<pi with zero endpoint values and u(x,0)=sin(x)+3sin(2x). Show directly that your formula meets all three conditions."
+    ],
+    "skip": "Skip first-order linear and heat-equation review if you can solve and verify both checks. Assess separable equations, linear systems and waves separately through their exercise sets. Read Teschl if you can calculate solutions but cannot state a local uniqueness hypothesis or explain how a solution may cease to extend. Weak PDE solutions and Sobolev spaces require a further course.",
+    "metadata": {
+      "sourceEvidence": [
+        {"url": "https://www.jirka.org/diffyqs/diffyqs.pdf", "note": "Complete 466-page author PDF opened; v6.11 dated May 18, 2026, contents and embedded exercises inspected. Actual selected-answer entries 4.6.101-4.6.105 checked on printed page 454."},
+        {"url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf", "note": "Complete 364-page author preliminary version opened; title, authorship, publisher-permission statement and chapter 2 contents checked."}
+      ],
+      "uncertainties": [],
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": ["The ODE solution is exp(-t)-exp(-2t). The heat solution is exp(-t)sin(x)+3 exp(-4t)sin(2x), which satisfies the equation, zero endpoint values and initial profile."],
+      "editorialNote": "Elementary PDE here means explicit classical models; the alternative focuses on ODE proofs."
+    }
+  },
+  "point-set-topology": {
+    "objectives": [
+      "Prove continuity using inverse images of open sets.",
+      "Distinguish connectedness, compactness and separation assumptions in examples.",
+      "Use bases, subspaces and product topologies.",
+      "Verify the defining property of a quotient topology."
+    ],
+    "primary": {
+      "title": "Topology Without Tears",
+      "author": "Sidney A. Morris",
+      "url": "https://www.topologywithouttears.net/topbook.pdf",
+      "locator": "Read 1.1-1.3 on topologies, 2.2-2.3 on bases, 3.1 and 3.3 on closure and connectedness, 4.1 and 5.1 on subspaces and continuity, 7.1-7.2 on compactness, 8.1-8.2 on products, and 11.1 on quotient spaces.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://www.topologywithouttears.net/topbook.pdf",
+      "label": "Topology exercises and worked examples",
+      "availability": "Exercises and worked examples are public. On the title page the author explicitly states that he does not provide solutions to the exercises.",
+      "locator": "Exercise sets 3.3, 5.1, 7.1-7.2, 8.1 and 11.1. In Exercises 11.1, questions 1-4 check the quotient-map definition and composition.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "Prove that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. Give a continuous bijection that fails to be a homeomorphism when these hypotheses are dropped.",
+      "Show that identifying 0 and 1 in [0,1], with the quotient topology, produces a space homeomorphic to the unit circle; justify continuity of the induced map."
+    ],
+    "skip": "Skip the definitions you can use correctly in proofs. Skip this selection only if both checks, a product-topology argument, and the distinction between connectedness and path connectedness are secure.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://www.topologywithouttears.net/topbook.pdf",
+          "note": "Author-hosted August 6, 2024 PDF: title, contents, solution-policy statement and actual Exercises 11.1 inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [],
+      "editorialNote": "This is a selective first course; the book's topological-group chapters are outside the selection.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "A continuous image of a compact closed subset is compact and hence closed in the Hausdorff target; the inverse is continuous. The identity from discrete R to usual R is a counterexample without compactness.",
+        "The map t -> (cos(2pi t), sin(2pi t)) descends continuously by the quotient property and is bijective; compactness and Hausdorffness give a homeomorphism."
+      ]
+    }
+  },
+  "algebraic-topology": {
+    "objectives": [
+      "Construct induced homomorphisms of fundamental groups.",
+      "Compute fundamental groups using van Kampen's theorem.",
+      "Relate connected covering spaces to subgroups with the required hypotheses.",
+      "Compute integral homology using cellular chains or Mayer-Vietoris."
+    ],
+    "primary": {
+      "title": "Algebraic Topology",
+      "author": "Allen Hatcher",
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+      "locator": "Start with chapter 0 on homotopy and cell complexes. Read 1.1 Basic Constructions, 1.2 Van Kampen's Theorem and 1.3 Covering Spaces; then 2.1 Simplicial and Singular Homology and the Cellular Homology and Mayer-Vietoris subsections of 2.2.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+      "label": "Fundamental-group and homology exercises",
+      "availability": "Public exercises verified in the book; an author-provided public solution collection was not verified.",
+      "locator": "Exercise sets at the ends of sections 1.1-1.3 and 2.1-2.2. Start with 1.1 exercises 10, 12 and 14 for products and induced maps; use 2.2 for cellular computations.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "Compute the fundamental groups of the wedge of two circles and the torus, and explain why the groups are not isomorphic.",
+      "Using the usual CW structure with one cell in each dimension 0, 1 and 2, compute the integral homology of the real projective plane, including the degree-2 cellular boundary map."
+    ],
+    "skip": "Skip fundamental-group review if you can carry out van Kampen with valid open sets and track induced maps. Skip the homology selection if you can compute the projective-plane example with integer coefficients and explain why the attaching-map degree matters.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+          "note": "Cornell-hosted complete book opened; contents and section 1.1 exercise body inspected, including product and circle-map exercises.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "No public author solution key was verified; third-party answer collections are not treated as authoritative."
+      ],
+      "editorialNote": "Requires general topology and groups. Cohomology and stable homotopy are later continuations.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "The groups are the free group F2 and Z squared; the first is nonabelian.",
+        "The cellular differentials are d2 = multiplication by 2 and d1 = 0; H0 = Z, H1 = Z/2Z, H2 = 0, with all higher groups zero."
+      ]
+    }
+  },
+  "differential-geometry": {
+    "objectives": [
+      "Reparametrize a regular curve by arclength and compute curvature and torsion.",
+      "Compute first and second fundamental forms of a regular surface.",
+      "Relate principal curvatures to Gaussian and mean curvature.",
+      "Distinguish intrinsic surface geometry from features of an embedding."
+    ],
+    "primary": {
+      "title": "Differential Geometry: A First Course in Curves and Surfaces",
+      "author": "Theodore Shifrin",
+      "url": "https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf",
+      "locator": "Read chapter 1, sections 1-2 on arclength and Frenet frames; chapter 2, sections 1-2 on the fundamental forms and Gauss map; then chapter 2, section 4 on covariant differentiation and geodesics. Chapter 3, section 1 introduces holonomy and Gauss-Bonnet.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf",
+      "label": "Curve and surface exercises with selected answers",
+      "availability": "Public exercises and selected answers, hints or solutions are included. Asterisked exercises are the ones marked for back-of-book assistance; a complete worked solution key is not claimed.",
+      "locator": "Exercises in 1.1-1.2 and 2.1-2.2; consult Answers to Selected Exercises at printed page 121 only for marked questions.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For r(t)=(cos(t),sin(t),t), compute speed, curvature and torsion and give an arclength parametrization.",
+      "For a sphere of radius R > 0, compute Gaussian and mean curvature using the outward unit normal. State your sign convention for the shape operator, and compare intrinsic Gaussian curvature with that of a circular cylinder of radius R."
+    ],
+    "skip": "Skip curve calculations if arclength and the Frenet frame are reliable. Skip the surface review if you can derive the fundamental forms and explain why a cylinder is locally flat intrinsically despite bending in space.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf",
+          "note": "University-hosted April 2021 PDF: title, contents, exercise-marking convention and actual selected-answer appendix inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "This classical curve-and-surface route does not replace a smooth-manifold and tensor course."
+      ],
+      "editorialNote": "Use multivariable calculus and linear algebra; normal orientation and shape-operator conventions affect signed curvature.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "Speed is sqrt(2), curvature 1/2 and torsion 1/2; one arclength parametrization is r(s/sqrt(2)).",
+        "For S=-dN with outward normal, both principal curvatures are -1/R, so K=1/R squared and H=-1/R. The cylinder has K=0."
+      ]
+    }
+  },
+  "symplectic-geometry": {
+    "objectives": [
+      "Test closedness and nondegeneracy of a two-form.",
+      "Use Darboux's theorem with its local scope.",
+      "Compute Hamiltonian vector fields and identify their conserved energy.",
+      "Check when a graph in a cotangent bundle is Lagrangian."
+    ],
+    "primary": {
+      "title": "Introduction to Symplectic and Hamiltonian Geometry",
+      "author": "Ana Cannas da Silva",
+      "url": "https://people.math.ethz.ch/~acannas/Papers/impa.pdf",
+      "locator": "Read 1.1-1.4 for linear algebra and symplectic manifolds, 1.7-1.9 for Moser's method and Darboux, 2.1-2.4 for cotangent bundles and Lagrangians, and 4.1-4.3 for Hamiltonian fields, Hamilton equations and brackets. Sections 4.6-4.7 and 5.1-5.3 continue to moment maps and reduction.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://people.math.ethz.ch/~acannas/Papers/impa.pdf",
+      "label": "Symplectic and Hamiltonian exercises",
+      "availability": "Numbered public exercises verified within the notes; public solutions not verified. Some exercises include guiding explanations.",
+      "locator": "Work through the exercises embedded in lectures 1-2 and 4; Exercises 17-18 in section 4.3 concern contraction identities and the Poisson-bracket Leibniz rule.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "On R squared with omega=dq wedge dp, use the convention contraction of X_H with omega equals dH to compute X_H for H=(q squared+p squared)/2. Solve its flow and verify that H is conserved.",
+      "For a smooth one-form alpha on a smooth n-manifold Q, prove that its graph in T*Q with the canonical symplectic form is Lagrangian if and only if d alpha=0. Explain why alpha need not be exact globally."
+    ],
+    "skip": "Skip the first lecture only if differential forms and symplectic linear algebra are usable in proofs. Skip the selection if both checks are routine and you can explain why Darboux gives local equivalence without implying global symplectomorphism.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://people.math.ethz.ch/~acannas/Papers/impa.pdf",
+          "note": "Author-hosted IMPA notes, revised November 2007: title, contents, smooth-manifold prerequisites and actual Exercises 17-18 inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "A public solution key was not verified."
+      ],
+      "editorialNote": "This is the shorter IMPA course, a distinct work from Lectures on Symplectic Geometry. Smooth manifolds and differential forms are prerequisites.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "X_H=p d/dq - q d/dp; q(t)=q0 cos(t)+p0 sin(t), p(t)=p0 cos(t)-q0 sin(t). Along this flow dH/dt=0.",
+        "The pullback of the canonical two-form to the graph is -d alpha; its dimension is half that of T*Q. A nonexact closed one-form on a circle supplies a global counterexample to exactness."
+      ]
+    }
+  },
+  "elementary-number-theory": {
+    "objectives": [
+      "Use the Euclidean algorithm and Bezout's identity.",
+      "Solve congruences and apply the Chinese remainder theorem.",
+      "Compute modular inverses and powers with stated coprimality conditions.",
+      "Use quadratic reciprocity and Euler's criterion."
+    ],
+    "primary": {
+      "title": "Elementary Number Theory: Primes, Congruences, and Secrets",
+      "author": "William Stein",
+      "url": "https://wstein.org/ent/ent.pdf",
+      "locator": "Read 1.1 on factorization and the Euclidean algorithm; 2.1-2.3 on congruences, the Chinese remainder theorem, inverses and powers; then 4.1-4.3 on quadratic reciprocity and Euler's criterion.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://wstein.org/ent/ent.pdf",
+      "label": "Congruence and quadratic-residue exercises with selected hints",
+      "availability": "Public exercises and an Answers and Hints section are present. It contains selected answers and proof hints, not a verified complete worked solution manual.",
+      "locator": "Sections 1.3, 2.6 and 4.6 contain the exercise sets. Answers and Hints begins on printed page 149; match the chapter and exercise number.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "Use the extended Euclidean algorithm to find the inverse of 17 modulo 43, and solve x=2 modulo 3, x=3 modulo 5 and x=2 modulo 7, with a uniqueness statement.",
+      "Determine whether 5 is a quadratic residue modulo 29 using quadratic reciprocity, then find both square roots if they exist."
+    ],
+    "skip": "Skip the congruence review if you can justify the inverse and CRT constructions. Skip the residue selection if reciprocity, its sign and the supplementary laws are usable without a table.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://wstein.org/ent/ent.pdf",
+          "note": "Author PDF dated January 23, 2017: title, contents, exercise locations and actual Answers and Hints entries inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [],
+      "editorialNote": "Cryptography and elliptic curves are optional continuations, not required for these checks.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "The inverse is 38 modulo 43; the CRT solution is 23 modulo 105.",
+        "The Legendre symbol (5/29)=(29/5)=1; the roots are 11 and 18 modulo 29."
+      ]
+    }
+  },
+  "algebraic-number-theory": {
+    "objectives": [
+      "Compute rings of integers, traces, norms and discriminants in quadratic fields.",
+      "Factor rational primes into prime ideals with ramification and residue degrees.",
+      "Distinguish factorization of elements from factorization of ideals.",
+      "Use ideal classes and a Minkowski bound to organize class-group calculations."
+    ],
+    "primary": {
+      "title": "Algebraic Number Theory",
+      "author": "James S. Milne",
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "locator": "Read chapter 2, Rings of Integers, especially norms, traces, discriminants and finding the ring of integers; chapter 3, Dedekind Domains; Factorization, especially ideal factorization, the class group and finding factorizations; then chapter 4, The Finiteness of the Class Number, for lattices and bounds.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+      "label": "Number-field exercises with author solution sketches",
+      "availability": "Public chapter exercises and Appendix A Solutions to the Exercises are present. Sampled entries include hints and sketches; complete worked coverage of every exercise was not audited.",
+      "locator": "Chapter 2 exercises, printed page 44, and chapter 3 exercises, page 67. Appendix A begins on printed page 153; entries use chapter-exercise labels such as 2-1.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For K=Q(sqrt(5)), determine its ring of integers, a Z-basis and its field discriminant; compute the norm of (1+sqrt(5))/2.",
+      "In Z[i], factor the ideals (5) and (2), identify ramification and residue degrees, and justify the factorizations with norms."
+    ],
+    "skip": "Skip quadratic-field review if you can determine the full ring of integers rather than just an order. Skip ideal-factorization review if you can do the Gaussian example and state the role of Dedekind domains; class-group and local-field study remain separate gaps to assess.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "note": "Author v3.08 PDF dated July 19, 2020: title, contents, chapter exercise locations and actual Appendix A solution sketches inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "The appendix was sampled; full exercise-to-solution coverage was not audited."
+      ],
+      "editorialNote": "Requires field extensions, ideals and localization. This is preparation for class field theory.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "The integer ring is Z[(1+sqrt(5))/2], its standard basis has discriminant 5, and the displayed unit has norm -1.",
+        "(5)=(2+i)(2-i) as principal ideals, with e=f=1 for both primes. (2)=(1+i) squared up to a unit, with e=2, f=1."
+      ]
+    }
+  },
+  "analytic-number-theory": {
+    "objectives": [
+      "Justify an Euler product in a half-plane of absolute convergence.",
+      "Use Dirichlet convolution and Mobius inversion.",
+      "Identify the Dirichlet series of divisor and von Mangoldt functions.",
+      "Distinguish the analytic input for prime-number and arithmetic-progression theorems."
+    ],
+    "primary": {
+      "title": "Notes on Analytic Number Theory",
+      "author": "Kiran S. Kedlaya",
+      "url": "https://kskedlaya.org/ant/frontmatter.html",
+      "locator": "Begin with 2.1-2.3 on Dirichlet series, multiplicativity and Euler products. Then read 1.2-1.4 on zeta and the Tauberian route to the prime number theorem; 3.1-3.4 and 4.1-4.3 introduce characters, L-functions and primes in progressions.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://kskedlaya.org/ant/part-1-3.html",
+      "label": "Dirichlet-series and arithmetic-function exercises",
+      "availability": "Public exercises 2.4.1-2.4.10 verified, including a hint to 2.4.7. Public worked solutions were not verified.",
+      "locator": "Section 2.4: use exercises 3-4 for convolution and arithmetic functions, 6 for von Mangoldt and the logarithmic derivative, and 9 for the hyperbola method.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For complex s with real part greater than 1, prove that the Dirichlet series of the divisor-counting function d(n) equals zeta(s) squared. Justify rearranging the double sum.",
+      "For real x >= 1, derive the exact hyperbola formula sum_{n<=x} d(n)=2 sum_{m<=floor(sqrt(x))} floor(x/m)-floor(sqrt(x)) squared and deduce x log(x)+O(x)."
+    ],
+    "skip": "Skip arithmetic-function review if you can derive both identities and control convergence. Continue with the zeta and L-function readings if analytic continuation, nonvanishing and Tauberian hypotheses are still gaps; a formal Euler-product expansion alone does not justify the prime number theorem.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://kskedlaya.org/ant/frontmatter.html",
+          "note": "Author's full HTML contents inspected for chapter/section numbering.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://kskedlaya.org/ant/front-colophon.html",
+          "note": "Author credit and CC BY-SA licence inspected.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://kskedlaya.org/ant/part-1-3.html",
+          "note": "Actual sections 2.1-2.4 and exercises 1-10 inspected, including the stated hint and hyperbola exercise.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "A public solution collection was not verified."
+      ],
+      "editorialNote": "Requires elementary number theory and complex analysis. The checks are a preparatory route, not a test of the full prime-number theorem.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "Absolute convergence is bounded by zeta(real(s)) squared, permitting regrouping ordered positive divisor pairs.",
+        "Count lattice pairs ab<=x on the two sides of sqrt(x) and subtract their square overlap. The harmonic-sum estimate and O(sqrt(x)) floor errors give x log(x)+O(x)."
+      ]
+    }
+  },
+  "modular-forms": {
+    "objectives": [
+      "Check the upper-half-plane action of SL2(Z) and state a modular transformation law.",
+      "Relate translation invariance to a q-expansion and distinguish holomorphy from meromorphy at a cusp.",
+      "Compute low-order coefficients of level-one Eisenstein and cusp forms.",
+      "Apply a Hecke coefficient formula with an explicit normalization."
+    ],
+    "primary": {
+      "title": "Modular Functions and Modular Forms (Elliptic Modular Curves)",
+      "author": "James S. Milne",
+      "url": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+      "locator": "Read section 1, Preliminaries, and section 2, Elliptic Modular Curves as Riemann Surfaces, for the upper half-plane and quotients. Section 4, Modular Functions and Modular Forms, begins on printed page 48; section 5, Hecke Operators, begins on page 67. Use section 3 on elliptic functions only as needed.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [
+      {
+        "title": "Modular Forms: A Computational Approach",
+        "author": "William A. Stein, with an appendix by Paul E. Gunnells",
+        "url": "https://wstein.org/books/modform/stein-modform.pdf",
+        "locator": "Sections 1.1-1.4 for definitions and congruence groups; 2.1-2.4 for level-one forms, the structure theorem, the Miller basis and Hecke operators.",
+        "checked": "2026-10-16",
+        "purpose": "Use alongside Milne when explicit q-expansions and algorithms are the priority."
+      }
+    ],
+    "practice": {
+      "url": "https://wstein.org/books/modform/stein-modform.pdf",
+      "label": "Level-one modular-form exercises",
+      "availability": "Public exercise sets verified in Stein's author-hosted book; public worked solutions were not verified. These exercises are a separate source from Milne's reading notes.",
+      "locator": "Section 1.6 Exercises, printed page 11: start with exercise 1.1 on the half-plane action. Section 2.8 Exercises, page 33: exercise 2.3 concerns Eisenstein-series coefficients and 2.8 concerns a Hecke matrix.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For gamma=[[a,b],[c,d]] in SL2(R), prove Im(gamma z)=Im(z)/|cz+d| squared when Im(z)>0. Then use -I to show a modular form for SL2(Z) of odd integral weight is zero.",
+      "With q=exp(2pi i z), E4=1+240 sum_{n>=1} sigma_3(n) q^n and E6=1-504 sum_{n>=1} sigma_5(n) q^n, compute the coefficients through q squared of (E4 cubed-E6 squared)/1728."
+    ],
+    "skip": "Skip the action and definition review if you can prove the first check and explain the cusp condition. Skip coefficient practice if the second check is routine; assess Hecke operators separately through Stein's exercises.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+          "note": "Author v1.31 PDF dated March 22, 2017: title, prerequisites and analytic-theory section locations inspected.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://wstein.org/books/modform/stein-modform.pdf",
+          "note": "Author PDF: full Stein/Gunnells credits, contents and actual exercise bodies in sections 1.6 and 2.8 inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "Public worked exercise solutions were not verified."
+      ],
+      "editorialNote": "Start with complex analysis and group actions. Milne gives the analytic/geometric route; Stein supplies explicit computational practice.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "The imaginary-part identity follows by subtracting the conjugate fraction. The transformation under -I gives f=(-1)^k f, so odd-weight forms vanish over C.",
+        "The expansion is q-24q squared+O(q cubed), so the constant coefficient vanishes."
+      ]
+    }
+  },
+  "combinatorics": {
+    "objectives": [
+      "Prove counting identities by a bijection or double count.",
+      "Use inclusion-exclusion with precisely defined events.",
+      "Encode counting sequences in ordinary generating functions.",
+      "Use degree counts, paths, cycles and trees in graph arguments."
+    ],
+    "primary": {
+      "title": "Applied Combinatorics, 2016 edition",
+      "author": "Mitchel T. Keller and William T. Trotter",
+      "url": "https://rellek.net/book-2016/",
+      "locator": "Read chapter 2, Strings, Sets, and Binomial Coefficients; chapter 5, Graph Theory; chapter 7, Inclusion-Exclusion; and chapter 8, Generating Functions. Chapter 9 continues to recurrence equations.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://rellek.net/book-2016/s_strings_exercises.html",
+      "label": "Counting and graph exercises",
+      "availability": "Public exercise text verified for counting and graphs. Public worked solutions not verified; graph figures were not rendered by the text extraction.",
+      "locator": "Section 2.9 Exercises for counting; follow the Graph Theory chapter to section 5.9 Exercises, including exercise 6 on the edge count of a tree. Chapters 7-8 have their own exercise sets.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For n>=2 prove sum_{k=0}^n k(k-1) binomial(n,k)=n(n-1)2^(n-2) by double counting.",
+      "Find an ordinary generating function for the number of binary strings of length n with no adjacent ones, starting with the empty string; derive its recurrence and initial values.",
+      "Prove that every finite tree on n>=1 vertices has n-1 edges, stating where connectedness and acyclicity enter."
+    ],
+    "skip": "Skip counting basics if you can give the double count and a valid inclusion-exclusion argument. Skip the generating-function and graph review only if you can derive the recurrence and tree proof without relying on memorized formulas.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://rellek.net/book-2016/",
+          "note": "Author-hosted 2016 HTML contents inspected; the exercise pages identify Keller and Trotter.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://rellek.net/book-2016/s_strings_exercises.html",
+          "note": "Actual section 2.9 counting exercises opened.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://rellek.net/book-2016/s_graphs_exercises.html",
+          "note": "Section 5.9 exercise bodies opened, including exercise 6 on trees.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "Public worked solutions were not verified. Diagram-dependent exercises need the original browser page; figures were unavailable in text extraction."
+      ],
+      "editorialNote": "Choose the counting or graph branch by the gap; later optimization chapters are optional.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "Count a subset together with an ordered pair of distinct selected elements: choose the pair first, then any subset of the remaining n-2 elements.",
+        "The sequence starts a0=1, a1=2 and satisfies an=a(n-1)+a(n-2) for n>=2; its generating function is (1+x)/(1-x-x squared).",
+        "For n>1 a longest simple path has a leaf endpoint; remove it and induct, preserving connectedness and acyclicity."
+      ]
+    }
+  },
+  "probability": {
+    "objectives": [
+      "Compute conditional probabilities and distinguish independence from disjointness.",
+      "Use expectations, variances and indicator variables.",
+      "State the weak law and central limit theorem with appropriate assumptions.",
+      "Find a finite Markov chain's stationary distribution and distinguish stationarity from convergence."
+    ],
+    "primary": {
+      "title": "Grinstead and Snell's Introduction to Probability, CHANCE version dated July 4, 2006",
+      "author": "Charles M. Grinstead and J. Laurie Snell; CHANCE version by Peter G. Doyle",
+      "url": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+      "locator": "Review 1.2 and 2.2 for distributions and densities; 4.1-4.2 for conditioning; 6.1-6.3 for expectation and variance; 8.1 and 9.1-9.2 for laws of large numbers and central limits; then 11.1 and 11.3-11.4 for finite Markov chains.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://chance.dartmouth.edu/Doob/probability_book/book.html",
+      "label": "Probability exercises and odd-numbered answers",
+      "availability": "The authors' public page links answers to odd-numbered exercises; that PDF was opened and sampled. The complete solution set is offered to instructors by request and is not described as publicly available.",
+      "locator": "Use exercise sets after sections 4.1, 6.1-6.2, 8.1 and 11.3. On the source page follow Answers and Errata to the odd-numbered answer PDF; match section and exercise labels.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For independent Bernoulli(p) variables X1,...,Xn with 0<p<1, compute the expectation and variance of their average and prove convergence in probability to p using Chebyshev's inequality.",
+      "For the row-stochastic matrix P=[[0.8,0.2],[0.3,0.7]], compute a stationary probability row vector and determine whether every initial distribution converges to it. Compare with [[0,1],[1,0]]."
+    ],
+    "skip": "Skip elementary probability if you can derive the first check and handle conditioning with a specified sample space. Skip Markov-chain review if you can justify convergence using irreducibility and aperiodicity and explain the periodic counterexample.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+          "note": "Dartmouth-hosted CHANCE PDF opened: title/version credit, contents and chapter/section locators inspected.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://chance.dartmouth.edu/Doob/probability_book/book.html",
+          "note": "Authors' book page inspected: public odd-answer link and instructor-request restriction distinguished.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://chance.dartmouth.edu/Doob/probability_book/Answersodd-5-17-03.pdf",
+          "note": "45-page odd-numbered answer PDF opened; section 1.1 and 1.2 answer bodies inspected.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "The primary PDF is the credited CHANCE adaptation of the second edition; every exercise number was not compared with the 2003 odd-answer file."
+      ],
+      "editorialNote": "This is a calculus-based route. Measure-theoretic probability, martingales and stochastic calculus require further study.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "The mean is p, variance p(1-p)/n, and the deviation probability is at most p(1-p)/(n epsilon squared).",
+        "The stationary vector is (3/5,2/5); positivity gives irreducibility and aperiodicity. The flip chain has stationary vector (1/2,1/2) but alternates from either pure state."
+      ]
+    }
+  },
+  "dynamics": {
+    "objectives": [
+      "Describe a flow, its orbits and invariant sets.",
+      "Distinguish stability, attraction and asymptotic stability.",
+      "Use a Lyapunov function and state what its derivative proves.",
+      "Determine local stability of fixed points of a discrete map."
+    ],
+    "primary": {
+      "title": "Ordinary Differential Equations and Dynamical Systems",
+      "author": "Gerald Teschl",
+      "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+      "locator": "Read 6.1-6.3 on flows, orbits and invariant sets and 6.5-6.6 on stability and Lyapunov methods; use 9.1 for linear stability. For a discrete route read 10.1-10.2 and 10.4 on logistic maps, periodic points and local behavior.",
+      "checked": "2026-10-16"
+    },
+    "alternatives": [],
+    "practice": {
+      "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+      "label": "Flows, stability and discrete-dynamics problems",
+      "availability": "Public numbered problems verified within the author PDF, some with hints; a public worked solution collection was not verified.",
+      "locator": "In chapter 6 start with Problems 6.8-6.10 on limits, periodicity and nonwandering points. Then use problems embedded in 6.5-6.6 and chapter 10 alongside the corresponding readings.",
+      "checked": "2026-10-16"
+    },
+    "checks": [
+      "For x'=-x and y'=-2y, write the flow and use V=x squared+y squared to prove global asymptotic stability of the origin. Explain why V=x squared+y squared cannot prove attraction for x'=-y, y'=x.",
+      "For F_r(x)=r x(1-x) on [0,1] with 0<r<=4, find its fixed points in [0,1]. Determine the parameter ranges where the derivative test proves local attraction or repulsion; identify the parameters where that test is inconclusive."
+    ],
+    "skip": "Skip flow and stability review if you can prove the first check with the definitions of stability and attraction. Skip the discrete selection if you can give the derivative argument and recognize its inconclusive boundary cases. Ergodic theory needs a separate measure-based route.",
+    "metadata": {
+      "sourceEvidence": [
+        {
+          "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+          "note": "Author's AMS-authorized preliminary PDF opened; chapter 6, 9 and 10 contents and actual Problems 6.8-6.14 inspected.",
+          "checked": "2026-10-16"
+        },
+        {
+          "url": "https://www.weizmann.ac.il/math/sarigo/lecture-notes",
+          "note": "Official author index opened and its Ergodic Theory link attempted. The linked PDF failed to open and is not offered as a verified reading selection.",
+          "checked": "2026-10-16"
+        }
+      ],
+      "uncertainties": [
+        "This verified route covers smooth ODE and discrete dynamics. An ergodic-theory continuation is not verified: Sarig's official lecture-note index opened, but its linked Ergodic Theory PDF failed to open."
+      ],
+      "editorialNote": "Use real analysis and linear algebra. Local multiplier tests with modulus one require further analysis.",
+      "reviewed": "2026-10-16",
+      "verificationScope": "Author/title, named reading locators and public practice availability checked against primary sources. Solution verification is limited to practice.availability. Checks are independently reviewed editorial prompts.",
+      "checkResults": [
+        "The flow is (exp(-t)x0,exp(-2t)y0); V'=-2x squared-4y squared<=-2V. The rotation preserves V and has nonzero periodic orbits.",
+        "At 0 the multiplier is r: attractive for 0<r<1, repelling for r>1, inconclusive at r=1. For r>1 the second fixed point is 1-1/r with multiplier 2-r: attractive for 1<r<3, repelling for 3<r<=4, inconclusive at r=3. At r=1 the two formulas give the same fixed point."
+      ]
+    }
+  }
+}

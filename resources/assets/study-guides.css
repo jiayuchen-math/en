@@ -1,0 +1,5 @@
+.subject-guide { max-width: 72ch; margin-block: 24px 40px; }
+.subject-guide h3 { margin-top: 24px; }
+.subject-guide details { margin-block: 18px; }
+.subject-guide li { margin-block: 8px; }
+.subject-guide .katex-display, .direction-introduction .katex-display { overflow-x: auto; overflow-y: hidden; max-width: 100%; }

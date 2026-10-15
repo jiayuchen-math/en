@@ -1,0 +1,176 @@
+{
+  "algebraic-geometry": {
+    "body": "What information disappears when you draw the solutions of an equation? Over the complex numbers, $x=0$ and $x^2=0$ give the same visible point. Their quotient rings differ: in $\\mathbb{C}[x]/(x^2)$, the class of $x$ is nonzero but has square zero. This tiny example gives algebraic geometry a reason to look beyond pictures. Equations carry information about infinitesimal behavior, and a useful geometry should retain it. Vakil develops precisely this example in [The Rising Sea, §4.2](https://math.stanford.edu/~vakil/216blog/FOAGnov1817public.pdf).\n\nThere are other questions worth carrying into the subject. How does a curve change when a parameter varies? When can a rationally defined map extend across a missing point? Why should two equations meet in a predictable number of points once multiplicities and points at infinity are included? These questions connect computation with classification. Drawing a few curves helps formulate them; local rings, projective space and families provide languages in which their answers become stable under changes of coordinates.\n\nStart with Ravi Vakil's **The Rising Sea**, using the freely available November 18, 2017 draft linked here. It is an earlier version, explicitly marked as out of date, rather than the published book. Begin with the reader guidance in §0.1, then use Chapters 2–4 to connect sheaves, prime ideals and affine schemes. Treat the exercises as the main work. A good early milestone is to explain what localization changes and what a structure sheaf records, using a polynomial ring you can calculate with.\n\nThe preparation is mostly usable algebra: ideals, quotient rings, modules, localization and some field theory. You also need open sets, continuity and compactness as proof tools. Test yourself by describing the prime ideals of $\\mathbb{C}[x]$ and comparing localization at a prime with quotienting by it. If the algebraic tools listed above are familiar, begin reading and review individual gaps as they arise. If quotients still feel like symbolic manipulation, work through examples before adding sheaf notation. Category theory can initially be learned through the universal properties actually used.\n\nFor a different entry, [J. S. Milne's Algebraic Geometry](https://www.jmilne.org/math/CourseNotes/AG.pdf) develops varieties before schemes. Chapter 2 builds the dictionary between algebraic sets and ideals; Chapters 3–4 introduce sheaves, affine varieties and local geometry. Choose this alternative if you want geometric objects over algebraically closed fields to become familiar before generalizing the ambient language. Keep one curve in view while reading: compare its coordinate ring, regular functions on open subsets and tangent space at a singular point.\n\nIf you already know the elementary examples and want a precise reference, use the [Stacks Project's definition of schemes, Tag 01II](https://stacks.math.columbia.edu/tag/01II), following its links backward when a definition is missing. Its example of the punctured affine plane shows that being covered by affine pieces does not make a space affine. This is an effective check on understanding local versus global constructions, though the project's compact reference style makes it a less forgiving first course.\n\nA common misconception is that the subject begins only after every algebraic prerequisite has been completed. Another is that a scheme is just a more elaborate set of solutions. The first delays contact with geometry; the second loses the ringed structure that motivated the construction. Progress means translating between equations, functions and maps, then knowing which translation a problem needs.\n\nAfter affine and projective examples, choose a question to organize further study. Curves lead toward divisors and Riemann–Roch; varying objects leads toward moduli; equations over arithmetic rings lead toward arithmetic geometry. Cohomology and homological algebra become useful when a concrete global problem calls for them. These branches share foundations without forming one compulsory reading sequence.",
+    "references": [
+      {
+        "label": "The Rising Sea: Foundations of Algebraic Geometry — November 18, 2017 draft",
+        "author": "Ravi Vakil",
+        "url": "https://math.stanford.edu/~vakil/216blog/FOAGnov1817public.pdf",
+        "locator": "§0.1 For the reader; Chapter 2 Sheaves; Chapters 3–4 affine schemes, especially §4.2 Visualizing schemes II: nilpotents (pp. 133–134). The PDF identifies itself as an early, out-of-date version.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Algebraic Geometry, version 6.10",
+        "author": "J. S. Milne",
+        "url": "https://www.jmilne.org/math/CourseNotes/AG.pdf",
+        "locator": "Chapter 1 Preliminaries from commutative algebra; Chapter 2 Algebraic Sets; Chapter 3 Affine Algebraic Varieties; Chapter 4 Local Study, especially §§4a–4c (pp. 81–85).",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "The Stacks Project — Schemes",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/01II",
+        "locator": "Section 26.9: Definition 26.9.1; Lemma 26.9.2; Example 26.9.3 (the punctured affine plane).",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      }
+    ]
+  },
+  "representation-theory": {
+    "body": "Label the vertices of an equilateral triangle and let each symmetry permute three coordinates. This gives a representation of the symmetry group on $\\mathbb{C}^3$. The line spanned by $(1,1,1)$ stays fixed, while the plane $x+y+z=0$ is also preserved. A three-dimensional problem has separated into a trivial direction and a two-dimensional part. Representation theory asks how far this kind of decomposition can go, and what the resulting pieces reveal about the original symmetry.\n\nThere is an appealing computational shortcut here. The trace of a permutation matrix counts fixed coordinates. For the identity, a reflection and a rotation through one third of a turn, the traces are $3,1,0$. Subtract the trace of the fixed line and the plane has character values $2,0,-1$. You can now compare representations without carrying every matrix through every calculation. [Teleman's discussion of character tables, §10](https://math.berkeley.edu/~teleman/math/RepThry.pdf), explains how character inner products recover multiplicities for finite groups over the complex numbers.\n\nThe deeper motivation is to turn symmetry into constraints on possible behavior. If a linear operator commutes with a group action, it respects structures supplied by that action. This helps organize eigenvalue problems, polynomial spaces and combinatorial constructions. Classification enters too: instead of studying one particular action, ask for all actions of a given kind, the maps between them and the ways they can be assembled.\n\nStart with **Introduction to representation theory**, the lecture manuscript by Pavel Etingof, Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, Dmitry Vaintrob and Elena Yudovina. Its [opening sections](https://math.mit.edu/~etingof/replect.pdf) put representations of algebras alongside familiar linear algebra, and Chapter 3 develops finite groups and characters. Work toward decomposing the triangle representation yourself and checking its character inner products. The early Lie algebra and quiver examples can be sampled as possible directions; they need not all be mastered before the finite-group chapter.\n\nThe essential preparation is linear algebra with proofs: invariant subspaces, eigenvalues, direct sums, duals and change of basis. You should also be able to use group homomorphisms, conjugacy classes and quotient constructions. If you can find invariant subspaces for several matrices acting together, begin directly. If you can diagonalize one matrix but have never asked for a subspace preserved by a whole family, practice that distinction first. Modules and tensor products can be learned alongside their first representation-theoretic uses.\n\nFor an alternative centered on groups, choose [Constantin Teleman's Representation Theory](https://math.berkeley.edu/~teleman/math/RepThry.pdf). Sections 1–3 develop actions and complete reducibility; the later character theory provides a compact route through finite-group calculations. Choose it if the group action is the motivating object and the general algebra language feels premature. Keep track of the scalar field: statements about complex representations can change over other fields.\n\nIf continuous symmetries are already your destination, [Alexander Kirillov Jr.'s Introduction to Lie Groups and Lie Algebras](https://www.math.stonybrook.edu/~kirillov/mat552/liegroups.pdf) is the other alternative. Chapters 2–4 connect Lie groups, infinitesimal symmetries and representations; Chapter 5 treats $\\mathfrak{sl}_2$ concretely. Add smooth manifolds and multivariable calculus for this branch. There is no need to complete every finite-group topic before moving toward Lie theory.\n\nThe most consequential misconception is that every representation splits into irreducible pieces. Complete reducibility has hypotheses; the finite-group averaging argument needs the group order to be invertible in the field. When splitting fails, extensions and indecomposable objects become part of the question. From the first course, branch toward modular representations, Lie theory, quivers or algebraic combinatorics. Homological and categorical tools become natural when you need to understand how pieces fit together, rather than only list them.",
+    "references": [
+      {
+        "label": "Introduction to representation theory — January 10, 2011 lecture manuscript",
+        "author": "Pavel Etingof, Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, Dmitry Vaintrob and Elena Yudovina",
+        "url": "https://math.mit.edu/~etingof/replect.pdf",
+        "locator": "§§1.1–1.5 algebras, representations, ideals and quotients; §§1.8–1.14 quivers and Lie examples; Chapter 3, especially §3.1 Maschke's Theorem and §§3.2–3.9 characters and decompositions.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Representation Theory — Lent 2005 notes",
+        "author": "Constantin Teleman",
+        "url": "https://math.berkeley.edu/~teleman/math/RepThry.pdf",
+        "locator": "§1 What is Representation Theory?; §3 Complete Reducibility and Unitarity, Theorem 3.1; §10 The character table (pp. 24–25). Author's Old Course Notes page links this manuscript.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Introduction to Lie Groups and Lie Algebras — author manuscript",
+        "author": "Alexander Kirillov, Jr.",
+        "url": "https://www.math.stonybrook.edu/~kirillov/mat552/liegroups.pdf",
+        "locator": "Chapter 2 Lie Groups: Basic Definitions; Chapter 3 Lie Groups and Lie algebras; Chapter 4 Representations of Lie Groups and Lie Algebras; §5.1 Representations of sl(2,C).",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      }
+    ]
+  },
+  "analysis-pde": {
+    "body": "Suppose a membrane is fixed along its boundary and pushed by a distributed force. A model asks for a function $u$ satisfying $-\\Delta u=f$ inside a bounded region and $u=0$ at its boundary. For smooth data, differentiation makes sense point by point. But what if the force is merely square integrable, or an approximation converges without its second derivatives converging? This is where functional analysis becomes a way of doing mathematics with the equation, rather than background vocabulary.\n\nThe central move is to ask which measurements survive a limit. Integrating against smooth test functions and integrating by parts leads to $\\int \\nabla u\\cdot\\nabla\\varphi=\\int f\\varphi$. The unknown now needs only an appropriate weak first derivative. In the space $H_0^1$, the boundary condition is encoded through approximation by compactly supported smooth functions. [Hunter's notes, §§4.1–4.5](https://www.math.ucdavis.edu/~hunter/pdes/ch4.pdf), explain how the Hilbert space formulation yields existence and uniqueness. Regularity then asks whether the resulting solution is smoother.\n\nStart with John K. Hunter's **Notes on Partial Differential Equations**. Read Chapter 2 on Laplace's equation for an initial supply of examples, then Chapter 3 on weak derivatives and Sobolev spaces, and Chapter 4 on elliptic problems. Use Chapter 1 as a reference when an estimate requires a missing tool. The first substantial goal is to reconstruct one existence argument and identify exactly where its boundary condition, inequality and completeness assumption enter.\n\nPreparation should be tested through arguments. Can you use Cauchy–Schwarz to bound an integral, distinguish pointwise from norm convergence, and explain why completeness matters for a Cauchy sequence? Can you integrate by parts in several variables and work with orthogonal projections? If so, review only unfamiliar measure theory and function spaces. If convergence theorems are still new, pause the PDE route long enough to learn their hypotheses and build counterexamples to false interchanges of limits and integrals.\n\nFor that preparation, a real alternative is [Sheldon Axler's Measure, Integration & Real Analysis](https://measure.axler.net/MIRA.pdf). Chapters 2–3 build measure and integration; Chapters 6–8 connect Banach spaces, $L^p$ spaces and Hilbert space geometry. Choose this route when the analytical foundations, rather than differential equations, are the main gap. If dominated convergence and orthogonal projection are already working tools, use those chapters selectively instead of restarting from Riemann integration.\n\nA second alternative is [Terence Tao's An Epsilon of Room, I](https://terrytao.wordpress.com/wp-content/uploads/2012/12/gsm-117-tao3-epsilon1.pdf), whose §§1.9 and 1.12–1.14 connect weak topologies, Fourier transforms, distributions and Sobolev spaces. This is useful for someone who knows basic measure theory but wants a broader picture of analytical estimates. Follow one question through those sections: how does controlling oscillation or derivatives improve the kind of convergence available? It supplies a different perspective from a course organized around boundary value problems.\n\nWeak solutions are sometimes mistaken for inaccurate numerical answers. Weakness describes the meaning in which an equation holds, not a tolerance in its computation. An exact solution may lack classical derivatives. Likewise, existence in a chosen function space does not automatically prove uniqueness among every conceivable generalized solution. Whenever a theorem appears, record the space, the data assumptions and the estimate that supports its conclusion.\n\nThe next branch depends on the behavior you want to understand. Elliptic equations emphasize boundary problems and regularity; parabolic equations bring smoothing and long-time evolution; hyperbolic and dispersive equations emphasize propagation and oscillation. Variational problems and nonlinear equations introduce further compactness questions. Fourier analysis is a powerful companion for several of these directions, but there is no need to finish all of harmonic analysis before beginning a carefully chosen PDE problem.",
+    "references": [
+      {
+        "label": "Notes on Partial Differential Equations",
+        "author": "John K. Hunter",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/",
+        "locator": "Chapter 2 Laplace's equation; §§3.1–3.5 weak derivatives, distributions and Sobolev spaces; §§4.1–4.5 weak Dirichlet problem, including Definition 4.2 and Theorem 4.11; Chapters 5–7 evolution equations.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Measure, Integration & Real Analysis",
+        "author": "Sheldon Axler",
+        "url": "https://measure.axler.net/MIRA.pdf",
+        "locator": "Chapters 2–3 Measures and Integration, especially §3B; Chapters 6–8 Banach Spaces, Lp Spaces and Hilbert Spaces, especially §8B Orthogonality. Open-access PDF dated June 12, 2026.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "An Epsilon of Room, I: Real Analysis — authorized preliminary version",
+        "author": "Terence Tao",
+        "url": "https://terrytao.wordpress.com/wp-content/uploads/2012/12/gsm-117-tao3-epsilon1.pdf",
+        "locator": "Preface (measure-theory preparation); §1.9 The strong and weak topologies; §§1.12–1.14 The Fourier transform, Distributions and Sobolev spaces (pp. 183–256).",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      }
+    ]
+  },
+  "complex-harmonic-analysis": {
+    "body": "A periodic function can be measured by its Fourier coefficients, but do those measurements reconstruct the function? Even before asking for a proof, one must decide what reconstruction means: agreement at every point, outside a negligible set, or in mean square. Alongside this question sits another: why can the values of a holomorphic function on a circle determine its behavior inside? Complex and harmonic analysis repeatedly turn global information into local control, though they do so with different hypotheses and tools.\n\nFor an approachable connection, consider a trigonometric polynomial $\\sum_{n=-N}^{N}a_ne^{int}$. Its positive frequencies are the boundary values of a polynomial in $z$ on the unit circle. Its negative frequencies require a different treatment. Splitting these parts suggests why analytic functions and Fourier operators meet. It also suggests an experiment: compute a few partial sums for a function with a jump, then ask whether the visible overshoot rules out convergence in every useful sense. A graph alone cannot answer that question.\n\nStart with **Dan Romik's Complex Analysis Lecture Notes**, particularly [§§3–8](https://www.math.ucdavis.edu/~romik/data/uploads/teaching/math205a-2018/complex-analysis-2018.pdf). These sections move from complex differentiability and power series to contour integrals, Cauchy's theorem and residues. Use Cauchy's integral formula as the first organizing result: derive a derivative estimate and explain why complex differentiability on an open set yields much more regularity than ordinary real differentiability. This gives the complex side of the route a clear mathematical center.\n\nYou need proof-based real analysis, complex arithmetic, sequences and series, and enough multivariable calculus to interpret the Cauchy–Riemann equations. Measure theory is not required for the first contour integrals, but it becomes essential when the route reaches $L^p$ spaces and almost-everywhere convergence. If you can prove uniform convergence on a smaller disc for a power series and justify differentiation under a suitable integral, skip the elementary review. If you already know Cauchy's formula, residues and basic analytic continuation, move directly to the Fourier branch.\n\nFor that branch, [Richard S. Laugesen's Harmonic Analysis Lecture Notes](https://arxiv.org/pdf/0903.3845) are the main alternative. Begin with Chapters 1–5 on Fourier coefficients, summability and the $L^2$ theory. The distinction between summing a series and averaging its partial sums deserves attention. Later chapters introduce maximal functions and the Hilbert transform, showing how operator bounds help answer convergence questions. Choose this starting point when frequency analysis is your immediate goal and Lebesgue integration is already familiar; prior mastery of complex analysis is not a requirement for its real-variable approach.\n\nA useful early milestone is to calculate the coefficients of an elementary periodic function, identify which norm controls the error, and explain why an $L^2$ conclusion does not assert convergence at each prescribed point. The recurring misconception is that a formal Fourier expansion is automatically a valid pointwise identity. Equally, one cannot transfer every complex-variable argument to arbitrary real functions simply because both involve integrals.\n\nThere is a second genuine alternative for readers who already know one complex variable and want to continue geometrically: [Jiří Lebl's Tasty Bits of Several Complex Variables](https://www.jirka.org/scv/scv.pdf). Chapter 1 develops the several-variable language, while Chapter 2 studies domains of holomorphy and extension phenomena. This direction asks how the geometry of a domain controls which holomorphic functions exist on it. It does not require finishing an advanced harmonic-analysis course first.\n\nFurther choices include singular integrals and interpolation, oscillatory estimates connected with PDE, analytic function spaces, or several complex variables and complex geometry. Pick a problem that makes the additional machinery useful. A carefully understood convergence theorem or extension example gives a firmer basis for that choice than collecting transform identities.",
+    "references": [
+      {
+        "label": "Complex Analysis Lecture Notes — April 20, 2018",
+        "author": "Dan Romik",
+        "url": "https://www.math.ucdavis.edu/~romik/data/uploads/teaching/math205a-2018/complex-analysis-2018.pdf",
+        "locator": "§§3–8; especially §7 Consequences of Cauchy's theorem, items 55–58 on the differentiated integral formula, Cauchy inequalities and analyticity (pp. 23–25).",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Harmonic Analysis Lecture Notes — May 18, 2017",
+        "author": "Richard S. Laugesen",
+        "url": "https://arxiv.org/pdf/0903.3845",
+        "locator": "Preface and Introduction; Chapters 1–5 Fourier coefficients and summability, especially Theorems 5.3–5.4; Chapters 6–13 maximal functions, convergence, Hilbert transform and interpolation.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Tasty Bits of Several Complex Variables, version 4.4",
+        "author": "Jiří Lebl",
+        "url": "https://www.jirka.org/scv/scv.pdf",
+        "locator": "Chapter 1 Holomorphic Functions in Several Variables; Chapter 2 Convexity and Pseudoconvexity, especially §2.1 Domains of holomorphy & holomorphic extension, Theorem 2.1.4 and its Hartogs extension consequences (pp. 47–53). PDF dated May 31, 2026.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      }
+    ]
+  },
+  "geometry": {
+    "body": "Roll a sheet of paper into a cylinder without stretching it. Distances measured along the sheet are unchanged locally, even though its appearance in three-dimensional space has changed. A sphere behaves differently: flattening a patch onto a plane cannot preserve all lengths. This is an inviting first question in differential geometry: which features belong to the geometry experienced on a surface, and which depend on how that surface sits in another space? [Shifrin's treatment of the first fundamental form and Gauss's theorem](https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf) makes that distinction calculable.\n\nThe route soon extends beyond surfaces. A configuration space for a mechanism, a family of subspaces and a space of positions and momenta may all need local coordinates, without having one convenient global coordinate system. Smooth manifolds make calculus possible in that setting. The aim is to recognize a tangent vector, a differential form or a geometric structure through descriptions that agree when coordinates change. This is why coordinate calculations and abstract definitions should develop together.\n\nStart with **Nigel Hitchin's Differentiable Manifolds**, the [2014 Oxford course notes](https://people.maths.ox.ac.uk/hitchin/files/LectureNotes/Differentiable_manifolds/manifolds2014.pdf). Sections 2–4 develop manifolds, tangent vectors and vector fields; §§5–7 lead through exterior algebra, differential forms and integration. Work with the sphere and torus as recurring examples. An early goal is to describe a tangent vector in two charts and check that the descriptions agree. Later, compute a pullback of a differential form and explain the role of orientation in an integral.\n\nThe preparation is concrete: linear maps and dual spaces, the multivariable chain rule, inverse and implicit function theorems, and basic topology. You should be comfortable distinguishing a local construction from a global statement. If you can construct charts on a sphere and differentiate maps between coordinate patches, skip a general calculus review. If notation for tangent spaces is the main obstacle, return to derivatives as linear maps. Knowing all of algebraic topology in advance is unnecessary; add global invariants when examples give them a purpose.\n\nOne alternative is **Theodore Shifrin's Differential Geometry: A First Course in Curves and Surfaces**. Choose it when you want curvature and geodesics to emerge from explicit calculations before moving to abstract manifolds. Chapter 2 develops surface geometry through fundamental forms, the Gauss map and covariant differentiation. Compare a plane, cylinder and sphere, calculating enough to see which curvature quantities detect bending and which detect intrinsic geometry.\n\nFor readers who already know manifolds and forms, the other alternative is [Ana Cannas da Silva's Lectures on Symplectic Geometry](https://people.math.ethz.ch/~acannas/Papers/lsg.pdf). Begin with Lectures 1–2 on symplectic forms and cotangent bundles. Here the extra structure is a closed, nondegenerate two-form; it does not by itself specify lengths and angles. Lecture 18 connects that structure with Hamiltonian dynamics. Positions and momenta provide a useful running example, especially when coordinate changes make the familiar equations look different.\n\nA common misconception is that symplectic geometry is Riemannian geometry with a different matrix representing the metric. Darboux's theorem, treated in Lecture 8, shows that symplectic forms of a fixed dimension have a common local normal form. Riemannian curvature has no direct counterpart of that kind. The interesting questions therefore organize themselves differently, with global phenomena playing a major role.\n\nChoose the next branch through a question: shortest paths and curvature lead toward Riemannian geometry; Hamiltonian flows and Lagrangian submanifolds toward symplectic geometry; closed forms and integration toward de Rham cohomology. Connections with complex geometry or geometric PDE require additional tools selected for that destination. Before advancing, make sure you can name the structure a map preserves and test that condition in an example.",
+    "references": [
+      {
+        "label": "Differentiable Manifolds — Oxford course C3.3b, 2014",
+        "author": "Nigel Hitchin",
+        "url": "https://people.maths.ox.ac.uk/hitchin/files/LectureNotes/Differentiable_manifolds/manifolds2014.pdf",
+        "locator": "§§2–4 manifolds, tangent/cotangent vectors and vector fields; §§5–7 tensors, differential forms, de Rham cohomology and integration; §9 Riemannian metrics. Full PDF linked from the author's Oxford homepage.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Differential Geometry: A First Course in Curves and Surfaces — April 2021",
+        "author": "Theodore Shifrin",
+        "url": "https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf",
+        "locator": "Chapter 2 §§1–4, especially §3 Theorem 3.1 (Gauss's Theorema Egregium, printed p. 60); Chapter 3 §1 Holonomy and the Gauss-Bonnet Theorem.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Lectures on Symplectic Geometry — revised January 2006",
+        "author": "Ana Cannas da Silva",
+        "url": "https://people.math.ethz.ch/~acannas/Papers/lsg.pdf",
+        "locator": "Lectures 1–2 Symplectic Forms and Symplectic Form on the Cotangent Bundle; §8.1 Theorem 8.1 (Darboux); Lecture 18 Hamiltonian Vector Fields, especially §§18.1–18.2.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      }
+    ]
+  },
+  "topology": {
+    "body": "Can a loop drawn around the middle of an annulus be shrunk to a point without leaving the annulus? A similar loop in a disc can be shrunk. The missing region matters, but a picture is only the beginning of an argument. Algebraic topology turns families of paths and their deformations into algebraic objects that can prove such distinctions. Winding around a circle produces an integer; composing loops becomes an algebraic operation.\n\nThere are two levels of comparison to keep apart. A homeomorphism identifies spaces through continuous inverse maps. A homotopy equivalence preserves a looser kind of information: an annulus can retract onto a circle, even though the two are not homeomorphic. This flexibility is productive. A complicated space may have a simpler model on which calculations are possible. The challenge is to know what information survives the simplification and what the intended question actually asks.\n\nStart with **Allen Hatcher's Algebraic Topology**, freely available as a [complete author-hosted book](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf). Read the opening discussion of homotopy and cell complexes in Chapter 0, then §1.1 on the fundamental group. The calculation for the circle, Theorem 1.7, is a first milestone worth reconstructing carefully. Draw the covering map from the real line to the circle and explain why the endpoint of a lifted loop records its winding number.\n\nThe preparation is point-set topology and elementary algebra. You need continuity, compactness, products and quotient spaces, alongside groups, homomorphisms and normal subgroups. Test your readiness by constructing a torus as a quotient of a square and explaining how a map defined on the square descends to that quotient. If the quotient topology is usable and group presentations are familiar, begin the algebraic route directly. If either is new, repair that specific gap before treating a diagram as a proof.\n\nFor a slower entry focused on spaces, choose [Hatcher's Notes on Introductory Point-Set Topology](https://pi.math.cornell.edu/~hatcher/Top/TopNotes.pdf). Chapters 1–3 develop continuity, connectedness and compactness; Chapter 4 constructs quotient spaces and surfaces. This is a genuine alternative starting point when the space constructions are the difficulty. Work through the identified edges of a polygon until you can explain the topology near an edge or a vertex, rather than only recognize the resulting surface.\n\nFor readers who already have examples and want a compact path toward homotopy theory, choose [J. Peter May's A Concise Course in Algebraic Topology](https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf). Its early chapters connect fundamental groups, categorical language and covering spaces. Chapters 6–11 develop cofibrations, fibrations, higher homotopy groups and CW complexes. The pace makes it useful as an alternative for someone comfortable filling in arguments, or as a second account after a first course.\n\nHomology introduces another useful simplification: cycles are compared modulo boundaries. Start with a small cell complex and write its boundary maps before trying to memorize general theorems. May's Chapters 12–14 connect the algebra of chain complexes with cellular homology and exact sequences. Ask what an attaching map contributes to a calculation; counting cells alone does not recover every homology group.\n\nThe familiar slogan that homology counts holes is helpful only until it replaces the definitions. Algebraic invariants can distinguish spaces, but matching invariants do not automatically classify them. Keep this limitation visible when moving from groups to homology and cohomology. The next branches include cohomology products, bundles and characteristic classes, obstruction theory, or stable homotopy. Category theory and homological algebra become valuable through these constructions; higher categorical language is a later choice tied to particular problems, not an entrance requirement.",
+    "references": [
+      {
+        "label": "Algebraic Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "locator": "Chapter 0 Homotopy and Homotopy Type / Cell Complexes; §1.1 Basic Constructions, especially Theorem 1.7 on the fundamental group of the circle (printed p. 29); §1.3 Covering Spaces.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "Notes on Introductory Point-Set Topology",
+        "author": "Allen Hatcher",
+        "url": "https://pi.math.cornell.edu/~hatcher/Top/TopNotes.pdf",
+        "locator": "Chapters 1–3 Basic Point-Set Topology, Connectedness and Compactness; Chapter 4 Quotient Spaces, especially The Quotient Topology (p. 41) and Surfaces (p. 47).",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      },
+      {
+        "label": "A Concise Course in Algebraic Topology",
+        "author": "J. Peter May",
+        "url": "https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf",
+        "locator": "Chapters 1–3 fundamental groups, categorical language and covering spaces; Chapters 6–11 cofibrations, fibrations, higher homotopy groups, CW complexes and suspension; Chapters 12–14 chain complexes and cellular homology; Chapters 23–25 characteristic classes, K-theory and cobordism.",
+        "checked": "2026-10-16",
+        "access": "Free full text"
+      }
+    ]
+  }
+}

@@ -1,3 +1,5 @@
+import {fileURLToPath} from 'node:url';
+import {loadDirectionIntroductions,renderDirectionIntroduction} from './study-content.mjs';
 // Goal-oriented editorial routes reuse existing library subjects and preparation
 // checks. Stages indicate progress within one direction, not a ranking of fields.
 const stage=(title,subjects,note)=>({title,subjects,note});
@@ -65,7 +67,8 @@ export const goalPaths=[
 
 const escape=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const base='/en/resources/library-paths/';
-export function goalPathPages({topics,nodes}) {
+export function goalPathPages({topics,nodes,root=fileURLToPath(new URL('../',import.meta.url))}) {
+ const introductions=loadDirectionIntroductions(root);
  const topicFor=id=>topics.find(t=>t.id===(nodes[id]?.topic||id));
  const label=id=>nodes[id]?.title||topicFor(id)?.title;
  const subjectLink=id=>`<a href="/en/notes/reading-notes/library/${escape(topicFor(id).route)}">${escape(label(id))}</a>`;
@@ -74,7 +77,8 @@ export function goalPathPages({topics,nodes}) {
   for(const s of route.stages)for(const id of s.subjects)if(!nodes[id]||!topicFor(id))throw Error('Missing route subject '+id);
   const sections=route.stages.map((s,i)=>`<section class="route-stage" id="stage-${i+1}"><h2>${i+1}. ${escape(s.title)}</h2><p>${escape(s.note)}</p><ul>${s.subjects.map(id=>`<li>${subjectLink(id)}<details><summary>Preparation &amp; skip guidance</summary><p>${escape(nodes[id].skip)}</p><a href="${base}${id==='sheaves'?'algebraic-geometry.html#sheaves--intro':id+'.html'}">Open the prerequisite review</a></details></li>`).join('')}</ul></section>`).join('');
   const body=`<p><a href="${base}">← All goal-oriented paths</a> · <a href="#stage-1">Start at the foundations</a></p><p class="route-goal">${escape(route.goal)}</p><nav class="route-spine" aria-label="Stages in this route"><ol>${route.stages.map((s,i)=>`<li><a href="#stage-${i+1}">${escape(s.title)}</a></li>`).join('')}</ol></nav><p>Enter at the first unfamiliar stage. Follow a branch that matches your goal, and use the preparation checks only when you need a review.</p>${sections}<p><a href="/en/notes/reading-notes/library.html">Browse the library by subject cards</a> · <a href="/en/notes/reading-notes/library/catalogue.html">Search all resources</a></p>`;
-  pages.set(`resources/library-paths/routes/${route.id}.html`,{title:route.title,body,kind:'article'});
+  const introduction=renderDirectionIntroduction(introductions[route.id],route.id);
+  pages.set(`resources/library-paths/routes/${route.id}.html`,{title:route.title,body:body.replace('<nav class="route-spine"',introduction.html+'<nav class="route-spine"'),contents:introduction.contents,kind:'article'});
  }
  const cards=goalPaths.map(r=>`<article class="goal-card"><h2><a href="${base}routes/${r.id}.html">${escape(r.title)}</a></h2><p>${escape(r.goal)}</p><p class="route-preview">${r.stages.map(s=>escape(s.title)).join(' → ')}</p></article>`).join('');
  const body=`<p>Choose a destination, then follow a connected route from foundations through core study to more advanced branches.</p><p><a href="#goal-routes">Choose a direction</a> · <a href="#subject-reviews">Review a single prerequisite</a> · <a href="/en/notes/reading-notes/library.html">Library cards</a></p><div class="goal-grid" id="goal-routes">${cards}</div><details id="subject-reviews"><summary>Individual subject preparation — all ${topics.length} reviews</summary><p>These are the smaller building blocks used by the routes above, not additional end-to-end paths.</p><ul>${topics.map(t=>`<li><a href="${base}${t.id}.html">${escape(t.title)}</a></li>`).join('')}</ul></details>`;

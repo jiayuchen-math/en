@@ -403,7 +403,17 @@ async function initialize(form) {
     if (event.target === search) inputTimer = setTimeout(() => { readControls(); state.page = 1; commit(); }, 180);
     else { readControls(); state.page = 1; commit(); }
   });
-  form.addEventListener('change', () => { clearTimeout(inputTimer); readControls(); state.page = 1; commit(); });
+  form.addEventListener('change', () => {
+    clearTimeout(inputTimer);
+    const previous = JSON.stringify(state);
+    readControls();
+    // A search field also fires change when it loses focus. If its debounced
+    // results are already current, replacing them here would remove the link
+    // between pointerdown and click and swallow the user's first navigation.
+    if (JSON.stringify(state) === previous) return;
+    state.page = 1;
+    commit();
+  });
   form.addEventListener('reset', event => {
     event.preventDefault(); clearTimeout(inputTimer);
     state.q = ''; state.from = ''; state.to = ''; state.dateType = 'Admission'; state.sort = ''; state.page = 1;

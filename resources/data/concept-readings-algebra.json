@@ -1,0 +1,794 @@
+[
+  {
+    "id": "grothendieck-site",
+    "title": "Grothendieck Site",
+    "chinese": "",
+    "aliases": [
+      "site in algebraic geometry"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "A site specifies which families of maps count as coverings, allowing sheaf methods to work beyond open subsets of a space. Begin with the covering axioms and the Zariski example before moving to sites of schemes.",
+    "prerequisites": [
+      "category",
+      "categorical-pullback",
+      "sheaf"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Sites",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/00VG",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/00VG",
+        "kind": "Online reference",
+        "locator": "Section 7.6, Definition 7.6.2 and Example 7.6.4",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "grothendieck-topos",
+    "title": "Grothendieck Topos",
+    "chinese": "",
+    "aliases": [
+      "Grothendieck topoi"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "A Grothendieck topos collects the sheaves on a site into a geometric setting in its own right. Read the definition together with morphisms of topoi and the punctual example to see how the sheaf category carries more flexible maps than a chosen site presentation.",
+    "prerequisites": [
+      "sheaf",
+      "functor",
+      "adjunction",
+      "categorical-limit"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Topoi",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/00X9",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/00X9",
+        "kind": "Online reference",
+        "locator": "Section 7.15, Definition 7.15.1 and the following discussion of the punctual topos",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "fpqc-descent-quasi-coherent-sheaves",
+    "title": "Fpqc Descent for Quasi-Coherent Sheaves",
+    "chinese": "",
+    "aliases": [
+      "faithfully flat descent for quasi-coherent sheaves"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Faithfully flat coverings let quasi-coherent sheaves be reconstructed from compatible local data. Follow the affine case first, then the passage to an arbitrary fpqc covering, keeping track of both gluing objects and descending their maps.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "flat-module",
+      "tensor-product-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Fpqc descent of quasi-coherent sheaves",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/023R",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/023R",
+        "kind": "Online reference",
+        "locator": "Section 35.5, Lemma 35.5.1 and Proposition 35.5.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "algebraic-space",
+    "title": "Algebraic Space",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Algebraic spaces extend schemes by allowing scheme charts in the étale topology. Use the representable diagonal and the surjective étale chart in the definition as a checklist, then check how schemes fit into the resulting category.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "representable-functor",
+      "categorical-pullback"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Algebraic spaces",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/025X",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/025X",
+        "kind": "Online reference",
+        "locator": "Section 65.6, Definition 65.6.1, Lemma 65.6.2, and Definition 65.6.3",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "algebraic-stack",
+    "title": "Algebraic Stack",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Algebraic stacks describe families of geometric objects while retaining their automorphisms. Start with the three conditions in the definition and identify the separate roles of descent, the diagonal, and a smooth scheme atlas.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "groupoid",
+      "representable-functor"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Algebraic stacks",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/026N",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/026N",
+        "kind": "Online reference",
+        "locator": "Section 94.12, Definition 94.12.1 and the comparison of smooth and étale scheme coverings",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "deligne-mumford-stack",
+    "title": "Deligne–Mumford Stack",
+    "chinese": "",
+    "aliases": [
+      "Deligne-Mumford stack",
+      "DM stack"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "A Deligne–Mumford stack admits a surjective étale atlas by a scheme. Compare its atlas condition with the smooth atlas used for general algebraic stacks, using the discussion of stable curves to orient further reading.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "groupoid",
+      "representable-functor"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Algebraic stacks",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/026N",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/026N",
+        "kind": "Online reference",
+        "locator": "Section 94.12, Definition 94.12.2 and the preceding discussion of Deligne–Mumford and Artin stacks",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "quotient-stack",
+    "title": "Quotient Stack",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "A quotient stack records the orbit data of a group action together with the isomorphisms between representatives. Follow the action groupoid into its stackification and track the natural map from the original space to the quotient.",
+    "prerequisites": [
+      "scheme",
+      "group-action",
+      "groupoid",
+      "sheaf"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Quotient stacks",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/044O",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/044O",
+        "kind": "Online reference",
+        "locator": "Section 78.20, Definition 78.20.1 and Lemma 78.20.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "inertia-stack",
+    "title": "Inertia Stack",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "The inertia stack organizes objects equipped with an automorphism, making stabilizer information visible across a family. Read the construction of relative and absolute inertia, then the criterion describing when inertia contributes no extra objects up to equivalence.",
+    "prerequisites": [
+      "groupoid",
+      "natural-transformation",
+      "sheaf",
+      "scheme"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — The inertia stack",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/036X",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/036X",
+        "kind": "Online reference",
+        "locator": "Section 8.7, opening construction and Lemmas 8.7.1–8.7.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "etale-cohomology",
+    "title": "Étale Cohomology",
+    "chinese": "",
+    "aliases": [
+      "etale cohomology"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Étale cohomology applies sheaf cohomology to coverings by étale morphisms, providing invariants suited to algebraic geometry over general fields. Begin with the topology and its sheaf condition, then use Mayer–Vietoris as a first structural calculation.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "chain-complex-modules",
+      "short-exact-sequence-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — The étale topology",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/03N4",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/03N4",
+        "kind": "Online reference",
+        "locator": "Section 59.4, Definition 59.4.1, the sheaf equalizer condition, and the closing cohomology discussion",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      },
+      {
+        "role": "Reference",
+        "title": "The Stacks Project — Étale cohomology",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/03Q3",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/03Q3",
+        "kind": "Online reference",
+        "locator": "Section 59.50, Lemma 59.50.1 (Mayer–Vietoris for étale cohomology)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "etale-fundamental-group",
+    "title": "Étale Fundamental Group",
+    "chinese": "",
+    "aliases": [
+      "etale fundamental group",
+      "algebraic fundamental group"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "The étale fundamental group encodes finite étale covers through automorphisms of a geometric fibre functor. Read the classification theorem alongside the spectrum-of-a-field example to connect geometric covering theory with Galois theory.",
+    "prerequisites": [
+      "scheme",
+      "galois-extension",
+      "group-action",
+      "functor"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Fundamental groups",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/0BQ8",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/0BQ8",
+        "kind": "Online reference",
+        "locator": "Section 58.6, Definition 58.6.1, Theorem 58.6.2, and Lemma 58.6.3",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "cotangent-complex",
+    "title": "Cotangent Complex",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "The cotangent complex extends the module of differentials by retaining homological information from a resolution. Start with a ring map and its polynomial resolution, then read how the construction localizes on affine charts of a scheme morphism.",
+    "prerequisites": [
+      "scheme",
+      "chain-complex-modules",
+      "tensor-product-modules",
+      "module-ext-group"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — The cotangent complex of a ring map",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/08PL",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/08PL",
+        "kind": "Online reference",
+        "locator": "Section 92.3, Definitions 92.3.1–92.3.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      },
+      {
+        "role": "Reference",
+        "title": "The Stacks Project — The cotangent complex of a morphism of schemes",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/08T1",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/08T1",
+        "kind": "Online reference",
+        "locator": "Section 92.24, Definition 92.24.1 and Lemma 92.24.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "derived-scheme",
+    "title": "Derived Scheme",
+    "chinese": "",
+    "aliases": [
+      "derived schemes"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "A derived scheme equips a space with a structure sheaf of simplicial commutative rings, retaining higher homotopy information beyond an ordinary scheme. Begin with the scheme truncation and quasi-coherence conditions in Definition 2.5, then read the following adjunction to see how ordinary schemes embed and truncation recovers the underlying classical scheme.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "chain-complex-modules",
+      "categorical-pullback"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Derived Algebraic Geometry",
+        "author": "Bertrand Toën",
+        "url": "https://arxiv.org/pdf/1401.1044v2#page=31",
+        "sourceUrl": "https://arxiv.org/abs/1401.1044v2",
+        "kind": "Survey article",
+        "locator": "Section 2.2 (Derived schemes), Definition 2.5 and the following truncation adjunction, printed p. 31 (arXiv:1401.1044v2)",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "formal-completion",
+    "title": "Formal Completion along a Closed Subset",
+    "chinese": "",
+    "aliases": [
+      "formal completion of an algebraic space"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Formal completion isolates the infinitesimal geometry supported on a chosen closed subset. Read its description by a functor of points and compare it with the affine construction from quotients of the coordinate ring.",
+    "prerequisites": [
+      "scheme",
+      "ring-ideal",
+      "representable-functor",
+      "categorical-limit"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Completion along a closed subset",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/0AIX",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/0AIX",
+        "kind": "Online reference",
+        "locator": "Section 87.14, Lemmas 87.14.1–87.14.2 and Definition 87.14.3",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "grothendieck-duality",
+    "title": "Grothendieck Duality",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Grothendieck duality relates derived pushforward to a twisted inverse-image functor and dualizing complexes. Use the stated theory for finite type separated schemes over a Noetherian base to organize the proper-map duality formula and its smooth proper specialization.",
+    "prerequisites": [
+      "scheme",
+      "noetherian-ring",
+      "adjunction",
+      "module-ext-group",
+      "chain-complex-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — A duality theory",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/0AU3",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/0AU3",
+        "kind": "Online reference",
+        "locator": "Section 48.19, numbered assertions (1)–(4) and (9), followed by the discussion of determining upper shriek",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "chow-group",
+    "title": "Chow Group",
+    "chinese": "",
+    "aliases": [
+      "Chow group of algebraic cycles"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Chow groups turn algebraic cycles into invariants by identifying cycles related by rational functions on larger subvarieties. Start with the precise rational-equivalence relation, then use the localization sequence to see how an open subset and its complement contribute.",
+    "prerequisites": [
+      "scheme",
+      "abelian-group",
+      "quotient-module"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Rational equivalence",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/02RV",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/02RV",
+        "kind": "Online reference",
+        "locator": "Section 42.19, Definition 42.19.1 and Lemma 42.19.3",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "intersection-product",
+    "title": "Intersection Product of Algebraic Cycles",
+    "chinese": "",
+    "aliases": [
+      "intersection product"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Intersection products combine cycles with multiplicities that retain local algebraic information. Read the construction for properly intersecting cycles on a nonsingular variety before studying compatibility with rational equivalence in the projective case.",
+    "prerequisites": [
+      "scheme",
+      "noetherian-ring",
+      "tensor-product-modules",
+      "chain-complex-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — Intersection product using Tor formula",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/0B08",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/0B08",
+        "kind": "Online reference",
+        "locator": "Section 43.17, opening definition and Lemma 43.17.1",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      },
+      {
+        "role": "Reference",
+        "title": "The Stacks Project — Intersection products and rational equivalence",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/0B0F",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/0B0F",
+        "kind": "Online reference",
+        "locator": "Section 43.25, Theorem 43.25.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "crystalline-cohomology",
+    "title": "Crystalline Cohomology",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Crystalline cohomology uses divided-power thickenings to study geometry in characteristic p. Begin by identifying the objects of the crystalline site, then follow the affine reduction that turns its cohomology into an algebraic problem.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "ring-ideal",
+      "chain-complex-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "The Stacks Project — The crystalline site",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/07IF",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/07IF",
+        "kind": "Online reference",
+        "locator": "Section 60.9, Definition 60.9.1 and Lemma 60.9.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      },
+      {
+        "role": "Reference",
+        "title": "The Stacks Project — General remarks on cohomology",
+        "author": "The Stacks Project Authors",
+        "url": "https://stacks.math.columbia.edu/tag/07JI",
+        "sourceUrl": "https://stacks.math.columbia.edu/tag/07JI",
+        "kind": "Online reference",
+        "locator": "Section 60.18, Lemmas 60.18.1–60.18.2",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "perfectoid-field",
+    "title": "Perfectoid Field",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Perfectoid fields provide the valued-field setting for tilting. Read the completeness, nondiscreteness, and Frobenius conditions together, then follow the inverse-limit construction of the tilt.",
+    "prerequisites": [
+      "field",
+      "p-adic-number-field",
+      "p-adic-valuation",
+      "categorical-limit"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Perfectoid Spaces",
+        "author": "Peter Scholze",
+        "url": "https://people.mpim-bonn.mpg.de/scholze/PerfectoidSpaces.pdf",
+        "sourceUrl": "https://people.mpim-bonn.mpg.de/scholze/PerfectoidSpaces.pdf",
+        "kind": "Research paper",
+        "locator": "Section 3, Definition 3.1 and Lemma 3.4, printed pp. 15–16",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "perfectoid-space",
+    "title": "Perfectoid Space",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Perfectoid spaces glue affinoid charts built from perfectoid algebras. Start with their local definition and use the preceding affinoid results to understand why these charts support a sheaf.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "p-adic-number-field",
+      "commutative-ring"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Perfectoid Spaces",
+        "author": "Peter Scholze",
+        "url": "https://people.mpim-bonn.mpg.de/scholze/PerfectoidSpaces.pdf",
+        "sourceUrl": "https://people.mpim-bonn.mpg.de/scholze/PerfectoidSpaces.pdf",
+        "kind": "Research paper",
+        "locator": "Section 6, Theorem 6.3 and Definition 6.15, printed pp. 30 and 38",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "tilting-perfectoid-spaces",
+    "title": "Tilting of Perfectoid Spaces",
+    "chinese": "",
+    "aliases": [
+      "perfectoid tilting"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Tilting relates perfectoid spaces over a perfectoid field to spaces over its characteristic-p tilt. Follow the functorial definition and the gluing theorem, noting the identification of underlying topological spaces.",
+    "prerequisites": [
+      "p-adic-number-field",
+      "sheaf",
+      "equivalence-of-categories",
+      "functor"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Perfectoid Spaces",
+        "author": "Peter Scholze",
+        "url": "https://people.mpim-bonn.mpg.de/scholze/PerfectoidSpaces.pdf",
+        "sourceUrl": "https://people.mpim-bonn.mpg.de/scholze/PerfectoidSpaces.pdf",
+        "kind": "Research paper",
+        "locator": "Section 6, Definition 6.16 and Proposition 6.17, printed p. 38",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "prism-p-adic-geometry",
+    "title": "Prism in p-adic Geometry",
+    "chinese": "",
+    "aliases": [
+      "prism in arithmetic geometry"
+    ],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "A prism combines a delta-ring with a Cartier-divisor ideal and a completeness condition. Read the formal definition and its perfect, bounded, and crystalline variants before approaching prismatic cohomology.",
+    "prerequisites": [
+      "commutative-ring",
+      "ring-ideal",
+      "p-adic-integer",
+      "chain-complex-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Prisms and Prismatic Cohomology",
+        "author": "Bhargav Bhatt and Peter Scholze",
+        "url": "https://people.mpim-bonn.mpg.de/scholze/prisms.pdf",
+        "sourceUrl": "https://people.mpim-bonn.mpg.de/scholze/prisms.pdf",
+        "kind": "Research paper",
+        "locator": "Section 3, Definition 3.2 (The category of prisms), printed p. 28",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "prismatic-cohomology",
+    "title": "Prismatic Cohomology",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Prismatic cohomology studies a smooth p-adic formal scheme using a site of prisms over a bounded base prism. Begin with the site and structure sheaf, then read the complex used to formulate Hodge–Tate comparison.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "p-adic-integer",
+      "chain-complex-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Prisms and Prismatic Cohomology",
+        "author": "Bhargav Bhatt and Peter Scholze",
+        "url": "https://people.mpim-bonn.mpg.de/scholze/prisms.pdf",
+        "sourceUrl": "https://people.mpim-bonn.mpg.de/scholze/prisms.pdf",
+        "kind": "Research paper",
+        "locator": "Section 4.1, Definition 4.1 (The prismatic site and its structure sheaf); Section 4.2, Construction 4.9; printed pp. 36 and 39",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "finite-correspondence",
+    "title": "Finite Correspondence",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "summary": "Finite correspondences enlarge the maps between smooth schemes to include suitable algebraic cycles in their products. Read the graph example and the composition construction as preparation for transfers and motives.",
+    "prerequisites": [
+      "scheme",
+      "free-module",
+      "categorical-product"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Lecture Notes on Motivic Cohomology",
+        "author": "Carlo Mazza, Vladimir Voevodsky, and Charles Weibel",
+        "url": "https://www.claymath.org/wp-content/uploads/2022/03/Motivic-Cohomology.pdf",
+        "sourceUrl": "https://www.claymath.org/resource/lecture-notes-on-motivic-cohomology/",
+        "kind": "Book",
+        "locator": "Lecture 1, Definition 1.1, Example 1.2, and Definition 1.5; printed pp. 3–5",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "id": "motivic-cohomology",
+    "title": "Motivic Cohomology",
+    "chinese": "",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Research",
+    "summary": "Motivic cohomology places cycle-theoretic information in groups indexed by cohomological degree and weight. Begin with motivic complexes and their hypercohomology definition, using the book's dependency chart to plan the route toward motives.",
+    "prerequisites": [
+      "scheme",
+      "sheaf",
+      "chain-complex-modules",
+      "tensor-product-modules"
+    ],
+    "references": [
+      {
+        "role": "Start here",
+        "title": "Lecture Notes on Motivic Cohomology",
+        "author": "Carlo Mazza, Vladimir Voevodsky, and Charles Weibel",
+        "url": "https://www.claymath.org/wp-content/uploads/2022/03/Motivic-Cohomology.pdf",
+        "sourceUrl": "https://www.claymath.org/resource/lecture-notes-on-motivic-cohomology/",
+        "kind": "Book",
+        "locator": "Lecture 3, Definition 3.4 and Remark 3.5, printed p. 22; Introduction, Figure 1 (Dependency graph of the lectures), printed p. xiii",
+        "language": "English",
+        "access": "Free full text",
+        "checked": "2026-10-16"
+      }
+    ]
+  }
+]

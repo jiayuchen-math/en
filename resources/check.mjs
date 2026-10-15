@@ -37,6 +37,6 @@ assert(programmes.filter(p=>p.country==='China'&&p.degree==='Postdoctoral').leng
 assert(researchers.length>=1000);assert(researchers.filter(p=>p.email).length>=800);
 assert.equal(new Set(researchers.filter(p=>p.email).map(p=>p.email.toLowerCase())).size,researchers.filter(p=>p.email).length,'Duplicate public email assigned to different people');
 for(const p of researchers.filter(p=>p.email)){assert(/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(p.email));assert(/^https?:\/\//.test(p.emailSource)&&p.emailChecked);assert(!p.email.startsWith('ymsc@'),'Generic institutional inbox incorrectly assigned to an individual')}
-for(const t of old.topics){const h=read('notes/reading-notes/library/'+t.route);assert.equal([...h.matchAll(/<!-- subject-guide:start -->/g)].length,1);assert(h.includes('Branches to choose from')&&h.includes('How to continue'))}
+for(const t of old.topics){const h=read('notes/reading-notes/library/'+t.route);assert.equal([...h.matchAll(/<!-- subject-guide:start -->/g)].length,1);assert(h.includes('What to work on')&&h.includes('Try these before moving on'));assert(h.includes('A starting text')&&h.includes('Practice'))}
 const rh=read('resources/study-careers/researchers.html');assert(rh.includes('filter-institution')&&rh.includes('mailto:')&&rh.includes('Email source'));
 console.log('Subject depth, guide coverage, US bachelor / mainland-China routes and public email provenance passed');

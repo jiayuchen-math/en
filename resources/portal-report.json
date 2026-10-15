@@ -40,16 +40,16 @@
     {
       "id": "encyclopedia",
       "url": "/en/resources/encyclopedia/index.html",
-      "records": 150,
-      "pages": 6,
-      "firstPageBytes": 19912
+      "records": 210,
+      "pages": 9,
+      "firstPageBytes": 20562
     },
     {
       "id": "terminology",
       "url": "/en/resources/terminology/index.html",
       "records": 513,
       "pages": 21,
-      "firstPageBytes": 19067
+      "firstPageBytes": 19137
     }
   ],
   "protected": [
@@ -768,6 +768,13 @@
       "f0e77e6c9e632f3b3b2c9e1800013fb805d99b663dc4d519bdfab0d4ff1503a6"
     ]
   ],
+  "contentBreakdown": {
+    "originalArticles": 150,
+    "externalReadingGuides": 60,
+    "terminologySenses": 513,
+    "directionIntroductions": 12,
+    "subjectStudyGuides": 29
+  },
   "supplementaryDirectories": [
     {
       "id": "exposition",
@@ -784,7 +791,7 @@
       "firstPageBytes": 47603
     }
   ],
-  "indexBytes": 1439924,
+  "indexBytes": 1467154,
   "searchCollections": [
     {
       "id": "library",
@@ -804,7 +811,7 @@
     },
     {
       "id": "encyclopedia",
-      "records": 150
+      "records": 210
     },
     {
       "id": "terminology",
@@ -819,7 +826,7 @@
       "records": 82
     }
   ],
-  "directoryIndexBytes": 4074552,
+  "directoryIndexBytes": 4165786,
   "limits": {
     "firstPageHTML": 358400,
     "searchIndex": 2097152
