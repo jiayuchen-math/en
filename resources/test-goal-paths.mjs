@@ -42,4 +42,12 @@ assert(cards.includes('library-browse.css'));
 for(const area of ['foundations','algebra','analysis','geometry-topology','number-theory','discrete-mathematics','probability-dynamics'])
  assert(read('notes/reading-notes/library/'+area+'.html').includes('library-browse.css'));
 assert.equal(JSON.parse(read('resources/portal-report.json')).counts.library,576);
+const hub=read('resources/index.html');
+assert(hub.includes('<ul class="subject-links">'));
+assert.equal((hub.match(/<li><a href="\/en\/resources\/search\/\?area=/g)||[]).length,9);
+assert(hub.includes('entrances.css'));
+const reading=read('notes/reading-notes/reading-notes.html');
+assert(reading.includes('No reading notes have been published yet.'));
+assert(!/<a\b[^>]*href="#"/.test(reading));
+assert(reading.includes('entrances.css'));
 console.log(JSON.stringify({passed:true,goalRoutes:12,prerequisiteReviews:topics.length,libraryViews:['searchable list','subject cards'],resources:576}));

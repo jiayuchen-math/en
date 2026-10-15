@@ -1,0 +1,7 @@
+.subject-links { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; list-style:none; padding:0; margin:18px 0; }
+.subject-links li { margin:0; min-width:0; }
+.subject-links a { display:block; height:100%; padding:12px 16px; border:1px solid var(--line); border-radius:6px; background:var(--soft); overflow-wrap:anywhere; }
+.reading-empty { padding:18px 22px; border:1px solid var(--line); border-radius:6px; background:var(--soft); margin:24px 0; }
+.reading-empty h2 { margin:0 0 8px; font-size:22px; }
+.reading-empty p { margin:0; color:var(--muted); }
+@media(min-width:768px) { .subject-links { grid-template-columns:repeat(3,minmax(0,1fr)); } }
