@@ -73,7 +73,8 @@ async function check(label, fn) {
 }
 function walk(dir = '') {
   return fs.readdirSync(path.join(root, dir), {withFileTypes:true}).flatMap(e => {
-    if (['.git', 'node_modules'].includes(e.name)) return [];
+    // Deployment copies are outputs, not additional authored source/media.
+    if (['.git', 'node_modules', '_site'].includes(e.name)) return [];
     const file = path.posix.join(dir, e.name);
     return e.isDirectory() ? walk(file) : e.isFile() ? [file] : [];
   });

@@ -12,7 +12,7 @@ Currently learning:
 - Topology
 - Commutative Algebra
 
-🌐 [English personal website](https://jiayuchen-math.github.io/en/)
+🌐 [English personal website](https://jiayuchen-math.github.io/)
 🌐 [Chinese personal website](https://jiayuchen-math.github.io/zh/)
 
 📧 jiayuchen4@link.cuhk.edu.cn
