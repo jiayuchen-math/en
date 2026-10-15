@@ -9,6 +9,7 @@ import {backgroundForm} from './data/background-form.mjs';
 import {protectedBytes} from './protected-bytes.mjs';
 import {goalPathPages} from './goal-paths.mjs';
 import {nodes as pathNodes} from './data/learning-paths.mjs';
+import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -84,7 +85,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   const advancedTiming=timing.replace(/<label for="filter-applicationStatus">[\s\S]*?<\/label>/,'');
   return {filters:filterList.map(([field,label])=>({field,label,values:field==='applicationStatus'?statusOptions:valuesFor(field)})),html:`<label for="search-q" class="catalogue-search"><span>Search this directory</span><input type="search" name="q" id="search-q" autocomplete="off"></label><div class="portal-filters">${primary}</div>${more.length||timing?`<details class="more-filters"><summary>More filters</summary><div class="portal-filters">${more.map(filterHTML).join('')}</div>${advancedTiming}</details>`:''}<button type="reset">Clear filters</button>`};
  }
- function summaryHTML(r,details){const target=r.url||r.readingUrl;return `<article class="portal-entry" id="${E(r.id)}"><h2>${link(target,r.title)}${r.chinese?` <span lang="zh-Hans">${E(r.chinese)}</span>`:''}</h2>${r.subtitle?`<p class="entry-meta">${E(r.subtitle)}</p>`:''}${r.meta?`<p class="entry-meta">${E(r.meta)}</p>`:''}<p class="entry-summary">${E(r.summary)}</p><div class="entry-actions">${r.readingUrl?link(r.readingUrl,r.email?'Official profile':'Read / official page'):''}${r.email?' · '+link('mailto:'+r.email,'Email'):''}${r.termUrl?' · '+link(r.termUrl,'Terminology'):''}${r.encyclopediaUrl?' · '+link(r.encyclopediaUrl,'Encyclopedia'):''}</div>${details?`<details data-entry-details="${E(r.id)}"><summary>Details and sources</summary><div class="entry-detail">${details.replace(new RegExp(` id="${r.id}"`),'')}</div></details>`:''}</article>`}
+ function summaryHTML(r,details){const target=titleDestination(r),actions=entryActions(r);return `<article class="portal-entry" id="${E(r.id)}"><h2>${link(target,r.title)}${r.chinese?` <span lang="zh-Hans">${E(r.chinese)}</span>`:''}</h2>${r.subtitle?`<p class="entry-meta">${E(r.subtitle)}</p>`:''}${r.meta?`<p class="entry-meta">${E(r.meta)}</p>`:''}<p class="entry-summary">${E(r.summary)}</p>${r.inlineInfo?`<p class="entry-meta">${E(r.inlineInfo)}</p>`:''}${actions.length?`<div class="entry-actions">${actions.map(a=>link(a.url,a.label)).join(' ')}</div>`:''}${details&&showsDetails(r)?`<details data-entry-details="${E(r.id)}"><summary>Details and sources</summary><div class="entry-detail">${details.replace(new RegExp(` id="${r.id}"`),'')}</div></details>`:''}</article>`}
  const directoryFiles=new Set();
  function directory({id,title,file,rows,filterList,render,defaults={},intro='',applications=false,collection=true}){
   directoryFiles.add(file);const summaries=compactFilters(rows,filterList,defaults,applications);
@@ -96,15 +97,30 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
    return html;
   });
   const chunkSize=25;
-  rows.forEach((r,i)=>{r.detail=render?`/en/resources/catalogue-data/${id}/details-${Math.floor(i/chunkSize)+1}.json`:undefined;r.url=r.url||href(pageFile(file,Math.floor(i/25)+1,Boolean(defaults.readingAccess)))+'#'+r.id});
+  rows.forEach((r,i)=>{
+   r.detail=render?`/en/resources/catalogue-data/${id}/details-${Math.floor(i/chunkSize)+1}.json`:undefined;
+   r.hasDetails=Boolean(text(full[i]||''));
+   if(id==='library'){
+    const original=books[i];r.readingUrl=original.readUrl||original.url;
+    r.readingLabel=original.readUrl?'Read full text':original.readingAccess==='Free to read'?(/\.pdf(?:[?#]|$)/i.test(r.readingUrl)?'Read PDF':'Read online'):'Access page';
+    r.sourceUrl=original.readUrl?original.accessSource||original.url:original.source;
+   } else if(id==='links'){
+    const original=links[i];r.readingLabel='Visit website';r.sourceUrl=original.source;
+    r.inlineInfo=`Use / preparation: ${original.use||''} · Checked ${original.checked||'Not recorded'}`;
+    r.hasDetails=false; // All additional link metadata is visible, not a second copy of this card.
+   } else if(id==='programs')r.readingLabel='Program website';
+   else if(id==='researchers')r.readingLabel='Official profile';
+   r.url=r.url||href(pageFile(file,Math.floor(i/25)+1,Boolean(defaults.readingAccess)))+'#'+r.id;
+  });
   for(let start=0;start<rows.length;start+=chunkSize)if(render)save(`resources/catalogue-data/${id}/details-${start/chunkSize+1}.json`,JSON.stringify(Object.fromEntries(rows.slice(start,start+chunkSize).map((r,j)=>[r.id,full[start+j]]))));
   save(`resources/catalogue-data/${id}/index.json`,JSON.stringify({records:rows,filters:summaries.filters,defaults}));
+  const indexVersion=digest(read(`resources/catalogue-data/${id}/index.json`)).slice(0,12);
   const isFree=r=>!defaults.readingAccess||r.fields.readingAccess===defaults.readingAccess;
   function staticSeries(all){const shown=all?rows:rows.filter(isFree),pages=Math.max(1,Math.ceil(shown.length/25));for(let n=1;n<=pages;n++){
    const name=pageFile(file,n,all),current=shown.slice((n-1)*25,n*25);
    const nav=`<nav class="static-pagination" id="portal-pagination" aria-label="Results pages">${n>1?link(href(pageFile(file,n-1,all)),'Previous'):'<span>Previous</span>'}<span>Page ${n} of ${pages}</span>${n<pages?link(href(pageFile(file,n+1,all)),'Next'):'<span>Next</span>'}</nav>`;
    const compat=n===1&&!all&&render?`<noscript><details class="legacy-bookmarks"><summary>All entry links / older bookmarks</summary>${rows.filter(r=>!current.includes(r)).map(r=>`<a id="${E(r.id)}" href="${E(r.url)}">${E(r.title)}</a>`).join(' ')}</details></noscript>`:'';
-   const filters=`<form class="controls" data-portal-catalogue data-index="/en/resources/catalogue-data/${id}/index.json" data-base="${href(file)}" data-defaults="${E(JSON.stringify(all?{}:defaults))}" data-current-page="${n}" hidden>${all?summaries.html.replaceAll(' selected',''):summaries.html}</form><div id="active-filters" class="chips" aria-label="Selected filters"></div>`;
+   const filters=`<form class="controls" data-portal-catalogue data-index="/en/resources/catalogue-data/${id}/index.json?v=${indexVersion}" data-base="${href(file)}" data-defaults="${E(JSON.stringify(all?{}:defaults))}" data-current-page="${n}" hidden>${all?summaries.html.replaceAll(' selected',''):summaries.html}</form><div id="active-filters" class="chips" aria-label="Selected filters"></div>`;
    const body=`${intro}${filters}<p id="result-count" class="meta" role="status" tabindex="-1" aria-live="polite">${shown.length} results · page ${n} of ${pages}</p><noscript><p>Browse every entry using the page links.${defaults.readingAccess?' '+link(href(pageFile(file,1,true)),'Browse all access types')+'.':''}</p></noscript><p id="no-results" hidden>No matching entries. Clear filters or try another keyword.</p><div id="portal-results" class="results">${current.map(r=>summaryHTML(r,full[rows.indexOf(r)])).join('')}</div>${nav}${compat}`;
    addPage(name,title,body,'directory',{scripts:['/en/resources/assets/portal-catalogue.js']});
    if(n===1&&!all){const target=collection?report.directories:(report.supplementaryDirectories||=[]);target.push({id,url:href(file),records:rows.length,pages,firstPageBytes:Buffer.byteLength(read(name))})}

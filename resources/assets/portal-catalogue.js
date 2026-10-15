@@ -1,4 +1,5 @@
 import {applicationState} from './application-time.js';
+import {titleDestination,entryActions,showsDetails} from './entry-presentation.js';
 import {
   PAGE_SIZE, DATE_PARAMETERS, pageNumber, fieldNames, readState, stateURL,
   applicationData, assessRecords, matchingRecords,
@@ -202,7 +203,7 @@ async function initialize(form) {
     const article = element('article', null, 'portal-entry');
     article.id = String(row.id);
     const heading = element('h2');
-    heading.append(link(row.url, row.title || row.id));
+    heading.append(link(titleDestination(row), row.title || row.id));
     if (row.chinese) {
       const chinese = element('span', row.chinese);
       chinese.lang = 'zh-Hans';
@@ -217,18 +218,12 @@ async function initialize(form) {
       const line = element('p', null, 'entry-meta'); line.append(badge); article.append(line);
     }
     article.append(element('p', row.summary || '', 'entry-summary'));
+    if (row.inlineInfo) article.append(element('p', row.inlineInfo, 'entry-meta'));
     appendAssessment(article, row);
     const actions = element('div', null, 'entry-actions');
-    const addAction = (url, label) => {
-      if (actions.childNodes.length) actions.append(document.createTextNode(' · '));
-      actions.append(link(url, label));
-    };
-    if (row.readingUrl) addAction(row.readingUrl, row.email ? 'Official profile' : 'Read / official page');
-    if (row.email) addAction(`mailto:${row.email}`, 'Email');
-    if (row.termUrl) addAction(row.termUrl, 'Terminology');
-    if (row.encyclopediaUrl) addAction(row.encyclopediaUrl, 'Encyclopedia');
-    article.append(actions);
-    if (row.detail) {
+    for (const action of entryActions(row)) actions.append(link(action.url, action.label));
+    if (actions.childNodes.length) article.append(actions);
+    if (showsDetails(row)) {
       const details = element('details');
       details.dataset.entryDetails = String(row.id);
       const summary = element('summary', 'Details and sources');
@@ -281,6 +276,7 @@ async function initialize(form) {
         html = payload[row.id];
         loadedDetails.set(String(row.id), html);
       }
+      if (!html.trim()) throw new Error('Empty entry');
       const template = document.createElement('template');
       template.innerHTML = html;
       // Defense in depth for same-origin generated HTML. Never execute scripts,

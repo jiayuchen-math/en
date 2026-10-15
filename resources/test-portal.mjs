@@ -19,6 +19,7 @@ import * as search from './assets/search-core.js';
 import * as catalogueCore from './assets/portal-catalogue-core.js';
 import {backgroundForm} from './data/background-form.mjs';
 import {protectedBytes,windowsSourceBlobs} from './protected-bytes.mjs';
+import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
@@ -455,12 +456,24 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
         sameSet(cards.map(card => card.attrs.id),expected.map(r => r.id),name+' static row IDs');
         for (const card of cards) {
           const id = card.attrs.id; seen.push(id);
+          const cardRecord=records.find(row=>row.id===id);
+          const titleLink=card.body.match(/<h2>\s*(<a\b[^>]*>)/)?.[1];
+          assert(titleLink,name+'/'+id+' title link');
+          assert.equal(attrs(titleLink).href,titleDestination(cardRecord),name+'/'+id+' direct title destination');
+          assert(!card.body.includes('Read / official page'),name+'/'+id+' ambiguous action');
           assert(!/\bhidden(?:\s|=|>)/.test(card.opening),name+' hidden static row');
           if (collection === 'programs') hasText(card.body,records.find(row => row.id === id).meta,name+'/'+id+' static admission metadata');
           if (!['encyclopedia','terminology'].includes(collection)) {
-            assert(/<details\b[^>]*data-entry-details=/.test(card.body),name+'/'+id+' no-JS details');
             const r = records.find(row => row.id === id), detail = fullDetail(r,collection);
-            assert(plain(card.body).includes(plain(detail)),name+'/'+id+' incomplete static full detail text');
+            if(r.hasDetails===false){
+              assert(!/<details\b[^>]*data-entry-details=/.test(card.body),name+'/'+id+' unnecessary disclosure');
+              assert.equal(collection,'links');
+              const original=source.links.find(e=>e.title===r.title);
+              for(const field of ['title','author','category','area','language','note','use','checked'])hasText(card.body,original[field],name+'/'+id+'/'+field);
+            }else{
+              assert(/<details\b[^>]*data-entry-details=/.test(card.body),name+'/'+id+' no-JS details');
+              assert(plain(card.body).includes(plain(detail)),name+'/'+id+' incomplete static full detail text');
+            }
             sourceLinks(card.body,linksIn(detail),name+'/'+id+' static detail links');
           }
         }
@@ -594,5 +607,19 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
     assert(search.searchEntries(docs,{q:'etale',type:'library'}).some(e => /Étale/.test(e.title)),'Actual accent-insensitive library search');
   });
 }
+await check('shared entry navigation and meaningful details',()=>{
+ const kerodon=json('resources/catalogue-data/links/index.json').records.find(r=>r.title==='Kerodon');
+ assert.equal(titleDestination(kerodon),'https://kerodon.net/');
+ assert.equal(showsDetails(kerodon),false);
+ assert.equal(entryActions(kerodon).length,1,'Identical read/source URLs must not be duplicated');
+ assert(kerodon.inlineInfo.includes('Checked'));
+ assert.equal(showsDetails({}),false);
+ assert.equal(showsDetails({detail:'/some.json',hasDetails:false}),false);
+ assert.equal(showsDetails({detail:'/some.json',hasDetails:true}),true);
+ const split=entryActions({readingUrl:'https://example.org/book.pdf',readingLabel:'Read PDF',sourceUrl:'https://example.org/book/'});
+ assert.deepEqual(split.map(a=>a.label),['Read PDF','Official source']);
+ const books=json('resources/catalogue-data/library/index.json').records;
+ for(const book of books){const original=works.find(w=>w.url.replace(/\/$/,'')===book.readingUrl.replace(/\/$/,'')||w.readUrl===book.readingUrl);assert(original,'Real source URL for '+book.id);assert.equal(titleDestination(book),original.readUrl||original.url);}
+});
 console.log(JSON.stringify({passed:passed.length, failures, mode:options.has('--baseline') ? 'baseline' : options.has('--business-only') ? 'business-only' : 'portal', counts}));
 if (failures.length) process.exitCode = 1;
