@@ -2,6 +2,11 @@ name: Knowledge content checks
 on:
   pull_request:
     paths:
+      - 'resources/**'
+      - 'notes/reading-notes/**'
+      - 'notes/mathematical-notes/page.html'
+      - 'notes/mathematical-notes/weekly.html'
+      - 'index.html'
       - 'resources/content/**'
       - 'resources/build.mjs'
       - 'resources/assets/knowledge.css'
@@ -15,6 +20,11 @@ on:
   push:
     branches: [main]
     paths:
+      - 'resources/**'
+      - 'notes/reading-notes/**'
+      - 'notes/mathematical-notes/page.html'
+      - 'notes/mathematical-notes/weekly.html'
+      - 'index.html'
       - 'resources/content/**'
       - 'resources/build.mjs'
       - 'resources/assets/knowledge.css'
@@ -40,11 +50,23 @@ jobs:
           node-version: '24'
           package-manager-cache: false
       - run: npm ci --prefix resources --ignore-scripts --no-audit --no-fund
+      - name: Verify original content and business rules with the legacy renderer
+        run: |
+          node resources/build.mjs --legacy
+          node resources/test-knowledge.mjs --minimum
+          node resources/check.mjs
+          node resources/test-controls.mjs
+          node resources/test-open-library.mjs
+          node resources/test-admissions-audit.mjs
+          node resources/test-country-coverage.mjs
+          node resources/test-editorial-copy.mjs
       - run: node resources/build.mjs
+      - run: node resources/test-portal.mjs
       - name: Generated knowledge pages are committed
         run: |
-          git diff --exit-code -- resources/encyclopedia resources/terminology resources/data/knowledge-index.json resources/knowledge-report.json resources/index.html resources/build-report.json resources/assets/knowledge.css resources/assets/katex
-          test -z "$(git ls-files --others --exclude-standard -- resources/encyclopedia resources/terminology resources/data/knowledge-index.json resources/knowledge-report.json resources/assets/katex)"
-      - run: node resources/test-knowledge.mjs --minimum
-      - run: node resources/check.mjs
-      - run: node resources/test-controls.mjs
+          git diff --exit-code -- resources notes index.html disclaimer.html
+          test -z "$(git ls-files --others --exclude-standard -- resources notes index.html disclaimer.html | grep -v '^resources/node_modules/')"
+      - name: Repeat build is deterministic, including permanent record IDs
+        run: |
+          node resources/build.mjs
+          git diff --exit-code -- resources notes index.html disclaimer.html

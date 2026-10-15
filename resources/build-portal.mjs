@@ -1,0 +1,171 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {createHash} from 'node:crypto';
+import {decodeHTML} from 'entities';
+import {shell} from './ui-shell.mjs';
+import {loadKnowledge,areas} from './build-knowledge.mjs';
+import {cleanPageCopy} from './editorial-copy.mjs';
+import {backgroundForm} from './data/background-form.mjs';
+
+const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
+const brief=(s,n=220)=>String(s||'').length>n?String(s).slice(0,n).replace(/\s+\S*$/,'')+'…':String(s||'');
+const link=(url,label)=>`<a href="${E(url)}"${/^https?:/.test(url)&&!url.startsWith('https://jiayuchen-math.github.io/')?' target="_blank" rel="noopener noreferrer"':''}>${E(label)}</a>`;
+const href=file=>'/en/'+file;
+const pageFile=(file,n,all=false)=>n===1&&!all?file:file.replace(/\.html$/,`${all?'-all':''}-page-${n}.html`);
+const strings=values=>values.filter(Boolean).join(' · ');
+
+// The original catalogue generator edits these entrance documents in place.
+// Give it just their content, not the new navigation it must never edit.
+export function unwrapPortalSources(root){
+ const files=['index.html','notes/reading-notes/reading-notes.html','notes/mathematical-notes/page.html'];
+ const walk=dir=>{for(const e of fs.readdirSync(path.join(root,dir),{withFileTypes:true})){const file=path.posix.join(dir,e.name);if(e.isDirectory())walk(file);else if(e.name.endsWith('.html')&&!/-(?:all-)?page-\d+\.html$/.test(file))files.push(file)}};
+ walk('notes/reading-notes/library');files.push('notes/reading-notes/library.html');
+ for(const file of files){const absolute=path.join(root,file),html=fs.readFileSync(absolute,'utf8'),body=html.match(/<!-- portal-content:start -->([\s\S]*?)<!-- portal-content:end -->/);if(!body)continue;const title=html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]||'Mathematics';fs.writeFileSync(absolute,`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title} · Jiayu Chen</title></head><body><main><header><h1>${title}</h1></header><nav aria-label="Breadcrumb"><a href="/en/">Home</a> · <a href="/en/resources/">Resources</a></nav>${body[1]}<footer>© 2026 Jiayu Chen · <a href="/en/disclaimer.html">Disclaimer</a></footer></main></body></html>`)}
+ const entrance=path.join(root,'notes/reading-notes/library.html');let libraryHTML=fs.readFileSync(entrance,'utf8');
+ if(!libraryHTML.includes('href="/en/resources/index.html">← Mathematics Resources'))fs.writeFileSync(entrance,libraryHTML.replace('</nav>',' · <a href="/en/resources/index.html">← Mathematics Resources</a></nav>'));
+}
+
+export function buildPortal({root,books,links,programs,researchers,merged,researcherFilters,applicationView,renderers}){
+ const read=file=>fs.readFileSync(path.join(root,file),'utf8');
+ const save=(file,value)=>{fs.mkdirSync(path.dirname(path.join(root,file)),{recursive:true});fs.writeFileSync(path.join(root,file),value)};
+ const json=file=>JSON.parse(read(file));
+ const digest=value=>createHash('sha256').update(value).digest('hex');
+ const registryFile='resources/data/stable-ui-ids.json';
+ const registry=fs.existsSync(path.join(root,registryFile))?json(registryFile):{library:{},links:{}};
+ function stable(type,key){if(!registry[type][key])registry[type][key]=`${type==='library'?'work':'link'}-${String(Object.keys(registry[type]).length+1).padStart(4,'0')}`;return registry[type][key]}
+ const knowledge=loadKnowledge(root),articleIds=new Set(knowledge.articles.map(a=>a.id));
+ const topicTitle=id=>merged.topics.find(t=>t.id===id)?.title||id;
+ const protectedFiles=[];
+ function walk(dir){const out=[];const entries=fs.readdirSync(path.join(root,dir),{withFileTypes:true}).sort((a,b)=>a.name<b.name?-1:a.name>b.name?1:0);for(const e of entries){if(['.git','node_modules'].includes(e.name))continue;const file=path.posix.join(dir,e.name);if(e.isDirectory())out.push(...walk(file));else out.push(file)}return out}
+ for(const file of walk('notes'))if(/\.(?:pdf|tex|png|jpe?g|svg|webp)$/i.test(file)||/\/(?:calculus|linear-algebra)\/.*\.html$/.test(file))protectedFiles.push([file,digest(fs.readFileSync(path.join(root,file)))]);
+ const sourceHashes=walk('resources/content/encyclopedia').filter(f=>f.endsWith('.md')).map(f=>[f,digest(read(f))]);
+ const report={version:1,counts:{library:books.length,encyclopedia:knowledge.articles.length,terminology:knowledge.terms.length,links:links.length,programs:programs.length,researchers:researchers.length},directories:[],protected:protectedFiles,knowledgeSources:sourceHashes};
+ const collections=[];
+ function bodyOf(html){
+  const marked=html.match(/<!-- portal-content:start -->([\s\S]*?)<!-- portal-content:end -->/);if(marked)return marked[1];
+  let body=html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1]||html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1]||html;
+  return body.replace(/<header\b[^>]*>[\s\S]*?<\/header>/i,'').replace(/^\s*<nav\b[^>]*>[\s\S]*?<\/nav>/i,'').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/i,'');
+ }
+ function addPage(file,title,body,kind='directory',extra={}){
+  if(extra.scripts)extra.scripts=extra.scripts.map(source=>{
+   if(typeof source!=='string')return source;
+   const src=source.startsWith('/en/resources/assets/')?source+'?v='+digest(read(source.slice(4))).slice(0,12):source;
+   return /\/(?:portal-catalogue|unified-search)\.js$/.test(source)?{src,type:'module'}:src;
+  });
+  if(file.startsWith('resources/library-paths/'))extra.scripts=[...(extra.scripts||[]),'/en/resources/assets/paths.js'];
+  save(file,shell({title,body,url:href(file.replace(/index\.html$/,'')),kind,...extra}));
+ }
+ const fields=(obj,names)=>Object.fromEntries(names.map(n=>[n,String(obj[n]||'')]));
+ const titleSearch=e=>strings([e.title,e.chinese,Array.isArray(e.aliases)?e.aliases.join(' '):e.aliases,e.author,e.institution,e.topics,e.originalTitle]);
+ function row(e,extra){return {id:e.id,title:e.title,subtitle:'',summary:'',meta:'',fields:{},search:titleSearch(e),...extra}}
+ const libraryRows=books.map(e=>row({...e,id:stable('library',e.url.replace(/\/$/,''))},{subtitle:e.author,summary:brief(e.note),meta:strings([e.level,e.readingAccess,e.access]),readingUrl:e.url,fields:fields(e,['topic','level','readingAccess','kind','language','readingMode','access']),search:strings([titleSearch(e),e.topic,e.prerequisites,e.note])}));
+ const linksRows=links.map(e=>row({...e,id:stable('links',e.url)},{subtitle:e.author,summary:brief(e.note),meta:strings([e.category,e.area,e.language]),readingUrl:e.url,fields:fields(e,['category','area','language']),search:strings([titleSearch(e),e.category,e.area,e.note,e.use])}));
+ const programRows=programs.map(e=>{const timing=applicationView(e);return row(e,{subtitle:strings([e.institution,e.country.replaceAll('|',', '),e.degree]),summary:brief(e.note),meta:strings([e.applicationWindow?.deadlineLabel?`Deadline: ${e.applicationWindow.deadlineLabel}`:'Deadline not verified',brief(e.tuition,130),brief(e.fundingDetail,130)]),readingUrl:e.url,fields:{...fields(e,['country','degree','region','programmeForm','intakeYear','orientation','language','fees','funding']),backgroundMatch:'Eligibility not established'},applicationWindow:timing.data,applicationDates:timing.dates,background:{institution:e.institution,country:e.country,degree:e.degree,language:e.language,funding:e.funding,entryLevels:e.entryLevels,eligibilityRule:e.eligibilityRule},search:strings([titleSearch(e),e.country,e.degree,e.orientation,e.preparation,e.note])})});
+ for(const r of programRows){const recorded=r.applicationDates.filter(d=>d.type==='Admission'&&d.date);if(recorded.length&&r.meta.startsWith('Deadline not verified'))r.meta=r.meta.replace('Deadline not verified','Recorded admission: '+recorded.map(d=>d.label||d.date).join('; '));}
+ const researcherRows=researchers.map(e=>{const f=researcherFilters(e);return row({...e,title:e.name},{subtitle:strings([e.institution,e.country]),summary:brief(e.topics.replaceAll('|',', ')),meta:strings([e.role,e.email?'Public email available':'Email not verified']),readingUrl:e.official,email:e.email||'',fields:{...fields(f,['country','institution','area','region','availability','recent','contact','topicStatus']),topic:e.topics},search:strings([e.name,e.institution,e.country,e.topics,e.area,e.aliases||''])})});
+ const conceptFields=e=>({area:areas[e.area].title,topic:topicTitle(e.topic),level:e.level,coverage:articleIds.has(e.id)?'Encyclopedia explanation':'Short definition only',translationStatus:e.translationStatus||''});
+ const articleRows=knowledge.articles.map(e=>row(e,{chinese:e.chinese,aliases:e.aliases,summary:e.summary,meta:strings([areas[e.area].title,e.level]),fields:conceptFields(e),url:`/en/resources/encyclopedia/${e.id}/`,termUrl:`/en/resources/terminology/${e.id}/`,search:strings([titleSearch(e),e.summary,areas[e.area].title,topicTitle(e.topic)])}));
+ const termRows=knowledge.terms.map(e=>row({...e,title:e.english},{chinese:e.chinese,aliases:e.aliases,summary:brief(text(e.definitionEn)),meta:strings([areas[e.area].title,e.level,articleIds.has(e.id)?'':'Short definition only']),fields:conceptFields(e),url:`/en/resources/terminology/${e.id}/`,encyclopediaUrl:articleIds.has(e.id)?`/en/resources/encyclopedia/${e.id}/`:undefined,search:strings([e.english,e.chinese,e.aliases.join(' '),e.definitionEn,e.definitionZh,areas[e.area].title,topicTitle(e.topic)])}));
+ const articleExtract=(file)=>[...read(file).matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)].map(m=>m[0]);
+ function compactFilters(rows,filterList,defaults={},applications=false){
+  const valuesFor=field=>field==='backgroundMatch'?['Potential route — confirmation needed','Documented qualification gap','Documented route mismatch','Eligibility not established']:[...new Set(rows.flatMap(r=>String(r.fields[field]||'').split('|')))].filter(Boolean).sort();
+  const filterHTML=([field,label])=>{const values=valuesFor(field);const initial=values.length>40?values.filter(v=>v===defaults[field]):values;return `<label for="filter-${E(field)}"><span>${E(label)}</span><select id="filter-${E(field)}" name="${E(field)}" data-field="${E(field)}"><option value="">All</option>${initial.map(v=>`<option value="${E(v)}"${defaults[field]===v?' selected':''}>${E(v)}</option>`).join('')}</select></label>`};
+  const timing=applications?`<fieldset><legend>Application time</legend><div class="filters"><label for="filter-applicationStatus"><span>Application status</span><select id="filter-applicationStatus" name="applicationStatus" data-field="applicationStatus"><option value="">All</option>${['Within reviewed window','Upcoming','Closed','Rolling','Deadline day — time unverified','Opening day — time unverified','Dates not verified'].map(v=>`<option>${E(v)}</option>`).join('')}</select></label><label for="date-type"><span>Date type</span><select id="date-type" name="date-type">${['Admission','Scholarship','Test registration','Supporting documents'].map(v=>`<option>${v}</option>`).join('')}</select></label><label for="deadline-from"><span>Deadline from</span><input type="date" name="deadline-from" id="deadline-from"></label><label for="deadline-to"><span>Deadline to</span><input type="date" name="deadline-to" id="deadline-to"></label><label for="deadline-sort"><span>Order</span><select name="deadline-sort" id="deadline-sort"><option value="">Directory order</option><option value="deadline">Earliest known selected deadline</option></select></label></div><p hidden data-date-error role="alert">The end date must not precede the start date.</p></fieldset>`:'';
+  const main=filterList.slice(0,3),more=filterList.slice(3);
+  const statusOptions=['Within reviewed window','Upcoming','Closed','Rolling','Deadline day — time unverified','Opening day — time unverified','Dates not verified'];
+  const primary=main.map(f=>f[0]==='applicationStatus'?`<label for="filter-applicationStatus"><span>Application time</span><select id="filter-applicationStatus" name="applicationStatus" data-field="applicationStatus"><option value="">All</option>${statusOptions.map(v=>`<option>${E(v)}</option>`).join('')}</select></label>`:filterHTML(f)).join('');
+  const advancedTiming=timing.replace(/<label for="filter-applicationStatus">[\s\S]*?<\/label>/,'');
+  return {filters:filterList.map(([field,label])=>({field,label,values:field==='applicationStatus'?statusOptions:valuesFor(field)})),html:`<label for="search-q" class="catalogue-search"><span>Search this directory</span><input type="search" name="q" id="search-q" autocomplete="off"></label><div class="portal-filters">${primary}</div>${more.length||timing?`<details class="more-filters"><summary>More filters</summary><div class="portal-filters">${more.map(filterHTML).join('')}</div>${advancedTiming}</details>`:''}<button type="reset">Clear filters</button>`};
+ }
+ function summaryHTML(r,details){const target=r.url||r.readingUrl;return `<article class="portal-entry" id="${E(r.id)}"><h2>${link(target,r.title)}${r.chinese?` <span lang="zh-Hans">${E(r.chinese)}</span>`:''}</h2>${r.subtitle?`<p class="entry-meta">${E(r.subtitle)}</p>`:''}${r.meta?`<p class="entry-meta">${E(r.meta)}</p>`:''}<p class="entry-summary">${E(r.summary)}</p><div class="entry-actions">${r.readingUrl?link(r.readingUrl,r.email?'Official profile':'Read / official page'):''}${r.email?' · '+link('mailto:'+r.email,'Email'):''}${r.termUrl?' · '+link(r.termUrl,'Terminology'):''}${r.encyclopediaUrl?' · '+link(r.encyclopediaUrl,'Encyclopedia'):''}</div>${details?`<details data-entry-details="${E(r.id)}"><summary>Details and sources</summary><div class="entry-detail">${details.replace(new RegExp(` id="${r.id}"`),'')}</div></details>`:''}</article>`}
+ const directoryFiles=new Set();
+ function directory({id,title,file,rows,filterList,render,defaults={},intro='',applications=false,collection=true}){
+  directoryFiles.add(file);const summaries=compactFilters(rows,filterList,defaults,applications);
+  // Search/filter metadata now lives in the lightweight index, not duplicated
+  // inside every full-text article. All visible facts and source links remain.
+  const full=rows.map((r,i)=>{
+   let html=cleanPageCopy(render?render(i):'',file).replace(/<article\b([^>]*)>/g,(_,attributes)=>'<article'+attributes.replace(/\sdata-[a-z-]+="[^"]*"/g,'')+'>');
+   if(id==='researchers'&&researchers[i].emailSource&&!html.includes(E(researchers[i].emailSource)))html=html.replace('</article>','<p class="meta">'+link(researchers[i].emailSource,'Recorded contact source')+'</p></article>');
+   return html;
+  });
+  const chunkSize=25;
+  rows.forEach((r,i)=>{r.detail=render?`/en/resources/catalogue-data/${id}/details-${Math.floor(i/chunkSize)+1}.json`:undefined;r.url=r.url||href(pageFile(file,Math.floor(i/25)+1,Boolean(defaults.readingAccess)))+'#'+r.id});
+  for(let start=0;start<rows.length;start+=chunkSize)if(render)save(`resources/catalogue-data/${id}/details-${start/chunkSize+1}.json`,JSON.stringify(Object.fromEntries(rows.slice(start,start+chunkSize).map((r,j)=>[r.id,full[start+j]]))));
+  save(`resources/catalogue-data/${id}/index.json`,JSON.stringify({records:rows,filters:summaries.filters,defaults}));
+  const isFree=r=>!defaults.readingAccess||r.fields.readingAccess===defaults.readingAccess;
+  function staticSeries(all){const shown=all?rows:rows.filter(isFree),pages=Math.max(1,Math.ceil(shown.length/25));for(let n=1;n<=pages;n++){
+   const name=pageFile(file,n,all),current=shown.slice((n-1)*25,n*25);
+   const nav=`<nav class="static-pagination" id="portal-pagination" aria-label="Results pages">${n>1?link(href(pageFile(file,n-1,all)),'Previous'):'<span>Previous</span>'}<span>Page ${n} of ${pages}</span>${n<pages?link(href(pageFile(file,n+1,all)),'Next'):'<span>Next</span>'}</nav>`;
+   const compat=n===1&&!all&&render?`<noscript><details class="legacy-bookmarks"><summary>All entry links / older bookmarks</summary>${rows.filter(r=>!current.includes(r)).map(r=>`<a id="${E(r.id)}" href="${E(r.url)}">${E(r.title)}</a>`).join(' ')}</details></noscript>`:'';
+   const filters=`<form class="controls" data-portal-catalogue data-index="/en/resources/catalogue-data/${id}/index.json" data-base="${href(file)}" data-defaults="${E(JSON.stringify(all?{}:defaults))}" data-current-page="${n}" hidden>${all?summaries.html.replaceAll(' selected',''):summaries.html}</form><div id="active-filters" class="chips" aria-label="Selected filters"></div>`;
+   const body=`${intro}${filters}<p id="result-count" class="meta" role="status" tabindex="-1" aria-live="polite">${shown.length} results · page ${n} of ${pages}</p><noscript><p>Browse every entry using the page links.${defaults.readingAccess?' '+link(href(pageFile(file,1,true)),'Browse all access types')+'.':''}</p></noscript><p id="no-results" hidden>No matching entries. Clear filters or try another keyword.</p><div id="portal-results" class="results">${current.map(r=>summaryHTML(r,full[rows.indexOf(r)])).join('')}</div>${nav}${compat}`;
+   addPage(name,title,body,'directory',{scripts:['/en/resources/assets/portal-catalogue.js']});
+   if(n===1&&!all){const target=collection?report.directories:(report.supplementaryDirectories||=[]);target.push({id,url:href(file),records:rows.length,pages,firstPageBytes:Buffer.byteLength(read(name))})}
+  }}
+  staticSeries(false);if(defaults.readingAccess)staticSeries(true);
+  if(collection)collections.push({id,label:title,url:href(file),rows});
+ }
+ directory({id:'library',title:'Mathematics Library',file:'notes/reading-notes/library/catalogue.html',rows:libraryRows,filterList:[['topic','Subject'],['level','Level'],['readingAccess','Access'],['kind','Type'],['language','Language'],['readingMode','Reading purpose'],['access','Link format']],defaults:{readingAccess:'Free to read'},render:i=>renderers.library(books[i]),intro:`<p class="directory-intro">Texts and lecture notes, from first courses to research. Free to read is selected by default. ${link('/en/resources/library-paths/','Reading paths')} · ${link('exposition.html','Essays & popular mathematics')}</p>`});
+ directory({id:'links',title:'Learning & Research Links',file:'resources/links/index.html',rows:linksRows,filterList:[['category','Category'],['area','Area'],['language','Language']],render:i=>renderers.links(links[i])});
+ directory({id:'programs',title:'Study & Careers',file:'resources/study-careers/index.html',rows:programRows,filterList:[['country','Country / territory'],['degree','Degree / opportunity'],['applicationStatus','Application time'],['backgroundMatch','Background match'],['region','Region'],['programmeForm','Programme form'],['intakeYear','Intake year'],['orientation','Focus'],['language','Language'],['fees','Fee information'],['funding','Funding information']],applications:true,render:i=>renderers.programs(programs[i]),intro:`<p class="directory-intro">Mathematics study and research routes. ${link('guides.html','Application guides')} · ${link('fee-status.html','Fee-status rules')}</p>${cleanPageCopy(backgroundForm(E),'resources/study-careers/index.html')}`});
+ directory({id:'researchers',title:'Researcher Directory',file:'resources/study-careers/researchers.html',rows:researcherRows,filterList:[['country','Country / territory'],['topic','Research topic'],['institution','Institution'],['area','Broad area'],['region','Region'],['availability','Student availability'],['recent','Public student records'],['contact','Public email'],['topicStatus','Research-topic evidence']],render:i=>{let html=renderers.researchers(researchers[i]);if(researchers[i].affiliationNote)html=html.replace('</h3>','</h3><p class="meta">'+E(researchers[i].affiliationNote)+'</p>');return html},intro:`<p class="directory-intro">Search current source-linked profiles and published research topics. ${link('guides.html#contact-researchers','Contact guidance')} · ${link('coverage.html','Country coverage')}</p>`});
+ directory({id:'encyclopedia',title:'Mathematics Encyclopedia',file:'resources/encyclopedia/index.html',rows:articleRows,filterList:[['area','Area'],['topic','Subject'],['level','Level']],intro:`<p class="directory-intro">Concepts, examples and connections. ${link('paths.html','Reading routes')} · ${link('contributing.html','Contribute')}</p>`});
+ directory({id:'terminology',title:'Terminology & Translations',file:'resources/terminology/index.html',rows:termRows,filterList:[['area','Area'],['topic','Subject'],['level','Level'],['coverage','Explanation depth'],['translationStatus','Translation evidence']]});
+ const essayRows=libraryRows.filter(r=>r.fields.readingAccess==='Free to read'&&r.fields.readingMode==='Popular / exposition').map(r=>({...r,fields:{...r.fields}}));
+ directory({id:'exposition',title:'Essays & Popular Mathematics',file:'notes/reading-notes/library/exposition.html',rows:essayRows,filterList:[['topic','Subject'],['level','Level'],['language','Language']],collection:false,render:i=>renderers.library(books[libraryRows.findIndex(r=>r.id===essayRows[i].id)])});
+ const coverageFile='resources/study-careers/coverage.html',coverageArticles=articleExtract(coverageFile),coverageData=json('resources/data/researcher-coverage.json').countries;
+ const coverageRows=coverageData.map(c=>row({id:'country-'+c.country.toLowerCase().replace(/[^a-z0-9]+/g,'-'),title:c.country},{summary:c.gap,meta:strings([c.status,`${c.records} indexed profiles`]),fields:fields(c,['region','status']),search:strings([c.country,c.institutionLabels.join(' '),c.status,c.gap])}));
+ directory({id:'coverage',title:'Researcher Directory — Country Coverage',file:coverageFile,rows:coverageRows,filterList:[['region','Region'],['status','Coverage status']],collection:false,render:i=>coverageArticles[i],intro:`<p class="directory-intro">Country counts and gaps in the indexed sample. ${link('researchers.html','Researcher directory')}</p>`});
+ // Preserve every old article, source locator, formula and contribution link.
+ for(const type of ['encyclopedia','terminology'])for(const concept of knowledge[type==='encyclopedia'?'articles':'terms']){
+  const file=`resources/${type}/${concept.id}/index.html`,old=read(file);let body=bodyOf(old);let toc=body.match(/<nav class="contents"[^>]*>[\s\S]*?<\/nav>/)?.[0]||'';
+  if(toc)body=body.replace(toc,'');else{let seq=0;body=body.replace(/<h2(?:\s+id="([^"]+)")?>([\s\S]*?)<\/h2>/g,(_,id,label)=>`<h2 id="${id||'section-'+(++seq)}">${label}</h2>`);toc='<nav class="contents" aria-label="Article contents"><strong>Contents</strong><ul>'+[...body.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join('')+'</ul></nav>'}
+  addPage(file,concept.title||concept.english,body,'article',{toc,head:'<link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">'});
+ }
+ // Shared wrappers for existing resource entrances and guides. Never wrap course note bodies.
+ const passthrough=walk('resources').filter(f=>f.endsWith('.html')&&!directoryFiles.has(f)&&!f.includes('/catalogue-data/')&&!/-(?:all-)?page-\d+\.html$/.test(f)&&!/^resources\/(?:encyclopedia|terminology)\/[^/]+\/index\.html$/.test(f)&&f!=='resources/index.html'&&f!=='resources/search/index.html'&&!f.startsWith('resources/data/'));
+ passthrough.push(...walk('notes/reading-notes').filter(f=>f.endsWith('.html')&&!directoryFiles.has(f)&&!f.endsWith('open-reading.html')&&!/-(?:all-)?page-\d+\.html$/.test(f)),'notes/mathematical-notes/page.html','disclaimer.html');
+ const guideRows=[];
+ for(const file of passthrough){const old=read(file);if(!old.includes('<main'))continue;const title=text(old.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]||old.match(/<title>([\s\S]*?) · Jiayu Chen<\/title>/)?.[1]||'Mathematics');let body=bodyOf(old);const article=file.includes('/library-paths/')||file.endsWith('guides.html')||file.endsWith('fee-status.html')||file.endsWith('contributing.html')||file.endsWith('/paths.html');let toc='';if(article){toc=body.match(/<nav class="contents"[^>]*>[\s\S]*?<\/nav>/)?.[0]||'';if(toc)body=body.replace(toc,'');else toc='<nav class="contents" aria-label="Article contents"><strong>Contents</strong><ul>'+[...body.matchAll(/<h[23][^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/h[23]>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join('')+'</ul></nav>'}addPage(file,title,body,article?'article':'directory',{toc,head:file.includes('/encyclopedia/')?'<link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':''});if(article||file.includes('/library/'))guideRows.push({id:'guide-'+digest(file).slice(0,12),title,url:href(file),summary:brief(text(body)),area:'',type:'guides'})}
+ // The weekly entrance retains every real file and future-week slot, without its old duplicate theme script.
+ const weeklyFile='notes/mathematical-notes/weekly.html',weeklyOld=read(weeklyFile);const weeklyScript=weeklyOld.match(/const courses=[\s\S]*?(?=const root=document.documentElement)/)?.[0]||(fs.existsSync(path.join(root,'resources/assets/weekly-entrance.js'))?read('resources/assets/weekly-entrance.js'):'');
+ if(weeklyScript){save('resources/assets/weekly-entrance.js',weeklyScript);addPage(weeklyFile,'Weekly Notes','<p id="title" class="weekly-course">Weekly Notes</p><p id="subtitle" class="muted">Choose a week</p><p>'+link('page.html','Back to course notes')+'</p><section><h2 id="heading">Available weeks</h2><div class="weeks" id="weeks"></div><p id="empty" hidden>No materials are available for this category yet.</p></section><noscript><p>'+link('/en/notes/mathematical-notes/calculus/MAweek1.html','Calculus — week 1')+' · '+link('/en/notes/mathematical-notes/calculus/MAweek2.html','Calculus — week 2')+' · '+link('/en/notes/mathematical-notes/linear-algebra/LAweek1.html','Linear algebra — week 1')+'</p></noscript>','directory',{scripts:['/en/resources/assets/weekly-entrance.js']})}
+ if(read(weeklyFile).includes('portal-content:start'))save(weeklyFile,read(weeklyFile).replace('<h1>Weekly Notes</h1>','<h1 id="title">Weekly Notes</h1>').replace(/<p id="title" class="weekly-course">[\s\S]*?<\/p>/,''));
+ // Home remains a personal page; repair malformed contact markup without changing its content.
+ const homeOld=read('index.html');let homeBody=bodyOf(homeOld);homeBody=homeBody.replace(/<script\b[^>]*>[\s\S]*?<\/script>/g,'').replace('</p></section> · <a href="https://jiayuchen-math.github.io/mathpi/"',' · <a href="https://jiayuchen-math.github.io/mathpi/"');
+ homeBody=homeBody.replace(/<p class="tagline">[\s\S]*?<\/p>/g,'');
+ addPage('index.html','Jiayu Chen','<p class="tagline">Undergraduate mathematics student</p>'+homeBody,'home');
+ const hubCards=[['Library','/en/notes/reading-notes/library/catalogue.html',`${books.length} books, lecture notes and papers, with clear access information.`],['Encyclopedia','/en/resources/encyclopedia/',`${knowledge.articles.length} concept explanations, examples and connections.`],['Terminology & Translations','/en/resources/terminology/',`${knowledge.terms.length} contextual English–Chinese mathematical senses.`],['Reading Paths','/en/resources/library-paths/','Preparation routes, with room to skip what you already know.'],['Learning & Research Links','/en/resources/links/',`${links.length} courses, archives, communities and tools.`],['Study & Careers','/en/resources/study-careers/','Study routes, researcher profiles and application guides.'],['Course Notes','/en/notes/mathematical-notes/page.html','My undergraduate course notes, organized by week.'],['Reading Notes','/en/notes/reading-notes/reading-notes.html','Personal notes from mathematical reading.']];
+ const searchForm=`<form action="/en/resources/search/" class="hub-search"><label for="hub-q">Search across the collection</label><div><input id="hub-q" name="q" type="search" placeholder="A concept, author, research topic or university"><button>Search</button></div></form>`;
+ addPage('resources/index.html','Mathematics Resources',`<p>Texts, ideas and pathways for learning mathematics.</p>${searchForm}<div class="cards">${hubCards.map(([label,url,description])=>`<section class="card"><h2>${link(url,label)}</h2><p>${E(description)}</p></section>`).join('')}</div><h2>Explore by subject</h2><div class="subject-links">${Object.entries(areas).map(([id,a])=>link('/en/resources/search/?area='+encodeURIComponent(a.title),a.title)).join('')}</div>`);
+ const notes=[];for(const file of walk('notes/mathematical-notes').filter(f=>/\/(?:MAweek\d+|LAweek\d+)\.html$/.test(f))){const html=read(file);notes.push({id:'note-'+digest(file).slice(0,12),type:'notes',title:text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||path.basename(file)),url:href(file),summary:brief(text(html.match(/<body[^>]*>([\s\S]*)<\/body>/)?.[1]||''),180),area:file.includes('calculus')?areas.analysis.title:areas.algebra.title})}
+ const searchCollections=collections.map(c=>({...c,rows:c.rows.map(r=>{const item={id:r.id,type:c.id,title:r.title,url:r.url,summary:brief(r.summary,160),area:r.fields.area||r.fields.topic||'',topics:r.fields.topic||r.fields.area||'',...r.chinese?{chinese:r.chinese}:{},...r.aliases?.length?{aliases:Array.isArray(r.aliases)?r.aliases:[r.aliases]}:{}};if(c.id==='library'||c.id==='links')item.author=r.subtitle;if(c.id==='researchers')item.institution=r.subtitle;if(c.id==='programs')item.institution=programs.find(p=>p.id===r.id)?.institution||r.subtitle;if(r.termUrl)item.termUrl=r.termUrl;if(r.encyclopediaUrl)item.encyclopediaUrl=r.encyclopediaUrl;return item})}));
+ const areaForTopic=topic=>{
+  if(topic.id==='category-theory')return areas['category-theory'].title;
+  if(topic.group==='discrete-mathematics')return areas.combinatorics.title;
+  if(topic.group==='probability-dynamics')return /dynam|ergod/i.test(topic.id)?areas.dynamics.title:areas.probability.title;
+  return areas[topic.group]?.title||'';
+ };
+ for(const collection of searchCollections)for(const r of collection.rows){
+  if(collection.id==='library'){const source=libraryRows.find(b=>b.id===r.id);r.summary=strings([source.fields.readingAccess,source.fields.access])+' — '+brief(source.summary,145);}
+  if(collection.id==='library')r.area=[...new Set(merged.topics.filter(t=>r.topics.split('|').includes(t.title)).map(areaForTopic))].join('|');
+  if(!r.area||!r.area.split('|').every(name=>Object.values(areas).some(a=>name===a.title))){
+   const domain=String(r.area+' '+r.topics+' '+r.summary).toLowerCase();
+   r.area=Object.entries({foundations:/logic|foundation|set theory|computab|model theory/,algebra:/algebra|arithmetic geometry/,analysis:/analy|pde|differential equation|calculus/,'geometry-topology':/geometr|topolog|homotop/,'number-theory':/number theory|arithmetic|automorphic/,probability:/probab|stochast|statisti/,combinatorics:/combina|discrete|graph theory/,dynamics:/dynam|ergod/,'category-theory':/categor|topos/}).filter(([,pattern])=>pattern.test(domain)).map(([id])=>areas[id].title).join('|');
+  }
+ }
+ searchCollections.push({id:'notes',label:'Personal Notes',url:'/en/notes/mathematical-notes/page.html',rows:notes},{id:'guides',label:'Guides & Reading Paths',url:'/en/resources/library-paths/',rows:guideRows});
+ const manifests=[];let indexBytes=0;for(const c of searchCollections){const file=`resources/search/index/${c.id}.json`,data=JSON.stringify(c.rows);save(file,data);indexBytes+=Buffer.byteLength(data);manifests.push({id:c.id,label:c.label,url:c.url,index:href(file)})}
+ const manifest={version:digest(JSON.stringify(searchCollections.map(c=>c.rows))).slice(0,16),collections:manifests};save('resources/search/manifest.json',JSON.stringify(manifest));
+ addPage('resources/search/index.html','Search',`<form id="unified-search" class="controls" role="search"><label for="global-q">Search mathematics resources</label><input id="global-q" name="q" type="search" autocomplete="off" placeholder="English, 中文, an author or a research topic"><div class="portal-filters"><label for="global-type">Content type<select id="global-type" name="type"><option value="">All types</option>${manifests.map(m=>`<option value="${m.id}">${E(m.label)}</option>`).join('')}</select></label><label for="global-area">Subject<select id="global-area" name="area"><option value="">All subjects</option>${Object.values(areas).map(a=>`<option>${E(a.title)}</option>`).join('')}</select></label></div><button type="submit">Search</button> <button type="reset">Clear</button></form><div class="search-chips chips"></div><p id="search-count" role="status" aria-live="polite" tabindex="-1">Search titles, concepts, people and institutions.</p><div id="search-results"></div><nav id="search-pages" class="static-pagination" aria-label="Search result pages"></nav><section class="search-browse"><h2>Browse the collection</h2><ul>${manifests.map(m=>`<li>${link(m.url,m.label)}</li>`).join('')}</ul></section><noscript><p>Use the category links above to browse every entry. Keyword search requires JavaScript.</p></noscript>`,'directory',{scripts:['/en/resources/assets/unified-search.js']});
+ save(registryFile,JSON.stringify(registry,null,2)+'\n');
+ report.indexBytes=indexBytes;report.searchCollections=searchCollections.map(c=>({id:c.id,records:c.rows.length}));
+ report.directoryIndexBytes=report.directories.reduce((n,c)=>n+Buffer.byteLength(read(`resources/catalogue-data/${c.id}/index.json`)),0);
+ report.limits={firstPageHTML:350*1024,searchIndex:2*1024*1024};
+ for(const [file,hash] of protectedFiles)if(digest(fs.readFileSync(path.join(root,file)))!==hash)throw Error('Protected note changed: '+file);
+ for(const d of report.directories)if(d.firstPageBytes>report.limits.firstPageHTML)throw Error(`${d.id} first page exceeds 350KB: ${d.firstPageBytes}`);
+ if(indexBytes>report.limits.searchIndex)throw Error(`Search index exceeds 2MB: ${indexBytes}`);
+ save('resources/portal-report.json',JSON.stringify(report,null,2)+'\n');
+ console.log('Portal UI:',JSON.stringify({counts:report.counts,indexBytes,directories:report.directories}));
+}

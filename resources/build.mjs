@@ -11,6 +11,7 @@ import {cleanPageCopy} from './editorial-copy.mjs';
 import {buildKnowledge} from './build-knowledge.mjs';
 const batchDate='2026-10-12';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const read=p=>fs.readFileSync(path.join(root,p),'utf8');const save=(p,s)=>{fs.mkdirSync(path.dirname(path.join(root,p)),{recursive:true});fs.writeFileSync(path.join(root,p),s)};const json=p=>JSON.parse(read(p));const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const date='2026-10-11';
+if(fs.existsSync(path.join(root,'resources/ui-shell.mjs'))){const {unwrapPortalSources}=await import('./build-portal.mjs');unwrapPortalSources(root)}
 const external=(url,label)=>`<a href="${E(url)}"${/^https?:\/\//.test(url)&&new URL(url).hostname!=='jiayuchen-math.github.io'?' target="_blank" rel="noopener noreferrer"':''}>${E(label)}</a>`;
 const asset=(name,base)=>`${base}${name}?v=${createHash('sha256').update(read('resources/assets/'+name)).digest('hex').slice(0,12)}`;
 const breadcrumbs=title=>`<a href="/en/">Home</a> · <a href="/en/resources/">Resources</a>${title.includes('Library')||title.includes('Learning Path')||title.includes('Reading Room')||title.includes('Popular Mathematics')?' · <a href="/en/notes/reading-notes/library.html">Library</a>':title.includes('Guides')?' · <a href="/en/resources/study-careers/">Study &amp; Careers</a>':''}`;
@@ -140,4 +141,8 @@ function editPageCopy(dir){for(const entry of fs.readdirSync(path.join(root,dir)
  else if(entry.name.endsWith('.html')){const before=read(file),after=cleanPageCopy(before,name);if(after!==before)save(file,after)}
 }}
 editPageCopy('');
+if(!process.argv.includes('--legacy')){
+ const {buildPortal}=await import('./build-portal.mjs');
+ buildPortal({root,books,links,programs,researchers,merged,researcherFilters,applicationView,renderers:{library:literature,links:linkEntry,programs:program,researchers:researcherEntry}});
+}
 console.log(read('resources/build-report.json'));

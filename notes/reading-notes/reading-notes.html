@@ -1,37 +1,33 @@
 <!doctype html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Jiayu Chen · Reading notes">
 <title>Reading Notes · Jiayu Chen</title>
-<style>
-:root{--bg:#fff;--text:#242424;--muted:#6b7280;--link:#1458a6;--line:#e5e7eb;--soft:#f8fafc}
-:root.dark{--bg:#15171a;--text:#e8eaed;--muted:#a6adb8;--link:#8ab4f8;--line:#30343b;--soft:#20242a}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.8 Georgia,"Times New Roman",serif}
-main{width:min(760px,calc(100% - 40px));margin:0 auto;padding:58px 0 80px}
-header{display:flex;justify-content:space-between;gap:24px;margin-bottom:38px}
-h1{margin:0 0 5px;font-size:clamp(28px,5vw,38px);font-weight:600;letter-spacing:-.02em}
-h2{margin:34px 0 9px;font-size:22px;font-weight:600}p{margin:5px 0 12px}.muted{color:var(--muted)}
-a{color:var(--link);text-underline-offset:2px}.back{margin-bottom:25px}
-.entry{display:block;margin:18px 0;padding:14px 16px;border:1px solid var(--line);border-radius:6px;background:var(--soft);text-decoration:none}
-.entry strong{display:block;font-size:18px;color:var(--text)}.entry span{color:var(--muted)}
-button{border:1px solid var(--line);background:transparent;color:var(--text);border-radius:6px;padding:5px 9px;cursor:pointer;font:inherit}
-footer{margin-top:55px;color:var(--muted);font-size:14px}@media(max-width:560px){main{width:min(100% - 28px,760px);padding-top:32px}}
-</style>
-</head>
-<body><main>
-<header><div><h1>Reading Notes</h1><p class="muted">Jiayu Chen · Mathematics</p></div><button id="theme-toggle" type="button">Dark</button></header>
+
+<link rel="stylesheet" href="/en/resources/assets/portal.css?v=bff99be8eec2">
+<script src="/en/resources/assets/theme.js?v=079acff6c8dc"></script>
+<script src="/en/resources/assets/portal.js?v=d13bf6016868" defer></script>
+
+</head><body class="portal portal-directory">
+<a class="skip-link" href="#portal-main">Skip to content</a>
+<header class="portal-topbar"><nav aria-label="Main navigation"><a href="/en/">Home</a><a href="/en/resources/">Resources</a><a href="/en/notes/mathematical-notes/page.html" class="is-active" aria-current="page">Notes</a><a href="/en/resources/search/">Search</a><button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button></nav></header>
+<div class="portal-layout"><aside class="portal-sidebar" aria-label="Resources navigation">
+<details class="portal-navigation" id="portal-navigation" data-portal-nav open>
+<summary>Browse resources</summary>
+<nav aria-label="Resource sections"><ul><li><a href="/en/resources/">Overview</a></li><li><a href="/en/notes/reading-notes/library/catalogue.html">Library</a></li><li><a href="/en/resources/encyclopedia/">Encyclopedia</a></li><li><a href="/en/resources/terminology/">Terminology</a></li><li><a href="/en/resources/library-paths/">Learning paths</a></li><li><a href="/en/resources/links/">Links</a></li>
+<li class="portal-nav-group"><a href="/en/resources/study-careers/">Study &amp; Careers</a><ul><li><a href="/en/resources/study-careers/">Programs</a></li><li><a href="/en/resources/study-careers/researchers.html">Researchers</a></li><li><a href="/en/resources/study-careers/guides.html">Guides</a></li></ul></li>
+</ul></nav></details></aside>
+<main class="portal-main" id="portal-main" tabindex="-1">
+<nav class="portal-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/en/">Home</a></li><li><a href="/en/notes/mathematical-notes/page.html">Notes</a></li><li><span aria-current="page">Reading Notes</span></li></ol></nav>
+<header class="portal-page-header"><h1>Reading Notes</h1></header>
+<div class="portal-content-layout"><div class="portal-body"><!-- portal-content:start -->
+
 <p class="back"><a href="/en/resources/index.html">← Mathematics Resources</a> · <a href="/en/index.html">Home</a></p>
 <p>This section is reserved for my personal notes written while reading mathematics. Notes will be added as they become available.</p>
 <h2>Personal Reading Notes</h2>
 <a class="entry" href="#"><strong>My Reading Notes</strong><span>Coming soon · notes written while reading</span></a>
-<footer>© 2026 Jiayu Chen</footer>
-</main>
-<script>
-const root=document.documentElement,toggle=document.getElementById("theme-toggle"),saved=localStorage.getItem("theme"),prefers=window.matchMedia("(prefers-color-scheme: dark)").matches;
-function setTheme(d){root.classList.toggle("dark",d);toggle.textContent=d?"Light":"Dark"}setTheme(saved?saved==="dark":prefers);
-toggle.addEventListener("click",()=>{const d=!root.classList.contains("dark");setTheme(d);localStorage.setItem("theme",d?"dark":"light")});
-</script>
-</body>
-</html>
+
+<!-- portal-content:end --></div></div>
+<footer class="portal-footer">© Jiayu Chen · <a href="/en/disclaimer.html">Disclaimer</a></footer>
+</main></div>
+</body></html>
