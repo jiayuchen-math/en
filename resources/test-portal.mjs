@@ -18,6 +18,7 @@ import {cleanPageCopy} from './editorial-copy.mjs';
 import * as search from './assets/search-core.js';
 import * as catalogueCore from './assets/portal-catalogue-core.js';
 import {backgroundForm} from './data/background-form.mjs';
+import {protectedBytes,windowsSourceBlobs} from './protected-bytes.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
@@ -77,7 +78,7 @@ function walk(dir = '') {
     return e.isDirectory() ? walk(file) : e.isFile() ? [file] : [];
   });
 }
-function fingerprint(files, value = file => fs.readFileSync(path.join(root, file))) {
+function fingerprint(files, value = file => protectedBytes(fs.readFileSync(path.join(root, file)),file)) {
   return {files:files.length, sha256:sha([...files].sort().map(file => file+'\0'+sha(value(file))).join('\n'))};
 }
 function articleBody(html) {
@@ -196,7 +197,14 @@ function fullDetail(record, collection) {
   return cached(file);
 }
 
-await check('immutable pre-portal content and rendered article bodies', () => assert.deepEqual(protectedSnapshot(), baseline));
+await check('immutable pre-portal content and rendered article bodies', () => {
+  assert.deepEqual(protectedSnapshot(), baseline);
+  for(const [file,expected] of Object.entries(windowsSourceBlobs)){
+    const bytes=Buffer.from(read(file).replaceAll('\r\n','\n'));
+    const blob=createHash('sha1').update(Buffer.concat([Buffer.from('blob '+bytes.length+'\0'),bytes])).digest('hex');
+    assert.equal(blob,expected,'Pre-redesign Git blob identity, ignoring checkout EOL only: '+file);
+  }
+});
 await check('source counts and stable original IDs', () => {
   validateKnowledge(knowledge, catalogue.topics);
   for (const [name, rows] of Object.entries(source)) {
@@ -340,7 +348,7 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
     for (const key of ['protected','knowledgeSources']) {
       assert(Array.isArray(report[key]) && report[key].length, 'Missing report '+key);
       sameSet(report[key].map(e => e[0]), [...new Set(report[key].map(e => e[0]))], key+' paths');
-      for (const [file, digest] of report[key]) assert.equal(sha(fs.readFileSync(path.join(root,file))), digest, 'Report digest '+file);
+      for (const [file, digest] of report[key]) assert.equal(sha(protectedBytes(fs.readFileSync(path.join(root,file)),file)), digest, 'Report digest '+file);
     }
     const expectedNotes = walk('notes').filter(f => /\.(pdf|tex|png|jpe?g|svg|webp)$/i.test(f) || /\/(calculus|linear-algebra)\/.*\.html$/.test(f));
     sameSet(report.protected.map(e => e[0]),expectedNotes,'report protected coverage');

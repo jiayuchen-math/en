@@ -6,6 +6,7 @@ import {shell} from './ui-shell.mjs';
 import {loadKnowledge,areas} from './build-knowledge.mjs';
 import {cleanPageCopy} from './editorial-copy.mjs';
 import {backgroundForm} from './data/background-form.mjs';
+import {protectedBytes} from './protected-bytes.mjs';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -38,7 +39,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  const topicTitle=id=>merged.topics.find(t=>t.id===id)?.title||id;
  const protectedFiles=[];
  function walk(dir){const out=[];const entries=fs.readdirSync(path.join(root,dir),{withFileTypes:true}).sort((a,b)=>a.name<b.name?-1:a.name>b.name?1:0);for(const e of entries){if(['.git','node_modules'].includes(e.name))continue;const file=path.posix.join(dir,e.name);if(e.isDirectory())out.push(...walk(file));else out.push(file)}return out}
- for(const file of walk('notes'))if(/\.(?:pdf|tex|png|jpe?g|svg|webp)$/i.test(file)||/\/(?:calculus|linear-algebra)\/.*\.html$/.test(file))protectedFiles.push([file,digest(fs.readFileSync(path.join(root,file)))]);
+ for(const file of walk('notes'))if(/\.(?:pdf|tex|png|jpe?g|svg|webp)$/i.test(file)||/\/(?:calculus|linear-algebra)\/.*\.html$/.test(file))protectedFiles.push([file,digest(protectedBytes(fs.readFileSync(path.join(root,file)),file))]);
  const sourceHashes=walk('resources/content/encyclopedia').filter(f=>f.endsWith('.md')).map(f=>[f,digest(read(f))]);
  const report={version:1,counts:{library:books.length,encyclopedia:knowledge.articles.length,terminology:knowledge.terms.length,links:links.length,programs:programs.length,researchers:researchers.length},directories:[],protected:protectedFiles,knowledgeSources:sourceHashes};
  const collections=[];
@@ -48,6 +49,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   return body.replace(/<header\b[^>]*>[\s\S]*?<\/header>/i,'').replace(/^\s*<nav\b[^>]*>[\s\S]*?<\/nav>/i,'').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/i,'');
  }
  function addPage(file,title,body,kind='directory',extra={}){
+  if(file==='notes/mathematical-notes/weekly.html')extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/weekly-entrance.css?v='+digest(read('resources/assets/weekly-entrance.css')).slice(0,12)+'">';
   if(extra.scripts)extra.scripts=extra.scripts.map(source=>{
    if(typeof source!=='string')return source;
    const src=source.startsWith('/en/resources/assets/')?source+'?v='+digest(read(source.slice(4))).slice(0,12):source;
@@ -163,7 +165,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  report.indexBytes=indexBytes;report.searchCollections=searchCollections.map(c=>({id:c.id,records:c.rows.length}));
  report.directoryIndexBytes=report.directories.reduce((n,c)=>n+Buffer.byteLength(read(`resources/catalogue-data/${c.id}/index.json`)),0);
  report.limits={firstPageHTML:350*1024,searchIndex:2*1024*1024};
- for(const [file,hash] of protectedFiles)if(digest(fs.readFileSync(path.join(root,file)))!==hash)throw Error('Protected note changed: '+file);
+ for(const [file,hash] of protectedFiles)if(digest(protectedBytes(fs.readFileSync(path.join(root,file)),file))!==hash)throw Error('Protected note changed: '+file);
  for(const d of report.directories)if(d.firstPageBytes>report.limits.firstPageHTML)throw Error(`${d.id} first page exceeds 350KB: ${d.firstPageBytes}`);
  if(indexBytes>report.limits.searchIndex)throw Error(`Search index exceeds 2MB: ${indexBytes}`);
  save('resources/portal-report.json',JSON.stringify(report,null,2)+'\n');

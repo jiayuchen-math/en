@@ -27,6 +27,7 @@ The complete unified-search shards total 1,435,149 uncompressed UTF-8 bytes, bel
 ## Verification performed
 
 - The unchanged legacy test suite was run against the legacy rendering stage: knowledge, source identities, controls, free reading, counts, admissions audit, country coverage and editorial copy.
+- Cloud validation exposed only an LF/CRLF checkout difference in four old calculus source files. Their content was verified against the pre-redesign Git blob IDs. Hashing now canonicalizes those four known text files only, retaining the original independent baselines; no note file was edited.
 - All 16 final portal gates passed, including independent pre-redesign hashes of notes/attachments, all 150 rendered encyclopedia bodies, 150 Markdown sources, nine terminology source files and existing business data. Counts, references, locators, review dates, application milestones and fee-status rules are retained.
 - Browser checks covered 360, 390, 768, 1024 and 1440px, the dark theme, light-theme switching, article contents and mathematics without page-wide overflow. At 390px the first library result begins around 645px rather than below the first screen.
 - Tested keyboard Escape/focus return, real-analysis plus free-access filtering, detail loading, clearing, page-two URLs, Back restoration, and an old researcher bookmark resolving to page 11.

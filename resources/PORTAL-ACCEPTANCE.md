@@ -18,6 +18,8 @@ The embedded baseline was captured before the portal build on October 15, 2026. 
 
 The report's own hashes are checked against actual files and against the independent embedded pre-portal baseline. A report calculated after an accidental content edit cannot establish preservation by itself. Do not replace baseline hashes just to make a changed source pass.
 
+Portability exception: four existing Windows-origin calculus `.md`/`.tex` files have CRLF in the local checkout but LF in Git. `protected-bytes.mjs` canonicalizes only those four paths to CRLF for the unchanged original SHA-256 baselines. The test also independently checks their LF Git blob IDs against the pre-redesign commit. All remaining files, especially PDFs and images, are still hashed as raw bytes. This does not edit note files or accept a content change.
+
 Expected generated contracts:
 
 - `resources/portal-report.json`: `counts`, `directories[{id,url,records,pages,firstPageBytes}]`, `indexBytes`, `directoryIndexBytes`, `protected[[file,sha256]]`, `knowledgeSources[[file,sha256]]`, and `limits`. The six directory IDs are the collection names above.
