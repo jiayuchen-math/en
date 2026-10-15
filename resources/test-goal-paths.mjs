@@ -39,5 +39,7 @@ const cards=read('notes/reading-notes/library.html');
 assert.equal((cards.match(/<a class="card"/g)||[]).length,7);
 assert(cards.includes('library/catalogue.html'));
 assert(cards.includes('library-browse.css'));
+for(const area of ['foundations','algebra','analysis','geometry-topology','number-theory','discrete-mathematics','probability-dynamics'])
+ assert(read('notes/reading-notes/library/'+area+'.html').includes('library-browse.css'));
 assert.equal(JSON.parse(read('resources/portal-report.json')).counts.library,576);
 console.log(JSON.stringify({passed:true,goalRoutes:12,prerequisiteReviews:topics.length,libraryViews:['searchable list','subject cards'],resources:576}));

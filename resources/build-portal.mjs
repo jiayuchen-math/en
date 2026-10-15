@@ -51,7 +51,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   return body.replace(/<header\b[^>]*>[\s\S]*?<\/header>/i,'').replace(/^\s*<nav\b[^>]*>[\s\S]*?<\/nav>/i,'').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/i,'');
  }
  function addPage(file,title,body,kind='directory',extra={}){
-  if(file==='notes/reading-notes/library.html'||file.startsWith('resources/library-paths/'))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/library-browse.css?v='+digest(read('resources/assets/library-browse.css')).slice(0,12)+'">';
+  if(file==='notes/reading-notes/library.html'||/^notes\/reading-notes\/library\/(?:foundations|algebra|analysis|geometry-topology|number-theory|discrete-mathematics|probability-dynamics)\.html$/.test(file)||file.startsWith('resources/library-paths/'))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/library-browse.css?v='+digest(read('resources/assets/library-browse.css')).slice(0,12)+'">';
   if(file==='notes/mathematical-notes/weekly.html')extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/weekly-entrance.css?v='+digest(read('resources/assets/weekly-entrance.css')).slice(0,12)+'">';
   if(extra.scripts)extra.scripts=extra.scripts.map(source=>{
    if(typeof source!=='string')return source;
