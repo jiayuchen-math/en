@@ -48,5 +48,5 @@ A ring homomorphism $R\to S$ induces a continuous map $\operatorname{Spec}S\to\o
 
 ## Connections and further reading
 
-The structure sheaf restores the local algebra that topology loses, including nilpotents. This is the assignment's single algebraic-geometry bridge. Read [Milne, Section 14](https://www.jmilne.org/math/xnotes/CA.pdf), The spectrum of a ring, for the topology and localization correspondence.
+The structure sheaf restores the local algebra that topology loses, including nilpotents. The spectrum is therefore an entry point to affine schemes, not a replacement for their structure sheaves. Read [Milne, Section 14](https://www.jmilne.org/math/xnotes/CA.pdf), The spectrum of a ring, for the topology and localization correspondence.
 

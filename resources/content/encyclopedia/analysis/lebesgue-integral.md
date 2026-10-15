@@ -10,8 +10,8 @@
   "summary": "The Lebesgue integral accumulates measurable values by approximation with simple functions.",
   "prerequisites": [
     "lebesgue-measure",
-    "measurable-function",
-    "simple-measurable-function"
+    "measurable-real-function",
+    "measurable-simple-function"
   ],
   "related": [
     "dominated-convergence-theorem",

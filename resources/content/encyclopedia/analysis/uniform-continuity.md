@@ -12,7 +12,6 @@
     "continuous-function"
   ],
   "related": [
-    "lipschitz-function",
     "uniform-convergence"
   ],
   "references": [

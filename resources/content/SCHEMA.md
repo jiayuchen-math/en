@@ -15,7 +15,7 @@ Metadata:
 
 Required H2 headings: Overview; Prerequisites; Definition and conventions;
 Intuition; Examples and non-examples; Important properties; Connections and further reading.
-Include 350–750 words of substantial original explanation, explicit hypotheses and at least one worked example or counterexample. Research overviews may replace a full technical definition with an explicitly scoped formulation and precise reference. Do not claim peer review or attribute generated articles to the site owner's personal work. Main builder creates Contents, Sources, translation links and contribution controls.
+Include at least 350 words of substantial original explanation, explicit hypotheses and at least one worked example or counterexample. Usually aim for 500–1000 words; a core concept may need more, up to a 2000-word editorial limit. Length should follow the mathematics, not a fixed-size template. Research overviews may replace a full technical definition with an explicitly scoped formulation and precise reference. Do not claim peer review or attribute generated articles to the site owner's personal work. Main builder creates Contents, Sources, translation links and contribution controls.
 
 TeX uses `$...$` inline or `$$` display blocks. KaTeX standard commands only; `\\mathbb`, `\\operatorname`, `\\begin{aligned}` accepted. No `\\label`, `\\ref`, custom macros, HTML, TikZ, or remote scripts. Use ordinary Markdown links for citations; references must have concrete locators. Prerequisites/related IDs may refer to terminology IDs; builder only links existing entries.
 

@@ -217,49 +217,52 @@
   "reviewedWindows": 9,
   "openAtReview": 6,
   "knowledge": {
-    "articles": 100,
-    "terms": 500,
+    "articles": 150,
+    "terms": 513,
+    "uniqueConcepts": 513,
+    "termsWithoutArticle": 363,
+    "readingRoutes": 11,
     "areaCounts": {
       "foundations": {
-        "articles": 10,
+        "articles": 12,
         "terms": 50
       },
       "algebra": {
-        "articles": 14,
-        "terms": 70
+        "articles": 22,
+        "terms": 73
       },
       "analysis": {
-        "articles": 18,
-        "terms": 90
+        "articles": 26,
+        "terms": 92
       },
       "geometry-topology": {
-        "articles": 18,
-        "terms": 90
+        "articles": 26,
+        "terms": 95
       },
       "number-theory": {
-        "articles": 12,
+        "articles": 18,
         "terms": 60
       },
       "probability": {
-        "articles": 8,
-        "terms": 40
+        "articles": 16,
+        "terms": 43
       },
       "combinatorics": {
-        "articles": 8,
+        "articles": 10,
         "terms": 40
       },
       "dynamics": {
-        "articles": 6,
+        "articles": 8,
         "terms": 30
       },
       "category-theory": {
-        "articles": 6,
+        "articles": 12,
         "terms": 30
       }
     },
     "levels": {
-      "Undergraduate": 60,
-      "Graduate": 30,
+      "Undergraduate": 81,
+      "Graduate": 59,
       "Research": 10
     },
     "reviewDate": "2026-10-15"

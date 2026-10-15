@@ -9,8 +9,7 @@
   "level": "Undergraduate",
   "summary": "Lebesgue measure extends Euclidean volume to a complete measure on a sigma-algebra of measurable sets.",
   "prerequisites": [
-    "measure-sigma-algebra",
-    "outer-measure"
+    "lebesgue-outer-measure"
   ],
   "related": [
     "lebesgue-integral",

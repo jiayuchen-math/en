@@ -9,8 +9,7 @@
   "level": "Graduate",
   "summary": "An Lp space consists of measurable functions modulo almost-everywhere equality with finite p-integrability.",
   "prerequisites": [
-    "lebesgue-integral",
-    "holder-integral-inequality"
+    "lebesgue-integral"
   ],
   "related": [
     "banach-space",

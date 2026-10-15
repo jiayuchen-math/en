@@ -3082,5 +3082,174 @@
     "contributors": [
       "Mathematics Resources editorial compilation (AI-assisted)"
     ]
+  },
+  {
+    "id": "riemann-curvature-tensor",
+    "english": "Riemann curvature tensor",
+    "chinese": "曲率张量",
+    "aliases": [
+      "Riemannian curvature tensor"
+    ],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "For a smooth Riemannian metric with Levi–Civita connection, the tensor R(X,Y)Z = ∇X∇Y Z − ∇Y∇X Z − ∇[X,Y]Z; pairing its output with the metric gives its covariant four-tensor form.",
+    "definitionZh": "光滑黎曼流形的 Levi-Civita 联络所定义的张量 $R(X,Y)Z=\\nabla_X\\nabla_YZ-\\nabla_Y\\nabla_XZ-\\nabla_{[X,Y]}Z$；用度量与其输出配对可得到四阶协变形式。",
+    "example": "On the unit round sphere, $R(u,v)w=g(v,w)u-g(u,w)v$, so $g(R(u,v)v,u)=1$ for orthonormal $u,v$.",
+    "distinction": "The Chinese source uses 曲率张量 in the Levi–Civita setting; the word also occurs for general connections. This entry fixes the Riemannian scope and a sign convention, rather than identifying curvature with scalar curvature or with Christoffel symbols.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Eckhard Meinrenken — Riemannian Geometry",
+        "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+        "locator": "§18, Definition 18.1, Theorem 18.2 and the covariant curvature tensor before Theorem 18.5, printed pp. 51–52",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Wang Wenlong — 黎曼几何, Nankai University",
+        "url": "https://my.nankai.edu.cn/_upload/article/files/6c/e0/25c21ba84c4aa63e26da8793050a/0c35346a-aaa6-4650-b76c-cfa464f214aa.pdf",
+        "locator": "Chapter 4, §4.1 曲率张量, Definition 4.1, PDF p. 21, printed p. 18",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "lie-group",
+    "english": "Lie group",
+    "chinese": "李群",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "A group equipped with a finite-dimensional Hausdorff, second countable smooth manifold structure without boundary for which multiplication and inversion are smooth maps.",
+    "definitionZh": "具有有限维、Hausdorff、第二可数的无边光滑流形结构，且乘法与求逆均为光滑映射的群。",
+    "example": "$S^1$ is a Lie group under complex multiplication; $\\operatorname{GL}(n,\\mathbb R)$ is one under matrix multiplication.",
+    "distinction": "Connectedness and compactness are additional properties. Its Lie algebra describes infinitesimal group structure but does not distinguish every pair of globally different Lie groups.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Eckhard Meinrenken — Riemannian Geometry",
+        "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+        "locator": "§10.1, Definition 10.1 and Proposition 10.2; manifold conventions in Definition 1.5",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Fudan University — Sun Binyong, Lie Group short course",
+        "url": "https://math.fudan.edu.cn/f4/50/c33035a324688/page.htm",
+        "locator": "课名：李群和李代数；课程内容：李群及例子、李群的李代数、指数映射",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "riemann-surface",
+    "english": "Riemann surface",
+    "chinese": "黎曼曲面",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "A connected Hausdorff, second countable topological surface without boundary equipped with an atlas to open subsets of the complex plane whose transition maps are holomorphic; equivalently, a connected complex manifold of complex dimension one.",
+    "definitionZh": "具有到复平面开集的坐标图册、且坐标变换全纯的连通、Hausdorff、第二可数无边拓扑曲面，即复维数为一的连通复流形。",
+    "example": "The sphere $\\mathbb C\\cup\\{\\infty\\}$ has compatible coordinates $z$ away from infinity and $w=1/z$ near infinity.",
+    "distinction": "A Riemann surface has complex coordinate structure; a Riemannian surface has a metric. This entry requires connectedness and excludes boundary points, while some authors use a disconnected convention.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Constantin Teleman — Riemann Surfaces",
+        "url": "https://math.berkeley.edu/~teleman/math/Riemann.pdf",
+        "locator": "Lecture 3, Definition 3.1 and Proposition 3.2, printed p. 10; connected-component convention discussed after Theorem 3.5",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "University of Chinese Academy of Sciences — Deng Fusheng, course syllabus",
+        "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/277722",
+        "locator": "第一章 黎曼曲面与复流形的基本概论，第2节：黎曼曲面与复流形的定义",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "stokes-theorem-manifolds",
+    "english": "Stokes theorem on manifolds",
+    "chinese": "Stokes 定理",
+    "aliases": [
+      "generalized Stokes theorem"
+    ],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Undergraduate",
+    "definitionEn": "For an oriented smooth n-manifold with boundary, n at least one, and a smooth compactly supported (n−1)-form ω, the integral of dω over the manifold equals the integral of the pullback of ω to its boundary, with outward-normal-first boundary orientation.",
+    "definitionZh": "对定向光滑 $n$ 维带边流形（$n\\geq1$）及光滑紧支集 $(n-1)$ 形式 $\\omega$，有 $\\int_M d\\omega=\\int_{\\partial M}j^*\\omega$，边界取外法向在前的诱导定向。",
+    "example": "On the unit disk oriented by $dx\\wedge dy$, $\\omega=(x\\,dy-y\\,dx)/2$ satisfies $\\int_D d\\omega=\\int_{\\partial D}\\omega=\\pi$ for counterclockwise boundary orientation.",
+    "distinction": "The form must be smooth on the whole manifold, including its boundary. Compactness of the manifold makes the support condition automatic; noncompact manifolds need support or other justified conditions at infinity.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Marco Gualtieri — Geometry and Topology I",
+        "url": "https://www.math.toronto.edu/mgualt/courses/17-1300/docs/17-1300-notes.pdf",
+        "locator": "§6.4, Proposition 6.17 and Theorem 6.18, printed pp. 60–61",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Peking University — 2022 mathematics teaching plans",
+        "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+        "locator": "课程号00130190，内容提要三、外微分形式：Stokes 定理；PDF p. 77, printed p. 74",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "morse-function",
+    "english": "Morse function",
+    "chinese": "Morse函数",
+    "aliases": [],
+    "area": "geometry-topology",
+    "topic": "differential-geometry",
+    "level": "Graduate",
+    "definitionEn": "A smooth real-valued function on a smooth manifold whose Hessian at each critical point is a nonsingular symmetric bilinear form; functions with no critical points are included.",
+    "definitionZh": "光滑流形上的光滑实值函数，其每个临界点处的 Hessian 对称双线性型均非退化；无临界点的函数也满足此定义。",
+    "example": "On $T^2=(\\mathbb R/2\\pi\\mathbb Z)^2$, $f(\\theta,\\phi)=\\cos\\theta+2\\cos\\phi$ has four nondegenerate critical points with indices $0,1,1,2$.",
+    "distinction": "An isolated critical point may still have singular Hessian, as for $x^4$ at zero. Morse functions do not require distinct critical values, and their definition does not require a Riemannian metric.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Ralph L. Cohen, Kevin Iga and Paul Norbury — Topics in Morse Theory",
+        "url": "https://math.stanford.edu/~ralph/morsecourse/biglectures.pdf",
+        "locator": "Introduction, printed pp. v–vi, Hessian, nondegenerate critical points and Morse-function definition; Chapter 5, Theorem 5.3",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "Nankai University — 数学科学学院本科生论坛-83讲",
+        "url": "https://math.nankai.edu.cn/2016/0523/c5536a49962/page.htm",
+        "locator": "题目：Morse理论简介；摘要中“流形上一类特殊的函数（Morse函数）”",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
   }
 ]

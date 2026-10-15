@@ -2325,5 +2325,110 @@
     "contributors": [
       "Mathematics Resources editorial compilation (AI-assisted)"
     ]
+  },
+  {
+    "id": "spectral-sequence",
+    "english": "spectral sequence",
+    "chinese": "谱序列",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "homological-algebra",
+    "level": "Graduate",
+    "definitionEn": "In an abelian category, a sequence of differential objects $(E_r,d_r)$ with $d_r^2=0$ and specified isomorphisms $H(E_r,d_r)\\cong E_{r+1}$; the cohomological bigraded version has differential of bidegree $(r,1-r)$.",
+    "definitionZh": "在 Abel 范畴中，由微分平方为零的对象 $(E_r,d_r)$ 以及指定同构 $H(E_r,d_r)\\cong E_{r+1}$ 构成的序列；上同调双分次版本的微分次数为 $(r,1-r)$。",
+    "example": "For $C^0=ka$, $C^1=kb$, $d(a)=b$, place $a$ in filtration degree $0$ and $b$ in degree $2$; the filtered-complex spectral sequence has $d_2^{0,0}:ka\\to kb$ an isomorphism and $E_3=0$.",
+    "distinction": "A target and convergence require additional hypotheses; even convergent $E_\\infty$ terms usually determine only associated graded pieces, with extension problems remaining.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Wen-Wei Li — Methods in Algebra II, author source",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter5.tex",
+        "locator": "谱序列的一般定义 (sec:spectral-sequence), def:SS-abstract and def:graded-spectral-sequence",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 代数学方法 卷二，作者源文件",
+        "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter5.tex",
+        "locator": "def:SS-abstract, index entry 谱序列 (spectral sequence) and definition; def:graded-spectral-sequence names the graded and bigraded variants",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "sheaf",
+    "english": "sheaf",
+    "chinese": "层",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "definitionEn": "A presheaf of sets on a topological space such that every compatible family of sections on an open cover, including the empty cover, is the restriction of a unique section on the union.",
+    "definitionZh": "拓扑空间上的集合值预层，满足任意开覆盖（包括空覆盖）上的相容截面族都能唯一粘合为并集上的截面。",
+    "example": "Continuous real-valued functions on open subsets, with the usual restriction maps, form a sheaf.",
+    "distinction": "Presheaf restriction identities alone do not ensure gluing; bounded continuous functions on open subsets of the real line give a counterexample.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "The Stacks Project — Sheaves",
+        "url": "https://stacks.math.columbia.edu/tag/006S",
+        "locator": "Definition 6.7.1 and Remark 6.7.2, including the empty covering",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，作者公开稿",
+        "url": "https://www.wwli.asia/downloads/books/Modulform.pdf",
+        "locator": "Appendix B.1 层与局部系统, Definition B.1.1 explicitly names 层 through unique gluing; printed pp.341–342 (PDF pp.347–348), including the Set-valued variant",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "scheme",
+    "english": "scheme",
+    "chinese": "概形",
+    "aliases": [],
+    "area": "algebra",
+    "topic": "algebraic-geometry",
+    "level": "Graduate",
+    "definitionEn": "A locally ringed space in which every point has an open neighborhood isomorphic, as a locally ringed space, to the prime spectrum of a commutative unital ring equipped with its structure sheaf.",
+    "definitionZh": "每个点都有开邻域，连同限制的结构层同构于某个交换含幺环的素谱及其结构层的局部赋环空间。",
+    "example": "$\\operatorname{Spec}(k[\\epsilon]/(\\epsilon^2))$ for a field $k$ is a one-point scheme with a nonzero nilpotent global section.",
+    "distinction": "The underlying prime-spectrum topology does not determine the structure sheaf; being affine, reduced, Noetherian or separated is not required in the general scheme definition.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "The Stacks Project — Schemes; affine schemes",
+        "url": "https://stacks.math.columbia.edu/tag/01II",
+        "locator": "Definition 26.9.1, with affine schemes as in Definition 26.5.5 (tag 01HR)",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "The Stacks Project — Affine schemes",
+        "url": "https://stacks.math.columbia.edu/tag/01HR",
+        "locator": "Definition 26.5.3, Lemma 26.5.4 and Definition 26.5.5",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李文威 — 模形式初步，作者公开稿",
+        "url": "https://www.wwli.asia/downloads/books/Modulform.pdf",
+        "locator": "Section 10.2 几何模形式, opening discussion of R-概形 and X(R)=Hom_{R-概形}(Spec R,X), printed p.296 (PDF p.302); evidence of usage, not a normative translation ruling",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
   }
 ]

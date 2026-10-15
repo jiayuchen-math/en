@@ -3010,5 +3010,77 @@
     "contributors": [
       "Mathematics Resources editorial compilation (AI-assisted)"
     ]
+  },
+  {
+    "id": "sobolev-trace",
+    "english": "Sobolev trace",
+    "chinese": "Sobolev函数的迹",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "For a bounded smooth domain Omega and 1 <= p < infinity, the first-order Sobolev trace is the bounded linear map from W^{1,p}(Omega) to L^p(partial Omega, dS) extending boundary restriction of smooth functions on the closure; its kernel is W^{1,p}_0(Omega).",
+    "definitionZh": "对有界光滑区域 Ω 及 1≤p<∞，一阶 Sobolev 迹是把闭包上光滑函数的边界限制连续延拓所得的有界线性映射，从 W^{1,p}(Ω) 到边界表面测度下的 L^p(∂Ω)，其核为 W^{1,p}_0(Ω)。",
+    "example": "On $(0,1)$, the trace of $u(x)=x(1-x)$ is the endpoint pair $(0,0)$; the trace of the constant function $1$ is $(1,1)$.",
+    "distinction": "This record concerns function boundary values, not operator or matrix trace. Higher-order zero boundary conditions also require derivative traces. The Chinese title is a descriptive qualification of the inspected usage 迹 for Sobolev boundary values, not a claim of normative standardization.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "§3.9, Theorem 3.44 and proof (first-order case), printed pp.72–73; §3.11, transfer to smooth bounded domains by boundary flattening",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "程代展、赵寅 — 系统与控制中的近代数学基础（第2版），清华大学出版社预览",
+        "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/047803-01.pdf",
+        "locator": "§3.9, 定理3.9.1（迹定理）, printed p.134: Sobolev函数在边界Γ上的迹及迹映射γ（取m=1即函数值迹）",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
+  },
+  {
+    "id": "spectral-theorem-compact-self-adjoint",
+    "english": "spectral theorem for compact self-adjoint operators",
+    "chinese": "紧自伴算子的谱定理",
+    "aliases": [],
+    "area": "analysis",
+    "topic": "functional-analysis",
+    "level": "Graduate",
+    "definitionEn": "For a compact self-adjoint operator on a real or complex separable Hilbert space, an orthonormal basis of eigenvectors exists; nonzero eigenvalues are real with finite multiplicity and, if infinitely many, tend to zero when listed with multiplicity. Kernel vectors complete the basis.",
+    "definitionZh": "实或复可分 Hilbert 空间上的紧自伴算子具有由特征向量组成的标准正交基；非零特征值为实数、重数有限，若按重数列出有无穷多个，则趋于零；算子核中的特征向量补全整个空间的基。",
+    "example": "For $(Tx)_n=x_n/(n+1)$ on $\\ell^2$ with $n\\ge1$, the coordinate vectors form an eigenbasis and the nonzero eigenvalues $1/(n+1)$ tend to zero.",
+    "distinction": "This is the compact self-adjoint eigenbasis theorem, not the general spectral-measure theorem for arbitrary self-adjoint operators. Zero can be a spectral value without being an eigenvalue, and its eigenspace, when present, need not have finite dimension.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "John K. Hunter — Notes on Partial Differential Equations",
+        "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+        "locator": "Appendix 4.B.1, Theorem 4.37, printed p.122: real nonzero eigenvalues, finite-dimensional nonzero eigenspaces and eigenbasis including zero eigenspace",
+        "checked": "2026-10-15"
+      },
+      {
+        "label": "MIT OpenCourseWare — 18.102 Spring 2021, Complete Lecture Notes",
+        "url": "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/8fb8d5c170f1613151aca71de21027bc_MIT18_102s21_full_lec.pdf",
+        "locator": "Lecture 22, Theorem 232 (Spectral theorem), printed pp.117–118: separable Hilbert-space statement and kernel completion",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "许天周、李炳照 — 线性正则变换及其应用，科学出版社预览",
+        "url": "https://www.ecsponline.com/yz/BAF8061328A58432895A07A821C29AD94000.pdf",
+        "locator": "§1.6, 定理1.6.5（紧自伴算子的谱定理）, printed p.13; used as Chinese naming evidence, with separability stated explicitly in this record",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": [
+      "Mathematics Resources editorial compilation (AI-assisted)"
+    ]
   }
 ]

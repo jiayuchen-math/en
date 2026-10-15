@@ -13,8 +13,7 @@
     "banach-space"
   ],
   "related": [
-    "orthogonal-projection",
-    "weak-banach-convergence",
+    "weak-convergence-normed-space",
     "fourier-series"
   ],
   "references": [

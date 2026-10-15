@@ -9,8 +9,7 @@
   "level": "Graduate",
   "summary": "A distribution is a continuous linear functional on smooth compactly supported test functions.",
   "prerequisites": [
-    "lebesgue-integral",
-    "test-function"
+    "lebesgue-integral"
   ],
   "related": [
     "weak-derivative",

@@ -9,8 +9,7 @@
   "level": "Undergraduate",
   "summary": "A holomorphic function is complex differentiable throughout an open subset of the complex plane.",
   "prerequisites": [
-    "continuous-function",
-    "complex-derivative"
+    "continuous-function"
   ],
   "related": [
     "cauchy-integral-formula",

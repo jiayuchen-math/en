@@ -13,7 +13,6 @@
     "laurent-series"
   ],
   "related": [
-    "residue-theorem",
     "complex-pole"
   ],
   "references": [

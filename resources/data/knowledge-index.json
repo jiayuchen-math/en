@@ -268,6 +268,266 @@
       "sourcePath": "resources/content/encyclopedia/category-theory/categorical-limit.md"
     },
     {
+      "id": "categorical-product",
+      "title": "Categorical Product",
+      "chinese": "积",
+      "aliases": [],
+      "area": "category-theory",
+      "topic": "category-theory",
+      "level": "Undergraduate",
+      "summary": "A product turns any compatible family of component maps into a unique map to one object.",
+      "prerequisites": [
+        "category",
+        "set-function"
+      ],
+      "related": [
+        "universal-property",
+        "categorical-pullback",
+        "categorical-coproduct",
+        "categorical-limit"
+      ],
+      "references": [
+        {
+          "id": "riehl-product",
+          "label": "Emily Riehl — Category Theory in Context, author second-edition draft",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "§3.1, Definition 3.1.9, Example 3.1.10 and Definition 3.1.11",
+          "checked": "2026-10-15",
+          "note": "Product projections, topological products and the empty product; finite computations below are original."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/category-theory/categorical-product.md"
+    },
+    {
+      "id": "categorical-pullback",
+      "title": "Categorical Pullback",
+      "chinese": "拉回",
+      "aliases": [
+        "fiber product",
+        "纤维积"
+      ],
+      "area": "category-theory",
+      "topic": "category-theory",
+      "level": "Graduate",
+      "summary": "A pullback combines two maps to the same target while requiring their images to agree.",
+      "prerequisites": [
+        "category",
+        "categorical-product",
+        "universal-property"
+      ],
+      "related": [
+        "categorical-limit",
+        "smooth-vector-bundle",
+        "algebraic-prime-spectrum"
+      ],
+      "references": [
+        {
+          "id": "riehl-pullback",
+          "label": "Emily Riehl — Category Theory in Context, author second-edition draft",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "§3.1, Definition 3.1.15, Examples 3.1.18–3.1.19, and Exercise 3.1.vi",
+          "checked": "2026-10-15",
+          "note": "Pullback universal property, fibers and composition; the finite-set example below is original."
+        },
+        {
+          "id": "gualtieri-transverse-pullback",
+          "label": "Marco Gualtieri — Smooth manifolds, Transversality notes",
+          "url": "https://www.math.utoronto.ca/mgualt/wiki/Notes21-24.pdf",
+          "locator": "§3, Definition 23 and Proposition 3.3, printed pp.21–22",
+          "checked": "2026-10-15",
+          "note": "Transverse smooth maps have a smooth fiber product; boundaryless setting."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/category-theory/categorical-pullback.md"
+    },
+    {
+      "id": "category",
+      "title": "Category",
+      "chinese": "范畴",
+      "aliases": [],
+      "area": "category-theory",
+      "topic": "category-theory",
+      "level": "Undergraduate",
+      "summary": "A category specifies objects, morphisms and associative composition, including an identity at each object.",
+      "prerequisites": [
+        "set-function",
+        "partial-order",
+        "group"
+      ],
+      "related": [
+        "functor",
+        "category-morphism",
+        "categorical-product",
+        "universal-property"
+      ],
+      "references": [
+        {
+          "id": "riehl-category",
+          "label": "Emily Riehl — Category Theory in Context, author second-edition draft",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "§1.1, Definition 1.1.1, Examples 1.1.3–1.1.4, Definitions 1.1.6–1.1.7 and 1.1.10",
+          "checked": "2026-10-15",
+          "note": "Definition, standard examples, size conventions and isomorphisms; computations below are original examples."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/category-theory/category.md"
+    },
+    {
+      "id": "central-limit-theorem",
+      "title": "Central Limit Theorem",
+      "chinese": "中心极限定理",
+      "aliases": [
+        "CLT"
+      ],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "summary": "For iid observations with finite positive variance, the centered sum divided by its standard deviation converges in distribution to a standard normal law.",
+      "prerequisites": [
+        "independent-identically-distributed",
+        "variance",
+        "convergence-in-distribution",
+        "gaussian-distribution"
+      ],
+      "related": [
+        "law-of-large-numbers",
+        "characteristic-function-probability",
+        "binomial-distribution"
+      ],
+      "references": [
+        {
+          "id": "lawler-clt",
+          "label": "Gregory F. Lawler — Notes on Probability",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "Section 5, Proposition 5.4 and Theorem 5.5, printed pp.20–21",
+          "checked": "2026-10-15",
+          "note": "Iid finite-variance CLT and characteristic-function expansion."
+        },
+        {
+          "id": "durrett-cauchy",
+          "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+          "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+          "locator": "§3.3, Example 3.3.16 and Exercise 3.3.6",
+          "checked": "2026-10-15",
+          "note": "Cauchy characteristic function and failure of averaging to remove its scale."
+        },
+        {
+          "id": "lidf-clt-name",
+          "label": "李东风 — 概率统计课件（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/psbclw/psbp.pdf",
+          "locator": "§4.6.2, Theorem 6.2 (中心极限定理), printed p.153; §4.6.4, binomial application",
+          "checked": "2026-10-15",
+          "note": "Chinese terminology and classical iid statement."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/central-limit-theorem.md"
+    },
+    {
+      "id": "chain-complex-modules",
+      "title": "Chain Complex of Modules",
+      "chinese": "模的链复形",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "homological-algebra",
+      "level": "Graduate",
+      "summary": "A chain complex is a sequence of modules with degree-lowering differentials whose consecutive composites vanish, allowing homology to measure failure of exactness.",
+      "prerequisites": [
+        "left-module",
+        "module-homomorphism",
+        "quotient-module"
+      ],
+      "related": [
+        "module-homology",
+        "short-exact-sequence-modules",
+        "module-ext-group",
+        "spectral-sequence"
+      ],
+      "references": [
+        {
+          "id": "stacks-complexes",
+          "label": "The Stacks Project — Complexes",
+          "url": "https://stacks.math.columbia.edu/tag/010V",
+          "locator": "Section 12.13, chain-complex and chain-homotopy definitions, homology formula, Definition 12.13.4 and Lemmas 12.13.5–12.13.6",
+          "checked": "2026-10-15",
+          "note": "Chain maps, homotopies, quasi-isomorphisms, and the long exact homology sequence."
+        },
+        {
+          "id": "li-chain-convention",
+          "label": "Wen-Wei Li — Methods in Algebra II, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter2.tex",
+          "locator": "def:complex, def:cohomology and rem:cochain-vs-chain (链复形的同调)",
+          "checked": "2026-10-15",
+          "note": "Chain versus cochain indexing, homology and exactness."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/chain-complex-modules.md"
+    },
+    {
+      "id": "characteristic-function-probability",
+      "title": "Characteristic Function of a Probability Distribution",
+      "chinese": "特征函数",
+      "aliases": [],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "summary": "The characteristic function is the expected complex exponential of a random variable and uniquely determines its probability law.",
+      "prerequisites": [
+        "probability-distribution",
+        "expectation",
+        "independent-random-variables"
+      ],
+      "related": [
+        "central-limit-theorem",
+        "convergence-in-distribution",
+        "gaussian-distribution"
+      ],
+      "references": [
+        {
+          "id": "lawler-characteristic",
+          "label": "Gregory F. Lawler — Notes on Probability",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "Section 5, characteristic-function definition and properties, Propositions 5.2–5.3 (derivatives at zero), and Proposition 5.6",
+          "checked": "2026-10-15",
+          "note": "Transform convention, independent sums, moment assumptions, and uniqueness by inversion."
+        },
+        {
+          "id": "durrett-characteristic",
+          "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+          "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+          "locator": "§3.3, Example 3.3.16 and Theorem 3.3.17",
+          "checked": "2026-10-15",
+          "note": "Cauchy transform and continuity theorem, including continuity at zero of the pointwise limit."
+        },
+        {
+          "id": "lidf-characteristic",
+          "label": "李东风 — 应用随机过程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+          "locator": "§1.3.5, Definition 1.13 and characteristic-function properties",
+          "checked": "2026-10-15",
+          "note": "Chinese terminology and Fourier-transform viewpoint."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/characteristic-function-probability.md"
+    },
+    {
       "id": "chinese-remainder-theorem",
       "title": "Chinese Remainder Theorem",
       "chinese": "中国剩余定理",
@@ -311,6 +571,139 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/number-theory/chinese-remainder-theorem.md"
+    },
+    {
+      "id": "graph-chromatic-number",
+      "title": "Chromatic Number",
+      "chinese": "色数",
+      "aliases": [
+        "vertex chromatic number"
+      ],
+      "area": "combinatorics",
+      "topic": "combinatorics",
+      "level": "Undergraduate",
+      "summary": "The chromatic number of a finite simple graph is the minimum number of colors needed to give adjacent vertices different colors.",
+      "prerequisites": [
+        "finite-simple-graph",
+        "graph-independent-set",
+        "graph-clique"
+      ],
+      "related": [
+        "bipartite-graph",
+        "graph-tree",
+        "graph-vertex-degree",
+        "ramsey-number",
+        "probabilistic-method",
+        "additive-combinatorics"
+      ],
+      "references": [
+        {
+          "id": "morris-vertex-colouring",
+          "label": "Joy Morris — Combinatorics, version 2.1.1",
+          "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+          "locator": "§14.3: Definitions 14.3.2–14.3.3, Notation 14.3.4, Proposition 14.3.5, Examples 14.3.6–14.3.7, Corollary 14.3.11; printed pp.161–162 / PDF pp.167–168",
+          "checked": "2026-10-15",
+          "note": "Supports proper vertex coloring, complete and odd-cycle examples, bipartiteness and the maximum-degree upper bound; the zero-vertex convention is stated separately here."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/combinatorics/graph-chromatic-number.md"
+    },
+    {
+      "id": "commutative-ring",
+      "title": "Commutative Ring",
+      "chinese": "交换环",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "commutative-algebra",
+      "level": "Undergraduate",
+      "summary": "A commutative ring supports addition, subtraction, and commutative multiplication with identity, without requiring division or cancellation.",
+      "prerequisites": [
+        "abelian-group",
+        "unital-ring"
+      ],
+      "related": [
+        "ring-ideal",
+        "integral-domain",
+        "polynomial-ring",
+        "algebraic-prime-spectrum"
+      ],
+      "references": [
+        {
+          "id": "li-ring-basics",
+          "label": "Wen-Wei Li — Methods in Algebra I, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+          "locator": "基本概念 (sec:ring-basics), initial ring axioms, opposite-ring definition naming 交换环, and ring-homomorphism definition",
+          "checked": "2026-10-15",
+          "note": "Ring axioms, commutativity, and identity-preserving homomorphisms."
+        },
+        {
+          "id": "stacks-ring-conventions",
+          "label": "The Stacks Project — Conventions",
+          "url": "https://stacks.math.columbia.edu/tag/00AQ",
+          "locator": "Section 10.2, opening convention",
+          "checked": "2026-10-15",
+          "note": "Commutative rings with identity and inclusion of the zero ring."
+        },
+        {
+          "id": "milne-ca-rings",
+          "label": "J. S. Milne — A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+          "locator": "Section 1, Rings and algebras, especially polynomial rings and the finite-dimensional domain argument, printed p.3",
+          "checked": "2026-10-15",
+          "note": "Algebras, polynomial rings, and the finite-dimensional domain-to-field criterion."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/commutative-ring.md"
+    },
+    {
+      "id": "compact-linear-operator",
+      "title": "Compact Linear Operator",
+      "chinese": "紧算子",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "functional-analysis",
+      "level": "Graduate",
+      "summary": "A compact linear operator sends bounded sets to sets with compact closure, allowing subsequence arguments in infinite-dimensional problems.",
+      "prerequisites": [
+        "banach-space",
+        "bounded-linear-operator",
+        "topological-compactness"
+      ],
+      "related": [
+        "linear-operator-norm",
+        "weak-convergence-normed-space",
+        "hilbert-space",
+        "spectral-theorem-compact-self-adjoint",
+        "weak-pde-solution"
+      ],
+      "references": [
+        {
+          "id": "erdman-compact-operators",
+          "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+          "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+          "locator": "§7.1, Definition 7.1.12, Propositions 7.1.13–7.1.14, Examples 7.1.17–7.1.18 and 7.1.21, Corollary 7.1.20",
+          "checked": "2026-10-15",
+          "note": "Relative compactness, sequence criterion, integral examples, closed ideal property and noncompact identity inspected."
+        },
+        {
+          "id": "hunter-compact-resolvent",
+          "label": "John K. Hunter — Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "locator": "§4.8, Theorem 4.23 and proof; Appendix 4.B.1, Example 4.36",
+          "checked": "2026-10-15",
+          "note": "Compactness from an energy estimate followed by compact embedding; diagonal example inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/compact-linear-operator.md"
     },
     {
       "id": "first-order-compactness",
@@ -376,6 +769,50 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/foundations/first-order-completeness.md"
+    },
+    {
+      "id": "conditional-expectation",
+      "title": "Conditional Expectation",
+      "chinese": "条件期望",
+      "aliases": [
+        "条件数学期望"
+      ],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Graduate",
+      "summary": "Conditional expectation averages an integrable random variable while preserving exactly the information in a specified sigma-algebra.",
+      "prerequisites": [
+        "expectation",
+        "probability-space",
+        "conditional-probability"
+      ],
+      "related": [
+        "probability-filtration",
+        "martingale",
+        "independent-random-variables"
+      ],
+      "references": [
+        {
+          "id": "lawler-conditioning",
+          "label": "Gregory F. Lawler — Notes on Probability",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "§6.1, equations (14)–(18), Proposition 6.2, and projection exercise 2",
+          "checked": "2026-10-15",
+          "note": "Finite partitions, existence and almost-sure uniqueness, tower and pull-out properties, L2 interpretation."
+        },
+        {
+          "id": "lidf-conditioning",
+          "label": "李东风 — 应用随机过程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+          "locator": "§1.5.4, Definition 1.19; §1.5.3, Proposition 1.6",
+          "checked": "2026-10-15",
+          "note": "Chinese terminology, sigma-algebra definition, and total variance."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/conditional-expectation.md"
     },
     {
       "id": "conditional-probability",
@@ -508,6 +945,95 @@
       "sourcePath": "resources/content/encyclopedia/foundations/continuum-hypothesis.md"
     },
     {
+      "id": "convergence-in-distribution",
+      "title": "Convergence in Distribution",
+      "chinese": "依分布收敛",
+      "aliases": [
+        "weak convergence of probability laws"
+      ],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "summary": "Convergence in distribution compares probability laws through continuity points of their distribution functions, without requiring samplewise closeness.",
+      "prerequisites": [
+        "probability-distribution",
+        "cumulative-distribution-function"
+      ],
+      "related": [
+        "convergence-in-probability",
+        "almost-sure-convergence",
+        "central-limit-theorem",
+        "characteristic-function-probability"
+      ],
+      "references": [
+        {
+          "id": "durrett-weak",
+          "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+          "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+          "locator": "§3.2, opening definition and Theorems 3.2.9–3.2.11",
+          "checked": "2026-10-15",
+          "note": "CDF definition, bounded continuous tests, continuous mapping, and boundary conditions."
+        },
+        {
+          "id": "lidf-convergence",
+          "label": "李东风 — 应用随机过程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/prob.html",
+          "locator": "§1.4, Definition 1.14(4) and convergence implications following it",
+          "checked": "2026-10-15",
+          "note": "Chinese name and distinctions between modes of convergence."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/convergence-in-distribution.md"
+    },
+    {
+      "id": "countable-set",
+      "title": "Countable Set",
+      "chinese": "可数集",
+      "aliases": [],
+      "area": "foundations",
+      "topic": "set-theory",
+      "level": "Undergraduate",
+      "summary": "A countable set is finite or can be listed by the natural numbers without omission or repetition.",
+      "prerequisites": [
+        "set",
+        "injective-function",
+        "surjective-function",
+        "bijective-function"
+      ],
+      "related": [
+        "set-cardinality",
+        "power-set",
+        "continuum-hypothesis",
+        "first-order-compactness",
+        "dynamical-orbit"
+      ],
+      "references": [
+        {
+          "id": "logic-proof-countability",
+          "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+          "url": "https://leanprover-community.github.io/logic_and_proof/the_infinite.html",
+          "locator": "§22.2 Countably Infinite Sets: definition, surjection characterization, products and finite sequences; §22.3 Cantor's Theorem",
+          "checked": "2026-10-15",
+          "note": "Supports the inclusive convention, enumeration methods and the distinction between countable sets and the real continuum."
+        },
+        {
+          "id": "gowers-countability",
+          "label": "Timothy Gowers — A quick introduction to countability",
+          "url": "https://www.dpmms.cam.ac.uk/~wtg10/countability.html",
+          "locator": "Definition 4; A few useful facts (B), countable unions, and (D), diagonalization for subsets of N",
+          "checked": "2026-10-15",
+          "note": "Supports countable unions and the power-set diagonal argument; the article handles empty sets explicitly."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/foundations/countable-set.md"
+    },
+    {
       "id": "covering-space",
       "title": "Covering Space",
       "chinese": "覆盖空间",
@@ -540,6 +1066,51 @@
       "sourcePath": "resources/content/encyclopedia/geometry-topology/covering-space.md"
     },
     {
+      "id": "riemann-curvature-tensor",
+      "title": "Curvature of a Riemannian Metric",
+      "chinese": "曲率张量",
+      "aliases": [
+        "Riemann curvature tensor",
+        "Riemannian curvature tensor"
+      ],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "summary": "The Riemann curvature tensor measures the failure of covariant derivatives for the Levi–Civita connection to commute after correcting for the Lie bracket.",
+      "prerequisites": [
+        "riemannian-metric",
+        "levi-civita-connection",
+        "smooth-vector-field"
+      ],
+      "related": [
+        "riemannian-geodesic",
+        "parallel-transport",
+        "smooth-vector-bundle"
+      ],
+      "references": [
+        {
+          "id": "meinrenken-curvature",
+          "label": "Eckhard Meinrenken — Riemannian Geometry",
+          "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+          "locator": "§18, Definition 18.1 and Theorems 18.2, 18.3, 18.5, printed pp. 51–53",
+          "checked": "2026-10-15",
+          "note": "Inspected the sign convention, tensoriality proof, coordinate formula, and Riemannian curvature symmetries."
+        },
+        {
+          "id": "wang-curvature",
+          "label": "Wang Wenlong — 黎曼几何",
+          "url": "https://my.nankai.edu.cn/_upload/article/files/6c/e0/25c21ba84c4aa63e26da8793050a/0c35346a-aaa6-4650-b76c-cfa464f214aa.pdf",
+          "locator": "Chapter 4, §4.1 曲率张量, Definition 4.1; §4.2 三种曲率, Definition 4.2",
+          "checked": "2026-10-15",
+          "note": "Inspected Chinese tensor terminology, sectional/Ricci/scalar conventions, the sphere computation, and the submanifold curvature formula."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/riemann-curvature-tensor.md"
+    },
+    {
       "id": "de-rham-cohomology",
       "title": "de Rham Cohomology",
       "chinese": "de Rham 上同调",
@@ -570,6 +1141,50 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/geometry-topology/de-rham-cohomology.md"
+    },
+    {
+      "id": "dedekind-zeta-function",
+      "title": "Dedekind Zeta Function",
+      "chinese": "戴德金 ζ 函数",
+      "aliases": [],
+      "area": "number-theory",
+      "topic": "analytic-number-theory",
+      "level": "Graduate",
+      "summary": "The Dedekind zeta function counts integral ideals by norm, with an Euler product encoding prime splitting and a residue encoding the class number and units.",
+      "prerequisites": [
+        "number-field",
+        "ring-of-integers",
+        "fractional-ideal-of-number-field",
+        "meromorphic-function"
+      ],
+      "related": [
+        "riemann-zeta-function",
+        "dirichlet-l-function",
+        "ideal-class-group",
+        "dirichlet-unit-theorem"
+      ],
+      "references": [
+        {
+          "id": "sutherland-counting",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 19 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes19.pdf",
+          "locator": "Opening definition and convergence, p.1; ideal counting by classes, pp.7–8; Theorem 19.12, pp.9–10; Theorem 19.15, pp.11–12",
+          "checked": "2026-10-15",
+          "note": "Euler product, class number formula, proof strategy and factorization for abelian extensions of Q."
+        },
+        {
+          "id": "zhang-continuation",
+          "label": "Shenxing Zhang — Algebraic Number Theory notes v2.5.0.0",
+          "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+          "locator": "Section 4.2.2, Theorem 4.22 and Corollary 4.23, printed p.112 (PDF p.120); Section 4.2.4 opening quadratic factorization, printed p.114 (PDF p.122)",
+          "checked": "2026-10-15",
+          "note": "Full meromorphic continuation, completed functional equation, residue and quadratic Dirichlet L-factorization."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/number-theory/dedekind-zeta-function.md"
     },
     {
       "id": "real-derivative",
@@ -813,6 +1428,60 @@
       "sourcePath": "resources/content/encyclopedia/number-theory/dirichlet-character.md"
     },
     {
+      "id": "dirichlet-l-function",
+      "title": "Dirichlet L-Function",
+      "chinese": "狄利克雷 L 函数",
+      "aliases": [
+        "Dirichlet L-series"
+      ],
+      "area": "number-theory",
+      "topic": "analytic-number-theory",
+      "level": "Graduate",
+      "summary": "A Dirichlet L-function weights integers by a Dirichlet character, refining zeta's prime product to detect residue classes and encode abelian arithmetic over the rationals.",
+      "prerequisites": [
+        "dirichlet-character",
+        "riemann-zeta-function",
+        "holomorphic-function"
+      ],
+      "related": [
+        "primitive-dirichlet-character",
+        "conductor-of-dirichlet-character",
+        "gauss-sum",
+        "dedekind-zeta-function",
+        "cyclotomic-field"
+      ],
+      "references": [
+        {
+          "id": "sutherland-dirichlet",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 18 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes18.pdf",
+          "locator": "Sections 18.3–18.4, Definition 18.19, Proposition 18.20, Remark 18.21 and character-orthogonality proof, pp.6–7",
+          "checked": "2026-10-15",
+          "note": "Definition, principal-character Euler factors, nonprincipal continuation and the mechanism for primes in progressions."
+        },
+        {
+          "id": "sutherland-nonvanishing",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 19 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes19.pdf",
+          "locator": "Theorems 19.15–19.16 and proofs, pp.11–12",
+          "checked": "2026-10-15",
+          "note": "Cyclotomic zeta factorization using primitive characters and nonvanishing at 1, including induced characters."
+        },
+        {
+          "id": "zhang-functional",
+          "label": "Shenxing Zhang — Algebraic Number Theory notes v2.5.0.0",
+          "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+          "locator": "Section 4.1.2, Proposition 4.8, Theorem 4.10 and proof, printed pp.105–107 (PDF pp.113–115)",
+          "checked": "2026-10-15",
+          "note": "Primitive-character theta transformation and functional equation; this article includes the conductor in its completed-function normalization."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/number-theory/dirichlet-l-function.md"
+    },
+    {
       "id": "analysis-distribution",
       "title": "Distribution in Analysis",
       "chinese": "分布（分析）",
@@ -822,8 +1491,7 @@
       "level": "Graduate",
       "summary": "A distribution is a continuous linear functional on smooth compactly supported test functions.",
       "prerequisites": [
-        "lebesgue-integral",
-        "test-function"
+        "lebesgue-integral"
       ],
       "related": [
         "weak-derivative",
@@ -844,6 +1512,42 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/analysis/analysis-distribution.md"
+    },
+    {
+      "id": "dominated-convergence-theorem",
+      "title": "Dominated Convergence Theorem",
+      "chinese": "控制收敛定理",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "measure-theory",
+      "level": "Undergraduate",
+      "summary": "An integrable bound independent of the index upgrades almost-everywhere convergence to convergence in L1.",
+      "prerequisites": [
+        "lebesgue-integral",
+        "measurable-real-function",
+        "almost-everywhere"
+      ],
+      "related": [
+        "fatou-lemma",
+        "monotone-convergence-theorem",
+        "lp-space",
+        "fourier-transform",
+        "fubini-theorem"
+      ],
+      "references": [
+        {
+          "id": "hunter-dominated-convergence",
+          "label": "John K. Hunter — Measure Theory",
+          "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+          "locator": "§4.5, Theorem 4.24 and proof; §4.6, complex-valued and almost-everywhere formulation; §4.7, Definition 4.25",
+          "checked": "2026-10-15",
+          "note": "Domination hypotheses, Fatou proof, measurability caveat on incomplete spaces, and L1 convergence definition inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/dominated-convergence-theorem.md"
     },
     {
       "id": "dynamical-flow",
@@ -885,6 +1589,42 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/dynamics/dynamical-flow.md"
+    },
+    {
+      "id": "equivalence-of-categories",
+      "title": "Equivalence of Categories",
+      "chinese": "范畴等价",
+      "aliases": [],
+      "area": "category-theory",
+      "topic": "category-theory",
+      "level": "Graduate",
+      "summary": "Equivalent categories have the same objects up to isomorphism and the same morphism structure, without requiring literal inverse functors.",
+      "prerequisites": [
+        "category",
+        "functor",
+        "natural-transformation",
+        "natural-isomorphism"
+      ],
+      "related": [
+        "full-functor",
+        "faithful-functor",
+        "adjunction",
+        "yoneda-lemma"
+      ],
+      "references": [
+        {
+          "id": "riehl-equivalence",
+          "label": "Emily Riehl — Category Theory in Context, author second-edition draft",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "§1.5, Definition 1.5.4, Definition 1.5.7 and Theorem 1.5.9",
+          "checked": "2026-10-15",
+          "note": "Quasi-inverses and the full, faithful, essentially-surjective criterion; explicit duplicate-object example below is original."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/category-theory/equivalence-of-categories.md"
     },
     {
       "id": "equivalence-relation",
@@ -1039,6 +1779,49 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/number-theory/euler-totient.md"
+    },
+    {
+      "id": "module-ext-group",
+      "title": "Ext Group of Modules",
+      "chinese": "模的 Ext 群",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "homological-algebra",
+      "level": "Graduate",
+      "summary": "Ext groups are derived Hom groups whose first degree classifies extensions of modules with fixed end terms.",
+      "prerequisites": [
+        "chain-complex-modules",
+        "projective-module",
+        "short-exact-sequence-modules"
+      ],
+      "related": [
+        "module-homology",
+        "tensor-product-modules",
+        "spectral-sequence",
+        "differential-graded-category"
+      ],
+      "references": [
+        {
+          "id": "li-classical-ext",
+          "label": "Wen-Wei Li — Methods in Algebra II, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter3.tex",
+          "locator": "实例: Ext 和 Tor (sec:Ext-Tor), projective/injective constructions preceding def:Ext-classical, that definition-proposition, and following module specialization, exact sequences, and vanishing criteria",
+          "checked": "2026-10-15",
+          "note": "Resolution construction, variance, degree zero, and projective vanishing."
+        },
+        {
+          "id": "stacks-ext",
+          "label": "The Stacks Project — Ext groups",
+          "url": "https://stacks.math.columbia.edu/tag/06XP",
+          "locator": "Section 13.27, Lemmas 13.27.2–13.27.3, short-exact-sequence discussion, Definition 13.27.4 and Lemmas 13.27.5–13.27.6",
+          "checked": "2026-10-15",
+          "note": "Resolution computations, long exact sequences and extension classification."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/module-ext-group.md"
     },
     {
       "id": "extremal-graph-theory",
@@ -1201,6 +1984,129 @@
       "sourcePath": "resources/content/encyclopedia/analysis/fourier-series.md"
     },
     {
+      "id": "fourier-transform",
+      "title": "Fourier Transform",
+      "chinese": "傅立叶变换",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "harmonic-analysis",
+      "level": "Undergraduate",
+      "summary": "The Fourier transform represents a function by continuous frequencies and converts differentiation into multiplication.",
+      "prerequisites": [
+        "lebesgue-integral",
+        "lp-space"
+      ],
+      "related": [
+        "fourier-series",
+        "inverse-fourier-transform",
+        "schwartz-function",
+        "function-convolution",
+        "weak-derivative",
+        "sobolev-space"
+      ],
+      "references": [
+        {
+          "id": "salo-fourier-transform",
+          "label": "Mikko Salo — Fourier Analysis and Distribution Theory",
+          "url": "https://users.jyu.fi/~salomi/lecturenotes/FA_distributions.pdf",
+          "locator": "§3.3, equations (3.5)–(3.6), Theorems 3.3.1 and 3.3.3; §3.4, Theorems 3.4.3–3.4.4 and their proofs",
+          "checked": "2026-10-15",
+          "note": "Forward and inverse normalization, Schwartz inversion, differentiation, Riemann–Lebesgue and Plancherel statements inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/fourier-transform.md"
+    },
+    {
+      "id": "fractional-ideal-of-number-field",
+      "title": "Fractional Ideal of a Number Field",
+      "chinese": "数域的分式理想",
+      "aliases": [
+        "number-field fractional ideal"
+      ],
+      "area": "number-theory",
+      "topic": "algebraic-number-theory",
+      "level": "Graduate",
+      "summary": "Nonzero fractional ideals extend integral ideals by allowing bounded denominators, forming a group whose quotient by principal ideals is the ideal class group.",
+      "prerequisites": [
+        "number-field",
+        "ring-of-integers",
+        "prime-ideal"
+      ],
+      "related": [
+        "ideal-class-group",
+        "number-field-norm",
+        "dedekind-zeta-function"
+      ],
+      "references": [
+        {
+          "id": "sutherland-definition",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 2 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes2.pdf",
+          "locator": "Sections 2.5–2.6, Definition 2.13, Lemma 2.14, Lemma 2.20 and Example 2.21, pp.5–7",
+          "checked": "2026-10-15",
+          "note": "Definition, denominator criterion, inverse formula and failure of invertibility in a nonmaximal order; this article excludes zero."
+        },
+        {
+          "id": "sutherland-factorization",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 3 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes3.pdf",
+          "locator": "Theorem 3.2, Corollary 3.3, Theorem 3.11, Corollary 3.13 and following valuation formulas, pp.1–4",
+          "checked": "2026-10-15",
+          "note": "Local proof of invertibility and prime ideal factorization with integer exponents."
+        },
+        {
+          "id": "sutherland-norm",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 14 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes14.pdf",
+          "locator": "Section 14.3, paragraph preceding Corollary 14.17 and its proof, p.6",
+          "checked": "2026-10-15",
+          "note": "Fractional ideal norm, scaling by a rational integer and the absolute value of a principal field norm."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/number-theory/fractional-ideal-of-number-field.md"
+    },
+    {
+      "id": "fubini-theorem",
+      "title": "Fubini's Theorem",
+      "chinese": "Fubini定理",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "measure-theory",
+      "level": "Undergraduate",
+      "summary": "For an absolutely integrable function on a product of sigma-finite measure spaces, the product integral equals either iterated integral.",
+      "prerequisites": [
+        "lebesgue-integral",
+        "measurable-real-function",
+        "almost-everywhere"
+      ],
+      "related": [
+        "dominated-convergence-theorem",
+        "monotone-convergence-theorem",
+        "function-convolution",
+        "fourier-transform"
+      ],
+      "references": [
+        {
+          "id": "hunter-fubini",
+          "label": "John K. Hunter — Measure Theory",
+          "url": "https://www.math.ucdavis.edu/~hunter/measure_theory/measure_notes.pdf",
+          "locator": "§5.4, Theorems 5.14–5.15; §5.6, Theorem 5.18 and Example 5.19; §5.7, Example 5.20 and Theorem 5.21",
+          "checked": "2026-10-15",
+          "note": "Product measure, section measurability, absolute-integrability criterion, double series and completed Lebesgue formulation inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/fubini-theorem.md"
+    },
+    {
       "id": "functor",
       "title": "Functor",
       "chinese": "函子",
@@ -1322,8 +2228,7 @@
         "riemann-integral"
       ],
       "related": [
-        "lebesgue-integral",
-        "absolute-continuous-real-function"
+        "lebesgue-integral"
       ],
       "references": [
         {
@@ -1359,7 +2264,7 @@
       "related": [
         "finite-field",
         "splitting-field",
-        "algebraic-number-field"
+        "number-field"
       ],
       "references": [
         {
@@ -1486,6 +2391,40 @@
       "sourcePath": "resources/content/encyclopedia/algebra/group-action.md"
     },
     {
+      "id": "hahn-banach-theorem",
+      "title": "Hahn–Banach Extension Theorem",
+      "chinese": "Hahn-Banach定理",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "functional-analysis",
+      "level": "Graduate",
+      "summary": "A bounded scalar linear functional on a subspace of a normed space extends to the whole space without increasing its norm.",
+      "prerequisites": [
+        "normed-vector-space",
+        "continuous-dual-space",
+        "bounded-linear-operator"
+      ],
+      "related": [
+        "banach-space",
+        "hilbert-space",
+        "weak-convergence-normed-space"
+      ],
+      "references": [
+        {
+          "id": "erdman-hahn-banach",
+          "label": "John M. Erdman — Functional Analysis and Operator Algebras: An Introduction",
+          "url": "https://web.pdx.edu/~erdman/FAOA/functional_analysis_operator_algebras_pdf.pdf",
+          "locator": "§3.8, Theorems 3.8.3–3.8.5 and proof hints; Theorem 3.8.7; Corollaries 3.8.10–3.8.11; Proposition 3.8.13",
+          "checked": "2026-10-15",
+          "note": "Real and complex extension, one-dimensional extension argument, norm preservation and separating functionals inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/hahn-banach-theorem.md"
+    },
+    {
       "id": "halls-marriage-theorem",
       "title": "Hall’s Marriage Theorem",
       "chinese": "Hall定理",
@@ -1606,6 +2545,58 @@
       "sourcePath": "resources/content/encyclopedia/category-theory/higher-category.md"
     },
     {
+      "id": "hilbert-class-field",
+      "title": "Hilbert Class Field",
+      "chinese": "希尔伯特类域",
+      "aliases": [],
+      "area": "number-theory",
+      "topic": "algebraic-number-theory",
+      "level": "Graduate",
+      "summary": "The ordinary Hilbert class field is the maximal abelian extension unramified at finite places and split at real places, with Galois group canonically identified with the ideal class group.",
+      "prerequisites": [
+        "number-field",
+        "ideal-class-group",
+        "galois-extension",
+        "ramification-index"
+      ],
+      "related": [
+        "class-number",
+        "idele-group",
+        "dedekind-zeta-function",
+        "dirichlet-l-function"
+      ],
+      "references": [
+        {
+          "id": "zhang-ordinary",
+          "label": "Shenxing Zhang — Algebraic Number Theory notes v2.5.0.0",
+          "url": "https://faculty.hfut.edu.cn/_resources/group1/M00/00/1A/rB_zSGjQAcqAWCrPACd7v7jEBRk596.pdf",
+          "locator": "Section 3.3.5, Propositions 3.75–3.76 and following Artin-symbol construction, printed p.99 (PDF p.107); Theorem 3.77, printed p.100; Theorem 4.25, printed p.113",
+          "checked": "2026-10-15",
+          "note": "Explicit ordinary versus narrow convention, class-group identification, Artin map and abelian zeta factorization."
+        },
+        {
+          "id": "sutherland-hilbert",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 22 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes22.pdf",
+          "locator": "Section 22.6, Definition 22.30 and following discussion, p.11; Section 22.3, Definition 22.24, p.9",
+          "checked": "2026-10-15",
+          "note": "Hilbert class field as the trivial-modulus ray class field, finiteness, real-place conductor convention and limits of the abelian statement."
+        },
+        {
+          "id": "milne-example",
+          "label": "J. S. Milne — Algebraic Number Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "locator": "Chapter 4, Remark 4.11 and footnote 1, printed p.72",
+          "checked": "2026-10-15",
+          "note": "Canonical class-group interpretation with the condition at infinite primes made explicit."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/number-theory/hilbert-class-field.md"
+    },
+    {
       "id": "hilbert-space",
       "title": "Hilbert Space",
       "chinese": "希尔伯特空间",
@@ -1619,8 +2610,7 @@
         "banach-space"
       ],
       "related": [
-        "orthogonal-projection",
-        "weak-banach-convergence",
+        "weak-convergence-normed-space",
         "fourier-series"
       ],
       "references": [
@@ -1648,8 +2638,7 @@
       "level": "Undergraduate",
       "summary": "A holomorphic function is complex differentiable throughout an open subset of the complex plane.",
       "prerequisites": [
-        "continuous-function",
-        "complex-derivative"
+        "continuous-function"
       ],
       "related": [
         "cauchy-integral-formula",
@@ -1702,6 +2691,109 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/geometry-topology/homotopy-of-maps.md"
+    },
+    {
+      "id": "ideal-class-group",
+      "title": "Ideal Class Group",
+      "chinese": "数域的理想类群",
+      "aliases": [
+        "number-field class group"
+      ],
+      "area": "number-theory",
+      "topic": "algebraic-number-theory",
+      "level": "Graduate",
+      "summary": "The ideal class group identifies fractional ideals that differ by multiplication by a field element and measures the failure of ideals to be principal.",
+      "prerequisites": [
+        "fractional-ideal-of-number-field",
+        "quotient-group",
+        "ring-of-integers"
+      ],
+      "related": [
+        "class-number",
+        "hilbert-class-field",
+        "dedekind-zeta-function",
+        "number-field-discriminant"
+      ],
+      "references": [
+        {
+          "id": "milne-class",
+          "label": "J. S. Milne — Algebraic Number Theory",
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "locator": "Chapter 3, The ideal class group, printed pp.52–54; Introduction, ideal factorizations in Z[sqrt(-5)], printed pp.10–11",
+          "checked": "2026-10-15",
+          "note": "Fractional ideal quotient and the motivating quadratic ideal computation."
+        },
+        {
+          "id": "sutherland-minkowski",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 14 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes14.pdf",
+          "locator": "Sections 14.4–14.5, Theorems 14.18 and 14.20, Lemma 14.21 and Corollary 14.22, pp.6–8",
+          "checked": "2026-10-15",
+          "note": "Minkowski bound and finiteness; the class number two example is worked out here from that bound."
+        },
+        {
+          "id": "sutherland-analytic",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 19 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes19.pdf",
+          "locator": "Theorem 19.12 and proof, pp.9–10; ideal counting by class, pp.7–8",
+          "checked": "2026-10-15",
+          "note": "Class number in the zeta residue and equal leading contributions from ideal classes."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/number-theory/ideal-class-group.md"
+    },
+    {
+      "id": "ring-ideal",
+      "title": "Ideal of a Commutative Ring",
+      "chinese": "交换环的理想",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "commutative-algebra",
+      "level": "Undergraduate",
+      "summary": "An ideal is an additive subgroup closed under multiplication by arbitrary ring elements, making it suitable as the kernel of a quotient map.",
+      "prerequisites": [
+        "commutative-ring",
+        "subgroup"
+      ],
+      "related": [
+        "quotient-ring",
+        "prime-ideal",
+        "maximal-ideal",
+        "noetherian-ring"
+      ],
+      "references": [
+        {
+          "id": "li-ideals",
+          "label": "Wen-Wei Li — Methods in Algebra I, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter5.tex",
+          "locator": "基本概念 (sec:ring-basics), def:ideals, following ideal operations and quotient-ring definition, and eg:Z-pid",
+          "checked": "2026-10-15",
+          "note": "Absorption, generated ideals, ideal products, quotient multiplication, and ideals of the integers."
+        },
+        {
+          "id": "stacks-basic-ideals",
+          "label": "The Stacks Project — Basic notions",
+          "url": "https://stacks.math.columbia.edu/tag/00AR",
+          "locator": "Section 10.3, items 35–43, generated ideals, quotient rings, prime/maximal quotient criteria, contraction and extension",
+          "checked": "2026-10-15",
+          "note": "Quotient criteria and behavior under ring maps."
+        },
+        {
+          "id": "milne-ca-ideals",
+          "label": "J. S. Milne — A Primer of Commutative Algebra",
+          "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+          "locator": "Section 2, Ideals, opening definition and generated ideals, printed pp.3–4; Extension and contraction of ideals, Notation 2.10, printed p.7",
+          "checked": "2026-10-15",
+          "note": "Ideal generation and the distinction between images and extended ideals."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/ring-ideal.md"
     },
     {
       "id": "inclusion-exclusion-principle",
@@ -1935,11 +3027,9 @@
       "level": "Graduate",
       "summary": "A Lagrangian submanifold is a half-dimensional submanifold on which the ambient symplectic form vanishes.",
       "prerequisites": [
-        "symplectic-manifold",
-        "smooth-embedding"
+        "symplectic-manifold"
       ],
       "related": [
-        "symplectomorphism",
         "hamiltonian-floer-homology"
       ],
       "references": [
@@ -1958,6 +3048,58 @@
       "sourcePath": "resources/content/encyclopedia/geometry-topology/lagrangian-submanifold.md"
     },
     {
+      "id": "law-of-large-numbers",
+      "title": "Law of Large Numbers",
+      "chinese": "大数定律",
+      "aliases": [
+        "LLN"
+      ],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "summary": "For iid integrable observations, the sample average converges to the common expectation, almost surely and therefore in probability.",
+      "prerequisites": [
+        "independent-identically-distributed",
+        "expectation",
+        "convergence-in-probability"
+      ],
+      "related": [
+        "almost-sure-convergence",
+        "central-limit-theorem",
+        "variance"
+      ],
+      "references": [
+        {
+          "id": "durrett-strong-law",
+          "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+          "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+          "locator": "§2.4, Theorem 2.4.1 and its truncation proof, beginning with Lemma 2.4.2; §3.3, Example 3.3.16 and Exercise 3.3.6",
+          "checked": "2026-10-15",
+          "note": "Finite absolute first moment suffices; the theorem even allows pairwise independence with identical distributions. Also verifies the Cauchy comparison."
+        },
+        {
+          "id": "lawler-large-numbers",
+          "label": "Gregory F. Lawler — Notes on Probability",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "Section 4, Theorems 4.2 and 4.4 and the iid integrable extension following Theorem 4.4",
+          "checked": "2026-10-15",
+          "note": "Weak-law variance argument and an elementary strong-law proof under stronger fourth-moment assumptions."
+        },
+        {
+          "id": "lidf-lln-name",
+          "label": "李东风 — 概率统计课件（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/psbclw/psbp.pdf",
+          "locator": "§4.6.1, Theorem 6.1 (大数定律), printed pp.150–151",
+          "checked": "2026-10-15",
+          "note": "Chinese term and finite-variance weak-law statement; not evidence that finite variance is necessary."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/law-of-large-numbers.md"
+    },
+    {
       "id": "lebesgue-integral",
       "title": "Lebesgue Integral",
       "chinese": "Lebesgue积分",
@@ -1968,8 +3110,8 @@
       "summary": "The Lebesgue integral accumulates measurable values by approximation with simple functions.",
       "prerequisites": [
         "lebesgue-measure",
-        "measurable-function",
-        "simple-measurable-function"
+        "measurable-real-function",
+        "measurable-simple-function"
       ],
       "related": [
         "dominated-convergence-theorem",
@@ -2000,8 +3142,7 @@
       "level": "Graduate",
       "summary": "An Lp space consists of measurable functions modulo almost-everywhere equality with finite p-integrability.",
       "prerequisites": [
-        "lebesgue-integral",
-        "holder-integral-inequality"
+        "lebesgue-integral"
       ],
       "related": [
         "banach-space",
@@ -2033,8 +3174,7 @@
       "level": "Undergraduate",
       "summary": "Lebesgue measure extends Euclidean volume to a complete measure on a sigma-algebra of measurable sets.",
       "prerequisites": [
-        "measure-sigma-algebra",
-        "outer-measure"
+        "lebesgue-outer-measure"
       ],
       "related": [
         "lebesgue-integral",
@@ -2098,8 +3238,7 @@
       "level": "Graduate",
       "summary": "The Levi–Civita connection is the unique rule for differentiating tangent vector fields that both preserves a Riemannian metric and has zero torsion.",
       "prerequisites": [
-        "riemannian-metric",
-        "affine-connection"
+        "riemannian-metric"
       ],
       "related": [
         "parallel-transport",
@@ -2120,6 +3259,48 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/geometry-topology/levi-civita-connection.md"
+    },
+    {
+      "id": "lie-group",
+      "title": "Lie Group",
+      "chinese": "李群",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "summary": "A Lie group is a finite-dimensional smooth manifold with a group structure whose multiplication and inversion are smooth.",
+      "prerequisites": [
+        "group",
+        "smooth-manifold",
+        "tangent-space"
+      ],
+      "related": [
+        "group-action",
+        "smooth-vector-bundle",
+        "riemannian-geodesic"
+      ],
+      "references": [
+        {
+          "id": "meinrenken-lie-groups",
+          "label": "Eckhard Meinrenken — Riemannian Geometry",
+          "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+          "locator": "§10.1, Definition 10.1 and Proposition 10.2; §§10.2–10.4, left-invariant fields, matrix brackets, Definition 10.5 and Theorem 10.6",
+          "checked": "2026-10-15",
+          "note": "Inspected smooth group operations, closed subgroup statement, Lie algebra construction, and local exponential theorem."
+        },
+        {
+          "id": "nicolaescu-lie-frame",
+          "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+          "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+          "locator": "§2.1.5, Example 2.1.48",
+          "checked": "2026-10-15",
+          "note": "Inspected triviality of the tangent bundle of a Lie group by translated frames."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/lie-group.md"
     },
     {
       "id": "linear-map",
@@ -2252,6 +3433,47 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/algebra/localization-commutative-ring.md"
+    },
+    {
+      "id": "markov-chain",
+      "title": "Markov Chain",
+      "chinese": "马尔可夫链",
+      "aliases": [],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "summary": "A finite-state Markov chain evolves by transition probabilities determined by its current state rather than its full observed history.",
+      "prerequisites": [
+        "conditional-probability",
+        "stochastic-process"
+      ],
+      "related": [
+        "conditional-expectation",
+        "independent-random-variables",
+        "stopping-time"
+      ],
+      "references": [
+        {
+          "id": "cambridge-markov",
+          "label": "University of Cambridge — Markov Chains, course notes hosted by Richard Weber",
+          "url": "https://www.statslab.cam.ac.uk/~rrw1/markov/M.pdf",
+          "locator": "§1.2, Definition 1.2; §§1.4–1.6, transition powers; §8.1, invariant distributions; §§9.1–9.3, Theorems 9.1 and 9.8",
+          "checked": "2026-10-15",
+          "note": "Definition, row-vector convention, stationarity, and convergence under irreducibility and aperiodicity; specialized here to finite states."
+        },
+        {
+          "id": "pku-markov-name",
+          "label": "陈大岳 — 应用随机过程课程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/dayue/Homepage/asp.htm",
+          "locator": "《应用随机过程》2008年秋，主要内容，第二章：马尔可夫链，items 1–3",
+          "checked": "2026-10-15",
+          "note": "Chinese term in a university course outline; used as terminology evidence, not as a mathematical definition."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/markov-chain.md"
     },
     {
       "id": "martingale",
@@ -2416,6 +3638,41 @@
       "sourcePath": "resources/content/encyclopedia/number-theory/modular-form.md"
     },
     {
+      "id": "morse-function",
+      "title": "Morse Function",
+      "chinese": "Morse函数",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "summary": "A Morse function is a smooth real-valued function whose critical points all have nonsingular Hessians.",
+      "prerequisites": [
+        "smooth-manifold",
+        "tangent-space",
+        "linear-map"
+      ],
+      "related": [
+        "cw-complex",
+        "singular-homology",
+        "euler-characteristic",
+        "riemannian-geodesic"
+      ],
+      "references": [
+        {
+          "id": "cohen-iga-norbury-morse",
+          "label": "Ralph L. Cohen, Kevin Iga and Paul Norbury — Topics in Morse Theory",
+          "url": "https://math.stanford.edu/~ralph/morsecourse/biglectures.pdf",
+          "locator": "Introduction, critical points, Hessian and Morse-function definition; Chapter 5, Theorems 5.1, 5.3, 5.6–5.7 and Corollaries 5.9–5.10",
+          "checked": "2026-10-15",
+          "note": "Inspected nondegeneracy, the regular interval theorem, Morse normal form and its proof, cell attachment, and numerical consequences on closed manifolds."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/morse-function.md"
+    },
+    {
       "id": "natural-transformation",
       "title": "Natural Transformation",
       "chinese": "自然变换",
@@ -2446,6 +3703,49 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/category-theory/natural-transformation.md"
+    },
+    {
+      "id": "noetherian-ring",
+      "title": "Noetherian Commutative Ring",
+      "chinese": "Noether 环",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "commutative-algebra",
+      "level": "Undergraduate",
+      "summary": "A commutative ring is Noetherian when all its ideals are finitely generated, equivalently when every ascending ideal chain stabilizes.",
+      "prerequisites": [
+        "commutative-ring",
+        "ring-ideal",
+        "finitely-generated-module"
+      ],
+      "related": [
+        "polynomial-ring",
+        "principal-ideal-domain",
+        "localization-commutative-ring",
+        "algebraic-prime-spectrum"
+      ],
+      "references": [
+        {
+          "id": "stacks-noetherian",
+          "label": "The Stacks Project — Noetherian rings",
+          "url": "https://stacks.math.columbia.edu/tag/00FM",
+          "locator": "Section 10.31, opening definition and Lemmas 10.31.1, 10.31.3–10.31.5",
+          "checked": "2026-10-15",
+          "note": "Equivalent chain condition; polynomial, quotient and localization permanence; finite modules and spectra."
+        },
+        {
+          "id": "li-noetherian",
+          "label": "Wen-Wei Li — Methods in Algebra I, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter6.tex",
+          "locator": "链条件和模的合成列, def:ACC-DCC-mod and ring specialization; prop:fg-noetherian",
+          "checked": "2026-10-15",
+          "note": "Noetherian modules, rings, and equivalence with finite generation of all submodules."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/noetherian-ring.md"
     },
     {
       "id": "number-field",
@@ -2492,6 +3792,56 @@
       "sourcePath": "resources/content/encyclopedia/number-theory/number-field.md"
     },
     {
+      "id": "dynamical-orbit",
+      "title": "Orbit of a Dynamical System",
+      "chinese": "轨道",
+      "aliases": [
+        "forward orbit",
+        "正半轨道"
+      ],
+      "area": "dynamics",
+      "topic": "dynamics",
+      "level": "Undergraduate",
+      "summary": "An orbit is the set of states reached by iterating a map or following a flow, with forward and full time distinguished.",
+      "prerequisites": [
+        "set-function",
+        "function-image",
+        "bijective-function"
+      ],
+      "related": [
+        "dynamical-fixed-point",
+        "dynamical-periodic-point",
+        "omega-limit-set",
+        "dynamical-flow",
+        "topological-transitivity",
+        "poincare-recurrence",
+        "group-orbit",
+        "countable-set"
+      ],
+      "references": [
+        {
+          "id": "bullett-discrete-orbits",
+          "label": "Shaun Bullett — Discrete dynamics on the real line",
+          "url": "https://webspace.maths.qmul.ac.uk/s.r.bullett/cf_chapter2.pdf",
+          "locator": "Chapter 2, printed/PDF pp.1–2: forward and backward orbit definitions, prime period, eventual periodicity and the invertible-map lemma",
+          "checked": "2026-10-15",
+          "note": "Supports orbit and periodicity conventions and cancellation of a transient tail for invertible maps; the algebraic arguments extend to self-maps of sets."
+        },
+        {
+          "id": "sarig-iteration",
+          "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+          "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+          "locator": "§1.1 What is ergodic theory?, printed p.1 / PDF p.9: iterates, semigroup actions, flows and the orbit viewpoint",
+          "checked": "2026-10-15",
+          "note": "Supports discrete versus continuous time and the role of extra topological or measure structure."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/dynamics/dynamical-orbit.md"
+    },
+    {
       "id": "ordinary-generating-function",
       "title": "Ordinary Generating Function",
       "chinese": "普通生成函数",
@@ -2533,6 +3883,193 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/combinatorics/ordinary-generating-function.md"
+    },
+    {
+      "id": "partial-order",
+      "title": "Partial Order",
+      "chinese": "偏序",
+      "aliases": [],
+      "area": "foundations",
+      "topic": "set-theory",
+      "level": "Undergraduate",
+      "summary": "A partial order is a reflexive, antisymmetric and transitive relation that may leave some pairs incomparable.",
+      "prerequisites": [
+        "set",
+        "cartesian-product",
+        "logical-implication"
+      ],
+      "related": [
+        "well-order",
+        "equivalence-relation",
+        "integer-divisibility",
+        "power-set",
+        "graph-tree",
+        "categorical-limit"
+      ],
+      "references": [
+        {
+          "id": "logic-proof-orders",
+          "label": "Avigad, Hua, Lewis and van Doorn — Logic and Proof",
+          "url": "https://leanprover-community.github.io/logic_and_proof/relations.html",
+          "locator": "§13.1 Order Relations: partial, total and strict orders and their conversion; §13.2 More on Orderings: least versus minimal elements",
+          "checked": "2026-10-15",
+          "note": "Supports the order axioms and convention distinctions; divisibility examples here are restricted to positive integers."
+        },
+        {
+          "id": "keller-trotter-posets",
+          "label": "Keller and Trotter — Applied Combinatorics (2016)",
+          "url": "https://rellek.net/book-2016/s_posets_intro.html",
+          "locator": "§6.1: poset and cover definitions, Hasse diagrams, and Example 6.7(1)–(3)",
+          "checked": "2026-10-15",
+          "note": "Supports inclusion, positive-integer divisibility and coordinatewise orders, and the interpretation of Hasse diagrams."
+        },
+        {
+          "id": "keller-trotter-linear-extensions",
+          "label": "Keller and Trotter — Applied Combinatorics (2016)",
+          "url": "https://rellek.net/book-2016/s_posets_sorting.html",
+          "locator": "§6.4 Linear Extensions of Partially Ordered Sets: opening definition and Discussion 6.24",
+          "checked": "2026-10-15",
+          "note": "Supports linear extensions and the finite existence question; the article supplies its own finite proof sketch."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/foundations/partial-order.md"
+    },
+    {
+      "id": "poincare-duality",
+      "title": "Poincaré Duality",
+      "chinese": "Poincaré 对偶",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "algebraic-topology",
+      "level": "Graduate",
+      "summary": "On a closed oriented manifold, cap product with its fundamental class identifies cohomology with homology in complementary dimensions.",
+      "prerequisites": [
+        "singular-homology",
+        "singular-cohomology",
+        "manifold-orientation",
+        "closed-manifold"
+      ],
+      "related": [
+        "cup-product",
+        "de-rham-cohomology",
+        "stokes-theorem-manifolds"
+      ],
+      "references": [
+        {
+          "id": "hatcher-duality",
+          "label": "Allen Hatcher — Algebraic Topology",
+          "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+          "locator": "§3.3, Theorem 3.30 and Example 3.31, printed pp. 241–242; Theorem 3.35, Lemma 3.36 and proof, pp. 245–248; Theorem 3.43, p. 254",
+          "checked": "2026-10-15",
+          "note": "Inspected cap-product duality, the surface example, compact supports, the Mayer–Vietoris proof, and relative boundary duality."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/poincare-duality.md"
+    },
+    {
+      "id": "poincare-recurrence",
+      "title": "Poincaré Recurrence Theorem",
+      "chinese": "庞加莱回复定理",
+      "aliases": [
+        "Poincaré recurrence"
+      ],
+      "area": "dynamics",
+      "topic": "dynamics",
+      "level": "Graduate",
+      "summary": "In a probability-preserving system, almost every point of each measurable set returns to that set infinitely often.",
+      "prerequisites": [
+        "probability-space",
+        "measure-preserving-transformation",
+        "almost-everywhere",
+        "dynamical-orbit"
+      ],
+      "related": [
+        "invariant-measure",
+        "ergodic-transformation",
+        "strong-mixing",
+        "birkhoff-ergodic-theorem",
+        "poincare-return-map",
+        "nonwandering-point"
+      ],
+      "references": [
+        {
+          "id": "sarig-recurrence",
+          "label": "Omri Sarig — Lecture Notes on Ergodic Theory",
+          "url": "https://www.weizmann.ac.il/math/sarigo/sites/math.sarigo/files/uploads/ergodicnotes.pdf",
+          "locator": "§1.2, Definition 1.2 and Theorem 1.1, printed p.4 / PDF p.12; infinite-measure translation counterexample immediately after Theorem 1.1",
+          "checked": "2026-10-15",
+          "note": "Supports probability preservation, infinitely many returns and the necessity of a finite-measure hypothesis for the general guarantee."
+        },
+        {
+          "id": "bruin-recurrence",
+          "label": "Henk Bruin — Notes on Ergodic Theory",
+          "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+          "locator": "Section 7 Poincaré Recurrence: Theorem 12 and proof; first-return-time definition and opening proof of Lemma 4 (Kac Lemma)",
+          "checked": "2026-10-15",
+          "note": "Supports the finite-volume recurrence mechanism, return-time notation and reduction of finitely returning points to a nonreturning set; no Kac formula is asserted here."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/dynamics/poincare-recurrence.md"
+    },
+    {
+      "id": "poisson-process",
+      "title": "Poisson Process",
+      "chinese": "泊松过程",
+      "aliases": [],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "summary": "A homogeneous Poisson process counts arrivals in continuous time with stationary independent increments and a fixed positive rate.",
+      "prerequisites": [
+        "stochastic-process",
+        "poisson-distribution",
+        "exponential-distribution",
+        "independent-random-variables"
+      ],
+      "related": [
+        "stopping-time",
+        "martingale",
+        "markov-chain"
+      ],
+      "references": [
+        {
+          "id": "lawler-poisson",
+          "label": "Gregory F. Lawler — Stochastic Calculus: An Introduction with Applications",
+          "url": "https://www.math.uchicago.edu/~lawler/finbook.pdf",
+          "locator": "§6.2, printed pp.188–191, exponential waiting times, right-continuous counting construction, and increment distribution",
+          "checked": "2026-10-15",
+          "note": "Homogeneous process, interarrival construction, Poisson increment law, and small-time probabilities."
+        },
+        {
+          "id": "lidf-poisson",
+          "label": "李东风 — 应用随机过程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/poisson.html",
+          "locator": "§3.1, Definitions 3.1–3.2; §3.2.1, Theorem 3.3 and Definition 3.4",
+          "checked": "2026-10-15",
+          "note": "Chinese terminology, path convention, independent increments, and iid exponential waiting times."
+        },
+        {
+          "id": "lidf-compensation",
+          "label": "李东风 — 应用随机过程，第6章 鞅（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+          "locator": "§6.5.1, Example 6.33 and its conditional-increment proof",
+          "checked": "2026-10-15",
+          "note": "Compensated Poisson martingale for the natural filtration."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/poisson-process.md"
     },
     {
       "id": "algebraic-prime-spectrum",
@@ -2789,6 +4326,41 @@
       "sourcePath": "resources/content/encyclopedia/probability/random-variable.md"
     },
     {
+      "id": "representable-functor",
+      "title": "Representable Functor",
+      "chinese": "可表函子",
+      "aliases": [],
+      "area": "category-theory",
+      "topic": "category-theory",
+      "level": "Graduate",
+      "summary": "A representable set-valued functor describes maps to or from one object through natural bijections.",
+      "prerequisites": [
+        "category",
+        "functor",
+        "natural-transformation",
+        "universal-property"
+      ],
+      "related": [
+        "yoneda-lemma",
+        "categorical-product",
+        "adjunction"
+      ],
+      "references": [
+        {
+          "id": "riehl-representable",
+          "label": "Emily Riehl — Category Theory in Context, author second-edition draft",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "§2.1, Definition 2.1.4 and Examples 2.1.5–2.1.6; §2.3, Corollary 2.3.2 and Definition 2.3.3; §3.5, Theorems 3.5.5(i), 3.5.6 and 3.5.10(i)",
+          "checked": "2026-10-15",
+          "note": "Variance, natural representations and compatible uniqueness; polynomial and product examples below are original applications."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/category-theory/representable-functor.md"
+    },
+    {
       "id": "complex-residue",
       "title": "Residue at an Isolated Complex Singularity",
       "chinese": "留数",
@@ -2802,7 +4374,6 @@
         "laurent-series"
       ],
       "related": [
-        "residue-theorem",
         "complex-pole"
       ],
       "references": [
@@ -2821,6 +4392,117 @@
       "sourcePath": "resources/content/encyclopedia/analysis/complex-residue.md"
     },
     {
+      "id": "riemann-surface",
+      "title": "Riemann Surface",
+      "chinese": "黎曼曲面",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "summary": "A Riemann surface is a connected complex manifold of complex dimension one, specified by holomorphic changes of local coordinates.",
+      "prerequisites": [
+        "smooth-manifold",
+        "holomorphic-function"
+      ],
+      "related": [
+        "covering-space",
+        "orientable-surface-genus",
+        "complex-residue"
+      ],
+      "references": [
+        {
+          "id": "teleman-riemann-surfaces",
+          "label": "Constantin Teleman — Riemann Surfaces",
+          "url": "https://math.berkeley.edu/~teleman/math/Riemann.pdf",
+          "locator": "Lecture 3, Definition 3.1, Proposition 3.2, Example 3.3, Theorems 3.5–3.6 and 3.10; Lecture 4, Theorem 4.3",
+          "checked": "2026-10-15",
+          "note": "Inspected the holomorphic atlas definition, sphere charts, compact maximum principle, local power-map form, and meromorphic maps to the sphere."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/riemann-surface.md"
+    },
+    {
+      "id": "riemann-zeta-function",
+      "title": "Riemann Zeta Function",
+      "chinese": "黎曼 ζ 函数",
+      "aliases": [
+        "Riemann zeta"
+      ],
+      "area": "number-theory",
+      "topic": "analytic-number-theory",
+      "level": "Graduate",
+      "summary": "The Riemann zeta function connects a Dirichlet series over integers with an Euler product over primes and a meromorphic continuation governed by a functional equation.",
+      "prerequisites": [
+        "fundamental-theorem-of-arithmetic",
+        "holomorphic-function",
+        "meromorphic-function"
+      ],
+      "related": [
+        "dirichlet-l-function",
+        "dedekind-zeta-function",
+        "prime-number",
+        "fourier-series"
+      ],
+      "references": [
+        {
+          "id": "sutherland-series",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 16 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes16.pdf",
+          "locator": "Section 16.1, Definition 16.1, Theorem 16.2 and Theorem 16.3, pp.1–2",
+          "checked": "2026-10-15",
+          "note": "Convergence, holomorphy, Euler product and residue at 1."
+        },
+        {
+          "id": "sutherland-functional",
+          "label": "Andrew V. Sutherland — MIT 18.785, Lecture 17 (2021)",
+          "url": "https://math.mit.edu/classes/18.785/2021fa/LectureNotes17.pdf",
+          "locator": "Lemma 17.10, p.3; derivation of equations (3)–(4) and trivial zeros discussion, pp.5–7; Section 17.2, Theorem 17.17, p.7",
+          "checked": "2026-10-15",
+          "note": "Theta transformation, continuation, functional equation and completed functions; the article explicitly fixes its xi normalization."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/number-theory/riemann-zeta-function.md"
+    },
+    {
+      "id": "riemannian-geodesic",
+      "title": "Riemannian Geodesic",
+      "chinese": "测地线",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Undergraduate",
+      "summary": "A Riemannian geodesic is an affinely parametrized curve with zero covariant acceleration for the Levi–Civita connection.",
+      "prerequisites": [
+        "riemannian-metric",
+        "levi-civita-connection"
+      ],
+      "related": [
+        "parallel-transport",
+        "riemann-curvature-tensor",
+        "morse-function"
+      ],
+      "references": [
+        {
+          "id": "meinrenken-geodesics",
+          "label": "Eckhard Meinrenken — Riemannian Geometry",
+          "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+          "locator": "§16, Definition 16.1, Theorems 16.3, 16.5, 16.9 and 16.13; §17, Theorem 17.3, Lemma 17.4 and Theorem 17.7",
+          "checked": "2026-10-15",
+          "note": "Inspected the geodesic equation, initial-value theorem, energy characterization, local minimizing argument, and Hopf–Rinow hypotheses."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/riemannian-geodesic.md"
+    },
+    {
       "id": "riemannian-metric",
       "title": "Riemannian Metric",
       "chinese": "Riemann度量",
@@ -2836,7 +4518,7 @@
       "related": [
         "levi-civita-connection",
         "riemannian-geodesic",
-        "sectional-curvature"
+        "riemann-curvature-tensor"
       ],
       "references": [
         {
@@ -2852,6 +4534,65 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/geometry-topology/riemannian-metric.md"
+    },
+    {
+      "id": "scheme",
+      "title": "Scheme",
+      "chinese": "概形",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "algebraic-geometry",
+      "level": "Graduate",
+      "summary": "A scheme is a locally ringed space locally isomorphic to the prime spectrum of a commutative ring equipped with its structure sheaf.",
+      "prerequisites": [
+        "algebraic-prime-spectrum",
+        "localization-commutative-ring",
+        "local-ring",
+        "sheaf"
+      ],
+      "related": [
+        "commutative-ring",
+        "prime-ideal",
+        "noetherian-ring"
+      ],
+      "references": [
+        {
+          "id": "stacks-locally-ringed",
+          "label": "The Stacks Project — Locally ringed spaces",
+          "url": "https://stacks.math.columbia.edu/tag/01HA",
+          "locator": "Section 26.2, opening ringed-space discussion and Definition 26.2.1",
+          "checked": "2026-10-15",
+          "note": "Local stalks and local homomorphisms in morphisms of locally ringed spaces."
+        },
+        {
+          "id": "stacks-affine-schemes",
+          "label": "The Stacks Project — Affine schemes",
+          "url": "https://stacks.math.columbia.edu/tag/01HR",
+          "locator": "Section 26.5, construction on standard opens, Definition 26.5.3, Lemma 26.5.4 and Definition 26.5.5",
+          "checked": "2026-10-15",
+          "note": "Structure sheaf, localized sections and stalks, and affine schemes."
+        },
+        {
+          "id": "stacks-schemes",
+          "label": "The Stacks Project — Schemes",
+          "url": "https://stacks.math.columbia.edu/tag/01II",
+          "locator": "Section 26.9, Definition 26.9.1 and Lemma 26.9.2",
+          "checked": "2026-10-15",
+          "note": "Local affine definition and open subschemes."
+        },
+        {
+          "id": "stacks-affine-morphisms",
+          "label": "The Stacks Project — Morphisms to an affine scheme",
+          "url": "https://stacks.math.columbia.edu/tag/01I1",
+          "locator": "Lemma 26.6.4, statement and construction using inverse images of maximal ideals and localization on standard opens",
+          "checked": "2026-10-15",
+          "note": "Ring maps correspond to morphisms into affine schemes; source need only be locally ringed."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/scheme.md"
     },
     {
       "id": "set",
@@ -2890,6 +4631,54 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/foundations/set.md"
+    },
+    {
+      "id": "sheaf",
+      "title": "Sheaf",
+      "chinese": "层",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "algebraic-geometry",
+      "level": "Graduate",
+      "summary": "A sheaf assigns data to open sets with restriction maps so that compatible local sections glue uniquely.",
+      "prerequisites": [
+        "topological-space"
+      ],
+      "related": [
+        "scheme",
+        "algebraic-prime-spectrum",
+        "module-ext-group"
+      ],
+      "references": [
+        {
+          "id": "stacks-sheaves",
+          "label": "The Stacks Project — Sheaves",
+          "url": "https://stacks.math.columbia.edu/tag/006S",
+          "locator": "Section 6.7, Definition 6.7.1, Remark 6.7.2, Example 6.7.3 and Definition 6.7.4",
+          "checked": "2026-10-15",
+          "note": "Sheaf axiom, empty open set, continuous functions and constant sheaves."
+        },
+        {
+          "id": "stacks-sheaf-points",
+          "label": "The Stacks Project — Exactness and points",
+          "url": "https://stacks.math.columbia.edu/tag/007S",
+          "locator": "Section 6.16, Lemma 6.16.1 and Definition 6.16.2",
+          "checked": "2026-10-15",
+          "note": "Isomorphisms detected on stalks and locally defined surjectivity."
+        },
+        {
+          "id": "li-sheaves",
+          "label": "Wen-Wei Li — Introduction to Modular Forms",
+          "url": "https://www.wwli.asia/downloads/books/Modulform.pdf",
+          "locator": "Appendix B.1 层与局部系统, Definition B.1.1, Remark B.1.2 and the following stalk and ring-sheaf discussion, printed pp.341–342 (PDF pp.347–348)",
+          "checked": "2026-10-15",
+          "note": "Presheaves, sheaves, restriction maps, stalks and algebra-valued variants; Chinese usage of 层."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/sheaf.md"
     },
     {
       "id": "short-exact-sequence-modules",
@@ -2991,6 +4780,48 @@
       "sourcePath": "resources/content/encyclopedia/geometry-topology/smooth-manifold.md"
     },
     {
+      "id": "smooth-vector-bundle",
+      "title": "Smooth Vector Bundle",
+      "chinese": "向量丛",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "summary": "A smooth vector bundle is a locally trivial smooth family of vector spaces whose changes of fiber coordinates are linear.",
+      "prerequisites": [
+        "smooth-manifold",
+        "vector-space",
+        "linear-map"
+      ],
+      "related": [
+        "tangent-bundle",
+        "cotangent-space",
+        "lie-group"
+      ],
+      "references": [
+        {
+          "id": "nicolaescu-bundles",
+          "label": "Liviu I. Nicolaescu — Lectures on the Geometry of Manifolds",
+          "url": "https://academicweb.nd.edu/~lnicolae/Lectures.pdf",
+          "locator": "§2.1.4, Definition 2.1.23, gluing cocycles and Definition 2.1.27; §2.1.5, Definition 2.1.45 and Remark 2.1.46",
+          "checked": "2026-10-15",
+          "note": "Inspected local triviality, sections, cocycle reconstruction, and the global-frame criterion."
+        },
+        {
+          "id": "gualtieri-bundles",
+          "label": "Marco Gualtieri — Geometry and Topology I",
+          "url": "https://www.math.toronto.edu/mgualt/courses/17-1300/docs/17-1300-notes.pdf",
+          "locator": "§5, Definitions 5.1, 5.5–5.6 and Example 5.9; §5.1, Examples 5.15–5.17",
+          "checked": "2026-10-15",
+          "note": "Inspected bundle maps, pullbacks, and operations on bundles."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/smooth-vector-bundle.md"
+    },
+    {
       "id": "sobolev-space",
       "title": "Sobolev Space",
       "chinese": "Sobolev空间",
@@ -3023,6 +4854,133 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/analysis/sobolev-space.md"
+    },
+    {
+      "id": "sobolev-trace",
+      "title": "Sobolev Trace",
+      "chinese": "Sobolev函数的迹",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "functional-analysis",
+      "level": "Graduate",
+      "summary": "A Sobolev trace assigns boundary values by continuously extending restriction from smooth functions.",
+      "prerequisites": [
+        "sobolev-space",
+        "weak-derivative",
+        "lp-space"
+      ],
+      "related": [
+        "weak-pde-solution",
+        "bounded-linear-operator",
+        "hilbert-space"
+      ],
+      "references": [
+        {
+          "id": "hunter-sobolev-trace",
+          "label": "John K. Hunter — Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "locator": "§3.9, Definition 3.43, Theorem 3.44 and proof, printed pp.71–73; §3.11, boundary flattening and partition-of-unity discussion",
+          "checked": "2026-10-15",
+          "note": "First-order half-space trace bound, zero-trace characterization and transfer to smooth bounded domains inspected; higher-order zero boundary data require more traces."
+        },
+        {
+          "id": "cheng-zhao-trace",
+          "label": "程代展、赵寅 — 系统与控制中的近代数学基础（第2版），清华大学出版社预览",
+          "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/047803-01.pdf",
+          "locator": "§3.9, 定理3.9.1（迹定理）, printed p.134",
+          "checked": "2026-10-15",
+          "note": "Chinese boundary-trace usage and Hm trace theorem inspected; m=1 gives the H1 to H1/2 boundary formulation."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/sobolev-trace.md"
+    },
+    {
+      "id": "spectral-sequence",
+      "title": "Spectral Sequence",
+      "chinese": "谱序列",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "homological-algebra",
+      "level": "Graduate",
+      "summary": "A spectral sequence is a sequence of differential objects whose successive pages are their cohomology, often computing associated graded pieces of a filtered cohomology group.",
+      "prerequisites": [
+        "chain-complex-modules",
+        "module-homology",
+        "quotient-module"
+      ],
+      "related": [
+        "module-ext-group",
+        "sheaf",
+        "differential-graded-category"
+      ],
+      "references": [
+        {
+          "id": "li-spectral-sequence",
+          "label": "Wen-Wei Li — Methods in Algebra II, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter5.tex",
+          "locator": "谱序列的一般定义 (sec:spectral-sequence), def:SS-abstract and def:graded-spectral-sequence; 滤过复形的谱序列 (sec:filtered-cplx-ss), page formulas",
+          "checked": "2026-10-15",
+          "note": "Abstract pages, specified transition isomorphisms, cohomological bigrading and filtered-complex construction."
+        },
+        {
+          "id": "stacks-filtered-complex",
+          "label": "The Stacks Project — Spectral sequences: filtered complexes",
+          "url": "https://stacks.math.columbia.edu/tag/012K",
+          "locator": "Section 12.24, Definition 12.24.1, Lemma 12.24.2, Definition 12.24.5 and Lemma 12.24.11",
+          "checked": "2026-10-15",
+          "note": "Filtered complexes, initial pages, induced cohomology filtration and convergence for degreewise finite filtrations."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/algebra/spectral-sequence.md"
+    },
+    {
+      "id": "spectral-theorem-compact-self-adjoint",
+      "title": "Spectral Theorem for Compact Self-Adjoint Operators",
+      "chinese": "紧自伴算子的谱定理",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "functional-analysis",
+      "level": "Graduate",
+      "summary": "A compact self-adjoint operator on a separable Hilbert space has an orthonormal eigenbasis, with nonzero eigenvalues of finite multiplicity accumulating only at zero.",
+      "prerequisites": [
+        "hilbert-space",
+        "compact-linear-operator",
+        "bounded-linear-operator"
+      ],
+      "related": [
+        "fourier-series",
+        "weak-pde-solution",
+        "sobolev-space",
+        "linear-operator-norm"
+      ],
+      "references": [
+        {
+          "id": "hunter-compact-spectral",
+          "label": "John K. Hunter — Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "locator": "Appendix 4.B.1, Theorem 4.37; §4.10, Theorem 4.25 and preceding resolvent discussion",
+          "checked": "2026-10-15",
+          "note": "Eigenbasis including the kernel, finite nonzero multiplicities, and the elliptic resolvent application inspected."
+        },
+        {
+          "id": "mit-compact-spectral",
+          "label": "MIT OpenCourseWare — 18.102 Spring 2021, Complete Lecture Notes",
+          "url": "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/8fb8d5c170f1613151aca71de21027bc_MIT18_102s21_full_lec.pdf",
+          "locator": "Lecture 22 (May 11), Theorems 228, 231–232 and proofs, printed pp.114–118",
+          "checked": "2026-10-15",
+          "note": "Separable formulation, maximum principle, recursive eigenvector construction and norm remainder estimate inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/spectral-theorem-compact-self-adjoint.md"
     },
     {
       "id": "stable-homotopy-group",
@@ -3099,6 +5057,85 @@
       "sourcePath": "resources/content/encyclopedia/probability/stochastic-differential-equation.md"
     },
     {
+      "id": "stokes-theorem-manifolds",
+      "title": "Stokes' Theorem on Manifolds",
+      "chinese": "Stokes 定理",
+      "aliases": [
+        "generalized Stokes theorem"
+      ],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Undergraduate",
+      "summary": "Stokes' theorem equates the integral of an exterior derivative over an oriented manifold with the integral of the original form over its oriented boundary.",
+      "prerequisites": [
+        "differential-form",
+        "exterior-derivative",
+        "manifold-orientation",
+        "manifold-with-boundary"
+      ],
+      "related": [
+        "de-rham-cohomology",
+        "poincare-duality",
+        "fundamental-theorem-calculus"
+      ],
+      "references": [
+        {
+          "id": "gualtieri-stokes",
+          "label": "Marco Gualtieri — Geometry and Topology I",
+          "url": "https://www.math.toronto.edu/mgualt/courses/17-1300/docs/17-1300-notes.pdf",
+          "locator": "§6.4, Proposition 6.17, the local half-space calculation, Theorem 6.18 and Corollary 6.19, printed pp. 60–61",
+          "checked": "2026-10-15",
+          "note": "Inspected induced boundary orientation, compact support, partition-of-unity proof, and the boundary-free corollary."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/geometry-topology/stokes-theorem-manifolds.md"
+    },
+    {
+      "id": "stopping-time",
+      "title": "Stopping Time",
+      "chinese": "停时",
+      "aliases": [],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Graduate",
+      "summary": "A stopping time is a random time for which deciding whether stopping has occurred uses only information already available.",
+      "prerequisites": [
+        "probability-filtration",
+        "adapted-stochastic-process",
+        "conditional-expectation"
+      ],
+      "related": [
+        "martingale",
+        "poisson-process",
+        "brownian-motion"
+      ],
+      "references": [
+        {
+          "id": "lawler-stopping",
+          "label": "Gregory F. Lawler — Notes on Probability",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "§6.2, stopping-time definition, Proposition 6.4, and doubling-strategy example (21)",
+          "checked": "2026-10-15",
+          "note": "Discrete stopping times, stopped martingales, and failure of unrestricted optional stopping."
+        },
+        {
+          "id": "lidf-stopping",
+          "label": "李东风 — 应用随机过程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/martingale.html",
+          "locator": "§6.2.1, Definitions 6.7–6.9; §6.5.2, Definition 6.14",
+          "checked": "2026-10-15",
+          "note": "Chinese term and discrete/continuous definitions; the continuous definition there additionally requires almost-sure finiteness."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/probability/stopping-time.md"
+    },
+    {
       "id": "strong-mixing",
       "title": "Strong Mixing in Measure-Preserving Dynamics",
       "chinese": "强混合",
@@ -3157,8 +5194,7 @@
       ],
       "related": [
         "hamiltonian-vector-field",
-        "lagrangian-submanifold",
-        "darboux-theorem-symplectic"
+        "lagrangian-submanifold"
       ],
       "references": [
         {
@@ -3190,7 +5226,7 @@
       "related": [
         "cotangent-space",
         "tangent-bundle",
-        "vector-field"
+        "smooth-vector-field"
       ],
       "references": [
         {
@@ -3346,6 +5382,52 @@
       "sourcePath": "resources/content/encyclopedia/dynamics/topological-transitivity.md"
     },
     {
+      "id": "graph-tree",
+      "title": "Tree in Graph Theory",
+      "chinese": "树",
+      "aliases": [],
+      "area": "combinatorics",
+      "topic": "combinatorics",
+      "level": "Undergraduate",
+      "summary": "A finite tree is a nonempty connected simple graph without cycles, equivalently one with a unique path between every pair of vertices.",
+      "prerequisites": [
+        "finite-simple-graph",
+        "graph-path",
+        "graph-cycle",
+        "connected-graph"
+      ],
+      "related": [
+        "graph-spanning-tree",
+        "graph-vertex-degree",
+        "bipartite-graph",
+        "graph-chromatic-number",
+        "partial-order",
+        "extremal-graph-theory"
+      ],
+      "references": [
+        {
+          "id": "keller-trotter-trees",
+          "label": "Keller and Trotter — Applied Combinatorics (2016)",
+          "url": "https://rellek.net/book-2016/s_graphs_intro.html",
+          "locator": "§5.1: walk/path/cycle, connected graph, forest/tree and spanning-tree definitions; Proposition 5.11 and its proof",
+          "checked": "2026-10-15",
+          "note": "Supports path and tree conventions and the two-leaf property for finite trees with at least two vertices."
+        },
+        {
+          "id": "morris-trees",
+          "label": "Joy Morris — Combinatorics, version 2.1.1",
+          "url": "https://opentext.uleth.ca/PDF/Combinatorics.pdf",
+          "locator": "§12.4: Definition 12.4.1, Propositions 12.4.2–12.4.4 and Theorem 12.4.5 with proof, printed pp.129–132 / PDF pp.135–138",
+          "checked": "2026-10-15",
+          "note": "Supports edge deletion, leaf removal and the equivalent n−1-edge characterizations."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/combinatorics/graph-tree.md"
+    },
+    {
       "id": "uniform-continuity",
       "title": "Uniform Continuity",
       "chinese": "一致连续",
@@ -3358,7 +5440,6 @@
         "continuous-function"
       ],
       "related": [
-        "lipschitz-function",
         "uniform-convergence"
       ],
       "references": [
@@ -3390,8 +5471,7 @@
         "continuous-function"
       ],
       "related": [
-        "pointwise-convergence",
-        "weierstrass-m-test"
+        "pointwise-convergence"
       ],
       "references": [
         {
@@ -3407,6 +5487,41 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/analysis/uniform-convergence.md"
+    },
+    {
+      "id": "universal-property",
+      "title": "Universal Property",
+      "chinese": "泛性质",
+      "aliases": [],
+      "area": "category-theory",
+      "topic": "category-theory",
+      "level": "Graduate",
+      "summary": "A universal property specifies an object together with structural maps through unique compatible factorizations.",
+      "prerequisites": [
+        "category",
+        "functor",
+        "categorical-product"
+      ],
+      "related": [
+        "representable-functor",
+        "categorical-limit",
+        "tensor-product-modules",
+        "localization-commutative-ring"
+      ],
+      "references": [
+        {
+          "id": "riehl-universal",
+          "label": "Emily Riehl — Category Theory in Context, author second-edition draft",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "§2.3, Corollary 2.3.2, Definition 2.3.3 and Examples 2.3.4 and 2.3.8; §3.1, Definition 3.1.9",
+          "checked": "2026-10-15",
+          "note": "Universal elements, compatible uniqueness and examples of representing constructions."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/category-theory/universal-property.md"
     },
     {
       "id": "universal-quantifier",
@@ -3491,8 +5606,7 @@
       "summary": "The smooth wavefront set records where a distribution fails to be smooth and in which cotangent directions.",
       "prerequisites": [
         "analysis-distribution",
-        "fourier-transform",
-        "test-function"
+        "fourier-transform"
       ],
       "related": [
         "sobolev-space",
@@ -3512,6 +5626,41 @@
         "Mathematics Resources editorial compilation (AI-assisted)"
       ],
       "sourcePath": "resources/content/encyclopedia/analysis/wavefront-set.md"
+    },
+    {
+      "id": "weak-derivative",
+      "title": "Weak Derivative",
+      "chinese": "弱导数",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "differential-equations",
+      "level": "Graduate",
+      "summary": "A weak derivative is a locally integrable function representing differentiation through integration against smooth test functions.",
+      "prerequisites": [
+        "lebesgue-integral",
+        "real-derivative",
+        "analysis-distribution"
+      ],
+      "related": [
+        "sobolev-space",
+        "sobolev-trace",
+        "weak-pde-solution",
+        "fourier-transform"
+      ],
+      "references": [
+        {
+          "id": "hunter-weak-derivatives",
+          "label": "John K. Hunter — Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "locator": "§3.1, Definitions 3.1–3.2; §3.2, Examples 3.3–3.4; §3.3, regular distribution interpretation; §3.4, Propositions 3.16–3.17",
+          "checked": "2026-10-15",
+          "note": "Definition, corner and jump examples, distinction from a.e. derivatives, product rule and commutation inspected."
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ],
+      "sourcePath": "resources/content/encyclopedia/analysis/weak-derivative.md"
     },
     {
       "id": "weak-pde-solution",
@@ -5048,6 +7197,41 @@
           "url": "https://apolloniussun.github.io/AT.pdf",
           "locator": "§13.0.2 胞腔同调",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "central-limit-theorem",
+      "english": "central limit theorem",
+      "chinese": "中心极限定理",
+      "aliases": [
+        "CLT"
+      ],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "definitionEn": "The classical iid central limit theorem states that for real iid $X_j$ with mean $\\mu$ and variance $0<\\sigma^2<\\infty$, $(\\sum_{j=1}^n X_j-n\\mu)/(\\sigma\\sqrt n)$ converges in distribution to $N(0,1)$.",
+      "definitionZh": "经典独立同分布中心极限定理断言：实随机变量列独立同分布、均值为μ且方差σ²有限并严格为正时，和减去nμ再除以σ√n后依分布收敛于标准正态分布。",
+      "example": "For independent Bernoulli trials with fixed $0<p<1$, $(S_n-np)/\\sqrt{np(1-p)}$ converges in distribution to $N(0,1)$.",
+      "distinction": "The theorem concerns centered, scaled sums, not the original observations becoming normal. This classical iid version does not cover arbitrary dependence or infinite variance.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Gregory F. Lawler — Notes on Probability",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "Section 5, Proposition 5.4 and Theorem 5.5; standardization requires positive variance",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "李东风 — 概率统计课件（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/psbclw/psbp.pdf",
+          "locator": "§4.6.2, printed p.153, Theorem 6.2 headed 中心极限定理",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -12034,6 +14218,41 @@
       ]
     },
     {
+      "id": "law-of-large-numbers",
+      "english": "law of large numbers",
+      "chinese": "大数定律",
+      "aliases": [
+        "LLN"
+      ],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "definitionEn": "In the iid integrable setting, the sample averages $n^{-1}\\sum_{j=1}^n X_j$ converge to $E[X_1]$ almost surely (strong law), and therefore in probability (weak law), assuming real iid $X_j$ and $E|X_1|<\\infty$.",
+      "definitionZh": "对独立同分布且绝对一阶矩有限的实随机变量，样本均值几乎必然收敛于共同数学期望（强大数定律），从而也依概率收敛（弱大数定律）。",
+      "example": "For iid Bernoulli observations with parameter $p$, the observed success fraction converges almost surely to $p$.",
+      "distinction": "This is the iid finite-mean formulation of a family of laws. Finite variance is not required here; the classical normal central limit theorem additionally assumes finite positive variance.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+          "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+          "locator": "§2.4, Theorem 2.4.1 (pairwise independent identically distributed integrable variables; iid specialization)",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "李东风 — 概率统计课件（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/lidf/course/psbclw/psbp.pdf",
+          "locator": "§4.6.1, printed pp.150–151, Theorem 6.1 headed 大数定律 and subsequent 强大数定律 discussion; name evidence from a finite-variance presentation",
+          "checked": "2026-10-15"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
       "id": "lebesgue-integral",
       "english": "Lebesgue integral",
       "chinese": "勒贝格积分",
@@ -12340,6 +14559,39 @@
           "url": "https://journal-n.scnu.edu.cn/cn/article/pdf/preview/hnsfdxxbzrkxb-378.pdf",
           "locator": "Printed p.34，定义1：Li-Yorke攀援偶对",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "lie-group",
+      "english": "Lie group",
+      "chinese": "李群",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "definitionEn": "A group equipped with a finite-dimensional Hausdorff, second countable smooth manifold structure without boundary for which multiplication and inversion are smooth maps.",
+      "definitionZh": "具有有限维、Hausdorff、第二可数的无边光滑流形结构，且乘法与求逆均为光滑映射的群。",
+      "example": "$S^1$ is a Lie group under complex multiplication; $\\operatorname{GL}(n,\\mathbb R)$ is one under matrix multiplication.",
+      "distinction": "Connectedness and compactness are additional properties. Its Lie algebra describes infinitesimal group structure but does not distinguish every pair of globally different Lie groups.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Eckhard Meinrenken — Riemannian Geometry",
+          "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+          "locator": "§10.1, Definition 10.1 and Proposition 10.2; manifold conventions in Definition 1.5",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "Fudan University — Sun Binyong, Lie Group short course",
+          "url": "https://math.fudan.edu.cn/f4/50/c33035a324688/page.htm",
+          "locator": "课名：李群和李代数；课程内容：李群及例子、李群的李代数、指数映射",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -12945,6 +15197,39 @@
           "url": "https://math.pku.edu.cn/teachers/wangjj/2018spring/index.html",
           "locator": "作业表，2018-04-24，内容：带边流形、横截性定理和邻域定理",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "markov-chain",
+      "english": "Markov chain",
+      "chinese": "马尔可夫链",
+      "aliases": [],
+      "area": "probability",
+      "topic": "probability",
+      "level": "Undergraduate",
+      "definitionEn": "In the finite-state time-homogeneous discrete-time setting, a process $X_n$ with initial law $\\alpha$ and row-stochastic matrix $P=(p_{ij})$ satisfies $P(X_{n+1}=j\\mid\\sigma(X_0,\\ldots,X_n))=p_{X_nj}$ almost surely for every $n\\ge0$ and state $j$.",
+      "definitionZh": "在有限状态、离散时间、时间齐次的范围内，给定初始分布和各行和为1的转移矩阵后，下一步状态在全部既往观测条件下的概率只由当前状态及相应矩阵行确定。",
+      "example": "For $P=\\begin{pmatrix}0.8&0.2\\\\0.4&0.6\\end{pmatrix}$, starting from state $0$ gives probability $0.28$ of state $1$ after two steps.",
+      "distinction": "The Markov property is conditional prediction from the present, not independence of successive states. Time homogeneity is a further restriction; this record uses it and finite states explicitly.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "University of Cambridge — Markov Chains, course notes hosted by Richard Weber",
+          "url": "https://www.statslab.cam.ac.uk/~rrw1/markov/M.pdf",
+          "locator": "§1.2, Definition 1.2 and row-stochastic matrix convention, specialized from countable to finite states",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "陈大岳 — 应用随机过程课程（北京大学）",
+          "url": "https://math.pku.edu.cn/teachers/dayue/Homepage/asp.htm",
+          "locator": "《应用随机过程》2008年秋，主要内容：第二章 马尔可夫链，items 1–3; course-outline name evidence only",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -13699,6 +15984,39 @@
           "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter2.tex",
           "locator": "第2章，「范畴与态射」，def:category 中「态射」及 Hom-集",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "morse-function",
+      "english": "Morse function",
+      "chinese": "Morse函数",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "definitionEn": "A smooth real-valued function on a smooth manifold whose Hessian at each critical point is a nonsingular symmetric bilinear form; functions with no critical points are included.",
+      "definitionZh": "光滑流形上的光滑实值函数，其每个临界点处的 Hessian 对称双线性型均非退化；无临界点的函数也满足此定义。",
+      "example": "On $T^2=(\\mathbb R/2\\pi\\mathbb Z)^2$, $f(\\theta,\\phi)=\\cos\\theta+2\\cos\\phi$ has four nondegenerate critical points with indices $0,1,1,2$.",
+      "distinction": "An isolated critical point may still have singular Hessian, as for $x^4$ at zero. Morse functions do not require distinct critical values, and their definition does not require a Riemannian metric.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Ralph L. Cohen, Kevin Iga and Paul Norbury — Topics in Morse Theory",
+          "url": "https://math.stanford.edu/~ralph/morsecourse/biglectures.pdf",
+          "locator": "Introduction, printed pp. v–vi, Hessian, nondegenerate critical points and Morse-function definition; Chapter 5, Theorem 5.3",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "Nankai University — 数学科学学院本科生论坛-83讲",
+          "url": "https://math.nankai.edu.cn/2016/0523/c5536a49962/page.htm",
+          "locator": "题目：Morse理论简介；摘要中“流形上一类特殊的函数（Morse函数）”",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -17009,6 +19327,41 @@
       ]
     },
     {
+      "id": "riemann-curvature-tensor",
+      "english": "Riemann curvature tensor",
+      "chinese": "曲率张量",
+      "aliases": [
+        "Riemannian curvature tensor"
+      ],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "definitionEn": "For a smooth Riemannian metric with Levi–Civita connection, the tensor R(X,Y)Z = ∇X∇Y Z − ∇Y∇X Z − ∇[X,Y]Z; pairing its output with the metric gives its covariant four-tensor form.",
+      "definitionZh": "光滑黎曼流形的 Levi-Civita 联络所定义的张量 $R(X,Y)Z=\\nabla_X\\nabla_YZ-\\nabla_Y\\nabla_XZ-\\nabla_{[X,Y]}Z$；用度量与其输出配对可得到四阶协变形式。",
+      "example": "On the unit round sphere, $R(u,v)w=g(v,w)u-g(u,w)v$, so $g(R(u,v)v,u)=1$ for orthonormal $u,v$.",
+      "distinction": "The Chinese source uses 曲率张量 in the Levi–Civita setting; the word also occurs for general connections. This entry fixes the Riemannian scope and a sign convention, rather than identifying curvature with scalar curvature or with Christoffel symbols.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Eckhard Meinrenken — Riemannian Geometry",
+          "url": "https://www.math.toronto.edu/mein/teaching/LectureNotes/rieall.pdf",
+          "locator": "§18, Definition 18.1, Theorem 18.2 and the covariant curvature tensor before Theorem 18.5, printed pp. 51–52",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "Wang Wenlong — 黎曼几何, Nankai University",
+          "url": "https://my.nankai.edu.cn/_upload/article/files/6c/e0/25c21ba84c4aa63e26da8793050a/0c35346a-aaa6-4650-b76c-cfa464f214aa.pdf",
+          "locator": "Chapter 4, §4.1 曲率张量, Definition 4.1, PDF p. 21, printed p. 18",
+          "checked": "2026-10-15"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
       "id": "riemann-integral",
       "english": "Riemann integral",
       "chinese": "黎曼积分",
@@ -17035,6 +19388,39 @@
           "url": "https://math.pku.edu.cn/teachers/lidf/course/atsa/atsanotes/html/_atsanotes/rkfcfcana.html",
           "locator": "E.6 勒贝格积分，与黎曼积分的关系",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "riemann-surface",
+      "english": "Riemann surface",
+      "chinese": "黎曼曲面",
+      "aliases": [],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Graduate",
+      "definitionEn": "A connected Hausdorff, second countable topological surface without boundary equipped with an atlas to open subsets of the complex plane whose transition maps are holomorphic; equivalently, a connected complex manifold of complex dimension one.",
+      "definitionZh": "具有到复平面开集的坐标图册、且坐标变换全纯的连通、Hausdorff、第二可数无边拓扑曲面，即复维数为一的连通复流形。",
+      "example": "The sphere $\\mathbb C\\cup\\{\\infty\\}$ has compatible coordinates $z$ away from infinity and $w=1/z$ near infinity.",
+      "distinction": "A Riemann surface has complex coordinate structure; a Riemannian surface has a metric. This entry requires connectedness and excludes boundary points, while some authors use a disconnected convention.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Constantin Teleman — Riemann Surfaces",
+          "url": "https://math.berkeley.edu/~teleman/math/Riemann.pdf",
+          "locator": "Lecture 3, Definition 3.1 and Proposition 3.2, printed p. 10; connected-component convention discussed after Theorem 3.5",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "University of Chinese Academy of Sciences — Deng Fusheng, course syllabus",
+          "url": "https://jwba.ucas.ac.cn/sc/course/courseplan/277722",
+          "locator": "第一章 黎曼曲面与复流形的基本概论，第2节：黎曼曲面与复流形的定义",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -17344,6 +19730,45 @@
           "url": "https://logic.fudan.edu.cn/doc/Course/2021/mathlogic17h.pdf",
           "locator": "PDF pp.21–22：「可满足」与紧致性定理",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "scheme",
+      "english": "scheme",
+      "chinese": "概形",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "algebraic-geometry",
+      "level": "Graduate",
+      "definitionEn": "A locally ringed space in which every point has an open neighborhood isomorphic, as a locally ringed space, to the prime spectrum of a commutative unital ring equipped with its structure sheaf.",
+      "definitionZh": "每个点都有开邻域，连同限制的结构层同构于某个交换含幺环的素谱及其结构层的局部赋环空间。",
+      "example": "$\\operatorname{Spec}(k[\\epsilon]/(\\epsilon^2))$ for a field $k$ is a one-point scheme with a nonzero nilpotent global section.",
+      "distinction": "The underlying prime-spectrum topology does not determine the structure sheaf; being affine, reduced, Noetherian or separated is not required in the general scheme definition.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "The Stacks Project — Schemes; affine schemes",
+          "url": "https://stacks.math.columbia.edu/tag/01II",
+          "locator": "Definition 26.9.1, with affine schemes as in Definition 26.5.5 (tag 01HR)",
+          "checked": "2026-10-15"
+        },
+        {
+          "label": "The Stacks Project — Affine schemes",
+          "url": "https://stacks.math.columbia.edu/tag/01HR",
+          "locator": "Definition 26.5.3, Lemma 26.5.4 and Definition 26.5.5",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "李文威 — 模形式初步，作者公开稿",
+          "url": "https://www.wwli.asia/downloads/books/Modulform.pdf",
+          "locator": "Section 10.2 几何模形式, opening discussion of R-概形 and X(R)=Hom_{R-概形}(Spec R,X), printed p.296 (PDF p.302); evidence of usage, not a normative translation ruling",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -17678,6 +20103,39 @@
           "url": "https://raw.githubusercontent.com/wenweili/AlJabr-1/master/chapter1.tex",
           "locator": "第1章：「ZFC 公理一览」，派生运算段「差」",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "sheaf",
+      "english": "sheaf",
+      "chinese": "层",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "algebraic-geometry",
+      "level": "Graduate",
+      "definitionEn": "A presheaf of sets on a topological space such that every compatible family of sections on an open cover, including the empty cover, is the restriction of a unique section on the union.",
+      "definitionZh": "拓扑空间上的集合值预层，满足任意开覆盖（包括空覆盖）上的相容截面族都能唯一粘合为并集上的截面。",
+      "example": "Continuous real-valued functions on open subsets, with the usual restriction maps, form a sheaf.",
+      "distinction": "Presheaf restriction identities alone do not ensure gluing; bounded continuous functions on open subsets of the real line give a counterexample.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "The Stacks Project — Sheaves",
+          "url": "https://stacks.math.columbia.edu/tag/006S",
+          "locator": "Definition 6.7.1 and Remark 6.7.2, including the empty covering",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "李文威 — 模形式初步，作者公开稿",
+          "url": "https://www.wwli.asia/downloads/books/Modulform.pdf",
+          "locator": "Appendix B.1 层与局部系统, Definition B.1.1 explicitly names 层 through unique gluing; printed pp.341–342 (PDF pp.347–348), including the Set-valued variant",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -18182,6 +20640,39 @@
       ]
     },
     {
+      "id": "sobolev-trace",
+      "english": "Sobolev trace",
+      "chinese": "Sobolev函数的迹",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "functional-analysis",
+      "level": "Graduate",
+      "definitionEn": "For a bounded smooth domain Omega and 1 <= p < infinity, the first-order Sobolev trace is the bounded linear map from W^{1,p}(Omega) to L^p(partial Omega, dS) extending boundary restriction of smooth functions on the closure; its kernel is W^{1,p}_0(Omega).",
+      "definitionZh": "对有界光滑区域 Ω 及 1≤p<∞，一阶 Sobolev 迹是把闭包上光滑函数的边界限制连续延拓所得的有界线性映射，从 W^{1,p}(Ω) 到边界表面测度下的 L^p(∂Ω)，其核为 W^{1,p}_0(Ω)。",
+      "example": "On $(0,1)$, the trace of $u(x)=x(1-x)$ is the endpoint pair $(0,0)$; the trace of the constant function $1$ is $(1,1)$.",
+      "distinction": "This record concerns function boundary values, not operator or matrix trace. Higher-order zero boundary conditions also require derivative traces. The Chinese title is a descriptive qualification of the inspected usage 迹 for Sobolev boundary values, not a claim of normative standardization.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "John K. Hunter — Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "locator": "§3.9, Theorem 3.44 and proof (first-order case), printed pp.72–73; §3.11, transfer to smooth bounded domains by boundary flattening",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "程代展、赵寅 — 系统与控制中的近代数学基础（第2版），清华大学出版社预览",
+          "url": "https://www.tup.tsinghua.edu.cn/upload/books/yz/047803-01.pdf",
+          "locator": "§3.9, 定理3.9.1（迹定理）, printed p.134: Sobolev函数在边界Γ上的迹及迹映射γ（取m=1即函数值迹）",
+          "checked": "2026-10-15"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
       "id": "graph-spanning-tree",
       "english": "spanning tree",
       "chinese": "支撑树",
@@ -18208,6 +20699,78 @@
           "url": "https://diestel-graph-theory.com/Chinese/ChineseSample5.pdf",
           "locator": "第二章开篇，印刷p.33，§2.4介绍中的「支撑树」（名称证据）",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "spectral-sequence",
+      "english": "spectral sequence",
+      "chinese": "谱序列",
+      "aliases": [],
+      "area": "algebra",
+      "topic": "homological-algebra",
+      "level": "Graduate",
+      "definitionEn": "In an abelian category, a sequence of differential objects $(E_r,d_r)$ with $d_r^2=0$ and specified isomorphisms $H(E_r,d_r)\\cong E_{r+1}$; the cohomological bigraded version has differential of bidegree $(r,1-r)$.",
+      "definitionZh": "在 Abel 范畴中，由微分平方为零的对象 $(E_r,d_r)$ 以及指定同构 $H(E_r,d_r)\\cong E_{r+1}$ 构成的序列；上同调双分次版本的微分次数为 $(r,1-r)$。",
+      "example": "For $C^0=ka$, $C^1=kb$, $d(a)=b$, place $a$ in filtration degree $0$ and $b$ in degree $2$; the filtered-complex spectral sequence has $d_2^{0,0}:ka\\to kb$ an isomorphism and $E_3=0$.",
+      "distinction": "A target and convergence require additional hypotheses; even convergent $E_\\infty$ terms usually determine only associated graded pieces, with extension problems remaining.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Wen-Wei Li — Methods in Algebra II, author source",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter5.tex",
+          "locator": "谱序列的一般定义 (sec:spectral-sequence), def:SS-abstract and def:graded-spectral-sequence",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "李文威 — 代数学方法 卷二，作者源文件",
+          "url": "https://raw.githubusercontent.com/wenweili/AlJabr-2/master/chapter5.tex",
+          "locator": "def:SS-abstract, index entry 谱序列 (spectral sequence) and definition; def:graded-spectral-sequence names the graded and bigraded variants",
+          "checked": "2026-10-15"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "spectral-theorem-compact-self-adjoint",
+      "english": "spectral theorem for compact self-adjoint operators",
+      "chinese": "紧自伴算子的谱定理",
+      "aliases": [],
+      "area": "analysis",
+      "topic": "functional-analysis",
+      "level": "Graduate",
+      "definitionEn": "For a compact self-adjoint operator on a real or complex separable Hilbert space, an orthonormal basis of eigenvectors exists; nonzero eigenvalues are real with finite multiplicity and, if infinitely many, tend to zero when listed with multiplicity. Kernel vectors complete the basis.",
+      "definitionZh": "实或复可分 Hilbert 空间上的紧自伴算子具有由特征向量组成的标准正交基；非零特征值为实数、重数有限，若按重数列出有无穷多个，则趋于零；算子核中的特征向量补全整个空间的基。",
+      "example": "For $(Tx)_n=x_n/(n+1)$ on $\\ell^2$ with $n\\ge1$, the coordinate vectors form an eigenbasis and the nonzero eigenvalues $1/(n+1)$ tend to zero.",
+      "distinction": "This is the compact self-adjoint eigenbasis theorem, not the general spectral-measure theorem for arbitrary self-adjoint operators. Zero can be a spectral value without being an eigenvalue, and its eigenspace, when present, need not have finite dimension.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "John K. Hunter — Notes on Partial Differential Equations",
+          "url": "https://www.math.ucdavis.edu/~hunter/pdes/pde_notes.pdf",
+          "locator": "Appendix 4.B.1, Theorem 4.37, printed p.122: real nonzero eigenvalues, finite-dimensional nonzero eigenspaces and eigenbasis including zero eigenspace",
+          "checked": "2026-10-15"
+        },
+        {
+          "label": "MIT OpenCourseWare — 18.102 Spring 2021, Complete Lecture Notes",
+          "url": "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/8fb8d5c170f1613151aca71de21027bc_MIT18_102s21_full_lec.pdf",
+          "locator": "Lecture 22, Theorem 232 (Spectral theorem), printed pp.117–118: separable Hilbert-space statement and kernel completion",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "许天周、李炳照 — 线性正则变换及其应用，科学出版社预览",
+          "url": "https://www.ecsponline.com/yz/BAF8061328A58432895A07A821C29AD94000.pdf",
+          "locator": "§1.6, 定理1.6.5（紧自伴算子的谱定理）, printed p.13; used as Chinese naming evidence, with separability stated explicitly in this record",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [
@@ -18413,6 +20976,41 @@
           "url": "https://math.pku.edu.cn/teachers/lidf/course/stochproc/stochprocnotes/html/_book/bm.html",
           "locator": "§7.1.3 高斯过程，定义7.2中“随机过程”用语",
           "checked": "2026-10-14"
+        }
+      ],
+      "contributors": [
+        "Mathematics Resources editorial compilation (AI-assisted)"
+      ]
+    },
+    {
+      "id": "stokes-theorem-manifolds",
+      "english": "Stokes theorem on manifolds",
+      "chinese": "Stokes 定理",
+      "aliases": [
+        "generalized Stokes theorem"
+      ],
+      "area": "geometry-topology",
+      "topic": "differential-geometry",
+      "level": "Undergraduate",
+      "definitionEn": "For an oriented smooth n-manifold with boundary, n at least one, and a smooth compactly supported (n−1)-form ω, the integral of dω over the manifold equals the integral of the pullback of ω to its boundary, with outward-normal-first boundary orientation.",
+      "definitionZh": "对定向光滑 $n$ 维带边流形（$n\\geq1$）及光滑紧支集 $(n-1)$ 形式 $\\omega$，有 $\\int_M d\\omega=\\int_{\\partial M}j^*\\omega$，边界取外法向在前的诱导定向。",
+      "example": "On the unit disk oriented by $dx\\wedge dy$, $\\omega=(x\\,dy-y\\,dx)/2$ satisfies $\\int_D d\\omega=\\int_{\\partial D}\\omega=\\pi$ for counterclockwise boundary orientation.",
+      "distinction": "The form must be smooth on the whole manifold, including its boundary. Compactness of the manifold makes the support condition automatic; noncompact manifolds need support or other justified conditions at infinity.",
+      "translationStatus": "Literature usage",
+      "definitionSources": [
+        {
+          "label": "Marco Gualtieri — Geometry and Topology I",
+          "url": "https://www.math.toronto.edu/mgualt/courses/17-1300/docs/17-1300-notes.pdf",
+          "locator": "§6.4, Proposition 6.17 and Theorem 6.18, printed pp. 60–61",
+          "checked": "2026-10-15"
+        }
+      ],
+      "translationSources": [
+        {
+          "label": "Peking University — 2022 mathematics teaching plans",
+          "url": "https://math.pku.edu.cn/docs/2022-09/20220922091841407706.pdf",
+          "locator": "课程号00130190，内容提要三、外微分形式：Stokes 定理；PDF p. 77, printed p. 74",
+          "checked": "2026-10-15"
         }
       ],
       "contributors": [

@@ -10,8 +10,7 @@
   "summary": "The smooth wavefront set records where a distribution fails to be smooth and in which cotangent directions.",
   "prerequisites": [
     "analysis-distribution",
-    "fourier-transform",
-    "test-function"
+    "fourier-transform"
   ],
   "related": [
     "sobolev-space",

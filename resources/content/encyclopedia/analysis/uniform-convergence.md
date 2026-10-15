@@ -13,8 +13,7 @@
     "continuous-function"
   ],
   "related": [
-    "pointwise-convergence",
-    "weierstrass-m-test"
+    "pointwise-convergence"
   ],
   "references": [
     {

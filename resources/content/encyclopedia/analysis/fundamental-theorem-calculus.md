@@ -13,8 +13,7 @@
     "riemann-integral"
   ],
   "related": [
-    "lebesgue-integral",
-    "absolute-continuous-real-function"
+    "lebesgue-integral"
   ],
   "references": [
     {

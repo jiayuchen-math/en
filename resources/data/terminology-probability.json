@@ -1376,5 +1376,98 @@
     "contributors": [
       "Mathematics Resources editorial compilation (AI-assisted)"
     ]
+  },
+  {
+    "id": "law-of-large-numbers",
+    "english": "law of large numbers",
+    "chinese": "大数定律",
+    "aliases": ["LLN"],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "In the iid integrable setting, the sample averages $n^{-1}\\sum_{j=1}^n X_j$ converge to $E[X_1]$ almost surely (strong law), and therefore in probability (weak law), assuming real iid $X_j$ and $E|X_1|<\\infty$.",
+    "definitionZh": "对独立同分布且绝对一阶矩有限的实随机变量，样本均值几乎必然收敛于共同数学期望（强大数定律），从而也依概率收敛（弱大数定律）。",
+    "example": "For iid Bernoulli observations with parameter $p$, the observed success fraction converges almost surely to $p$.",
+    "distinction": "This is the iid finite-mean formulation of a family of laws. Finite variance is not required here; the classical normal central limit theorem additionally assumes finite positive variance.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Rick Durrett — Probability: Theory and Examples, fifth edition",
+        "url": "https://math.duke.edu/~rtd/PTE/PTE5_011119.pdf",
+        "locator": "§2.4, Theorem 2.4.1 (pairwise independent identically distributed integrable variables; iid specialization)",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 概率统计课件（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/psbclw/psbp.pdf",
+        "locator": "§4.6.1, printed pp.150–151, Theorem 6.1 headed 大数定律 and subsequent 强大数定律 discussion; name evidence from a finite-variance presentation",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": ["Mathematics Resources editorial compilation (AI-assisted)"]
+  },
+  {
+    "id": "central-limit-theorem",
+    "english": "central limit theorem",
+    "chinese": "中心极限定理",
+    "aliases": ["CLT"],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "The classical iid central limit theorem states that for real iid $X_j$ with mean $\\mu$ and variance $0<\\sigma^2<\\infty$, $(\\sum_{j=1}^n X_j-n\\mu)/(\\sigma\\sqrt n)$ converges in distribution to $N(0,1)$.",
+    "definitionZh": "经典独立同分布中心极限定理断言：实随机变量列独立同分布、均值为μ且方差σ²有限并严格为正时，和减去nμ再除以σ√n后依分布收敛于标准正态分布。",
+    "example": "For independent Bernoulli trials with fixed $0<p<1$, $(S_n-np)/\\sqrt{np(1-p)}$ converges in distribution to $N(0,1)$.",
+    "distinction": "The theorem concerns centered, scaled sums, not the original observations becoming normal. This classical iid version does not cover arbitrary dependence or infinite variance.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "Gregory F. Lawler — Notes on Probability",
+        "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+        "locator": "Section 5, Proposition 5.4 and Theorem 5.5; standardization requires positive variance",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "李东风 — 概率统计课件（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/lidf/course/psbclw/psbp.pdf",
+        "locator": "§4.6.2, printed p.153, Theorem 6.2 headed 中心极限定理",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": ["Mathematics Resources editorial compilation (AI-assisted)"]
+  },
+  {
+    "id": "markov-chain",
+    "english": "Markov chain",
+    "chinese": "马尔可夫链",
+    "aliases": [],
+    "area": "probability",
+    "topic": "probability",
+    "level": "Undergraduate",
+    "definitionEn": "In the finite-state time-homogeneous discrete-time setting, a process $X_n$ with initial law $\\alpha$ and row-stochastic matrix $P=(p_{ij})$ satisfies $P(X_{n+1}=j\\mid\\sigma(X_0,\\ldots,X_n))=p_{X_nj}$ almost surely for every $n\\ge0$ and state $j$.",
+    "definitionZh": "在有限状态、离散时间、时间齐次的范围内，给定初始分布和各行和为1的转移矩阵后，下一步状态在全部既往观测条件下的概率只由当前状态及相应矩阵行确定。",
+    "example": "For $P=\\begin{pmatrix}0.8&0.2\\\\0.4&0.6\\end{pmatrix}$, starting from state $0$ gives probability $0.28$ of state $1$ after two steps.",
+    "distinction": "The Markov property is conditional prediction from the present, not independence of successive states. Time homogeneity is a further restriction; this record uses it and finite states explicitly.",
+    "translationStatus": "Literature usage",
+    "definitionSources": [
+      {
+        "label": "University of Cambridge — Markov Chains, course notes hosted by Richard Weber",
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/markov/M.pdf",
+        "locator": "§1.2, Definition 1.2 and row-stochastic matrix convention, specialized from countable to finite states",
+        "checked": "2026-10-15"
+      }
+    ],
+    "translationSources": [
+      {
+        "label": "陈大岳 — 应用随机过程课程（北京大学）",
+        "url": "https://math.pku.edu.cn/teachers/dayue/Homepage/asp.htm",
+        "locator": "《应用随机过程》2008年秋，主要内容：第二章 马尔可夫链，items 1–3; course-outline name evidence only",
+        "checked": "2026-10-15"
+      }
+    ],
+    "contributors": ["Mathematics Resources editorial compilation (AI-assisted)"]
   }
 ]
