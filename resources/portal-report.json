@@ -14,7 +14,7 @@
       "url": "/en/notes/reading-notes/library/catalogue.html",
       "records": 576,
       "pages": 16,
-      "firstPageBytes": 127857
+      "firstPageBytes": 127932
     },
     {
       "id": "links",
@@ -784,7 +784,7 @@
       "firstPageBytes": 48413
     }
   ],
-  "indexBytes": 1435149,
+  "indexBytes": 1439924,
   "searchCollections": [
     {
       "id": "library",
@@ -816,7 +816,7 @@
     },
     {
       "id": "guides",
-      "records": 70
+      "records": 82
     }
   ],
   "directoryIndexBytes": 3866962,

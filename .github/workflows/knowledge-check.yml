@@ -62,6 +62,7 @@ jobs:
           node resources/test-editorial-copy.mjs
       - run: node resources/build.mjs
       - run: node resources/test-portal.mjs
+      - run: node resources/test-goal-paths.mjs
       - name: Generated knowledge pages are committed
         run: |
           git diff --exit-code -- resources notes index.html disclaimer.html

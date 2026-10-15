@@ -1,0 +1,18 @@
+.goal-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:18px; margin:24px 0; }
+.goal-card, .cards > a.card { padding:20px; border:1px solid var(--line); border-radius:7px; background:var(--soft); min-width:0; }
+.goal-card h2 { margin:0 0 10px; font-size:22px; }
+.goal-card p:last-child { margin-bottom:0; }
+.route-preview { color:var(--muted); font:13px/1.8 var(--portal-ui); }
+.route-spine { margin:24px 0; padding:12px 20px; border-block:1px solid var(--line); }
+.route-spine li { margin:10px 0; }
+.route-stage { border-left:2px solid var(--line); padding:4px 0 4px 20px; margin:32px 0; }
+.route-stage h2 { margin-top:0; }
+.route-stage li { margin:15px 0; }
+.route-stage details { font:14px/1.7 var(--portal-ui); margin:6px 0 12px; }
+.route-stage details p { margin:8px 0; }
+.cards > a.card { display:flex; flex-direction:column; gap:10px; text-decoration:none; }
+.cards > a.card strong { font-size:23px; text-decoration:underline; text-underline-offset:3px; }
+.cards > a.card span { color:var(--text); }
+.cards > a.card .resource-count { color:var(--muted); font:13px/1.6 var(--portal-ui); }
+.cards:has(> a.card) { gap:18px; }
+@media(min-width:768px) { .goal-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
