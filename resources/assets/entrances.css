@@ -1,6 +1,17 @@
-.subject-links { display:grid; grid-template-columns:minmax(0,1fr); gap:12px; list-style:none; padding:0; margin:18px 0; }
+.subject-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 18px; list-style:none; padding:0; margin:12px 0 24px; }
 .subject-links li { margin:0; min-width:0; }
-.subject-links a { display:block; height:100%; padding:12px 16px; border:1px solid var(--line); border-radius:6px; background:var(--soft); overflow-wrap:anywhere; }
+.subject-links a { display:block; height:100%; padding:10px 0; border-bottom:1px solid var(--line); color:var(--text); font:14px/1.55 var(--portal-ui); text-decoration:none; overflow-wrap:anywhere; }
+.subject-links a:hover { color:var(--link); text-decoration:underline; text-underline-offset:3px; }
+.hub-subjects h2 { margin-top:22px; }
+.resource-group { margin:26px 0; }
+.resource-group > h2 { margin:0; font-size:24px; }
+.resource-group .cards { margin:4px 0; gap:0 28px; }
+.resource-group .card { padding:14px 0; }
+.resource-group .card h3 { font-size:20px; }
+.resource-group .card a { color:var(--text); font-weight:500; text-decoration-color:var(--line); text-decoration-thickness:1px; }
+.resource-group .card a:hover { color:var(--link); text-decoration-color:currentColor; }
+.resource-group .card p { max-width:52ch; color:var(--muted); font-size:15px; line-height:1.65; }
+.personal-notes-link { margin-top:30px; font-size:15px; }
 .reading-empty { padding:18px 22px; border:1px solid var(--line); border-radius:6px; background:var(--soft); margin:24px 0; }
 .reading-empty h2 { margin:0 0 8px; font-size:22px; }
 .reading-empty p { margin:0; color:var(--muted); }

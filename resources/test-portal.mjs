@@ -104,7 +104,8 @@ function articleBody(html) {
 }
 function protectedSnapshot() {
   const files = walk();
-  const entrances = ['notes/reading-notes/library.html', 'notes/reading-notes/reading-notes.html',
+  // New Notes landing page is navigation, not an authored course-note body.
+  const entrances = ['notes/index.html', 'notes/reading-notes/library.html', 'notes/reading-notes/reading-notes.html',
     'notes/mathematical-notes/page.html', 'notes/mathematical-notes/weekly.html'];
   const groups = {
     notes:files.filter(f => f.startsWith('notes/') && !f.startsWith('notes/reading-notes/library/') && !entrances.includes(f) && /\.(md|html|tex|pdf|png|jpe?g|gif|svg|webp)$/i.test(f)),
@@ -655,8 +656,32 @@ if(!options.has('--business-only')&&!options.has('--baseline'))await check('revi
  const simplified=catalogueCore.matchingRecords(rows,{q:'不确定自己写的证明',filters:{language:'Chinese'}}).records;
  assert(simplified.some(r=>r.readingUrl.includes('syleung.prof/2022/11/26/')),'Simplified alias of traditional title');
  assert(read('resources/links/index.html').includes('href="advice.html"'));
- assert(read('resources/study-careers/guides.html').includes('/en/resources/links/advice.html'));
+ assert(read('resources/study-careers/guides.html').includes('/en/resources/study-careers/experiences.html'));
  externalLinks(page,'Advice page');
+});
+if(!options.has('--business-only')&&!options.has('--baseline'))await check('resource organization, notes separation and useful contents',()=>{
+ const hub=read('resources/index.html');
+ for(const label of ['Learn Mathematics','Reference &amp; Reading','Study &amp; Careers'])assert(hub.includes(label),'Resource group '+label);
+ assert(hub.indexOf('id="subjects"')<hub.indexOf('class="resource-group"'),'Subjects precede collection groups');
+ assert.equal((hub.match(/class="resource-group"/g)||[]).length,3);
+ assert(hub.includes('href="/en/notes/"'),'Separate personal notes entrance');
+ for(const file of ['resources/index.html','resources/links/index.html','notes/reading-notes/library/catalogue.html']){
+  const html=read(file);
+  assert.equal((html.match(/class="portal-nav-section"/g)||[]).length,3,file+' grouped navigation');
+  assert(html.includes('href="/en/notes/"'),file+' Notes navigation');
+ }
+ for(const file of ['notes/index.html','notes/mathematical-notes/page.html','notes/reading-notes/reading-notes.html']){
+  const html=read(file);assert(html.includes('portal-personal-notes'),file+' personal layout');assert(!html.includes('class="portal-sidebar"'),file+' no resource sidebar');
+ }
+ const all=read('resources/links/advice.html'),learning=read('resources/links/study-advice.html'),applications=read('resources/study-careers/experiences.html');
+ const ids=html=>[...html.matchAll(/<article class="portal-entry" id="([^"]+)"/g)].map(m=>m[1]);
+ assert.equal(ids(learning).length,19);assert.equal(ids(applications).length,11);
+ sameSet([...ids(learning),...ids(applications)],ids(all),'Advice views retain all original records');
+ for(const html of [all,learning,applications]){
+  const toc=html.match(/<aside class="portal-toc"[\s\S]*?<\/aside>/)?.[0];assert(toc,'Advice contents');
+  for(const match of toc.matchAll(/href="#([^"]+)"/g))assert(html.includes('id="'+match[1]+'"'),'Contents target '+match[1]);
+ }
+ assert(!read('notes/index.html').includes('class="portal-toc"'),'No empty contents');
 });
 console.log(JSON.stringify({passed:passed.length, failures, mode:options.has('--baseline') ? 'baseline' : options.has('--business-only') ? 'business-only' : 'portal', counts}));
 if (failures.length) process.exitCode = 1;

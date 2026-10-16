@@ -17,15 +17,23 @@ const sections = [
   { id: 'encyclopedia', label: 'Encyclopedia', href: '/en/resources/encyclopedia/' },
   { id: 'terminology', label: 'Terminology', href: '/en/resources/terminology/' },
   { id: 'paths', label: 'Learning paths', href: '/en/resources/library-paths/' },
-  { id: 'links', label: 'Links', href: '/en/resources/links/' },
+  { id: 'links', label: 'Web resources', href: '/en/resources/links/' },
 ];
+const subjects = { id: 'subjects', label: 'Browse subjects', href: '/en/resources/#subjects' };
+const studyAdvice = { id: 'study-advice', label: 'Study advice', href: '/en/resources/links/study-advice.html' };
+const experiences = { id: 'experiences', label: 'Application experiences', href: '/en/resources/study-careers/experiences.html' };
 const study = { id: 'study-careers', label: 'Study & Careers', href: '/en/resources/study-careers/' };
 const studySections = [
   { id: 'programs', label: 'Programs', href: study.href },
   { id: 'researchers', label: 'Researchers', href: `${study.href}researchers.html` },
-  { id: 'guides', label: 'Guides', href: `${study.href}guides.html` },
+  { id: 'guides', label: 'Application guides', href: `${study.href}guides.html` },
+  experiences,
 ];
-const notes = { id: 'notes', label: 'Notes', href: '/en/notes/mathematical-notes/page.html' };
+const notes = { id: 'notes', label: 'Notes', href: '/en/notes/' };
+const noteSections = [
+  { id: 'course-notes', label: 'Course notes', href: '/en/notes/mathematical-notes/page.html' },
+  { id: 'reading-notes', label: 'Reading notes', href: '/en/notes/reading-notes/reading-notes.html' },
+];
 const search = { id: 'search', label: 'Search', href: '/en/resources/search/' };
 const normalize = value => {
   const pathname = new URL(value || '/en/resources/', 'https://shell.invalid/en/').pathname;
@@ -33,6 +41,9 @@ const normalize = value => {
 };
 const sectionFor = pathname => {
   if (/^\/en\/notes\/reading-notes\/library(?:\/|\.html$)/.test(pathname)) return sections[1];
+  if(pathname===studyAdvice.href)return studyAdvice;
+  if(pathname.startsWith('/en/notes/mathematical-notes/'))return noteSections[0];
+  if(pathname===normalize(noteSections[1].href))return noteSections[1];
   if (pathname.startsWith(study.href)) {
     return studySections.find(section => section.href !== study.href && normalize(section.href) === pathname)
       || (pathname === study.href ? studySections[0] : study);
@@ -46,7 +57,10 @@ const link = (section, current, exact = true) => `<a href="${section.href}"${sec
 function breadcrumbs(title, pathname, section, kind) {
   if (kind === 'home') return '';
   const crumbs = [{ label: 'Home', href: '/en/' }];
-  if (section.id === 'notes') crumbs.push(notes);
+  if (['notes',...noteSections.map(item=>item.id)].includes(section.id)) {
+    if(pathname!==notes.href)crumbs.push(notes);
+    if(section.id!=='notes'&&normalize(section.href)!==pathname)crumbs.push(section);
+  }
   else {
     crumbs.push(sections[0].id === section.id && pathname === sections[0].href
       ? { label: 'Resources' } : { label: 'Resources', href: sections[0].href });
@@ -81,15 +95,18 @@ export function shell({ title, body, url, kind = 'directory', active = '', toc =
   const pathname = normalize(url || (kind === 'home' ? '/en/' : '/en/resources/'));
   const section = sectionFor(pathname);
   const current = active || section.id;
-  const inStudy = [study.id, ...studySections.map(item => item.id)].includes(current);
-  const topCurrent = kind === 'home' ? 'home' : current === 'search' ? 'search' : current === 'notes' ? 'notes' : 'resources';
-  const sidebar = kind === 'home' ? '' : `<aside class="portal-sidebar" aria-label="Resources navigation">
+  const inNotes = ['notes',...noteSections.map(item=>item.id)].includes(current);
+  const topCurrent = kind === 'home' ? 'home' : current === 'search' ? 'search' : inNotes ? 'notes' : 'resources';
+  const navigationGroups = [
+    ['learn-navigation','Learn Mathematics',[subjects,sections[4],studyAdvice]],
+    ['reference-navigation','Reference & Reading',[sections[1],sections[2],sections[3],sections[5]]],
+    ['careers-navigation','Study & Careers',studySections],
+  ];
+  const sidebar = kind === 'home'||inNotes ? '' : `<aside class="portal-sidebar" aria-label="Resources navigation">
 <details class="portal-navigation" id="portal-navigation" data-portal-nav open>
 <summary>Browse resources</summary>
-<nav aria-label="Resource sections"><ul>${sections.map(item => `<li>${link(item, current)}</li>`).join('')}
-<li class="portal-nav-group${inStudy ? ' is-active-group' : ''}">${link(study, current, current === study.id)}<ul>${studySections.map(item => `<li>${link(item, current)}</li>`).join('')}</ul></li>
-</ul></nav></details></aside>`;
-  const contents = kind === 'article' && toc ? `<aside class="portal-toc" aria-label="On this page"><div class="portal-toc-inner"><p class="portal-toc-label">On this page</p>${toc}</div></aside>` : '';
+<nav aria-label="Resource sections"><ul><li>${link(sections[0],current)}</li></ul>${navigationGroups.map(([id,label,items])=>`<section class="portal-nav-section" aria-labelledby="${id}"><h2 id="${id}">${escape(label)}</h2><ul>${items.map(item=>`<li>${link(item,current)}</li>`).join('')}</ul></section>`).join('')}</nav></details></aside>`;
+  const contents = kind === 'article' && /<a\s[^>]*href=["']#[^"']+["']/.test(toc) ? `<aside class="portal-toc" aria-label="On this page"><div class="portal-toc-inner"><p class="portal-toc-label">On this page</p>${toc}</div></aside>` : '';
   const top = [
     { id: 'home', label: 'Home', href: '/en/' },
     { id: 'resources', label: 'Resources', href: '/en/resources/' }, notes, search,
@@ -102,13 +119,13 @@ export function shell({ title, body, url, kind = 'directory', active = '', toc =
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${escape(title)} · Jiayu Chen</title>
+<title>${escape(title)}${title==='Jiayu Chen'?'':' · Jiayu Chen'}</title>
 ${head}
 <link rel="stylesheet" href="${asset('portal.css')}">
 <script src="${asset('theme.js')}"></script>
 <script src="${asset('portal.js')}" defer></script>
 ${pageScripts.map(scriptTag).join('\n')}
-</head><body class="portal portal-${kind}${contents ? ' portal-has-toc' : ''}">
+</head><body class="portal portal-${kind}${contents ? ' portal-has-toc' : ''}${inNotes?' portal-personal-notes':''}">
 <a class="skip-link" href="#portal-main">Skip to content</a>
 <header class="portal-topbar"><nav aria-label="Main navigation">${top.map(item => link(item, topCurrent)).join('')}<button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button></nav></header>
 <div class="portal-layout">${sidebar}

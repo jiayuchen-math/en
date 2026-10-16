@@ -37,6 +37,7 @@ strong, b { font-weight: 700; }
 #theme-toggle { margin-left: auto; min-height: 36px; padding: 6px 9px; font: inherit; }
 .portal-layout { display: grid; gap: 20px; width: min(100%, 1360px); margin: var(--portal-top) auto 0; padding: 18px 16px 64px; }
 .portal-home .portal-layout { display: block; max-width: 760px; padding-top: 36px; }
+.portal-personal-notes .portal-layout { display: block; max-width: 900px; padding-top: 30px; }
 .portal-main, .portal-body, .portal-content-layout { min-width: 0; }
 .portal-main { width: 100%; padding: 0; margin: 0; }
 .portal-main:focus { outline: none; }
@@ -66,6 +67,9 @@ li { margin: 4px 0; }
 .portal-navigation a { display: block; padding: 8px 12px; border-left: 3px solid transparent; color: var(--text); text-decoration: none; }
 .portal-navigation a:hover { background: var(--soft); color: var(--link); }
 .portal-navigation a.is-active { background: var(--soft); color: var(--link); border-left-color: var(--link); font-weight: 700; }
+.portal-nav-section { margin-top: 18px; }
+.portal-nav-section h2 { margin: 0 0 4px; padding: 0 12px; color: var(--muted); font: 600 12px/1.6 var(--portal-ui); letter-spacing: .015em; }
+.portal-nav-section a { padding-block: 6px; }
 .portal-nav-group { margin-top: 12px !important; padding-top: 10px; border-top: 1px solid var(--line); }
 .portal-nav-group > a { font-weight: 650; }
 .portal-nav-group > ul { margin-left: 14px; border-left: 1px solid var(--line); }
@@ -80,8 +84,10 @@ li { margin: 4px 0; }
 .portal-toc .contents > strong { display: none; }
 .portal-toc .contents ul { columns: 1; }
 .portal-entry, .entry { margin: 0; padding: 17px 0; border-bottom: 1px solid var(--line); }
-:where(.portal-entry, .entry) > :where(h2, h3) { margin: 0 0 5px; font-size: 20px; line-height: 1.4; }
-:where(.portal-entry, .entry) > :where(h2, h3) a { font-weight: 600; }
+:is(.portal-entry, .entry) > :is(h2, h3) { margin: 0 0 5px; font-size: 20px; line-height: 1.4; }
+:where(.portal-entry, .entry) > :where(h2, h3) a { color: var(--text); font-weight: 500; text-decoration-color: var(--line); text-decoration-thickness: 1px; }
+:where(.portal-entry, .entry) > :where(h2, h3) a:hover { color: var(--link); text-decoration-color: currentColor; }
+.portal-entry > :where(p, .entry-summary) { max-width: 78ch; }
 :where(.portal-entry, .entry) > .entry-meta { margin: 3px 0 7px; }
 .entry-summary { margin: 5px 0 9px; font-size: 16px; line-height: 1.65; }
 :where(.portal-entry, .entry) > details { margin: 8px 0 0; }
@@ -98,7 +104,8 @@ summary:hover { text-decoration: underline; text-underline-offset: .2em; }
 .actions, .filter-actions, .pagination, .static-pagination, .chips, .path-links, .concept-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; font: 14px/1.6 var(--portal-ui); }
 .actions, .concept-links { margin: 10px 0; }
 .entry-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; margin: 8px 0; font: 13px/1.6 var(--portal-ui); }
-.filter-actions, .pagination, .static-pagination { margin: 16px 0; }
+.filter-actions { margin: 10px 0; }
+.pagination, .static-pagination { margin: 12px 0; }
 .pagination button, .static-pagination a, .static-pagination span { min-height: 36px; padding: 6px 10px; }
 .static-pagination [aria-current="page"] { font-weight: 700; background: var(--soft); border: 1px solid var(--link); border-radius: 4px; }
 :where(button, input, select, textarea) { min-width: 0; max-width: 100%; border: 1px solid var(--muted); border-radius: 4px; padding: 8px 10px; background: var(--bg); color: var(--text); font: 14px/1.5 var(--portal-ui); }
@@ -115,7 +122,7 @@ label > span, .filter-label { display: block; margin-bottom: 4px; color: var(--m
 .hub-search > div { display: flex; align-items: stretch; gap: 8px; }
 .hub-search input[type="search"] { flex: 1 1 0; width: auto; min-width: 0; }
 .hub-search button { flex: 0 0 auto; white-space: nowrap; }
-.portal-filters, .filters, .primary-filters, .filters-primary { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px 14px; margin: 16px 0; }
+.portal-filters, .filters, .primary-filters, .filters-primary { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px 14px; margin: 12px 0; }
 .portal-filters > *, .filters > * { min-width: 0; }
 .portal-filters .primary-filters, .portal-filters .filters-primary, .portal-filters .filters, .portal-filters .more-filters, .portal-filters .filter-actions { grid-column: 1 / -1; margin: 0; }
 .more-filters { padding-block: 8px; border-block: 1px solid var(--line); font-family: var(--portal-ui); }

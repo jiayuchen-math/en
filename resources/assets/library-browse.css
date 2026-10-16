@@ -11,7 +11,10 @@
 .route-stage details { font:14px/1.7 var(--portal-ui); margin:6px 0 12px; }
 .route-stage details p { margin:8px 0; }
 .cards > a.card { display:flex; flex-direction:column; gap:10px; text-decoration:none; }
-.cards > a.card strong { font-size:23px; text-decoration:underline; text-underline-offset:3px; }
+.cards > a.card strong { color:var(--text); font-size:22px; font-weight:500; text-decoration:underline; text-decoration-color:var(--line); text-decoration-thickness:1px; text-underline-offset:3px; }
+.cards > a.card:hover strong { color:var(--link); text-decoration-color:currentColor; }
+.goal-card h2 a { color:var(--text); font-weight:500; text-decoration-color:var(--line); text-decoration-thickness:1px; }
+.goal-card h2 a:hover { color:var(--link); text-decoration-color:currentColor; }
 .cards > a.card span { color:var(--text); }
 .cards > a.card .resource-count { color:var(--muted); font:13px/1.6 var(--portal-ui); }
 .cards:has(> a.card) { gap:18px; }
