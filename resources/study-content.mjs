@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {escape as E, renderArticle,markdown} from './knowledge-markdown.mjs';
+import {subjectFigure,nilpotentFigure} from './study-figures.mjs';
+import {sectionDirectionBody} from './direction-sections.mjs';
 
 const readJSON=(root,file)=>JSON.parse(fs.readFileSync(path.join(root,'resources',file),'utf8'));
 export function checkedHTTPS(value){
@@ -21,26 +23,45 @@ export function loadDirectionIntroductions(root){
  return result;
 }
 export const loadCourseStudies=root=>readJSON(root,'data/course-study-guides.json');
+export const loadStudyChecks=root=>readJSON(root,'content/study-checks.json');
+export function readingPracticePage(root){
+ const rendered=renderArticle(fs.readFileSync(path.join(root,'resources/content/reading-a-mathematics-text.md'),'utf8'));
+ return {title:'Reading a mathematics text',kind:'article',standalone:true,contents:rendered.contents,
+  body:'<div class="direction-introduction">'+rendered.html+contribution('resources/content/reading-a-mathematics-text.md','reading-a-text')+'<p class="knowledge-meta" data-content-license>Original guide: '+external('https://creativecommons.org/licenses/by-sa/4.0/','CC BY-SA 4.0')+'.</p></div>'};
+}
+export function validateStudyChecks(checks,courses){
+ const ids=new Set();
+ for(const [subject,solutions]of Object.entries(checks)){
+  if(!courses[subject]||solutions.length!==courses[subject].checks.length)throw Error('Mismatched study-check set '+subject);
+  solutions.forEach((item,i)=>{
+   if(ids.has(item.id)||!item.id||item.prompt!==courses[subject].checks[i]||!item.hint||!item.solution)throw Error('Mismatched or incomplete study check '+subject+'/'+item.id);
+   ids.add(item.id);markdown.render(item.hint);markdown.render(item.solution);
+  });
+ }
+ return ids.size;
+}
 const external=(url,label)=>`<a href="${E(checkedHTTPS(url))}" target="_blank" rel="noopener noreferrer">${E(label)}</a>`;
 const list=items=>'<ul>'+items.map(value=>'<li>'+markdown.renderInline(value)+'</li>').join('')+'</ul>';
 const contribution=(file,id)=>`<p class="knowledge-meta">${external('https://github.com/jiayuchen-math/jiayuchen-math.github.io/edit/main/'+file,'Suggest an edit')} · ${external('https://github.com/jiayuchen-math/jiayuchen-math.github.io/issues/new?title='+encodeURIComponent('Reading correction: '+id),'Report a correction')}</p>`;
 export function renderDirectionIntroduction(entry,id){
- const rendered=renderArticle(entry.body);
+ const rendered=renderArticle(sectionDirectionBody(id,entry.body));
+ const prose=id==='algebraic-geometry'?rendered.html.replace('</p>','</p>'+nilpotentFigure()):rendered.html;
  const refs='<details><summary>Sources for this introduction</summary><ul>'+entry.references.map(r=>`<li>${external(r.url,r.label||r.title)} — ${E(r.author)}. ${E(r.locator)}. Checked ${E(r.checked)}.</li>`).join('')+'</ul></details>';
- return {html:`<section class="direction-introduction" id="introduction">${rendered.html}${refs}${contribution(entry.sourcePath,id)}<p class="knowledge-meta" data-content-license>Original introduction: ${external('https://creativecommons.org/licenses/by-sa/4.0/','CC BY-SA 4.0')}.</p></section>`,contents:rendered.contents};
+ return {html:`<section class="direction-introduction" id="introduction">${prose}${refs}${contribution(entry.sourcePath,id)}<p class="knowledge-meta" data-content-license>Original introduction: ${external('https://creativecommons.org/licenses/by-sa/4.0/','CC BY-SA 4.0')}.</p></section>`,contents:rendered.contents};
 }
-export function renderCourseStudy(topic,entry){
+export function renderCourseStudy(topic,entry,checks=[]){
  if(!entry)throw Error('Missing course study guide '+topic.id);
  const reading=(r,purpose='')=>`${external(r.url,r.title)} — ${E(r.author)}. ${E(r.locator)}${purpose?' '+E(purpose):''}`;
  const sources=[entry.primary,...entry.alternatives];
+ const practice=checks.length?'<ol class="study-checks">'+checks.map(item=>`<li id="check-${E(item.id)}"><p>${markdown.renderInline(item.prompt)}</p><details data-portal-disclosure><summary>A hint</summary>${markdown.render(item.hint)}</details><details data-portal-disclosure><summary>Work through the solution</summary>${markdown.render(item.solution)}</details></li>`).join('')+'</ol>':list(entry.checks);
  if(!sources.some(r=>r.url===entry.practice.url))sources.push({...entry.practice,title:entry.practice.label});
  return `<!-- subject-guide:start --><section class="subject-guide" id="study-guide">
  <h2>Studying ${E(topic.title)}</h2>
- <h3>What to work on</h3>${list(entry.objectives)}
+ <h3>What to work on</h3>${list(entry.objectives)}${subjectFigure(topic.id)}
  <h3>A starting text</h3><p>${reading(entry.primary)}</p>
  ${entry.alternatives.length?'<details><summary>Other ways into the subject</summary><ul>'+entry.alternatives.map(r=>'<li>'+reading(r,r.purpose)+'</li>').join('')+'</ul></details>':''}
  <h3>Practice</h3><p>${external(entry.practice.url,entry.practice.label)}. ${E(entry.practice.locator)}. ${E(entry.practice.availability)}</p>
- <h3>Try these before moving on</h3>${list(entry.checks)}
+ <h3>Try these before moving on</h3>${checks.length?'<p class="check-intro">Try a proof or calculation before opening the hint. These solutions address the checks below, not the exercises in the linked textbooks.</p>':''}${practice}
  <p><strong>Already comfortable with this?</strong> ${markdown.renderInline(entry.skip)}</p>
  <p><a href="/en/resources/library-paths/${E(topic.id)}.html">Review the prerequisites</a> · <a href="/en/notes/reading-notes/library/catalogue.html?topic=${encodeURIComponent(topic.title)}">Compare the full subject collection</a></p>
  <details><summary>Reading-source dates</summary><ul>${sources.map(r=>'<li>'+E(r.title)+' · '+E(r.checked)+'</li>').join('')}</ul></details>

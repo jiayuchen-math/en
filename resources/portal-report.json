@@ -791,7 +791,7 @@
       "firstPageBytes": 47603
     }
   ],
-  "indexBytes": 1467154,
+  "indexBytes": 1467531,
   "searchCollections": [
     {
       "id": "library",
@@ -823,7 +823,7 @@
     },
     {
       "id": "guides",
-      "records": 82
+      "records": 83
     }
   ],
   "directoryIndexBytes": 4165786,

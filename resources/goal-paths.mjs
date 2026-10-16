@@ -1,5 +1,5 @@
 import {fileURLToPath} from 'node:url';
-import {loadDirectionIntroductions,renderDirectionIntroduction} from './study-content.mjs';
+import {loadDirectionIntroductions,renderDirectionIntroduction,readingPracticePage} from './study-content.mjs';
 // Goal-oriented editorial routes reuse existing library subjects and preparation
 // checks. Stages indicate progress within one direction, not a ranking of fields.
 const stage=(title,subjects,note)=>({title,subjects,note});
@@ -81,7 +81,8 @@ export function goalPathPages({topics,nodes,root=fileURLToPath(new URL('../',imp
   pages.set(`resources/library-paths/routes/${route.id}.html`,{title:route.title,body:body.replace('<nav class="route-spine"',introduction.html+'<nav class="route-spine"'),contents:introduction.contents,kind:'article'});
  }
  const cards=goalPaths.map(r=>`<article class="goal-card"><h2><a href="${base}routes/${r.id}.html">${escape(r.title)}</a></h2><p>${escape(r.goal)}</p><p class="route-preview">${r.stages.map(s=>escape(s.title)).join(' → ')}</p></article>`).join('');
- const body=`<p>Choose a destination, then follow a connected route from foundations through core study to more advanced branches.</p><p><a href="#goal-routes">Choose a direction</a> · <a href="#subject-reviews">Review a single prerequisite</a> · <a href="/en/notes/reading-notes/library.html">Library cards</a></p><div class="goal-grid" id="goal-routes">${cards}</div><details id="subject-reviews"><summary>Individual subject preparation — all ${topics.length} reviews</summary><p>These are the smaller building blocks used by the routes above, not additional end-to-end paths.</p><ul>${topics.map(t=>`<li><a href="${base}${t.id}.html">${escape(t.title)}</a></li>`).join('')}</ul></details>`;
+ const body=`<p>Choose a destination, then follow a connected route from foundations through core study to more advanced branches.</p><p><a href="#goal-routes">Choose a direction</a> · <a href="#subject-reviews">Review a single prerequisite</a> · <a href="/en/notes/reading-notes/library.html">Library cards</a></p><p><a href="${base}reading-a-text.html">Reading a mathematics text</a> — choosing a book, working through proofs, and using hints without losing the problem.</p><div class="goal-grid" id="goal-routes">${cards}</div><details id="subject-reviews"><summary>Individual subject preparation — all ${topics.length} reviews</summary><p>These are the smaller building blocks used by the routes above, not additional end-to-end paths.</p><ul>${topics.map(t=>`<li><a href="${base}${t.id}.html">${escape(t.title)}</a></li>`).join('')}</ul></details>`;
  pages.set('resources/library-paths/index.html',{title:'Learning Paths',body,kind:'directory'});
+ pages.set('resources/library-paths/reading-a-text.html',readingPracticePage(root));
  return pages;
 }

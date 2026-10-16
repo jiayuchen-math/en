@@ -76,3 +76,24 @@ an ongoing monitoring service.
 - Public solutions are not inferred from the availability of exercises.
   Unverified solution coverage remains identified in the relevant study plan;
   an inaccessible Sarig continuation was excluded from verified readings.
+
+## Reading polish and mathematical illustrations — 2026-10-16
+
+- All twelve introductions gain content-specific subheadings and working
+  contents links, without replacing the original paragraphs.
+- Thirteen original study checks, across proof writing, calculus, linear
+  algebra, real analysis and algebraic geometry, gain separate hints and worked
+  solutions. Prompt matching is validated so an edited question cannot silently
+  retain an unrelated solution. These are not answer keys for external textbooks.
+- Four groups of original inline vector illustrations explain nonreduced
+  points, smooth versus singular tangent spaces, pointwise versus uniform
+  convergence, and contractible versus noncontractible loops. They have native
+  accessible names/descriptions, theme-aware colours, captions and stacked
+  narrow-screen panels. No external image service or client rendering script
+  is required, and existing media protection is unchanged.
+- The new “Reading a mathematics text” guide is reachable from Learning Paths
+  and unified search. It discusses examples, reconstructing proofs, using hints,
+  and keeping a precise record of remaining gaps.
+- Local content, 17-group portal acceptance, URL/media preservation, and browser
+  checks passed, including 360–1440px light/dark views, section anchors, keyboard
+  solution disclosures, and no-JavaScript figures/formulas/solutions.

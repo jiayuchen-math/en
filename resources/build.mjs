@@ -2,7 +2,7 @@ import fs from 'node:fs';import path from 'node:path';import {createHash} from '
 import researchers,{recentRecord,studentWindow} from './data/researchers.mjs';import {backgroundForm} from './data/background-form.mjs';
 import {countryCoverage,canonicalCountry} from './data/researcher-coverage.mjs';
 import {nodes,relatedSubjects,routeFor} from './data/learning-paths.mjs';
-import {loadCourseStudies,renderCourseStudy} from './study-content.mjs';
+import {loadCourseStudies,renderCourseStudy,loadStudyChecks,validateStudyChecks} from './study-content.mjs';
 import {withGeography} from './data/program-geography.mjs';import {applicationState} from './assets/application-time.js';
 import {withAccess} from './data/library-access.mjs';import {withApplicationWindow} from './data/application-windows.mjs';
 import {libraryCounts,updateLibraryCards} from './data/library-counts.mjs';
@@ -12,7 +12,8 @@ import {buildKnowledge} from './build-knowledge.mjs';
 const batchDate='2026-10-12';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const read=p=>fs.readFileSync(path.join(root,p),'utf8');const save=(p,s)=>{fs.mkdirSync(path.dirname(path.join(root,p)),{recursive:true});fs.writeFileSync(path.join(root,p),s)};const json=p=>JSON.parse(read(p));const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const date='2026-10-11';
 const courseStudies=loadCourseStudies(root);
-const subjectGuide=topic=>renderCourseStudy(topic,courseStudies[topic.id]);
+const studyChecks=loadStudyChecks(root);validateStudyChecks(studyChecks,courseStudies);
+const subjectGuide=topic=>renderCourseStudy(topic,courseStudies[topic.id],studyChecks[topic.id]);
 if(fs.existsSync(path.join(root,'resources/ui-shell.mjs'))){const {unwrapPortalSources}=await import('./build-portal.mjs');unwrapPortalSources(root)}
 const external=(url,label)=>`<a href="${E(url)}"${/^https?:\/\//.test(url)&&new URL(url).hostname!=='jiayuchen-math.github.io'?' target="_blank" rel="noopener noreferrer"':''}>${E(label)}</a>`;
 const asset=(name,base)=>`${base}${name}?v=${createHash('sha256').update(read('resources/assets/'+name)).digest('hex').slice(0,12)}`;

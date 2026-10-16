@@ -1,0 +1,90 @@
+{
+  "proofs": [
+    {
+      "id": "quantifier-negation",
+      "prompt": "Negate: for every real x there is a real y with y > x. Then determine the truth of the original statement and its negation.",
+      "hint": "Reverse each quantifier, then negate the inequality. For the original statement, try choosing $y$ in terms of $x$.",
+      "solution": "The original statement is $\\forall x\\in\\mathbb R\\;\\exists y\\in\\mathbb R\\;(y>x)$. It is true: given $x$, choose $y=x+1$.\n\nIts negation is $\\exists x\\in\\mathbb R\\;\\forall y\\in\\mathbb R\\;(y\\le x)$. This would assert a largest real number. It is false, since for any proposed $x$, the choice $y=x+1$ violates the required inequality. Notice that the choice of $y$ is allowed to depend on $x$; swapping the quantifiers would ask a different question."
+    },
+    {
+      "id": "even-square",
+      "prompt": "Prove that an integer n is even if and only if n squared is even, giving each implication separately.",
+      "hint": "One direction follows by writing $n=2k$. For the other, prove the contrapositive using the form of an odd integer.",
+      "solution": "If $n=2k$ for some integer $k$, then $n^2=4k^2=2(2k^2)$ is even.\n\nFor the converse, suppose that $n$ is odd. Write $n=2k+1$. Then\n\n$$\nn^2=4k^2+4k+1=2(2k^2+2k)+1,\n$$\n\nso $n^2$ is odd. The contrapositive gives: if $n^2$ is even, then $n$ is even. Both directions are needed for the equivalence."
+    },
+    {
+      "id": "sum-of-odd-numbers",
+      "prompt": "Prove by induction that 1 + 3 + ... + (2n - 1) = n squared for every integer n >= 1.",
+      "hint": "After assuming the formula for $n$, identify the next odd summand before doing any algebra.",
+      "solution": "For $n=1$, the sum is $1=1^2$. Suppose the statement holds for an integer $n\\ge1$. The next odd summand is $2(n+1)-1=2n+1$, so\n\n$$\n\\sum_{k=1}^{n+1}(2k-1)=n^2+(2n+1)=(n+1)^2.\n$$\n\nThis proves the induction step. Together with the base case, it establishes the identity for every integer $n\\ge1$. The induction hypothesis was used to replace only the first $n$ summands by $n^2$, not to assume the desired formula at $n+1$."
+    }
+  ],
+  "calculus": [
+    {
+      "id": "derivative-from-the-definition",
+      "prompt": "Derive the derivative of x squared from the difference quotient, then find the tangent line at x = 3.",
+      "hint": "Expand $(x+h)^2$ and cancel before letting $h$ tend to zero. Remember that a tangent line needs a point as well as a slope.",
+      "solution": "For $h\\ne0$,\n\n$$\n\\frac{(x+h)^2-x^2}{h}=2x+h.\n$$\n\nLetting $h\\to0$ gives $f'(x)=2x$. At $x=3$, the point is $(3,9)$ and the slope is $6$, so the tangent line is $y-9=6(x-3)$. Cancellation was justified only for $h\\ne0$; the derivative is then obtained by taking a limit, not by substituting $h=0$ into the original quotient."
+    },
+    {
+      "id": "a-rectangle-with-fixed-perimeter",
+      "prompt": "A rectangle has perimeter 20. Maximize its area, specify the allowable side lengths, and explain what happens at the boundary.",
+      "hint": "Use the perimeter condition to eliminate one side. Complete the square, or differentiate, but keep the allowable interval in view.",
+      "solution": "If the sides are $a,b>0$, then $a+b=10$. Thus $0<a<10$ and\n\n$$\nA(a)=a(10-a)=25-(a-5)^2\\le25.\n$$\n\nEquality holds exactly when $a=b=5$. At either endpoint of the closed interval $[0,10]$, one side vanishes and the area is zero: those are degenerate rectangles. Including the endpoints for comparison does not change the maximum, which occurs at an interior point."
+    },
+    {
+      "id": "an-integral-with-a-moving-endpoint",
+      "prompt": "For F(x) = integral from 0 to x squared of exp(t) dt, find F'(x) and name both rules used.",
+      "hint": "First regard the upper endpoint as a separate variable $s$. Differentiate with respect to $s$, then compose with $s=x^2$.",
+      "solution": "Define $G(s)=\\int_0^s e^t\\,dt$. The fundamental theorem of calculus applies because $e^t$ is continuous, and gives $G'(s)=e^s$. Since $F(x)=G(x^2)$, the chain rule yields\n\n$$\nF'(x)=G'(x^2)\\,2x=2x e^{x^2}.\n$$\n\nAs a check, evaluating the integral first gives $F(x)=e^{x^2}-1$, whose derivative is the same. The endpoint contributes the factor $2x$; substituting the endpoint into the integrand alone would miss it."
+    }
+  ],
+  "algebraic-geometry": [
+    {
+      "id": "two-lines-and-their-coordinate-ring",
+      "prompt": "Over C, compute the coordinate ring and irreducible components of V(xy) in affine two-space and identify its minimal prime ideals.",
+      "hint": "A product vanishes when at least one factor vanishes. For the algebra, use that every prime ideal containing $xy$ contains $x$ or $y$.",
+      "solution": "The zero set is the union $V(x)\\cup V(y)$ of the two coordinate lines. Its coordinate ring is $A=\\mathbb C[x,y]/(xy)$: the ideal $(xy)=(x)\\cap(y)$ is radical. Each line is irreducible, since its coordinate ring is a polynomial ring in one variable over a field.\n\nThe minimal prime ideals of $A$ are $(\\bar x)$ and $(\\bar y)$. Their quotients are respectively $\\mathbb C[y]$ and $\\mathbb C[x]$, so they are prime. Any prime containing $xy$ before passing to the quotient contains one of $x,y$, which proves minimality and exhausts the possibilities.\n\nThis ring has zero divisors, because $\\bar x\\bar y=0$ with both factors nonzero, but it has no nonzero nilpotents. Reducibility and nonreducedness are different issues."
+    },
+    {
+      "id": "tangent-spaces-of-a-cusp",
+      "prompt": "Compute the Zariski tangent spaces of y squared = x cubed at (0,0) and (1,1), compare their dimensions with the curve dimension, and identify which point is singular.",
+      "hint": "For a plane curve $F(x,y)=0$, the tangent vectors at $p$ lie in the kernel of the linear map $dF_p$. What happens when both partial derivatives vanish?",
+      "solution": "Let $F(x,y)=y^2-x^3$. At $p=(a,b)$, a tangent vector $(u,v)$ satisfies\n\n$$\n-3a^2u+2bv=0.\n$$\n\nAt the origin, this imposes no linear condition, so $T_{(0,0)}X=\\mathbb C^2$ has dimension two. The curve itself has dimension one; the origin is singular.\n\nAt $(1,1)$, the condition is $-3u+2v=0$, hence $T_{(1,1)}X=\\operatorname{span}((2,3))$ has dimension one, and the point is smooth. The corresponding affine tangent line in the drawing plane is $y-1=\\tfrac32(x-1)$.\n\nAt the cusp, the visible limiting tangent direction is horizontal, but the Zariski tangent space is the whole ambient plane. The latter is defined by the linear terms of the equations, not by choosing the line that best fits a sketch."
+    }
+  ],
+  "linear-algebra": [
+    {
+      "id": "differentiation-on-polynomials",
+      "prompt": "For D on the real polynomials of degree at most 3, where Dp = p', compute kernel, image and a matrix, and verify rank-nullity.",
+      "hint": "Apply $D$ to the basis $(1,x,x^2,x^3)$. The coordinate vectors of the results form the columns of the matrix.",
+      "solution": "Take both domain and codomain to be $P_3(\\mathbb R)$ and use the ordered basis $(1,x,x^2,x^3)$. Since $D(1)=0$, $D(x)=1$, $D(x^2)=2x$ and $D(x^3)=3x^2$,\n\n$$\n[D]=\\begin{pmatrix}0&1&0&0\\\\0&0&2&0\\\\0&0&0&3\\\\0&0&0&0\\end{pmatrix}.\n$$\n\nA polynomial has zero derivative exactly when it is constant, so $\\ker D=\\operatorname{span}(1)$. Every polynomial of degree at most two has an antiderivative of degree at most three, so $\\operatorname{im}D=P_2(\\mathbb R)=\\operatorname{span}(1,x,x^2)$. Thus $\\operatorname{nullity}D=1$ and $\\operatorname{rank}D=3$, with $1+3=4=\\dim P_3(\\mathbb R)$."
+    },
+    {
+      "id": "two-diagonalization-tests",
+      "prompt": "Compare the matrices [[1,1],[0,1]] and [[2,1],[1,2]]: find eigenspaces, determine diagonalizability, and give an orthonormal eigenbasis when one exists.",
+      "hint": "A repeated root of the characteristic polynomial does not by itself decide diagonalizability. Count independent eigenvectors. For the symmetric matrix, test $(1,1)$ and $(1,-1)$.",
+      "solution": "For $A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}$, the only eigenvalue is $1$. The equation $(A-I)(u,v)=0$ forces $v=0$, so its eigenspace is $\\operatorname{span}((1,0))$. Its dimension is only one; $A$ is not diagonalizable.\n\nFor $B=\\begin{pmatrix}2&1\\\\1&2\\end{pmatrix}$, the eigenspaces are $E_3=\\operatorname{span}((1,1))$ and $E_1=\\operatorname{span}((1,-1))$. The vectors\n\n$$\nu=\\frac{1}{\\sqrt2}(1,1),\\qquad v=\\frac{1}{\\sqrt2}(1,-1)\n$$\n\nform an orthonormal eigenbasis. With $Q$ having columns $u,v$, one has $Q^TBQ=\\operatorname{diag}(3,1)$. Symmetry explains why an orthonormal choice is available here; diagonalizability alone would not guarantee it."
+    }
+  ],
+  "real-analysis": [
+    {
+      "id": "an-explicit-epsilon-n-proof",
+      "prompt": "Give an epsilon-N proof that (3n + 1)/(n + 2) converges to 3, with an explicit choice of N.",
+      "hint": "Subtract the proposed limit before trying to choose $N$. You only need one sufficient bound, not the smallest possible $N$.",
+      "solution": "For $n\\ge1$,\n\n$$\n\\left|\\frac{3n+1}{n+2}-3\\right|=\\frac5{n+2}.\n$$\n\nGiven $\\varepsilon>0$, choose $N=\\lceil5/\\varepsilon\\rceil$. If $n\\ge N$, then $n+2>5/\\varepsilon$, so $5/(n+2)<\\varepsilon$. This is exactly the required estimate. The choice of $N$ depends only on $\\varepsilon$, and once chosen it works for every $n\\ge N$."
+    },
+    {
+      "id": "powers-and-uniform-convergence",
+      "prompt": "Determine the pointwise limit of x to the nth power on [0,1] and prove convergence is not uniform. Explain why each function is continuous but the limit is not.",
+      "hint": "First fix $x$ and let $n$ vary. Then reverse your viewpoint: for a fixed $n$, how close to $1$ can you choose $x<1$? A supremum need not be attained.",
+      "solution": "For each $0\\le x<1$, $x^n\\to0$, while $1^n=1$. The pointwise limit $f$ is therefore zero on $[0,1)$ and one at $1$.\n\nFor every fixed $n$,\n\n$$\n\\sup_{x\\in[0,1]}|x^n-f(x)|=\\sup_{0\\le x<1}x^n=1.\n$$\n\nThe supremum is $1$ because $x^n$ approaches $1$ as $x$ approaches $1$ from below; it is not attained on $[0,1)$. Since this error does not approach zero, convergence is not uniform. Each $x^n$ is a continuous polynomial, whereas $f$ is discontinuous at $1$. This also gives a second proof: a uniform limit of continuous functions is continuous."
+    },
+    {
+      "id": "where-uniform-continuity-fails",
+      "prompt": "Prove that x squared is uniformly continuous on [0,1] and is not uniformly continuous on the whole real line.",
+      "hint": "Factor $x^2-y^2$. On the bounded interval you can control the second factor uniformly; on the line, choose nearby points whose sizes grow.",
+      "solution": "If $x,y\\in[0,1]$, then $|x^2-y^2|=|x-y||x+y|\\le2|x-y|$. Given $\\varepsilon>0$, choosing $\\delta=\\varepsilon/2$ gives the required implication for every pair in the interval.\n\nOn $\\mathbb R$, take $x_n=n$ and $y_n=n+1/n$ for $n\\ge1$. Their distance is $1/n\\to0$, but\n\n$$\n|y_n^2-x_n^2|=2+\\frac1{n^2}>2.\n$$\n\nIn particular, with $\\varepsilon=1$, no single $\\delta>0$ can work for all real pairs: choose $n$ so large that $1/n<\\delta$. The function is continuous at every real point, but the allowed neighborhood cannot be chosen independently of the point."
+    }
+  ]
+}

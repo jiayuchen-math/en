@@ -4,7 +4,7 @@ import {fileURLToPath} from 'node:url';
 import assert from 'node:assert/strict';
 import {loadKnowledge,areas} from './build-knowledge.mjs';
 import {goalPaths} from './goal-paths.mjs';
-import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,validateStudyContent,checkedHTTPS} from './study-content.mjs';
+import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,validateStudyContent,checkedHTTPS,loadStudyChecks,validateStudyChecks,renderDirectionIntroduction} from './study-content.mjs';
 import {prepareEntries,searchEntries} from './assets/search-core.js';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
@@ -56,6 +56,32 @@ assert(encyclopedia.filters.some(f=>f.field==='contentKind'));
 assert.equal(encyclopedia.records.filter(r=>r.fields.contentKind==='External reading guide').length,60);
 const entries=[...json('resources/search/index/encyclopedia.json'),...json('resources/search/index/terminology.json')];
 const documents=prepareEntries(entries,true);
+const studyChecks=loadStudyChecks(root);
+assert.equal(validateStudyChecks(studyChecks,courses),13);
+const changedPrompt=structuredClone(studyChecks);changedPrompt.proofs[0].prompt='Unrelated question';
+assert.throws(()=>validateStudyChecks(changedPrompt,courses),'Solutions must stay tied to their actual question');
+for(const [topic,checks]of Object.entries(studyChecks)){
+ const file='notes/reading-notes/library/'+topics.find(t=>t.id===topic).route,html=read(file);
+ assert.equal((html.match(/<summary>A hint<\/summary>/g)||[]).length,checks.length,file+' hints');
+ assert.equal((html.match(/<summary>Work through the solution<\/summary>/g)||[]).length,checks.length,file+' solutions');
+ for(const check of checks)assert(html.includes('id="check-'+check.id+'"'));
+ assert(html.includes('/assets/katex/katex.min.css'),file+' math is build-time rendered');
+}
+for(const [id,entry]of Object.entries(introductions)){
+ const rendered=renderDirectionIntroduction(entry,id),html=read('resources/library-paths/routes/'+id+'.html');
+ assert(rendered.contents.length>=3,id+' missing editorial sections');
+ for(const h of rendered.contents)assert(html.includes('href="#'+h.id+'"')&&html.includes('id="'+h.id+'"'),id+' section is not reachable');
+}
+const figures=[
+ ['resources/library-paths/routes/algebraic-geometry.html','same-point-different-rings'],
+ ['notes/reading-notes/library/algebra/algebraic-geometry.html','smooth-and-singular'],
+ ['notes/reading-notes/library/analysis/real-analysis.html','pointwise-not-uniform'],
+ ['notes/reading-notes/library/geometry-topology/algebraic-topology.html','loops-and-holes'],
+];
+for(const [file,id]of figures){const html=read(file);assert(html.includes('id="'+id+'"'));assert(html.includes('role="img" aria-labelledby='));assert(html.includes('<figcaption>'));assert(!/<svg[^>]*onload=/.test(html))}
+assert(read('resources/library-paths/index.html').includes('reading-a-text.html'));
+assert(read('resources/library-paths/reading-a-text.html').includes('Give each definition somewhere to live'));
+assert(json('resources/search/index/guides.json').some(e=>e.url.endsWith('/reading-a-text.html')));
 const authorMatches=searchEntries(documents,{q:'The Stacks Project Authors',type:'encyclopedia'});
 assert(JSON.stringify(authorMatches).includes('grothendieck-site'),'Reference authors must remain searchable');
 for(const guide of readings){
