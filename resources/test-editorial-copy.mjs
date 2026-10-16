@@ -4,7 +4,7 @@ import {cleanPageCopy} from './editorial-copy.mjs';
 const home=fs.readFileSync('index.html','utf8');
 const disclaimer=fs.readFileSync('disclaimer.html','utf8');
 assert(home.includes('<a href="disclaimer.html">Disclaimer</a></footer>'));
-assert(home.includes('CUHKSZ MathPi Club'),'Latest homepage addition retained');
+assert(home.includes('>CUHKSZ MathPi</a>'),'Homepage MathPi link retained without Club');
 assert(disclaimer.includes('No public record')||disclaimer.includes('no public record'));
 assert(disclaimer.includes('not live admissions portals'));
 assert(disclaimer.includes('redistribution or translation rights'));
