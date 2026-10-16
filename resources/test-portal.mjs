@@ -21,6 +21,7 @@ import {backgroundForm} from './data/background-form.mjs';
 import {protectedBytes,windowsSourceBlobs} from './protected-bytes.mjs';
 import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
 import {loadConceptReadings} from './study-content.mjs';
+import {loadAdviceReadings} from './advice-readings.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFileSync(path.join(root, file), 'utf8');
@@ -61,8 +62,9 @@ const identityHashes = {
 const catalogue = json('notes/reading-notes/library/catalogue.json');
 const knowledge = loadKnowledge(root);
 const readingGuides = loadConceptReadings(root);
+const adviceReadings = loadAdviceReadings(root);
 // Immutable original content counts stay separate from the growing directory.
-const directoryCounts = {...counts, encyclopedia:knowledge.articles.length+readingGuides.length};
+const directoryCounts = {...counts, encyclopedia:knowledge.articles.length+readingGuides.length,links:counts.links+adviceReadings.length};
 const firstWorks = new Map();
 for (const topic of catalogue.topics) for (const e of topic.books) {
   const key = e.url.replace(/\/$/, '');
@@ -71,7 +73,7 @@ for (const topic of catalogue.topics) for (const e of topic.books) {
 const works = [...firstWorks.values()];
 const source = {library:works, encyclopedia:knowledge.articles, terminology:knowledge.terms,
   links:json('resources/data/links.json'), programs:json('resources/data/programs.json'), researchers};
-const directorySource = {...source, encyclopedia:[...knowledge.articles,...readingGuides]};
+const directorySource = {...source, encyclopedia:[...knowledge.articles,...readingGuides],links:[...source.links,...adviceReadings]};
 const failures = [], passed = [], cache = new Map(), anchorCache = new Map(), cardCache = new Map();
 async function check(label, fn) {
   try { await fn(); passed.push(label); console.log('PASS '+label); }
@@ -346,7 +348,7 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
   let report;
   await check('portal report and independent protection evidence', () => {
     report = json('resources/portal-report.json');
-    assert.deepEqual(report.counts, counts);
+    assert.deepEqual(report.counts, {...counts,links:directoryCounts.links});
     assert(Array.isArray(report.directories));
     sameSet(report.directories.map(d => d.id), Object.keys(routes), 'directory report IDs');
     assert(Array.isArray(report.supplementaryDirectories),'Missing supplementary directory report');
@@ -385,11 +387,11 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
     if (identityHashes[collection]) sameSet(records.map(r => r.id), directorySource[collection].map(e => e.id), collection+' original and appended IDs');
     if (['library','links'].includes(collection)) {
       assert(registry && registry[collection], 'Missing persistent stable-ui-ids.json registry');
-      const entries = source[collection].map(e => [collection === 'library' ? e.url.replace(/\/$/,'') : e.url,e]);
+      const entries = directorySource[collection].map(e => [collection === 'library' ? e.url.replace(/\/$/,'') : e.url,e]);
       sameSet(entries.map(([key]) => registry[collection][key]), records.map(r => r.id), collection+' registry associations');
       assert.equal(new Set(Object.values(registry[collection])).size,Object.values(registry[collection]).length,collection+' registry ID collision');
     }
-    const byID = new Map(directorySource[collection].map(e => [e.id || registry?.[collection]?.[collection === 'library' ? e.url.replace(/\/$/,'') : e.url],e]));
+    const byID = new Map(directorySource[collection].map(e => [['library','links'].includes(collection)?registry?.[collection]?.[collection==='library'?e.url.replace(/\/$/,''):e.url]:e.id,e]));
     for (const r of records) {
       for (const field of ['id','title','url']) assert.equal(typeof r[field],'string',collection+' record '+field);
       for (const field of ['subtitle','summary']) assert.equal(typeof r[field],'string',collection+'/'+r.id+' '+field);
@@ -478,7 +480,7 @@ if (!options.has('--baseline') && !options.has('--business-only')) {
             if(r.hasDetails===false){
               assert(!/<details\b[^>]*data-entry-details=/.test(card.body),name+'/'+id+' unnecessary disclosure');
               assert.equal(collection,'links');
-              const original=source.links.find(e=>e.title===r.title);
+              const original=directorySource.links.find(e=>e.title===r.title);
               for(const field of ['title','author','category','area','language','note','use','checked'])hasText(card.body,original[field],name+'/'+id+'/'+field);
             }else{
               assert(/<details\b[^>]*data-entry-details=/.test(card.body),name+'/'+id+' no-JS details');
@@ -630,6 +632,31 @@ await check('shared entry navigation and meaningful details',()=>{
  assert.deepEqual(split.map(a=>a.label),['Read PDF','Official source']);
  const books=json('resources/catalogue-data/library/index.json').records;
  for(const book of books){const original=works.find(w=>w.url.replace(/\/$/,'')===book.readingUrl.replace(/\/$/,'')||w.readUrl===book.readingUrl);assert(original,'Real source URL for '+book.id);assert.equal(titleDestination(book),original.readUrl||original.url);}
+});
+if(!options.has('--business-only')&&!options.has('--baseline'))await check('reviewed advice, Chinese discovery and original link preservation',()=>{
+ const rows=json('resources/catalogue-data/links/index.json').records;
+ const page=read('resources/links/advice.html');
+ assert.equal(adviceReadings.length,30,'Reviewed articles in this release');
+ assert.equal(adviceReadings.filter(e=>e.language==='Chinese').length,14,'Chinese-language articles');
+ assert.equal(new Set(adviceReadings.map(e=>e.id)).size,30);
+ assert.equal(new Set(directorySource.links.map(e=>new URL(e.url).href.replace(/\/$/,''))).size,directorySource.links.length,'Unique legacy and added URLs');
+ for(const item of adviceReadings){
+  const record=rows.find(r=>r.readingUrl===item.url);assert(record,item.id+' missing directory result');
+  assert.equal(record.hasDetails,false,item.id+' no empty details');
+  for(const field of ['author','note','use','kind','published','caveat','accessNote','originalTitle','chineseLabel','checked'])if(item[field])hasText(page,item[field],item.id+'/'+field);
+  assert(page.includes('id="'+item.id+'"'),item.id+' stable article anchor');
+  assert.equal(titleDestination(record),item.url);
+  const index=Number(record.url.match(/(?:-page-(\d+))?\.html#/)?.[1]||1);
+  const file=index===1?'resources/links/index.html':`resources/links/index-page-${index}.html`;
+  hasText(read(file),item.note,item.id+' full summary without JS');
+  const actions=entryActions(record);assert(actions.some(a=>a.url===item.source),item.id+' review source reachable');
+  if(item.source.includes('zhihu.com/en/'))assert(actions.some(a=>a.label==='Zhihu English rendering (reviewed)'),item.id+' translated-review basis');
+ }
+ const simplified=catalogueCore.matchingRecords(rows,{q:'不确定自己写的证明',filters:{language:'Chinese'}}).records;
+ assert(simplified.some(r=>r.readingUrl.includes('syleung.prof/2022/11/26/')),'Simplified alias of traditional title');
+ assert(read('resources/links/index.html').includes('href="advice.html"'));
+ assert(read('resources/study-careers/guides.html').includes('/en/resources/links/advice.html'));
+ externalLinks(page,'Advice page');
 });
 console.log(JSON.stringify({passed:passed.length, failures, mode:options.has('--baseline') ? 'baseline' : options.has('--business-only') ? 'business-only' : 'portal', counts}));
 if (failures.length) process.exitCode = 1;
