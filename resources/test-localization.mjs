@@ -1,10 +1,15 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
 import {translateUI,languageURL,zh} from './assets/locale-data.js';
 import {initialLanguage} from './assets/language.js';
 import {stateURL,readState} from './assets/portal-catalogue-core.js';
 import {shell} from './ui-shell.mjs';
-import {chineseCompanion,localizedSubjects,chineseSubjectMetadata,subjectGuideFile} from './localization.mjs';
+import {chineseCompanion,localizedSubjects,chineseSubjectMetadata} from './localization.mjs';
+import {subjectTranslations,translatedSubjectInputs,subjectTranslationHTML,translationPayload} from './subject-translations.mjs';
+import {renderCourseStudy} from './study-content.mjs';
+import {combinedChecks} from './learning-editorial.mjs';
 const root=new URL('../',import.meta.url),read=file=>fs.readFileSync(new URL(file,root),'utf8');
 assert.equal(translateUI('Search'),'搜索');assert.equal(translateUI('Search','en'),'Search');
 assert.equal(translateUI('The Rising Sea: Foundations of Algebraic Geometry'),'The Rising Sea: Foundations of Algebraic Geometry');
@@ -18,22 +23,45 @@ assert.equal(initialLanguage('https://example.org/',{getItem(){throw Error('bloc
 assert.equal(initialLanguage('https://example.org/',{getItem:()=> 'zh'}),'zh');
 const state=readState(url,{fields:['country']});assert.equal(stateURL(url,state,{},url).searchParams.get('lang'),'zh');
 const page=shell({title:'Search',url:'/en/resources/search/',body:'<p>source text</p>'});assert(page.includes('id="language-toggle"'));assert(page.includes('Language switching requires JavaScript'));assert(page.includes('/language.js?v='));
-const data=JSON.parse(read('resources/data/learning-zh.json'));assert.equal(Object.keys(data.guides).length,7);assert.equal(localizedSubjects.length,29);
+assert.equal(localizedSubjects.length,29);
 const courses=JSON.parse(read('resources/data/course-study-guides.json'));
+const editorial=JSON.parse(read('resources/data/learning-editorial.json')).subjects;
+const originalChecks=JSON.parse(read('resources/content/study-checks.json'));
+const additionalChecks=JSON.parse(read('resources/content/learning-checks.json')).subjects;
+const topics=JSON.parse(read('notes/reading-notes/library/catalogue.json')).topics;
+const fixture=JSON.parse(read('resources/data/translations/english-subject-inputs.json'));
 assert.deepEqual(Object.keys(chineseSubjectMetadata).sort(),Object.keys(courses).sort(),'Every real subject, without duplicate topics');
-for(const id of localizedSubjects){
- const entry=chineseSubjectMetadata[id],body=fs.readFileSync(subjectGuideFile(id),'utf8'),html=chineseCompanion(id,'subjects'),course=courses[id];
- assert(entry.title&&entry.summary,id+' metadata');assert(body.length>500,id+' independently readable guide');assert((body.match(/^### /gm)||[]).length>=2,id+' structured reading');
- assert(!html.includes('katex-error'),id+' valid mathematics');assert(html.includes('2026-10-18'));assert(html.includes(course.primary.url.replaceAll('&','&amp;')),id+' exact primary target');
- assert(html.includes(course.practice.url.replaceAll('&','&amp;')),id+' actual exercises');assert(html.includes(course.primary.checked),id+' source dates retained');
- assert(html.includes('建议修改本篇')&&html.includes('报告具体错误'),id+' actionable correction links');
- assert(!/全面掌握|最好的教材|保姆级|亲测|我的经验/.test(body),id+' no generic promises or invented personal experience');
+const matches=(html,pattern)=>[...html.matchAll(pattern)].map(m=>m[1]);
+let translatedChecks=0;
+for(const topic of topics){
+ const id=topic.id,entry=subjectTranslations[id],input={topic,entry:courses[id],editorial:editorial[id],checks:originalChecks[id]||[],additionalChecks:additionalChecks[id]||[],topics};
+ const digest=createHash('sha256').update(JSON.stringify([input.entry,input.editorial,input.checks,input.additionalChecks])).digest('hex');
+ assert.equal(digest,fixture.subjects[id],id+' English inputs changed: review the translation, do not silently rebase it');
+ assert(!/[：:？！?]/.test(entry.title),id+' plain subject name');
+ assert.notEqual(translateUI(topic.title),topic.title,id+' translated page heading');
+ const before=JSON.stringify(input),tr=translatedSubjectInputs(input),english=renderCourseStudy(topic,input.entry,input.checks,{editorial:input.editorial,additionalChecks:input.additionalChecks,topics});
+ const html=subjectTranslationHTML(input,renderCourseStudy),built=read('notes/reading-notes/library/'+topic.route);
+ assert.equal(JSON.stringify(input),before,id+' original records unchanged');
+ assert.equal(tr.entry.objectives.length,input.entry.objectives.length);assert.equal(tr.editorial.comparison.length,input.editorial.comparison.length);
+ const worked=combinedChecks(input.checks,input.additionalChecks);assert.equal(tr.checks.length,worked.length);translatedChecks+=tr.checks.length;
+ for(const [a,b]of [[input.entry.primary,tr.entry.primary],[input.entry.practice,tr.entry.practice],...input.editorial.comparison.map((r,i)=>[r,tr.editorial.comparison[i]])])for(const key of ['url','sourceUrl','author','title','checked'])assert.equal(b[key],a[key],id+' preserve source fact '+key);
+ assert.deepEqual(matches(html,/<li id="(check-[^"]+)"/g),worked.map(c=>'check-'+c.id),id+' same self-check anchors and order');
+ assert.equal(matches(html,/<summary>(提示)<\/summary>/g).length,worked.length);
+ assert.equal(matches(html,/<summary>(查看解答)<\/summary>/g).length,worked.length);
+ assert.deepEqual(matches(html,/href="([^"]+)"/g).sort(),matches(english,/href="([^"]+)"/g).sort(),id+' identical reading and navigation destinations');
+ assert.deepEqual(matches(html,/<path[^>]* d="([^"]+)"/g),matches(english,/<path[^>]* d="([^"]+)"/g),id+' original mathematical illustrations unchanged');
+ assert(!html.includes('katex-error'));assert(!/非逐句全文翻译|独立中文导读/.test(built));assert(!built.includes('class="chinese-companion'));
+ const payload=JSON.parse(built.match(/<script type="application\/json" id="page-translations">([\s\S]*?)<\/script>/)?.[1]||'null');
+ assert.equal(payload?.blocks?.['study-guide'],html,id+' exact committed translation');
+ assert.equal(matches(built,/id="(study-guide)"/g).length,1,id+' only one live guide');
+ assert.equal(chineseCompanion(id,'subjects'),'','No independently written substitute');
 }
-for(const kind of ['guides','subjects'])for(const [id,entry]of Object.entries(data[kind])){
- assert(entry.title&&entry.body.length>200,id);const html=chineseCompanion(id,kind);assert(html.includes('data-language-content="zh"'));assert(html.includes('非逐句全文翻译'));assert(html.includes('lang="zh-Hans"'));
- if(kind==='guides'){const built=read(`resources/library-paths/guides/${id}.html`);assert(built.includes('data-language-content="en"'));assert(built.includes(entry.title));assert.equal((built.match(/class="chinese-companion"/g)||[]).length,1)}
-}
+assert.equal(translatedChecks,40);
+const invalid={topic:topics[0],entry:courses[topics[0].id],editorial:editorial[topics[0].id],checks:[],additionalChecks:[],topics};assert.throws(()=>translatedSubjectInputs(invalid),'Missing translation cannot be presented as complete');
+assert(!translationPayload({test:'</script><p>unsafe</p>'}).includes('</script><p>'),'Script text is escaped');
+for(const guide of JSON.parse(read('resources/data/learning-guides.json')).guides){const built=read('resources/library-paths/guides/'+guide.id+'.html');assert(!built.includes('chinese-companion'));assert(!built.includes('data-language-content="en"'),'Untranslated original remains visible, never replaced by a short essay');}
 for(const file of ['index.html','resources/index.html','resources/study-careers/researchers.html','notes/mathematical-notes/page.html'])assert(read(file).includes('id="language-toggle"'),file);
-const guideIndex=read('resources/library-paths/index.html');assert(guideIndex.includes('id="chinese-subject-guides"'));assert.equal((guideIndex.match(/\?lang=zh#subject-guide-zh/g)||[]).length,29,'All subject guides reachable from a real index');
+const guideIndex=read('resources/library-paths/index.html');assert(guideIndex.includes('id="chinese-subject-guides"'),'Old bookmark retained');assert(!guideIndex.includes('按学科读中文导读'));assert(!guideIndex.includes('选择学科：29 篇导读'));
 assert(!read('resources/assets/language.js').includes('fetch('),'No machine-translation service or remote locale lookup');
-console.log(JSON.stringify({passed:true,interfaceLabels:Object.keys(zh).length,chineseGuides:7,chineseSubjectCompanions:29,englishDefault:true,sourceTitlesRetained:true}));
+assert(!read('resources/assets/page-translation.js').includes('fetch('),'Translations ship with the original page');
+console.log(JSON.stringify({passed:true,interfaceLabels:Object.keys(zh).length,translatedSubjects:29,translatedWorkedChecks:40,independentCompanions:0,englishDefault:true,sourceFactsRetained:true}));

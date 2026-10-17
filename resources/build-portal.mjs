@@ -8,13 +8,14 @@ import {cleanPageCopy} from './editorial-copy.mjs';
 import {backgroundForm} from './data/background-form.mjs';
 import {protectedBytes} from './protected-bytes.mjs';
 import {goalPathPages,goalPaths} from './goal-paths.mjs';
-import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,validateStudyContent,renderConceptReading} from './study-content.mjs';
+import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,loadStudyChecks,validateStudyContent,renderConceptReading,renderCourseStudy} from './study-content.mjs';
 import {nodes as pathNodes} from './data/learning-paths.mjs';
 import {titleDestination,entryActions,showsDetails,hasDetailContent} from './assets/entry-presentation.js';
 import {adviceMetadata} from './advice-readings.mjs';
 import {loadLearningEdition,validateLearningEdition,editorialGuidePages,renderRevisionList} from './learning-editorial.mjs';
 import {createLearningTools} from './learning-tools.mjs';
 import {chineseCompanion,chineseSubjectMetadata} from './localization.mjs';
+import {subjectTranslationHTML,translationPayload} from './subject-translations.mjs';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -72,7 +73,12 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  }
  function addPage(file,title,body,kind='directory',extra={}){
   const subjectId=merged.topics.find(t=>'notes/reading-notes/library/'+t.route===file)?.id;
-  if(subjectId){body=body.replace(/<!-- chinese-companion:start -->[\s\S]*?<!-- chinese-companion:end -->/g,'');const companion=chineseCompanion(subjectId,'subjects');if(companion)body=`<!-- chinese-companion:start -->${companion}<!-- chinese-companion:end -->`+body;}
+  if(subjectId){
+   body=body.replace(/<!-- chinese-companion:start -->[\s\S]*?<!-- chinese-companion:end -->/g,'').replace(/<script type="application\/json" id="page-translations">[\s\S]*?<\/script>/g,'');
+   const topic=merged.topics.find(t=>t.id===subjectId);
+   const html=subjectTranslationHTML({topic,entry:courseStudies[subjectId],editorial:learningEdition.subjects[subjectId],checks:loadStudyChecks(root)[subjectId]||[],additionalChecks:learningEdition.checks[subjectId]||[],topics:merged.topics},renderCourseStudy);
+   body+=translationPayload({'study-guide':html});
+  }
   if(/^resources\/encyclopedia\/[^/]+\/index\.html$/.test(file))body=`<!-- learning-control:start --><div class="entry-actions">${saveControl(file.split('/').at(-2),'encyclopedia')}</div><!-- learning-control:end -->`+body;
   if(file.startsWith('resources/library-paths/')&&kind==='article')body=`<!-- learning-control:start --><div class="entry-actions">${saveControl('guide-'+digest(file).slice(0,12),'guides')}</div><!-- learning-control:end -->`+body;
   if(/class="(?:subject-guide|direction-introduction)"/.test(body))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/study-guides.css?v='+digest(read('resources/assets/study-guides.css')).slice(0,12)+'">';
@@ -215,14 +221,15 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   addPage(file,title,body,article?'article':'directory',{toc,head:(file.includes('/encyclopedia/')?'<link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':'')+(courses.length?'<link rel="stylesheet" href="/en/resources/assets/study-guides.css?v='+digest(read('resources/assets/study-guides.css')).slice(0,12)+'">':'')});
   const subject=merged.topics.find(t=>file==='notes/reading-notes/library/'+t.route||file==='resources/library-paths/'+t.id+'.html');
   if(article||file.includes('/library/')){
-   const englishBody=body.replace(/<!-- chinese-companion:start -->[\s\S]*?<!-- chinese-companion:end -->/g,'');
+   const englishBody=body.replace(/<!-- chinese-companion:start -->[\s\S]*?<!-- chinese-companion:end -->/g,'').replace(/<script type="application\/json" id="page-translations">[\s\S]*?<\/script>/g,'');
    const chinese=file.startsWith('notes/reading-notes/library/')&&subject?chineseSubjectMetadata[subject.id]?.title:undefined;
    guideRows.push({id:'guide-'+digest(file).slice(0,12),title,url:href(file),summary:brief(text(englishBody)),...(chinese?{chinese,aliases:[chineseSubjectMetadata[subject.id].summary]}:{}),area:subject?areaForTopic(subject):'',type:'guides'});
   }
  }
  // Goal routes sit above the smaller prerequisite reviews, which keep their URLs.
  for(const [file,page] of goalPages){
-  if(file==='resources/library-paths/index.html')page.body=`<!-- chinese-subject-index:start --><section id="chinese-subject-guides" data-language-content="zh" lang="zh-Hans" hidden><h2>按学科读中文导读</h2><p>想先了解一门课研究什么、从哪里读起，可以从这里进入。它们是具体学科的起步说明，不是下方跨课程贯通路线的替代品。</p><details><summary>选择学科：29 篇导读</summary><ul>${merged.topics.map(t=>'<li>'+link('/en/notes/reading-notes/library/'+t.route+'?lang=zh#subject-guide-zh',chineseSubjectMetadata[t.id].title)+'</li>').join('')}</ul></details></section><!-- chinese-subject-index:end -->`+page.body;
+  // Preserve the old bookmark, without a second Chinese-only directory.
+  if(file==='resources/library-paths/index.html')page.body='<span id="chinese-subject-guides" class="section-anchor" aria-hidden="true"></span>'+page.body;
   if(file==='resources/library-paths/index.html')page.body+=['Study guide','Connecting ideas'].map(kind=>'<section><h2>'+(kind==='Study guide'?'Questions that come up while studying':'Connections between subjects')+'</h2><ul>'+editorialPages.filter(p=>p.guide.kind===kind).map(p=>'<li>'+link(href(p.file),p.title)+'</li>').join('')+'</ul></section>').join('');
   const introductionLinks=(page.contents||[]).map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('');
   const toc=page.kind==='article'?'<nav class="contents" aria-label="Article contents"><strong>Route stages</strong><ul>'+(page.standalone?introductionLinks:'<li>'+link('#introduction','Introduction')+(introductionLinks?'<ul>'+introductionLinks+'</ul>':'')+'</li>'+[...page.body.matchAll(/<section class="route-stage" id="([^"]+)"><h2>([\s\S]*?)<\/h2>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join(''))+'</ul></nav>':'';

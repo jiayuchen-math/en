@@ -1,4 +1,5 @@
-import {translateUI,languageURL} from './locale-data.js?v=20261017-1';
+import {translateUI,languageURL} from './locale-data.js?v=20261018-translation-1';
+import {createPageTranslator} from './page-translation.js?v=20261018-translation-1';
 
 const KEY='jiayu.interface-language.v1';
 const normalize=value=>value==='zh'||value==='zh-Hans'?'zh':value==='en'?'en':'';
@@ -11,10 +12,13 @@ export function initialLanguage(url,storage){
 if(typeof document!=='undefined'){
  let storage;try{storage=localStorage}catch{}
  let language=initialLanguage(location.href,storage),queued=false;
+ // Bookmarks from the retired companion section resolve to the same guide.
+ if(location.hash==='#subject-guide-zh')history.replaceState(history.state,'',location.pathname+location.search+'#study-guide');
  try{storage?.setItem(KEY,language)}catch{}
  // Give the initial history entry an explicit language so Back can restore it.
  if(!normalize(new URL(location.href).searchParams.get('lang')))history.replaceState(history.state,'',languageURL(location.href,language));
  const originals=new WeakMap(),attributes=new WeakMap();
+ const translatePage=createPageTranslator(document);
  const switcher=document.getElementById('language-toggle');
  const uiScopes='.portal-topbar,.portal-sidebar,.portal-breadcrumbs,.portal-page-header,.portal-toc,.portal-footer,.controls,.hub-search,.search-form,#unified-search,.search-chips,.search-meanings,.search-groups > section > h2,.search-groups > section > a,.search-groups > h2,.search-groups > p,.search-groups > button,.search-groups .entry-actions,.search-result .entry-actions,.search-result .result-actions,.static-pagination,.pagination,.chips,.entry-actions,.learning-actions,.learning-settings,.learning-tools label,.learning-tools button,.learning-tools select,.learning-tools [data-learning-count],.learning-tools [data-learning-page],.learning-tools [data-tool-message],.learning-tools [data-shelf-items] > p,.learning-tools [data-comparison] > p,.learning-tools th,#result-count,#search-count,#search-pages,#portal-pagination,#no-results,summary,.subject-links,.resource-group,.hub-subjects > h2,.portal-body > p,.portal-body > h2,.portal-body > h3,.subject-guide h2,.subject-guide h3,.reading-choice dt,.study-checks summary,form[data-background] label,form[data-background] select,form[data-background] button,form[data-background] [data-background-summary]';
  function protectedNode(node){return node.parentElement?.closest('script,style,code,pre,textarea,.katex,option[data-original-title],[data-language-content="zh"],#language-toggle,.portal-entry h2,.portal-entry h3,.reading-choice h4,.article-body,.direction-introduction,.learning-results h3,.learning-saved h3,.learning-comparison thead a')}
@@ -40,6 +44,7 @@ if(typeof document!=='undefined'){
  }
  function apply(){
   observer.disconnect();
+  translatePage?.(language);
   document.documentElement.lang=language==='zh'?'zh-Hans':'en';document.documentElement.dataset.interfaceLanguage=language;
   for(const scope of document.querySelectorAll(uiScopes)){
    if(scope.closest('[data-language-content="zh"]'))continue;
@@ -55,7 +60,7 @@ if(typeof document!=='undefined'){
   }
   if(switcher){switcher.hidden=false;switcher.textContent=language==='zh'?'English':'中文';switcher.lang=language==='zh'?'en':'zh-Hans';switcher.setAttribute('aria-label',language==='zh'?'Switch interface to English':'切换为简体中文界面');switcher.title=language==='zh'?'English interface':'简体中文界面'}
   const notice=document.getElementById('language-content-status');
-  if(notice){notice.hidden=language!=='zh';notice.textContent=document.querySelector('[data-language-content="zh"]')?'本页提供中文导读；英文全文与原始来源仍可阅读。':'中文界面 · 条目名称、引用及未译正文保留原文。'}
+  if(notice){notice.hidden=language!=='zh'||Boolean(translatePage);notice.textContent='中文界面；尚未翻译的正文与引用保留原文。'}
   for(const anchor of document.querySelectorAll('a[href]')){
    if(anchor.closest('[data-preserve-url]')||anchor.hasAttribute('data-language-choice'))continue;
    const raw=anchor.getAttribute('href');if(!raw||raw.startsWith('#'))continue;

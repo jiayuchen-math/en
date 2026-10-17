@@ -28,7 +28,9 @@ assert(!entry.includes('library/open-reading.html')&&entry.includes('library/cat
 const full=read('notes/reading-notes/library/catalogue.html');assert(full.includes('filter-readingAccess')&&full.includes('filter-readingMode'));
 assert(full.includes('value="Free to read" selected')&&full.includes('catalogue.html?readingAccess='));
 const old=read('notes/reading-notes/library/open-reading.html');assert(old.includes('content="0;url=catalogue.html"')&&old.includes("location.search+location.hash"));
-for(const t of catalogue.topics){const html=read('notes/reading-notes/library/'+t.route);const shortcut='catalogue.html?topic='+encodeURIComponent(t.title);assert.equal(html.split(shortcut).length-1,1,'Missing / repeated subject shortcut '+t.id);assert(!html.includes('open-reading.html'))}
+// Count live links, not the same destination in inert translation JSON.
+// test-localization separately checks every translated destination for parity.
+for(const t of catalogue.topics){const html=read('notes/reading-notes/library/'+t.route).replace(/<script type="application\/json" id="page-translations">[\s\S]*?<\/script>/g,'');const shortcut='catalogue.html?topic='+encodeURIComponent(t.title);assert.equal(html.split(shortcut).length-1,1,'Missing / repeated subject shortcut '+t.id);assert(!html.includes('open-reading.html'))}
 const report=JSON.parse(read('resources/build-report.json'));
 assert.equal(report.openReading.freeWorks,free.length);assert.equal(report.openReading.essays,popular.length);assert.equal(report.openReading.newOpenWorks,open.length);
 console.log(JSON.stringify({newFreelyReadableWorks:open.length,allFreeWorks:free.length,popularWorks:popular.length,paidEntriesExcluded:true,sourceDatesPreserved:true}));
