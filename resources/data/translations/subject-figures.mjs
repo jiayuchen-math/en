@@ -1,5 +1,6 @@
 const R=String.raw;
 export const figures={
+ 'same-point-different-rings':{title:'一个点并不说明全部信息',caption:R`两个谱的底层空间都只有一个点。在 $\mathbb C[x]/(x^2)$ 中，$x$ 的剩余类非零，平方却为零。额外的代数信息属于结构层；多画一个点，或把点画粗，并不能解释它。`},
  'smooth-and-singular':{title:'线性化看到了什么',caption:R`图中画的是**实点**，不是整条复曲线。对 $F=y-x^2$，原点处的线性部分为 $y$，给出一条切线。对 $F=y^2-x^3$，线性部分为零，Zariski 切空间是整个平面（阴影），尽管可见尖点的极限切线方向是水平的。`},
  'learning-ag-local-gluing':{title:'局部分式与一个全局函数',caption:R`对任意域 $k$，主开集 $D(t)$ 与 $D(1-t)$ 覆盖 $\operatorname{Spec}(k[t])$，因为素理想不能同时包含 $t$ 与 $1-t$。两个局部表达式在各自的局部化中都等于 $t$，在 $D(t(1-t))$ 上一致，因而粘合为唯一的全局正则函数 $t$。重叠椭圆只是开覆盖成员关系的示意，不是谱的几何图像。`},
  'pointwise-not-uniform':{title:'陡峭部分不断移动',caption:R`对每个固定 $x<1$，$x^n$ 趋于零。但对每个 $n$，只要点足够接近 $1$，函数值仍可任意接近 $1$。深色线段与端点实心点表示逐点极限，空心点不取到。误差上确界始终为 $1$，故收敛不一致。`},
@@ -9,6 +10,8 @@ export const figures={
  'loops-and-holes':{title:'回路所在的空间很重要',caption:'圆形回路可以在圆盘内收缩。在圆环中，绕缺失区域一周的回路不能在留在空间内的同时收缩。障碍来自拓扑，而不是所画回路的形状限制。'}
 };
 export const descriptions={
+ 'reduced-point':'只有一个底层点，坐标环为 ℂ。',
+ 'nonreduced-point':'只有一个底层点，坐标环为 ℂ[ε]/(ε²)。',
  'smooth-parabola':'实曲线 y=x²，原点处切线水平。',
  'singular-cusp':'实尖点 y²=x³。原点处所有方向都满足线性化方程，因此 Zariski 切空间是整个环境平面。',
  'power-convergence':'[0,1] 上 x 的 1、2、5、20 次幂图像，以及不连续的逐点极限。',
@@ -20,6 +23,7 @@ export const descriptions={
  'annulus-loop':'绕圆环孔洞一周的回路。'
 };
 export const figureLabels={
+ 'A reduced point':'约化的点','A nonreduced point':'非约化的点','No nonzero nilpotents':'没有非零幂零元',
  'Smooth at the origin':'原点处光滑','Singular at the origin':'原点处奇异',
  'y = x² · tangent dimension 1':'y = x² · 切空间维数 1','y² = x³ · tangent dimension 2':'y² = x³ · 切空间维数 2',
  'agree here':'在这里一致','Global section: t on X = Spec(k[t])':'全局截面：X = Spec(k[t]) 上的 t',

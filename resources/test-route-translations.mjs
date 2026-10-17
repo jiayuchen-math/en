@@ -1,0 +1,44 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+import {fileURLToPath} from 'node:url';
+import {goalPaths,goalPathPages} from './goal-paths.mjs';
+import {nodes} from './data/learning-paths.mjs';
+import {loadDirectionIntroductions} from './study-content.mjs';
+import {routeTranslations,translateRouteLabels,translatedRoute} from './route-translations.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const read=file=>fs.readFileSync(new URL('../'+file,import.meta.url),'utf8');
+const topics=JSON.parse(read('notes/reading-notes/library/catalogue.json')).topics;
+const introductions=loadDirectionIntroductions(root),fixture=JSON.parse(read('resources/data/translations/english-route-inputs.json'));
+const original=JSON.stringify([goalPaths,nodes,topics,introductions]);
+const english=goalPathPages({topics,nodes,root}),chinese=goalPathPages({topics,nodes,root,locale:'zh'});
+const matches=(html,pattern)=>[...html.matchAll(pattern)].map(m=>m[1]);
+assert.equal(chinese.size,13);
+assert.equal(JSON.stringify([goalPaths,nodes,topics,introductions]),original,'English inputs unchanged');
+for(const route of goalPaths){
+ const digest=createHash('sha256').update(JSON.stringify([route,introductions[route.id],route.stages.map(s=>s.subjects.map(id=>[id,nodes[id]]))])).digest('hex');
+ assert.equal(digest,fixture.routes[route.id],route.id+' English drift requires translation review');
+ assert(!/[：:？！?]/.test(routeTranslations[route.id].title),'Plain direction title');
+ const file='resources/library-paths/routes/'+route.id+'.html',en=english.get(file),zh=chinese.get(file),built=read(file);
+ assert.equal(matches(en.body,/(<p>)/g).length,matches(zh.body,/(<p>)/g).length,route.id+' all paragraphs translated');
+ assert.deepEqual(matches(zh.body,/href="([^"]+)"/g).sort(),matches(en.body,/href="([^"]+)"/g).sort(),route.id+' same URLs including references and contribution links');
+ assert.deepEqual(matches(zh.body,/<annotation encoding="application\/x-tex">([\s\S]*?)<\/annotation>/g).sort(),matches(en.body,/<annotation encoding="application\/x-tex">([\s\S]*?)<\/annotation>/g).sort(),route.id+' unchanged mathematics');
+ assert.deepEqual(matches(zh.body,/<path[^>]* d="([^"]+)"/g),matches(en.body,/<path[^>]* d="([^"]+)"/g),route.id+' unchanged illustration coordinates');
+ assert.deepEqual(matches(zh.body,/\bid="([^"]+)"/g),matches(en.body,/\bid="([^"]+)"/g),route.id+' stable original heading anchors');
+ assert.deepEqual(zh.contents.map(h=>h.id),en.contents.map(h=>h.id));
+ assert.equal(matches(zh.body,/<summary>(先修要求与跳过建议)<\/summary>/g).length,route.stages.reduce((n,s)=>n+s.subjects.length,0));
+ const payload=JSON.parse(built.match(/<script type="application\/json" id="page-translations">([\s\S]*?)<\/script>/)[1]);
+ assert.equal(payload.blocks['route-copy'],zh.body,route.id+' complete built translation');
+ assert.equal(payload.blocks['translated-page-title'],zh.title);
+ assert(built.includes('<h1 id="translated-page-title">'));assert(built.includes('<title id="translated-document-title">'));assert(built.includes('id="translated-breadcrumb-title"'));
+ assert.deepEqual(matches(payload.blocks['translated-page-toc'],/href="([^"]+)"/g),['#introduction',...en.contents.map(h=>'#'+h.id),...route.stages.map((_,i)=>'#stage-'+(i+1))]);
+ assert(!zh.body.includes('katex-error'));assert(!/Foundation:|Bridge:|Preparation &amp; skip|Original introduction:|Checked \d/.test(zh.body));
+ for(const ref of introductions[route.id].references){assert(zh.body.includes(ref.author));assert(zh.body.includes(ref.checked))}
+}
+const index=read('resources/library-paths/index.html'),payload=JSON.parse(index.match(/<script type="application\/json" id="page-translations">([\s\S]*?)<\/script>/)[1]);
+assert.equal(matches(payload.blocks['route-copy'],/class="(goal-card)"/g).length,12);
+assert(!/Toward |Choose a destination|Foundation:|Questions that come up/.test(payload.blocks['route-copy']));
+assert(payload.blocks['route-copy'].includes('各学科先修知识（29 科）'));assert(payload.blocks['route-copy'].includes('id="chinese-subject-guides"'));
+assert.equal(translateRouteLabels('<a href="x">Library cards</a>'),'<a href="x">学科书目</a>');
+assert.throws(()=>translatedRoute({id:'not-published',stages:[]}),/Missing route translation/);
+console.log(JSON.stringify({routeTranslations:12,overviewTranslations:1,paragraphsComplete:true,englishAndSourceFactsPreserved:true,stableDeepLinks:true}));

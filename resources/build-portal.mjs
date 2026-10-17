@@ -16,6 +16,7 @@ import {loadLearningEdition,validateLearningEdition,editorialGuidePages,renderRe
 import {createLearningTools} from './learning-tools.mjs';
 import {chineseCompanion,chineseSubjectMetadata} from './localization.mjs';
 import {subjectTranslationHTML,translationPayload} from './subject-translations.mjs';
+import {translateRouteLabels,routeTranslations} from './route-translations.mjs';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -92,7 +93,9 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
    return /\/(?:portal-catalogue|unified-search)\.js$/.test(source)?{src,type:'module'}:src;
   });
   if(file.startsWith('resources/library-paths/'))extra.scripts=[...(extra.scripts||[]),'/en/resources/assets/paths.js'];
-  save(file,shell({title,body,url:href(file.replace(/index\.html$/,'')),kind,...extra}));
+  let output=shell({title,body,url:href(file.replace(/index\.html$/,'')),kind,...extra});
+  if(extra.translatedTitle)output=output.replace('<title>','<title id="translated-document-title">').replace('<h1>','<h1 id="translated-page-title">').replace('<span aria-current="page">','<span id="translated-breadcrumb-title" aria-current="page">');
+  save(file,output);
  }
  function saveControl(id,type){return `<button type="button" data-save-learning data-learning-id="${E(id)}" data-learning-type="${E(type)}" hidden>Save to bookshelf</button>`}
  function compareControl(id){return `<button type="button" data-compare-program data-program-id="${E(id)}" hidden>Compare program</button>`}
@@ -199,6 +202,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  }
  // Shared wrappers for existing resource entrances and guides. Never wrap course note bodies.
  const goalPages=goalPathPages({topics:merged.topics,nodes:pathNodes,root});
+ const chineseGoalPages=goalPathPages({topics:merged.topics,nodes:pathNodes,root,locale:'zh'});
  const editorialPages=editorialGuidePages(root,learningEdition,merged.topics);
  const managedLearning=new Set([...editorialPages.map(p=>p.file),'resources/bookshelf/index.html','resources/study-careers/compare/index.html']);
  const passthrough=walk('resources').filter(f=>f.endsWith('.html')&&!managedLearning.has(f)&&!directoryFiles.has(f)&&!goalPages.has(f)&&!f.includes('/catalogue-data/')&&!/-(?:all-)?page-\d+\.html$/.test(f)&&!/^resources\/(?:encyclopedia|terminology)\/[^/]+\/index\.html$/.test(f)&&f!=='resources/index.html'&&f!=='resources/search/index.html'&&!f.startsWith('resources/data/'));
@@ -228,15 +232,24 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  }
  // Goal routes sit above the smaller prerequisite reviews, which keep their URLs.
  for(const [file,page] of goalPages){
+  const chinese=chineseGoalPages.get(file);
   // Preserve the old bookmark, without a second Chinese-only directory.
-  if(file==='resources/library-paths/index.html')page.body='<span id="chinese-subject-guides" class="section-anchor" aria-hidden="true"></span>'+page.body;
-  if(file==='resources/library-paths/index.html')page.body+=['Study guide','Connecting ideas'].map(kind=>'<section><h2>'+(kind==='Study guide'?'Questions that come up while studying':'Connections between subjects')+'</h2><ul>'+editorialPages.filter(p=>p.guide.kind===kind).map(p=>'<li>'+link(href(p.file),p.title)+'</li>').join('')+'</ul></section>').join('');
-  const introductionLinks=(page.contents||[]).map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('');
-  const toc=page.kind==='article'?'<nav class="contents" aria-label="Article contents"><strong>Route stages</strong><ul>'+(page.standalone?introductionLinks:'<li>'+link('#introduction','Introduction')+(introductionLinks?'<ul>'+introductionLinks+'</ul>':'')+'</li>'+[...page.body.matchAll(/<section class="route-stage" id="([^"]+)"><h2>([\s\S]*?)<\/h2>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join(''))+'</ul></nav>':'';
-  addPage(file,page.title,page.body,page.kind,{toc,head:page.kind==='article'?'<link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':''});
+  if(file==='resources/library-paths/index.html'){
+   const anchor='<span id="chinese-subject-guides" class="section-anchor" aria-hidden="true"></span>';
+   const more=['Study guide','Connecting ideas'].map(kind=>'<section><h2>'+(kind==='Study guide'?'Questions that come up while studying':'Connections between subjects')+'</h2><ul>'+editorialPages.filter(p=>p.guide.kind===kind).map(p=>'<li>'+link(href(p.file),p.title)+'</li>').join('')+'</ul></section>').join('');
+   page.body=anchor+page.body+more;
+   if(chinese)chinese.body=anchor+chinese.body+translateRouteLabels(more);
+  }
+  const routeContents=p=>{
+   const introductionLinks=(p.contents||[]).map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('');
+   return p.kind==='article'?'<strong>Route stages</strong><ul>'+(p.standalone?introductionLinks:'<li>'+link('#introduction','Introduction')+(introductionLinks?'<ul>'+introductionLinks+'</ul>':'')+'</li>'+[...p.body.matchAll(/<section class="route-stage" id="([^"]+)"><h2>([\s\S]*?)<\/h2>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join(''))+'</ul>':'';
+  };
+  const contents=routeContents(page),toc=contents?'<nav class="contents"'+(chinese?' id="translated-page-toc"':'')+' aria-label="Article contents">'+contents+'</nav>':'';
+  const body=chinese?'<div id="route-copy">'+page.body+'</div>'+translationPayload({'route-copy':chinese.body,'translated-page-title':E(chinese.title),'translated-breadcrumb-title':E(chinese.title),'translated-document-title':E(chinese.title+' · Jiayu Chen'),...(contents?{'translated-page-toc':translateRouteLabels(routeContents(chinese))}:{})}):page.body;
+  addPage(file,page.title,body,page.kind,{toc,...(chinese?{translatedTitle:chinese.title}:{}),head:page.kind==='article'?'<link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':''});
   const routeId=file.match(/\/routes\/([^/]+)\.html$/)?.[1];
   const routeAreas={'algebraic-geometry':['algebra'],'representation-theory':['algebra'],'analysis-pde':['analysis'],'complex-harmonic-analysis':['analysis'],geometry:['geometry-topology'],topology:['geometry-topology'],'number-theory':['number-theory'],logic:['foundations'],probability:['probability'],dynamics:['dynamics'],combinatorics:['combinatorics'],'higher-categories':['category-theory','geometry-topology']};
-  guideRows.push({id:'guide-'+digest(file).slice(0,12),title:page.title,url:href(file),summary:brief(text(page.body.replace(/<!-- chinese-subject-index:start -->[\s\S]*?<!-- chinese-subject-index:end -->/g,''))),area:(routeAreas[routeId]||[]).map(id=>areas[id].title).join('|'),type:'guides'});
+  guideRows.push({id:'guide-'+digest(file).slice(0,12),title:page.title,url:href(file),summary:brief(text(page.body.replace(/<!-- chinese-subject-index:start -->[\s\S]*?<!-- chinese-subject-index:end -->/g,''))),...(chinese?{chinese:chinese.title,aliases:[chinese.title,...routeTranslations[routeId]?[routeTranslations[routeId].goal]:[]]}:{}),area:(routeAreas[routeId]||[]).map(id=>areas[id].title).join('|'),type:'guides'});
  }
  for(const page of editorialPages){
   const toc='<nav class="contents" aria-label="Article contents"><ul>'+page.contents.map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('')+'</ul></nav>';

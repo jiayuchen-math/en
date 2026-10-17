@@ -64,7 +64,15 @@ export function subjectTranslationHTML(input,render){
  html=html.replace('Studying '+translated.topic.title,'学习'+translated.topic.title);
  // Catalogue option values stay canonical even when the visible label changes.
  html=html.replaceAll('catalogue.html?topic='+encodeURIComponent(translated.topic.title),'catalogue.html?topic='+encodeURIComponent(input.topic.title));
- html=html.replace(/<figure\b[^>]*id="([^"]+)"[\s\S]*?<\/figure>/g,(figure,id)=>{
+ html=translateSubjectFigures(html);
+ // Fixed renderer labels only, never formula markup or book-title substrings.
+ const bookTitles=new Set([input.entry.primary,...input.entry.alternatives,...input.editorial.comparison].map(r=>r.title));
+ html=html.replace(/>([^<>]+)</g,(match,value)=>'>'+(bookTitles.has(value)?value:labels[value]||value)+'<');
+ html=html.replace(/Checked (\d{4}-\d{2}-\d{2})/g,'核查日期 $1').replace(/Reading choices revised (\d{4}-\d{2}-\d{2})\./g,'选书说明修订于 $1。');
+ return html;
+}
+export function translateSubjectFigures(html){
+ return html.replace(/<figure\b[^>]*id="([^"]+)"[\s\S]*?<\/figure>/g,(figure,id)=>{
   const entry=figures[id];if(!entry)throw Error('Missing figure translation '+id);
   const originalTitle=figure.match(/<p class="figure-title">([^<]+)<\/p>/)?.[1];
   let result=figure.replace(/<figcaption>[\s\S]*?<\/figcaption>/,'<figcaption>'+markdown.renderInline(entry.caption)+'</figcaption>');
@@ -77,11 +85,6 @@ export function subjectTranslationHTML(input,render){
   result=result.replace(/Enlarge: /g,'放大：').replace(/ — enlarged diagrams; scroll horizontally if needed/g,'——放大图，可横向滚动');
   return result.replace(/>([^<>]+)</g,(_,text)=>'>'+(figureLabels[text]?E(figureLabels[text]):text)+'<');
  });
- // Fixed renderer labels only, never formula markup or book-title substrings.
- const bookTitles=new Set([input.entry.primary,...input.entry.alternatives,...input.editorial.comparison].map(r=>r.title));
- html=html.replace(/>([^<>]+)</g,(match,value)=>'>'+(bookTitles.has(value)?value:labels[value]||value)+'<');
- html=html.replace(/Checked (\d{4}-\d{2}-\d{2})/g,'核查日期 $1').replace(/Reading choices revised (\d{4}-\d{2}-\d{2})\./g,'选书说明修订于 $1。');
- return html;
 }
 export function translationPayload(blocks){
  // Inert JSON keeps just one set of live anchors. English is the no-JS fallback.

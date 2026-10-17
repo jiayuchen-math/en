@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "note": "Frozen English route, introduction and used preparation inputs; review translations when these change.",
+  "routes": {
+    "algebraic-geometry": "069c6c48895196d335863a3f3dea33e6c7571672ae3b57d998f1dd4869527e29",
+    "representation-theory": "d1bf52b51d38e3c19e0774509b5bea664120d4c3c59de26e2c0f93b9977d24b8",
+    "analysis-pde": "c3f2bacf15b082a48e3bfc8ea413b2e899ceca7d2d8623fd32323ea01ba088dc",
+    "complex-harmonic-analysis": "79db7c451f0db58e212dda14fc99d31175c0387f7da75965c865b271b8dd9e43",
+    "geometry": "146b719ece2941c5d8a33e41d04f7baade6dc88b102d3f5864fed94208816625",
+    "topology": "c042a74ae7ab192a2a1791c64ba5f2aac005ef520cea64779694b82c54ab156b",
+    "number-theory": "f89af5d68d0a68948182f1526be2eca1682213baa2bac665477beee49f63fa38",
+    "logic": "3cfc0615f7e33450780808341361c5e7a88220314d752ad3703b206ed04f5457",
+    "probability": "ab46616b2b3b86eae5b728ef0091607ae006d304f56a0657242eb9e2f6c8ca5c",
+    "dynamics": "a8c0e4f3a6bd7aa79a2cc557e8a08fc6364366284dacb37963310944008fdb0b",
+    "combinatorics": "896fd436e2d5a798d276b8a217cfbfd49e5d590fb173a864a31b352442361605",
+    "higher-categories": "089320dd7b56456283dd3f9c8d87d5566024d87cebcdd94152c66df38408bbf9"
+  }
+}
