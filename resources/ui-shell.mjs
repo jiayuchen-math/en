@@ -129,14 +129,16 @@ ${head}
 <link rel="stylesheet" href="${asset('learning-tools.css')}">
 <script src="${asset('theme.js')}"></script>
 <script src="${asset('portal.js')}" defer></script>
+<script src="${asset('language.js')}" type="module"></script>
 ${pageScripts.map(scriptTag).join('\n')}
 </head><body class="portal portal-${kind}${contents ? ' portal-has-toc' : ''}${inNotes?' portal-personal-notes':''}">
 <a class="skip-link" href="#portal-main">Skip to content</a>
-<header class="portal-topbar"><nav aria-label="Main navigation">${top.map(item => link(item, topCurrent)).join('')}<button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button></nav></header>
+<header class="portal-topbar"><nav aria-label="Main navigation">${top.map(item => link(item, topCurrent)).join('')}<button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button><button id="language-toggle" type="button" lang="zh-Hans" hidden>中文</button></nav></header>
 <div class="portal-layout">${sidebar}
 <main class="portal-main" id="portal-main" tabindex="-1">
 ${breadcrumbs(title, pathname, section, kind)}
 <header class="portal-page-header"><h1>${escape(title)}</h1></header>
+<p class="language-content-status" id="language-content-status" hidden></p><noscript><p class="language-content-status">Language switching requires JavaScript; the English pages remain readable.</p></noscript>
 <div class="portal-content-layout">${contents}<div class="portal-body"><!-- portal-content:start -->${body ?? ''}<!-- portal-content:end --></div></div>
 <footer class="portal-footer">© Jiayu Chen · <a href="/en/disclaimer.html">Disclaimer</a></footer>
 </main></div>

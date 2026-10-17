@@ -4,14 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fourier Series · Jiayu Chen</title>
 <link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">
-<link rel="stylesheet" href="/en/resources/assets/portal.css?v=92f17c993ba9">
+<link rel="stylesheet" href="/en/resources/assets/portal.css?v=a34c0623ed96">
 <link rel="stylesheet" href="/en/resources/assets/learning-tools.css?v=77f2cd46c8a0">
 <script src="/en/resources/assets/theme.js?v=079acff6c8dc"></script>
 <script src="/en/resources/assets/portal.js?v=d13bf6016868" defer></script>
+<script src="/en/resources/assets/language.js?v=94fee8600368" type="module"></script>
 <script src="/en/resources/assets/learning-tools.js?v=0b70a9ba741b" type="module" defer></script>
 </head><body class="portal portal-article portal-has-toc">
 <a class="skip-link" href="#portal-main">Skip to content</a>
-<header class="portal-topbar"><nav aria-label="Main navigation"><a href="/en/">Home</a><a href="/en/resources/" class="is-active" aria-current="page">Resources</a><a href="/en/notes/">Notes</a><a href="/en/resources/search/">Search</a><button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button></nav></header>
+<header class="portal-topbar"><nav aria-label="Main navigation"><a href="/en/">Home</a><a href="/en/resources/" class="is-active" aria-current="page">Resources</a><a href="/en/notes/">Notes</a><a href="/en/resources/search/">Search</a><button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button><button id="language-toggle" type="button" lang="zh-Hans" hidden>中文</button></nav></header>
 <div class="portal-layout"><aside class="portal-sidebar" aria-label="Resources navigation">
 <details class="portal-navigation" id="portal-navigation" data-portal-nav open>
 <summary>Browse resources</summary>
@@ -19,6 +20,7 @@
 <main class="portal-main" id="portal-main" tabindex="-1">
 <nav class="portal-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/en/">Home</a></li><li><a href="/en/resources/">Resources</a></li><li><a href="/en/resources/encyclopedia/">Encyclopedia</a></li><li><span aria-current="page">Fourier Series</span></li></ol></nav>
 <header class="portal-page-header"><h1>Fourier Series</h1></header>
+<p class="language-content-status" id="language-content-status" hidden></p><noscript><p class="language-content-status">Language switching requires JavaScript; the English pages remain readable.</p></noscript>
 <div class="portal-content-layout"><aside class="portal-toc" aria-label="On this page"><div class="portal-toc-inner"><p class="portal-toc-label">On this page</p><nav class="contents" aria-label="Article contents"><strong>Contents</strong><ul><li><a href="#overview">Overview</a></li><li><a href="#prerequisites">Prerequisites</a></li><li><a href="#definition-and-conventions">Definition and conventions</a></li><li><a href="#intuition">Intuition</a></li><li><a href="#examples-and-non-examples">Examples and non-examples</a></li><li><a href="#important-properties">Important properties</a></li><li><a href="#connections-and-further-reading">Connections and further reading</a></li></ul></nav></div></aside><div class="portal-body"><!-- portal-content:start --><!-- learning-control:start --><div class="entry-actions"><button type="button" data-save-learning data-learning-id="fourier-series" data-learning-type="encyclopedia" hidden>Save to bookshelf</button></div><!-- learning-control:end --><p class="chinese" lang="zh-Hans">Fourier级数</p><p class="knowledge-meta">Analysis, Measure &amp; PDE · Undergraduate · Mathematics Resources editorial compilation (AI-assisted)</p><p>A Fourier series represents a periodic function through its coefficients against exponential frequencies.</p><p><a href="/en/resources/terminology/fourier-series/">Chinese translation, usage &amp; terminology</a></p><p>Prerequisite concepts: <a href="/en/resources/encyclopedia/lebesgue-integral/">Lebesgue Integral</a> · <a href="/en/resources/encyclopedia/hilbert-space/">Hilbert Space</a></p><div class="article-body"><h2 id="overview">Overview</h2>
 <p>A Fourier series decomposes periodic behavior into oscillations at integer frequencies. Its coefficients distinguish the contributions of those frequencies, just as coordinates distinguish components of a vector. The analogy becomes exact in the Hilbert space of square-integrable periodic functions.</p>
 <p>Writing a formal series is not yet a convergence statement. Pointwise, uniform, and mean-square convergence have different requirements and can give different interpretations at a jump.</p>

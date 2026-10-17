@@ -35,6 +35,12 @@ strong, b { font-weight: 700; }
 .portal-topbar a:hover { background: var(--soft); }
 .portal-topbar a.is-active { color: var(--link); border-bottom-color: var(--link); }
 #theme-toggle { margin-left: auto; min-height: 36px; padding: 6px 9px; font: inherit; }
+#language-toggle { min-height:36px; padding:6px 8px; margin-left:5px; font:inherit; white-space:nowrap; }
+.language-content-status { margin:-8px 0 18px; color:var(--muted); font:12px/1.7 var(--portal-ui); }
+.chinese-companion { max-width:720px; margin:18px 0 28px; }
+.chinese-companion h2 { margin-top:0; }
+html[lang="zh-Hans"] body.portal { font-family:Georgia,"Noto Serif SC","Songti SC",SimSun,serif; line-height:1.85; }
+@media(max-width:390px) { .portal-topbar > nav { padding-inline:6px; gap:0; font-size:12px; } .portal-topbar a { padding-inline:6px; } #theme-toggle,#language-toggle { padding-inline:6px; margin-left:4px; } #theme-toggle { margin-left:auto; } }
 .portal-layout { display: grid; gap: 20px; width: min(100%, 1360px); margin: var(--portal-top) auto 0; padding: 18px 16px 64px; }
 .portal-home .portal-layout { display: block; max-width: 760px; padding-top: 36px; }
 .portal-personal-notes .portal-layout { display: block; max-width: 900px; padding-top: 30px; }

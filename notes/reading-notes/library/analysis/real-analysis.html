@@ -4,14 +4,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Real Analysis · Jiayu Chen</title>
 <link rel="stylesheet" href="/en/resources/assets/study-guides.css?v=02f02edcbaa9"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">
-<link rel="stylesheet" href="/en/resources/assets/portal.css?v=92f17c993ba9">
+<link rel="stylesheet" href="/en/resources/assets/portal.css?v=a34c0623ed96">
 <link rel="stylesheet" href="/en/resources/assets/learning-tools.css?v=77f2cd46c8a0">
 <script src="/en/resources/assets/theme.js?v=079acff6c8dc"></script>
 <script src="/en/resources/assets/portal.js?v=d13bf6016868" defer></script>
+<script src="/en/resources/assets/language.js?v=94fee8600368" type="module"></script>
 <script src="/en/resources/assets/learning-tools.js?v=0b70a9ba741b" type="module" defer></script>
 </head><body class="portal portal-directory">
 <a class="skip-link" href="#portal-main">Skip to content</a>
-<header class="portal-topbar"><nav aria-label="Main navigation"><a href="/en/">Home</a><a href="/en/resources/" class="is-active" aria-current="page">Resources</a><a href="/en/notes/">Notes</a><a href="/en/resources/search/">Search</a><button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button></nav></header>
+<header class="portal-topbar"><nav aria-label="Main navigation"><a href="/en/">Home</a><a href="/en/resources/" class="is-active" aria-current="page">Resources</a><a href="/en/notes/">Notes</a><a href="/en/resources/search/">Search</a><button id="theme-toggle" type="button" aria-label="Switch color theme">Theme</button><button id="language-toggle" type="button" lang="zh-Hans" hidden>中文</button></nav></header>
 <div class="portal-layout"><aside class="portal-sidebar" aria-label="Resources navigation">
 <details class="portal-navigation" id="portal-navigation" data-portal-nav open>
 <summary>Browse resources</summary>
@@ -19,7 +20,11 @@
 <main class="portal-main" id="portal-main" tabindex="-1">
 <nav class="portal-breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/en/">Home</a></li><li><a href="/en/resources/">Resources</a></li><li><a href="/en/notes/reading-notes/library/catalogue.html">Library</a></li><li><span aria-current="page">Real Analysis</span></li></ol></nav>
 <header class="portal-page-header"><h1>Real Analysis</h1></header>
-<div class="portal-content-layout"><div class="portal-body"><!-- portal-content:start --><!-- learning-path:start --><p class="meta"><span class="badge">Prerequisite path</span> <a href="/en/resources/library-paths/real-analysis.html">Preparation &amp; skip guidance</a> · <a href="/en/resources/library-paths/calculus.html">Calculus</a> · <a href="/en/resources/library-paths/proofs.html">Proofs &amp; Mathematical Writing</a></p><!-- learning-path:end --><!-- subject-guide:start --><section class="subject-guide" id="study-guide">
+<p class="language-content-status" id="language-content-status" hidden></p><noscript><p class="language-content-status">Language switching requires JavaScript; the English pages remain readable.</p></noscript>
+<div class="portal-content-layout"><div class="portal-body"><!-- portal-content:start --><!-- chinese-companion:start --><section class="chinese-companion" data-language-content="zh" lang="zh-Hans" hidden><h2>实分析：把极限中的承诺说清楚</h2><p class="knowledge-meta">中文导读 · 非逐句全文翻译 · 修订 2026-10-17</p><p>实分析里常见的困难不是计算变长，而是结论变成了对所有对象都成立的承诺。谁先给定，哪个选择依赖谁，是否存在一个对所有点都适用的界，这些区别需要自己写出来。</p>
+<p>可以从数列、连续性、紧致性和函数列开始。对每个定理，配一个确实满足条件的例子，再试着去掉一个假设。逐点收敛与一致收敛很适合检验量词顺序；页面里的图和带解答自测可以用来核对，而不是代替推理。</p>
+<p>如果初等极限和证明写作已经熟练，可以略读相应复习，直接进入较陌生的紧致性或函数列。接测度论时重点看可数过程与积分，接泛函分析或 PDE 时再关心函数空间与估计；不需要把每本实分析教材从头通读一遍。</p>
+<p><a href="?lang=en" data-language-choice="en" lang="en">Read the English learning guide</a> · 原始资料见下方来源。</p></section><!-- chinese-companion:end --><!-- learning-path:start --><p class="meta"><span class="badge">Prerequisite path</span> <a href="/en/resources/library-paths/real-analysis.html">Preparation &amp; skip guidance</a> · <a href="/en/resources/library-paths/calculus.html">Calculus</a> · <a href="/en/resources/library-paths/proofs.html">Proofs &amp; Mathematical Writing</a></p><!-- learning-path:end --><!-- subject-guide:start --><section class="subject-guide" id="study-guide">
  <h2>Studying Real Analysis</h2>
  <nav class="study-jumps" aria-label="Study guide sections"><a href="#study-guide">Start here</a> · <a href="#choose-reading">Choose a text</a> · <a href="#practice-learning">Practice</a> · <a href="#check-learning">Check your understanding</a> · <a href="#continue-learning">Continue</a> · <a href="#subject-bibliography">Full reading list</a></nav>
  <p class="subject-opening">The first analysis course asks you to justify operations that calculus made familiar: taking limits, passing a limit through a function, and integrating a sequence. Lebl organizes an entry through sequences and continuity before uniform convergence. Trench revisits calculus with detailed theorem statements and worked examples, placing sequences later. Choose the order that exposes your actual difficulty rather than repeating every computational topic.</p>

@@ -66,6 +66,7 @@ jobs:
       - run: node resources/test-study-content.mjs
       - run: node resources/test-learning-edition.mjs
       - run: node resources/test-learning-tools.mjs
+      - run: node resources/test-localization.mjs
       - name: Generated knowledge pages are committed
         run: |
           git diff --exit-code -- resources notes index.html disclaimer.html

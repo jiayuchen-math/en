@@ -27,6 +27,7 @@ jobs:
       - run: node resources/test-study-content.mjs
       - run: node resources/test-learning-edition.mjs
       - run: node resources/test-learning-tools.mjs
+      - run: node resources/test-localization.mjs
       - run: node resources/build-site.mjs
       - run: node resources/test-site-migration.mjs
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b

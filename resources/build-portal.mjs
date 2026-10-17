@@ -14,6 +14,7 @@ import {titleDestination,entryActions,showsDetails,hasDetailContent} from './ass
 import {adviceMetadata} from './advice-readings.mjs';
 import {loadLearningEdition,validateLearningEdition,editorialGuidePages,renderRevisionList} from './learning-editorial.mjs';
 import {createLearningTools} from './learning-tools.mjs';
+import {chineseCompanion} from './localization.mjs';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -70,6 +71,8 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   return unique.length?'<nav class="contents" aria-label="Article contents"><strong>Contents</strong><ul>'+unique.map(([id,label])=>'<li>'+link('#'+id,label)+'</li>').join('')+'</ul></nav>':'';
  }
  function addPage(file,title,body,kind='directory',extra={}){
+  const subjectId=merged.topics.find(t=>'notes/reading-notes/library/'+t.route===file)?.id;
+  if(subjectId){body=body.replace(/<!-- chinese-companion:start -->[\s\S]*?<!-- chinese-companion:end -->/g,'');const companion=chineseCompanion(subjectId,'subjects');if(companion)body=`<!-- chinese-companion:start -->${companion}<!-- chinese-companion:end -->`+body;}
   if(/^resources\/encyclopedia\/[^/]+\/index\.html$/.test(file))body=`<!-- learning-control:start --><div class="entry-actions">${saveControl(file.split('/').at(-2),'encyclopedia')}</div><!-- learning-control:end -->`+body;
   if(file.startsWith('resources/library-paths/')&&kind==='article')body=`<!-- learning-control:start --><div class="entry-actions">${saveControl('guide-'+digest(file).slice(0,12),'guides')}</div><!-- learning-control:end -->`+body;
   if(/class="(?:subject-guide|direction-introduction)"/.test(body))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/study-guides.css?v='+digest(read('resources/assets/study-guides.css')).slice(0,12)+'">';
