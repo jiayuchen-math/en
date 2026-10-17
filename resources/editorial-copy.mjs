@@ -56,6 +56,10 @@ export function cleanPageCopy(html,file){
  if(name==='disclaimer.html')return html;
  // Course bodies, PDF archives and authored notes are outside this copy edit.
  if(!(name.startsWith('resources/')||name.startsWith('notes/reading-notes/library')||name==='notes/mathematical-notes/page.html'))return html;
+ // No record means a status, not an expandable section. Preserve its wording
+ // and review window without inviting a click to an empty student list.
+ html=html.replace(/<details><summary>Recent publicly documented student records \(0\)<\/summary>([\s\S]*?)<\/details>/g,
+  '<div class="student-record-status">$1</div>');
  html=html.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/g,'<footer>© 2026 Jiayu Chen</footer>');
  html=html.replace(/<p\b([^>]*)>([\s\S]*?)<\/p>/g,(whole,attrs,body)=>{
   const plain=body.replace(/<[^>]*>/g,'').trim();

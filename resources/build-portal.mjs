@@ -10,7 +10,7 @@ import {protectedBytes} from './protected-bytes.mjs';
 import {goalPathPages,goalPaths} from './goal-paths.mjs';
 import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,validateStudyContent,renderConceptReading} from './study-content.mjs';
 import {nodes as pathNodes} from './data/learning-paths.mjs';
-import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
+import {titleDestination,entryActions,showsDetails,hasDetailContent} from './assets/entry-presentation.js';
 import {adviceMetadata} from './advice-readings.mjs';
 import {loadLearningEdition,validateLearningEdition,editorialGuidePages,renderRevisionList} from './learning-editorial.mjs';
 import {createLearningTools} from './learning-tools.mjs';
@@ -129,7 +129,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   const chunkSize=25;
   rows.forEach((r,i)=>{
    r.detail=render?`/en/resources/catalogue-data/${id}/details-${Math.floor(i/chunkSize)+1}.json`:undefined;
-   r.hasDetails=Boolean(text(full[i]||''));
+   r.hasDetails=hasDetailContent(full[i]);
    if(id==='library'){
     const original=books[i];r.readingUrl=original.readUrl||original.url;
     r.readingLabel=original.readUrl?'Read full text':original.readingAccess==='Free to read'?(/\.pdf(?:[?#]|$)/i.test(r.readingUrl)?'Read PDF':'Read online'):'Access page';
@@ -144,7 +144,12 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
    else if(id==='researchers')r.readingLabel='Official profile';
    r.url=r.url||href(pageFile(file,Math.floor(i/25)+1,Boolean(defaults.readingAccess)))+'#'+r.id;
   });
-  for(let start=0;start<rows.length;start+=chunkSize)if(render)save(`resources/catalogue-data/${id}/details-${start/chunkSize+1}.json`,JSON.stringify(Object.fromEntries(rows.slice(start,start+chunkSize).map((r,j)=>[r.id,full[start+j]]))));
+  for(let start=0;start<rows.length;start+=chunkSize)if(render){
+   const file=`resources/catalogue-data/${id}/details-${start/chunkSize+1}.json`;
+   const payload=JSON.stringify(Object.fromEntries(rows.slice(start,start+chunkSize).map((r,j)=>[r.id,full[start+j]])));
+   save(file,payload);
+   for(const r of rows.slice(start,start+chunkSize))r.detail=href(file)+'?v='+digest(payload).slice(0,12);
+  }
   save(`resources/catalogue-data/${id}/index.json`,JSON.stringify({records:rows,filters:summaries.filters,defaults}));
   const indexVersion=digest(read(`resources/catalogue-data/${id}/index.json`)).slice(0,12);
   const isFree=r=>!defaults.readingAccess||r.fields.readingAccess===defaults.readingAccess;

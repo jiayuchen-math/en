@@ -102,6 +102,10 @@ details { margin: 16px 0; }
 summary { cursor: pointer; color: var(--link); padding: 5px 0; }
 summary:hover { text-decoration: underline; text-underline-offset: .2em; }
 .actions, .filter-actions, .pagination, .static-pagination, .chips, .path-links, .concept-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; font: 14px/1.6 var(--portal-ui); }
+/* Legacy course entrances use .links rather than .actions. Keep each format
+ * a separate target, even when their source anchors have no whitespace. */
+.portal-personal-notes .links { display:flex; flex-wrap:wrap; align-items:center; gap:8px 20px; margin:4px 0 24px; }
+.portal-personal-notes .links > a { display:inline-block; padding:4px 0; }
 .actions, .concept-links { margin: 10px 0; }
 .entry-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; margin: 8px 0; font: 13px/1.6 var(--portal-ui); }
 .entry-actions:has(>button[hidden]:only-child) { display:none; }

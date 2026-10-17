@@ -19,7 +19,7 @@ import * as search from './assets/search-core.js';
 import * as catalogueCore from './assets/portal-catalogue-core.js';
 import {backgroundForm} from './data/background-form.mjs';
 import {protectedBytes,windowsSourceBlobs} from './protected-bytes.mjs';
-import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
+import {titleDestination,entryActions,showsDetails,hasDetailContent} from './assets/entry-presentation.js';
 import {loadConceptReadings} from './study-content.mjs';
 import {loadAdviceReadings} from './advice-readings.mjs';
 
@@ -628,7 +628,22 @@ await check('shared entry navigation and meaningful details',()=>{
  assert(kerodon.inlineInfo.includes('Checked'));
  assert.equal(showsDetails({}),false);
  assert.equal(showsDetails({detail:'/some.json',hasDetails:false}),false);
+ assert.equal(showsDetails({detail:'/some.json'}),false,'A shard URL alone is not proof of detail content');
  assert.equal(showsDetails({detail:'/some.json',hasDetails:true}),true);
+ for(const html of ['', '<article><h3>Title only</h3></article>', '<details><summary>Details</summary><p>&nbsp; &#160; &#xa0;</p></details>', '<!-- comment --><script>not content</script>', '<div hidden>not visible</div>'])assert.equal(hasDetailContent(html),false,html);
+ assert.equal(hasDetailContent('<p>Preparation: linear algebra.</p>'),true);
+ const flattened=cleanPageCopy('<details><summary>Recent publicly documented student records (0)</summary><p>Review window: 2023–2026.</p><p>No qualifying public student event verified in this review.</p></details>','resources/study-careers/researchers.html');
+ assert(!flattened.includes('<details>'));assert(flattened.includes('2023–2026'));assert(flattened.includes('No public student record'));
+ for(const collection of ['library','researchers','programs']){
+  for(const record of json(`resources/catalogue-data/${collection}/index.json`).records){
+   const detail=fullDetail(record,collection);
+   assert.equal(record.hasDetails,hasDetailContent(detail),collection+'/'+record.id+' actual detail content');
+   assert(!/<summary>Recent publicly documented student records \(0\)/.test(detail),record.id+' empty student disclosure');
+   assert(/[?&]v=[a-f0-9]{12}/.test(record.detail),record.id+' detail version');
+  }
+ }
+ const entranceCSS=read('resources/assets/portal.css');
+ assert(/\.portal-personal-notes \.links\s*\{[^}]*display:flex[^}]*gap:8px 20px/.test(entranceCSS),'Course format links have explicit gaps');
  const split=entryActions({readingUrl:'https://example.org/book.pdf',readingLabel:'Read PDF',sourceUrl:'https://example.org/book/'});
  assert.deepEqual(split.map(a=>a.label),['Read PDF','Official source']);
  const books=json('resources/catalogue-data/library/index.json').records;

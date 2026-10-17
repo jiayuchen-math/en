@@ -35,7 +35,7 @@
       "url": "/en/resources/study-careers/researchers.html",
       "records": 1939,
       "pages": 78,
-      "firstPageBytes": 299077
+      "firstPageBytes": 298088
     },
     {
       "id": "encyclopedia",
@@ -833,7 +833,7 @@
       "records": 93
     }
   ],
-  "directoryIndexBytes": 4222297,
+  "directoryIndexBytes": 4265047,
   "limits": {
     "firstPageHTML": 358400,
     "searchIndex": 2097152

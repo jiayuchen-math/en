@@ -1,5 +1,5 @@
 import {applicationState} from './application-time.js';
-import {titleDestination,entryActions,showsDetails} from './entry-presentation.js';
+import {titleDestination,entryActions,showsDetails,hasDetailContent} from './entry-presentation.js?v=details-body-2';
 import {
   PAGE_SIZE, DATE_PARAMETERS, pageNumber, fieldNames, readState, stateURL,
   applicationData, assessRecords, matchingRecords,
@@ -283,12 +283,12 @@ async function initialize(form) {
         html = payload[row.id];
         loadedDetails.set(String(row.id), html);
       }
-      if (!html.trim()) throw new Error('Empty entry');
       const template = document.createElement('template');
       template.innerHTML = html;
       // Defense in depth for same-origin generated HTML. Never execute scripts,
       // inline handlers or active embeds; retain the article's original wording.
       for (const unsafe of template.content.querySelectorAll('script, iframe, object, embed, base, meta, link, style, form')) unsafe.remove();
+      for (const hidden of template.content.querySelectorAll('[hidden]')) hidden.remove();
       for (const node of template.content.querySelectorAll('*')) {
         if (node.id === String(row.id)) node.removeAttribute('id');
         for (const attribute of [...node.attributes]) {
@@ -296,6 +296,14 @@ async function initialize(form) {
           if (['href', 'src', 'action', 'xlink:href'].includes(attribute.name) && !safeURL(attribute.value)) node.removeAttribute(attribute.name);
         }
         if (node.tagName === 'A' && node.target === '_blank') node.rel = 'noopener noreferrer';
+      }
+      if (!hasDetailContent(template.innerHTML)) {
+        row.hasDetails = false;
+        const returnFocus = details.contains(document.activeElement);
+        const title = details.closest('article')?.querySelector('h2 a');
+        details.remove();
+        if (returnFocus) title?.focus({preventScroll:true});
+        return;
       }
       body.replaceChildren(template.content);
       details.dataset.loaded = 'true';
