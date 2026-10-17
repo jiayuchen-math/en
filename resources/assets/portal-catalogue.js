@@ -222,6 +222,13 @@ async function initialize(form) {
     appendAssessment(article, row);
     const actions = element('div', null, 'entry-actions');
     for (const action of entryActions(row)) actions.append(link(action.url, action.label));
+    const collection=new URL(indexURL,location.href).pathname.split('/').at(-2);
+    if(['library','exposition','encyclopedia','programs'].includes(collection)){
+      const control=element('button',collection==='programs'?'Compare program':'Save to bookshelf');control.type='button';control.hidden=true;
+      if(collection==='programs'){control.dataset.compareProgram='';control.dataset.programId=row.id}
+      else{control.dataset.saveLearning='';control.dataset.learningId=row.id;control.dataset.learningType=collection==='exposition'?'library':collection}
+      actions.append(control);
+    }
     if (actions.childNodes.length) article.append(actions);
     if (showsDetails(row)) {
       const details = element('details');

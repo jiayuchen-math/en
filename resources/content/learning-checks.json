@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "subjects": {
+    "logic": [
+      {
+        "id": "compactness-builds-an-infinite-model",
+        "prompt": "Use compactness to show that any first-order theory with arbitrarily large finite models has an infinite model; write the additional sentences explicitly.",
+        "hint": "Expand the language by countably many constants and require them to be pairwise distinct. Check an arbitrary finite subset of the expanded theory.",
+        "solution": "Let $T$ be a first-order theory with equality, having finite models of unbounded cardinality. Add constants $c_0,c_1,\\ldots$ and put $T'=T\\cup\\{c_i\\ne c_j:i<j\\}$. Any finite subset $\\Delta$ of $T'$ mentions only finitely many of these constants, say $r$ of them. Choose a model of all of $T$ with at least $r$ elements and interpret those constants as distinct elements (the remaining constants may be interpreted arbitrarily). This expanded model satisfies $\\Delta$.\n\nBy the compactness theorem, $T'$ has a model. Its interpretations of all $c_i$ are pairwise distinct, so its universe is infinite. Forgetting the new constants gives an infinite model of $T$. The use of a model of all of $T$ in the finite-subset argument also handles an infinite theory $T$.",
+        "nextSteps": [{"subjectId": "proofs", "reason": "Review the quantifiers in finite satisfiability and the distinction between a finite subset and the whole theory."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "set-theory": [
+      {
+        "id": "integer-injection-and-power-set-diagonal",
+        "prompt": "Construct an explicit injection from the integers into the natural numbers, then prove no map A -> P(A) can be surjective.",
+        "hint": "Send nonnegative and negative integers to disjoint parity classes. For the power set, form a subset whose membership disagrees with its proposed preimage.",
+        "solution": "Using $\\mathbb N=\\{0,1,2,\\ldots\\}$, define $j(n)=2n$ for $n\\ge0$ and $j(n)=-2n-1$ for $n<0$. The first branch has even values and the second has odd values, so equality of outputs forces the inputs into the same branch. Each branch is injective, hence so is $j$.\n\nFor any set $A$ and map $f:A\\to\\mathcal P(A)$, the subset $D=\\{a\\in A:a\\notin f(a)\\}$ belongs to $\\mathcal P(A)$. If $f$ were onto, some $b\\in A$ would satisfy $f(b)=D$. Then $b\\in D$ if and only if $b\\notin f(b)=D$, a contradiction. Thus no such map is surjective; the argument also covers $A=\\varnothing$.",
+        "nextSteps": [{"subjectId": "proofs", "reason": "Practice piecewise definitions, injectivity and proof by contradiction before cardinal comparisons."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "model-theory": [
+      {
+        "id": "back-and-forth-for-countable-dense-orders",
+        "prompt": "In the language with one binary relation <, use back-and-forth to show that any two countable dense linear orders without endpoints are isomorphic.",
+        "hint": "Alternate between including the next unused element of the first order in the domain and the next unused element of the second in the range.",
+        "solution": "Let $A$ and $B$ be nonempty countable dense linear orders without endpoints. They are infinite; enumerate them as $a_0,a_1,\\ldots$ and $b_0,b_1,\\ldots$. Start with the empty increasing finite partial bijection. At an even stage, take the first $a_i$ outside its domain. The finitely many existing domain points place $a_i$ in a cut: between two consecutive points, below all of them, or above all of them. Choose an unused point of $B$ in the corresponding cut and extend the map. Density and absence of endpoints make every such interval or ray infinite, so avoiding the finitely many used points is possible.\n\nAt an odd stage apply the same argument to the inverse map, including the first unused $b_j$ in the range. Each extension preserves and reflects order. The union of these compatible finite maps is a function defined on all of $A$ and onto all of $B$, by the alternating enumeration requirement. It is injective and preserves and reflects $<$, since every pair occurs at some finite stage. It is therefore an isomorphism.",
+        "nextSteps": [{"subjectId": "logic", "reason": "Distinguish an isomorphism of structures from elementary equivalence."}, {"subjectId": "proofs", "reason": "Review recursive constructions and why a union of compatible partial functions is a function."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "abstract-algebra": [
+      {
+        "id": "ideals-and-quotients-modulo-twelve",
+        "prompt": "List the ideals of Z/12Z and identify which are prime or maximal by examining their quotient rings.",
+        "hint": "Pull ideals back to ideals of the integers containing (12). Include the zero ideal and the whole ring, but exclude the whole ring when testing primality.",
+        "solution": "Write $R=\\mathbb Z/12\\mathbb Z$. By inverse image under the quotient map, its ideals correspond to $(d)\\subseteq\\mathbb Z$ with $(12)\\subseteq(d)$, equivalently positive divisors $d$ of $12$. They are $(\\bar1), (\\bar2), (\\bar3), (\\bar4), (\\bar6), (\\bar{12})$, the last being the zero ideal. For each such $d$, $R/(\\bar d)\\cong\\mathbb Z/d\\mathbb Z$.\n\nFor $d=2,3$ this quotient is a field, hence a domain, so these ideals are both maximal and prime. For $d=4,6,12$ it has nonzero zero divisors: respectively $2\\cdot2$, $2\\cdot3$, and $3\\cdot4$ vanish modulo $d$. Those ideals are neither prime nor maximal. The case $d=1$ is the whole ring, excluded by the requirement that prime and maximal ideals be proper. This exhausts all ideals.",
+        "nextSteps": [{"subjectId": "elementary-number-theory", "reason": "Review divisibility in the integers and arithmetic in residue rings."}, {"subjectId": "proofs", "reason": "Practice proving a list is exhaustive using a correspondence rather than examples alone."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "commutative-algebra": [
+      {
+        "id": "local-integers-at-five",
+        "prompt": "Describe Z localized at the complement of (5), determine its units, and list its prime ideals with justification.",
+        "hint": "Denominators cannot be divisible by 5. Use prime ideals of the integers disjoint from the denominator set.",
+        "solution": "Let $S=\\mathbb Z\\setminus(5)$. As a subring of $\\mathbb Q$, $R=S^{-1}\\mathbb Z=\\{a/b:a,b\\in\\mathbb Z,\\ 5\\nmid b\\}$. If $5\\nmid a$, the inverse $b/a$ lies in $R$. If $5\\mid a$, reduction modulo $5$ sends $a/b$ to $0$ in $\\mathbb F_5$ and thus it cannot be a unit. Therefore the units are precisely the fractions whose numerators are also prime to $5$.\n\nPrime ideals of a localization correspond by extension and contraction to prime ideals disjoint from $S$. The primes of $\\mathbb Z$ are $(0)$ and $(p)$ for positive primes $p$. The ideal $(0)$ is disjoint from $S$, as is $(5)$. For $p\\ne5$, the element $p$ belongs to both $(p)$ and $S$. Hence the only primes of $R$ are $(0)$ and $5R$. The first is prime because $R$ is a domain; the second is maximal since $R/5R\\cong\\mathbb F_5$.",
+        "nextSteps": [{"subjectId": "abstract-algebra", "reason": "Review quotient rings, prime ideals and extension/contraction under ring maps."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "homological-algebra": [
+      {
+        "id": "tor-and-ext-of-cyclic-groups",
+        "prompt": "Resolve Z/4Z by free Z-modules and compute Tor_1 over Z of (Z/4Z, Z/6Z) and Ext^1 over Z of (Z/4Z, Z/6Z), showing the kernel or cokernel used in each case.",
+        "hint": "Use multiplication by 4 in a length-one free resolution. Tensor gives a kernel; applying Hom gives a cokernel.",
+        "solution": "The sequence $0\\to\\mathbb Z\\xrightarrow{\\times4}\\mathbb Z\\to\\mathbb Z/4\\mathbb Z\\to0$ is exact: multiplication by $4$ is injective and its image is the kernel of reduction modulo $4$. It is a free resolution. Set $M=\\mathbb Z/6\\mathbb Z$. Tensoring the resolution with $M$ gives the two-term chain complex $M\\xrightarrow{\\times4}M$ in degrees $1,0$. Thus\n\n$$\n\\operatorname{Tor}_1^{\\mathbb Z}(\\mathbb Z/4\\mathbb Z,M)=\\ker(4:M\\to M)=\\{\\bar0,\\bar3\\}\\cong\\mathbb Z/2\\mathbb Z.\n$$\n\nApplying $\\operatorname{Hom}_{\\mathbb Z}(-,M)$ gives the cochain complex $M\\xrightarrow{\\times4}M$ in degrees $0,1$. Its degree-one cohomology is $M/4M$. Here $4M=\\{\\bar0,\\bar2,\\bar4\\}$, so $\\operatorname{Ext}^1_{\\mathbb Z}(\\mathbb Z/4\\mathbb Z,M)\\cong\\mathbb Z/2\\mathbb Z$. The two answers are isomorphic, but arise from different operations: a kernel and a cokernel.",
+        "nextSteps": [{"subjectId": "abstract-algebra", "reason": "Review cyclic modules, exactness and quotient groups."}, {"subjectId": "linear-algebra", "reason": "Rehearse kernel/image computations before replacing vector spaces by modules."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "category-theory": [
+      {
+        "id": "product-cones-and-unique-isomorphism",
+        "prompt": "Prove the universal property of the set-theoretic product X times Y and show that any two products of X and Y are uniquely isomorphic as cones.",
+        "hint": "The projections force the two coordinates of the mediating map. Then apply uniqueness twice to the composites between two proposed products.",
+        "solution": "For sets $X,Y$, let $P=X\\times Y$ with coordinate projections $p_X,p_Y$. For any set $Z$ and maps $f:Z\\to X$, $g:Z\\to Y$, define $h(z)=(f(z),g(z))$. Then $p_Xh=f$ and $p_Yh=g$. Any other such map has these same two coordinates at every $z$, so equals $h$. This also handles empty sets whenever the given maps exist.\n\nSuppose $Q$ with projections $q_X,q_Y$ also has this property. There is a unique $u:P\\to Q$ commuting with projections, and a unique $v:Q\\to P$ commuting with projections. The composite $vu$ and $\\mathrm{id}_P$ have identical composites with $p_X,p_Y$, so uniqueness for $P$ gives $vu=\\mathrm{id}_P$. Likewise $uv=\\mathrm{id}_Q$. Thus $u$ is an isomorphism, and uniqueness in the universal property makes it the only isomorphism commuting with these projections. The qualification 'as cones' matters: the underlying sets can have other bijections.",
+        "nextSteps": [{"subjectId": "proofs", "reason": "Practice existence-and-uniqueness proofs and equality of functions."}, {"subjectId": "set-theory", "reason": "Review Cartesian products and composition of maps."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "representation-theory": [
+      {
+        "id": "standard-sl2-action-is-irreducible",
+        "prompt": "For E=[[0,1],[0,0]], F=[[0,0],[1,0]] and H=diag(1,-1), verify [H,E]=2E, [H,F]=-2F and [E,F]=H. Prove the resulting action on C squared is irreducible.",
+        "hint": "Use [A,B]=AB-BA. Any nonzero proper subspace of C squared is a line; an H-invariant line must be an eigenspace of H.",
+        "solution": "Direct multiplication gives $HE=E$, $EH=-E$, $HF=-F$, $FH=F$, $EF=\\operatorname{diag}(1,0)$ and $FE=\\operatorname{diag}(0,1)$. Subtracting proves the three stated commutator identities, with the convention $[A,B]=AB-BA$. These are the defining brackets for the standard basis of $\\mathfrak{sl}_2(\\mathbb C)$.\n\nIf a nonzero proper subspace $W\\subset\\mathbb C^2$ were invariant under the action, it would be a line invariant under $H$. For a nonzero generator $w$, $Hw=\\lambda w$, so $W$ would be one of the two eigenspaces $\\mathbb Ce_1$ or $\\mathbb Ce_2$, since $H$ has distinct eigenvalues $1,-1$. But $Fe_1=e_2$ excludes the first line, and $Ee_2=e_1$ excludes the second. No such $W$ exists, proving irreducibility.",
+        "nextSteps": [{"subjectId": "linear-algebra", "reason": "Review invariant subspaces, eigenspaces and matrix multiplication."}, {"subjectId": "abstract-algebra", "reason": "Distinguish a representation from its underlying vector space and operators."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "algebraic-geometry": [
+      {
+        "id": "compatible-sections-on-two-principal-opens",
+        "prompt": "Let k be a field and X=Spec(k[t]). On U=D(t) take s_U=t squared/t; on V=D(1-t) take s_V=(t-t squared)/(1-t). Prove U and V cover X, verify agreement on the overlap, and identify the unique global regular function they define.",
+        "hint": "A prime ideal cannot contain both t and 1-t. Simplify each section in its localization, then use the sheaf gluing axiom.",
+        "solution": "A point of $X$ is a prime ideal of $k[t]$. If it were outside both $D(t)$ and $D(1-t)$, it would contain both $t$ and $1-t$, hence their sum $1$, which is impossible. Thus $U\\cup V=X$, and $U\\cap V=D(t(1-t))$.\n\nIn $k[t]_t$, $s_U=t^2/t=t$. In $k[t]_{1-t}$, $s_V=t(1-t)/(1-t)=t$. Their restrictions to $k[t]_{t(1-t)}$ are therefore equal. The structure sheaf gluing axiom gives a unique global section, explicitly the polynomial $t\\in k[t]=\\Gamma(X,\\mathcal O_X)$. Existence can be seen directly by restricting this polynomial. For uniqueness, any other polynomial with the same restriction to $U$ differs from $t$ by an element becoming zero in $k[t]_t$. Some power of $t$ annihilates that difference; since $k[t]$ is a domain, the difference is zero. Local expressions need agreement on overlaps; different written denominators alone are no obstruction.",
+        "nextSteps": [{"subjectId": "commutative-algebra", "reason": "Review principal localizations and equality of fractions."}, {"subjectId": "point-set-topology", "reason": "Review open covers and restrictions before the sheaf gluing axiom."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "real-analysis": [
+      {
+        "id": "geometric-partial-sums-have-a-uniform-tail",
+        "prompt": "For f_n(x)=sum from k=0 to n of x to the kth power on [0,1/2], prove the sequence is uniformly Cauchy, identify its limit, and give a uniform error bound.",
+        "hint": "Estimate all tails using the same geometric series with ratio 1/2. The bound must be independent of x.",
+        "solution": "For integers $m>n\\ge0$ and $0\\le x\\le1/2$,\n\n$$\n0\\le f_m(x)-f_n(x)=\\sum_{k=n+1}^{m}x^k\\le\\sum_{k=n+1}^{\\infty}2^{-k}=2^{-n}.\n$$\n\nGiven $\\varepsilon>0$, choose an integer $N\\ge0$ with $2^{-N}<\\varepsilon$. For all $m,n\\ge N$, interchange their roles if needed to obtain $\\sup_x|f_m(x)-f_n(x)|\\le2^{-N}<\\varepsilon$. This is the uniform Cauchy condition.\n\nThe finite geometric identity gives $f_n(x)=(1-x^{n+1})/(1-x)$ because $x\\ne1$. Hence the pointwise limit is $f(x)=1/(1-x)$, and\n\n$$\n|f(x)-f_n(x)|=\\frac{x^{n+1}}{1-x}\\le2^{-n}.\n$$\n\nEquality holds at $x=1/2$, so the supremum error is exactly $2^{-n}$. It tends to zero, proving uniform convergence with an explicit rate.",
+        "nextSteps": [{"subjectId": "calculus", "reason": "Review finite geometric sums and geometric-series tails."}, {"subjectId": "proofs", "reason": "Track the order of quantifiers in the uniform Cauchy condition."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "measure-theory": [
+      {
+        "id": "concentrating-spikes-defeat-domination",
+        "prompt": "On (0,1) with Lebesgue measure let f_n = n times the indicator of (0,1/n). Find the pointwise limit and each integral; prove that no single integrable function dominates all f_n.",
+        "hint": "Fix a point before letting n grow. If an integrable dominator existed, what would dominated convergence say about the integrals?",
+        "solution": "For each fixed $x\\in(0,1)$, choose $N>1/x$. Then $n\\ge N$ implies $x>1/n$ and $f_n(x)=0$. Thus $f_n\\to0$ everywhere on this space. Nevertheless, for every integer $n\\ge1$, $\\int_0^1 f_n(x)\\,dx=n\\cdot(1/n)=1$.\n\nSuppose some nonnegative $g\\in L^1(0,1)$ satisfied $|f_n|\\le g$ almost everywhere for every $n$. Since the sequence is countable, discard the union of its exceptional null sets to obtain all inequalities on one common full-measure set. Dominated convergence would then imply $\\int f_n\\to\\int0=0$, contradicting the constant value $1$. Hence no integrable dominator exists. Any signed integrable proposed bound can be replaced by its absolute value, so that variant also fails. The concentration is near the excluded endpoint, not a failure of pointwise convergence at a point of the space.",
+        "nextSteps": [{"subjectId": "real-analysis", "reason": "Review pointwise versus uniform limits and why exchanging a limit with an integral needs hypotheses."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "complex-analysis": [
+      {
+        "id": "complex-derivative-of-squared-modulus",
+        "prompt": "Determine every point where f(z) = absolute value of z squared is complex differentiable, using the derivative definition as well as the Cauchy-Riemann equations.",
+        "hint": "Expand |z+h| squared. Compare increments along the real and imaginary axes, and check the origin for arbitrary complex increments.",
+        "solution": "For $h\\ne0$, $|z+h|^2-|z|^2=z\\bar h+\\bar z h+|h|^2$, so the difference quotient is $z\\bar h/h+\\bar z+\\bar h$. Along real $h\\to0$ it tends to $z+\\bar z=2\\operatorname{Re}z$; along purely imaginary $h\\to0$ it tends to $-z+\\bar z=-2i\\operatorname{Im}z$. These two complex numbers are equal only at $z=0$. At $0$ the quotient is $\\bar h$, which tends to $0$ for arbitrary $h\\to0$. Thus the derivative exists exactly at $0$, where it equals $0$.\n\nFor the Cauchy-Riemann check, $u(x,y)=x^2+y^2$ and $v(x,y)=0$. The equations $u_x=v_y$ and $u_y=-v_x$ give $2x=0$ and $2y=0$. Their partial derivatives are continuous, so they also give sufficiency at the origin. Differentiability at this single point does not make $f$ holomorphic on any neighborhood.",
+        "nextSteps": [{"subjectId": "real-analysis", "reason": "Review multivariable limits and the distinction between necessary tests and sufficient estimates."}, {"subjectId": "calculus", "reason": "Rehearse partial derivatives and difference quotients."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "functional-analysis": [
+      {
+        "id": "norm-of-a-weighted-integral-functional",
+        "prompt": "On C[0,1] with the supremum norm compute the operator norm of L(f)=integral from 0 to 1 of t f(t) dt, proving both an upper bound and attainment.",
+        "hint": "Bound the absolute integral using the supremum norm. A constant function can attain the bound because the weight is nonnegative.",
+        "solution": "Take $C[0,1]$ over either $\\mathbb R$ or $\\mathbb C$. The integral defines a linear functional, and for every $f$ in this space,\n\n$$\n|L(f)|\\le\\int_0^1 t|f(t)|\\,dt\\le\\|f\\|_\\infty\\int_0^1t\\,dt=\\tfrac12\\|f\\|_\\infty.\n$$\n\nThus $L$ is bounded and $\\|L\\|\\le1/2$. For the constant function $f(t)=1$, $\\|f\\|_\\infty=1$ and $L(f)=1/2$, proving $\\|L\\|\\ge1/2$. Consequently $\\|L\\|=1/2$, and the supremum in the operator norm definition is attained. An upper bound alone would not determine the norm.",
+        "nextSteps": [{"subjectId": "real-analysis", "reason": "Review the supremum norm and integral inequalities."}, {"subjectId": "linear-algebra", "reason": "Review linear maps and how linear functionals fit that definition."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "harmonic-analysis": [
+      {
+        "id": "box-function-fourier-transform-and-convolution",
+        "prompt": "Using F(f)(xi)=integral of f(x) exp(-2pi i x xi) dx, compute the transform of the indicator of [-1/2,1/2] and then the transform of its convolution with itself.",
+        "hint": "Integrate the exponential for nonzero frequency and handle zero separately. Verify absolute integrability before using Fubini for convolution.",
+        "solution": "Let $f=\\mathbf1_{[-1/2,1/2]}\\in L^1(\\mathbb R)$. For real $\\xi\\ne0$, direct integration gives\n\n$$\n\\widehat f(\\xi)=\\left[\\frac{e^{-2\\pi i x\\xi}}{-2\\pi i\\xi}\\right]_{-1/2}^{1/2}=\\frac{\\sin(\\pi\\xi)}{\\pi\\xi}.\n$$\n\nAt $\\xi=0$ the integral is $1$, agreeing with the continuous extension. The convolution $g(x)=(f*f)(x)$ is the length of the intersection $[-1/2,1/2]\\cap[x-1/2,x+1/2]$, hence $g(x)=\\max(1-|x|,0)$.\n\nThe double integral of $|f(y)f(x-y)|$ equals $\\|f\\|_1^2=1$, so Fubini and the substitution $u=x-y$ are justified in the Fourier integral. They give $\\widehat g(\\xi)=\\widehat f(\\xi)^2$, namely $(\\sin(\\pi\\xi)/(\\pi\\xi))^2$ for $\\xi\\ne0$ and $1$ at zero. The factor $\\pi$ follows from the stated $2\\pi$ normalization.",
+        "nextSteps": [{"subjectId": "measure-theory", "reason": "Review Fubini's absolute-integrability hypothesis and convolution."}, {"subjectId": "complex-analysis", "reason": "Review exponential identities and removable expressions at zero."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "differential-equations": [
+      {
+        "id": "integrating-factor-with-initial-value",
+        "prompt": "Solve y' + 2y = exp(-t), y(0)=0, and verify the result by substitution.",
+        "hint": "Multiply by exp(2t) so that the left side becomes a product derivative.",
+        "solution": "Multiplication by $e^{2t}$ gives $(e^{2t}y)'=e^t$. Integrating from $0$ to $t$ and using $y(0)=0$ yields $e^{2t}y(t)=e^t-1$, hence $y(t)=e^{-t}-e^{-2t}$ for every real $t$.\n\nIts derivative is $y'=-e^{-t}+2e^{-2t}$, so $y'+2y=e^{-t}$, and $y(0)=1-1=0$. For uniqueness among differentiable solutions on an interval containing $0$, subtract two solutions. Their difference $w$ satisfies $(e^{2t}w)'=0$ and $w(0)=0$, hence $w=0$. This verifies both the equation and the initial-value constraint.",
+        "nextSteps": [{"subjectId": "calculus", "reason": "Review the product rule, fundamental theorem of calculus and exponential differentiation."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "point-set-topology": [
+      {
+        "id": "compact-to-hausdorff-bijection",
+        "prompt": "Prove that a continuous bijection from a compact space to a Hausdorff space is a homeomorphism. Give a continuous bijection that fails to be a homeomorphism when these hypotheses are dropped.",
+        "hint": "Show the bijection is closed. For a counterexample, compare two topologies on the same two-point set.",
+        "solution": "Let $f:X\\to Y$ be a continuous bijection, with $X$ compact and $Y$ Hausdorff. A closed subset $C\\subseteq X$ is compact: append $X\\setminus C$ to any open cover of $C$ and use compactness of $X$. Its image $f(C)$ is compact by continuity. A compact subset $K$ of a Hausdorff space is closed: for $y\\notin K$, separate $y$ from each $k\\in K$ by disjoint open sets, cover $K$ by finitely many of the neighborhoods of $k$, and intersect the corresponding neighborhoods of $y$. This produces an open neighborhood of $y$ disjoint from $K$. Thus $f$ is closed. For $g=f^{-1}$, the preimage $g^{-1}(C)=f(C)$ of every closed $C\\subseteq X$ is closed in $Y$, proving continuity of $g$.\n\nFor a counterexample, let $X=\\{0,1\\}$ be discrete and let the same underlying set $Y$ have the indiscrete topology $\\{\\varnothing,Y\\}$. The identity map $X\\to Y$ is a continuous bijection. Its inverse is not continuous, because the inverse image of the open singleton $\\{0\\}\\subseteq X$ is not open in $Y$. Here $X$ is compact, but $Y$ is not Hausdorff, so the theorem's hypotheses are not all present.",
+        "nextSteps": [{"subjectId": "proofs", "reason": "Review inverse-image tests for continuity and finite-subcover arguments."}, {"subjectId": "set-theory", "reason": "Review the difference between a set bijection and additional structure on the sets."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "algebraic-topology": [
+      {
+        "id": "projective-plane-cellular-homology",
+        "prompt": "Using the usual CW structure with one cell in each dimension 0, 1 and 2, compute the integral homology of the real projective plane, including the degree-2 cellular boundary map.",
+        "hint": "The 1-skeleton is a circle. The attaching map of the 2-cell traverses it twice, while the 1-cell has the same initial and terminal vertex.",
+        "solution": "Use the disk model of $\\mathbb{RP}^2$ with antipodal boundary points identified. The boundary quotient is $\\mathbb{RP}^1\\cong S^1$, its $1$-skeleton. The attaching map from the boundary of the disk to this circle is the double covering; with compatible orientations it has degree $2$. Thus the cellular chain complex over $\\mathbb Z$ is\n\n$$\n0\\longrightarrow C_2=\\mathbb Z\\xrightarrow{\\times2}C_1=\\mathbb Z\\xrightarrow{0}C_0=\\mathbb Z\\longrightarrow0.\n$$\n\nThe degree-one boundary is zero because the single $1$-cell has both endpoints at the same $0$-cell. Therefore $H_2=\\ker(\\times2)=0$, $H_1=\\mathbb Z/2\\mathbb Z$, and $H_0=\\mathbb Z$. All higher groups vanish because there are no higher cells. Reversing a cell orientation can change the displayed $2$ to $-2$ but changes neither its kernel nor its image. In particular, the $2$-cell does not supply a nonzero integral top-dimensional homology class.",
+        "nextSteps": [{"subjectId": "homological-algebra", "reason": "Review computing homology as kernel modulo image."}, {"subjectId": "point-set-topology", "reason": "Review quotient spaces and the antipodal disk model."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "differential-geometry": [
+      {
+        "id": "helix-curvature-torsion-and-arclength",
+        "prompt": "For r(t)=(cos(t),sin(t),t), compute speed, curvature and torsion and give an arclength parametrization.",
+        "hint": "Use curvature |r' cross r''|/|r'| cubed and torsion det(r',r'',r''')/|r' cross r''| squared. State the torsion convention.",
+        "solution": "For $t\\in\\mathbb R$, $r'=(-\\sin t,\\cos t,1)$, $r''=(-\\cos t,-\\sin t,0)$ and $r'''=(\\sin t,-\\cos t,0)$. Thus $|r'|=\\sqrt2$, while $r'\\times r''=(\\sin t,-\\cos t,1)$ has norm $\\sqrt2$. The curve is regular with nonzero curvature, and\n\n$$\n\\kappa=\\frac{|r'\\times r''|}{|r'|^3}=\\frac12.\n$$\n\nUsing the convention $\\tau=\\det(r',r'',r''')/|r'\\times r''|^2$, the scalar triple product is $\\sin^2t+\\cos^2t=1$, giving $\\tau=1/2$. The signed arclength coordinate based at $t=0$ is $s=\\int_0^t|r'(u)|\\,du=\\sqrt2t$. Hence $\\widetilde r(s)=(\\cos(s/\\sqrt2),\\sin(s/\\sqrt2),s/\\sqrt2)$, and direct differentiation gives $|\\widetilde r'(s)|=1$.",
+        "nextSteps": [{"subjectId": "calculus", "reason": "Review derivatives of vector-valued curves and arclength."}, {"subjectId": "linear-algebra", "reason": "Review cross products, determinants and Euclidean norms."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "symplectic-geometry": [
+      {
+        "id": "hamiltonian-oscillator-with-explicit-sign",
+        "prompt": "On R squared with omega=dq wedge dp, use the convention contraction of X_H with omega equals dH to compute X_H for H=(q squared+p squared)/2. Solve its flow and verify that H is conserved.",
+        "hint": "For X=a partial_q+b partial_p, contraction with dq wedge dp equals a dp-b dq. Keep this sign convention throughout.",
+        "solution": "Write $X_H=a\\partial_q+b\\partial_p$. With $\\omega=dq\\wedge dp$, $\\iota_{X_H}\\omega=a\\,dp-b\\,dq$. Equating this to $dH=q\\,dq+p\\,dp$ gives $a=p$, $b=-q$, so $X_H=p\\partial_q-q\\partial_p$. The equations are $q'=p$, $p'=-q$.\n\nFor initial data $(q_0,p_0)$, the global solution is $q(t)=q_0\\cos t+p_0\\sin t$ and $p(t)=-q_0\\sin t+p_0\\cos t$. Differentiation verifies both equations and evaluation at $t=0$ verifies the initial data. The flow is clockwise rotation in the $(q,p)$ drawing plane. Along it, $dH/dt=qq'+pp'=qp-pq=0$, so $H$ is constant. Choosing the opposite contraction convention would reverse the direction, which is why the convention is part of the question.",
+        "nextSteps": [{"subjectId": "differential-geometry", "reason": "Review differential forms, wedge products and contraction."}, {"subjectId": "differential-equations", "reason": "Review linear systems and verifying an explicit flow."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "elementary-number-theory": [
+      {
+        "id": "euclidean-inverse-and-three-congruences",
+        "prompt": "Use the extended Euclidean algorithm to find the inverse of 17 modulo 43, and solve x=2 modulo 3, x=3 modulo 5 and x=2 modulo 7, with a uniqueness statement.",
+        "hint": "Back-substitute the Euclidean divisions. Combine the congruences modulo 3 and 7 first.",
+        "solution": "The divisions are $43=2\\cdot17+9$, $17=9+8$, and $9=8+1$. Back-substitution gives $1=2\\cdot9-17=2\\cdot43-5\\cdot17$. Thus $17^{-1}\\equiv-5\\equiv38\\pmod{43}$, checked by $17\\cdot38=646=15\\cdot43+1$.\n\nThe conditions modulo $3$ and $7$ together mean $x=2+21k$ for some integer $k$, since these moduli are coprime. Modulo $5$, this becomes $2+k\\equiv3$, hence $k=1+5m$. Therefore $x=23+105m$ for $m\\in\\mathbb Z$. The value $23$ has residues $2,3,2$ modulo $3,5,7$. Any two solutions differ by an integer divisible by all three pairwise coprime moduli, hence by $105$, proving uniqueness modulo $105$.",
+        "nextSteps": [{"subjectId": "proofs", "reason": "Review divisibility arguments and existence versus uniqueness."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "algebraic-number-theory": [
+      {
+        "id": "gaussian-prime-ideal-factorizations",
+        "prompt": "In Z[i], factor the ideals (5) and (2), identify ramification and residue degrees, and justify the factorizations with norms.",
+        "hint": "Factor the rational integers as Gaussian integers. Show the quotients by the proposed prime generators are fields, rather than inferring primality solely from a drawing.",
+        "solution": "In $\\mathbb Z[i]$, $5=(2+i)(2-i)$, so $(5)=(2+i)(2-i)$ as a product of principal ideals. The quotient maps $a+bi\\mapsto a+3b$ and $a+bi\\mapsto a+2b$ to $\\mathbb F_5$ have kernels $(2+i)$ and $(2-i)$ respectively. For example, $i\\equiv-2$ modulo $(2+i)$, so reducing any Gaussian integer gives its stated residue; the same argument applies to $(2-i)$. Hence both ideals are prime of norm $5$, with residue degree $1$. They are distinct: the second quotient map sends $2+i$ to $4\\ne0$, so $2+i\\notin(2-i)$. Both exponents are $1$, so neither is ramified over $5$. Their norms multiply to $25=N((5))$.\n\nSince $(1+i)^2=2i$ and $i$ is a unit, $(2)=(1+i)^2$. The map $a+bi\\mapsto a+b$ to $\\mathbb F_2$ has kernel $(1+i)$, so this is a prime ideal of norm $2$, residue degree $1$ and ramification index $2$. Its squared norm is $4=N((2))$. The equalities of elements up to units establish the ideal factorizations; norms provide independent size checks.",
+        "nextSteps": [{"subjectId": "abstract-algebra", "reason": "Review quotient fields, kernels of ring maps and principal ideals."}, {"subjectId": "elementary-number-theory", "reason": "Review congruences and sums of two squares."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "analytic-number-theory": [
+      {
+        "id": "divisor-dirichlet-series-by-absolute-convergence",
+        "prompt": "For complex s with real part greater than 1, prove that the Dirichlet series of the divisor-counting function d(n) equals zeta(s) squared. Justify rearranging the double sum.",
+        "hint": "Each positive divisor corresponds to an ordered pair ab=n. Bound the absolute double sum at the real part of s.",
+        "solution": "Let $s\\in\\mathbb C$, $\\sigma=\\operatorname{Re}s>1$, and define $n^{-s}=e^{-s\\log n}$ with the real logarithm of positive $n$. The positive series $\\sum n^{-\\sigma}$ converges by the integral test. Therefore\n\n$$\n\\sum_{a,b\\ge1}|a^{-s}b^{-s}|=\\left(\\sum_{a\\ge1}a^{-\\sigma}\\right)^2=\\zeta(\\sigma)^2<\\infty.\n$$\n\nAbsolute convergence justifies multiplying the two series for $\\zeta(s)$ and regrouping their terms by $n=ab$. For every positive integer $n$, there are exactly $d(n)$ ordered pairs $(a,b)$ of positive integers with product $n$, since $a$ determines $b=n/a$. Also $a^{-s}b^{-s}=(ab)^{-s}$. Consequently\n\n$$\n\\zeta(s)^2=\\sum_{a,b\\ge1}(ab)^{-s}=\\sum_{n\\ge1}d(n)n^{-s}.\n$$\n\nThis argument proves absolute convergence of the final series as well; it does not assert the identity outside $\\operatorname{Re}s>1$.",
+        "nextSteps": [{"subjectId": "real-analysis", "reason": "Review absolute convergence and rearrangements of infinite sums."}, {"subjectId": "elementary-number-theory", "reason": "Review the divisor function and divisor-pair counting."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "modular-forms": [
+      {
+        "id": "half-plane-action-and-odd-weight-vanishing",
+        "prompt": "For gamma=[[a,b],[c,d]] in SL2(R), prove Im(gamma z)=Im(z)/|cz+d| squared when Im(z)>0. Then use -I to show a modular form for SL2(Z) of odd integral weight is zero.",
+        "hint": "Subtract the complex conjugate of the fractional linear expression. For the second part state the transformation law, including its character.",
+        "solution": "Let $a,b,c,d\\in\\mathbb R$ satisfy $ad-bc=1$, and $z\\in\\mathbb H$. The denominator $cz+d$ is nonzero: if $c\\ne0$ its zero is real, while if $c=0$ the determinant condition gives $d\\ne0$. Since the coefficients are real,\n\n$$\n\\frac{az+b}{cz+d}-\\frac{a\\bar z+b}{c\\bar z+d}=\\frac{(ad-bc)(z-\\bar z)}{|cz+d|^2}.\n$$\n\nDivide by $2i$ to obtain $\\operatorname{Im}(\\gamma z)=\\operatorname{Im}z/|cz+d|^2>0$.\n\nFor a modular form of integral weight $k$ on the full group $\\mathrm{SL}_2(\\mathbb Z)$ with trivial character, the law is $f(\\gamma z)=(cz+d)^k f(z)$. The matrix $-I$ fixes every $z$ and has $cz+d=-1$, so $f(z)=(-1)^k f(z)$. If $k$ is odd, this gives $2f(z)=0$ for every $z$, hence $f=0$ over $\\mathbb C$. Trivial character is essential to this particular conclusion; cusp holomorphy is not needed for the vanishing argument.",
+        "nextSteps": [{"subjectId": "complex-analysis", "reason": "Review conjugation, imaginary parts and holomorphic functions on the upper half-plane."}, {"subjectId": "abstract-algebra", "reason": "Review group actions and transformation laws with a character."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "combinatorics": [
+      {
+        "id": "binary-strings-with-no-adjacent-ones",
+        "prompt": "Find an ordinary generating function for the number of binary strings of length n with no adjacent ones, starting with the empty string; derive its recurrence and initial values.",
+        "hint": "For n at least 2, partition strings by whether they end in 0 or in 01. Work with a formal power series so no analytic convergence assumption is needed.",
+        "solution": "Let $a_n$ count such strings. The empty string gives $a_0=1$, and the strings $0,1$ give $a_1=2$. For $n\\ge2$, a valid string ending in $0$ is obtained uniquely by appending $0$ to a valid string of length $n-1$. A valid string ending in $1$ must end in $01$, and deleting that suffix gives a valid string of length $n-2$. These disjoint classes exhaust the strings, so $a_n=a_{n-1}+a_{n-2}$.\n\nFor the formal series $A(x)=\\sum_{n\\ge0}a_nx^n$, summing the recurrence from $n=2$ gives $A-1-2x=x(A-1)+x^2A$. Thus\n\n$$\nA(x)=\\frac{1+x}{1-x-x^2}.\n$$\n\nThe denominator has constant coefficient $1$, hence is invertible as a formal power series. The first coefficients are $1,2,3,5,8$, agreeing with the recurrence.",
+        "nextSteps": [{"subjectId": "proofs", "reason": "Review exhaustive disjoint cases and bijections used in counting."}, {"subjectId": "abstract-algebra", "reason": "Review coefficient arithmetic in formal power series if manipulating generating functions is unfamiliar."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "probability": [
+      {
+        "id": "bernoulli-average-mean-variance-and-weak-law",
+        "prompt": "For independent Bernoulli(p) variables X1,...,Xn with 0<p<1, compute the expectation and variance of their average and prove convergence in probability to p using Chebyshev's inequality.",
+        "hint": "Compute one variable's first two moments. Linearity of expectation does not require independence; adding variances does here.",
+        "solution": "Let $(X_i)_{i\\ge1}$ be independent Bernoulli variables with the same parameter $p\\in(0,1)$ on a probability space, and set $\\bar X_n=n^{-1}\\sum_{i=1}^nX_i$. Since $X_i^2=X_i$, $\\mathbb EX_i=p$ and $\\operatorname{Var}(X_i)=p-p^2=p(1-p)$. Linearity gives $\\mathbb E\\bar X_n=p$. Independence makes all cross covariances zero, so\n\n$$\n\\operatorname{Var}(\\bar X_n)=\\frac{1}{n^2}\\sum_{i=1}^n p(1-p)=\\frac{p(1-p)}n.\n$$\n\nFor every fixed $\\varepsilon>0$, Chebyshev's inequality yields $\\mathbb P(|\\bar X_n-p|\\ge\\varepsilon)\\le p(1-p)/(n\\varepsilon^2)\\to0$. This is convergence in probability to $p$. The expectation identity remains true for dependent variables with these marginals, but the displayed variance computation need not; independence was used at that step.",
+        "nextSteps": [{"subjectId": "calculus", "reason": "Review finite sums and scaling of quadratic expressions."}, {"subjectId": "real-analysis", "reason": "Review the quantifiers in convergence and limits of bounds."}],
+        "reviewed": "2026-10-17"
+      },
+      {
+        "id": "conditioning-on-two-fair-coin-tosses",
+        "prompt": "Toss a fair coin twice independently. Let A mean the first toss is heads and B mean at least one toss is heads. Compute P(A), P(B), P(A given B) and P(B given A), and decide whether A and B are independent or disjoint.",
+        "hint": "Use the four ordered outcomes HH, HT, TH and TT, each with probability 1/4. Conditioning changes the denominator.",
+        "solution": "The sample space $\\Omega=\\{HH,HT,TH,TT\\}$ has four equally likely outcomes by fairness and independence of the tosses. Here $A=\\{HH,HT\\}$, $B=\\{HH,HT,TH\\}$ and $A\\cap B=A$. Hence $\\mathbb P(A)=1/2$, $\\mathbb P(B)=3/4$ and\n\n$$\n\\mathbb P(A\\mid B)=\\frac{\\mathbb P(A\\cap B)}{\\mathbb P(B)}=\\frac{1/2}{3/4}=\\frac23,\\qquad \\mathbb P(B\\mid A)=1.\n$$\n\nThe conditioning events have positive probability, so both ratios are defined. The events are not independent because $\\mathbb P(A\\cap B)=1/2\\ne(1/2)(3/4)=3/8$, and not disjoint because their intersection contains two outcomes. Independence of the two tosses does not imply independence of all events constructed from them.",
+        "nextSteps": [{"subjectId": "combinatorics", "reason": "Review ordered sample spaces and counting equally likely outcomes."}, {"subjectId": "set-theory", "reason": "Review intersections, subsets and disjointness of events."}],
+        "reviewed": "2026-10-17"
+      }
+    ],
+    "dynamics": [
+      {
+        "id": "decay-flow-versus-rotation",
+        "prompt": "For x'=-x and y'=-2y, write the flow and use V=x squared+y squared to prove global asymptotic stability of the origin. Explain why V=x squared+y squared cannot prove attraction for x'=-y, y'=x.",
+        "hint": "Differentiate V along each vector field. For stability give a delta that controls all future times; for attraction show decay from every initial point.",
+        "solution": "The first system has flow $\\phi_t(x_0,y_0)=(e^{-t}x_0,e^{-2t}y_0)$ for all real $t$. Along any trajectory, $V'=-2x^2-4y^2\\le-2V$. Since $(e^{2t}V)'\\le0$, $V(t)\\le e^{-2t}V(0)$ for $t\\ge0$. Thus $\\|\\phi_t(x_0,y_0)\\|\\le e^{-t}\\|(x_0,y_0)\\|$. For every $\\varepsilon>0$, choose $\\delta=\\varepsilon$; an initial norm below $\\delta$ stays below $\\varepsilon$ for every future time, proving stability. The same bound tends to zero for every initial point, proving global attraction and hence global asymptotic stability.\n\nFor $x'=-y$, $y'=x$, one instead has $V'=2x(-y)+2y(x)=0$. Every nonzero initial point stays at its positive initial distance from the origin (indeed the explicit flow is rotation). It cannot tend to zero. This origin is stable but not attractive; the failure to prove attraction reflects actual non-attraction, not merely a weak choice of estimate.",
+        "nextSteps": [{"subjectId": "differential-equations", "reason": "Review flows of linear systems and differential inequalities."}, {"subjectId": "real-analysis", "reason": "Review the quantifiers distinguishing stability from attraction."}],
+        "reviewed": "2026-10-17"
+      }
+    ]
+  }
+}

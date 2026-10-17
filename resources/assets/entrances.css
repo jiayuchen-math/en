@@ -12,6 +12,12 @@
 .resource-group .card a:hover { color:var(--link); text-decoration-color:currentColor; }
 .resource-group .card p { max-width:52ch; color:var(--muted); font-size:15px; line-height:1.65; }
 .personal-notes-link { margin-top:30px; font-size:15px; }
+.recent-edits { margin-top:32px; padding-top:14px; border-top:1px solid var(--line); }
+.recent-edits h2 { font-size:23px; }
+.recent-edits ul { list-style:none; padding:0; }
+.recent-edits li { margin:16px 0; }
+.recent-edits p { margin:3px 0; max-width:75ch; font-size:15px; }
+.recent-edits time { font:12px/1.6 var(--portal-ui); color:var(--muted); }
 .reading-empty { padding:18px 22px; border:1px solid var(--line); border-radius:6px; background:var(--soft); margin:24px 0; }
 .reading-empty h2 { margin:0 0 8px; font-size:22px; }
 .reading-empty p { margin:0; color:var(--muted); }

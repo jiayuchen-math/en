@@ -3,6 +3,8 @@ import path from 'node:path';
 import {escape as E, renderArticle,markdown} from './knowledge-markdown.mjs';
 import {subjectFigure,nilpotentFigure} from './study-figures.mjs';
 import {sectionDirectionBody} from './direction-sections.mjs';
+import {combinedChecks,renderComparisons,renderContinuations,subjectURL} from './learning-editorial.mjs';
+import {learningIllustrations} from './learning-illustrations.mjs';
 
 const readJSON=(root,file)=>JSON.parse(fs.readFileSync(path.join(root,'resources',file),'utf8'));
 export function checkedHTTPS(value){
@@ -49,23 +51,30 @@ export function renderDirectionIntroduction(entry,id){
  const refs='<details><summary>Sources for this introduction</summary><ul>'+entry.references.map(r=>`<li>${external(r.url,r.label||r.title)} — ${E(r.author)}. ${E(r.locator)}. Checked ${E(r.checked)}.</li>`).join('')+'</ul></details>';
  return {html:`<section class="direction-introduction" id="introduction">${prose}${refs}${contribution(entry.sourcePath,id)}<p class="knowledge-meta" data-content-license>Original introduction: ${external('https://creativecommons.org/licenses/by-sa/4.0/','CC BY-SA 4.0')}.</p></section>`,contents:rendered.contents};
 }
-export function renderCourseStudy(topic,entry,checks=[]){
+export function renderCourseStudy(topic,entry,checks=[],{editorial,additionalChecks=[],topics=[]}={}){
  if(!entry)throw Error('Missing course study guide '+topic.id);
  const reading=(r,purpose='')=>`${external(r.url,r.title)} — ${E(r.author)}. ${E(r.locator)}${purpose?' '+E(purpose):''}`;
+ const illustrationParts=[...learningIllustrations(topic.id).matchAll(/<figure\b[\s\S]*?<\/figure>/g)].map(match=>match[0]);
  const sources=[entry.primary,...entry.alternatives];
- const practice=checks.length?'<ol class="study-checks">'+checks.map(item=>`<li id="check-${E(item.id)}"><p>${markdown.renderInline(item.prompt)}</p><details data-portal-disclosure><summary>A hint</summary>${markdown.render(item.hint)}</details><details data-portal-disclosure><summary>Work through the solution</summary>${markdown.render(item.solution)}</details></li>`).join('')+'</ol>':list(entry.checks);
+ const worked=combinedChecks(checks,additionalChecks);
+ const practice=worked.length?'<ol class="study-checks">'+worked.map(item=>`<li id="check-${E(item.id)}"><p>${markdown.renderInline(item.prompt)}</p><details data-portal-disclosure><summary>A hint</summary>${markdown.render(item.hint)}</details><details data-portal-disclosure><summary>Work through the solution</summary>${markdown.render(item.solution)}${item.nextSteps?.length?'<p class="check-intro">If this was the sticking point:</p><ul>'+item.nextSteps.map(target=>`<li><a href="${E(subjectURL(target.subjectId,topics))}">${E(topics.find(t=>t.id===target.subjectId).title)}</a> — ${E(target.reason)}</li>`).join('')+'</ul>':''}</details></li>`).join('')+'</ol>':list(entry.checks);
  if(!sources.some(r=>r.url===entry.practice.url))sources.push({...entry.practice,title:entry.practice.label});
  return `<!-- subject-guide:start --><section class="subject-guide" id="study-guide">
  <h2>Studying ${E(topic.title)}</h2>
- <h3>What to work on</h3>${list(entry.objectives)}${subjectFigure(topic.id)}
+ <nav class="study-jumps" aria-label="Study guide sections"><a href="#study-guide">Start here</a>${editorial?' · <a href="#choose-reading">Choose a text</a>':''} · <a href="#practice-learning">Practice</a> · <a href="#check-learning">Check your understanding</a>${editorial?' · <a href="#continue-learning">Continue</a>':''} · <a href="#subject-bibliography">Full reading list</a></nav>
+ ${editorial?'<p class="subject-opening">'+E(editorial.opening)+'</p>':''}
+ <h3>What to work on</h3>${list(entry.objectives)}${illustrationParts[0]||subjectFigure(topic.id)}
  <h3>A starting text</h3><p>${reading(entry.primary)}</p>
+ ${editorial?renderComparisons(editorial):''}
  ${entry.alternatives.length?'<details><summary>Other ways into the subject</summary><ul>'+entry.alternatives.map(r=>'<li>'+reading(r,r.purpose)+'</li>').join('')+'</ul></details>':''}
- <h3>Practice</h3><p>${external(entry.practice.url,entry.practice.label)}. ${E(entry.practice.locator)}. ${E(entry.practice.availability)}</p>
- <h3>Try these before moving on</h3>${checks.length?'<p class="check-intro">Try a proof or calculation before opening the hint. These solutions address the checks below, not the exercises in the linked textbooks.</p>':''}${practice}
+ <h3 id="practice-learning">Practice</h3><p>${external(entry.practice.url,entry.practice.label)}. ${E(entry.practice.locator)}. ${E(entry.practice.availability)}</p>
+ <h3 id="check-learning">Try these before moving on</h3>${worked.length?'<p class="check-intro">Try a proof or calculation before opening the hint. These solutions address the checks below, not the exercises in the linked textbooks.</p>':''}${practice}
  <p><strong>Already comfortable with this?</strong> ${markdown.renderInline(entry.skip)}</p>
+ ${illustrationParts[1]||''}
  <p><a href="/en/resources/library-paths/${E(topic.id)}.html">Review the prerequisites</a> · <a href="/en/notes/reading-notes/library/catalogue.html?topic=${encodeURIComponent(topic.title)}">Compare the full subject collection</a></p>
+ ${editorial?renderContinuations(editorial,topics):''}
  <details><summary>Reading-source dates</summary><ul>${sources.map(r=>'<li>'+E(r.title)+' · '+E(r.checked)+'</li>').join('')}</ul></details>
- ${contribution('resources/data/course-study-guides.json',topic.id)}</section><!-- subject-guide:end -->`;
+ ${editorial?'<p class="knowledge-meta">Reading choices revised '+E(editorial.reviewed)+'.</p>':''}${contribution(editorial?'resources/data/learning-editorial.json':'resources/data/course-study-guides.json',topic.id)}</section><span id="subject-bibliography" class="section-anchor"></span><!-- subject-guide:end -->`;
 }
 export function renderConceptReading(entry,{knowledge,topicTitle,readings=[]}){
  const term=knowledge.terms.find(t=>t.id===entry.id);

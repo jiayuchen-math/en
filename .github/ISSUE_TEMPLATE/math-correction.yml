@@ -1,0 +1,52 @@
+name: Mathematical correction
+description: Report a precise mathematical claim and explain a proposed correction.
+title: "[Math correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public GitHub issue form. Reading the site needs no account; submitting an issue uses GitHub's sign-in. This form adds no site login or server.
+        Include only the mathematical content needed for review. Do not include student names, IDs, grades, private correspondence, or other sensitive student data. A report proposes a change for editorial review.
+  - type: input
+    id: page-url
+    attributes:
+      label: Exact affected page URL
+      description: Paste the full URL, including the section fragment when available.
+      placeholder: "https://jiayuchen-math.github.io/en/resources/..."
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim and location
+      description: Give the heading, formula, or short passage that identifies the claim. Include its stated hypotheses.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: State the corrected claim, formula, or missing hypothesis precisely.
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Mathematical explanation
+      description: Explain the error and why the correction works. A small counterexample or derivation is helpful.
+    validations:
+      required: true
+  - type: textarea
+    id: primary-source
+    attributes:
+      label: Primary source and exact locator
+      description: Give an author, title, author or university URL, and section, theorem, or page. If this is an original elementary calculation, say so and give the full check above.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-content
+    attributes:
+      label: Public information only
+      options:
+        - label: I have excluded sensitive student data and private material.
+          required: true

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "pilot-calculations-to-proofs",
+      "title": "Added a pilot guide from calculations to proofs",
+      "url": "/en/resources/library-paths/guides/calculations-to-proofs.html",
+      "summary": "Created an original study guide with an explicit convergence proof, a parameter check, and a kernel argument; recorded primary reading references and AI-assisted draft attribution.",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "added-coverings-and-galois",
+      "title": "Added a reading guide connecting covers and Galois theory",
+      "url": "/en/resources/library-paths/guides/coverings-and-galois.html",
+      "summary": "Created a comparison of subgroup correspondences with classical topological hypotheses, finite Galois assumptions, and the distinction between connected and regular covers.",
+      "date": "2026-10-17"
+    },
+    {
+      "id": "added-duality-linear-functional",
+      "title": "Added a reading guide from linear functionals to analytic duality",
+      "url": "/en/resources/library-paths/guides/duality-linear-functional.html",
+      "summary": "Created a guide distinguishing algebraic and continuous duals, the canonical finite-dimensional bidual isomorphism, and Banach-space reflexivity, with explicit examples and sources.",
+      "date": "2026-10-17"
+    }
+  ]
+}

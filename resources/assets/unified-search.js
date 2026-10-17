@@ -38,6 +38,10 @@ async function initializeSearch() {
   let timer;
   let updateTiming;
   let editingQuery = false;
+  let meaningData = {};
+  let meaningPromise;
+  const meaningPanel = document.createElement('section');
+  meaningPanel.className='search-meanings';meaningPanel.hidden=true;meaningPanel.setAttribute('aria-label','Choose a mathematical meaning');form.after(meaningPanel);
   let state = readLocation();
 
   count.setAttribute('role', 'status');
@@ -78,10 +82,11 @@ async function initializeSearch() {
 
   function stateUrl(next) {
     const url = new URL(location.href);
-    for (const key of ['q', 'type', 'area', 'page']) url.searchParams.delete(key);
+    for (const key of ['q', 'type', 'area', 'page','sense']) url.searchParams.delete(key);
     if (next.q) url.searchParams.set('q', next.q);
     if (next.type) url.searchParams.set('type', next.type);
     if (next.area) url.searchParams.set('area', next.area);
+    if (next.sense) url.searchParams.set('sense', next.sense);
     if (next.type && next.page > 1) url.searchParams.set('page', String(next.page));
     return url;
   }
@@ -125,17 +130,28 @@ async function initializeSearch() {
   function renderChips() {
     if (!chips) return;
     chips.replaceChildren();
-    const labels = {q: 'Query', type: 'Type', area: 'Area'};
-    for (const key of ['q', 'type', 'area']) {
+    const labels = {q: 'Query', type: 'Type', area: 'Area',sense:'Meaning'};
+    for (const key of ['q', 'type', 'area','sense']) {
       if (!state[key]) continue;
-      const value = key === 'type' ? manifest?.collections.find(collection => collection.id === state.type)?.label || state.type : state[key];
+      const value = key === 'type' ? manifest?.collections.find(collection => collection.id === state.type)?.label || state.type : key==='sense' ? Object.values(meaningData).flat().find(item=>item.id===state.sense)?.english||state.sense : state[key];
       const button = node('button', `${labels[key]}: ${value} ×`, 'badge');
       button.type = 'button';
       button.setAttribute('aria-label', `Remove ${labels[key].toLowerCase()} filter: ${value}`);
-      button.addEventListener('click', () => navigate({...state, [key]: '', page: 1}, 'push'));
+      button.addEventListener('click', () => navigate({...state, [key]: '',...(key==='q'?{sense:''}:{}), page: 1}, 'push'));
       chips.append(button);
     }
     chips.hidden = !chips.childElementCount;
+  }
+
+  function renderMeanings(){
+    meaningPanel.replaceChildren();
+    const options=meaningData[core.normalize(state.q)]||[];
+    meaningPanel.hidden=options.length<2||Boolean(state.type&&!['encyclopedia','terminology'].includes(state.type));
+    if(meaningPanel.hidden)return;
+    meaningPanel.append(node('p','Which meaning are you looking for?','meta'));
+    const choices=node('div',null,'chips');
+    for(const option of options){const button=node('button',`${option.topic}: ${option.english}${option.chinese?' · '+option.chinese:''}`);button.type='button';button.setAttribute('aria-pressed',String(state.sense===option.id));button.addEventListener('click',()=>navigate({...state,sense:state.sense===option.id?'':option.id,area:'',page:1},'push'));choices.append(button)}
+    meaningPanel.append(choices);
   }
 
   async function loadManifest() {
@@ -348,6 +364,10 @@ async function initializeSearch() {
       const value = await loadManifest();
       if (id !== requestId) return;
       applyManifest(value);
+      if(!meaningPromise)meaningPromise=fetch(new URL('/en/resources/search/meanings.json',location.href),{credentials:'same-origin'}).then(r=>r.ok?r.json():{}).catch(()=>({}));
+      meaningData=await meaningPromise;
+      if(id!==requestId)return;
+      renderMeanings();renderChips();
       if (!isActive(state)) renderBrowse();
       else runSearch(id, {...state});
     } catch {
@@ -369,7 +389,7 @@ async function initializeSearch() {
     else void execute(id);
   }
 
-  const controlState = () => searchState({q: query.value, type: type.value, area: area.value, page: 1});
+  const controlState = () => searchState({q: query.value, type: type.value, area: area.value, page: 1,sense:query.value===state.q?state.sense:''});
   function queryChanged(event) {
     if (event.isComposing) return;
     navigate(controlState(), editingQuery ? 'replace' : 'push', 180, true);

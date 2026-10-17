@@ -12,6 +12,8 @@ import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,validat
 import {nodes as pathNodes} from './data/learning-paths.mjs';
 import {titleDestination,entryActions,showsDetails} from './assets/entry-presentation.js';
 import {adviceMetadata} from './advice-readings.mjs';
+import {loadLearningEdition,validateLearningEdition,editorialGuidePages,renderRevisionList} from './learning-editorial.mjs';
+import {createLearningTools} from './learning-tools.mjs';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -44,6 +46,8 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  function stable(type,key){if(!registry[type][key])registry[type][key]=`${type==='library'?'work':'link'}-${String(Object.keys(registry[type]).length+1).padStart(4,'0')}`;return registry[type][key]}
  const knowledge=loadKnowledge(root),articleIds=new Set(knowledge.articles.map(a=>a.id));
  const conceptReadings=loadConceptReadings(root),introductions=loadDirectionIntroductions(root),courseStudies=loadCourseStudies(root);
+ const learningEdition=loadLearningEdition(root);
+ const learningCounts=validateLearningEdition(learningEdition,merged.topics,json('resources/content/study-checks.json'));
  validateStudyContent({readings:conceptReadings,introductions,courses:courseStudies,knowledge,topics:merged.topics,routeIds:goalPaths.map(r=>r.id),areas});
  const readingIds=new Set(conceptReadings.map(e=>e.id)),termIds=new Set(knowledge.terms.map(e=>e.id));
  const topicTitle=id=>merged.topics.find(t=>t.id===id)?.title||id;
@@ -53,9 +57,10 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  const sourceHashes=walk('resources/content/encyclopedia').filter(f=>f.endsWith('.md')).map(f=>[f,digest(read(f))]);
  const report={version:1,counts:{library:books.length,encyclopedia:knowledge.articles.length,terminology:knowledge.terms.length,links:links.length,programs:programs.length,researchers:researchers.length},directories:[],protected:protectedFiles,knowledgeSources:sourceHashes};
  report.contentBreakdown={originalArticles:knowledge.articles.length,externalReadingGuides:conceptReadings.length,terminologySenses:knowledge.terms.length,directionIntroductions:Object.keys(introductions).length,subjectStudyGuides:Object.keys(courseStudies).length};
+ report.learningEdition=learningCounts;
  const collections=[];
  function bodyOf(html){
-  const marked=html.match(/<!-- portal-content:start -->([\s\S]*?)<!-- portal-content:end -->/);if(marked)return marked[1];
+  const marked=html.match(/<!-- portal-content:start -->([\s\S]*?)<!-- portal-content:end -->/);if(marked)return marked[1].replace(/<!-- learning-control:start -->[\s\S]*?<!-- learning-control:end -->/g,'');
   let body=html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1]||html.match(/<body[^>]*>([\s\S]*?)<\/body>/i)?.[1]||html;
   return body.replace(/<header\b[^>]*>[\s\S]*?<\/header>/i,'').replace(/^\s*<nav\b[^>]*>[\s\S]*?<\/nav>/i,'').replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/i,'');
  }
@@ -65,6 +70,8 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   return unique.length?'<nav class="contents" aria-label="Article contents"><strong>Contents</strong><ul>'+unique.map(([id,label])=>'<li>'+link('#'+id,label)+'</li>').join('')+'</ul></nav>':'';
  }
  function addPage(file,title,body,kind='directory',extra={}){
+  if(/^resources\/encyclopedia\/[^/]+\/index\.html$/.test(file))body=`<!-- learning-control:start --><div class="entry-actions">${saveControl(file.split('/').at(-2),'encyclopedia')}</div><!-- learning-control:end -->`+body;
+  if(file.startsWith('resources/library-paths/')&&kind==='article')body=`<!-- learning-control:start --><div class="entry-actions">${saveControl('guide-'+digest(file).slice(0,12),'guides')}</div><!-- learning-control:end -->`+body;
   if(/class="(?:subject-guide|direction-introduction)"/.test(body))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/study-guides.css?v='+digest(read('resources/assets/study-guides.css')).slice(0,12)+'">';
   if(body.includes('class="katex"')&&!extra.head?.includes('katex.min.css'))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">';
   if(['resources/index.html','notes/reading-notes/reading-notes.html'].includes(file))extra.head=(extra.head||'')+'<link rel="stylesheet" href="/en/resources/assets/entrances.css?v='+digest(read('resources/assets/entrances.css')).slice(0,12)+'">';
@@ -78,6 +85,8 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   if(file.startsWith('resources/library-paths/'))extra.scripts=[...(extra.scripts||[]),'/en/resources/assets/paths.js'];
   save(file,shell({title,body,url:href(file.replace(/index\.html$/,'')),kind,...extra}));
  }
+ function saveControl(id,type){return `<button type="button" data-save-learning data-learning-id="${E(id)}" data-learning-type="${E(type)}" hidden>Save to bookshelf</button>`}
+ function compareControl(id){return `<button type="button" data-compare-program data-program-id="${E(id)}" hidden>Compare program</button>`}
  const fields=(obj,names)=>Object.fromEntries(names.map(n=>[n,String(obj[n]||'')]));
  const titleSearch=e=>strings([e.title,e.chinese,e.chineseLabel,Array.isArray(e.aliases)?e.aliases.join(' '):e.aliases,e.author,e.institution,e.topics,e.originalTitle]);
  function row(e,extra){return {id:e.id,title:e.title,subtitle:'',summary:'',meta:'',fields:{},search:titleSearch(e),...extra}}
@@ -106,7 +115,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   const advancedTiming=timing.replace(/<label for="filter-applicationStatus">[\s\S]*?<\/label>/,'');
   return {filters:filterList.map(([field,label])=>({field,label,values:field==='applicationStatus'?statusOptions:valuesFor(field)})),html:`<label for="search-q" class="catalogue-search"><span>Search this directory</span><input type="search" name="q" id="search-q" autocomplete="off"></label><div class="portal-filters">${primary}</div>${more.length||timing?`<details class="more-filters"><summary>More filters</summary><div class="portal-filters">${more.map(filterHTML).join('')}</div>${advancedTiming}</details>`:''}<button type="reset">Clear filters</button>`};
  }
- function summaryHTML(r,details){const target=titleDestination(r),actions=entryActions(r);return `<article class="portal-entry" id="${E(r.id)}"><h2>${link(target,r.title)}${r.chinese?` <span lang="zh-Hans">${E(r.chinese)}</span>`:''}</h2>${r.subtitle?`<p class="entry-meta">${E(r.subtitle)}</p>`:''}${r.meta?`<p class="entry-meta">${E(r.meta)}</p>`:''}<p class="entry-summary">${E(r.summary)}</p>${r.inlineInfo?`<p class="entry-meta">${E(r.inlineInfo)}</p>`:''}${actions.length?`<div class="entry-actions">${actions.map(a=>link(a.url,a.label)).join(' ')}</div>`:''}${details&&showsDetails(r)?`<details data-entry-details="${E(r.id)}"><summary>Details and sources</summary><div class="entry-detail">${details.replace(new RegExp(` id="${r.id}"`),'')}</div></details>`:''}</article>`}
+ function summaryHTML(r,details,collection){const target=titleDestination(r),actions=entryActions(r),control=['library','exposition','encyclopedia'].includes(collection)?saveControl(r.id,collection==='exposition'?'library':collection):collection==='programs'?compareControl(r.id):'';return `<article class="portal-entry" id="${E(r.id)}"><h2>${link(target,r.title)}${r.chinese?` <span lang="zh-Hans">${E(r.chinese)}</span>`:''}</h2>${r.subtitle?`<p class="entry-meta">${E(r.subtitle)}</p>`:''}${r.meta?`<p class="entry-meta">${E(r.meta)}</p>`:''}<p class="entry-summary">${E(r.summary)}</p>${r.inlineInfo?`<p class="entry-meta">${E(r.inlineInfo)}</p>`:''}${actions.length||control?`<div class="entry-actions">${actions.map(a=>link(a.url,a.label)).join(' ')}${control}</div>`:''}${details&&showsDetails(r)?`<details data-entry-details="${E(r.id)}"><summary>Details and sources</summary><div class="entry-detail">${details.replace(new RegExp(` id="${r.id}"`),'')}</div></details>`:''}</article>`}
  const directoryFiles=new Set();
  function directory({id,title,file,rows,filterList,render,defaults={},intro='',applications=false,collection=true}){
   directoryFiles.add(file);const summaries=compactFilters(rows,filterList,defaults,applications);
@@ -144,7 +153,7 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
    const nav=`<nav class="static-pagination" id="portal-pagination" aria-label="Results pages">${n>1?link(href(pageFile(file,n-1,all)),'Previous'):'<span>Previous</span>'}<span>Page ${n} of ${pages}</span>${n<pages?link(href(pageFile(file,n+1,all)),'Next'):'<span>Next</span>'}</nav>`;
    const compat=n===1&&!all&&render?`<noscript><details class="legacy-bookmarks"><summary>All entry links / older bookmarks</summary>${rows.filter(r=>!current.includes(r)).map(r=>`<a id="${E(r.id)}" href="${E(r.url)}">${E(r.title)}</a>`).join(' ')}</details></noscript>`:'';
    const filters=`<form class="controls" data-portal-catalogue data-index="/en/resources/catalogue-data/${id}/index.json?v=${indexVersion}" data-base="${href(file)}" data-defaults="${E(JSON.stringify(all?{}:defaults))}" data-current-page="${n}" hidden>${all?summaries.html.replaceAll(' selected',''):summaries.html}</form><div id="active-filters" class="chips" aria-label="Selected filters"></div>`;
-   const body=`${intro}${filters}<p id="result-count" class="meta" role="status" tabindex="-1" aria-live="polite">${shown.length} results · page ${n} of ${pages}</p><noscript><p>Browse every entry using the page links.${defaults.readingAccess?' '+link(href(pageFile(file,1,true)),'Browse all access types')+'.':''}</p></noscript><p id="no-results" hidden>No matching entries. Clear filters or try another keyword.</p><div id="portal-results" class="results">${current.map(r=>summaryHTML(r,full[rows.indexOf(r)])).join('')}</div>${nav}${compat}`;
+   const body=`${intro}${filters}<p id="result-count" class="meta" role="status" tabindex="-1" aria-live="polite">${shown.length} results · page ${n} of ${pages}</p><noscript><p>Browse every entry using the page links.${defaults.readingAccess?' '+link(href(pageFile(file,1,true)),'Browse all access types')+'.':''}</p></noscript><p id="no-results" hidden>No matching entries. Clear filters or try another keyword.</p><div id="portal-results" class="results">${current.map(r=>summaryHTML(r,full[rows.indexOf(r)],id)).join('')}</div>${nav}${compat}`;
    addPage(name,title,body,'directory',{scripts:['/en/resources/assets/portal-catalogue.js']});
    if(n===1&&!all){const target=collection?report.directories:(report.supplementaryDirectories||=[]);target.push({id,url:href(file),records:rows.length,pages,firstPageBytes:Buffer.byteLength(read(name))})}
   }}
@@ -176,16 +185,43 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
  }
  // Shared wrappers for existing resource entrances and guides. Never wrap course note bodies.
  const goalPages=goalPathPages({topics:merged.topics,nodes:pathNodes,root});
- const passthrough=walk('resources').filter(f=>f.endsWith('.html')&&!directoryFiles.has(f)&&!goalPages.has(f)&&!f.includes('/catalogue-data/')&&!/-(?:all-)?page-\d+\.html$/.test(f)&&!/^resources\/(?:encyclopedia|terminology)\/[^/]+\/index\.html$/.test(f)&&f!=='resources/index.html'&&f!=='resources/search/index.html'&&!f.startsWith('resources/data/'));
+ const editorialPages=editorialGuidePages(root,learningEdition,merged.topics);
+ const managedLearning=new Set([...editorialPages.map(p=>p.file),'resources/bookshelf/index.html','resources/study-careers/compare/index.html']);
+ const passthrough=walk('resources').filter(f=>f.endsWith('.html')&&!managedLearning.has(f)&&!directoryFiles.has(f)&&!goalPages.has(f)&&!f.includes('/catalogue-data/')&&!/-(?:all-)?page-\d+\.html$/.test(f)&&!/^resources\/(?:encyclopedia|terminology)\/[^/]+\/index\.html$/.test(f)&&f!=='resources/index.html'&&f!=='resources/search/index.html'&&!f.startsWith('resources/data/'));
  passthrough.push(...walk('notes/reading-notes').filter(f=>f.endsWith('.html')&&!directoryFiles.has(f)&&!f.endsWith('open-reading.html')&&!/-(?:all-)?page-\d+\.html$/.test(f)),'notes/mathematical-notes/page.html','disclaimer.html');
  const guideRows=[];
- for(const file of passthrough){const old=read(file);if(!old.includes('<main'))continue;const title=text(old.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]||old.match(/<title>([\s\S]*?) · Jiayu Chen<\/title>/)?.[1]||'Mathematics');let body=bodyOf(old);const article=file.includes('/library-paths/')||file.endsWith('guides.html')||file.endsWith('fee-status.html')||file.endsWith('contributing.html')||file.endsWith('/paths.html')||file.endsWith('/advice.html')||file.endsWith('/study-advice.html')||file.endsWith('/experiences.html');let toc='';if(article){toc=body.match(/<nav class="contents"[^>]*>[\s\S]*?<\/nav>/)?.[0]||'';if(toc)body=body.replace(toc,'');if(!toc.includes('href="#'))toc=articleContents(body)}addPage(file,title,body,article?'article':'directory',{toc,head:file.includes('/encyclopedia/')?'<link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':''});if(article||file.includes('/library/'))guideRows.push({id:'guide-'+digest(file).slice(0,12),title,url:href(file),summary:brief(text(body)),area:'',type:'guides'})}
+ for(const file of passthrough){
+  const old=read(file);if(!old.includes('<main'))continue;
+  const title=text(old.match(/<h1[^>]*>([\s\S]*?)<\/h1>/)?.[1]||old.match(/<title>([\s\S]*?) · Jiayu Chen<\/title>/)?.[1]||'Mathematics');
+  let body=bodyOf(old).replace(/<!-- subject-landing:start -->[\s\S]*?<!-- subject-landing:end -->/g,'');
+  const category=file.match(/^notes\/reading-notes\/library\/([^/]+)\.html$/)?.[1];
+  const courses=merged.topics.filter(t=>t.group===category);
+  if(courses.length){
+   const routeIds={foundations:['logic','higher-categories'],algebra:['algebraic-geometry','representation-theory','higher-categories'],analysis:['analysis-pde','complex-harmonic-analysis'],'geometry-topology':['geometry','topology'],'number-theory':['number-theory'],'discrete-mathematics':['combinatorics'],'probability-dynamics':['probability','dynamics']}[category];
+   const related=goalPaths.filter(r=>routeIds.includes(r.id));
+   const areaIds={foundations:['foundations'],algebra:['algebra','category-theory'],analysis:['analysis'],'geometry-topology':['geometry-topology'],'number-theory':['number-theory'],'discrete-mathematics':['combinatorics'],'probability-dynamics':['probability','dynamics']}[category];
+   body=`<!-- subject-landing:start --><section class="subject-landing"><h2>Find a place to begin</h2><p>Choose a course guide for reading choices and worked checks, or follow a longer route.</p><h3>Course guides</h3><ul>${courses.map(t=>'<li>'+link('/en/notes/reading-notes/library/'+t.route,t.title)+'</li>').join('')}</ul><h3>Longer routes</h3><ul>${related.map(r=>'<li>'+link('/en/resources/library-paths/routes/'+r.id+'.html',r.title)+'</li>').join('')}</ul><p>Search all related material: ${areaIds.map(id=>link('/en/resources/search/?area='+encodeURIComponent(areas[id].title),areas[id].title)).join(' · ')}</p></section><!-- subject-landing:end -->`+body;
+  }
+  const article=file.includes('/library-paths/')||file.endsWith('guides.html')||file.endsWith('fee-status.html')||file.endsWith('contributing.html')||file.endsWith('/paths.html')||file.endsWith('/advice.html')||file.endsWith('/study-advice.html')||file.endsWith('/experiences.html');
+  let toc='';if(article){toc=body.match(/<nav class="contents"[^>]*>[\s\S]*?<\/nav>/)?.[0]||'';if(toc)body=body.replace(toc,'');if(!toc.includes('href="#'))toc=articleContents(body)}
+  addPage(file,title,body,article?'article':'directory',{toc,head:(file.includes('/encyclopedia/')?'<link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':'')+(courses.length?'<link rel="stylesheet" href="/en/resources/assets/study-guides.css?v='+digest(read('resources/assets/study-guides.css')).slice(0,12)+'">':'')});
+  const subject=merged.topics.find(t=>file==='notes/reading-notes/library/'+t.route||file==='resources/library-paths/'+t.id+'.html');
+  if(article||file.includes('/library/'))guideRows.push({id:'guide-'+digest(file).slice(0,12),title,url:href(file),summary:brief(text(body)),area:subject?areaForTopic(subject):'',type:'guides'});
+ }
  // Goal routes sit above the smaller prerequisite reviews, which keep their URLs.
  for(const [file,page] of goalPages){
+  if(file==='resources/library-paths/index.html')page.body+=['Study guide','Connecting ideas'].map(kind=>'<section><h2>'+(kind==='Study guide'?'Questions that come up while studying':'Connections between subjects')+'</h2><ul>'+editorialPages.filter(p=>p.guide.kind===kind).map(p=>'<li>'+link(href(p.file),p.title)+'</li>').join('')+'</ul></section>').join('');
   const introductionLinks=(page.contents||[]).map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('');
   const toc=page.kind==='article'?'<nav class="contents" aria-label="Article contents"><strong>Route stages</strong><ul>'+(page.standalone?introductionLinks:'<li>'+link('#introduction','Introduction')+(introductionLinks?'<ul>'+introductionLinks+'</ul>':'')+'</li>'+[...page.body.matchAll(/<section class="route-stage" id="([^"]+)"><h2>([\s\S]*?)<\/h2>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join(''))+'</ul></nav>':'';
   addPage(file,page.title,page.body,page.kind,{toc,head:page.kind==='article'?'<link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':''});
-  guideRows.push({id:'guide-'+digest(file).slice(0,12),title:page.title,url:href(file),summary:brief(text(page.body)),area:'',type:'guides'});
+  const routeId=file.match(/\/routes\/([^/]+)\.html$/)?.[1];
+  const routeAreas={'algebraic-geometry':['algebra'],'representation-theory':['algebra'],'analysis-pde':['analysis'],'complex-harmonic-analysis':['analysis'],geometry:['geometry-topology'],topology:['geometry-topology'],'number-theory':['number-theory'],logic:['foundations'],probability:['probability'],dynamics:['dynamics'],combinatorics:['combinatorics'],'higher-categories':['category-theory','geometry-topology']};
+  guideRows.push({id:'guide-'+digest(file).slice(0,12),title:page.title,url:href(file),summary:brief(text(page.body)),area:(routeAreas[routeId]||[]).map(id=>areas[id].title).join('|'),type:'guides'});
+ }
+ for(const page of editorialPages){
+  const toc='<nav class="contents" aria-label="Article contents"><ul>'+page.contents.map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('')+'</ul></nav>';
+  addPage(page.file,page.title,page.body,'article',{toc,head:'<link rel="stylesheet" href="/en/resources/assets/study-guides.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">'});
+  guideRows.push({id:'guide-'+digest(page.file).slice(0,12),title:page.title,url:href(page.file),summary:page.guide.summary,area:areas[page.guide.area]?.title||page.guide.area,type:'guides'});
  }
  // The weekly entrance retains every real file and future-week slot, without its old duplicate theme script.
  const weeklyFile='notes/mathematical-notes/weekly.html',weeklyOld=read(weeklyFile);const weeklyScript=weeklyOld.match(/const courses=[\s\S]*?(?=const root=document.documentElement)/)?.[0]||(fs.existsSync(path.join(root,'resources/assets/weekly-entrance.js'))?read('resources/assets/weekly-entrance.js'):'');
@@ -213,16 +249,19 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   ]],
  ];
  const searchForm=`<form action="/en/resources/search/" class="hub-search"><label for="hub-q">Search across the collection</label><div><input id="hub-q" name="q" type="search" placeholder="A concept, author, research topic or university"><button>Search</button></div></form>`;
- addPage('resources/index.html','Mathematics Resources',`<p>Texts, ideas and pathways for learning mathematics.</p>${searchForm}<section id="subjects" class="hub-subjects"><h2>Explore by subject</h2><ul class="subject-links">${Object.entries(areas).map(([id,a])=>'<li>'+link('/en/resources/search/?area='+encodeURIComponent(a.title),a.title)+'</li>').join('\n')}</ul></section>${hubGroups.map(([id,label,cards])=>`<section class="resource-group" id="${id}"><h2>${E(label)}</h2><div class="cards">${cards.map(([title,url,description])=>`<section class="card"><h3>${link(url,title)}</h3><p>${E(description)}</p></section>`).join('')}</div></section>`).join('')}<p class="personal-notes-link">Looking for my own work? ${link('/en/notes/','Personal notes')}.</p>`);
+ const subjectLandings={foundations:'foundations.html',algebra:'algebra.html',analysis:'analysis.html','geometry-topology':'geometry-topology.html','number-theory':'number-theory.html',combinatorics:'discrete-mathematics.html',probability:'probability-dynamics/probability.html',dynamics:'probability-dynamics/dynamics.html','category-theory':'algebra/category-theory.html'};
+ addPage('resources/index.html','Mathematics Resources',`<p>Texts, ideas and pathways for learning mathematics.</p>${searchForm}<section id="subjects" class="hub-subjects"><h2>Explore by subject</h2><ul class="subject-links">${Object.entries(areas).map(([id,a])=>'<li>'+link('/en/notes/reading-notes/library/'+subjectLandings[id],a.title)+'</li>').join('\n')}</ul></section>${hubGroups.map(([id,label,cards])=>`<section class="resource-group" id="${id}"><h2>${E(label)}</h2><div class="cards">${cards.map(([title,url,description])=>`<section class="card"><h3>${link(url,title)}</h3><p>${E(description)}</p></section>`).join('')}</div></section>`).join('')}${renderRevisionList(learningEdition.revisions)}<p class="personal-notes-link">Looking for my own work? ${link('/en/notes/','Personal notes')}.</p>`);
  addPage('notes/index.html','Personal Notes',`<p>My notes from coursework and mathematical reading.</p><div class="cards"><section class="card"><h2>${link('/en/notes/mathematical-notes/page.html','Course notes')}</h2><p>Calculus and linear algebra, organized by week.</p></section><section class="card"><h2>${link('/en/notes/reading-notes/reading-notes.html','Reading notes')}</h2><p>Notes written alongside my reading. This section has no published notes yet.</p></section></div>`);
  const notes=[];for(const file of walk('notes/mathematical-notes').filter(f=>/\/(?:MAweek\d+|LAweek\d+)\.html$/.test(f))){const html=read(file);notes.push({id:'note-'+digest(file).slice(0,12),type:'notes',title:text(html.match(/<title>([\s\S]*?)<\/title>/)?.[1]||path.basename(file)),url:href(file),summary:brief(text(html.match(/<body[^>]*>([\s\S]*)<\/body>/)?.[1]||''),180),area:file.includes('calculus')?areas.analysis.title:areas.algebra.title})}
+ const notesBody=bodyOf(read('notes/index.html'))+'<section><h2>Published notes</h2><ul>'+notes.map(note=>'<li>'+link(note.url,note.title)+' '+saveControl(note.id,'notes')+'</li>').join('')+'</ul></section>';
+ addPage('notes/index.html','Personal Notes',notesBody);
  const searchCollections=collections.map(c=>({...c,rows:c.rows.map(r=>{const item={id:r.id,type:c.id,title:r.title,url:r.url,summary:brief(r.summary,160),area:r.fields.area||r.fields.topic||'',topics:r.fields.topic||r.fields.area||'',...r.chinese?{chinese:r.chinese}:{},...r.aliases?.length?{aliases:Array.isArray(r.aliases)?r.aliases:[r.aliases]}:{}};if(c.id==='library'||c.id==='links')item.author=r.subtitle;else if(r.author)item.author=r.author;if(c.id==='researchers')item.institution=r.subtitle;if(c.id==='programs')item.institution=programs.find(p=>p.id===r.id)?.institution||r.subtitle;if(r.termUrl)item.termUrl=r.termUrl;if(r.encyclopediaUrl)item.encyclopediaUrl=r.encyclopediaUrl;return item})}));
- const areaForTopic=topic=>{
+ function areaForTopic(topic){
   if(topic.id==='category-theory')return areas['category-theory'].title;
   if(topic.group==='discrete-mathematics')return areas.combinatorics.title;
   if(topic.group==='probability-dynamics')return /dynam|ergod/i.test(topic.id)?areas.dynamics.title:areas.probability.title;
   return areas[topic.group]?.title||'';
- };
+ }
  for(const collection of searchCollections)for(const r of collection.rows){
   if(collection.id==='library'){const source=libraryRows.find(b=>b.id===r.id);r.summary=strings([source.fields.readingAccess,source.fields.access])+' — '+brief(source.summary,145);}
   if(collection.id==='library')r.area=[...new Set(merged.topics.filter(t=>r.topics.split('|').includes(t.title)).map(areaForTopic))].join('|');
@@ -232,6 +271,25 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   }
  }
  searchCollections.push({id:'notes',label:'Personal Notes',url:'/en/notes/mathematical-notes/page.html',rows:notes},{id:'guides',label:'Guides & Reading Paths',url:'/en/resources/library-paths/',rows:guideRows});
+ const learningEntries=searchCollections.filter(c=>['library','encyclopedia','notes','guides'].includes(c.id)).flatMap(c=>c.rows.filter(r=>c.id!=='guides'||r.url.startsWith('/en/resources/library-paths/')).map(r=>({...r,...(c.id==='library'?{readingUrl:libraryRows.find(b=>b.id===r.id).readingUrl}:{})})));
+ const tools=createLearningTools({learningEntries,programs});
+ for(const file of tools.files)if(!file.file.startsWith('resources/assets/'))save(file.file,file.content);
+ for(const page of tools.pages){
+  const head=(page.head||'').replace(/<link\b[^>]*href="[^\"]*\/learning-tools\.css[^\"]*"[^>]*>/g,'');
+  const scripts=(page.scripts||[]).filter(script=>String(typeof script==='string'?script:script.src).split('?')[0]!=='/en/resources/assets/learning-tools.js');
+  addPage(page.file,page.title,page.body,'directory',{head,scripts});
+ }
+ const meanings={};
+ for(const stem of ['normal','regular','complete','compact','proper','simple','dual']){
+  const senses=knowledge.terms.filter(t=>t.english.toLowerCase().split(/\s+/).includes(stem)||(t.aliases||[]).some(a=>a.toLowerCase().split(/\s+/).includes(stem))).map(t=>({id:t.id,english:t.english,chinese:t.chinese,topic:topicTitle(t.topic)}));
+  if(senses.length>1)meanings[stem]=senses;
+ }
+ // Explicitly selected ambiguous expressions, not arbitrary name prefixes.
+ for(const prefix of ['正规','正则','完全','完备','紧致','简单','可分','独立','连通','对偶']){
+  const senses=knowledge.terms.filter(t=>t.chinese.startsWith(prefix));
+  if(prefix.length===2&&senses.length>1&&senses.length<12&&new Set(senses.map(t=>t.topic)).size>1)meanings[prefix]=senses.map(t=>({id:t.id,english:t.english,chinese:t.chinese,topic:topicTitle(t.topic)}));
+ }
+ save('resources/search/meanings.json',JSON.stringify(meanings));
  const manifests=[];let indexBytes=0;for(const c of searchCollections){const file=`resources/search/index/${c.id}.json`,data=JSON.stringify(c.rows);save(file,data);indexBytes+=Buffer.byteLength(data);manifests.push({id:c.id,label:c.label,url:c.url,index:href(file)})}
  const manifest={version:digest(JSON.stringify(searchCollections.map(c=>c.rows))).slice(0,16),collections:manifests};save('resources/search/manifest.json',JSON.stringify(manifest));
  addPage('resources/search/index.html','Search',`<form id="unified-search" class="controls" role="search"><label for="global-q">Search mathematics resources</label><input id="global-q" name="q" type="search" autocomplete="off" placeholder="English, 中文, an author or a research topic"><div class="portal-filters"><label for="global-type">Content type<select id="global-type" name="type"><option value="">All types</option>${manifests.map(m=>`<option value="${m.id}">${E(m.label)}</option>`).join('')}</select></label><label for="global-area">Subject<select id="global-area" name="area"><option value="">All subjects</option>${Object.values(areas).map(a=>`<option>${E(a.title)}</option>`).join('')}</select></label></div><button type="submit">Search</button> <button type="reset">Clear</button></form><div class="search-chips chips"></div><p id="search-count" role="status" aria-live="polite" tabindex="-1">Search titles, concepts, people and institutions.</p><div id="search-results"></div><nav id="search-pages" class="static-pagination" aria-label="Search result pages"></nav><section class="search-browse"><h2>Browse the collection</h2><ul>${manifests.map(m=>`<li>${link(m.url,m.label)}</li>`).join('')}</ul></section><noscript><p>Use the category links above to browse every entry. Keyword search requires JavaScript.</p></noscript>`,'directory',{scripts:['/en/resources/assets/unified-search.js']});

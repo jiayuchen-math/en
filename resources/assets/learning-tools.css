@@ -1,0 +1,70 @@
+/* Shared controls occupy no space before their module is ready. */
+[data-save-learning]:not([data-learning-ready]),
+[data-compare-program]:not([data-learning-ready]),
+.learning-tools [hidden],
+[data-save-learning][hidden],
+[data-compare-program][hidden] { display: none !important; }
+
+.learning-tools { max-width: 100%; }
+.learning-tools button,
+[data-save-learning],
+[data-compare-program] {
+  font: inherit;
+  padding: .4em .75em;
+  min-height: 2.5rem;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: .3rem;
+  cursor: pointer;
+}
+[data-save-learning][aria-pressed="true"],
+[data-compare-program][aria-pressed="true"] { border-width: 2px; font-weight: 600; }
+.learning-tools button:disabled { opacity: .6; cursor: default; }
+.learning-tools :is(button, input, select, a):focus-visible,
+[data-save-learning]:focus-visible,
+[data-compare-program]:focus-visible,
+.learning-table-scroll:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+.learning-tools :is(input, select) {
+  font: inherit;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: .25rem;
+  padding: .4em;
+  max-width: 100%;
+  min-height: 2.5rem;
+  box-sizing: border-box;
+}
+.learning-tools select option { color: CanvasText; background: Canvas; }
+.learning-tools input[type="file"] { width: min(100%, 22rem); }
+.learning-tools form { display: grid; gap: .5rem; max-width: 38rem; }
+.learning-tools form button { justify-self: start; margin-top: .25rem; }
+.learning-tools section { margin-block: 2rem; }
+.learning-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; margin-block: 1rem; }
+.learning-actions label,
+.learning-file { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.learning-results, .learning-saved { list-style: none; padding: 0; }
+.learning-results > li, .learning-saved > li { padding-block: 1.25rem; border-block-end: 1px solid currentColor; overflow-wrap: anywhere; }
+.learning-tools h3 { margin-block: 0 .5rem; }
+.learning-tools [data-tool-message]:empty { display: none; }
+.learning-feedback:empty { display: none; }
+.learning-feedback:not(:empty) {
+  position: fixed; inset: auto 1rem 1rem; z-index: 100;
+  max-width: 42rem; margin-inline: auto; padding: .8rem 1rem;
+  color: CanvasText; background: Canvas; border: 2px solid currentColor;
+  border-radius: .3rem; max-height: 30vh; overflow-y: auto;
+}
+.learning-table-scroll { overflow-x: auto; max-width: 100%; }
+.learning-comparison { border-collapse: collapse; width: 100%; margin-block: 1rem; }
+.learning-comparison caption { text-align: start; padding-block: .5rem; }
+.learning-comparison :is(th, td) { border: 1px solid currentColor; padding: .75rem; text-align: start; vertical-align: top; min-width: 14rem; max-width: 28rem; overflow-wrap: anywhere; white-space: pre-line; }
+.learning-comparison th[scope="row"], .learning-comparison thead th:first-child { min-width: 9rem; }
+.learning-comparison th button { display: block; margin-top: .75rem; }
+.learning-comparison ul { padding-inline-start: 1.25rem; }
+.learning-tools [data-compare-share] input { width: 100%; }
+@media (max-width: 38rem) {
+  .learning-actions { align-items: stretch; }
+  .learning-actions label { width: 100%; }
+  .learning-actions input { width: 100%; }
+}

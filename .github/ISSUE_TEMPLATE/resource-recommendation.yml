@@ -1,0 +1,57 @@
+name: Resource recommendation
+description: Recommend a specific mathematical resource with a primary source and reading purpose.
+title: "[Resource] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public GitHub issue form, with submission through GitHub's sign-in. The reading site needs no account, and this form adds no site login or server.
+        Recommendations are reviewed before publication. Do not include student names, IDs, grades, private correspondence, account credentials, or other sensitive student data. Link to an authorized source rather than uploading a book.
+  - type: input
+    id: page-url
+    attributes:
+      label: Exact site page URL for this recommendation
+      description: Paste the full subject or guide URL where the resource would be useful.
+    validations:
+      required: true
+  - type: input
+    id: resource-url
+    attributes:
+      label: Exact resource URL
+      description: Prefer the author's page, a university course, or an authorized publisher or repository.
+    validations:
+      required: true
+  - type: input
+    id: title-author
+    attributes:
+      label: Resource title, author, and edition or version
+    validations:
+      required: true
+  - type: textarea
+    id: reading-purpose
+    attributes:
+      label: Reading purpose and explanation
+      description: Identify the subject, intended level, prerequisites, and a concrete section to read. Explain what the recommendation adds and which claims about it can be verified.
+    validations:
+      required: true
+  - type: textarea
+    id: primary-source
+    attributes:
+      label: Primary source supporting the recommendation
+      description: Give the exact author or institution URL and subsection, contents entry, or page you inspected. This may be the resource URL above; identify the locator explicitly.
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: Access and proposed catalogue wording
+      description: State free full text, partial preview, purchase, or uncertain access; give the date checked. Suggest a short factual description and note any correction to an existing listing.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-content
+    attributes:
+      label: Public information only
+      options:
+        - label: I have excluded sensitive student data and private material.
+          required: true

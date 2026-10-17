@@ -1,0 +1,1437 @@
+{
+  "version": 1,
+  "metadata": {
+    "kind": "Editorial study guidance with source provenance",
+    "editor": "Codex-assisted editorial preparation; not authored by or attributed to Jiayu",
+    "prepared": "2026-10-17",
+    "status": "Complete: 29 subjects",
+    "evidencePolicy": "reviewed records editorial review. checked records source verification: 2026-10-17 only for primary sources opened in this task; older dates are inherited evidence, not fresh checks. Fresh source scopes and inherited exceptions are listed below. Reading strategies, comparisons and continuation reasons are editorial judgments, not author endorsements.",
+    "inputs": [
+      "resources/data/course-study-guides.json",
+      "notes/reading-notes/library/catalogue.json",
+      "resources/data/learning-paths.mjs"
+    ],
+    "auditFile": "resources/LEARNING-SOURCES.md",
+    "coverage": {
+      "subjects": 29,
+      "comparisons": 59,
+      "freshlyVerifiedPilots": [
+        "algebraic-geometry",
+        "real-analysis",
+        "probability"
+      ]
+    },
+    "provenance": {
+      "courseStudyEvidence": "Existing item checks dated 2026-10-16, reused explicitly; not fresh verification.",
+      "catalogueEvidence": "Existing item checks dated 2026-10-11 or 2026-10-13 reused explicitly. Nine retained selections with undated item evidence and the replacement Stanley selection were checked against primary sources today; limited scopes are listed in additionalFreshSourceChecks.",
+      "pilotEvidence": "Both comparison works in each pilot opened directly on author/university sites on 2026-10-17; reading ranges, editions and public practice limits inspected.",
+      "locatorPolicy": "Primary non-pilot locators are inherited verbatim from course-study-guides.json. Other locators are topic-based editorial navigation unless a numbered range is attributed to existing evidence or supported by today's source inspection.",
+      "practicePolicy": "Availability statements distinguish exercises, selected answers, instructor-only solutions and unverified coverage. Where practice comes from another work, it is explicitly labelled companion practice."
+    },
+    "provenanceExceptions": [
+      {
+        "subjectId": "modular-forms",
+        "title": "Modular Forms, a Computational Approach",
+        "evidence": "Comparison locator, practice and checked date reuse the alternative and practice records in course-study-guides.json dated 2026-10-16, rather than the older catalogue check."
+      },
+      {
+        "subjectId": "homological-algebra",
+        "title": "Introduction to Representation Theory",
+        "evidence": "Third comparison work uses the existing homological-algebra course-study alternative dated 2026-10-16. The primary locator's phrase 'alternative text' refers to this Etingof selection, not to the Stacks reference."
+      }
+    ],
+    "additionalFreshSourceChecks": [
+      {
+        "subjectId": "logic",
+        "title": "forall x: Calgary",
+        "url": "https://forallx.openlogicproject.org/",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "linear-algebra",
+        "title": "Linear Algebra",
+        "url": "https://hefferon.net/linearalgebra/",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "abstract-algebra",
+        "title": "Fields and Galois Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "commutative-algebra",
+        "title": "A Term of Commutative Algebra",
+        "url": "https://dspace.mit.edu/entities/publication/b9217cf9-50c8-4367-9d8a-01d69d686b8d",
+        "scope": "Repository record, author credits and listed download checked; direct PDF request returned HTTP 429, so full text and solutions were not inspected today."
+      },
+      {
+        "subjectId": "homological-algebra",
+        "title": "The Stacks Project — Homological Algebra",
+        "url": "https://stacks.math.columbia.edu/",
+        "scope": "Official index and contents checked for open reference access and chapter names; no theorem-tag or solution audit."
+      },
+      {
+        "subjectId": "representation-theory",
+        "title": "Lie Groups and Lie Algebras I",
+        "url": "https://math.mit.edu/~etingof/lnlg.pdf",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "differential-equations",
+        "title": "Distributions, Elliptic Regularity, and Applications to PDEs",
+        "url": "https://math.mit.edu/~dyatlov/18.155/155-notes.pdf",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "differential-geometry",
+        "title": "What Is Differential Geometry? Curves and Surfaces",
+        "url": "https://arxiv.org/pdf/2012.11814",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "algebraic-number-theory",
+        "title": "Class Field Theory",
+        "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+        "scope": "Author/project/university source opened for identity and public access; exercise-solution coverage was not audited. Topic locators remain editorial navigation unless a numbered range is specified."
+      },
+      {
+        "subjectId": "combinatorics",
+        "title": "Algebraic Combinatorics: Walks, Trees, Tableaux, and More",
+        "url": "https://math.mit.edu/~rstan/algcomb/algcomb.pdf",
+        "scope": "Draft title, author, February 1, 2013 version, contents and walk-counting theorem inspected. Published-book title retained from catalogue; draft distinction made explicit."
+      }
+    ],
+    "selectionNotes": [
+      {
+        "subjectId": "probability",
+        "note": "Dembo's existing note URL could not be opened in this task. The comparison instead uses the existing catalogue work Notes on Probability by Lawler, opened directly."
+      },
+      {
+        "subjectId": "combinatorics",
+        "note": "Wilf's catalogue download page failed to open; the alternate university hostname returned HTTP 403. No fresh access claim is made for it. The final comparison uses Stanley's existing catalogue work, whose MIT draft opened."
+      }
+    ]
+  },
+  "subjects": {
+    "proofs": {
+      "opening": "Proof-writing starts with knowing exactly what a statement allows you to assume and what it asks you to produce. Hammack separates logical language from direct proof, contradiction, counterexamples and induction, making it possible to repair one weakness at a time. Ernst takes a problem-led route in which constructing arguments is the main activity. Choose Hammack when you need explicit models of written reasoning; choose Ernst when you want sustained practice developing a claim before seeing a finished proof.",
+      "readingApproach": "Rewrite a quantified statement in words, negate it, and test both versions on small examples. For each proof, name the domain and record where every hypothesis enters. Spend a second session revising an earlier argument for an unfamiliar reader. A correct answer with an unstated induction hypothesis or an undefined variable is a prompt for revision.",
+      "continueWith": [
+        {
+          "subjectId": "logic",
+          "reason": "Study formal validity and deduction once ordinary quantified arguments are readable."
+        },
+        {
+          "subjectId": "linear-algebra",
+          "reason": "Use kernels, bases and linear maps as a first setting for longer structural proofs."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Book of Proof, third edition",
+          "author": "Richard Hammack",
+          "url": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+          "style": "Explicit proof methods followed by mathematical examples.",
+          "preparation": "School algebra, elementary functions and willingness to revise prose.",
+          "use": "Target quantifiers, counterexamples or induction without restarting an entire mathematics course.",
+          "limits": "Proof templates alone do not decide which mathematical idea a new problem requires.",
+          "practice": "Exercises provided; a public Solutions section starts on printed page 292. Treat it as selected solutions, not a complete answer key. Exercise sets following sections 2.10, 4.3, 5.1, 6.1 and 10.1; compare with the corresponding headings in Solutions.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://richardhammack.github.io/BookOfProof/Main.pdf",
+          "locator": "Read sections 2.7 and 2.10 on quantifiers and negation; 4.3, 5.1 and 6.1 on proof methods; 5.3 on writing; then 9.1 and 10.1 on counterexamples and induction.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "An Introduction to Proof via Inquiry-Based Learning",
+          "author": "Dana C. Ernst",
+          "url": "https://textbooks.aimath.org/textbooks/approved-textbooks/ernst/",
+          "style": "Inquiry-based development through problems and written arguments.",
+          "preparation": "School algebra; readiness to attempt proofs before reading explanations.",
+          "use": "Develop independence in constructing proofs and comparing classmates' arguments.",
+          "limits": "The source link is a listing; the edition and available support need checking at its author route.",
+          "practice": "The catalogue describes a problem-led text; public solution coverage was not verified.",
+          "access": "AIM listing with author/download routes; full-text access was not confirmed in the inherited record.",
+          "locator": "Locate the logic, sets, induction, relations and functions portions through the listed author edition; section numbering was not inherited.",
+          "sourceUrl": "https://textbooks.aimath.org/textbooks/approved-textbooks/ernst/",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "logic": {
+      "opening": "Formal logic distinguishes a sentence being true in a structure from its having a derivation in a proof system. That distinction is the organizing question for this selection. Forall x supplies practice with syntax, truth tables and natural deduction; Sets, Logic, Computation turns attention to semantics, completeness, compactness and computation. If derivation rules still feel arbitrary, begin with the former before asking what a completeness theorem proves.",
+      "readingApproach": "Keep a small structure beside every quantified formula and evaluate it under explicit variable assignments. Write a derivation and a semantic explanation of the same consequence, marking where their methods differ. For compactness, spell out the enlarged language and check finite satisfiability rather than invoking the theorem by name. When reading the halting argument, identify the alleged decider's input and output before constructing the contradictory machine.",
+      "continueWith": [
+        {
+          "subjectId": "model-theory",
+          "reason": "Use compactness and elementary embeddings to study mathematical structures."
+        },
+        {
+          "subjectId": "set-theory",
+          "reason": "Investigate the set and ordinal constructions that support later model-building."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Sets, Logic, Computation: An Open Introduction to Metalogic",
+          "author": "Richard Zach, based on the Open Logic Project",
+          "url": "https://slc.openlogicproject.org/slc-screen.pdf",
+          "style": "Metalogic and computation after elementary formal logic.",
+          "preparation": "Quantifiers, elementary sets and some experience with a formal proof system.",
+          "use": "Connect satisfaction and derivability, then study compactness and halting.",
+          "limits": "This reading does not by itself establish arithmetic incompleteness.",
+          "practice": "Exercises provided; public solutions not verified. Problems for chapters 7, 11, 12 and 14, beginning on printed pages 133, 224, 253 and 303 respectively.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://slc.openlogicproject.org/slc-screen.pdf",
+          "locator": "Start with sections 7.2-7.5 on structures, satisfaction and variable assignments and 11.1-11.6 on natural deduction. Continue with 12.8-12.11 on completeness, compactness and Lowenheim-Skolem, then 14.3-14.4 and 15.4 on machines and halting.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "forall x: Calgary",
+          "author": "P. D. Magnus, Tim Button, Aaron Thomas-Bolduc and Richard Zach, with contributors",
+          "url": "https://forallx.openlogicproject.org/",
+          "style": "A first course built around formal languages and natural deduction.",
+          "preparation": "No university mathematics prerequisite in the catalogue; careful symbolic reading is essential.",
+          "use": "Practice derivation rules before moving to theorems about those rules.",
+          "limits": "The next text supplies the deeper metatheory; avoid treating a truth table as a first-order completeness proof.",
+          "practice": "The official page lists a solutions booklet and says HTML solutions follow the appendices; individual answers and complete coverage were not audited.",
+          "access": "Official project page offers full HTML and PDF editions plus a separate solutions booklet; the development files can change.",
+          "locator": "Use the truth-table and natural-deduction material before quantified derivations; consult the current contents for section numbers.",
+          "sourceUrl": "https://forallx.openlogicproject.org/",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "set-theory": {
+      "opening": "Counting elements and comparing order types answer different questions. Two sets may be equinumerous while their chosen well-orders behave differently under addition. Button's text makes that transition within an introductory axiomatic route; Halmos offers a shorter account of sets, order and cardinality. Either can support the early language, but the ordinal calculations deserve their own written examples rather than being absorbed as unfamiliar notation.",
+      "readingApproach": "Construct actual injections and bijections before using cardinal equations. Draw the order types of omega, omega plus one and one plus omega, then explain the difference without appealing only to symbols. When a construction iterates through all earlier stages, identify the recursion theorem and the relevant existence assumptions. Keep an axiom ledger for replacement and choice: record what each permits and which argument would be incomplete without it.",
+      "continueWith": [
+        {
+          "subjectId": "logic",
+          "reason": "Study formal languages when you want to distinguish an axiom system from the structures satisfying it."
+        },
+        {
+          "subjectId": "model-theory",
+          "reason": "Apply cardinal and compactness arguments to elementary extensions and types."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Set Theory: An Open Introduction",
+          "author": "Tim Button, based on the Open Logic Project",
+          "url": "https://st.openlogicproject.org/settheory-screen.pdf",
+          "style": "Introductory axiomatic route with explicit ordinal and cardinal constructions.",
+          "preparation": "Proof-writing and elementary logic; ability to work with functions and relations.",
+          "use": "Separate cardinality, well-orders and transfinite recursion in a single route.",
+          "limits": "The chosen sections are preparation for, rather than a course in, forcing or large cardinals.",
+          "practice": "Exercises provided; public solutions not verified. Chapter 5 Problems, printed page 70; chapter 10 Problems, page 148; chapter 11 Problems, page 160; chapter 13 Problems, page 186; chapter 16 Problems, page 229.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://st.openlogicproject.org/settheory-screen.pdf",
+          "locator": "Use sections 5.2 and 5.6-5.9 for cardinality; 10.3-10.7 and 10.9-10.10 for well-orders, ordinals and replacement; 11.2 for transfinite recursion; 13.2-13.3 for ordinal addition; 15.1-15.2 for cardinal arithmetic; and 16.4 for choice and well-ordering.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Naive Set Theory",
+          "author": "Paul R. Halmos",
+          "url": "https://link.springer.com/book/10.1007/978-1-4757-1645-0",
+          "style": "Short exposition of elementary sets, order and cardinality.",
+          "preparation": "Comfort with mathematical proofs and basic logical notation.",
+          "use": "Obtain a second account of maps and order before the more explicit ordinal route.",
+          "limits": "Its compact scope leaves advanced axiomatic and independence methods for later study.",
+          "practice": "Use the acquired edition's exercises where present; public solutions and exercise coverage were not verified.",
+          "access": "Purchase or eligible institutional access; publisher samples are not the complete book.",
+          "locator": "Select the set, order, cardinality and ordinal discussions using the linked reprint's contents; no edition-specific page range is asserted.",
+          "sourceUrl": "https://link.springer.com/book/10.1007/978-1-4757-1645-0",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "model-theory": {
+      "opening": "Model theory studies structures through what first-order formulas can detect. The distinction between a substructure and an elementary substructure is an early place where algebraic intuition needs checking. Pillay's short notes begin with embeddings, compactness and types; Marker's book provides a longer graduate route connecting these constructions with algebraic applications. The short route suits a focused review, while the longer route needs time for examples and the additional theory.",
+      "readingApproach": "Evaluate the same formula in a structure and a candidate substructure before applying an elementary-substructure test. For a type, separate finite satisfiability, consistency and realization in the particular model. Work through dense linear orders with a finite partial map, and explain how each extension step uses density and the lack of endpoints. Bring the elementary diagram into a compactness construction explicitly when the desired extension must preserve more than the original theory.",
+      "continueWith": [
+        {
+          "subjectId": "abstract-algebra",
+          "reason": "Build field and ring examples for definability and quantifier elimination."
+        },
+        {
+          "subjectId": "set-theory",
+          "reason": "Review cardinality and transfinite constructions before saturation arguments."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Lecture Notes - Model Theory (Math 411)",
+          "author": "Anand Pillay",
+          "url": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
+          "style": "Compact lecture notes moving quickly from elementary embeddings to types.",
+          "preparation": "First-order syntax and semantics, compactness, sets and algebraic examples.",
+          "use": "Review the Tarski-Vaught test and the beginnings of quantifier elimination.",
+          "limits": "A short review leaves less space for developing unfamiliar logical foundations.",
+          "practice": "Exercises provided; public solutions not verified. Exercises 1.2, 1.5, 1.7, 1.8 (Tarski-Vaught), 1.11 and 1.14 within section 1.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://academicweb.nd.edu/~apillay/pdf/lecturenotes_modeltheory.pdf",
+          "locator": "Section 1, Notation and review, printed pages 1-14: emphasize elementary embeddings, the Tarski-Vaught test and compactness. Then read the opening of section 2, Types, omega-saturation and quantifier elimination, beginning on page 15, through the back-and-forth criterion.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Model Theory: An Introduction",
+          "author": "David Marker",
+          "url": "https://link.springer.com/book/10.1007/b98860",
+          "style": "Graduate textbook connecting model construction with algebra.",
+          "preparation": "First-order logic, elementary algebra and set theory.",
+          "use": "Develop types and saturation in a longer study programme after the short review.",
+          "limits": "The later stability material needs more preparation than the introductory reading selection.",
+          "practice": "Public worked solutions were not verified; choose exercises in the acquired edition after each construction.",
+          "access": "Purchase or eligible institutional access; the publisher page and previews do not supply the complete book.",
+          "locator": "Locate the discussions of model construction, types and saturation in the linked edition; chapter numbers were not checked in this task.",
+          "sourceUrl": "https://link.springer.com/book/10.1007/b98860",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "linear-algebra": {
+      "opening": "Row reduction answers computational questions, while vector spaces and linear maps explain why the answers fit together. Hefferon keeps elimination and proof in view; Axler places more weight on operators, invariant subspaces and spectral structure. If you can find a null space but cannot explain rank-nullity, the operator route can expose the gap. If changes of basis still feel mysterious, keep concrete matrices beside that route.",
+      "readingApproach": "Express one map in two bases and derive the coordinate conversion instead of memorizing the formula. Work with differentiation on a finite-dimensional polynomial space, then compare a Jordan block with a real symmetric matrix. State the field and inner product before invoking a spectral theorem. After a calculation, write one sentence explaining which feature belongs to the map itself and which feature depends on your coordinates.",
+      "continueWith": [
+        {
+          "subjectId": "abstract-algebra",
+          "reason": "Extend structural reasoning from vector spaces to groups, rings and quotients."
+        },
+        {
+          "subjectId": "functional-analysis",
+          "reason": "Move to complete normed spaces once finite-dimensional operators and inner products are secure."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Linear Algebra Done Right, fourth edition",
+          "author": "Sheldon Axler",
+          "url": "https://linear.axler.net/LADR4e.pdf",
+          "style": "Operator-centered treatment of finite-dimensional structure.",
+          "preparation": "Proof-writing; bases and dimension, with chapter 2 available for review.",
+          "use": "Explain kernels, minimal polynomials and spectral decompositions conceptually.",
+          "limits": "An operator emphasis does not replace practice solving systems or tracking coordinates.",
+          "practice": "Exercises provided; public solutions not verified. Exercises 3B, 3D, 5B, 5D and 7B; each set follows its named section.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://linear.axler.net/LADR4e.pdf",
+          "locator": "Read 3B, Null Spaces and Ranges, and the Change of Basis subsection of 3D. Then use 5B and 5D for the minimal polynomial and diagonalizability; finish with 7A-7B for adjoints and the spectral theorem after reviewing inner products in chapter 6 if needed.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Linear Algebra",
+          "author": "Jim Hefferon",
+          "url": "https://hefferon.net/linearalgebra/",
+          "style": "Elimination and vector spaces developed together with proofs.",
+          "preparation": "The catalogue lists one semester of calculus.",
+          "use": "Connect row operations to subspaces before an operator-focused second course.",
+          "limits": "Keep the abstract map visible rather than treating every argument as an elimination algorithm.",
+          "practice": "The author page states that the solutions book gives a worked answer to every exercise; exercise-to-solution coverage was not independently audited.",
+          "access": "Author page provides a free book download route and a separate solutions-book link.",
+          "locator": "Use the systems, vector-space and linear-map portions of the author edition; confirm its current contents before assigning pages.",
+          "sourceUrl": "https://hefferon.net/linearalgebra/",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "abstract-algebra": {
+      "opening": "Quotients are an organizing construction in algebra: they identify elements while preserving the operations that matter. Judson provides a broad route through groups, rings and fields with reading questions and exercises. Milne's field notes narrow the focus to extensions and Galois theory. Start with the broad text if well-defined maps or quotient rings remain uncertain; use the field route when you can already move between subgroups and homomorphisms.",
+      "readingApproach": "Build a quotient map and prove that its induced map is well-defined before using an isomorphism theorem. Compare ideals through their quotient rings, then compute a small field extension with an explicit basis. For the biquadratic extension of the rationals, draw the subgroup and intermediate-field correspondences and check each fixed field by hand. Separate normality and separability in the theorem's hypotheses, giving an example of what each condition controls.",
+      "continueWith": [
+        {
+          "subjectId": "commutative-algebra",
+          "reason": "Extend ideals and quotient rings to localization, modules and Noetherian arguments."
+        },
+        {
+          "subjectId": "representation-theory",
+          "reason": "Study group actions on vector spaces using the algebra and linear algebra together."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Abstract Algebra: Theory and Applications",
+          "author": "Thomas W. Judson; Sage exercises by Robert A. Beezer",
+          "url": "https://judsonbooks.org/aata-files/aata-html/aata-toc.html",
+          "style": "Broad introductory algebra with separate group, ring and field routes.",
+          "preparation": "Proof-writing and linear algebra; earlier group material for quotient review.",
+          "use": "Repair quotient constructions before attempting the Galois correspondence.",
+          "limits": "Completing selected field sections is not a replacement for the earlier group and ring foundations.",
+          "practice": "Practice page for this work at https://judsonbooks.org/aata-files/aata-html/galois.html: Exercises provided; public solutions not verified. Chapter 23: section 23.4 Reading Questions and section 23.5 Exercises; use chapter 10 or 16 exercise sets when reviewing quotients.",
+          "access": "Complete public HTML text.",
+          "sourceUrl": "https://judsonbooks.org/aata-files/aata-html/aata-toc.html",
+          "locator": "For quotients read chapters 10, Normal Subgroups and Factor Groups, and 11, Homomorphisms. Review the ideal and quotient-ring material in chapter 16, Rings. For the field route use chapter 21, Fields, then sections 23.1-23.2 on field automorphisms and the fundamental theorem.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Fields and Galois Theory",
+          "author": "J. S. Milne",
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "style": "Focused course notes on extensions and Galois theory.",
+          "preparation": "Groups, rings and fields, as stated in the catalogue.",
+          "use": "Concentrate on field extensions after quotient and homomorphism arguments are secure.",
+          "limits": "This is a field-theory continuation rather than a second introduction to all of abstract algebra.",
+          "practice": "Use the notes for field calculations and proof reconstruction; public solution coverage was not recorded for this item.",
+          "access": "Complete author PDF, version 5.10, September 2022.",
+          "locator": "Version 5.10: chapters 1-3 for fields, splitting fields and the fundamental theorem of Galois theory; chapter 9 on transcendental extensions is a later continuation.",
+          "sourceUrl": "https://www.jmilne.org/math/CourseNotes/FT.pdf",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "commutative-algebra": {
+      "opening": "Localization lets algebra inspect what survives near a chosen prime, while integral dependence controls how rings grow. Those two operations connect the early subject to geometry and number theory. Milne offers a short selection centered on ideals, Noetherian rings, fractions and integrality. Altman and Kleiman offer a more systematic term-sized development in ring and module language, which suits readers ready to keep tensor products and exact sequences active.",
+      "readingApproach": "Calculate localizations of the integers and of a polynomial ring before stating their universal properties. Track an ideal through extension and contraction, noting the multiplicative set each time. Prove integrality with an actual monic equation, and keep a nonintegral example nearby. When using a chain condition, name the chain and show where it stabilizes. This makes the eventual spectrum of a ring a record of algebraic behavior rather than an unexplained topological object.",
+      "continueWith": [
+        {
+          "subjectId": "algebraic-geometry",
+          "reason": "Interpret prime ideals, localizations and structure sheaves as geometric data."
+        },
+        {
+          "subjectId": "algebraic-number-theory",
+          "reason": "Use integrality and ideal theory to study rings of integers and prime factorization."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "A Primer of Commutative Algebra",
+          "author": "James S. Milne",
+          "url": "https://www.jmilne.org/math/xnotes/CA.pdf",
+          "style": "Short algebraic preparation with a geometric continuation.",
+          "preparation": "Abstract algebra, ideals and elementary module language.",
+          "use": "Target fractions and integral dependence before a varieties or number-fields course.",
+          "limits": "The selected sections leave the later module and dimension theory to a longer course.",
+          "practice": "Exercises provided; public solutions to selected numbered exercises are present in Appendix A, printed page 110. Full coverage is not claimed. Exercises in sections 2, 3, 5 and 6; consult Appendix A only for exercise numbers actually listed there.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.jmilne.org/math/xnotes/CA.pdf",
+          "locator": "Read section 2, Ideals, as needed; then section 3, Noetherian rings, printed pages 9-13; section 5, Rings of fractions, pages 18-24; and section 6, Integral dependence, pages 25-29. Use section 14, The spectrum of a ring, only for the geometric continuation.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "A Term of Commutative Algebra",
+          "author": "Allen Altman and Steven Kleiman",
+          "url": "https://dspace.mit.edu/entities/publication/b9217cf9-50c8-4367-9d8a-01d69d686b8d",
+          "style": "Systematic course-sized development in ring and module language.",
+          "preparation": "Rings, modules and tensor products, following the catalogue.",
+          "use": "Turn isolated localization calculations into a sustained commutative-algebra course.",
+          "limits": "Its module language is a substantial step beyond a first algebra text.",
+          "practice": "Exercises and solutions are described in the existing catalogue; coverage was not re-audited.",
+          "access": "MIT repository lists the full WWCM.pdf download; the direct download returned HTTP 429 during the source check.",
+          "locator": "Locate localization, integrality and module material in the repository edition; chapter and page numbering were not inherited.",
+          "sourceUrl": "https://dspace.mit.edu/entities/publication/b9217cf9-50c8-4367-9d8a-01d69d686b8d",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "homological-algebra": {
+      "opening": "Homology measures cycles left over after boundaries have been removed, but mistakes often begin before that quotient is formed. Baker keeps complexes, connecting maps and homotopies close together. The homological sections of Etingof and collaborators give a continuation into resolutions and explicit Ext and Tor calculations. The Stacks Project supplies a detailed tagged reference when a construction's hypotheses need checking. Start with a connected argument, then choose calculations or reference work according to the gap.",
+      "readingApproach": "Compute a small complex of abelian groups, checking that consecutive differentials compose to zero. Construct a connecting map by lifting an element and prove independence from the chosen lift. Draw each square when comparing complexes, and distinguish a chain homotopy equivalence from a quasi-isomorphism. Only after those operations are reliable should resolutions become the main object of study. Keep module calculations alongside the categorical language so an exact sequence continues to describe actual kernels and images.",
+      "continueWith": [
+        {
+          "subjectId": "category-theory",
+          "reason": "Clarify naturality and universal constructions used in derived-functor arguments."
+        },
+        {
+          "subjectId": "algebraic-topology",
+          "reason": "Apply chain complexes and connecting maps to homology computations of spaces."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Notes on Basic Homological Algebra",
+          "author": "Andrew Baker",
+          "url": "https://www.maths.gla.ac.uk/~ajb/dvi-ps/Homologicalalgebra.pdf",
+          "style": "Connected lecture-note introduction through explicit complexes and homotopies.",
+          "preparation": "Linear algebra, groups and modules; kernels and cokernels.",
+          "use": "Learn connecting-map constructions before resolutions and derived functors.",
+          "limits": "The opening three sections do not constitute a full Ext, Tor or derived-category course.",
+          "practice": "Companion practice at https://math.mit.edu/~etingof/reprbook.pdf: Exercises provided; public solutions not verified. Some problems contain hints. Exercise 8.2.2 on existence of projective resolutions; Problem 8.2.5 on independence of resolution; Problem 8.2.7 on finitely generated modules over Z and k[x].",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.maths.gla.ac.uk/~ajb/dvi-ps/Homologicalalgebra.pdf",
+          "locator": "Read sections 1-3: Chain complexes and their homology; Short exact sequences of chain complexes; Chain homotopies and quasi-isomorphisms. In section 2 work through the connecting-map construction before proceeding to resolutions in the alternative text.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Introduction to Representation Theory",
+          "author": "Pavel Etingof, Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, Dmitry Vaintrob and Elena Yudovina",
+          "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+          "style": "A focused homological-algebra selection within a representation-theory text.",
+          "preparation": "Modules, complexes and exact sequences; the representation chapters are not prerequisites for this selection.",
+          "use": "Continue from Baker's complexes to projective resolutions and explicit Tor and Ext.",
+          "limits": "This selection does not cover derived categories or spectral sequences.",
+          "practice": "Exercise 8.2.2 and Problems 8.2.5 and 8.2.7; existing 2026-10-16 evidence verifies exercises and some hints, not public solutions.",
+          "access": "Complete MIT author PDF.",
+          "sourceUrl": "https://math.mit.edu/~etingof/reprbook.pdf",
+          "locator": "Sections 7.8-7.9 on complexes and exact functors; 8.1-8.2 on projective modules, resolutions, Tor and Ext, printed pages 205-211 for chapter 8. Range inherited from course-study-guides.json.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "The Stacks Project — Homological Algebra",
+          "author": "The Stacks Project Authors",
+          "url": "https://stacks.math.columbia.edu/",
+          "style": "Detailed tagged reference with separate homology and derived-category chapters.",
+          "preparation": "Basic homological algebra and category theory.",
+          "use": "Check exact hypotheses or compare a construction after attempting it in Baker.",
+          "limits": "Its reference organization gives less guidance about what to learn next.",
+          "practice": "Use a tagged statement to reconstruct a proof or compute a module example; these are editorial tasks, not a verified public exercise-and-solution set.",
+          "access": "Full online reference with an index and table of contents.",
+          "locator": "Part 1, chapter 12, Homological Algebra; chapter 13, Derived Categories, is a later continuation. Chapter names verified in the official contents; individual tags were not checked.",
+          "sourceUrl": "https://stacks.math.columbia.edu/",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "category-theory": {
+      "opening": "Category theory becomes usable when a definition summarizes constructions you can already perform. Products, quotient maps and free objects give functors and universal properties something to act on. Riehl develops the language with mathematical context and exercises; Mac Lane gives a compact graduate account extending through adjunctions and monads. Begin with a small collection of algebraic examples and enlarge it as the abstractions demand.",
+      "readingApproach": "For every functor, state its action on both objects and arrows and check composition. For every natural transformation, draw a square with a specific map instead of saying that compatibility is obvious. Derive a product or free-object construction from its universal property, then test it in sets and modules. Approach Yoneda by writing out the correspondence in a concrete representable example. An unfamiliar higher-category reference can wait until these ordinary categorical calculations are dependable.",
+      "continueWith": [
+        {
+          "subjectId": "homological-algebra",
+          "reason": "Use naturality, kernels and cokernels in complexes and derived functors."
+        },
+        {
+          "subjectId": "algebraic-geometry",
+          "reason": "Apply universal properties and sheaf language to gluing and affine schemes."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Category Theory in Context",
+          "author": "Emily Riehl",
+          "url": "https://emilyriehl.github.io/files/context.pdf",
+          "style": "Contextual development through functors, representability, limits and adjunctions.",
+          "preparation": "Proof-based algebra and examples of sets, groups and modules.",
+          "use": "Learn to write naturality squares and verify universal properties concretely.",
+          "limits": "Ordinary categories here do not provide an automatic bridge to infinity-categories.",
+          "practice": "Exercises provided; public solutions not verified. Exercises embedded in sections 1.3-1.4, 2.2-2.3, 3.1-3.2 and 4.1-4.2; keep each naturality square in the written solution.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://emilyriehl.github.io/files/context.pdf",
+          "locator": "Read sections 1.3-1.4 on functoriality and naturality; 2.1-2.3 on representability and Yoneda; 3.1-3.2 on limits in categories and sets; and 4.1-4.2 on adjunctions and universal arrows. Review 1.1 only if category axioms are unfamiliar.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Categories for the Working Mathematician",
+          "author": "Saunders Mac Lane",
+          "url": "https://link.springer.com/book/10.1007/978-1-4612-9839-7",
+          "style": "Compact graduate account extending universal constructions to monads.",
+          "preparation": "Proof-based algebra and a stock of mathematical structures.",
+          "use": "Compare the treatment of adjunctions once Riehl's concrete exercises are manageable.",
+          "limits": "General statements need examples supplied by the reader; the linked edition should be checked before using another edition's numbering.",
+          "practice": "Public solution coverage was not verified; reconstruct an adjunction in sets or modules as an editorial exercise.",
+          "access": "Purchase or eligible institutional access; samples and previews are partial.",
+          "locator": "Find functors, natural transformations, universal constructions and adjunctions in the linked edition's contents; no chapter numbers are asserted.",
+          "sourceUrl": "https://link.springer.com/book/10.1007/978-1-4612-9839-7",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "representation-theory": {
+      "opening": "A representation translates a group operation into linear transformations, allowing algebraic questions to be studied with invariant subspaces and characters. Etingof and collaborators provide an entry through algebras and finite-group representations. Etingof's Lie-group notes bring smooth structure into the picture. Choose the finite-group route while you are learning decomposition and character calculations; add the Lie route when tangent spaces and smooth maps are already familiar.",
+      "readingApproach": "Write matrices for a small group action and verify every defining relation. Find invariant subspaces directly before using a decomposition theorem. Compute characters of a cyclic group and a small nonabelian group, checking dimensions and orthogonality where the hypotheses permit. Record the ground field and its characteristic: averaging arguments depend on them. When moving to Lie algebras, differentiate a concrete matrix action and compare the resulting bracket with matrix commutators.",
+      "continueWith": [
+        {
+          "subjectId": "differential-geometry",
+          "reason": "Learn smooth manifolds and tangent maps before representations of Lie groups."
+        },
+        {
+          "subjectId": "category-theory",
+          "reason": "Understand functors and tensor constructions before categorical representation theory."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Introduction to Representation Theory",
+          "author": "Pavel Etingof, Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, Dmitry Vaintrob and Elena Yudovina",
+          "url": "https://math.mit.edu/~etingof/reprbook.pdf",
+          "style": "Algebraic introduction with finite-group characters and early Lie-algebra examples.",
+          "preparation": "Linear algebra and abstract algebra; careful attention to field characteristic.",
+          "use": "Build explicit representations and practice irreducible decomposition.",
+          "limits": "Finite-dimensional examples do not supply the analytic foundations of infinite-dimensional representations.",
+          "practice": "Exercises provided; public solutions not verified. Section 4.12 Problems, printed page 83; section 2.16 Problems on Lie algebras, page 39.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://math.mit.edu/~etingof/reprbook.pdf",
+          "locator": "Read section 2.3 for representations; 4.1-4.5 and 4.8-4.9 for finite groups and characters. For a first Lie-algebra example use sections 2.9 and 2.15, then the problems in 2.16.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Lie Groups and Lie Algebras I",
+          "author": "Pavel Etingof",
+          "url": "https://math.mit.edu/~etingof/lnlg.pdf",
+          "style": "Graduate course connecting Lie groups, Lie algebras and representations.",
+          "preparation": "Abstract algebra, topology and smooth manifolds.",
+          "use": "Understand how a smooth group action gives an infinitesimal representation.",
+          "limits": "Initial manifold material helps orientation but does not remove the geometry prerequisite.",
+          "practice": "Exercise and public solution coverage were not recorded for this catalogue item; verify a matrix-group example as an editorial task.",
+          "access": "Complete 223-page MIT author PDF.",
+          "locator": "Lecture 1, sections 1.1-1.7, for topological groups, manifolds and tangent spaces; lecture 2, sections 2.1-2.6, for Lie groups and coverings. Contents checked; later representation reading requires a separate selection.",
+          "sourceUrl": "https://math.mit.edu/~etingof/lnlg.pdf",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "algebraic-geometry": {
+      "opening": "Algebraic geometry becomes easier to navigate when equations, coordinate rings and local functions remain visible together. Milne starts with varieties over an algebraically closed field; Vakil develops schemes and makes sheaf language part of the working machinery. Choose according to the gap you need to close: geometric examples and regular maps, or the passage from rings to spaces that can retain nilpotents. Reading both from the beginning is unnecessary.",
+      "readingApproach": "Start by translating the parabola and a singular plane curve between equations and coordinate rings. Compute a tangent space before accepting its abstract definition. In the scheme route, verify the sheaf axioms on continuous functions, then inspect distinguished opens in an affine spectrum. Keep localization and gluing calculations beside the definitions; return to commutative algebra when those calculations become formal gestures.",
+      "continueWith": [
+        {
+          "subjectId": "commutative-algebra",
+          "reason": "Review prime ideals and localization when distinguished affine opens or local rings are unclear."
+        },
+        {
+          "subjectId": "homological-algebra",
+          "reason": "Study exact sequences and derived functors before a later course in sheaf cohomology."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Algebraic Geometry",
+          "author": "James S. Milne",
+          "url": "https://www.jmilne.org/math/CourseNotes/AG.pdf",
+          "style": "Varieties first, with coordinate rings and regular maps.",
+          "preparation": "Rings, ideals, fields and localization; some module language.",
+          "use": "Build the equation-to-variety dictionary before general schemes.",
+          "limits": "The initial selection works over an algebraically closed field; it is not a general scheme course.",
+          "practice": "Chapter 2 exercises, printed p. 58; chapter 4 exercises, p. 98. Public solution coverage has not been audited.",
+          "access": "Complete author-hosted PDF.",
+          "sourceUrl": "https://www.jmilne.org/math/CourseNotes/AG.pdf",
+          "locator": "Version 6.10: chapter 2, sections a-e and h-j; chapter 4, sections a and d. Optional sheaf bridge: chapter 3, sections a-f.",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "The Rising Sea: Foundations of Algebraic Geometry",
+          "author": "Ravi Vakil",
+          "url": "https://math.stanford.edu/~vakil/216blog/FOAGoct2125public.pdf",
+          "style": "Schemes through sheaves, examples and embedded exercises.",
+          "preparation": "Commutative algebra, topology and category language.",
+          "use": "Move from gluing functions to affine spectra and the structure sheaf.",
+          "limits": "A long development; the selected opening does not cover cohomology or intersection theory.",
+          "practice": "Work Exercises 2.2.A and 2.2.D-E on presheaves and sheaves. Public worked solutions not verified.",
+          "access": "Complete October 21, 2025 author edition on Stanford; distinct from the catalogue's July 2024 archive.",
+          "sourceUrl": "https://math.stanford.edu/~vakil/216blog/FOAGoct2125public.pdf",
+          "locator": "October 21, 2025 edition: sections 2.1-2.4, 3.1-3.5 and 4.1-4.3. Review sections 1.1-1.3 if category language is unfamiliar.",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "calculus": {
+      "opening": "Calculus links local rates of change to accumulated change, and the first difficulty is often choosing a model rather than carrying out a derivative. CLP-1 concentrates on differential calculus with explicit worked examples. Active Calculus asks readers to develop ideas through guided activities and includes an integral-calculus route. Choose the former for a focused repair of limits and differentiation; choose the latter when explaining graphs and models needs as much attention as symbolic manipulation.",
+      "readingApproach": "Sketch the function and state its domain before calculating. Compare a derivative obtained from the definition with one obtained by rules, and explain the sign in context. In optimization, list endpoints and points where differentiability fails as well as critical points. Work a problem without looking at its hint, then use the hint to identify the missing decision. Keep integral and series preparation on your plan if the next goal is real analysis.",
+      "continueWith": [
+        {
+          "subjectId": "real-analysis",
+          "reason": "Justify limits, continuity and differentiation with complete proofs."
+        },
+        {
+          "subjectId": "differential-equations",
+          "reason": "Use rates of change to model initial-value problems and analyze their solutions."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "CLP-1 Differential Calculus",
+          "author": "Joel Feldman, Andrew Rechnitzer and Elyse Yeager",
+          "url": "https://personal.math.ubc.ca/~CLP/CLP1/clp_1_dc_text.pdf",
+          "style": "Worked-example route focused on differential calculus.",
+          "preparation": "Algebra, functions, trigonometry and graph interpretation.",
+          "use": "Repair limit, chain-rule, implicit-differentiation and optimization skills.",
+          "limits": "CLP-1 is differential calculus; integration and series require further reading.",
+          "practice": "Practice in the separate 2022 combined CLP-1 edition at https://personal.math.ubc.ca/~CLP/CLP1/combined_clp_1.pdf: Public exercises, Hints for Exercises, Answers to Exercises and Solutions to Exercises were inspected in this author-hosted 2022 combined PDF. Sample entries were checked; complete question-to-solution coverage was not audited. Use the exercises within sections 2.2, 2.9, 2.11 and 3.5 of this combined edition; section 2.2's exercise labels begin 2.2.4 and section 2.9's begin 2.9.4. Match those full labels in the hint, answer and solution appendices rather than using page numbers from the 2024 standalone text.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://personal.math.ubc.ca/~CLP/CLP1/clp_1_dc_text.pdf",
+          "locator": "Read sections 1.3 and 1.6 on limits and continuity; 2.2-2.3 on the derivative; 2.9 and 2.11 on chain and implicit rules; and 3.5 on optimisation. Use worked examples to identify domains and endpoint checks.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Active Calculus",
+          "author": "Matt Boelkins, David Austin and Steven Schlicker",
+          "url": "https://textbooks.aimath.org/textbooks/approved-textbooks/boelkins/",
+          "style": "Guided activities developing differential and integral calculus.",
+          "preparation": "Algebra, functions and trigonometry.",
+          "use": "Work from graphical and contextual questions toward calculus definitions.",
+          "limits": "Activities need written work and discussion; reading the explanatory prose alone misses their purpose.",
+          "practice": "Guided activities are described in the catalogue; public solution coverage was not verified.",
+          "access": "AIM source listing with author/download routes; full-text access was not confirmed in the inherited item.",
+          "locator": "Use the author's contents to select limits, derivatives and the relevant guided activities, then integral calculus when needed; edition numbering was not checked.",
+          "sourceUrl": "https://textbooks.aimath.org/textbooks/approved-textbooks/boelkins/",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "real-analysis": {
+      "opening": "The first analysis course asks you to justify operations that calculus made familiar: taking limits, passing a limit through a function, and integrating a sequence. Lebl organizes an entry through sequences and continuity before uniform convergence. Trench revisits calculus with detailed theorem statements and worked examples, placing sequences later. Choose the order that exposes your actual difficulty rather than repeating every computational topic.",
+      "readingApproach": "For each convergence theorem, write its quantifiers and one example where a missing hypothesis breaks the conclusion. Compare pointwise convergence of x^n on [0,1] with uniform convergence on [0,a] for a<1. Attempt an epsilon proof before consulting an example, then revise the argument so its bound depends only on the permitted variables. Bring completeness into the proof explicitly when a supremum or a convergent subsequence is used.",
+      "continueWith": [
+        {
+          "subjectId": "measure-theory",
+          "reason": "Extend integration beyond the Riemann setting and learn hypotheses for interchanging integrals and limits."
+        },
+        {
+          "subjectId": "point-set-topology",
+          "reason": "Generalize compactness and continuity once the metric examples are secure."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Basic Analysis I: Introduction to Real Analysis, Volume I",
+          "author": "Jiří Lebl",
+          "url": "https://www.jirka.org/ra/realanal.pdf",
+          "style": "Sequences first, with short proof and counterexample exercises.",
+          "preparation": "Calculus and introductory proof-writing; review completeness in section 1.2.",
+          "use": "Build epsilon arguments and distinguish pointwise from uniform convergence.",
+          "limits": "This volume's Riemann-integral route does not replace measure theory.",
+          "practice": "Exercises in sections 2.1-2.4 and 6.1-6.2; compare 6.1.4-6.1.6 for sums and products. Public solutions not verified.",
+          "access": "Complete author PDF, version 6.3 dated May 15, 2026.",
+          "sourceUrl": "https://www.jirka.org/ra/realanal.pdf",
+          "locator": "Sections 2.1-2.4, 3.2-3.4 and 6.1-6.2; the last pair starts on printed pp. 227 and 234.",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Introduction to Real Analysis",
+          "author": "William F. Trench",
+          "url": "https://ramanujan.math.trinity.edu/wtrench/texts/trench_real_analysis.pdf",
+          "style": "Calculus-centered development with detailed proofs and worked examples.",
+          "preparation": "Elementary calculus; linear algebra for later vector-valued chapters.",
+          "use": "Repair limit and continuity proofs while connecting them to familiar calculus.",
+          "limits": "Sequences appear after single-variable calculus; follow the alternative order deliberately.",
+          "practice": "Exercises after the selected sections; selected answers begin on printed p. 549. The complete instructor manual requires faculty verification.",
+          "access": "Complete university-hosted Free Hyperlinked Edition 2.04, December 2013; the instructor manual is separate.",
+          "sourceUrl": "https://ramanujan.math.trinity.edu/wtrench/texts/trench_real_analysis.pdf",
+          "locator": "Sections 2.1-2.2, printed pp. 30-72; 4.1-4.2, pp. 179-199; 4.4, pp. 234-256, on sequences and series of functions.",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "measure-theory": {
+      "opening": "Measure theory separates the size of sets from the integration of functions built on them. Axler organizes a route through measurable spaces, measures, integrals and convergence before iterated integration. Tao offers a second development of Lebesgue measure and integration that can be useful when you want to revisit how the objects are constructed. Choose one main exposition and use the other to investigate a specific proof or example.",
+      "readingApproach": "Check measurability before writing an integral, and distinguish a nonnegative function from an integrable signed function. For each limit interchange, identify the applicable theorem and verify every hypothesis on the actual sequence. Compare increasing indicator functions with moving spikes to see why different convergence assumptions matter. Before swapping integration order, decide whether Tonelli or Fubini applies. Write the underlying measures and product space explicitly; similar-looking integral formulas can have different justifications.",
+      "continueWith": [
+        {
+          "subjectId": "probability",
+          "reason": "Interpret expectation and almost sure statements in a probability space."
+        },
+        {
+          "subjectId": "functional-analysis",
+          "reason": "Use complete Lp spaces as examples for duality and operator theory."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Measure, Integration & Real Analysis",
+          "author": "Sheldon Axler",
+          "url": "https://measure.axler.net/MIRA.pdf",
+          "style": "Structured route through measurable spaces, convergence and product integration.",
+          "preparation": "Real analysis, sequences of functions and proof-writing.",
+          "use": "Learn to justify integration and limit interchanges before applications.",
+          "limits": "Selected sections do not cover every measure construction or the later operator theory.",
+          "practice": "Exercises provided; public solutions not verified. Exercises 2B, 2C, 3A, 3B and 5B, immediately following the named sections.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://measure.axler.net/MIRA.pdf",
+          "locator": "Read 2B-2C on measurable spaces and measures, 3A-3B on integration and convergence, then 5B on iterated integrals. Consult 2D only when the construction of Lebesgue measure is the gap.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "An Introduction to Measure Theory",
+          "author": "Terence Tao",
+          "url": "https://terrytao.wordpress.com/books/an-introduction-to-measure-theory/",
+          "style": "A second development centered on Lebesgue measure and integration.",
+          "preparation": "Real analysis and metric-space language.",
+          "use": "Compare a construction or convergence argument when the main exposition leaves a conceptual gap.",
+          "limits": "Changing texts repeatedly can obscure which definition of measure or integral has already been established.",
+          "practice": "Public solution coverage was not verified in the catalogue; use the linked manuscript's exercises only after checking the edition.",
+          "access": "Author book page with an online-text link and errata; the page itself is not a direct PDF.",
+          "locator": "Follow the online-text link to the Lebesgue-measure, integration and convergence portions; precise chapter numbers were not rechecked.",
+          "sourceUrl": "https://terrytao.wordpress.com/books/an-introduction-to-measure-theory/",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "complex-analysis": {
+      "opening": "Complex differentiability imposes much stronger structure than real differentiability, which is why local hypotheses can lead to contour formulas and global restrictions. Lebl develops that chain through holomorphic functions, Cauchy's theorem, Laurent series and residues. Beck and collaborators offer a concise first-course presentation of holomorphic functions and contour methods. Use the second account to compare a difficult argument, while keeping one consistent set of conventions for contours and singularities.",
+      "readingApproach": "Check complex differentiability from the definition before relying on the Cauchy-Riemann equations. Draw the contour and mark its interior singularities before selecting a theorem. Expand a function on two different annuli to see why the domain belongs to a Laurent series statement. In a residue calculation, separate the local coefficient calculation from the global contour argument. Record exactly where holomorphicity and the geometry of the domain enter each proof.",
+      "continueWith": [
+        {
+          "subjectId": "harmonic-analysis",
+          "reason": "Explore Fourier and Poisson methods after contour integration and convergence are secure."
+        },
+        {
+          "subjectId": "modular-forms",
+          "reason": "Apply holomorphic functions to group actions on the upper half-plane."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Guide to Cultivating Complex Analysis: Working the Complex Field",
+          "author": "Jiří Lebl",
+          "url": "https://www.jirka.org/ca/ca.pdf",
+          "style": "Proof-based route from differentiability to contour theorems and residues.",
+          "preparation": "Real analysis, multivariable calculus and line integrals.",
+          "use": "Connect local holomorphicity to series expansions and residue methods.",
+          "limits": "One complex variable does not automatically prepare a reader for several-variable phenomena.",
+          "practice": "Exercises provided; public solutions not verified. Exercises 2.1.1-2.1.6 for differentiability and Cauchy-Riemann; exercises embedded in sections 4.4 and 5.3 for Laurent series and residues.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.jirka.org/ca/ca.pdf",
+          "locator": "Read 2.1 on holomorphic functions, 3.2-3.3 on Cauchy's theorem and consequences, 4.4 on Laurent series, and 5.1-5.4 on zeros, singularities and residues. Review line integrals in 3.1 if needed.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "A First Course in Complex Analysis",
+          "author": "Matthias Beck, Gerald Marchesi, Dennis Pixton and Lucas Sabalka",
+          "url": "https://textbooks.aimath.org/textbooks/approved-textbooks/beck-marchesi-pixton-sabalka/",
+          "style": "Concise first course in holomorphic functions and contour methods.",
+          "preparation": "Multivariable calculus and basic real analysis.",
+          "use": "Compare a first contour argument or singularity classification with a second exposition.",
+          "limits": "Its introductory scope should be completed through exercises before several complex variables.",
+          "practice": "Exercise work is recommended by the existing catalogue; public worked solutions were not verified.",
+          "access": "AIM lists an authorized author edition and download route; the inherited record does not confirm current full-text access.",
+          "locator": "Find holomorphic functions and contour methods through the listed author edition; exact section numbering was not inherited.",
+          "sourceUrl": "https://textbooks.aimath.org/textbooks/approved-textbooks/beck-marchesi-pixton-sabalka/",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "functional-analysis": {
+      "opening": "Finite-dimensional linear algebra changes character when completeness, topology and boundedness become part of the problem. Melrose develops Banach and Hilbert spaces alongside the main operator theorems and compact spectral theory. Yosida takes operator semigroups toward evolution equations. The semigroup route answers a more specialized question and should follow, rather than stand in for, the initial normed-space and bounded-operator work.",
+      "readingApproach": "Test continuity and boundedness on explicit operators, keeping their domains visible. Compare a complete sequence space with an incomplete normed subspace, and identify which proof fails without completeness. When applying an open-mapping or uniform-boundedness theorem, write the hypotheses before the conclusion. In Hilbert space, calculate a projection and its orthogonality relation. Save unbounded generators and evolution problems for the point where dense domains, convergence and operator composition can be handled precisely.",
+      "continueWith": [
+        {
+          "subjectId": "harmonic-analysis",
+          "reason": "Use Lp estimates, Hilbert-space methods and operators in Fourier analysis."
+        },
+        {
+          "subjectId": "differential-equations",
+          "reason": "Continue to weak solutions or evolution equations with the required measure and Sobolev preparation."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Functional Analysis: Lecture Notes for 18.102",
+          "author": "Richard Melrose",
+          "url": "https://math.mit.edu/~rbm/18.102-S13/FunctAnal.pdf",
+          "style": "Course-length development of Banach and Hilbert spaces with operator theorems.",
+          "preparation": "Real analysis, measure theory and linear algebra.",
+          "use": "Establish completeness, duality and compact-operator arguments before specialization.",
+          "limits": "The compact self-adjoint spectral theorem is not a spectral theorem for every bounded or unbounded operator.",
+          "practice": "Exercises provided; public hints and selected worked solutions verified within chapter 5. Coverage of every problem is not claimed. Chapter 5 Problems and solutions, starting at printed page 133; Problems - Chapter 1, Hints for some problems, and the subsequent Solutions to problems sections.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://math.mit.edu/~rbm/18.102-S13/FunctAnal.pdf",
+          "locator": "Chapter 1, sections 2-6 and 8-12 for Banach spaces and the main operator theorems. Then chapter 3, sections 8-11 for projections and adjoints and 14-18 for compactness, weak convergence and the compact self-adjoint spectral theorem.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Lectures on Semi-Group Theory and its Application to Cauchy’s Problem in Partial Differential Equations",
+          "author": "Kôsaku Yosida",
+          "url": "https://mathweb.tifr.res.in/Documents/Publications/Lectures/tifr08.pdf",
+          "style": "Specialized operator-semigroup route to the Cauchy problem.",
+          "preparation": "Functional analysis and differential equations.",
+          "use": "Study how operator families encode time evolution after the main Banach-space tools.",
+          "limits": "Historical notation may need translation; this is an application branch rather than a first functional-analysis course.",
+          "practice": "Public worked solutions were not verified; reconstruct the semigroup property in a concrete evolution example as an editorial exercise.",
+          "access": "Complete TIFR archive PDF; individual-use access only, with no redistribution.",
+          "locator": "Use the semigroup and Cauchy-problem developments indicated by the archive's contents; exact reading sections were not newly checked.",
+          "sourceUrl": "https://mathweb.tifr.res.in/lectures.html",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "harmonic-analysis": {
+      "opening": "Fourier analysis begins with representing functions by oscillations, but convergence and norm estimates determine what those representations mean. Axler's Fourier chapter links series and transforms to the measure-theoretic framework. Grafakos continues toward maximal operators, singular integrals and multiplier questions. Select the chapter route when Lp convergence and Fourier normalization need consolidation; select the graduate continuation when estimates, rather than formal transform rules, are the main goal.",
+      "readingApproach": "Calculate the coefficients of a simple periodic function and state which convergence claim you have actually proved. Track the normalization in every transform and convolution identity. Compare an L2 argument using orthogonality with an argument that needs L1 control. Work a Stanford problem set alongside the foundational reading when computational practice is the gap. Before singular integrals, become fluent with scaling, duality and the distinction between pointwise statements and norm bounds.",
+      "continueWith": [
+        {
+          "subjectId": "functional-analysis",
+          "reason": "Review duality, bounded operators and Hilbert-space projections when the norm estimates become opaque."
+        },
+        {
+          "subjectId": "differential-equations",
+          "reason": "Use transforms and function-space estimates in evolution and elliptic problems."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Measure, Integration & Real Analysis - Fourier Analysis chapter",
+          "author": "Sheldon Axler",
+          "url": "https://measure.axler.net/MIRA.pdf",
+          "style": "Measure-theoretic Fourier chapter covering series, Poisson integrals and transforms.",
+          "preparation": "Integration, Lp spaces and Hilbert-space orthogonality.",
+          "use": "Make convergence and transform identities precise before advanced operator estimates.",
+          "limits": "The selected chapter does not supply a full singular-integral course; Stanford practice is a separate source.",
+          "practice": "Companion practice at https://see.stanford.edu/Course/EE261: The public assignments table lists question and solution links for problem sets 1-9 and exams. The 16-page Problem Set 1 solution PDF was opened; the remaining solution PDFs were not individually inspected, and complete exercise coverage is not claimed. Assignments table: start with Problem Sets 1-3 alongside lectures 3-9; match later sets to their lecture due markers.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://measure.axler.net/MIRA.pdf",
+          "locator": "Chapter 11: 11A Fourier Series and Poisson Integral, 11B Fourier Series and Lp of Unit Circle, and 11C Fourier Transform, printed pages 340-379. Review orthonormal bases in 8C only as needed.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Classical Fourier Analysis",
+          "author": "Loukas Grafakos",
+          "url": "https://link.springer.com/book/10.1007/978-1-4939-1194-3",
+          "style": "Graduate development of maximal operators, singular integrals and multipliers.",
+          "preparation": "Measure theory, Lp techniques and functional analysis.",
+          "use": "Progress from transform calculations to boundedness estimates and harmonic-analysis operators.",
+          "limits": "The inherited catalogue description is broader than the selected introductory chapter; inspect the linked edition's contents before planning advanced topics.",
+          "practice": "Public worked solutions were not verified; use the purchased or institutional edition's exercises with its theorem hypotheses.",
+          "access": "Purchase or eligible institutional access; publisher chapter previews are partial.",
+          "locator": "Locate maximal functions, singular integrals and multiplier material in the third edition; no exact section range is newly asserted.",
+          "sourceUrl": "https://link.springer.com/book/10.1007/978-1-4939-1194-3",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "differential-equations": {
+      "opening": "The equation, initial data and boundary conditions together determine the problem. Lebl gives an entry through first-order methods, systems and separated heat and wave equations. Dyatlov studies distributions and elliptic regularity at graduate level. Choose the computational route to learn what solutions and boundary conditions do; choose the analytic route only when measure, functional and Fourier analysis are available as working tools.",
+      "readingApproach": "Verify a proposed solution by substitution and check its data separately. For a linear system, compare a matrix exponential with the geometry of its phase portrait. In separation of variables, derive the boundary eigenfunctions before writing a series and explain what convergence would justify the final substitution. A formal solution formula does not establish existence or uniqueness. When you need weak derivatives, pause to learn test functions and distributions before taking on elliptic regularity.",
+      "continueWith": [
+        {
+          "subjectId": "dynamics",
+          "reason": "Investigate stability and invariant sets beyond explicit ODE solutions."
+        },
+        {
+          "subjectId": "functional-analysis",
+          "reason": "Develop completeness and operator methods needed for weak and variational PDE routes."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Notes on Diffy Qs: Differential Equations for Engineers",
+          "author": "Jiří Lebl",
+          "url": "https://www.jirka.org/diffyqs/diffyqs.pdf",
+          "style": "Examples and calculations from initial-value ODEs to separated PDEs.",
+          "preparation": "Calculus and linear algebra; Fourier-series basics for boundary problems.",
+          "use": "Connect solution techniques with initial and boundary data.",
+          "limits": "Separated solutions do not replace distributions, Sobolev spaces or a general PDE existence theory.",
+          "practice": "Public exercises and Solutions to Selected Exercises are present in the PDF. Answers for numbered heat-equation exercises in section 4.6 were inspected; a complete worked key is not claimed. Exercise sets in sections 1.3-1.4, 3.4, 3.8 and 4.6-4.7; compare only the matching numbered entries in Solutions to Selected Exercises. Section 4.6 answers appear on printed page 454.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.jirka.org/diffyqs/diffyqs.pdf",
+          "locator": "Read 1.3-1.4 for first-order methods, 3.3-3.4 for linear systems and 3.8 for matrix exponentials, and 4.1-4.4 for Fourier boundary expansions. Continue with 4.6-4.7 for the heat and wave equations; 4.8 supplies d'Alembert's alternative on the line.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Distributions, Elliptic Regularity, and Applications to PDEs",
+          "author": "Semyon Dyatlov",
+          "url": "https://math.mit.edu/~dyatlov/18.155/155-notes.pdf",
+          "style": "Graduate distribution and elliptic-regularity course with geometric applications.",
+          "preparation": "Real and functional analysis, Fourier analysis and readiness for weak derivatives.",
+          "use": "Move from formal PDE manipulations to distributional and regularity arguments.",
+          "limits": "A specialized elliptic route; it is not an elementary survey of all PDE types.",
+          "practice": "The October 2, 2026 contents list Notes and exercises in sections 1.4 and 2.4; public solution coverage was not audited.",
+          "access": "Complete 266-page MIT author PDF, dated October 2, 2026.",
+          "locator": "Chapter 1, sections 1.2-1.4, for function spaces, convolution and exercises; chapter 2, sections 2.1-2.4, for distribution foundations and exercises. Continue to elliptic regularity only after these.",
+          "sourceUrl": "https://math.mit.edu/~dyatlov/18.155/155-notes.pdf",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "point-set-topology": {
+      "opening": "Topology supplies a language in which continuity, compactness and connectedness survive without a distance formula. Morris develops that language through definitions, examples and exercises. Hatcher provides a shorter bridge toward algebraic topology. Use the longer route when you need practice recognizing topologies and continuous maps; use the shorter account when familiar metric-space intuition needs translation into open-set arguments.",
+      "readingApproach": "Test every definition on a finite space, a metric space and a space with a less familiar topology. Prove continuity once by inverse images of opens and once in a metric example, explaining why sequences are not a universal replacement. For compactness, work directly with an open cover and a finite subcover. When constructing a quotient, describe the quotient map and the topology it induces before drawing a picture. Keep counterexamples close to the separation assumptions they test.",
+      "continueWith": [
+        {
+          "subjectId": "algebraic-topology",
+          "reason": "Use products, quotients and homotopies to construct algebraic invariants of spaces."
+        },
+        {
+          "subjectId": "differential-geometry",
+          "reason": "Add smooth charts and tangent maps once the underlying topological space is clear."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Topology Without Tears",
+          "author": "Sidney A. Morris",
+          "url": "https://www.topologywithouttears.net/topbook.pdf",
+          "style": "Detailed introductory route with many definition-testing exercises.",
+          "preparation": "Proofs, sets and elementary continuity examples.",
+          "use": "Practice open-set reasoning, compactness, products and quotients.",
+          "limits": "The author explicitly does not provide exercise solutions; worked examples are a different form of support.",
+          "practice": "Exercises and worked examples are public. On the title page the author explicitly states that he does not provide solutions to the exercises. Exercise sets 3.3, 5.1, 7.1-7.2, 8.1 and 11.1. In Exercises 11.1, questions 1-4 check the quotient-map definition and composition.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.topologywithouttears.net/topbook.pdf",
+          "locator": "Read 1.1-1.3 on topologies, 2.2-2.3 on bases, 3.1 and 3.3 on closure and connectedness, 4.1 and 5.1 on subspaces and continuity, 7.1-7.2 on compactness, 8.1-8.2 on products, and 11.1 on quotient spaces.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Notes on Introductory Point-Set Topology",
+          "author": "Allen Hatcher",
+          "url": "https://pi.math.cornell.edu/~hatcher/Top/TopNotes.pdf",
+          "style": "Compact introductory notes serving as a bridge to algebraic topology.",
+          "preparation": "Proof-writing, sets and elementary real analysis.",
+          "use": "Translate familiar examples into topological language before fundamental groups.",
+          "limits": "A short account leaves less room for repeated practice with unfamiliar definitions.",
+          "practice": "Public solution coverage was not verified; prove a quotient-map example as a separate editorial exercise.",
+          "access": "Complete Cornell-hosted author PDF.",
+          "locator": "Use the introductory topology and continuity material, then products and quotients as needed for algebraic topology; no exact sections were rechecked.",
+          "sourceUrl": "https://pi.math.cornell.edu/~hatcher/Top/Topdownloads.html",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "algebraic-topology": {
+      "opening": "Algebraic topology attaches computable algebraic objects to spaces while preserving the effect of continuous maps. Hatcher develops fundamental groups and homology with geometric constructions and exercises. May gives a more compact graduate bridge toward homotopy theory. Start with Hatcher when loops, attaching maps and cellular calculations are new; use May when you can already supply those examples while reading a compressed argument.",
+      "readingApproach": "Choose a space built from a small number of cells and calculate the same invariant in two ways where possible. In van Kampen, specify the open cover and basepoint information before manipulating generators. For cellular homology, write the boundary maps and check their compositions. Record the map induced by a continuous map, rather than stopping at the groups of the two spaces. Compare homotopy equivalence with equality of homology groups so the invariant's limitations remain visible.",
+      "continueWith": [
+        {
+          "subjectId": "homological-algebra",
+          "reason": "Understand connecting maps and exact sequences underlying homology calculations."
+        },
+        {
+          "subjectId": "category-theory",
+          "reason": "Organize functoriality and universal constructions before abstract homotopy references."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Algebraic Topology",
+          "author": "Allen Hatcher",
+          "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+          "style": "Geometric course text with constructions and computational exercises.",
+          "preparation": "Point-set topology, groups and basic quotient constructions.",
+          "use": "Learn fundamental groups, covering spaces and cellular homology with explicit spaces.",
+          "limits": "The initial selection does not provide a bridge to stable homotopy or higher categories.",
+          "practice": "Public exercises verified in the book; an author-provided public solution collection was not verified. Exercise sets at the ends of sections 1.1-1.3 and 2.1-2.2. Start with 1.1 exercises 10, 12 and 14 for products and induced maps; use 2.2 for cellular computations.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+          "locator": "Start with chapter 0 on homotopy and cell complexes. Read 1.1 Basic Constructions, 1.2 Van Kampen's Theorem and 1.3 Covering Spaces; then 2.1 Simplicial and Singular Homology and the Cellular Homology and Mayer-Vietoris subsections of 2.2.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "A Concise Course in Algebraic Topology",
+          "author": "J. Peter May",
+          "url": "https://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf",
+          "style": "Compact graduate course moving toward homotopy-theoretic constructions.",
+          "preparation": "Point-set topology, groups and modules; prior examples in algebraic topology help.",
+          "use": "Revisit foundational constructions after working concrete calculations.",
+          "limits": "Compression requires the reader to supply intermediate arguments and geometric examples.",
+          "practice": "Public worked solutions were not verified in the catalogue; compare a construction with a worked Hatcher exercise of your own.",
+          "access": "Complete revised author PDF on the University of Chicago site.",
+          "locator": "Use the fundamental constructions as a graduate bridge, following the revised PDF contents; chapter numbers were not freshly checked.",
+          "sourceUrl": "https://www.math.uchicago.edu/~may/BOOKSMaster.html",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "differential-geometry": {
+      "opening": "Classical differential geometry relates derivatives to the shape of curves and surfaces. Shifrin develops arclength, moving frames, fundamental forms and geodesics with calculations and selected assistance for exercises. Petrunin and Zamora Barrera take a visual, problem-centered route through the same classical setting. Choose according to whether your main difficulty is carrying out the local calculation or understanding the geometric claim it expresses.",
+      "readingApproach": "Parametrize a helix by arclength and compute its curvature before reading the general frame formulas. On a sphere and a cylinder, calculate the fundamental forms and Gaussian curvature, tracking the chosen normal and shape-operator convention. Compare a curve's ambient acceleration with its covariant derivative on the surface. Draw the geometry, then annotate the drawing with the quantities you computed. Plan a separate smooth-manifold and tensor course if the next goal requires coordinate-independent constructions in higher dimensions.",
+      "continueWith": [
+        {
+          "subjectId": "point-set-topology",
+          "reason": "Review charts and underlying spaces before a smooth-manifold course."
+        },
+        {
+          "subjectId": "symplectic-geometry",
+          "reason": "Add smooth manifolds, differential forms and de Rham ideas before symplectic structures."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Differential Geometry: A First Course in Curves and Surfaces",
+          "author": "Theodore Shifrin",
+          "url": "https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf",
+          "style": "Calculational classical course with moving frames and surface geometry.",
+          "preparation": "Multivariable calculus and linear algebra.",
+          "use": "Relate arclength, fundamental forms and geodesics to explicit examples.",
+          "limits": "Curves and surfaces do not replace a full smooth-manifold and tensor course; signed quantities depend on conventions.",
+          "practice": "Public exercises and selected answers, hints or solutions are included. Asterisked exercises are the ones marked for back-of-book assistance; a complete worked solution key is not claimed. Exercises in 1.1-1.2 and 2.1-2.2; consult Answers to Selected Exercises at printed page 121 only for marked questions.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.math.uga.edu/sites/default/files/inline-files/ShifrinDiffGeo.pdf",
+          "locator": "Read chapter 1, sections 1-2 on arclength and Frenet frames; chapter 2, sections 1-2 on the fundamental forms and Gauss map; then chapter 2, section 4 on covariant differentiation and geodesics. Chapter 3, section 1 introduces holonomy and Gauss-Bonnet.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "What Is Differential Geometry? Curves and Surfaces",
+          "author": "Anton Petrunin and Sergio Zamora Barrera",
+          "url": "https://arxiv.org/pdf/2012.11814",
+          "style": "Visual, problem-centered classical geometry emphasizing essential techniques.",
+          "preparation": "Multivariable calculus and linear algebra.",
+          "use": "Investigate the geometric content of a curve or surface calculation.",
+          "limits": "The authors describe the presentation as elementary and virtually rigorous; use a fuller argument when a proof detail matters.",
+          "practice": "The catalogue describes a problem-centered text; public solution coverage was not recorded.",
+          "access": "Complete author lecture text on arXiv, version 7 dated December 31, 2025.",
+          "locator": "Select the curve and surface problems corresponding to arclength and curvature; use the current archive version's contents rather than assuming Shifrin's numbering.",
+          "sourceUrl": "https://arxiv.org/pdf/2012.11814",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "symplectic-geometry": {
+      "opening": "A symplectic form pairs tangent directions in a way that leads naturally to Hamiltonian motion and Lagrangian submanifolds. Cannas da Silva's shorter IMPA course provides a route through local normal forms, cotangent bundles and Hamiltonian fields. Calegari's notes emphasize a topological continuation toward holomorphic curves and an outline of Floer homology. The latter needs geometric and analytic preparation beyond understanding Hamilton's equations in coordinates.",
+      "readingApproach": "Compute the Hamiltonian vector field of a quadratic Hamiltonian using the sign convention of the chosen text. Check that the flow preserves the symplectic form, then test when the graph of a one-form is Lagrangian. Read Moser's argument by tracking the time-dependent vector field and the equation it must solve. Before following holomorphic curves or Floer theory, list the required compactness and regularity inputs; a course outline signals these constructions without supplying every foundation.",
+      "continueWith": [
+        {
+          "subjectId": "differential-geometry",
+          "reason": "Consolidate smooth manifolds and differential forms before local symplectic arguments."
+        },
+        {
+          "subjectId": "algebraic-topology",
+          "reason": "Review homology and cohomology before topological and Floer-theoretic applications."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Introduction to Symplectic and Hamiltonian Geometry",
+          "author": "Ana Cannas da Silva",
+          "url": "https://people.math.ethz.ch/~acannas/Papers/impa.pdf",
+          "style": "Short course from local symplectic geometry to Hamiltonian reduction.",
+          "preparation": "Smooth manifolds, differential forms and the relevant cohomology language.",
+          "use": "Learn Darboux, cotangent-bundle and Hamiltonian calculations before advanced invariants.",
+          "limits": "This shorter IMPA work is distinct from the author's longer Lectures; neither selected route establishes Floer foundations.",
+          "practice": "Numbered public exercises verified within the notes; public solutions not verified. Some exercises include guiding explanations. Work through the exercises embedded in lectures 1-2 and 4; Exercises 17-18 in section 4.3 concern contraction identities and the Poisson-bracket Leibniz rule.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://people.math.ethz.ch/~acannas/Papers/impa.pdf",
+          "locator": "Read 1.1-1.4 for linear algebra and symplectic manifolds, 1.7-1.9 for Moser's method and Darboux, 2.1-2.4 for cotangent bundles and Lagrangians, and 4.1-4.3 for Hamiltonian fields, Hamilton equations and brackets. Sections 4.6-4.7 and 5.1-5.3 continue to moment maps and reduction.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Notes on Symplectic Topology",
+          "author": "Danny Calegari",
+          "url": "https://math.uchicago.edu/~dannyc/courses/symplectic_topology_2022/symplectic_topology_notes.pdf",
+          "style": "Topological route toward holomorphic curves and an outline of Floer homology.",
+          "preparation": "Smooth manifolds, differential forms and algebraic topology.",
+          "use": "See which constructions connect introductory symplectic geometry to its topological applications.",
+          "limits": "An outline of Floer homology needs a separate analytic and foundational treatment before technical use.",
+          "practice": "Public worked solutions were not verified in the existing record; compare a Hamiltonian example across the two texts as an editorial task.",
+          "access": "Complete author PDF linked from the University of Chicago course page.",
+          "locator": "Follow the symplectic-linear-algebra and Hamiltonian portions before the holomorphic-curve and Floer outline; exact section numbers were not rechecked.",
+          "sourceUrl": "https://math.uchicago.edu/~dannyc/courses/symplectic_topology_2022/symplectic_topology_2022.html",
+          "checked": "2026-10-13"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "elementary-number-theory": {
+      "opening": "Elementary number theory turns experiments with integers into proofs about divisibility and congruences. Stein develops that route with Euclidean algorithms, modular arithmetic and quadratic reciprocity. Shoup connects integer and finite-field arithmetic to algorithms and cryptography. Choose the first route to strengthen proof and congruence skills; choose the computational continuation when you can explain an algorithm's correctness as well as produce its output.",
+      "readingApproach": "Run the extended Euclidean algorithm by hand and interpret its coefficients as a proof of a modular inverse. Solve a Chinese remainder problem, then verify the solution in every modulus. List small quadratic residues before applying reciprocity, keeping track of the parity signs. For an algorithmic example, separate correctness, termination and cost. Test a calculation on small inputs, but explain why the proof covers all permitted inputs rather than using numerical evidence as the final argument.",
+      "continueWith": [
+        {
+          "subjectId": "abstract-algebra",
+          "reason": "Interpret congruences through quotient rings, units and finite fields."
+        },
+        {
+          "subjectId": "analytic-number-theory",
+          "reason": "Add asymptotic estimates and complex analysis to study prime distribution."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Elementary Number Theory: Primes, Congruences, and Secrets",
+          "author": "William Stein",
+          "url": "https://wstein.org/ent/ent.pdf",
+          "style": "Proof-based arithmetic with explicit congruence and reciprocity calculations.",
+          "preparation": "Integer arithmetic and introductory proofs.",
+          "use": "Connect Euclid's algorithm, modular inverses and quadratic residues.",
+          "limits": "Cryptography and elliptic curves are optional continuations; the selected arithmetic route does not cover their full foundations.",
+          "practice": "Public exercises and an Answers and Hints section are present. It contains selected answers and proof hints, not a verified complete worked solution manual. Sections 1.3, 2.6 and 4.6 contain the exercise sets. Answers and Hints begins on printed page 149; match the chapter and exercise number.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://wstein.org/ent/ent.pdf",
+          "locator": "Read 1.1 on factorization and the Euclidean algorithm; 2.1-2.3 on congruences, the Chinese remainder theorem, inverses and powers; then 4.1-4.3 on quadratic reciprocity and Euler's criterion.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "A Computational Introduction to Number Theory and Algebra",
+          "author": "Victor Shoup",
+          "url": "https://textbooks.aimath.org/textbooks/approved-textbooks/shoup/",
+          "style": "Algorithmic number theory and algebra leading toward cryptography.",
+          "preparation": "Arithmetic and proof-writing; extra algebra for finite-field and later material.",
+          "use": "Study correctness and complexity after elementary congruences are comfortable.",
+          "limits": "Running an algorithm is insufficient preparation for its algebraic proof or cryptographic applications.",
+          "practice": "Public worked solutions were not verified in the inherited catalogue; check the author edition's exercise support.",
+          "access": "AIM listing with author/download routes; current full-text access was not confirmed in the inherited record.",
+          "locator": "Locate integer arithmetic and finite-field algorithms through the author's contents; exact section numbering was not inherited.",
+          "sourceUrl": "https://textbooks.aimath.org/textbooks/approved-textbooks/shoup/",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "algebraic-number-theory": {
+      "opening": "Unique factorization of elements can fail in number fields, while ideals retain a more stable factorization theory. Milne's introductory notes connect rings of integers, discriminants and Dedekind domains to this change of viewpoint. His class-field notes pursue a later question about abelian extensions. Treat that second work as an advanced continuation requiring local and global foundations, with a substantial distance between the two starting points.",
+      "readingApproach": "Find an integral basis in a quadratic field and compute its discriminant, comparing it with the basis you might first guess. Factor a small rational prime into ideals and check the ramification and residue degrees. Distinguish an ideal being principal from an element factoring uniquely. Use a lattice bound to make a class-group calculation finite. Keep localization and valuation examples nearby before beginning a local or global reciprocity argument.",
+      "continueWith": [
+        {
+          "subjectId": "commutative-algebra",
+          "reason": "Review integrality, localization and Dedekind-domain arguments when ideal calculations stall."
+        },
+        {
+          "subjectId": "modular-forms",
+          "reason": "Approach arithmetic applications after complex analysis and the first theory of modular forms."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Algebraic Number Theory",
+          "author": "James S. Milne",
+          "url": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "style": "Number-field course built around integers, ideals and class-number bounds.",
+          "preparation": "Field extensions, ideals, localization and module calculations.",
+          "use": "Compute discriminants and ideal factorizations before advanced arithmetic.",
+          "limits": "Class field theory requires additional local, global and cohomological preparation.",
+          "practice": "Public chapter exercises and Appendix A Solutions to the Exercises are present. Sampled entries include hints and sketches; complete worked coverage of every exercise was not audited. Chapter 2 exercises, printed page 44, and chapter 3 exercises, page 67. Appendix A begins on printed page 153; entries use chapter-exercise labels such as 2-1.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.jmilne.org/math/CourseNotes/ANT.pdf",
+          "locator": "Read chapter 2, Rings of Integers, especially norms, traces, discriminants and finding the ring of integers; chapter 3, Dedekind Domains; Factorization, especially ideal factorization, the class group and finding factorizations; then chapter 4, The Finiteness of the Class Number, for lattices and bounds.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Class Field Theory",
+          "author": "J. S. Milne",
+          "url": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "style": "Advanced local and global class-field continuation.",
+          "preparation": "Graduate algebraic number theory; check the specific local and cohomological requirements.",
+          "use": "Pursue abelian extensions after number-field and local arithmetic foundations.",
+          "limits": "It should not be started immediately after elementary congruences or only the selected introductory chapters.",
+          "practice": "Public solution coverage was not recorded for this item; check its current exercises before planning independent problem work.",
+          "access": "Complete 296-page author PDF, version 4.03 dated August 6, 2020.",
+          "locator": "Use the notes' prerequisite discussion to choose a local or global route; no fresh chapter range is asserted.",
+          "sourceUrl": "https://www.jmilne.org/math/CourseNotes/CFT.pdf",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "analytic-number-theory": {
+      "opening": "Analytic number theory combines arithmetic structure with estimates, so manipulating a Dirichlet series is only the beginning of an argument. Kedlaya organizes a route through multiplicative functions, Euler products and complex methods for prime distribution. Richert develops sieve techniques as a focused branch. Choose the first route while learning which sums and products may be rearranged; choose the sieve continuation after asymptotic estimates have become dependable.",
+      "readingApproach": "Prove an arithmetic-function identity by counting divisor pairs, then justify the corresponding Dirichlet-series identity in a region of absolute convergence. Write error terms with the variable and constants they depend on. Use the hyperbola method on a divisor sum to see how a geometric decomposition produces an estimate. Before reading a prime-number theorem proof, separate its analytic input from its arithmetic conclusion. For sieve arguments, identify the set being sifted and the local exclusions before handling weights.",
+      "continueWith": [
+        {
+          "subjectId": "complex-analysis",
+          "reason": "Review analytic continuation, zeros and contour estimates before complex prime-distribution methods."
+        },
+        {
+          "subjectId": "elementary-number-theory",
+          "reason": "Repair multiplicativity and congruence calculations before advanced estimates."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Notes on Analytic Number Theory",
+          "author": "Kiran S. Kedlaya",
+          "url": "https://kskedlaya.org/ant/frontmatter.html",
+          "style": "Course notes linking arithmetic functions with Dirichlet series and prime distribution.",
+          "preparation": "Elementary number theory and complex analysis.",
+          "use": "Learn to justify Euler products, convolutions and the first asymptotic arguments.",
+          "limits": "The opening selection is preparation for deeper prime-distribution theorems, not evidence of mastering their proofs.",
+          "practice": "Practice page for this work at https://kskedlaya.org/ant/part-1-3.html: Public exercises 2.4.1-2.4.10 verified, including a hint to 2.4.7. Public worked solutions were not verified. Section 2.4: use exercises 3-4 for convolution and arithmetic functions, 6 for von Mangoldt and the logarithmic derivative, and 9 for the hyperbola method.",
+          "access": "Complete public HTML text.",
+          "sourceUrl": "https://kskedlaya.org/ant/frontmatter.html",
+          "locator": "Begin with 2.1-2.3 on Dirichlet series, multiplicativity and Euler products. Then read 1.2-1.4 on zeta and the Tauberian route to the prime number theorem; 3.1-3.4 and 4.1-4.3 introduce characters, L-functions and primes in progressions.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Lectures on Sieve Methods",
+          "author": "Hans-Egon Richert",
+          "url": "https://mathweb.tifr.res.in/Documents/Publications/Lectures/tifr55.pdf",
+          "style": "Sustained specialized exposition of sieve techniques.",
+          "preparation": "Analytic number theory and asymptotic estimates.",
+          "use": "Study a separate method for bounding sifted sets after foundational analytic reading.",
+          "limits": "Historical notation may differ from current treatments; this is a specialization rather than a general first course.",
+          "practice": "Public worked solutions were not verified; work a small sifted-set example as an editorial task alongside the text.",
+          "access": "Complete TIFR archive PDF; individual-use access only, with no redistribution.",
+          "locator": "Follow the archive contents into the sieve-method development after reviewing the prerequisites; exact section ranges were not checked.",
+          "sourceUrl": "https://mathweb.tifr.res.in/lectures.html",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "modular-forms": {
+      "opening": "A modular form is constrained both by holomorphicity and by transformation under a group action. Milne builds the analytic and geometric framework through the upper half-plane and quotient surfaces. Stein emphasizes explicit expansions, bases and Hecke computations. These routes can be paired: a calculation becomes more informative when you can explain the transformation law and the behavior at a cusp that make it legitimate.",
+      "readingApproach": "First derive the formula for the imaginary part of a fractional linear transformation and use it to understand the half-plane action. Check the weight and group before comparing two forms. Compute several Fourier coefficients, but distinguish matching a finite list from proving equality. Use a dimension or structure theorem only after stating its level and weight assumptions. When a Hecke matrix appears, identify its basis and explain which theoretical operator the matrix represents.",
+      "continueWith": [
+        {
+          "subjectId": "complex-analysis",
+          "reason": "Review holomorphic functions and quotient-surface intuition behind the analytic route."
+        },
+        {
+          "subjectId": "algebraic-number-theory",
+          "reason": "Develop the arithmetic background needed for later modular-form applications."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Modular Functions and Modular Forms (Elliptic Modular Curves)",
+          "author": "James S. Milne",
+          "url": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+          "style": "Analytic and geometric development through modular curves and functions.",
+          "preparation": "Complex analysis, group actions and the relevant algebra.",
+          "use": "Understand quotient geometry before treating q-expansions as formal series.",
+          "limits": "The companion exercises below come from Stein; they are not claimed as a Milne solution set.",
+          "practice": "Companion practice at https://wstein.org/books/modform/stein-modform.pdf: Public exercise sets verified in Stein's author-hosted book; public worked solutions were not verified. These exercises are a separate source from Milne's reading notes. Section 1.6 Exercises, printed page 11: start with exercise 1.1 on the half-plane action. Section 2.8 Exercises, page 33: exercise 2.3 concerns Eisenstein-series coefficients and 2.8 concerns a Hecke matrix.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.jmilne.org/math/CourseNotes/MF.pdf",
+          "locator": "Read section 1, Preliminaries, and section 2, Elliptic Modular Curves as Riemann Surfaces, for the upper half-plane and quotients. Section 4, Modular Functions and Modular Forms, begins on printed page 48; section 5, Hecke Operators, begins on page 67. Use section 3 on elliptic functions only as needed.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Modular Forms, a Computational Approach",
+          "author": "William A. Stein, with an appendix by Paul E. Gunnells",
+          "url": "https://wstein.org/books/modform/stein-modform.pdf",
+          "style": "Computational route through explicit q-expansions, bases and Hecke operators.",
+          "preparation": "Linear algebra, number theory and introductory modular-form definitions.",
+          "use": "Make level-one constructions and operator calculations concrete.",
+          "limits": "Algorithms need the definitions and structural hypotheses supplied by the theory.",
+          "practice": "Existing course-study evidence verifies exercise sets 1.6 and 2.8, printed pp. 11 and 33; public worked solutions were not verified.",
+          "access": "Complete author-hosted PDF.",
+          "locator": "Sections 1.1-1.4 and 2.1-2.4, inherited from the course-study alternative; no fresh check in this task.",
+          "sourceUrl": "https://wstein.org/books/modform/modform/",
+          "checked": "2026-10-16"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "combinatorics": {
+      "opening": "Counting is often a choice of representation: the same objects can be described by subsets, recurrences, graphs or generating functions. Keller and Trotter provide a broad route across these descriptions. Stanley connects graph walks, trees and tableaux with algebra. Choose the broad route while learning basic counting arguments; choose the algebraic continuation when matrices and linear maps can help explain a combinatorial formula.",
+      "readingApproach": "Explain what each side of a counting identity counts before simplifying algebra. For a recurrence, state the initial values and justify the decomposition producing it. Translate the recurrence into a generating function and recover several coefficients as a check. In graph theory, draw the small and disconnected cases before committing to a universal claim. Keep formal power series distinct from analytic convergence arguments; the calculation may require only coefficient identities, or it may need additional estimates.",
+      "continueWith": [
+        {
+          "subjectId": "probability",
+          "reason": "Use counting models to study random structures and probabilistic arguments."
+        },
+        {
+          "subjectId": "linear-algebra",
+          "reason": "Prepare for spectral graph methods and algebraic counting techniques."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Applied Combinatorics, 2016 edition",
+          "author": "Mitchel T. Keller and William T. Trotter",
+          "url": "https://rellek.net/book-2016/",
+          "style": "Broad introductory course in counting, graphs and generating functions.",
+          "preparation": "Proof-writing and elementary algebra.",
+          "use": "Choose among bijections, inclusion-exclusion, recurrences and graph arguments.",
+          "limits": "Diagram-dependent exercises need the original pages; the existing extraction did not render every figure.",
+          "practice": "Practice page for this work at https://rellek.net/book-2016/s_strings_exercises.html: Public exercise text verified for counting and graphs. Public worked solutions not verified; graph figures were not rendered by the text extraction. Section 2.9 Exercises for counting; follow the Graph Theory chapter to section 5.9 Exercises, including exercise 6 on the edge count of a tree. Chapters 7-8 have their own exercise sets.",
+          "access": "Complete public HTML text.",
+          "sourceUrl": "https://rellek.net/book-2016/",
+          "locator": "Read chapter 2, Strings, Sets, and Binomial Coefficients; chapter 5, Graph Theory; chapter 7, Inclusion-Exclusion; and chapter 8, Generating Functions. Chapter 9 continues to recurrence equations.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Algebraic Combinatorics: Walks, Trees, Tableaux, and More",
+          "author": "Richard P. Stanley",
+          "url": "https://math.mit.edu/~rstan/algcomb/algcomb.pdf",
+          "style": "Algebraic methods for enumerative questions, beginning with walks in graphs.",
+          "preparation": "Linear algebra; discrete mathematics.",
+          "use": "Connect adjacency-matrix powers with walk counts, then investigate the algebra behind trees and tableaux.",
+          "limits": "The linked author draft is headed Topics in Algebraic Combinatorics; do not assume its pagination matches the published book.",
+          "practice": "Reconstruct the walk-counting proof of Theorem 1.1 and test it on a small graph as an editorial task. A Hints section is listed, but exercise-to-hint coverage was not audited.",
+          "access": "MIT-hosted author draft, version of February 1, 2013; source title differs from the catalogue's published-book title.",
+          "sourceUrl": "https://math.mit.edu/~rstan/algcomb/algcomb.pdf",
+          "locator": "In the linked 2013 draft, start with chapter 1, Walks in graphs, printed pp. 9-20. Chapter 9, The Matrix-Tree Theorem, and chapter 8, A glimpse of Young tableaux, are later branches.",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "probability": {
+      "opening": "Probability has two entry points here. Grinstead and Snell build intuition through distributions, conditioning, expectation and finite chains using calculus. Lawler compresses the foundations into the language of measurable spaces and integration. The latter is a bridge from graduate real analysis, so its brevity should not be mistaken for an easier first course. Choose the elementary route if conditional probability still feels like a formula detached from a sample space.",
+      "readingApproach": "Describe the experiment and the events before doing arithmetic. For a Bernoulli sample mean, calculate its expectation and variance, then use the variance bound to explain convergence in probability. Later, translate those same objects into random variables on a probability space. Keep almost sure convergence separate from convergence in probability, and test a two-state periodic chain before assuming that every stationary distribution describes a limiting distribution.",
+      "continueWith": [
+        {
+          "subjectId": "measure-theory",
+          "reason": "Learn measurable functions and convergence theorems before taking Lawler's measure-based route."
+        },
+        {
+          "subjectId": "dynamics",
+          "reason": "Continue from finite Markov chains to invariant behavior, adding measure theory for ergodic questions."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Grinstead and Snell's Introduction to Probability, CHANCE version dated July 4, 2006",
+          "author": "Charles M. Grinstead and J. Laurie Snell; CHANCE version by Peter G. Doyle",
+          "url": "https://math.dartmouth.edu/~prob/prob/prob.pdf",
+          "style": "Calculus-based examples, computation and simulation.",
+          "preparation": "Calculus including multiple integrals; matrix basics for Markov chains.",
+          "use": "Learn conditioning and expectation before elementary laws of large numbers.",
+          "limits": "The linked text is Doyle's 2006 CHANCE adaptation; its numbering is not guaranteed to match every 2003 answer.",
+          "practice": "Exercises after 4.1, 6.1-6.2, 8.1 and 11.3. The source page links public odd-numbered answers; complete solutions are offered to instructors by request.",
+          "access": "Complete Dartmouth PDF; the public answer file is separate from the restricted instructor solution set.",
+          "sourceUrl": "https://chance.dartmouth.edu/Doob/probability_book/book.html",
+          "locator": "CHANCE July 4, 2006: 4.1-4.2, 6.1-6.3, 8.1, 9.1-9.2, then 11.1 and 11.3-11.4.",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Notes on Probability",
+          "author": "Gregory F. Lawler",
+          "url": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "style": "Concise foundations expressed through measure and integration.",
+          "preparation": "Measure spaces, Lebesgue integration and modes of convergence; Fubini for section 3.",
+          "use": "Recast elementary random variables and independence in a measure-theoretic framework.",
+          "limits": "Assumes graduate real analysis; later Fourier arguments need additional preparation.",
+          "practice": "Exercises 3.1-3.2 and 3.6; then Exercise 4.1 on convergence in probability versus almost sure convergence. Public worked solutions not verified.",
+          "access": "Complete 39-page author PDF on the University of Chicago site, dated March 21, 2016.",
+          "sourceUrl": "https://www.math.uchicago.edu/~lawler/probnotes.pdf",
+          "locator": "Sections 1-3, PDF pp. 1-12, from probability spaces through independence; then Exercise 4.1 on PDF p. 13.",
+          "checked": "2026-10-17"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    },
+    "dynamics": {
+      "opening": "Dynamics asks what iteration or time evolution does over many steps, even when an explicit solution is unavailable. Teschl studies flows, stability and discrete maps using analysis and differential equations. Bruin develops invariant measures, recurrence and ergodic behavior. Choose the smooth or discrete route for local stability and phase portraits; choose the measure-preserving route when the question concerns typical long-term behavior with respect to a specified measure.",
+      "readingApproach": "Find fixed points and compute the derivative or linearization, then state when that local test is inconclusive. Compare a contracting flow with a rotation so that stability and attraction remain separate. For a discrete map, follow a few orbits but use an argument to justify any limiting claim. Before an ergodic theorem, identify the invariant measure, the observable and the mode of convergence. Revisit measure theory if almost-everywhere statements are being inferred from a picture.",
+      "continueWith": [
+        {
+          "subjectId": "differential-equations",
+          "reason": "Strengthen existence, uniqueness and linear-system tools for flows."
+        },
+        {
+          "subjectId": "measure-theory",
+          "reason": "Prepare invariant measures, integrability and almost-everywhere convergence for ergodic theory."
+        }
+      ],
+      "comparison": [
+        {
+          "title": "Ordinary Differential Equations and Dynamical Systems",
+          "author": "Gerald Teschl",
+          "url": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+          "style": "Analytic route through ODE flows, local stability and discrete maps.",
+          "preparation": "Real analysis and linear algebra; elementary differential equations.",
+          "use": "Study invariant sets and Lyapunov methods alongside explicit examples.",
+          "limits": "Local derivative tests at unit-modulus multipliers need further analysis; this route does not itself establish ergodic theory.",
+          "practice": "Public numbered problems verified within the author PDF, some with hints; a public worked solution collection was not verified. In chapter 6 start with Problems 6.8-6.10 on limits, periodicity and nonwandering points. Then use problems embedded in 6.5-6.6 and chapter 10 alongside the corresponding readings.",
+          "access": "Complete public PDF.",
+          "sourceUrl": "https://www.mat.univie.ac.at/~gerald/ftp/book-ode/ode.pdf",
+          "locator": "Read 6.1-6.3 on flows, orbits and invariant sets and 6.5-6.6 on stability and Lyapunov methods; use 9.1 for linear stability. For a discrete route read 10.1-10.2 and 10.4 on logistic maps, periodic points and local behavior.",
+          "checked": "2026-10-16"
+        },
+        {
+          "title": "Lectures on Ergodic Theory",
+          "author": "Henk Bruin",
+          "url": "https://www.mat.univie.ac.at/~bruin/ET3.pdf",
+          "style": "Graduate course on invariant measures, recurrence and ergodic dynamics.",
+          "preparation": "Measure theory and real analysis.",
+          "use": "Move from individual orbits to statements about invariant measures and typical behavior.",
+          "limits": "The inherited May 2023 text is notes in progress; current completeness and numbering were not rechecked.",
+          "practice": "Public worked solutions were not verified in the existing catalogue; test invariance on a simple map as an editorial exercise.",
+          "access": "Complete university-hosted notes.",
+          "locator": "Start with invariant measures and recurrence before later ergodic results; inspect the notes' contents for precise section numbers.",
+          "sourceUrl": "https://www.mat.univie.ac.at/~bruin/",
+          "checked": "2026-10-11"
+        }
+      ],
+      "reviewed": "2026-10-17"
+    }
+  }
+}

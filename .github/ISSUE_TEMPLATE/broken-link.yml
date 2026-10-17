@@ -1,0 +1,55 @@
+name: Broken link
+description: Identify a failing link and, if known, its verified replacement.
+title: "[Broken link] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports are public and submitted using GitHub's sign-in. Reading the site needs no account; this form adds no site login or server.
+        Remove personal query tokens and private account details from URLs. Do not include student names, IDs, grades, private correspondence, or other sensitive student data. You do not need to provide a screenshot or account information.
+  - type: input
+    id: page-url
+    attributes:
+      label: Exact site page URL containing the link
+      description: Include a section fragment if available.
+    validations:
+      required: true
+  - type: input
+    id: broken-url
+    attributes:
+      label: Exact failing destination URL
+      description: Paste the public destination after removing any private tokens.
+    validations:
+      required: true
+  - type: input
+    id: link-text
+    attributes:
+      label: Link text or resource title
+    validations:
+      required: true
+  - type: textarea
+    id: observed-result
+    attributes:
+      label: What failed, and when
+      description: Give the check date, the observed error or wrong destination, and what you expected. Distinguish a missing file, a moved subsection, and a restricted-access page when possible.
+    validations:
+      required: true
+  - type: input
+    id: replacement-url
+    attributes:
+      label: Proposed replacement URL, if found
+      description: Use an author, university, or authorized publication source. Leave blank if no replacement is known.
+  - type: textarea
+    id: primary-source
+    attributes:
+      label: Primary-source check and explanation
+      description: Identify the author or institution page checked and its exact URL or section. Explain why a proposed replacement is the same work; if none was found, say where you looked. Do not guess an access licence.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-content
+    attributes:
+      label: Public information only
+      options:
+        - label: I have excluded sensitive student data, private tokens, and private material.
+          required: true

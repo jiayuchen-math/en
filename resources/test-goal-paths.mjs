@@ -44,7 +44,8 @@ for(const area of ['foundations','algebra','analysis','geometry-topology','numbe
 assert.equal(JSON.parse(read('resources/portal-report.json')).counts.library,576);
 const hub=read('resources/index.html');
 assert(hub.includes('<ul class="subject-links">'));
-assert.equal((hub.match(/<li><a href="\/en\/resources\/search\/\?area=/g)||[]).length,9);
+const subjectNavigation=hub.match(/<ul class="subject-links">([\s\S]*?)<\/ul>/)[1];
+assert.equal((subjectNavigation.match(/<li><a href="\/en\/notes\/reading-notes\/library\//g)||[]).length,9);
 assert(hub.includes('entrances.css'));
 const reading=read('notes/reading-notes/reading-notes.html');
 assert(reading.includes('No reading notes have been published yet.'));

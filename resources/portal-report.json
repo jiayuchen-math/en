@@ -14,42 +14,42 @@
       "url": "/en/notes/reading-notes/library/catalogue.html",
       "records": 576,
       "pages": 16,
-      "firstPageBytes": 131120
+      "firstPageBytes": 134740
     },
     {
       "id": "links",
       "url": "/en/resources/links/index.html",
       "records": 110,
       "pages": 5,
-      "firstPageBytes": 32019
+      "firstPageBytes": 32339
     },
     {
       "id": "programs",
       "url": "/en/resources/study-careers/index.html",
       "records": 225,
       "pages": 9,
-      "firstPageBytes": 286577
+      "firstPageBytes": 290340
     },
     {
       "id": "researchers",
       "url": "/en/resources/study-careers/researchers.html",
       "records": 1939,
       "pages": 78,
-      "firstPageBytes": 298757
+      "firstPageBytes": 299077
     },
     {
       "id": "encyclopedia",
       "url": "/en/resources/encyclopedia/index.html",
       "records": 210,
       "pages": 9,
-      "firstPageBytes": 21107
+      "firstPageBytes": 25327
     },
     {
       "id": "terminology",
       "url": "/en/resources/terminology/index.html",
       "records": 513,
       "pages": 21,
-      "firstPageBytes": 19682
+      "firstPageBytes": 20002
     }
   ],
   "protected": [
@@ -775,23 +775,30 @@
     "directionIntroductions": 12,
     "subjectStudyGuides": 29
   },
+  "learningEdition": {
+    "subjectEntrances": 29,
+    "comparisonEntries": 59,
+    "workedChecks": 40,
+    "studyGuides": 5,
+    "connectingGuides": 2
+  },
   "supplementaryDirectories": [
     {
       "id": "exposition",
       "url": "/en/notes/reading-notes/library/exposition.html",
       "records": 14,
       "pages": 1,
-      "firstPageBytes": 30870
+      "firstPageBytes": 33038
     },
     {
       "id": "coverage",
       "url": "/en/resources/study-careers/coverage.html",
       "records": 80,
       "pages": 4,
-      "firstPageBytes": 48094
+      "firstPageBytes": 48414
     }
   ],
-  "indexBytes": 1482762,
+  "indexBytes": 1486831,
   "searchCollections": [
     {
       "id": "library",
@@ -823,7 +830,7 @@
     },
     {
       "id": "guides",
-      "records": 86
+      "records": 93
     }
   ],
   "directoryIndexBytes": 4222297,

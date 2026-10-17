@@ -21,6 +21,7 @@ const sections = [
 ];
 const subjects = { id: 'subjects', label: 'Browse subjects', href: '/en/resources/#subjects' };
 const studyAdvice = { id: 'study-advice', label: 'Study advice', href: '/en/resources/links/study-advice.html' };
+const bookshelf = { id: 'bookshelf', label: 'My bookshelf', href: '/en/resources/bookshelf/' };
 const experiences = { id: 'experiences', label: 'Application experiences', href: '/en/resources/study-careers/experiences.html' };
 const study = { id: 'study-careers', label: 'Study & Careers', href: '/en/resources/study-careers/' };
 const studySections = [
@@ -28,6 +29,7 @@ const studySections = [
   { id: 'researchers', label: 'Researchers', href: `${study.href}researchers.html` },
   { id: 'guides', label: 'Application guides', href: `${study.href}guides.html` },
   experiences,
+  {id:'compare',label:'Compare programs',href:study.href+'compare/'},
 ];
 const notes = { id: 'notes', label: 'Notes', href: '/en/notes/' };
 const noteSections = [
@@ -42,6 +44,7 @@ const normalize = value => {
 const sectionFor = pathname => {
   if (/^\/en\/notes\/reading-notes\/library(?:\/|\.html$)/.test(pathname)) return sections[1];
   if(pathname===studyAdvice.href)return studyAdvice;
+  if(pathname===bookshelf.href)return bookshelf;
   if(pathname.startsWith('/en/notes/mathematical-notes/'))return noteSections[0];
   if(pathname===normalize(noteSections[1].href))return noteSections[1];
   if (pathname.startsWith(study.href)) {
@@ -98,7 +101,7 @@ export function shell({ title, body, url, kind = 'directory', active = '', toc =
   const inNotes = ['notes',...noteSections.map(item=>item.id)].includes(current);
   const topCurrent = kind === 'home' ? 'home' : current === 'search' ? 'search' : inNotes ? 'notes' : 'resources';
   const navigationGroups = [
-    ['learn-navigation','Learn Mathematics',[subjects,sections[4],studyAdvice]],
+    ['learn-navigation','Learn Mathematics',[subjects,sections[4],studyAdvice,bookshelf]],
     ['reference-navigation','Reference & Reading',[sections[1],sections[2],sections[3],sections[5]]],
     ['careers-navigation','Study & Careers',studySections],
   ];
@@ -112,6 +115,7 @@ export function shell({ title, body, url, kind = 'directory', active = '', toc =
     { id: 'resources', label: 'Resources', href: '/en/resources/' }, notes, search,
   ];
   const pageScripts = [...scripts];
+  if(!pageScripts.some(script=>String(typeof script==='string'?script:script?.src).split('?')[0]==='/en/resources/assets/learning-tools.js'))pageScripts.push({src:asset('learning-tools.js'),type:'module'});
   if (pathname.startsWith('/en/resources/library-paths/') && !pageScripts.some(script =>
     String(typeof script === 'string' ? script : script?.src).split(/[?#]/)[0] === '/en/resources/assets/paths.js',
   )) pageScripts.push(asset('paths.js'));
@@ -122,6 +126,7 @@ export function shell({ title, body, url, kind = 'directory', active = '', toc =
 <title>${escape(title)}${title==='Jiayu Chen'?'':' · Jiayu Chen'}</title>
 ${head}
 <link rel="stylesheet" href="${asset('portal.css')}">
+<link rel="stylesheet" href="${asset('learning-tools.css')}">
 <script src="${asset('theme.js')}"></script>
 <script src="${asset('portal.js')}" defer></script>
 ${pageScripts.map(scriptTag).join('\n')}

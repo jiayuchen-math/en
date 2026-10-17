@@ -1,0 +1,58 @@
+name: Terminology suggestion
+description: Suggest or correct a mathematical term with its meaning, context, and source evidence.
+title: "[Terminology] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions are public and receive editorial review. GitHub requires sign-in for issue submission; reading the site needs no account. This form adds no site login or server.
+        Do not include student names, IDs, grades, private correspondence, or other sensitive student data. Distinguish evidence for a mathematical definition from evidence for a translation or regional usage.
+  - type: input
+    id: page-url
+    attributes:
+      label: Exact affected terminology or subject page URL
+      description: For a new term, give the existing subject page where it belongs.
+    validations:
+      required: true
+  - type: textarea
+    id: current-claim
+    attributes:
+      label: Current term or claim and mathematical context
+      description: Identify the entry or proposed new concept, its subject, and the precise meaning at issue. Mention any ambiguous or competing senses.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-term
+    attributes:
+      label: Proposed term or correction
+      description: Give the English term and, for a translation suggestion, the proposed rendering and language or script. State whether this is a correction, alias, or separate mathematical sense.
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation and usage limits
+      description: Explain the change, relevant conventions, and any regional or subject-specific limits. Do not describe usage as standardized without an explicit normative source.
+    validations:
+      required: true
+  - type: textarea
+    id: primary-source
+    attributes:
+      label: Primary mathematical source and exact locator
+      description: Give the author or institution, title, exact URL, and definition, theorem, section, or page supporting the mathematical sense.
+    validations:
+      required: true
+  - type: textarea
+    id: translation-source
+    attributes:
+      label: Translation or usage evidence, when applicable
+      description: For a translated term, cite a terminology standard, textbook, or author or university notes with exact URL and page or entry that actually uses it. An English definition alone does not establish a translation. Otherwise enter not applicable.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-content
+    attributes:
+      label: Public information only
+      options:
+        - label: I have excluded sensitive student data and private material.
+          required: true

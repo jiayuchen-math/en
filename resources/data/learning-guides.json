@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "preparedBy": "AI-assisted editorial draft",
+  "license": "CC BY-SA 4.0",
+  "guides": [
+    {
+      "id": "calculations-to-proofs",
+      "title": "From calculations to proofs",
+      "file": "resources/content/learning-guides/calculations-to-proofs.md",
+      "url": "/en/resources/library-paths/guides/calculations-to-proofs.html",
+      "kind": "Study guide",
+      "summary": "Turn a useful calculation into a complete argument by ordering choices, checking legal operations, and working with arbitrary objects.",
+      "area": "foundations",
+      "subjectIds": ["proofs", "real-analysis", "linear-algebra"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "How to work out proofs in Analysis I",
+          "author": "Timothy Gowers",
+          "url": "https://gowers.wordpress.com/2014/02/03/how-to-work-out-proofs-in-analysis-i/",
+          "locator": "Subsequences of Cauchy sequences; What were the moves we used? — expansion, naming, and introducing arbitrary objects",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Book of Proof, third edition",
+          "author": "Richard Hammack",
+          "url": "https://richardhammack.github.io/BookOfProof/Main.pdf#page=130",
+          "locator": "Section 4.3, Direct Proof, printed pp. 118–123; begins at PDF page 130",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "making-examples",
+      "title": "Make examples that answer a question",
+      "file": "resources/content/learning-guides/making-examples.md",
+      "url": "/en/resources/library-paths/guides/making-examples.html",
+      "kind": "Study guide",
+      "summary": "Build and verify examples by changing one condition, testing domains, and using moving points to expose a quantifier difference.",
+      "area": "analysis",
+      "subjectIds": ["proofs", "linear-algebra", "real-analysis"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "Basic Analysis: Introduction to Real Analysis",
+          "author": "Jiří Lebl",
+          "url": "https://www.jirka.org/ra/html/sec_puconv.html",
+          "locator": "Section 6.1, subsections 6.1.2 Uniform convergence and 6.1.3 Convergence in uniform norm; Proposition 6.1.10",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "For potential Ph.D. students",
+          "author": "Ravi Vakil",
+          "url": "https://math.stanford.edu/~vakil/potentialstudents.html",
+          "locator": "Opening learning discussion, paragraph recommending toy calculations and explicit basic examples, before On seminars",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "finding-prerequisite-gaps",
+      "title": "Find the prerequisite gap that is actually blocking you",
+      "file": "resources/content/learning-guides/finding-prerequisite-gaps.md",
+      "url": "/en/resources/library-paths/guides/finding-prerequisite-gaps.html",
+      "kind": "Study guide",
+      "summary": "Diagnose a blocked proof one step at a time and choose a focused repair using compactness, sequences, and quantified statements.",
+      "area": "foundations",
+      "subjectIds": ["proofs", "real-analysis", "point-set-topology"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "Basic Analysis: Introduction to Real Analysis",
+          "author": "Jiří Lebl",
+          "url": "https://www.jirka.org/ra/html/sec_metcompact.html",
+          "locator": "Subsection 7.4.2 Compactness, especially Theorem 7.4.11, compactness and sequential compactness for metric spaces",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Book of Proof, third edition",
+          "author": "Richard Hammack",
+          "url": "https://richardhammack.github.io/BookOfProof/Main.pdf#page=65",
+          "locator": "Section 2.7, Quantifiers, printed pp. 53–55; begins at PDF page 65",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "algebra-and-geometry-together",
+      "title": "Let algebra and geometry check each other",
+      "file": "resources/content/learning-guides/algebra-and-geometry-together.md",
+      "url": "/en/resources/library-paths/guides/algebra-and-geometry-together.html",
+      "kind": "Study guide",
+      "summary": "Calculate a plane projection, distinguish orthogonal and oblique projections, and track the inner product through a change of basis.",
+      "area": "algebra",
+      "subjectIds": ["linear-algebra", "proofs"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "Linear Algebra Done Right, fourth edition",
+          "author": "Sheldon Axler",
+          "url": "https://linear.axler.net/LADR4e.pdf#page=225",
+          "locator": "Section 6C, Orthogonal Complements and Minimization Problems, printed pp. 211–217; 6.55–6.57 on projection and 6.61 on minimization; section begins at PDF page 225",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "first-research-paper",
+      "title": "Read a first mathematics paper with a question in hand",
+      "file": "resources/content/learning-guides/first-research-paper.md",
+      "url": "/en/resources/library-paths/guides/first-research-paper.html",
+      "kind": "Study guide",
+      "summary": "Use a short published number theory note to practise identifying a theorem, unpacking omitted checks, and writing an honest reading report.",
+      "area": "number-theory",
+      "subjectIds": ["proofs", "elementary-number-theory", "combinatorics"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "A One-Sentence Proof That Every Prime p ≡ 1 (mod 4) Is a Sum of Two Squares",
+          "author": "Don Zagier",
+          "url": "https://people.mpim-bonn.mpg.de/zagier/files/doi/10.2307/2323918/fulltext.pdf#page=2",
+          "locator": "The American Mathematical Monthly 97(2), February 1990, p. 144; PDF page 2, Zagier note only, before the following article",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Book of Proof, third edition",
+          "author": "Richard Hammack",
+          "url": "https://richardhammack.github.io/BookOfProof/Main.pdf#page=247",
+          "locator": "Section 12.4, Composition, printed pp. 235–237; begins at PDF page 247",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Write down what you’ve done",
+          "author": "Terence Tao",
+          "url": "https://terrytao.wordpress.com/career-advice/write-down-what-youve-done/",
+          "locator": "Main advice text, opening discussion and four reasons to keep a recoverable argument sketch; excludes comments and sidebar",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "coverings-and-galois",
+      "title": "Covering spaces and Galois theory: compare the correspondences",
+      "file": "resources/content/learning-guides/coverings-and-galois.md",
+      "url": "/en/resources/library-paths/guides/coverings-and-galois.html",
+      "kind": "Connecting ideas",
+      "summary": "Compare classical connected covering classification with a finite Galois correspondence, including basepoints, inclusion reversal, and normal subgroups.",
+      "area": "geometry-topology",
+      "subjectIds": ["algebraic-topology", "point-set-topology", "abstract-algebra", "algebraic-number-theory"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "Algebraic Topology",
+          "author": "Allen Hatcher",
+          "url": "https://pi.math.cornell.edu/~hatcher/AT/ATch1.pdf#page=47",
+          "locator": "Section 1.3, Theorem 1.38, printed p. 67 / chapter PDF page 47: pointed connected covers and subgroups, unpointed covers and conjugacy classes",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Algebraic Topology",
+          "author": "Allen Hatcher",
+          "url": "https://pi.math.cornell.edu/~hatcher/AT/ATch1.pdf#page=51",
+          "locator": "Section 1.3, Proposition 1.39, printed p. 71 / chapter PDF page 51: normal covers and the deck group N(H)/H",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Fields and Galois Theory",
+          "author": "J. S. Milne",
+          "url": "https://www.jmilne.org/math/CourseNotes/FT.pdf#page=39",
+          "locator": "Chapter 3, Definition 3.9 on printed p. 37 (finite, normal, separable); Theorem 3.17(a), (b), (d) on printed pp. 39–40: inclusion reversal, degrees, normality and quotient groups",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "id": "duality-linear-functional",
+      "title": "From linear functionals to duality in analysis",
+      "file": "resources/content/learning-guides/duality-linear-functional.md",
+      "url": "/en/resources/library-paths/guides/duality-linear-functional.html",
+      "kind": "Connecting ideas",
+      "summary": "Follow evaluation from finite-dimensional algebraic biduality to normed-space continuous duals, with an unbounded functional and a nonreflexive Banach space.",
+      "area": "analysis",
+      "subjectIds": ["linear-algebra", "functional-analysis", "real-analysis"],
+      "reviewed": "2026-10-17",
+      "references": [
+        {
+          "title": "Linear Algebra Done Right, fourth edition",
+          "author": "Sheldon Axler",
+          "url": "https://linear.axler.net/LADR4e.pdf#page=119",
+          "locator": "Section 3F, Duality, printed pp. 105–118: dual space, dual map, and Exercise 32 on the canonical finite-dimensional bidual map (PDF page 132)",
+          "checked": "2026-10-17"
+        },
+        {
+          "title": "Functional Analysis: Lecture notes for 18.102, Spring 2020",
+          "author": "Richard Melrose",
+          "url": "https://ocw.mit.edu/courses/18-102-introduction-to-functional-analysis-spring-2021/3d4cc88026d44a01f936cd6a0aa995cb_MIT18_102s20_lec_FA.pdf#page=32",
+          "locator": "Chapter 1, section 4 Operators and functionals; sections 12–13 Hahn-Banach theorem and Double dual, printed pp. 31–36, especially Proposition 1.8 and the c0 example on p. 36",
+          "checked": "2026-10-17"
+        }
+      ]
+    }
+  ]
+}

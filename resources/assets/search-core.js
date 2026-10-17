@@ -22,11 +22,12 @@ export function searchState(value = {}) {
     type: TYPES.includes(value.type) ? value.type : '',
     area: String(value.area ?? '').trim(),
     page: Number.isSafeInteger(page) && page > 0 ? page : 1,
+    sense: /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(String(value.sense||'')) ? String(value.sense) : '',
   };
 }
 
 export function isActive(state) {
-  return Boolean(state.q || state.type || state.area);
+  return Boolean(state.q || state.type || state.area || state.sense);
 }
 
 export function validateManifest(manifest) {
@@ -136,6 +137,7 @@ export function searchEntries(documents, value = {}) {
   if (!isActive(state)) return [];
   if (state.q && !tokens.length) return [];
   return documents.filter(doc => (!state.type || doc.entry.type === state.type)
+    && (!state.sense || doc.entry.id === state.sense)
     && (!area || doc.areas.includes(area)))
     .map(doc => ({entry: doc.entry, score: rank(doc, query, tokens)}))
     .filter(hit => hit.score >= 0)

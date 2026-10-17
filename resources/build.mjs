@@ -10,12 +10,15 @@ import {libraryCounts,updateLibraryCards} from './data/library-counts.mjs';
 import {withAdmissionsAudit,admissionsAuditReport,auditFields,auditFieldLabels} from './data/admissions-audit.mjs';
 import {cleanPageCopy} from './editorial-copy.mjs';
 import {buildKnowledge,areas} from './build-knowledge.mjs';
+import {loadLearningEdition} from './learning-editorial.mjs';
 const batchDate='2026-10-12';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');const read=p=>fs.readFileSync(path.join(root,p),'utf8');const save=(p,s)=>{fs.mkdirSync(path.dirname(path.join(root,p)),{recursive:true});fs.writeFileSync(path.join(root,p),s)};const json=p=>JSON.parse(read(p));const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const date='2026-10-11';
 const courseStudies=loadCourseStudies(root);
 const studyChecks=loadStudyChecks(root);validateStudyChecks(studyChecks,courseStudies);
 const adviceReadings=loadAdviceReadings(root);
-const subjectGuide=topic=>renderCourseStudy(topic,courseStudies[topic.id],studyChecks[topic.id]);
+const learningEdition=loadLearningEdition(root);
+const studyTopics=json('notes/reading-notes/library/catalogue.json').topics;
+const subjectGuide=topic=>renderCourseStudy(topic,courseStudies[topic.id],studyChecks[topic.id],{editorial:learningEdition.subjects[topic.id],additionalChecks:learningEdition.checks[topic.id],topics:studyTopics});
 if(fs.existsSync(path.join(root,'resources/ui-shell.mjs'))){const {unwrapPortalSources}=await import('./build-portal.mjs');unwrapPortalSources(root)}
 const external=(url,label)=>`<a href="${E(url)}"${/^https?:\/\//.test(url)&&new URL(url).hostname!=='jiayuchen-math.github.io'?' target="_blank" rel="noopener noreferrer"':''}>${E(label)}</a>`;
 const asset=(name,base)=>`${base}${name}?v=${createHash('sha256').update(read('resources/assets/'+name)).digest('hex').slice(0,12)}`;

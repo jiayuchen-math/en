@@ -6,6 +6,7 @@ import {loadKnowledge,areas} from './build-knowledge.mjs';
 import {goalPaths} from './goal-paths.mjs';
 import {loadConceptReadings,loadDirectionIntroductions,loadCourseStudies,validateStudyContent,checkedHTTPS,loadStudyChecks,validateStudyChecks,renderDirectionIntroduction} from './study-content.mjs';
 import {prepareEntries,searchEntries} from './assets/search-core.js';
+import {loadLearningEdition,combinedChecks} from './learning-editorial.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
 const json=file=>JSON.parse(read(file));
@@ -62,8 +63,9 @@ const changedPrompt=structuredClone(studyChecks);changedPrompt.proofs[0].prompt=
 assert.throws(()=>validateStudyChecks(changedPrompt,courses),'Solutions must stay tied to their actual question');
 for(const [topic,checks]of Object.entries(studyChecks)){
  const file='notes/reading-notes/library/'+topics.find(t=>t.id===topic).route,html=read(file);
- assert.equal((html.match(/<summary>A hint<\/summary>/g)||[]).length,checks.length,file+' hints');
- assert.equal((html.match(/<summary>Work through the solution<\/summary>/g)||[]).length,checks.length,file+' solutions');
+ const expanded=combinedChecks(checks,loadLearningEdition(root).checks[topic]);
+ assert.equal((html.match(/<summary>A hint<\/summary>/g)||[]).length,expanded.length,file+' hints');
+ assert.equal((html.match(/<summary>Work through the solution<\/summary>/g)||[]).length,expanded.length,file+' solutions');
  for(const check of checks)assert(html.includes('id="check-'+check.id+'"'));
  assert(html.includes('/assets/katex/katex.min.css'),file+' math is build-time rendered');
 }

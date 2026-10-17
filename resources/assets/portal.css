@@ -104,6 +104,12 @@ summary:hover { text-decoration: underline; text-underline-offset: .2em; }
 .actions, .filter-actions, .pagination, .static-pagination, .chips, .path-links, .concept-links { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; font: 14px/1.6 var(--portal-ui); }
 .actions, .concept-links { margin: 10px 0; }
 .entry-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 14px; margin: 8px 0; font: 13px/1.6 var(--portal-ui); }
+.entry-actions:has(>button[hidden]:only-child) { display:none; }
+.entry-actions > :is([data-save-learning],[data-compare-program]) { border:0; padding:3px 0; min-height:30px; color:var(--muted); font:12px/1.5 var(--portal-ui); text-decoration:underline; text-underline-offset:3px; }
+.entry-actions > :is([data-save-learning],[data-compare-program]):hover { color:var(--link); background:transparent; }
+.search-meanings { margin:14px 0 20px; padding:12px 0; border-block:1px solid var(--line); }
+.search-meanings .chips { margin:8px 0 0; }
+.search-meanings button { min-height:34px; text-align:left; }
 .filter-actions { margin: 10px 0; }
 .pagination, .static-pagination { margin: 12px 0; }
 .pagination button, .static-pagination a, .static-pagination span { min-height: 36px; padding: 6px 10px; }
