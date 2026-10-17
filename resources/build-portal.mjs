@@ -14,7 +14,7 @@ import {titleDestination,entryActions,showsDetails,hasDetailContent} from './ass
 import {adviceMetadata} from './advice-readings.mjs';
 import {loadLearningEdition,validateLearningEdition,editorialGuidePages,renderRevisionList} from './learning-editorial.mjs';
 import {createLearningTools} from './learning-tools.mjs';
-import {chineseCompanion} from './localization.mjs';
+import {chineseCompanion,chineseSubjectMetadata} from './localization.mjs';
 
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const text=html=>decodeHTML(String(html||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim());
@@ -214,17 +214,22 @@ export function buildPortal({root,books,links,programs,researchers,merged,resear
   let toc='';if(article){toc=body.match(/<nav class="contents"[^>]*>[\s\S]*?<\/nav>/)?.[0]||'';if(toc)body=body.replace(toc,'');if(!toc.includes('href="#'))toc=articleContents(body)}
   addPage(file,title,body,article?'article':'directory',{toc,head:(file.includes('/encyclopedia/')?'<link rel="stylesheet" href="/en/resources/assets/knowledge.css"><link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':'')+(courses.length?'<link rel="stylesheet" href="/en/resources/assets/study-guides.css?v='+digest(read('resources/assets/study-guides.css')).slice(0,12)+'">':'')});
   const subject=merged.topics.find(t=>file==='notes/reading-notes/library/'+t.route||file==='resources/library-paths/'+t.id+'.html');
-  if(article||file.includes('/library/'))guideRows.push({id:'guide-'+digest(file).slice(0,12),title,url:href(file),summary:brief(text(body)),area:subject?areaForTopic(subject):'',type:'guides'});
+  if(article||file.includes('/library/')){
+   const englishBody=body.replace(/<!-- chinese-companion:start -->[\s\S]*?<!-- chinese-companion:end -->/g,'');
+   const chinese=file.startsWith('notes/reading-notes/library/')&&subject?chineseSubjectMetadata[subject.id]?.title:undefined;
+   guideRows.push({id:'guide-'+digest(file).slice(0,12),title,url:href(file),summary:brief(text(englishBody)),...(chinese?{chinese,aliases:[chineseSubjectMetadata[subject.id].summary]}:{}),area:subject?areaForTopic(subject):'',type:'guides'});
+  }
  }
  // Goal routes sit above the smaller prerequisite reviews, which keep their URLs.
  for(const [file,page] of goalPages){
+  if(file==='resources/library-paths/index.html')page.body=`<!-- chinese-subject-index:start --><section id="chinese-subject-guides" data-language-content="zh" lang="zh-Hans" hidden><h2>按学科读中文导读</h2><p>想先了解一门课研究什么、从哪里读起，可以从这里进入。它们是具体学科的起步说明，不是下方跨课程贯通路线的替代品。</p><details><summary>选择学科：29 篇导读</summary><ul>${merged.topics.map(t=>'<li>'+link('/en/notes/reading-notes/library/'+t.route+'?lang=zh#subject-guide-zh',chineseSubjectMetadata[t.id].title)+'</li>').join('')}</ul></details></section><!-- chinese-subject-index:end -->`+page.body;
   if(file==='resources/library-paths/index.html')page.body+=['Study guide','Connecting ideas'].map(kind=>'<section><h2>'+(kind==='Study guide'?'Questions that come up while studying':'Connections between subjects')+'</h2><ul>'+editorialPages.filter(p=>p.guide.kind===kind).map(p=>'<li>'+link(href(p.file),p.title)+'</li>').join('')+'</ul></section>').join('');
   const introductionLinks=(page.contents||[]).map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('');
   const toc=page.kind==='article'?'<nav class="contents" aria-label="Article contents"><strong>Route stages</strong><ul>'+(page.standalone?introductionLinks:'<li>'+link('#introduction','Introduction')+(introductionLinks?'<ul>'+introductionLinks+'</ul>':'')+'</li>'+[...page.body.matchAll(/<section class="route-stage" id="([^"]+)"><h2>([\s\S]*?)<\/h2>/g)].map(m=>`<li>${link('#'+m[1],text(m[2]))}</li>`).join(''))+'</ul></nav>':'';
   addPage(file,page.title,page.body,page.kind,{toc,head:page.kind==='article'?'<link rel="stylesheet" href="/en/resources/assets/katex/katex.min.css">':''});
   const routeId=file.match(/\/routes\/([^/]+)\.html$/)?.[1];
   const routeAreas={'algebraic-geometry':['algebra'],'representation-theory':['algebra'],'analysis-pde':['analysis'],'complex-harmonic-analysis':['analysis'],geometry:['geometry-topology'],topology:['geometry-topology'],'number-theory':['number-theory'],logic:['foundations'],probability:['probability'],dynamics:['dynamics'],combinatorics:['combinatorics'],'higher-categories':['category-theory','geometry-topology']};
-  guideRows.push({id:'guide-'+digest(file).slice(0,12),title:page.title,url:href(file),summary:brief(text(page.body)),area:(routeAreas[routeId]||[]).map(id=>areas[id].title).join('|'),type:'guides'});
+  guideRows.push({id:'guide-'+digest(file).slice(0,12),title:page.title,url:href(file),summary:brief(text(page.body.replace(/<!-- chinese-subject-index:start -->[\s\S]*?<!-- chinese-subject-index:end -->/g,''))),area:(routeAreas[routeId]||[]).map(id=>areas[id].title).join('|'),type:'guides'});
  }
  for(const page of editorialPages){
   const toc='<nav class="contents" aria-label="Article contents"><ul>'+page.contents.map(h=>'<li>'+link('#'+h.id,h.label)+'</li>').join('')+'</ul></nav>';
